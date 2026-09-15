@@ -16,7 +16,7 @@
 SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass Weapon15101002.Weapon15101002_C
-// 0x0000 (0x1360 - 0x1360)
+// 0x0000 (0x1380 - 0x1380)
 class AWeapon15101002_C final : public ACyWeaponCharacterAction
 {
 public:

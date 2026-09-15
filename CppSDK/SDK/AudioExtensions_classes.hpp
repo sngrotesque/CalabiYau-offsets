@@ -15,25 +15,25 @@
 
 SDK_NAMESPACE_START
 
-// Class AudioExtensions.SpatializationPluginSourceSettingsBase
+// Class AudioExtensions.OcclusionPluginSourceSettingsBase
 // 0x0000 (0x0028 - 0x0028)
-class USpatializationPluginSourceSettingsBase final : public UObject
+class UOcclusionPluginSourceSettingsBase final : public UObject
 {
 public:
 	static class UClass* StaticClass()
 	{
-		STATIC_CLASS_IMPL("SpatializationPluginSourceSettingsBase")
+		STATIC_CLASS_IMPL("OcclusionPluginSourceSettingsBase")
 	}
 	static const class FName& StaticName()
 	{
-		STATIC_NAME_IMPL(L"SpatializationPluginSourceSettingsBase")
+		STATIC_NAME_IMPL(L"OcclusionPluginSourceSettingsBase")
 	}
-	static class USpatializationPluginSourceSettingsBase* GetDefaultObj()
+	static class UOcclusionPluginSourceSettingsBase* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<USpatializationPluginSourceSettingsBase>();
+		return GetDefaultObjImpl<UOcclusionPluginSourceSettingsBase>();
 	}
 };
-DUMPER7_ASSERTS_USpatializationPluginSourceSettingsBase;
+DUMPER7_ASSERTS_UOcclusionPluginSourceSettingsBase;
 
 // Class AudioExtensions.SoundfieldEncodingSettingsBase
 // 0x0000 (0x0028 - 0x0028)
@@ -75,25 +75,25 @@ public:
 };
 DUMPER7_ASSERTS_UAudioEndpointSettingsBase;
 
-// Class AudioExtensions.OcclusionPluginSourceSettingsBase
+// Class AudioExtensions.SpatializationPluginSourceSettingsBase
 // 0x0000 (0x0028 - 0x0028)
-class UOcclusionPluginSourceSettingsBase final : public UObject
+class USpatializationPluginSourceSettingsBase final : public UObject
 {
 public:
 	static class UClass* StaticClass()
 	{
-		STATIC_CLASS_IMPL("OcclusionPluginSourceSettingsBase")
+		STATIC_CLASS_IMPL("SpatializationPluginSourceSettingsBase")
 	}
 	static const class FName& StaticName()
 	{
-		STATIC_NAME_IMPL(L"OcclusionPluginSourceSettingsBase")
+		STATIC_NAME_IMPL(L"SpatializationPluginSourceSettingsBase")
 	}
-	static class UOcclusionPluginSourceSettingsBase* GetDefaultObj()
+	static class USpatializationPluginSourceSettingsBase* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UOcclusionPluginSourceSettingsBase>();
+		return GetDefaultObjImpl<USpatializationPluginSourceSettingsBase>();
 	}
 };
-DUMPER7_ASSERTS_UOcclusionPluginSourceSettingsBase;
+DUMPER7_ASSERTS_USpatializationPluginSourceSettingsBase;
 
 // Class AudioExtensions.SoundModulationPluginSourceSettingsBase
 // 0x0000 (0x0028 - 0x0028)

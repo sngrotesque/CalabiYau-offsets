@@ -10,188 +10,45 @@
 
 #include "Basic.hpp"
 
-#include "SlateCore_structs.hpp"
 #include "UnLua_classes.hpp"
 #include "Engine_structs.hpp"
 
 
 SDK_NAMESPACE_START
 
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_SelectRoleCommonTips_C_2147477239
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ClanInfoCard_C_2147480768
 // 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_SelectRoleCommonTips_C_2147477239 final : public ULuaOverridesClass
+class ULUA_OVERRIDES_WBP_ClanInfoCard_C_2147480768 final : public ULuaOverridesClass
 {
 public:
-	void Destruct();
 	void OnInitialized();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_SelectRoleCommonTips_C_2147477239")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_SelectRoleCommonTips_C_2147477239")
-	}
-	static class ULUA_OVERRIDES_WBP_SelectRoleCommonTips_C_2147477239* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_SelectRoleCommonTips_C_2147477239>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_SelectRoleCommonTips_C_2147477239;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ClearSetBtn_C_2147479280
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_ClearSetBtn_C_2147479280 final : public ULuaOverridesClass
-{
-public:
-	void OnLuaShow();
 	void OnLuaClose();
-	void Construct();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void Destruct();
-	void OnLuaHide();
-	void OnInitialized();
 	void OnLuaOpen();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ClearSetBtn_C_2147479280")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ClearSetBtn_C_2147479280")
-	}
-	static class ULUA_OVERRIDES_WBP_ClearSetBtn_C_2147479280* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ClearSetBtn_C_2147479280>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ClearSetBtn_C_2147479280;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_BallSetDisplay_C_2147479281
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_BallSetDisplay_C_2147479281 final : public ULuaOverridesClass
-{
-public:
-	void OnLuaShow();
 	void OnLuaHide();
 	void Construct();
-	void OnLuaOpen();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void OnInitialized();
-	void Destruct();
-	void OnLuaClose();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_BallSetDisplay_C_2147479281")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_BallSetDisplay_C_2147479281")
-	}
-	static class ULUA_OVERRIDES_WBP_BallSetDisplay_C_2147479281* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_BallSetDisplay_C_2147479281>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_BallSetDisplay_C_2147479281;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147478314
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147478314 final : public ULuaOverridesClass
-{
-public:
-	void Construct();
-	void OnLuaHide();
-	void OnLuaOpen();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void OnInitialized();
-	void Destruct();
 	void OnLuaShow();
-	void OnLuaClose();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147478314")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147478314")
-	}
-	static class ULUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147478314* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147478314>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147478314;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_RedDot_Pic_Panel_C_2147479430
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_RedDot_Pic_Panel_C_2147479430 final : public ULuaOverridesClass
-{
-public:
-	void Construct();
 	void Destruct();
-	void OnInitialized();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_RedDot_Pic_Panel_C_2147479430")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_RedDot_Pic_Panel_C_2147479430")
-	}
-	static class ULUA_OVERRIDES_WBP_RedDot_Pic_Panel_C_2147479430* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_RedDot_Pic_Panel_C_2147479430>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_RedDot_Pic_Panel_C_2147479430;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147479183
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_ChatChannelListItem_C_2147479183 final : public ULuaOverridesClass
-{
-public:
-	void Construct();
-	void OnLuaHide();
-	void OnLuaOpen();
 	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void OnListItemObjectSet(class UObject* ListItemObject);
-	void OnInitialized();
-	void Destruct();
-	void OnLuaShow();
-	void OnLuaClose();
-	void BP_OnItemSelectionChanged(bool bIsSelected);
 
 public:
 	static class UClass* StaticClass()
 	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147479183")
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ClanInfoCard_C_2147480768")
 	}
 	static const class FName& StaticName()
 	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147479183")
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ClanInfoCard_C_2147480768")
 	}
-	static class ULUA_OVERRIDES_WBP_ChatChannelListItem_C_2147479183* GetDefaultObj()
+	static class ULUA_OVERRIDES_WBP_ClanInfoCard_C_2147480768* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatChannelListItem_C_2147479183>();
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ClanInfoCard_C_2147480768>();
 	}
 };
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatChannelListItem_C_2147479183;
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ClanInfoCard_C_2147480768;
 
-// LuaOverridesClass Transient.LUA_OVERRIDES_CyConditionGameInstanceSubsystem_2147482533
+// LuaOverridesClass Transient.LUA_OVERRIDES_CyConditionGameInstanceSubsystem_2147482527
 // 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_CyConditionGameInstanceSubsystem_2147482533 final : public ULuaOverridesClass
+class ULUA_OVERRIDES_CyConditionGameInstanceSubsystem_2147482527 final : public ULuaOverridesClass
 {
 public:
 	class UObject* CreateLuaUObject(class UObject* OuterObj, class UClass* Classtype, const class FString& LuaModuleName);
@@ -199,1487 +56,245 @@ public:
 public:
 	static class UClass* StaticClass()
 	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_CyConditionGameInstanceSubsystem_2147482533")
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_CyConditionGameInstanceSubsystem_2147482527")
 	}
 	static const class FName& StaticName()
 	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_CyConditionGameInstanceSubsystem_2147482533")
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_CyConditionGameInstanceSubsystem_2147482527")
 	}
-	static class ULUA_OVERRIDES_CyConditionGameInstanceSubsystem_2147482533* GetDefaultObj()
+	static class ULUA_OVERRIDES_CyConditionGameInstanceSubsystem_2147482527* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_CyConditionGameInstanceSubsystem_2147482533>();
+		return GetDefaultObjImpl<ULUA_OVERRIDES_CyConditionGameInstanceSubsystem_2147482527>();
 	}
 };
-DUMPER7_ASSERTS_ULUA_OVERRIDES_CyConditionGameInstanceSubsystem_2147482533;
+DUMPER7_ASSERTS_ULUA_OVERRIDES_CyConditionGameInstanceSubsystem_2147482527;
 
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_LoginPage_C_2147479429
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_CompetitionReminderItem_C_2147480615
 // 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_LoginPage_C_2147479429 final : public ULuaOverridesClass
+class ULUA_OVERRIDES_WBP_CompetitionReminderItem_C_2147480615 final : public ULuaOverridesClass
 {
 public:
-	bool LuaHandleKeyEvent(const struct FKey& Key_LuaHandleKeyEvent, EInputEvent InputEvent_LuaHandleKeyEvent);
-	void OnLuaOpen();
-	void Construct();
-	void OnLuaHide();
-	void OnLuaClose();
-	void OnLuaShow();
-	void Destruct();
 	void OnInitialized();
+	void Construct();
+	void Destruct();
 
 public:
 	static class UClass* StaticClass()
 	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_LoginPage_C_2147479429")
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_CompetitionReminderItem_C_2147480615")
 	}
 	static const class FName& StaticName()
 	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_LoginPage_C_2147479429")
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_CompetitionReminderItem_C_2147480615")
 	}
-	static class ULUA_OVERRIDES_WBP_LoginPage_C_2147479429* GetDefaultObj()
+	static class ULUA_OVERRIDES_WBP_CompetitionReminderItem_C_2147480615* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_LoginPage_C_2147479429>();
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_CompetitionReminderItem_C_2147480615>();
 	}
 };
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_LoginPage_C_2147479429;
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_CompetitionReminderItem_C_2147480615;
 
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_LoadingAssetPage_C_2147479355
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147480776
 // 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_LoadingAssetPage_C_2147479355 final : public ULuaOverridesClass
+class ULUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147480776 final : public ULuaOverridesClass
 {
 public:
-	void OnLuaShow();
-	void OnLuaClose();
+	void OnLuaHide();
+	void OnLuaOpen();
+	void Construct();
 	void Destruct();
 	void OnInitialized();
-	bool LuaHandleKeyEvent(const struct FKey& Key_LuaHandleKeyEvent, EInputEvent InputEvent_LuaHandleKeyEvent);
-	void OnLuaOpen();
-	void OnLuaHide();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_LoadingAssetPage_C_2147479355")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_LoadingAssetPage_C_2147479355")
-	}
-	static class ULUA_OVERRIDES_WBP_LoadingAssetPage_C_2147479355* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_LoadingAssetPage_C_2147479355>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_LoadingAssetPage_C_2147479355;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatTranslate_C_2147479200
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_ChatTranslate_C_2147479200 final : public ULuaOverridesClass
-{
-public:
 	void OnLuaClose();
-	void Construct();
-	void OnLuaOpen();
+	void OnLuaShow();
 	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void Destruct();
-	void OnLuaShow();
-	void OnLuaHide();
-	void OnInitialized();
 
 public:
 	static class UClass* StaticClass()
 	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatTranslate_C_2147479200")
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147480776")
 	}
 	static const class FName& StaticName()
 	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatTranslate_C_2147479200")
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147480776")
 	}
-	static class ULUA_OVERRIDES_WBP_ChatTranslate_C_2147479200* GetDefaultObj()
+	static class ULUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147480776* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatTranslate_C_2147479200>();
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147480776>();
 	}
 };
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatTranslate_C_2147479200;
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147480776;
 
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_BallSetItem_C_2147479282
+// LuaOverridesClass Transient.LUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147481137
 // 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_BallSetItem_C_2147479282 final : public ULuaOverridesClass
+class ULUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147481137 final : public ULuaOverridesClass
 {
 public:
-	void Destruct();
-	void OnInitialized();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_BallSetItem_C_2147479282")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_BallSetItem_C_2147479282")
-	}
-	static class ULUA_OVERRIDES_WBP_BallSetItem_C_2147479282* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_BallSetItem_C_2147479282>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_BallSetItem_C_2147479282;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatRoomPage_C_2147479174
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_ChatRoomPage_C_2147479174 final : public ULuaOverridesClass
-{
-public:
-	void OnLuaShow();
-	void OnLuaClose();
-	void Construct();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void OnInitialized();
-	void OnLuaOpen();
-	void OnLuaHide();
-	void Destruct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatRoomPage_C_2147479174")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatRoomPage_C_2147479174")
-	}
-	static class ULUA_OVERRIDES_WBP_ChatRoomPage_C_2147479174* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatRoomPage_C_2147479174>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatRoomPage_C_2147479174;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_CommonHoveredTips_C_2147479165
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_CommonHoveredTips_C_2147479165 final : public ULuaOverridesClass
-{
-public:
-	void Destruct();
-	void OnInitialized();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_CommonHoveredTips_C_2147479165")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_CommonHoveredTips_C_2147479165")
-	}
-	static class ULUA_OVERRIDES_WBP_CommonHoveredTips_C_2147479165* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_CommonHoveredTips_C_2147479165>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_CommonHoveredTips_C_2147479165;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147479531
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147479531 final : public ULuaOverridesClass
-{
-public:
-	void OnLuaSessionReOpen(int32 ErrCode);
-	void OnLuaSessionOpen(int32 ErrCode);
-	void OnLuaReceiveSessionCmd(int32 cmd_id);
 	void OnLuaSessionClose(int32 ErrCode);
-	void OnLuaReconnectSuccess();
+	void OnLuaSessionOpen(int32 ErrCode);
+	void OnLuaSessionReOpen(int32 ErrCode);
+	void OnLuaReceiveSessionCmd(int32 cmd_id);
 	void OnLuaReconnectFailed();
+	void OnLuaReconnectSuccess();
 
 public:
 	static class UClass* StaticClass()
 	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147479531")
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147481137")
 	}
 	static const class FName& StaticName()
 	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147479531")
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147481137")
 	}
-	static class ULUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147479531* GetDefaultObj()
+	static class ULUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147481137* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147479531>();
+		return GetDefaultObjImpl<ULUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147481137>();
 	}
 };
-DUMPER7_ASSERTS_ULUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147479531;
+DUMPER7_ASSERTS_ULUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147481137;
 
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147479169
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_SharingClan_C_2147480788
 // 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147479169 final : public ULuaOverridesClass
+class ULUA_OVERRIDES_WBP_SharingClan_C_2147480788 final : public ULuaOverridesClass
 {
 public:
-	void OnMouseLeave(const struct FPointerEvent& MouseEvent);
-	void OnLuaShow();
 	void OnLuaHide();
-	void Construct();
-	void OnLuaOpen();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void Destruct();
-	void OnInitialized();
-	void OnListItemObjectSet(class UObject* ListItemObject);
-	void OnMouseEnter(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent);
 	void OnLuaClose();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147479169")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147479169")
-	}
-	static class ULUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147479169* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147479169>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147479169;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ViewSwtichAnimation_C_2147466422
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_ViewSwtichAnimation_C_2147466422 final : public ULuaOverridesClass
-{
-public:
-	void Construct();
+	void OnLuaOpen();
 	void OnInitialized();
-	void Destruct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ViewSwtichAnimation_C_2147466422")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ViewSwtichAnimation_C_2147466422")
-	}
-	static class ULUA_OVERRIDES_WBP_ViewSwtichAnimation_C_2147466422* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ViewSwtichAnimation_C_2147466422>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ViewSwtichAnimation_C_2147466422;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_SharingClan_C_2147479195
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_SharingClan_C_2147479195 final : public ULuaOverridesClass
-{
-public:
 	void Construct();
+	void Destruct();
 	void OnLuaShow();
-	void OnLuaHide();
-	void OnLuaOpen();
 	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void OnInitialized();
-	void Destruct();
-	void OnLuaClose();
 
 public:
 	static class UClass* StaticClass()
 	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_SharingClan_C_2147479195")
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_SharingClan_C_2147480788")
 	}
 	static const class FName& StaticName()
 	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_SharingClan_C_2147479195")
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_SharingClan_C_2147480788")
 	}
-	static class ULUA_OVERRIDES_WBP_SharingClan_C_2147479195* GetDefaultObj()
+	static class ULUA_OVERRIDES_WBP_SharingClan_C_2147480788* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_SharingClan_C_2147479195>();
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_SharingClan_C_2147480788>();
 	}
 };
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_SharingClan_C_2147479195;
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_SharingClan_C_2147480788;
 
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_AdvancedSkinPanel_C_2147466436
+// LuaOverridesClass Transient.LUA_OVERRIDES_PMLuaBridgeObject_2147481135
 // 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_AdvancedSkinPanel_C_2147466436 final : public ULuaOverridesClass
+class ULUA_OVERRIDES_PMLuaBridgeObject_2147481135 final : public ULuaOverridesClass
 {
 public:
-	void Construct();
-	void OnInitialized();
-	void Destruct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_AdvancedSkinPanel_C_2147466436")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_AdvancedSkinPanel_C_2147466436")
-	}
-	static class ULUA_OVERRIDES_WBP_AdvancedSkinPanel_C_2147466436* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_AdvancedSkinPanel_C_2147466436>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_AdvancedSkinPanel_C_2147466436;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_CommonPlayerHead_C_2147479203
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_CommonPlayerHead_C_2147479203 final : public ULuaOverridesClass
-{
-public:
-	void Destruct();
-	void OnInitialized();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_CommonPlayerHead_C_2147479203")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_CommonPlayerHead_C_2147479203")
-	}
-	static class ULUA_OVERRIDES_WBP_CommonPlayerHead_C_2147479203* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_CommonPlayerHead_C_2147479203>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_CommonPlayerHead_C_2147479203;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_FriendAddFriendInfoItem_C_2147479163
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_FriendAddFriendInfoItem_C_2147479163 final : public ULuaOverridesClass
-{
-public:
-	void Destruct();
-	void OnInitialized();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_FriendAddFriendInfoItem_C_2147479163")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_FriendAddFriendInfoItem_C_2147479163")
-	}
-	static class ULUA_OVERRIDES_WBP_FriendAddFriendInfoItem_C_2147479163* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_FriendAddFriendInfoItem_C_2147479163>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_FriendAddFriendInfoItem_C_2147479163;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatClanItem_C_2147479189
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_ChatClanItem_C_2147479189 final : public ULuaOverridesClass
-{
-public:
-	void Destruct();
-	void OnInitialized();
-	void OnListItemObjectSet(class UObject* ListItemObject);
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatClanItem_C_2147479189")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatClanItem_C_2147479189")
-	}
-	static class ULUA_OVERRIDES_WBP_ChatClanItem_C_2147479189* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatClanItem_C_2147479189>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatClanItem_C_2147479189;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ContentPage_Channel_C_2147479193
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_ContentPage_Channel_C_2147479193 final : public ULuaOverridesClass
-{
-public:
-	void OnLuaClose();
-	void OnLuaHide();
-	void Construct();
-	void OnLuaOpen();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void Destruct();
-	void OnInitialized();
-	void OnLuaShow();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ContentPage_Channel_C_2147479193")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ContentPage_Channel_C_2147479193")
-	}
-	static class ULUA_OVERRIDES_WBP_ContentPage_Channel_C_2147479193* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ContentPage_Channel_C_2147479193>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ContentPage_Channel_C_2147479193;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_PMLuaBridgeObject_2147479529
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_PMLuaBridgeObject_2147479529 final : public ULuaOverridesClass
-{
-public:
-	void OnAutoRegist();
 	void ShowDelegates();
 	void TickLuaBridge(float DeltaTime);
+	void OnAutoRegist();
 
 public:
 	static class UClass* StaticClass()
 	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_PMLuaBridgeObject_2147479529")
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_PMLuaBridgeObject_2147481135")
 	}
 	static const class FName& StaticName()
 	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_PMLuaBridgeObject_2147479529")
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_PMLuaBridgeObject_2147481135")
 	}
-	static class ULUA_OVERRIDES_PMLuaBridgeObject_2147479529* GetDefaultObj()
+	static class ULUA_OVERRIDES_PMLuaBridgeObject_2147481135* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_PMLuaBridgeObject_2147479529>();
+		return GetDefaultObjImpl<ULUA_OVERRIDES_PMLuaBridgeObject_2147481135>();
 	}
 };
-DUMPER7_ASSERTS_ULUA_OVERRIDES_PMLuaBridgeObject_2147479529;
+DUMPER7_ASSERTS_ULUA_OVERRIDES_PMLuaBridgeObject_2147481135;
 
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_LotteryDisplay_AwardChangeBtn_C_2147466787
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_RedDot_Pic_Panel_C_2147481036
 // 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_LotteryDisplay_AwardChangeBtn_C_2147466787 final : public ULuaOverridesClass
+class ULUA_OVERRIDES_WBP_RedDot_Pic_Panel_C_2147481036 final : public ULuaOverridesClass
 {
 public:
-	void Construct();
 	void OnInitialized();
+	void Construct();
 	void Destruct();
 
 public:
 	static class UClass* StaticClass()
 	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_LotteryDisplay_AwardChangeBtn_C_2147466787")
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_RedDot_Pic_Panel_C_2147481036")
 	}
 	static const class FName& StaticName()
 	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_LotteryDisplay_AwardChangeBtn_C_2147466787")
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_RedDot_Pic_Panel_C_2147481036")
 	}
-	static class ULUA_OVERRIDES_WBP_LotteryDisplay_AwardChangeBtn_C_2147466787* GetDefaultObj()
+	static class ULUA_OVERRIDES_WBP_RedDot_Pic_Panel_C_2147481036* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_LotteryDisplay_AwardChangeBtn_C_2147466787>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_LotteryDisplay_AwardChangeBtn_C_2147466787;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_OperateScreen_C_2147479279
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_OperateScreen_C_2147479279 final : public ULuaOverridesClass
-{
-public:
-	void Construct();
-	void OnLuaHide();
-	void OnLuaOpen();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void OnInitialized();
-	void Destruct();
-	void OnLuaShow();
-	void OnLuaClose();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_OperateScreen_C_2147479279")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_OperateScreen_C_2147479279")
-	}
-	static class ULUA_OVERRIDES_WBP_OperateScreen_C_2147479279* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_OperateScreen_C_2147479279>();
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_RedDot_Pic_Panel_C_2147481036>();
 	}
 };
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_OperateScreen_C_2147479279;
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_RedDot_Pic_Panel_C_2147481036;
 
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatRoomItem_C_2147479176
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatPrePage_C_2147480795
 // 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_ChatRoomItem_C_2147479176 final : public ULuaOverridesClass
-{
-public:
-	void OnLuaShow();
-	void OnLuaClose();
-	void BP_OnItemSelectionChanged(bool bIsSelected);
-	void Construct();
-	void OnLuaOpen();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void OnLuaHide();
-	void Destruct();
-	void OnInitialized();
-	void OnListItemObjectSet(class UObject* ListItemObject);
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatRoomItem_C_2147479176")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatRoomItem_C_2147479176")
-	}
-	static class ULUA_OVERRIDES_WBP_ChatRoomItem_C_2147479176* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatRoomItem_C_2147479176>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatRoomItem_C_2147479176;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatChannelPage_C_2147479182
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_ChatChannelPage_C_2147479182 final : public ULuaOverridesClass
-{
-public:
-	void OnLuaShow();
-	void OnLuaClose();
-	void Construct();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void Destruct();
-	void OnInitialized();
-	void OnLuaOpen();
-	void OnLuaHide();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatChannelPage_C_2147479182")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatChannelPage_C_2147479182")
-	}
-	static class ULUA_OVERRIDES_WBP_ChatChannelPage_C_2147479182* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatChannelPage_C_2147479182>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatChannelPage_C_2147479182;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_PlaceBall1_C_2147479278
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_PlaceBall1_C_2147479278 final : public ULuaOverridesClass
-{
-public:
-	void OnLuaShow();
-	void OnLuaClose();
-	void Construct();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void Destruct();
-	void OnLuaHide();
-	void OnInitialized();
-	void OnLuaOpen();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_PlaceBall1_C_2147479278")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_PlaceBall1_C_2147479278")
-	}
-	static class ULUA_OVERRIDES_WBP_PlaceBall1_C_2147479278* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_PlaceBall1_C_2147479278>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_PlaceBall1_C_2147479278;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147479197
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147479197 final : public ULuaOverridesClass
-{
-public:
-	void OnLuaClose();
-	void OnLuaHide();
-	void Construct();
-	void OnLuaOpen();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void Destruct();
-	void OnLuaShow();
-	void OnInitialized();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147479197")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147479197")
-	}
-	static class ULUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147479197* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147479197>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147479197;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_PlaceBall2_C_2147479277
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_PlaceBall2_C_2147479277 final : public ULuaOverridesClass
-{
-public:
-	void OnLuaShow();
-	void OnLuaClose();
-	void Construct();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void Destruct();
-	void OnLuaHide();
-	void OnInitialized();
-	void OnLuaOpen();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_PlaceBall2_C_2147479277")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_PlaceBall2_C_2147479277")
-	}
-	static class ULUA_OVERRIDES_WBP_PlaceBall2_C_2147479277* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_PlaceBall2_C_2147479277>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_PlaceBall2_C_2147479277;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_PMPlayerController_2147460630
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_PMPlayerController_2147460630 final : public ULuaOverridesClass
-{
-public:
-	bool IsFriendOrRoomMember(int64 InPlayerId_IsFriendOrRoomMember);
-	bool CamparePlayer(int64 InPlayerId_1_CamparePlayer, int64 InPlayerId_2_CamparePlayer, uint8 InPlayerSerial_1_CamparePlayer, uint8 InPlayerSerial_2_CamparePlayer);
-	void ReceiveEndPlay(EEndPlayReason EndPlayReason_ReceiveEndPlay);
-	void ReceiveBeginPlay();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_PMPlayerController_2147460630")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_PMPlayerController_2147460630")
-	}
-	static class ULUA_OVERRIDES_PMPlayerController_2147460630* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_PMPlayerController_2147460630>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_PMPlayerController_2147460630;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_FastMessageItem_C_2147479168
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_FastMessageItem_C_2147479168 final : public ULuaOverridesClass
-{
-public:
-	void Destruct();
-	void OnInitialized();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_FastMessageItem_C_2147479168")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_FastMessageItem_C_2147479168")
-	}
-	static class ULUA_OVERRIDES_WBP_FastMessageItem_C_2147479168* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_FastMessageItem_C_2147479168>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_FastMessageItem_C_2147479168;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatChannelItem_C_2147479192
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_ChatChannelItem_C_2147479192 final : public ULuaOverridesClass
-{
-public:
-	void OnLuaClose();
-	void OnLuaHide();
-	void Construct();
-	void OnLuaOpen();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void Destruct();
-	void OnLuaShow();
-	void OnInitialized();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatChannelItem_C_2147479192")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatChannelItem_C_2147479192")
-	}
-	static class ULUA_OVERRIDES_WBP_ChatChannelItem_C_2147479192* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatChannelItem_C_2147479192>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatChannelItem_C_2147479192;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatPrePage_C_2147479146
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_ChatPrePage_C_2147479146 final : public ULuaOverridesClass
-{
-public:
-	void OnLuaShow();
-	void OnLuaClose();
-	void OnInitialized();
-	void OnLuaHide();
-	void Construct();
-	void OnLuaOpen();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void Destruct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatPrePage_C_2147479146")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatPrePage_C_2147479146")
-	}
-	static class ULUA_OVERRIDES_WBP_ChatPrePage_C_2147479146* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatPrePage_C_2147479146>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatPrePage_C_2147479146;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_QuickPlace_C_2147479276
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_QuickPlace_C_2147479276 final : public ULuaOverridesClass
-{
-public:
-	void OnLuaShow();
-	void OnLuaClose();
-	void Construct();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void Destruct();
-	void OnLuaHide();
-	void OnInitialized();
-	void OnLuaOpen();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_QuickPlace_C_2147479276")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_QuickPlace_C_2147479276")
-	}
-	static class ULUA_OVERRIDES_WBP_QuickPlace_C_2147479276* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_QuickPlace_C_2147479276>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_QuickPlace_C_2147479276;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_SelectPlayerShowSelf_C_2147477251
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_SelectPlayerShowSelf_C_2147477251 final : public ULuaOverridesClass
-{
-public:
-	void Construct();
-	void OnLuaShow();
-	void OnLuaHide();
-	void OnLuaOpen();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void OnInitialized();
-	void Destruct();
-	void OnLuaClose();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_SelectPlayerShowSelf_C_2147477251")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_SelectPlayerShowSelf_C_2147477251")
-	}
-	static class ULUA_OVERRIDES_WBP_SelectPlayerShowSelf_C_2147477251* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_SelectPlayerShowSelf_C_2147477251>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_SelectPlayerShowSelf_C_2147477251;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_StartLotteryBtn_C_2147479275
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_StartLotteryBtn_C_2147479275 final : public ULuaOverridesClass
-{
-public:
-	void OnLuaShow();
-	void OnLuaClose();
-	void Construct();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void Destruct();
-	void OnLuaHide();
-	void OnInitialized();
-	void OnLuaOpen();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_StartLotteryBtn_C_2147479275")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_StartLotteryBtn_C_2147479275")
-	}
-	static class ULUA_OVERRIDES_WBP_StartLotteryBtn_C_2147479275* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_StartLotteryBtn_C_2147479275>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_StartLotteryBtn_C_2147479275;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_BusinessCard_PlayerInfoPage_C_2147479157
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_BusinessCard_PlayerInfoPage_C_2147479157 final : public ULuaOverridesClass
-{
-public:
-	void Destruct();
-	void OnInitialized();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_BusinessCard_PlayerInfoPage_C_2147479157")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_BusinessCard_PlayerInfoPage_C_2147479157")
-	}
-	static class ULUA_OVERRIDES_WBP_BusinessCard_PlayerInfoPage_C_2147479157* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_BusinessCard_PlayerInfoPage_C_2147479157>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_BusinessCard_PlayerInfoPage_C_2147479157;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatBubbles_C_2147479196
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_ChatBubbles_C_2147479196 final : public ULuaOverridesClass
-{
-public:
-	void Construct();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void OnLuaHide();
-	void OnLuaOpen();
-	void OnInitialized();
-	void Destruct();
-	void OnLuaShow();
-	void OnLuaClose();
-	void OnListItemObjectSet(class UObject* ListItemObject);
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatBubbles_C_2147479196")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatBubbles_C_2147479196")
-	}
-	static class ULUA_OVERRIDES_WBP_ChatBubbles_C_2147479196* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatBubbles_C_2147479196>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatBubbles_C_2147479196;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_OperationButtonBase_C_2147479274
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_OperationButtonBase_C_2147479274 final : public ULuaOverridesClass
-{
-public:
-	void OnLuaShow();
-	void OnLuaClose();
-	void Construct();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void Destruct();
-	void OnLuaHide();
-	void OnInitialized();
-	void OnLuaOpen();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_OperationButtonBase_C_2147479274")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_OperationButtonBase_C_2147479274")
-	}
-	static class ULUA_OVERRIDES_WBP_OperationButtonBase_C_2147479274* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_OperationButtonBase_C_2147479274>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_OperationButtonBase_C_2147479274;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_BusinessCard_DataPage_C_2147479156
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_BusinessCard_DataPage_C_2147479156 final : public ULuaOverridesClass
-{
-public:
-	void Destruct();
-	void OnInitialized();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_BusinessCard_DataPage_C_2147479156")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_BusinessCard_DataPage_C_2147479156")
-	}
-	static class ULUA_OVERRIDES_WBP_BusinessCard_DataPage_C_2147479156* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_BusinessCard_DataPage_C_2147479156>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_BusinessCard_DataPage_C_2147479156;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_DivisionShow_C_2147479204
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_DivisionShow_C_2147479204 final : public ULuaOverridesClass
-{
-public:
-	void Destruct();
-	void OnInitialized();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_DivisionShow_C_2147479204")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_DivisionShow_C_2147479204")
-	}
-	static class ULUA_OVERRIDES_WBP_DivisionShow_C_2147479204* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_DivisionShow_C_2147479204>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_DivisionShow_C_2147479204;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_SmallSpeakerContrlPanel_C_2147478312
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_SmallSpeakerContrlPanel_C_2147478312 final : public ULuaOverridesClass
-{
-public:
-	void OnInitialized();
-	void Destruct();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_SmallSpeakerContrlPanel_C_2147478312")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_SmallSpeakerContrlPanel_C_2147478312")
-	}
-	static class ULUA_OVERRIDES_WBP_SmallSpeakerContrlPanel_C_2147478312* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_SmallSpeakerContrlPanel_C_2147478312>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_SmallSpeakerContrlPanel_C_2147478312;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_CustomWidgetLayoutPanel_C_2147479160
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_CustomWidgetLayoutPanel_C_2147479160 final : public ULuaOverridesClass
-{
-public:
-	bool OnDrop(const struct FGeometry& MyGeometry, const struct FPointerEvent& PointerEvent, class UDragDropOperation* Operation);
-	void Destruct();
-	void OnInitialized();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_CustomWidgetLayoutPanel_C_2147479160")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_CustomWidgetLayoutPanel_C_2147479160")
-	}
-	static class ULUA_OVERRIDES_WBP_CustomWidgetLayoutPanel_C_2147479160* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_CustomWidgetLayoutPanel_C_2147479160>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_CustomWidgetLayoutPanel_C_2147479160;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_CompetitionCard_C_2147479202
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_CompetitionCard_C_2147479202 final : public ULuaOverridesClass
-{
-public:
-	void Construct();
-	void OnLuaShow();
-	void OnLuaHide();
-	void OnLuaOpen();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void OnInitialized();
-	void Destruct();
-	void OnLuaClose();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_CompetitionCard_C_2147479202")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_CompetitionCard_C_2147479202")
-	}
-	static class ULUA_OVERRIDES_WBP_CompetitionCard_C_2147479202* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_CompetitionCard_C_2147479202>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_CompetitionCard_C_2147479202;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ClanInfoCard_C_2147479172
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_ClanInfoCard_C_2147479172 final : public ULuaOverridesClass
-{
-public:
-	void Construct();
-	void OnLuaHide();
-	void OnLuaOpen();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void OnInitialized();
-	void OnLuaShow();
-	void Destruct();
-	void OnLuaClose();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ClanInfoCard_C_2147479172")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ClanInfoCard_C_2147479172")
-	}
-	static class ULUA_OVERRIDES_WBP_ClanInfoCard_C_2147479172* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ClanInfoCard_C_2147479172>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ClanInfoCard_C_2147479172;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_CompetitionProgress_C_2147479017
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_CompetitionProgress_C_2147479017 final : public ULuaOverridesClass
-{
-public:
-	void OnLuaItemHovered();
-	void Destruct();
-	void BP_OnItemSelectionChanged(bool bIsSelected);
-	void OnLuaItemUnhovered();
-	void OnInitialized();
-	void OnListItemObjectSet(class UObject* ListItemObject);
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_CompetitionProgress_C_2147479017")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_CompetitionProgress_C_2147479017")
-	}
-	static class ULUA_OVERRIDES_WBP_CompetitionProgress_C_2147479017* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_CompetitionProgress_C_2147479017>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_CompetitionProgress_C_2147479017;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147479201
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147479201 final : public ULuaOverridesClass
-{
-public:
-	void OnLuaClose();
-	void OnLuaHide();
-	void Construct();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void Destruct();
-	void OnLuaShow();
-	void OnLuaOpen();
-	void OnInitialized();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147479201")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147479201")
-	}
-	static class ULUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147479201* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147479201>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147479201;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147479199
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147479199 final : public ULuaOverridesClass
-{
-public:
-	void Construct();
-	void OnLuaHide();
-	void OnLuaOpen();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void OnInitialized();
-	void Destruct();
-	void OnLuaShow();
-	void OnLuaClose();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147479199")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147479199")
-	}
-	static class ULUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147479199* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147479199>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147479199;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_SharePanel_C_2147479166
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_SharePanel_C_2147479166 final : public ULuaOverridesClass
-{
-public:
-	void Construct();
-	void OnLuaHide();
-	void OnLuaOpen();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void OnInitialized();
-	void Destruct();
-	void OnLuaShow();
-	void OnLuaClose();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_SharePanel_C_2147479166")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_SharePanel_C_2147479166")
-	}
-	static class ULUA_OVERRIDES_WBP_SharePanel_C_2147479166* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_SharePanel_C_2147479166>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_SharePanel_C_2147479166;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147479198
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147479198 final : public ULuaOverridesClass
+class ULUA_OVERRIDES_WBP_ChatPrePage_C_2147480795 final : public ULuaOverridesClass
 {
 public:
 	void OnLuaHide();
-	void Construct();
 	void OnLuaOpen();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
+	void Construct();
 	void Destruct();
+	void OnInitialized();
 	void OnLuaClose();
-	void OnLuaShow();
-	void OnInitialized();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147479198")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147479198")
-	}
-	static class ULUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147479198* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147479198>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147479198;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ClanIcon_C_2147479173
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_ClanIcon_C_2147479173 final : public ULuaOverridesClass
-{
-public:
-	void Destruct();
-	void OnInitialized();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ClanIcon_C_2147479173")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ClanIcon_C_2147479173")
-	}
-	static class ULUA_OVERRIDES_WBP_ClanIcon_C_2147479173* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ClanIcon_C_2147479173>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ClanIcon_C_2147479173;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatFriendItem_C_2147479177
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_ChatFriendItem_C_2147479177 final : public ULuaOverridesClass
-{
-public:
-	void Destruct();
-	void OnInitialized();
-	void OnListItemObjectSet(class UObject* ListItemObject);
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatFriendItem_C_2147479177")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatFriendItem_C_2147479177")
-	}
-	static class ULUA_OVERRIDES_WBP_ChatFriendItem_C_2147479177* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatFriendItem_C_2147479177>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatFriendItem_C_2147479177;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147479190
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147479190 final : public ULuaOverridesClass
-{
-public:
-	void Construct();
-	void OnLuaHide();
-	void OnLuaOpen();
 	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void OnInitialized();
-	void Destruct();
-	void OnLuaShow();
-	void OnLuaClose();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147479190")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147479190")
-	}
-	static class ULUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147479190* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147479190>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147479190;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_SelectMode_C_2147478417
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_SelectMode_C_2147478417 final : public ULuaOverridesClass
-{
-public:
-	void Destruct();
-	void OnInitialized();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_SelectMode_C_2147478417")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_SelectMode_C_2147478417")
-	}
-	static class ULUA_OVERRIDES_WBP_SelectMode_C_2147478417* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_SelectMode_C_2147478417>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_SelectMode_C_2147478417;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_SharingCompetition_C_2147479194
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_SharingCompetition_C_2147479194 final : public ULuaOverridesClass
-{
-public:
-	void Construct();
-	void OnLuaHide();
-	void OnLuaOpen();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void OnInitialized();
-	void Destruct();
-	void OnLuaClose();
 	void OnLuaShow();
 
 public:
 	static class UClass* StaticClass()
 	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_SharingCompetition_C_2147479194")
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatPrePage_C_2147480795")
 	}
 	static const class FName& StaticName()
 	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_SharingCompetition_C_2147479194")
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatPrePage_C_2147480795")
 	}
-	static class ULUA_OVERRIDES_WBP_SharingCompetition_C_2147479194* GetDefaultObj()
+	static class ULUA_OVERRIDES_WBP_ChatPrePage_C_2147480795* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_SharingCompetition_C_2147479194>();
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatPrePage_C_2147480795>();
 	}
 };
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_SharingCompetition_C_2147479194;
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatPrePage_C_2147480795;
 
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_PlayerCardBG_C_2147479161
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147480777
 // 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_PlayerCardBG_C_2147479161 final : public ULuaOverridesClass
+class ULUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147480777 final : public ULuaOverridesClass
 {
 public:
-	void Destruct();
-	void OnInitialized();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_PlayerCardBG_C_2147479161")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_PlayerCardBG_C_2147479161")
-	}
-	static class ULUA_OVERRIDES_WBP_PlayerCardBG_C_2147479161* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_PlayerCardBG_C_2147479161>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_PlayerCardBG_C_2147479161;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147479191
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147479191 final : public ULuaOverridesClass
-{
-public:
-	void Construct();
-	void Destruct();
-	void OnInitialized();
-	struct FEventReply OnMouseButtonDown(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent);
-	void OnDragCancelled(const struct FPointerEvent& PointerEvent, class UDragDropOperation* Operation);
-	void OnDragDetected(const struct FGeometry& MyGeometry, const struct FPointerEvent& PointerEvent, class UDragDropOperation** Operation);
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147479191")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147479191")
-	}
-	static class ULUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147479191* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147479191>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147479191;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ContentPage_Clan_C_2147479188
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_ContentPage_Clan_C_2147479188 final : public ULuaOverridesClass
-{
-public:
-	void OnLuaClose();
 	void OnLuaHide();
-	void Construct();
 	void OnLuaOpen();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void OnInitialized();
+	void Construct();
 	void Destruct();
+	void OnInitialized();
+	void OnLuaClose();
 	void OnLuaShow();
+	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
 
 public:
 	static class UClass* StaticClass()
 	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ContentPage_Clan_C_2147479188")
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147480777")
 	}
 	static const class FName& StaticName()
 	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ContentPage_Clan_C_2147479188")
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147480777")
 	}
-	static class ULUA_OVERRIDES_WBP_ContentPage_Clan_C_2147479188* GetDefaultObj()
+	static class ULUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147480777* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ContentPage_Clan_C_2147479188>();
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147480777>();
 	}
 };
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ContentPage_Clan_C_2147479188;
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147480777;
 
-// LuaOverridesClass Transient.LUA_OVERRIDES_CyConditionObject_2147478577
+// LuaOverridesClass Transient.LUA_OVERRIDES_CyConditionObject_2147480195
 // 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_CyConditionObject_2147478577 final : public ULuaOverridesClass
+class ULUA_OVERRIDES_CyConditionObject_2147480195 final : public ULuaOverridesClass
 {
 public:
 	int32 BPGetMatchConditionCount(const class FString& ModuleName, const class FString& ParamsStr);
@@ -1687,50 +302,24 @@ public:
 public:
 	static class UClass* StaticClass()
 	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_CyConditionObject_2147478577")
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_CyConditionObject_2147480195")
 	}
 	static const class FName& StaticName()
 	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_CyConditionObject_2147478577")
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_CyConditionObject_2147480195")
 	}
-	static class ULUA_OVERRIDES_CyConditionObject_2147478577* GetDefaultObj()
+	static class ULUA_OVERRIDES_CyConditionObject_2147480195* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_CyConditionObject_2147478577>();
+		return GetDefaultObjImpl<ULUA_OVERRIDES_CyConditionObject_2147480195>();
 	}
 };
-DUMPER7_ASSERTS_ULUA_OVERRIDES_CyConditionObject_2147478577;
+DUMPER7_ASSERTS_ULUA_OVERRIDES_CyConditionObject_2147480195;
 
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ToolTipsPage_C_2147479179
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_BallSetItem_C_2147480876
 // 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_ToolTipsPage_C_2147479179 final : public ULuaOverridesClass
+class ULUA_OVERRIDES_WBP_BallSetItem_C_2147480876 final : public ULuaOverridesClass
 {
 public:
-	void Destruct();
-	void OnInitialized();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ToolTipsPage_C_2147479179")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ToolTipsPage_C_2147479179")
-	}
-	static class ULUA_OVERRIDES_WBP_ToolTipsPage_C_2147479179* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ToolTipsPage_C_2147479179>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ToolTipsPage_C_2147479179;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatClanPage_C_2147479187
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_ChatClanPage_C_2147479187 final : public ULuaOverridesClass
-{
-public:
-	void OnRemovedFromFocusPath(const struct FFocusEvent& InFocusEvent);
 	void OnInitialized();
 	void Construct();
 	void Destruct();
@@ -1738,1249 +327,2370 @@ public:
 public:
 	static class UClass* StaticClass()
 	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatClanPage_C_2147479187")
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_BallSetItem_C_2147480876")
 	}
 	static const class FName& StaticName()
 	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatClanPage_C_2147479187")
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_BallSetItem_C_2147480876")
 	}
-	static class ULUA_OVERRIDES_WBP_ChatClanPage_C_2147479187* GetDefaultObj()
+	static class ULUA_OVERRIDES_WBP_BallSetItem_C_2147480876* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatClanPage_C_2147479187>();
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_BallSetItem_C_2147480876>();
 	}
 };
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatClanPage_C_2147479187;
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_BallSetItem_C_2147480876;
 
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatText_Clan_C_2147479186
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ClearSetBtn_C_2147480874
 // 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_ChatText_Clan_C_2147479186 final : public ULuaOverridesClass
+class ULUA_OVERRIDES_WBP_ClearSetBtn_C_2147480874 final : public ULuaOverridesClass
 {
 public:
+	void OnLuaHide();
+	void OnLuaOpen();
+	void Construct();
+	void Destruct();
+	void OnLuaClose();
+	void OnLuaShow();
+	void OnInitialized();
+	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ClearSetBtn_C_2147480874")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ClearSetBtn_C_2147480874")
+	}
+	static class ULUA_OVERRIDES_WBP_ClearSetBtn_C_2147480874* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ClearSetBtn_C_2147480874>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ClearSetBtn_C_2147480874;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_LoginPage_C_2147481035
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_LoginPage_C_2147481035 final : public ULuaOverridesClass
+{
+public:
+	void Construct();
+	void Destruct();
+	void OnInitialized();
+	void OnLuaClose();
+	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
+	void OnLuaHide();
+	void OnLuaOpen();
+	void OnLuaShow();
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_LoginPage_C_2147481035")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_LoginPage_C_2147481035")
+	}
+	static class ULUA_OVERRIDES_WBP_LoginPage_C_2147481035* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_LoginPage_C_2147481035>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_LoginPage_C_2147481035;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_PlayerCardBG_C_2147480756
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_PlayerCardBG_C_2147480756 final : public ULuaOverridesClass
+{
+public:
+	void OnInitialized();
+	void Construct();
+	void Destruct();
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_PlayerCardBG_C_2147480756")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_PlayerCardBG_C_2147480756")
+	}
+	static class ULUA_OVERRIDES_WBP_PlayerCardBG_C_2147480756* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_PlayerCardBG_C_2147480756>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_PlayerCardBG_C_2147480756;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_LoadingAssetPage_C_2147480961
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_LoadingAssetPage_C_2147480961 final : public ULuaOverridesClass
+{
+public:
+	void OnInitialized();
+	void OnLuaClose();
+	void OnLuaOpen();
+	void OnLuaHide();
+	void Construct();
+	void OnLuaShow();
+	void Destruct();
+	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_LoadingAssetPage_C_2147480961")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_LoadingAssetPage_C_2147480961")
+	}
+	static class ULUA_OVERRIDES_WBP_LoadingAssetPage_C_2147480961* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_LoadingAssetPage_C_2147480961>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_LoadingAssetPage_C_2147480961;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_BallSetDisplay_C_2147480875
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_BallSetDisplay_C_2147480875 final : public ULuaOverridesClass
+{
+public:
+	void OnLuaHide();
+	void OnLuaOpen();
+	void Construct();
+	void Destruct();
+	void OnInitialized();
+	void OnLuaClose();
+	void OnLuaShow();
+	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_BallSetDisplay_C_2147480875")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_BallSetDisplay_C_2147480875")
+	}
+	static class ULUA_OVERRIDES_WBP_BallSetDisplay_C_2147480875* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_BallSetDisplay_C_2147480875>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_BallSetDisplay_C_2147480875;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147480765
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147480765 final : public ULuaOverridesClass
+{
+public:
+	void OnLuaHide();
+	void Construct();
+	void OnListItemObjectSet(class UObject* ListItemObject);
 	void OnMouseLeave(const struct FPointerEvent& MouseEvent);
-	void OnLuaShow();
-	void OnLuaClose();
-	void OnLuaHide();
-	void Construct();
-	void OnLuaOpen();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void Destruct();
-	void OnInitialized();
-	void OnListItemObjectSet(class UObject* ListItemObject);
 	void OnMouseEnter(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent);
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatText_Clan_C_2147479186")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatText_Clan_C_2147479186")
-	}
-	static class ULUA_OVERRIDES_WBP_ChatText_Clan_C_2147479186* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatText_Clan_C_2147479186>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatText_Clan_C_2147479186;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ShareClanPanel_C_2147479185
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_ShareClanPanel_C_2147479185 final : public ULuaOverridesClass
-{
-public:
-	void Construct();
-	void OnLuaShow();
-	void OnLuaHide();
-	void OnLuaOpen();
+	void OnLuaClose();
 	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void OnInitialized();
-	void Destruct();
-	void OnLuaClose();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ShareClanPanel_C_2147479185")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ShareClanPanel_C_2147479185")
-	}
-	static class ULUA_OVERRIDES_WBP_ShareClanPanel_C_2147479185* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ShareClanPanel_C_2147479185>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ShareClanPanel_C_2147479185;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147479184
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147479184 final : public ULuaOverridesClass
-{
-public:
-	void Construct();
-	void OnLuaHide();
-	void OnLuaOpen();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void OnInitialized();
-	void Destruct();
 	void OnLuaShow();
-	void OnLuaClose();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147479184")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147479184")
-	}
-	static class ULUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147479184* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147479184>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147479184;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatEmotion_C_2147479181
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_ChatEmotion_C_2147479181 final : public ULuaOverridesClass
-{
-public:
 	void Destruct();
 	void OnInitialized();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatEmotion_C_2147479181")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatEmotion_C_2147479181")
-	}
-	static class ULUA_OVERRIDES_WBP_ChatEmotion_C_2147479181* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatEmotion_C_2147479181>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatEmotion_C_2147479181;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147479180
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147479180 final : public ULuaOverridesClass
-{
-public:
-	void Construct();
-	void OnLuaHide();
 	void OnLuaOpen();
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147480765")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147480765")
+	}
+	static class ULUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147480765* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147480765>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147480765;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ClanIcon_C_2147480769
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_ClanIcon_C_2147480769 final : public ULuaOverridesClass
+{
+public:
 	void OnInitialized();
+	void Construct();
 	void Destruct();
-	void OnLuaShow();
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ClanIcon_C_2147480769")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ClanIcon_C_2147480769")
+	}
+	static class ULUA_OVERRIDES_WBP_ClanIcon_C_2147480769* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ClanIcon_C_2147480769>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ClanIcon_C_2147480769;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_CommonPlayerHead_C_2147480782
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_CommonPlayerHead_C_2147480782 final : public ULuaOverridesClass
+{
+public:
+	void OnInitialized();
+	void Construct();
+	void Destruct();
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_CommonPlayerHead_C_2147480782")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_CommonPlayerHead_C_2147480782")
+	}
+	static class ULUA_OVERRIDES_WBP_CommonPlayerHead_C_2147480782* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_CommonPlayerHead_C_2147480782>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_CommonPlayerHead_C_2147480782;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatFriendItem_C_2147480771
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_ChatFriendItem_C_2147480771 final : public ULuaOverridesClass
+{
+public:
+	void OnInitialized();
+	void Construct();
+	void OnListItemObjectSet(class UObject* ListItemObject);
+	void Destruct();
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatFriendItem_C_2147480771")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatFriendItem_C_2147480771")
+	}
+	static class ULUA_OVERRIDES_WBP_ChatFriendItem_C_2147480771* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatFriendItem_C_2147480771>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatFriendItem_C_2147480771;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_OperateScreen_C_2147480873
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_OperateScreen_C_2147480873 final : public ULuaOverridesClass
+{
+public:
+	void OnInitialized();
 	void OnLuaClose();
+	void OnLuaOpen();
+	void OnLuaHide();
+	void Construct();
+	void OnLuaShow();
+	void Destruct();
 	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
 
 public:
 	static class UClass* StaticClass()
 	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147479180")
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_OperateScreen_C_2147480873")
 	}
 	static const class FName& StaticName()
 	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147479180")
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_OperateScreen_C_2147480873")
 	}
-	static class ULUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147479180* GetDefaultObj()
+	static class ULUA_OVERRIDES_WBP_OperateScreen_C_2147480873* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147479180>();
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_OperateScreen_C_2147480873>();
 	}
 };
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147479180;
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_OperateScreen_C_2147480873;
 
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatFriendPage_C_2147479178
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_PlaceBall1_C_2147480872
 // 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_ChatFriendPage_C_2147479178 final : public ULuaOverridesClass
+class ULUA_OVERRIDES_WBP_PlaceBall1_C_2147480872 final : public ULuaOverridesClass
 {
 public:
-	void OnInitialized();
+	void OnLuaHide();
+	void OnLuaOpen();
 	void Construct();
 	void Destruct();
+	void OnLuaClose();
+	void OnLuaShow();
+	void OnInitialized();
+	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
 
 public:
 	static class UClass* StaticClass()
 	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatFriendPage_C_2147479178")
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_PlaceBall1_C_2147480872")
 	}
 	static const class FName& StaticName()
 	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatFriendPage_C_2147479178")
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_PlaceBall1_C_2147480872")
 	}
-	static class ULUA_OVERRIDES_WBP_ChatFriendPage_C_2147479178* GetDefaultObj()
+	static class ULUA_OVERRIDES_WBP_PlaceBall1_C_2147480872* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatFriendPage_C_2147479178>();
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_PlaceBall1_C_2147480872>();
 	}
 };
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatFriendPage_C_2147479178;
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_PlaceBall1_C_2147480872;
 
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatText_Channel_C_2147479170
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147480797
 // 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_ChatText_Channel_C_2147479170 final : public ULuaOverridesClass
+class ULUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147480797 final : public ULuaOverridesClass
 {
 public:
+	void OnLuaHide();
+	void OnLuaClose();
+	void OnLuaOpen();
+	void Construct();
+	void OnLuaShow();
+	void Destruct();
+	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
+	void OnInitialized();
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147480797")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147480797")
+	}
+	static class ULUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147480797* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147480797>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147480797;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_PlaceBall2_C_2147480871
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_PlaceBall2_C_2147480871 final : public ULuaOverridesClass
+{
+public:
+	void OnLuaHide();
+	void OnLuaOpen();
+	void Construct();
+	void Destruct();
+	void OnLuaClose();
+	void OnLuaShow();
+	void OnInitialized();
+	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_PlaceBall2_C_2147480871")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_PlaceBall2_C_2147480871")
+	}
+	static class ULUA_OVERRIDES_WBP_PlaceBall2_C_2147480871* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_PlaceBall2_C_2147480871>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_PlaceBall2_C_2147480871;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_PMPlayerController_2147471507
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_PMPlayerController_2147471507 final : public ULuaOverridesClass
+{
+public:
+	void ReceiveEndPlay(EEndPlayReason EndPlayReason_ReceiveEndPlay);
+	void ReceiveBeginPlay();
+	bool CamparePlayer(int64 InPlayerId_1_CamparePlayer, int64 InPlayerId_2_CamparePlayer, uint8 InPlayerSerial_1_CamparePlayer, uint8 InPlayerSerial_2_CamparePlayer);
+	bool IsFriendOrRoomMember(int64 InPlayerId_IsFriendOrRoomMember);
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_PMPlayerController_2147471507")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_PMPlayerController_2147471507")
+	}
+	static class ULUA_OVERRIDES_PMPlayerController_2147471507* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_PMPlayerController_2147471507>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_PMPlayerController_2147471507;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatBubbles_C_2147480785
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_ChatBubbles_C_2147480785 final : public ULuaOverridesClass
+{
+public:
+	void OnInitialized();
+	void OnLuaClose();
+	void OnLuaOpen();
+	void Construct();
+	void OnListItemObjectSet(class UObject* ListItemObject);
+	void OnLuaShow();
+	void Destruct();
+	void OnLuaHide();
+	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatBubbles_C_2147480785")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatBubbles_C_2147480785")
+	}
+	static class ULUA_OVERRIDES_WBP_ChatBubbles_C_2147480785* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatBubbles_C_2147480785>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatBubbles_C_2147480785;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_QuickPlace_C_2147480870
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_QuickPlace_C_2147480870 final : public ULuaOverridesClass
+{
+public:
+	void OnLuaHide();
+	void OnLuaOpen();
+	void Construct();
+	void Destruct();
+	void OnLuaClose();
+	void OnLuaShow();
+	void OnInitialized();
+	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_QuickPlace_C_2147480870")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_QuickPlace_C_2147480870")
+	}
+	static class ULUA_OVERRIDES_WBP_QuickPlace_C_2147480870* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_QuickPlace_C_2147480870>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_QuickPlace_C_2147480870;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_StartLotteryBtn_C_2147480869
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_StartLotteryBtn_C_2147480869 final : public ULuaOverridesClass
+{
+public:
+	void OnLuaHide();
+	void OnLuaOpen();
+	void Construct();
+	void Destruct();
+	void OnLuaClose();
+	void OnLuaShow();
+	void OnInitialized();
+	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_StartLotteryBtn_C_2147480869")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_StartLotteryBtn_C_2147480869")
+	}
+	static class ULUA_OVERRIDES_WBP_StartLotteryBtn_C_2147480869* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_StartLotteryBtn_C_2147480869>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_StartLotteryBtn_C_2147480869;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_OperationButtonBase_C_2147480868
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_OperationButtonBase_C_2147480868 final : public ULuaOverridesClass
+{
+public:
+	void OnLuaHide();
+	void OnLuaOpen();
+	void Construct();
+	void Destruct();
+	void OnLuaClose();
+	void OnLuaShow();
+	void OnInitialized();
+	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_OperationButtonBase_C_2147480868")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_OperationButtonBase_C_2147480868")
+	}
+	static class ULUA_OVERRIDES_WBP_OperationButtonBase_C_2147480868* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_OperationButtonBase_C_2147480868>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_OperationButtonBase_C_2147480868;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147480803
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147480803 final : public ULuaOverridesClass
+{
+public:
+	void OnLuaHide();
+	void OnLuaOpen();
+	void Construct();
+	void Destruct();
+	void OnInitialized();
+	void OnLuaClose();
+	void OnLuaShow();
+	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147480803")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147480803")
+	}
+	static class ULUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147480803* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147480803>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147480803;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147480610
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147480610 final : public ULuaOverridesClass
+{
+public:
+	void OnInitialized();
+	void OnMouseEnter(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent);
+	void Construct();
+	void Destruct();
 	void OnMouseLeave(const struct FPointerEvent& MouseEvent);
-	void OnLuaShow();
-	void OnLuaClose();
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147480610")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147480610")
+	}
+	static class ULUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147480610* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147480610>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147480610;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatClanItem_C_2147480781
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_ChatClanItem_C_2147480781 final : public ULuaOverridesClass
+{
+public:
+	void OnInitialized();
 	void Construct();
+	void OnListItemObjectSet(class UObject* ListItemObject);
+	void Destruct();
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatClanItem_C_2147480781")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatClanItem_C_2147480781")
+	}
+	static class ULUA_OVERRIDES_WBP_ChatClanItem_C_2147480781* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatClanItem_C_2147480781>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatClanItem_C_2147480781;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ToolTipsPage_C_2147480802
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_ToolTipsPage_C_2147480802 final : public ULuaOverridesClass
+{
+public:
+	void OnInitialized();
+	void Construct();
+	void Destruct();
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ToolTipsPage_C_2147480802")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ToolTipsPage_C_2147480802")
+	}
+	static class ULUA_OVERRIDES_WBP_ToolTipsPage_C_2147480802* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ToolTipsPage_C_2147480802>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ToolTipsPage_C_2147480802;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_DivisionShow_C_2147480786
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_DivisionShow_C_2147480786 final : public ULuaOverridesClass
+{
+public:
+	void OnInitialized();
+	void Construct();
+	void Destruct();
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_DivisionShow_C_2147480786")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_DivisionShow_C_2147480786")
+	}
+	static class ULUA_OVERRIDES_WBP_DivisionShow_C_2147480786* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_DivisionShow_C_2147480786>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_DivisionShow_C_2147480786;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ContentPage_Clan_C_2147480801
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_ContentPage_Clan_C_2147480801 final : public ULuaOverridesClass
+{
+public:
+	void OnLuaHide();
 	void OnLuaOpen();
+	void Construct();
+	void Destruct();
+	void OnLuaClose();
+	void OnLuaShow();
+	void OnInitialized();
 	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ContentPage_Clan_C_2147480801")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ContentPage_Clan_C_2147480801")
+	}
+	static class ULUA_OVERRIDES_WBP_ContentPage_Clan_C_2147480801* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ContentPage_Clan_C_2147480801>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ContentPage_Clan_C_2147480801;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ContentPage_Channel_C_2147480800
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_ContentPage_Channel_C_2147480800 final : public ULuaOverridesClass
+{
+public:
+	void OnLuaHide();
+	void OnLuaOpen();
+	void Construct();
+	void Destruct();
+	void OnLuaClose();
+	void OnLuaShow();
+	void OnInitialized();
+	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ContentPage_Channel_C_2147480800")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ContentPage_Channel_C_2147480800")
+	}
+	static class ULUA_OVERRIDES_WBP_ContentPage_Channel_C_2147480800* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ContentPage_Channel_C_2147480800>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ContentPage_Channel_C_2147480800;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatChannelItem_C_2147480799
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_ChatChannelItem_C_2147480799 final : public ULuaOverridesClass
+{
+public:
+	void OnLuaHide();
+	void OnLuaOpen();
+	void Construct();
+	void Destruct();
+	void OnLuaClose();
+	void OnLuaShow();
+	void OnInitialized();
+	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatChannelItem_C_2147480799")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatChannelItem_C_2147480799")
+	}
+	static class ULUA_OVERRIDES_WBP_ChatChannelItem_C_2147480799* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatChannelItem_C_2147480799>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatChannelItem_C_2147480799;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147480798
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147480798 final : public ULuaOverridesClass
+{
+public:
+	void OnLuaHide();
+	void OnLuaClose();
+	void OnLuaOpen();
+	void Construct();
+	void OnLuaShow();
+	void Destruct();
+	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
+	void OnInitialized();
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147480798")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147480798")
+	}
+	static class ULUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147480798* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147480798>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147480798;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatRoomPage_C_2147480796
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_ChatRoomPage_C_2147480796 final : public ULuaOverridesClass
+{
+public:
+	void OnLuaHide();
+	void OnLuaOpen();
+	void Construct();
 	void Destruct();
 	void OnInitialized();
+	void OnLuaClose();
+	void OnLuaShow();
+	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatRoomPage_C_2147480796")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatRoomPage_C_2147480796")
+	}
+	static class ULUA_OVERRIDES_WBP_ChatRoomPage_C_2147480796* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatRoomPage_C_2147480796>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatRoomPage_C_2147480796;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatTranslate_C_2147480779
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_ChatTranslate_C_2147480779 final : public ULuaOverridesClass
+{
+public:
 	void OnLuaHide();
+	void OnLuaOpen();
+	void Construct();
+	void Destruct();
+	void OnLuaClose();
+	void OnLuaShow();
+	void OnInitialized();
+	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatTranslate_C_2147480779")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatTranslate_C_2147480779")
+	}
+	static class ULUA_OVERRIDES_WBP_ChatTranslate_C_2147480779* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatTranslate_C_2147480779>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatTranslate_C_2147480779;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatEmotion_C_2147480772
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_ChatEmotion_C_2147480772 final : public ULuaOverridesClass
+{
+public:
+	void OnInitialized();
+	void Construct();
+	void Destruct();
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatEmotion_C_2147480772")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatEmotion_C_2147480772")
+	}
+	static class ULUA_OVERRIDES_WBP_ChatEmotion_C_2147480772* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatEmotion_C_2147480772>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatEmotion_C_2147480772;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatInput_C_2147480794
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_ChatInput_C_2147480794 final : public ULuaOverridesClass
+{
+public:
+	void OnLuaHide();
+	void OnLuaOpen();
+	void Construct();
+	void Destruct();
+	void OnInitialized();
+	void OnLuaClose();
+	void OnLuaShow();
+	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatInput_C_2147480794")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatInput_C_2147480794")
+	}
+	static class ULUA_OVERRIDES_WBP_ChatInput_C_2147480794* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatInput_C_2147480794>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatInput_C_2147480794;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147480780
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147480780 final : public ULuaOverridesClass
+{
+public:
+	void OnLuaHide();
+	void OnLuaOpen();
+	void Construct();
+	void Destruct();
+	void OnInitialized();
+	void OnLuaClose();
+	void OnLuaShow();
+	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147480780")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147480780")
+	}
+	static class ULUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147480780* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147480780>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147480780;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatFriendPage_C_2147480793
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_ChatFriendPage_C_2147480793 final : public ULuaOverridesClass
+{
+public:
+	void Construct();
+	void Destruct();
+	void OnInitialized();
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatFriendPage_C_2147480793")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatFriendPage_C_2147480793")
+	}
+	static class ULUA_OVERRIDES_WBP_ChatFriendPage_C_2147480793* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatFriendPage_C_2147480793>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatFriendPage_C_2147480793;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_FastMessagePanel_C_2147480762
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_FastMessagePanel_C_2147480762 final : public ULuaOverridesClass
+{
+public:
+	void OnInitialized();
+	void OnLuaClose();
+	void OnLuaOpen();
+	void OnLuaHide();
+	void Construct();
+	void OnLuaShow();
+	void Destruct();
+	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_FastMessagePanel_C_2147480762")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_FastMessagePanel_C_2147480762")
+	}
+	static class ULUA_OVERRIDES_WBP_FastMessagePanel_C_2147480762* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_FastMessagePanel_C_2147480762>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_FastMessagePanel_C_2147480762;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147480792
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147480792 final : public ULuaOverridesClass
+{
+public:
+	void OnInitialized();
+	void OnLuaClose();
+	void OnLuaOpen();
+	void OnLuaHide();
+	void Construct();
+	void OnLuaShow();
+	void Destruct();
+	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147480792")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147480792")
+	}
+	static class ULUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147480792* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147480792>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147480792;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatClanPage_C_2147480791
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_ChatClanPage_C_2147480791 final : public ULuaOverridesClass
+{
+public:
+	void Construct();
+	void Destruct();
+	void OnInitialized();
+	void OnRemovedFromFocusPath(const struct FFocusEvent& InFocusEvent);
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatClanPage_C_2147480791")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatClanPage_C_2147480791")
+	}
+	static class ULUA_OVERRIDES_WBP_ChatClanPage_C_2147480791* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatClanPage_C_2147480791>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatClanPage_C_2147480791;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatText_Channel_C_2147480766
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_ChatText_Channel_C_2147480766 final : public ULuaOverridesClass
+{
+public:
+	void OnLuaHide();
+	void OnLuaOpen();
+	void Construct();
+	void OnListItemObjectSet(class UObject* ListItemObject);
+	void OnMouseLeave(const struct FPointerEvent& MouseEvent);
 	void OnMouseEnter(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent);
-	void OnListItemObjectSet(class UObject* ListItemObject);
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatText_Channel_C_2147479170")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatText_Channel_C_2147479170")
-	}
-	static class ULUA_OVERRIDES_WBP_ChatText_Channel_C_2147479170* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatText_Channel_C_2147479170>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatText_Channel_C_2147479170;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147479175
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147479175 final : public ULuaOverridesClass
-{
-public:
 	void OnLuaClose();
-	void OnLuaHide();
-	void Construct();
-	void OnLuaOpen();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
 	void OnInitialized();
-	void Destruct();
-	void OnLuaShow();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147479175")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147479175")
-	}
-	static class ULUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147479175* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147479175>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147479175;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ActivityTaskItem_C_2147478308
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_ActivityTaskItem_C_2147478308 final : public ULuaOverridesClass
-{
-public:
-	void Destruct();
-	void OnInitialized();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ActivityTaskItem_C_2147478308")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ActivityTaskItem_C_2147478308")
-	}
-	static class ULUA_OVERRIDES_WBP_ActivityTaskItem_C_2147478308* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ActivityTaskItem_C_2147478308>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ActivityTaskItem_C_2147478308;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_PressNamePanel_C_2147479164
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_PressNamePanel_C_2147479164 final : public ULuaOverridesClass
-{
-public:
-	void OnInitialized();
-	void Destruct();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_PressNamePanel_C_2147479164")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_PressNamePanel_C_2147479164")
-	}
-	static class ULUA_OVERRIDES_WBP_PressNamePanel_C_2147479164* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_PressNamePanel_C_2147479164>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_PressNamePanel_C_2147479164;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147479171
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147479171 final : public ULuaOverridesClass
-{
-public:
-	void OnLuaClose();
-	void OnLuaHide();
-	void Construct();
-	void OnLuaOpen();
 	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
 	void Destruct();
 	void OnLuaShow();
-	void OnInitialized();
 
 public:
 	static class UClass* StaticClass()
 	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147479171")
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatText_Channel_C_2147480766")
 	}
 	static const class FName& StaticName()
 	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147479171")
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatText_Channel_C_2147480766")
 	}
-	static class ULUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147479171* GetDefaultObj()
+	static class ULUA_OVERRIDES_WBP_ChatText_Channel_C_2147480766* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147479171>();
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatText_Channel_C_2147480766>();
 	}
 };
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147479171;
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatText_Channel_C_2147480766;
 
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_FastMessagePanel_C_2147479167
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_SharingCompetition_C_2147480787
 // 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_FastMessagePanel_C_2147479167 final : public ULuaOverridesClass
+class ULUA_OVERRIDES_WBP_SharingCompetition_C_2147480787 final : public ULuaOverridesClass
 {
 public:
-	void Construct();
 	void OnLuaHide();
-	void OnLuaOpen();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void OnInitialized();
-	void Destruct();
 	void OnLuaClose();
+	void OnLuaOpen();
+	void OnInitialized();
+	void Construct();
 	void OnLuaShow();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_FastMessagePanel_C_2147479167")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_FastMessagePanel_C_2147479167")
-	}
-	static class ULUA_OVERRIDES_WBP_FastMessagePanel_C_2147479167* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_FastMessagePanel_C_2147479167>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_FastMessagePanel_C_2147479167;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_DynamicIcon_C_2147479162
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_DynamicIcon_C_2147479162 final : public ULuaOverridesClass
-{
-public:
 	void Destruct();
-	void OnInitialized();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_DynamicIcon_C_2147479162")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_DynamicIcon_C_2147479162")
-	}
-	static class ULUA_OVERRIDES_WBP_DynamicIcon_C_2147479162* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_DynamicIcon_C_2147479162>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_DynamicIcon_C_2147479162;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_AchievementIcon_C_2147479159
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_AchievementIcon_C_2147479159 final : public ULuaOverridesClass
-{
-public:
-	void OnInitialized();
-	void Destruct();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_AchievementIcon_C_2147479159")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_AchievementIcon_C_2147479159")
-	}
-	static class ULUA_OVERRIDES_WBP_AchievementIcon_C_2147479159* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_AchievementIcon_C_2147479159>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_AchievementIcon_C_2147479159;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_CardPanel_C_2147479158
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_CardPanel_C_2147479158 final : public ULuaOverridesClass
-{
-public:
-	void Destruct();
-	void OnInitialized();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_CardPanel_C_2147479158")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_CardPanel_C_2147479158")
-	}
-	static class ULUA_OVERRIDES_WBP_CardPanel_C_2147479158* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_CardPanel_C_2147479158>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_CardPanel_C_2147479158;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_BusinessCard_MainPage_C_2147479155
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_BusinessCard_MainPage_C_2147479155 final : public ULuaOverridesClass
-{
-public:
-	void OnInitialized();
-	void Construct();
-	void Destruct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_BusinessCard_MainPage_C_2147479155")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_BusinessCard_MainPage_C_2147479155")
-	}
-	static class ULUA_OVERRIDES_WBP_BusinessCard_MainPage_C_2147479155* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_BusinessCard_MainPage_C_2147479155>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_BusinessCard_MainPage_C_2147479155;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_CustomWidgetOptMenu_C_2147479154
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_CustomWidgetOptMenu_C_2147479154 final : public ULuaOverridesClass
-{
-public:
-	void Destruct();
-	void OnInitialized();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_CustomWidgetOptMenu_C_2147479154")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_CustomWidgetOptMenu_C_2147479154")
-	}
-	static class ULUA_OVERRIDES_WBP_CustomWidgetOptMenu_C_2147479154* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_CustomWidgetOptMenu_C_2147479154>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_CustomWidgetOptMenu_C_2147479154;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_AchievementMedalShortTip_C_2147479153
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_AchievementMedalShortTip_C_2147479153 final : public ULuaOverridesClass
-{
-public:
-	void Destruct();
-	void OnInitialized();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_AchievementMedalShortTip_C_2147479153")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_AchievementMedalShortTip_C_2147479153")
-	}
-	static class ULUA_OVERRIDES_WBP_AchievementMedalShortTip_C_2147479153* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_AchievementMedalShortTip_C_2147479153>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_AchievementMedalShortTip_C_2147479153;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_PlayerManagerButton_C_2147479152
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_PlayerManagerButton_C_2147479152 final : public ULuaOverridesClass
-{
-public:
-	void Destruct();
-	void OnInitialized();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_PlayerManagerButton_C_2147479152")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_PlayerManagerButton_C_2147479152")
-	}
-	static class ULUA_OVERRIDES_WBP_PlayerManagerButton_C_2147479152* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_PlayerManagerButton_C_2147479152>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_PlayerManagerButton_C_2147479152;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_FriendShortcutMenu_C_2147479151
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_FriendShortcutMenu_C_2147479151 final : public ULuaOverridesClass
-{
-public:
-	void OnInitialized();
-	void Construct();
-	void Destruct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_FriendShortcutMenu_C_2147479151")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_FriendShortcutMenu_C_2147479151")
-	}
-	static class ULUA_OVERRIDES_WBP_FriendShortcutMenu_C_2147479151* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_FriendShortcutMenu_C_2147479151>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_FriendShortcutMenu_C_2147479151;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_BusinessCard_DataItem_C_2147479150
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_BusinessCard_DataItem_C_2147479150 final : public ULuaOverridesClass
-{
-public:
-	void Destruct();
-	void OnInitialized();
-	void OnListItemObjectSet(class UObject* ListItemObject);
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_BusinessCard_DataItem_C_2147479150")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_BusinessCard_DataItem_C_2147479150")
-	}
-	static class ULUA_OVERRIDES_WBP_BusinessCard_DataItem_C_2147479150* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_BusinessCard_DataItem_C_2147479150>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_BusinessCard_DataItem_C_2147479150;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_BusinessCard_RoleItem_C_2147479149
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_BusinessCard_RoleItem_C_2147479149 final : public ULuaOverridesClass
-{
-public:
-	void Destruct();
-	void OnInitialized();
-	void OnListItemObjectSet(class UObject* ListItemObject);
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_BusinessCard_RoleItem_C_2147479149")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_BusinessCard_RoleItem_C_2147479149")
-	}
-	static class ULUA_OVERRIDES_WBP_BusinessCard_RoleItem_C_2147479149* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_BusinessCard_RoleItem_C_2147479149>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_BusinessCard_RoleItem_C_2147479149;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147479005
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147479005 final : public ULuaOverridesClass
-{
-public:
-	void Construct();
-	void OnLuaHide();
-	void OnLuaOpen();
 	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void OnInitialized();
-	void Destruct();
-	void OnLuaClose();
-	void OnLuaShow();
 
 public:
 	static class UClass* StaticClass()
 	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147479005")
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_SharingCompetition_C_2147480787")
 	}
 	static const class FName& StaticName()
 	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147479005")
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_SharingCompetition_C_2147480787")
 	}
-	static class ULUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147479005* GetDefaultObj()
+	static class ULUA_OVERRIDES_WBP_SharingCompetition_C_2147480787* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147479005>();
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_SharingCompetition_C_2147480787>();
 	}
 };
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147479005;
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_SharingCompetition_C_2147480787;
 
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_EmojiSetItem_C_2147479148
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatChannelPage_C_2147480790
 // 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_EmojiSetItem_C_2147479148 final : public ULuaOverridesClass
+class ULUA_OVERRIDES_WBP_ChatChannelPage_C_2147480790 final : public ULuaOverridesClass
 {
 public:
-	void OnLuaItemClick();
-	void Destruct();
-	void OnInitialized();
-	void OnLuaItemHovered();
-	void OnLuaItemUnhovered();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_EmojiSetItem_C_2147479148")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_EmojiSetItem_C_2147479148")
-	}
-	static class ULUA_OVERRIDES_WBP_EmojiSetItem_C_2147479148* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_EmojiSetItem_C_2147479148>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_EmojiSetItem_C_2147479148;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_EmotionItem_C_2147479147
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_EmotionItem_C_2147479147 final : public ULuaOverridesClass
-{
-public:
-	void OnLuaItemClick();
-	void OnInitialized();
-	void Destruct();
-	void OnLuaItemHovered();
-	void OnLuaItemUnhovered();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_EmotionItem_C_2147479147")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_EmotionItem_C_2147479147")
-	}
-	static class ULUA_OVERRIDES_WBP_EmotionItem_C_2147479147* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_EmotionItem_C_2147479147>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_EmotionItem_C_2147479147;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_CardContextMenu_C_2147478310
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_CardContextMenu_C_2147478310 final : public ULuaOverridesClass
-{
-public:
-	void Destruct();
-	void OnInitialized();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_CardContextMenu_C_2147478310")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_CardContextMenu_C_2147478310")
-	}
-	static class ULUA_OVERRIDES_WBP_CardContextMenu_C_2147478310* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_CardContextMenu_C_2147478310>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_CardContextMenu_C_2147478310;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatInput_C_2147479145
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_ChatInput_C_2147479145 final : public ULuaOverridesClass
-{
-public:
-	void OnLuaClose();
-	void Construct();
-	void Destruct();
-	void OnInitialized();
-	void OnLuaOpen();
 	void OnLuaHide();
+	void OnLuaOpen();
+	void Construct();
+	void Destruct();
+	void OnInitialized();
+	void OnLuaClose();
 	void OnLuaShow();
 	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
 
 public:
 	static class UClass* StaticClass()
 	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatInput_C_2147479145")
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatChannelPage_C_2147480790")
 	}
 	static const class FName& StaticName()
 	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatInput_C_2147479145")
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatChannelPage_C_2147480790")
 	}
-	static class ULUA_OVERRIDES_WBP_ChatInput_C_2147479145* GetDefaultObj()
+	static class ULUA_OVERRIDES_WBP_ChatChannelPage_C_2147480790* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatInput_C_2147479145>();
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatChannelPage_C_2147480790>();
 	}
 };
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatInput_C_2147479145;
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatChannelPage_C_2147480790;
 
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatMainPage_C_2147479144
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatMainPage_C_2147480789
 // 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_ChatMainPage_C_2147479144 final : public ULuaOverridesClass
+class ULUA_OVERRIDES_WBP_ChatMainPage_C_2147480789 final : public ULuaOverridesClass
 {
 public:
+	void OnLuaHide();
+	void OnLuaOpen();
+	void Construct();
+	void Destruct();
+	void OnInitialized();
 	void OnRemovedFromFocusPath(const struct FFocusEvent& InFocusEvent);
 	void OnLuaClose();
-	void Construct();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void OnInitialized();
-	void Destruct();
-	void OnLuaOpen();
-	void OnLuaHide();
 	void OnLuaShow();
+	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
 
 public:
 	static class UClass* StaticClass()
 	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatMainPage_C_2147479144")
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatMainPage_C_2147480789")
 	}
 	static const class FName& StaticName()
 	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatMainPage_C_2147479144")
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatMainPage_C_2147480789")
 	}
-	static class ULUA_OVERRIDES_WBP_ChatMainPage_C_2147479144* GetDefaultObj()
+	static class ULUA_OVERRIDES_WBP_ChatMainPage_C_2147480789* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatMainPage_C_2147479144>();
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatMainPage_C_2147480789>();
 	}
 };
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatMainPage_C_2147479144;
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatMainPage_C_2147480789;
 
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatText_Pre_C_2147479143
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_CompetitionCard_C_2147480784
 // 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_ChatText_Pre_C_2147479143 final : public ULuaOverridesClass
+class ULUA_OVERRIDES_WBP_CompetitionCard_C_2147480784 final : public ULuaOverridesClass
 {
 public:
+	void OnInitialized();
+	void OnLuaClose();
+	void OnLuaOpen();
+	void OnLuaHide();
+	void Construct();
+	void OnLuaShow();
+	void Destruct();
+	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_CompetitionCard_C_2147480784")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_CompetitionCard_C_2147480784")
+	}
+	static class ULUA_OVERRIDES_WBP_CompetitionCard_C_2147480784* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_CompetitionCard_C_2147480784>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_CompetitionCard_C_2147480784;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147480783
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147480783 final : public ULuaOverridesClass
+{
+public:
+	void Construct();
+	void Destruct();
+	struct FEventReply OnMouseButtonDown(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent);
+	void OnInitialized();
+	void OnDragCancelled(const struct FPointerEvent& PointerEvent, class UDragDropOperation* Operation);
+	void OnDragDetected(const struct FGeometry& MyGeometry, const struct FPointerEvent& PointerEvent, class UDragDropOperation** Operation);
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147480783")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147480783")
+	}
+	static class ULUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147480783* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147480783>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147480783;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_DynamicIcon_C_2147480757
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_DynamicIcon_C_2147480757 final : public ULuaOverridesClass
+{
+public:
+	void OnInitialized();
+	void Construct();
+	void Destruct();
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_DynamicIcon_C_2147480757")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_DynamicIcon_C_2147480757")
+	}
+	static class ULUA_OVERRIDES_WBP_DynamicIcon_C_2147480757* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_DynamicIcon_C_2147480757>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_DynamicIcon_C_2147480757;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147480778
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147480778 final : public ULuaOverridesClass
+{
+public:
+	void OnInitialized();
+	void OnLuaClose();
+	void OnLuaOpen();
+	void OnLuaHide();
+	void Construct();
+	void OnLuaShow();
+	void Destruct();
+	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147480778")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147480778")
+	}
+	static class ULUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147480778* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147480778>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147480778;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatText_Clan_C_2147480775
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_ChatText_Clan_C_2147480775 final : public ULuaOverridesClass
+{
+public:
+	void OnLuaHide();
+	void OnLuaOpen();
+	void Construct();
+	void OnListItemObjectSet(class UObject* ListItemObject);
+	void OnMouseLeave(const struct FPointerEvent& MouseEvent);
+	void OnMouseEnter(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent);
+	void OnLuaClose();
+	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
+	void OnLuaShow();
+	void Destruct();
+	void OnInitialized();
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatText_Clan_C_2147480775")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatText_Clan_C_2147480775")
+	}
+	static class ULUA_OVERRIDES_WBP_ChatText_Clan_C_2147480775* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatText_Clan_C_2147480775>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatText_Clan_C_2147480775;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ShareClanPanel_C_2147480774
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_ShareClanPanel_C_2147480774 final : public ULuaOverridesClass
+{
+public:
+	void OnInitialized();
+	void OnLuaClose();
+	void OnLuaOpen();
+	void OnLuaHide();
+	void Construct();
+	void OnLuaShow();
+	void Destruct();
+	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ShareClanPanel_C_2147480774")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ShareClanPanel_C_2147480774")
+	}
+	static class ULUA_OVERRIDES_WBP_ShareClanPanel_C_2147480774* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ShareClanPanel_C_2147480774>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ShareClanPanel_C_2147480774;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147480773
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_ChatChannelListItem_C_2147480773 final : public ULuaOverridesClass
+{
+public:
+	void OnInitialized();
+	void OnLuaClose();
+	void OnLuaOpen();
+	void Construct();
+	void BP_OnItemSelectionChanged(bool bIsSelected);
+	void OnListItemObjectSet(class UObject* ListItemObject);
+	void OnLuaShow();
+	void Destruct();
+	void OnLuaHide();
+	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147480773")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147480773")
+	}
+	static class ULUA_OVERRIDES_WBP_ChatChannelListItem_C_2147480773* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatChannelListItem_C_2147480773>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatChannelListItem_C_2147480773;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatRoomItem_C_2147480770
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_ChatRoomItem_C_2147480770 final : public ULuaOverridesClass
+{
+public:
+	void OnLuaHide();
+	void OnLuaOpen();
+	void Construct();
+	void OnListItemObjectSet(class UObject* ListItemObject);
+	void Destruct();
 	void OnLuaClose();
 	void BP_OnItemSelectionChanged(bool bIsSelected);
-	void Construct();
-	void OnLuaOpen();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void Destruct();
-	void OnListItemObjectSet(class UObject* ListItemObject);
 	void OnLuaShow();
+	void OnInitialized();
+	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatRoomItem_C_2147480770")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatRoomItem_C_2147480770")
+	}
+	static class ULUA_OVERRIDES_WBP_ChatRoomItem_C_2147480770* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatRoomItem_C_2147480770>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatRoomItem_C_2147480770;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147480767
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147480767 final : public ULuaOverridesClass
+{
+public:
 	void OnLuaHide();
+	void OnLuaOpen();
+	void Construct();
+	void Destruct();
+	void OnInitialized();
+	void OnLuaClose();
+	void OnLuaShow();
+	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147480767")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147480767")
+	}
+	static class ULUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147480767* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147480767>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147480767;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ChatText_Pre_C_2147480764
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_ChatText_Pre_C_2147480764 final : public ULuaOverridesClass
+{
+public:
+	void OnLuaHide();
+	void OnLuaOpen();
+	void Construct();
+	void OnListItemObjectSet(class UObject* ListItemObject);
+	void Destruct();
+	void OnInitialized();
+	void OnLuaClose();
+	void BP_OnItemSelectionChanged(bool bIsSelected);
+	void OnLuaShow();
+	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatText_Pre_C_2147480764")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatText_Pre_C_2147480764")
+	}
+	static class ULUA_OVERRIDES_WBP_ChatText_Pre_C_2147480764* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatText_Pre_C_2147480764>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatText_Pre_C_2147480764;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_FastMessageItem_C_2147480763
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_FastMessageItem_C_2147480763 final : public ULuaOverridesClass
+{
+public:
+	void OnInitialized();
+	void Construct();
+	void Destruct();
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_FastMessageItem_C_2147480763")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_FastMessageItem_C_2147480763")
+	}
+	static class ULUA_OVERRIDES_WBP_FastMessageItem_C_2147480763* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_FastMessageItem_C_2147480763>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_FastMessageItem_C_2147480763;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_SharePanel_C_2147480761
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_SharePanel_C_2147480761 final : public ULuaOverridesClass
+{
+public:
+	void OnInitialized();
+	void OnLuaClose();
+	void OnLuaOpen();
+	void OnLuaHide();
+	void Construct();
+	void OnLuaShow();
+	void Destruct();
+	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_SharePanel_C_2147480761")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_SharePanel_C_2147480761")
+	}
+	static class ULUA_OVERRIDES_WBP_SharePanel_C_2147480761* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_SharePanel_C_2147480761>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_SharePanel_C_2147480761;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_CommonHoveredTips_C_2147480760
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_CommonHoveredTips_C_2147480760 final : public ULuaOverridesClass
+{
+public:
+	void OnInitialized();
+	void Construct();
+	void Destruct();
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_CommonHoveredTips_C_2147480760")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_CommonHoveredTips_C_2147480760")
+	}
+	static class ULUA_OVERRIDES_WBP_CommonHoveredTips_C_2147480760* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_CommonHoveredTips_C_2147480760>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_CommonHoveredTips_C_2147480760;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_PressNamePanel_C_2147480759
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_PressNamePanel_C_2147480759 final : public ULuaOverridesClass
+{
+public:
+	void OnInitialized();
+	void Construct();
+	void Destruct();
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_PressNamePanel_C_2147480759")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_PressNamePanel_C_2147480759")
+	}
+	static class ULUA_OVERRIDES_WBP_PressNamePanel_C_2147480759* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_PressNamePanel_C_2147480759>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_PressNamePanel_C_2147480759;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_FriendAddFriendInfoItem_C_2147480758
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_FriendAddFriendInfoItem_C_2147480758 final : public ULuaOverridesClass
+{
+public:
+	void OnInitialized();
+	void Construct();
+	void Destruct();
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_FriendAddFriendInfoItem_C_2147480758")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_FriendAddFriendInfoItem_C_2147480758")
+	}
+	static class ULUA_OVERRIDES_WBP_FriendAddFriendInfoItem_C_2147480758* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_FriendAddFriendInfoItem_C_2147480758>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_FriendAddFriendInfoItem_C_2147480758;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_CustomWidgetLayoutPanel_C_2147480755
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_CustomWidgetLayoutPanel_C_2147480755 final : public ULuaOverridesClass
+{
+public:
+	void OnInitialized();
+	void Destruct();
+	bool OnDrop(const struct FGeometry& MyGeometry, const struct FPointerEvent& PointerEvent, class UDragDropOperation* Operation);
+	void Construct();
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_CustomWidgetLayoutPanel_C_2147480755")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_CustomWidgetLayoutPanel_C_2147480755")
+	}
+	static class ULUA_OVERRIDES_WBP_CustomWidgetLayoutPanel_C_2147480755* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_CustomWidgetLayoutPanel_C_2147480755>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_CustomWidgetLayoutPanel_C_2147480755;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_AchievementIcon_C_2147480754
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_AchievementIcon_C_2147480754 final : public ULuaOverridesClass
+{
+public:
+	void OnInitialized();
+	void Construct();
+	void Destruct();
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_AchievementIcon_C_2147480754")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_AchievementIcon_C_2147480754")
+	}
+	static class ULUA_OVERRIDES_WBP_AchievementIcon_C_2147480754* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_AchievementIcon_C_2147480754>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_AchievementIcon_C_2147480754;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_CardPanel_C_2147480753
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_CardPanel_C_2147480753 final : public ULuaOverridesClass
+{
+public:
+	void OnInitialized();
+	void Construct();
+	void Destruct();
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_CardPanel_C_2147480753")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_CardPanel_C_2147480753")
+	}
+	static class ULUA_OVERRIDES_WBP_CardPanel_C_2147480753* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_CardPanel_C_2147480753>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_CardPanel_C_2147480753;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_BusinessCard_PlayerInfoPage_C_2147480752
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_BusinessCard_PlayerInfoPage_C_2147480752 final : public ULuaOverridesClass
+{
+public:
+	void OnInitialized();
+	void Construct();
+	void Destruct();
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_BusinessCard_PlayerInfoPage_C_2147480752")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_BusinessCard_PlayerInfoPage_C_2147480752")
+	}
+	static class ULUA_OVERRIDES_WBP_BusinessCard_PlayerInfoPage_C_2147480752* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_BusinessCard_PlayerInfoPage_C_2147480752>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_BusinessCard_PlayerInfoPage_C_2147480752;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_BusinessCard_DataPage_C_2147480751
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_BusinessCard_DataPage_C_2147480751 final : public ULuaOverridesClass
+{
+public:
+	void OnInitialized();
+	void Construct();
+	void Destruct();
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_BusinessCard_DataPage_C_2147480751")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_BusinessCard_DataPage_C_2147480751")
+	}
+	static class ULUA_OVERRIDES_WBP_BusinessCard_DataPage_C_2147480751* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_BusinessCard_DataPage_C_2147480751>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_BusinessCard_DataPage_C_2147480751;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_BusinessCard_MainPage_C_2147480750
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_BusinessCard_MainPage_C_2147480750 final : public ULuaOverridesClass
+{
+public:
+	void Construct();
+	void Destruct();
 	void OnInitialized();
 
 public:
 	static class UClass* StaticClass()
 	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ChatText_Pre_C_2147479143")
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_BusinessCard_MainPage_C_2147480750")
 	}
 	static const class FName& StaticName()
 	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ChatText_Pre_C_2147479143")
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_BusinessCard_MainPage_C_2147480750")
 	}
-	static class ULUA_OVERRIDES_WBP_ChatText_Pre_C_2147479143* GetDefaultObj()
+	static class ULUA_OVERRIDES_WBP_BusinessCard_MainPage_C_2147480750* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ChatText_Pre_C_2147479143>();
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_BusinessCard_MainPage_C_2147480750>();
 	}
 };
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ChatText_Pre_C_2147479143;
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_BusinessCard_MainPage_C_2147480750;
 
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_BuffItem_C_2147479025
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_CustomWidgetOptMenu_C_2147480749
 // 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_BuffItem_C_2147479025 final : public ULuaOverridesClass
+class ULUA_OVERRIDES_WBP_CustomWidgetOptMenu_C_2147480749 final : public ULuaOverridesClass
 {
 public:
-	void OnMouseLeave(const struct FPointerEvent& MouseEvent);
+	void OnInitialized();
+	void Construct();
 	void Destruct();
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_CustomWidgetOptMenu_C_2147480749")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_CustomWidgetOptMenu_C_2147480749")
+	}
+	static class ULUA_OVERRIDES_WBP_CustomWidgetOptMenu_C_2147480749* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_CustomWidgetOptMenu_C_2147480749>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_CustomWidgetOptMenu_C_2147480749;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_AchievementMedalShortTip_C_2147480748
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_AchievementMedalShortTip_C_2147480748 final : public ULuaOverridesClass
+{
+public:
+	void OnInitialized();
+	void Construct();
+	void Destruct();
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_AchievementMedalShortTip_C_2147480748")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_AchievementMedalShortTip_C_2147480748")
+	}
+	static class ULUA_OVERRIDES_WBP_AchievementMedalShortTip_C_2147480748* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_AchievementMedalShortTip_C_2147480748>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_AchievementMedalShortTip_C_2147480748;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_PlayerManagerButton_C_2147480747
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_PlayerManagerButton_C_2147480747 final : public ULuaOverridesClass
+{
+public:
+	void OnInitialized();
+	void Construct();
+	void Destruct();
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_PlayerManagerButton_C_2147480747")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_PlayerManagerButton_C_2147480747")
+	}
+	static class ULUA_OVERRIDES_WBP_PlayerManagerButton_C_2147480747* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_PlayerManagerButton_C_2147480747>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_PlayerManagerButton_C_2147480747;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_FriendShortcutMenu_C_2147480746
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_FriendShortcutMenu_C_2147480746 final : public ULuaOverridesClass
+{
+public:
+	void Construct();
+	void Destruct();
+	void OnInitialized();
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_FriendShortcutMenu_C_2147480746")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_FriendShortcutMenu_C_2147480746")
+	}
+	static class ULUA_OVERRIDES_WBP_FriendShortcutMenu_C_2147480746* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_FriendShortcutMenu_C_2147480746>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_FriendShortcutMenu_C_2147480746;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_BusinessCard_DataItem_C_2147480745
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_BusinessCard_DataItem_C_2147480745 final : public ULuaOverridesClass
+{
+public:
+	void OnInitialized();
+	void Construct();
+	void OnListItemObjectSet(class UObject* ListItemObject);
+	void Destruct();
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_BusinessCard_DataItem_C_2147480745")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_BusinessCard_DataItem_C_2147480745")
+	}
+	static class ULUA_OVERRIDES_WBP_BusinessCard_DataItem_C_2147480745* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_BusinessCard_DataItem_C_2147480745>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_BusinessCard_DataItem_C_2147480745;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_BusinessCard_RoleItem_C_2147480744
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_BusinessCard_RoleItem_C_2147480744 final : public ULuaOverridesClass
+{
+public:
+	void OnInitialized();
+	void Construct();
+	void OnListItemObjectSet(class UObject* ListItemObject);
+	void Destruct();
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_BusinessCard_RoleItem_C_2147480744")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_BusinessCard_RoleItem_C_2147480744")
+	}
+	static class ULUA_OVERRIDES_WBP_BusinessCard_RoleItem_C_2147480744* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_BusinessCard_RoleItem_C_2147480744>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_BusinessCard_RoleItem_C_2147480744;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_SecondaryNavBar_MoreItem_C_2147480603
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_SecondaryNavBar_MoreItem_C_2147480603 final : public ULuaOverridesClass
+{
+public:
+	void OnInitialized();
+	void Construct();
+	void OnListItemObjectSet(class UObject* ListItemObject);
+	void Destruct();
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_SecondaryNavBar_MoreItem_C_2147480603")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_SecondaryNavBar_MoreItem_C_2147480603")
+	}
+	static class ULUA_OVERRIDES_WBP_SecondaryNavBar_MoreItem_C_2147480603* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_SecondaryNavBar_MoreItem_C_2147480603>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_SecondaryNavBar_MoreItem_C_2147480603;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_EmojiSetItem_C_2147480743
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_EmojiSetItem_C_2147480743 final : public ULuaOverridesClass
+{
+public:
+	void OnInitialized();
+	void Construct();
+	void OnLuaItemHovered();
+	void OnLuaItemUnhovered();
+	void Destruct();
+	void OnLuaItemClick();
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_EmojiSetItem_C_2147480743")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_EmojiSetItem_C_2147480743")
+	}
+	static class ULUA_OVERRIDES_WBP_EmojiSetItem_C_2147480743* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_EmojiSetItem_C_2147480743>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_EmojiSetItem_C_2147480743;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_EmotionItem_C_2147480742
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_EmotionItem_C_2147480742 final : public ULuaOverridesClass
+{
+public:
+	void OnInitialized();
+	void OnLuaItemUnhovered();
+	void Construct();
+	void OnLuaItemHovered();
+	void Destruct();
+	void OnLuaItemClick();
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_EmotionItem_C_2147480742")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_EmotionItem_C_2147480742")
+	}
+	static class ULUA_OVERRIDES_WBP_EmotionItem_C_2147480742* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_EmotionItem_C_2147480742>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_EmotionItem_C_2147480742;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_BuffItem_C_2147480624
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_BuffItem_C_2147480624 final : public ULuaOverridesClass
+{
+public:
+	void OnInitialized();
 	void OnMouseEnter(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent);
-	void OnInitialized();
 	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_BuffItem_C_2147479025")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_BuffItem_C_2147479025")
-	}
-	static class ULUA_OVERRIDES_WBP_BuffItem_C_2147479025* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_BuffItem_C_2147479025>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_BuffItem_C_2147479025;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_Buff_C_2147479024
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_Buff_C_2147479024 final : public ULuaOverridesClass
-{
-public:
 	void Destruct();
-	void OnInitialized();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_Buff_C_2147479024")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_Buff_C_2147479024")
-	}
-	static class ULUA_OVERRIDES_WBP_Buff_C_2147479024* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_Buff_C_2147479024>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_Buff_C_2147479024;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147479023
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147479023 final : public ULuaOverridesClass
-{
-public:
 	void OnMouseLeave(const struct FPointerEvent& MouseEvent);
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_BuffItem_C_2147480624")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_BuffItem_C_2147480624")
+	}
+	static class ULUA_OVERRIDES_WBP_BuffItem_C_2147480624* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_BuffItem_C_2147480624>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_BuffItem_C_2147480624;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_Buff_C_2147480623
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_Buff_C_2147480623 final : public ULuaOverridesClass
+{
+public:
+	void OnInitialized();
 	void Construct();
 	void Destruct();
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_Buff_C_2147480623")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_Buff_C_2147480623")
+	}
+	static class ULUA_OVERRIDES_WBP_Buff_C_2147480623* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_Buff_C_2147480623>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_Buff_C_2147480623;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147480622
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147480622 final : public ULuaOverridesClass
+{
+public:
+	void Construct();
+	void Destruct();
+	void OnInitialized();
 	void OnMouseEnter(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent);
-	void OnInitialized();
+	void OnMouseLeave(const struct FPointerEvent& MouseEvent);
 
 public:
 	static class UClass* StaticClass()
 	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147479023")
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147480622")
 	}
 	static const class FName& StaticName()
 	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147479023")
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147480622")
 	}
-	static class ULUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147479023* GetDefaultObj()
+	static class ULUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147480622* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147479023>();
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147480622>();
 	}
 };
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147479023;
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147480622;
 
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_BuffEntry_C_2147479022
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_BuffEntry_C_2147480621
 // 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_BuffEntry_C_2147479022 final : public ULuaOverridesClass
+class ULUA_OVERRIDES_WBP_BuffEntry_C_2147480621 final : public ULuaOverridesClass
 {
 public:
-	void Destruct();
 	void OnInitialized();
+	void Construct();
 	void OnListItemObjectSet(class UObject* ListItemObject);
-	void Construct();
+	void Destruct();
 
 public:
 	static class UClass* StaticClass()
 	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_BuffEntry_C_2147479022")
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_BuffEntry_C_2147480621")
 	}
 	static const class FName& StaticName()
 	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_BuffEntry_C_2147479022")
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_BuffEntry_C_2147480621")
 	}
-	static class ULUA_OVERRIDES_WBP_BuffEntry_C_2147479022* GetDefaultObj()
+	static class ULUA_OVERRIDES_WBP_BuffEntry_C_2147480621* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_BuffEntry_C_2147479022>();
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_BuffEntry_C_2147480621>();
 	}
 };
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_BuffEntry_C_2147479022;
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_BuffEntry_C_2147480621;
 
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_RoleFreeEntry_C_2147479021
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_RoleFreeEntry_C_2147480620
 // 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_RoleFreeEntry_C_2147479021 final : public ULuaOverridesClass
+class ULUA_OVERRIDES_WBP_RoleFreeEntry_C_2147480620 final : public ULuaOverridesClass
 {
 public:
-	void Destruct();
 	void OnInitialized();
+	void Construct();
 	void OnListItemObjectSet(class UObject* ListItemObject);
-	void Construct();
+	void Destruct();
 
 public:
 	static class UClass* StaticClass()
 	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_RoleFreeEntry_C_2147479021")
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_RoleFreeEntry_C_2147480620")
 	}
 	static const class FName& StaticName()
 	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_RoleFreeEntry_C_2147479021")
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_RoleFreeEntry_C_2147480620")
 	}
-	static class ULUA_OVERRIDES_WBP_RoleFreeEntry_C_2147479021* GetDefaultObj()
+	static class ULUA_OVERRIDES_WBP_RoleFreeEntry_C_2147480620* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_RoleFreeEntry_C_2147479021>();
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_RoleFreeEntry_C_2147480620>();
 	}
 };
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_RoleFreeEntry_C_2147479021;
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_RoleFreeEntry_C_2147480620;
 
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_RedDot_CustomA_Panel_C_2147479020
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147480619
 // 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_RedDot_CustomA_Panel_C_2147479020 final : public ULuaOverridesClass
+class ULUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147480619 final : public ULuaOverridesClass
 {
 public:
 	void OnInitialized();
-	void Destruct();
+	void OnLuaClose();
+	void OnLuaOpen();
+	void OnLuaHide();
 	void Construct();
+	void OnLuaShow();
+	void Destruct();
+	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
 
 public:
 	static class UClass* StaticClass()
 	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_RedDot_CustomA_Panel_C_2147479020")
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147480619")
 	}
 	static const class FName& StaticName()
 	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_RedDot_CustomA_Panel_C_2147479020")
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147480619")
 	}
-	static class ULUA_OVERRIDES_WBP_RedDot_CustomA_Panel_C_2147479020* GetDefaultObj()
+	static class ULUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147480619* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_RedDot_CustomA_Panel_C_2147479020>();
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147480619>();
 	}
 };
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_RedDot_CustomA_Panel_C_2147479020;
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147480619;
 
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_CommonGoods_C_2147479019
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_RedDot_CustomA_Panel_C_2147480618
 // 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_CommonGoods_C_2147479019 final : public ULuaOverridesClass
+class ULUA_OVERRIDES_WBP_RedDot_CustomA_Panel_C_2147480618 final : public ULuaOverridesClass
 {
 public:
-	void Destruct();
 	void OnInitialized();
+	void Construct();
+	void Destruct();
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_RedDot_CustomA_Panel_C_2147480618")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_RedDot_CustomA_Panel_C_2147480618")
+	}
+	static class ULUA_OVERRIDES_WBP_RedDot_CustomA_Panel_C_2147480618* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_RedDot_CustomA_Panel_C_2147480618>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_RedDot_CustomA_Panel_C_2147480618;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_CommonGoods_C_2147480617
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_CommonGoods_C_2147480617 final : public ULuaOverridesClass
+{
+public:
+	void OnInitialized();
+	void Construct();
 	void OnListItemObjectSet(class UObject* ListItemObject);
-	void Construct();
+	void Destruct();
 	struct FEventReply OnMouseWheel(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent);
 
 public:
 	static class UClass* StaticClass()
 	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_CommonGoods_C_2147479019")
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_CommonGoods_C_2147480617")
 	}
 	static const class FName& StaticName()
 	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_CommonGoods_C_2147479019")
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_CommonGoods_C_2147480617")
 	}
-	static class ULUA_OVERRIDES_WBP_CommonGoods_C_2147479019* GetDefaultObj()
+	static class ULUA_OVERRIDES_WBP_CommonGoods_C_2147480617* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_CommonGoods_C_2147479019>();
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_CommonGoods_C_2147480617>();
 	}
 };
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_CommonGoods_C_2147479019;
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_CommonGoods_C_2147480617;
 
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ArcadeModeList_C_2147478419
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_NavigationPage_C_2147480597
 // 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_ArcadeModeList_C_2147478419 final : public ULuaOverridesClass
+class ULUA_OVERRIDES_WBP_NavigationPage_C_2147480597 final : public ULuaOverridesClass
 {
 public:
-	void OnInitialized();
-	void Destruct();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ArcadeModeList_C_2147478419")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ArcadeModeList_C_2147478419")
-	}
-	static class ULUA_OVERRIDES_WBP_ArcadeModeList_C_2147478419* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ArcadeModeList_C_2147478419>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ArcadeModeList_C_2147478419;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147479018
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147479018 final : public ULuaOverridesClass
-{
-public:
-	void Construct();
-	void OnLuaShow();
-	void OnLuaHide();
-	void OnLuaOpen();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void OnInitialized();
-	void Destruct();
-	void OnLuaClose();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147479018")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147479018")
-	}
-	static class ULUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147479018* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147479018>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147479018;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_CompetitionReminderItem_C_2147479016
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_CompetitionReminderItem_C_2147479016 final : public ULuaOverridesClass
-{
-public:
-	void Destruct();
-	void OnInitialized();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_CompetitionReminderItem_C_2147479016")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_CompetitionReminderItem_C_2147479016")
-	}
-	static class ULUA_OVERRIDES_WBP_CompetitionReminderItem_C_2147479016* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_CompetitionReminderItem_C_2147479016>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_CompetitionReminderItem_C_2147479016;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_CompetitionProgressList_C_2147479015
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_CompetitionProgressList_C_2147479015 final : public ULuaOverridesClass
-{
-public:
-	void Destruct();
-	void OnInitialized();
-	void Construct();
-	struct FEventReply OnMouseWheel(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent);
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_CompetitionProgressList_C_2147479015")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_CompetitionProgressList_C_2147479015")
-	}
-	static class ULUA_OVERRIDES_WBP_CompetitionProgressList_C_2147479015* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_CompetitionProgressList_C_2147479015>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_CompetitionProgressList_C_2147479015;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_TargetGuideStateItem_C_2147479014
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_TargetGuideStateItem_C_2147479014 final : public ULuaOverridesClass
-{
-public:
-	void Destruct();
-	void OnInitialized();
-	void OnListItemObjectSet(class UObject* ListItemObject);
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_TargetGuideStateItem_C_2147479014")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_TargetGuideStateItem_C_2147479014")
-	}
-	static class ULUA_OVERRIDES_WBP_TargetGuideStateItem_C_2147479014* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_TargetGuideStateItem_C_2147479014>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_TargetGuideStateItem_C_2147479014;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_NavigationPage_C_2147478998
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_NavigationPage_C_2147478998 final : public ULuaOverridesClass
-{
-public:
-	void OnLuaShow();
-	void OnInitialized();
-	void OnLuaHide();
-	void Construct();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void Destruct();
-	void OnLuaOpen();
-	void OnLuaClose();
 	bool CustomHandleNavAction(struct FUINavActionReply* Reply);
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_NavigationPage_C_2147478998")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_NavigationPage_C_2147478998")
-	}
-	static class ULUA_OVERRIDES_WBP_NavigationPage_C_2147478998* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_NavigationPage_C_2147478998>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_NavigationPage_C_2147478998;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_NavBarCurrencyPanel_C_2147479013
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_NavBarCurrencyPanel_C_2147479013 final : public ULuaOverridesClass
-{
-public:
+	void OnLuaHide();
+	void OnLuaOpen();
+	void Construct();
 	void Destruct();
 	void OnInitialized();
-	void Construct();
+	void OnLuaClose();
+	void OnLuaShow();
+	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
 
 public:
 	static class UClass* StaticClass()
 	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_NavBarCurrencyPanel_C_2147479013")
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_NavigationPage_C_2147480597")
 	}
 	static const class FName& StaticName()
 	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_NavBarCurrencyPanel_C_2147479013")
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_NavigationPage_C_2147480597")
 	}
-	static class ULUA_OVERRIDES_WBP_NavBarCurrencyPanel_C_2147479013* GetDefaultObj()
+	static class ULUA_OVERRIDES_WBP_NavigationPage_C_2147480597* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_NavBarCurrencyPanel_C_2147479013>();
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_NavigationPage_C_2147480597>();
 	}
 };
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_NavBarCurrencyPanel_C_2147479013;
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_NavigationPage_C_2147480597;
 
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_NavigationBarPanel_C_2147479012
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_CompetitionProgress_C_2147480616
 // 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_NavigationBarPanel_C_2147479012 final : public ULuaOverridesClass
+class ULUA_OVERRIDES_WBP_CompetitionProgress_C_2147480616 final : public ULuaOverridesClass
 {
 public:
 	void OnInitialized();
-	void OnMouseLeave(const struct FPointerEvent& MouseEvent);
+	void Construct();
+	void OnLuaItemHovered();
+	void BP_OnItemSelectionChanged(bool bIsSelected);
+	void OnListItemObjectSet(class UObject* ListItemObject);
+	void OnLuaItemUnhovered();
+	void Destruct();
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_CompetitionProgress_C_2147480616")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_CompetitionProgress_C_2147480616")
+	}
+	static class ULUA_OVERRIDES_WBP_CompetitionProgress_C_2147480616* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_CompetitionProgress_C_2147480616>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_CompetitionProgress_C_2147480616;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_CompetitionProgressList_C_2147480614
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_CompetitionProgressList_C_2147480614 final : public ULuaOverridesClass
+{
+public:
+	void OnInitialized();
+	void Construct();
+	void Destruct();
+	struct FEventReply OnMouseWheel(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent);
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_CompetitionProgressList_C_2147480614")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_CompetitionProgressList_C_2147480614")
+	}
+	static class ULUA_OVERRIDES_WBP_CompetitionProgressList_C_2147480614* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_CompetitionProgressList_C_2147480614>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_CompetitionProgressList_C_2147480614;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_TargetGuideStateItem_C_2147480613
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_TargetGuideStateItem_C_2147480613 final : public ULuaOverridesClass
+{
+public:
+	void OnInitialized();
+	void Construct();
+	void OnListItemObjectSet(class UObject* ListItemObject);
+	void Destruct();
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_TargetGuideStateItem_C_2147480613")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_TargetGuideStateItem_C_2147480613")
+	}
+	static class ULUA_OVERRIDES_WBP_TargetGuideStateItem_C_2147480613* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_TargetGuideStateItem_C_2147480613>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_TargetGuideStateItem_C_2147480613;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_NavBarCurrencyPanel_C_2147480612
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_NavBarCurrencyPanel_C_2147480612 final : public ULuaOverridesClass
+{
+public:
+	void OnInitialized();
+	void Construct();
+	void Destruct();
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_NavBarCurrencyPanel_C_2147480612")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_NavBarCurrencyPanel_C_2147480612")
+	}
+	static class ULUA_OVERRIDES_WBP_NavBarCurrencyPanel_C_2147480612* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_NavBarCurrencyPanel_C_2147480612>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_NavBarCurrencyPanel_C_2147480612;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_NavigationBarPanel_C_2147480611
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_NavigationBarPanel_C_2147480611 final : public ULuaOverridesClass
+{
+public:
+	void OnInitialized();
 	void OnMouseEnter(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent);
-	void Destruct();
 	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_NavigationBarPanel_C_2147479012")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_NavigationBarPanel_C_2147479012")
-	}
-	static class ULUA_OVERRIDES_WBP_NavigationBarPanel_C_2147479012* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_NavigationBarPanel_C_2147479012>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_NavigationBarPanel_C_2147479012;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147479011
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147479011 final : public ULuaOverridesClass
-{
-public:
-	void OnInitialized();
+	void Destruct();
 	void OnMouseLeave(const struct FPointerEvent& MouseEvent);
-	void OnMouseEnter(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent);
-	void Destruct();
-	void Construct();
 
 public:
 	static class UClass* StaticClass()
 	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147479011")
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_NavigationBarPanel_C_2147480611")
 	}
 	static const class FName& StaticName()
 	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147479011")
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_NavigationBarPanel_C_2147480611")
 	}
-	static class ULUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147479011* GetDefaultObj()
+	static class ULUA_OVERRIDES_WBP_NavigationBarPanel_C_2147480611* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147479011>();
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_NavigationBarPanel_C_2147480611>();
 	}
 };
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147479011;
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_NavigationBarPanel_C_2147480611;
 
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_RichTextKeyMappings_C_2147479010
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_RichTextKeyMappings_C_2147480609
 // 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_RichTextKeyMappings_C_2147479010 final : public ULuaOverridesClass
+class ULUA_OVERRIDES_WBP_RichTextKeyMappings_C_2147480609 final : public ULuaOverridesClass
 {
 public:
 	TArray<struct FKey> GetKeyFromSettingsByInputName(class FName InActionName, bool bGamePad);
@@ -2988,2180 +2698,336 @@ public:
 public:
 	static class UClass* StaticClass()
 	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_RichTextKeyMappings_C_2147479010")
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_RichTextKeyMappings_C_2147480609")
 	}
 	static const class FName& StaticName()
 	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_RichTextKeyMappings_C_2147479010")
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_RichTextKeyMappings_C_2147480609")
 	}
-	static class ULUA_OVERRIDES_WBP_RichTextKeyMappings_C_2147479010* GetDefaultObj()
+	static class ULUA_OVERRIDES_WBP_RichTextKeyMappings_C_2147480609* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_RichTextKeyMappings_C_2147479010>();
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_RichTextKeyMappings_C_2147480609>();
 	}
 };
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_RichTextKeyMappings_C_2147479010;
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_RichTextKeyMappings_C_2147480609;
 
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_TitlePage_C_2147477253
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_SecondaryNavBar_C_2147480608
 // 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_TitlePage_C_2147477253 final : public ULuaOverridesClass
+class ULUA_OVERRIDES_WBP_SecondaryNavBar_C_2147480608 final : public ULuaOverridesClass
 {
 public:
-	void Construct();
-	void OnLuaHide();
-	void OnLuaOpen();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void OnInitialized();
-	void Destruct();
-	void OnLuaClose();
-	void OnLuaShow();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_TitlePage_C_2147477253")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_TitlePage_C_2147477253")
-	}
-	static class ULUA_OVERRIDES_WBP_TitlePage_C_2147477253* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_TitlePage_C_2147477253>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_TitlePage_C_2147477253;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_SecondaryNavBar_C_2147479009
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_SecondaryNavBar_C_2147479009 final : public ULuaOverridesClass
-{
-public:
-	void Destruct();
-	void OnInitialized();
 	bool CustomHandleNavAction(struct FUINavActionReply* Reply);
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_SecondaryNavBar_C_2147479009")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_SecondaryNavBar_C_2147479009")
-	}
-	static class ULUA_OVERRIDES_WBP_SecondaryNavBar_C_2147479009* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_SecondaryNavBar_C_2147479009>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_SecondaryNavBar_C_2147479009;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_SelectRoleChangeListPanel_C_2147477288
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_SelectRoleChangeListPanel_C_2147477288 final : public ULuaOverridesClass
-{
-public:
-	void Construct();
-	void Destruct();
 	void OnInitialized();
+	void Destruct();
+	void Construct();
 
 public:
 	static class UClass* StaticClass()
 	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_SelectRoleChangeListPanel_C_2147477288")
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_SecondaryNavBar_C_2147480608")
 	}
 	static const class FName& StaticName()
 	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_SelectRoleChangeListPanel_C_2147477288")
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_SecondaryNavBar_C_2147480608")
 	}
-	static class ULUA_OVERRIDES_WBP_SelectRoleChangeListPanel_C_2147477288* GetDefaultObj()
+	static class ULUA_OVERRIDES_WBP_SecondaryNavBar_C_2147480608* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_SelectRoleChangeListPanel_C_2147477288>();
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_SecondaryNavBar_C_2147480608>();
 	}
 };
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_SelectRoleChangeListPanel_C_2147477288;
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_SecondaryNavBar_C_2147480608;
 
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ShorcutCurrencyPanel_C_2147479008
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ShorcutCurrencyPanel_C_2147480607
 // 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_ShorcutCurrencyPanel_C_2147479008 final : public ULuaOverridesClass
+class ULUA_OVERRIDES_WBP_ShorcutCurrencyPanel_C_2147480607 final : public ULuaOverridesClass
 {
 public:
-	void OnMouseLeave(const struct FPointerEvent& MouseEvent);
-	void Destruct();
 	void OnInitialized();
 	void OnMouseEnter(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent);
 	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ShorcutCurrencyPanel_C_2147479008")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ShorcutCurrencyPanel_C_2147479008")
-	}
-	static class ULUA_OVERRIDES_WBP_ShorcutCurrencyPanel_C_2147479008* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ShorcutCurrencyPanel_C_2147479008>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ShorcutCurrencyPanel_C_2147479008;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_SkinUpgradePanel_C_2147466430
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_SkinUpgradePanel_C_2147466430 final : public ULuaOverridesClass
-{
-public:
-	void Construct();
-	void Destruct();
-	void OnInitialized();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_SkinUpgradePanel_C_2147466430")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_SkinUpgradePanel_C_2147466430")
-	}
-	static class ULUA_OVERRIDES_WBP_SkinUpgradePanel_C_2147466430* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_SkinUpgradePanel_C_2147466430>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_SkinUpgradePanel_C_2147466430;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ShortcutTaskItem_C_2147479007
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_ShortcutTaskItem_C_2147479007 final : public ULuaOverridesClass
-{
-public:
-	void Destruct();
-	void OnInitialized();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ShortcutTaskItem_C_2147479007")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ShortcutTaskItem_C_2147479007")
-	}
-	static class ULUA_OVERRIDES_WBP_ShortcutTaskItem_C_2147479007* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ShortcutTaskItem_C_2147479007>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ShortcutTaskItem_C_2147479007;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ShortcutTaskPanel_C_2147479006
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_ShortcutTaskPanel_C_2147479006 final : public ULuaOverridesClass
-{
-public:
 	void OnMouseLeave(const struct FPointerEvent& MouseEvent);
 	void Destruct();
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ShorcutCurrencyPanel_C_2147480607")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ShorcutCurrencyPanel_C_2147480607")
+	}
+	static class ULUA_OVERRIDES_WBP_ShorcutCurrencyPanel_C_2147480607* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ShorcutCurrencyPanel_C_2147480607>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ShorcutCurrencyPanel_C_2147480607;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ShortcutTaskItem_C_2147480606
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_ShortcutTaskItem_C_2147480606 final : public ULuaOverridesClass
+{
+public:
+	void OnInitialized();
+	void Construct();
+	void Destruct();
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ShortcutTaskItem_C_2147480606")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ShortcutTaskItem_C_2147480606")
+	}
+	static class ULUA_OVERRIDES_WBP_ShortcutTaskItem_C_2147480606* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ShortcutTaskItem_C_2147480606>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ShortcutTaskItem_C_2147480606;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ShortcutTaskPanel_C_2147480605
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_ShortcutTaskPanel_C_2147480605 final : public ULuaOverridesClass
+{
+public:
+	void OnInitialized();
 	void OnMouseEnter(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent);
-	void OnInitialized();
+	void OnMouseLeave(const struct FPointerEvent& MouseEvent);
 	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ShortcutTaskPanel_C_2147479006")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ShortcutTaskPanel_C_2147479006")
-	}
-	static class ULUA_OVERRIDES_WBP_ShortcutTaskPanel_C_2147479006* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ShortcutTaskPanel_C_2147479006>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ShortcutTaskPanel_C_2147479006;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_MapDataDownloadButton_C_2147478313
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_MapDataDownloadButton_C_2147478313 final : public ULuaOverridesClass
-{
-public:
-	void OnInitialized();
 	void Destruct();
-	void Construct();
 
 public:
 	static class UClass* StaticClass()
 	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_MapDataDownloadButton_C_2147478313")
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ShortcutTaskPanel_C_2147480605")
 	}
 	static const class FName& StaticName()
 	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_MapDataDownloadButton_C_2147478313")
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ShortcutTaskPanel_C_2147480605")
 	}
-	static class ULUA_OVERRIDES_WBP_MapDataDownloadButton_C_2147478313* GetDefaultObj()
+	static class ULUA_OVERRIDES_WBP_ShortcutTaskPanel_C_2147480605* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_MapDataDownloadButton_C_2147478313>();
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ShortcutTaskPanel_C_2147480605>();
 	}
 };
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_MapDataDownloadButton_C_2147478313;
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ShortcutTaskPanel_C_2147480605;
 
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_SecondaryNavBar_MoreItem_C_2147479004
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147480604
 // 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_SecondaryNavBar_MoreItem_C_2147479004 final : public ULuaOverridesClass
-{
-public:
-	void Destruct();
-	void OnInitialized();
-	void OnListItemObjectSet(class UObject* ListItemObject);
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_SecondaryNavBar_MoreItem_C_2147479004")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_SecondaryNavBar_MoreItem_C_2147479004")
-	}
-	static class ULUA_OVERRIDES_WBP_SecondaryNavBar_MoreItem_C_2147479004* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_SecondaryNavBar_MoreItem_C_2147479004>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_SecondaryNavBar_MoreItem_C_2147479004;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_SecondaryNavBar_MoreList_C_2147479003
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_SecondaryNavBar_MoreList_C_2147479003 final : public ULuaOverridesClass
-{
-public:
-	void Destruct();
-	void OnInitialized();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_SecondaryNavBar_MoreList_C_2147479003")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_SecondaryNavBar_MoreList_C_2147479003")
-	}
-	static class ULUA_OVERRIDES_WBP_SecondaryNavBar_MoreList_C_2147479003* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_SecondaryNavBar_MoreList_C_2147479003>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_SecondaryNavBar_MoreList_C_2147479003;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_TargetGuideEntrance_C_2147479002
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_TargetGuideEntrance_C_2147479002 final : public ULuaOverridesClass
+class ULUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147480604 final : public ULuaOverridesClass
 {
 public:
 	void OnInitialized();
-	void Destruct();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_TargetGuideEntrance_C_2147479002")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_TargetGuideEntrance_C_2147479002")
-	}
-	static class ULUA_OVERRIDES_WBP_TargetGuideEntrance_C_2147479002* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_TargetGuideEntrance_C_2147479002>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_TargetGuideEntrance_C_2147479002;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147479001
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147479001 final : public ULuaOverridesClass
-{
-public:
+	void OnLuaClose();
+	void OnLuaOpen();
+	void OnLuaHide();
 	void Construct();
 	void OnLuaShow();
-	void OnLuaHide();
-	void OnLuaOpen();
+	void Destruct();
 	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147480604")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147480604")
+	}
+	static class ULUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147480604* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147480604>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147480604;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_SecondaryNavBar_MoreList_C_2147480602
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_SecondaryNavBar_MoreList_C_2147480602 final : public ULuaOverridesClass
+{
+public:
 	void OnInitialized();
+	void Construct();
 	void Destruct();
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_SecondaryNavBar_MoreList_C_2147480602")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_SecondaryNavBar_MoreList_C_2147480602")
+	}
+	static class ULUA_OVERRIDES_WBP_SecondaryNavBar_MoreList_C_2147480602* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_SecondaryNavBar_MoreList_C_2147480602>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_SecondaryNavBar_MoreList_C_2147480602;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_TargetGuideEntrance_C_2147480601
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_TargetGuideEntrance_C_2147480601 final : public ULuaOverridesClass
+{
+public:
+	void OnInitialized();
+	void Construct();
+	void Destruct();
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_TargetGuideEntrance_C_2147480601")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_TargetGuideEntrance_C_2147480601")
+	}
+	static class ULUA_OVERRIDES_WBP_TargetGuideEntrance_C_2147480601* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_TargetGuideEntrance_C_2147480601>();
+	}
+};
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_TargetGuideEntrance_C_2147480601;
+
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147480600
+// 0x0000 (0x0260 - 0x0260)
+class ULUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147480600 final : public ULuaOverridesClass
+{
+public:
+	void OnInitialized();
 	void OnLuaClose();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147479001")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147479001")
-	}
-	static class ULUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147479001* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147479001>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147479001;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ItemDescWithHeadPanel_C_2147466424
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_ItemDescWithHeadPanel_C_2147466424 final : public ULuaOverridesClass
-{
-public:
+	void OnLuaOpen();
 	void Construct();
-	void OnInitialized();
+	void OnLuaShow();
 	void Destruct();
+	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
+	void OnLuaHide();
 
 public:
 	static class UClass* StaticClass()
 	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ItemDescWithHeadPanel_C_2147466424")
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147480600")
 	}
 	static const class FName& StaticName()
 	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ItemDescWithHeadPanel_C_2147466424")
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147480600")
 	}
-	static class ULUA_OVERRIDES_WBP_ItemDescWithHeadPanel_C_2147466424* GetDefaultObj()
+	static class ULUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147480600* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ItemDescWithHeadPanel_C_2147466424>();
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147480600>();
 	}
 };
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ItemDescWithHeadPanel_C_2147466424;
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147480600;
 
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_RoomModeSelectBtn_C_2147478416
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_CompetitionReminder_C_2147480599
 // 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_RoomModeSelectBtn_C_2147478416 final : public ULuaOverridesClass
+class ULUA_OVERRIDES_WBP_CompetitionReminder_C_2147480599 final : public ULuaOverridesClass
 {
 public:
-	void Destruct();
-	void Construct();
-	void OnInitialized();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_RoomModeSelectBtn_C_2147478416")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_RoomModeSelectBtn_C_2147478416")
-	}
-	static class ULUA_OVERRIDES_WBP_RoomModeSelectBtn_C_2147478416* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_RoomModeSelectBtn_C_2147478416>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_RoomModeSelectBtn_C_2147478416;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_CompetitionReminder_C_2147479000
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_CompetitionReminder_C_2147479000 final : public ULuaOverridesClass
-{
-public:
-	void Destruct();
 	void OnInitialized();
 	void Construct();
 	struct FEventReply OnMouseWheel(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent);
+	void Destruct();
 
 public:
 	static class UClass* StaticClass()
 	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_CompetitionReminder_C_2147479000")
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_CompetitionReminder_C_2147480599")
 	}
 	static const class FName& StaticName()
 	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_CompetitionReminder_C_2147479000")
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_CompetitionReminder_C_2147480599")
 	}
-	static class ULUA_OVERRIDES_WBP_CompetitionReminder_C_2147479000* GetDefaultObj()
+	static class ULUA_OVERRIDES_WBP_CompetitionReminder_C_2147480599* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_CompetitionReminder_C_2147479000>();
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_CompetitionReminder_C_2147480599>();
 	}
 };
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_CompetitionReminder_C_2147479000;
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_CompetitionReminder_C_2147480599;
 
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_BannerCellPanel_C_2147478999
+// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_BannerCellPanel_C_2147480598
 // 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_BannerCellPanel_C_2147478999 final : public ULuaOverridesClass
+class ULUA_OVERRIDES_WBP_BannerCellPanel_C_2147480598 final : public ULuaOverridesClass
 {
 public:
-	void Construct();
 	struct FEventReply OnMouseWheel(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent);
-	void Destruct();
-	void OnInitialized();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_BannerCellPanel_C_2147478999")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_BannerCellPanel_C_2147478999")
-	}
-	static class ULUA_OVERRIDES_WBP_BannerCellPanel_C_2147478999* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_BannerCellPanel_C_2147478999>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_BannerCellPanel_C_2147478999;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_LotteryDisplay_Resident_SelectUp_C_2147466809
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_LotteryDisplay_Resident_SelectUp_C_2147466809 final : public ULuaOverridesClass
-{
-public:
-	void Construct();
-	void OnInitialized();
-	void Destruct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_LotteryDisplay_Resident_SelectUp_C_2147466809")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_LotteryDisplay_Resident_SelectUp_C_2147466809")
-	}
-	static class ULUA_OVERRIDES_WBP_LotteryDisplay_Resident_SelectUp_C_2147466809* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_LotteryDisplay_Resident_SelectUp_C_2147466809>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_LotteryDisplay_Resident_SelectUp_C_2147466809;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147478439
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147478439 final : public ULuaOverridesClass
-{
-public:
-	void OnLuaClose();
-	void OnLuaHide();
-	void Construct();
-	void OnLuaOpen();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void Destruct();
-	void OnLuaShow();
-	bool CustomHandleNavAction(struct FUINavActionReply* Reply);
-	void OnInitialized();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147478439")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147478439")
-	}
-	static class ULUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147478439* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147478439>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147478439;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_HumanMachineModeListItem_C_2147478422
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_HumanMachineModeListItem_C_2147478422 final : public ULuaOverridesClass
-{
-public:
-	void Destruct();
-	void OnInitialized();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_HumanMachineModeListItem_C_2147478422")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_HumanMachineModeListItem_C_2147478422")
-	}
-	static class ULUA_OVERRIDES_WBP_HumanMachineModeListItem_C_2147478422* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_HumanMachineModeListItem_C_2147478422>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_HumanMachineModeListItem_C_2147478422;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_HumanMachineModeList_C_2147478421
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_HumanMachineModeList_C_2147478421 final : public ULuaOverridesClass
-{
-public:
-	void Destruct();
-	void OnInitialized();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_HumanMachineModeList_C_2147478421")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_HumanMachineModeList_C_2147478421")
-	}
-	static class ULUA_OVERRIDES_WBP_HumanMachineModeList_C_2147478421* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_HumanMachineModeList_C_2147478421>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_HumanMachineModeList_C_2147478421;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ArcadeModeListItem_C_2147478420
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_ArcadeModeListItem_C_2147478420 final : public ULuaOverridesClass
-{
-public:
-	void Destruct();
-	struct FEventReply OnMouseButtonDown(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent);
-	void OnInitialized();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ArcadeModeListItem_C_2147478420")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ArcadeModeListItem_C_2147478420")
-	}
-	static class ULUA_OVERRIDES_WBP_ArcadeModeListItem_C_2147478420* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ArcadeModeListItem_C_2147478420>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ArcadeModeListItem_C_2147478420;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_SelectModeItem_C_2147478418
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_SelectModeItem_C_2147478418 final : public ULuaOverridesClass
-{
-public:
-	void Destruct();
-	struct FEventReply OnMouseButtonDown(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent);
-	void OnInitialized();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_SelectModeItem_C_2147478418")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_SelectModeItem_C_2147478418")
-	}
-	static class ULUA_OVERRIDES_WBP_SelectModeItem_C_2147478418* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_SelectModeItem_C_2147478418>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_SelectModeItem_C_2147478418;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_RankCard_C_2147478311
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_RankCard_C_2147478311 final : public ULuaOverridesClass
-{
-public:
-	void OnInitialized();
 	void Construct();
 	void Destruct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_RankCard_C_2147478311")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_RankCard_C_2147478311")
-	}
-	static class ULUA_OVERRIDES_WBP_RankCard_C_2147478311* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_RankCard_C_2147478311>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_RankCard_C_2147478311;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_RoomNetworkPanel_C_2147478309
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_RoomNetworkPanel_C_2147478309 final : public ULuaOverridesClass
-{
-public:
-	void OnInitialized();
-	void Destruct();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_RoomNetworkPanel_C_2147478309")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_RoomNetworkPanel_C_2147478309")
-	}
-	static class ULUA_OVERRIDES_WBP_RoomNetworkPanel_C_2147478309* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_RoomNetworkPanel_C_2147478309>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_RoomNetworkPanel_C_2147478309;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ActivityTask_C_2147478307
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_ActivityTask_C_2147478307 final : public ULuaOverridesClass
-{
-public:
-	void OnInitialized();
-	void Destruct();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ActivityTask_C_2147478307")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ActivityTask_C_2147478307")
-	}
-	static class ULUA_OVERRIDES_WBP_ActivityTask_C_2147478307* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ActivityTask_C_2147478307>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ActivityTask_C_2147478307;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_RoomOperations_C_2147478306
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_RoomOperations_C_2147478306 final : public ULuaOverridesClass
-{
-public:
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void Destruct();
-	void OnInitialized();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_RoomOperations_C_2147478306")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_RoomOperations_C_2147478306")
-	}
-	static class ULUA_OVERRIDES_WBP_RoomOperations_C_2147478306* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_RoomOperations_C_2147478306>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_RoomOperations_C_2147478306;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_NetMainPanel_C_2147478305
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_NetMainPanel_C_2147478305 final : public ULuaOverridesClass
-{
-public:
-	void OnInitialized();
-	void OnMouseLeave(const struct FPointerEvent& MouseEvent);
-	void Destruct();
-	void OnMouseEnter(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent);
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_NetMainPanel_C_2147478305")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_NetMainPanel_C_2147478305")
-	}
-	static class ULUA_OVERRIDES_WBP_NetMainPanel_C_2147478305* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_NetMainPanel_C_2147478305>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_NetMainPanel_C_2147478305;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_SkinUpgradeItem_C_2147466431
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_SkinUpgradeItem_C_2147466431 final : public ULuaOverridesClass
-{
-public:
-	void OnLuaItemUnhovered();
-	void Destruct();
-	void OnLuaItemClick();
-	void OnLuaItemHovered();
-	void Construct();
 	void OnInitialized();
 
 public:
 	static class UClass* StaticClass()
 	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_SkinUpgradeItem_C_2147466431")
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_BannerCellPanel_C_2147480598")
 	}
 	static const class FName& StaticName()
 	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_SkinUpgradeItem_C_2147466431")
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_BannerCellPanel_C_2147480598")
 	}
-	static class ULUA_OVERRIDES_WBP_SkinUpgradeItem_C_2147466431* GetDefaultObj()
+	static class ULUA_OVERRIDES_WBP_BannerCellPanel_C_2147480598* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_SkinUpgradeItem_C_2147466431>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_SkinUpgradeItem_C_2147466431;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_NetPanel_C_2147478304
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_NetPanel_C_2147478304 final : public ULuaOverridesClass
-{
-public:
-	void Destruct();
-	void OnListItemObjectSet(class UObject* ListItemObject);
-	void OnInitialized();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_NetPanel_C_2147478304")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_NetPanel_C_2147478304")
-	}
-	static class ULUA_OVERRIDES_WBP_NetPanel_C_2147478304* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_NetPanel_C_2147478304>();
+		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_BannerCellPanel_C_2147480598>();
 	}
 };
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_NetPanel_C_2147478304;
+DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_BannerCellPanel_C_2147480598;
 
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_NetItem_C_2147478303
+// LuaOverridesClass Transient.LUA_OVERRIDES_BP_SpectatorPlayerController_C_2147471454
 // 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_NetItem_C_2147478303 final : public ULuaOverridesClass
+class ULUA_OVERRIDES_BP_SpectatorPlayerController_C_2147471454 final : public ULuaOverridesClass
 {
 public:
-	void Destruct();
-	struct FEventReply OnMouseButtonDown(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent);
-	void OnLuaItemHovered();
-	void OnLuaItemUnhovered();
-	void OnListItemObjectSet(class UObject* ListItemObject);
-	void OnInitialized();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_NetItem_C_2147478303")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_NetItem_C_2147478303")
-	}
-	static class ULUA_OVERRIDES_WBP_NetItem_C_2147478303* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_NetItem_C_2147478303>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_NetItem_C_2147478303;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_MatchRoom_C_2147478302
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_MatchRoom_C_2147478302 final : public ULuaOverridesClass
-{
-public:
-	void OnLuaShow();
-	void OnLuaHide();
-	void Construct();
-	void OnLuaClose();
-	void Destruct();
-	void OnInitialized();
-	void OnLuaOpen();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_MatchRoom_C_2147478302")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_MatchRoom_C_2147478302")
-	}
-	static class ULUA_OVERRIDES_WBP_MatchRoom_C_2147478302* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_MatchRoom_C_2147478302>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_MatchRoom_C_2147478302;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_LotteryDisplay_AwardProItem_Id20_C_2147466783
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_LotteryDisplay_AwardProItem_Id20_C_2147466783 final : public ULuaOverridesClass
-{
-public:
-	void Construct();
-	void OnInitialized();
-	void Destruct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_LotteryDisplay_AwardProItem_Id20_C_2147466783")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_LotteryDisplay_AwardProItem_Id20_C_2147466783")
-	}
-	static class ULUA_OVERRIDES_WBP_LotteryDisplay_AwardProItem_Id20_C_2147466783* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_LotteryDisplay_AwardProItem_Id20_C_2147466783>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_LotteryDisplay_AwardProItem_Id20_C_2147466783;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_LotteryDisplay_Id25_C_2147466784
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_LotteryDisplay_Id25_C_2147466784 final : public ULuaOverridesClass
-{
-public:
-	void Construct();
-	void OnInitialized();
-	void Destruct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_LotteryDisplay_Id25_C_2147466784")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_LotteryDisplay_Id25_C_2147466784")
-	}
-	static class ULUA_OVERRIDES_WBP_LotteryDisplay_Id25_C_2147466784* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_LotteryDisplay_Id25_C_2147466784>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_LotteryDisplay_Id25_C_2147466784;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_SelectRoleWeaponMainItem_C_2147477290
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_SelectRoleWeaponMainItem_C_2147477290 final : public ULuaOverridesClass
-{
-public:
-	void Destruct();
-	void OnInitialized();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_SelectRoleWeaponMainItem_C_2147477290")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_SelectRoleWeaponMainItem_C_2147477290")
-	}
-	static class ULUA_OVERRIDES_WBP_SelectRoleWeaponMainItem_C_2147477290* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_SelectRoleWeaponMainItem_C_2147477290>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_SelectRoleWeaponMainItem_C_2147477290;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_SelectRoleChangeSkinAdvanceList_C_2147477289
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_SelectRoleChangeSkinAdvanceList_C_2147477289 final : public ULuaOverridesClass
-{
-public:
-	void Construct();
-	void OnLuaHide();
-	void OnLuaOpen();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void OnInitialized();
-	void OnLuaShow();
-	void Destruct();
-	void OnLuaClose();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_SelectRoleChangeSkinAdvanceList_C_2147477289")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_SelectRoleChangeSkinAdvanceList_C_2147477289")
-	}
-	static class ULUA_OVERRIDES_WBP_SelectRoleChangeSkinAdvanceList_C_2147477289* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_SelectRoleChangeSkinAdvanceList_C_2147477289>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_SelectRoleChangeSkinAdvanceList_C_2147477289;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_SelectRoleWeaponPanel_C_2147477287
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_SelectRoleWeaponPanel_C_2147477287 final : public ULuaOverridesClass
-{
-public:
-	void OnLuaClose();
-	void OnLuaHide();
-	void Construct();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void OnInitialized();
-	void Destruct();
-	void OnLuaShow();
-	void OnLuaOpen();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_SelectRoleWeaponPanel_C_2147477287")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_SelectRoleWeaponPanel_C_2147477287")
-	}
-	static class ULUA_OVERRIDES_WBP_SelectRoleWeaponPanel_C_2147477287* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_SelectRoleWeaponPanel_C_2147477287>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_SelectRoleWeaponPanel_C_2147477287;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_SelectRoleChangeSkinPanel_C_2147477286
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_SelectRoleChangeSkinPanel_C_2147477286 final : public ULuaOverridesClass
-{
-public:
-	void OnLuaShow();
-	void OnLuaClose();
-	void OnInitialized();
-	void OnLuaHide();
-	void Construct();
-	void OnLuaOpen();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void Destruct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_SelectRoleChangeSkinPanel_C_2147477286")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_SelectRoleChangeSkinPanel_C_2147477286")
-	}
-	static class ULUA_OVERRIDES_WBP_SelectRoleChangeSkinPanel_C_2147477286* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_SelectRoleChangeSkinPanel_C_2147477286>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_SelectRoleChangeSkinPanel_C_2147477286;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_SelectRoleDetailPanel_C_2147477285
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_SelectRoleDetailPanel_C_2147477285 final : public ULuaOverridesClass
-{
-public:
-	void Construct();
-	void OnLuaHide();
-	void OnLuaOpen();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void OnInitialized();
-	void Destruct();
-	void OnLuaShow();
-	void OnLuaClose();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_SelectRoleDetailPanel_C_2147477285")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_SelectRoleDetailPanel_C_2147477285")
-	}
-	static class ULUA_OVERRIDES_WBP_SelectRoleDetailPanel_C_2147477285* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_SelectRoleDetailPanel_C_2147477285>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_SelectRoleDetailPanel_C_2147477285;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_SelectRoleListPanel_C_2147477284
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_SelectRoleListPanel_C_2147477284 final : public ULuaOverridesClass
-{
-public:
-	void OnLuaClose();
-	void OnInitialized();
-	void OnLuaHide();
-	void Construct();
-	void OnLuaOpen();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void Destruct();
-	bool LuaOnNavigation(const EUINavigation& UINavigationType);
-	void OnLuaShow();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_SelectRoleListPanel_C_2147477284")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_SelectRoleListPanel_C_2147477284")
-	}
-	static class ULUA_OVERRIDES_WBP_SelectRoleListPanel_C_2147477284* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_SelectRoleListPanel_C_2147477284>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_SelectRoleListPanel_C_2147477284;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_SelectRoleRedSkinButton_C_2147477283
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_SelectRoleRedSkinButton_C_2147477283 final : public ULuaOverridesClass
-{
-public:
-	void Construct();
-	void OnLuaHide();
-	void OnLuaOpen();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void OnInitialized();
-	void Destruct();
-	void OnLuaShow();
-	void OnLuaClose();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_SelectRoleRedSkinButton_C_2147477283")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_SelectRoleRedSkinButton_C_2147477283")
-	}
-	static class ULUA_OVERRIDES_WBP_SelectRoleRedSkinButton_C_2147477283* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_SelectRoleRedSkinButton_C_2147477283>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_SelectRoleRedSkinButton_C_2147477283;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_SelectRoleCardIllustrationsListItem_C_2147477282
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_SelectRoleCardIllustrationsListItem_C_2147477282 final : public ULuaOverridesClass
-{
-public:
-	void Destruct();
-	void OnInitialized();
-	void OnListItemObjectSet(class UObject* ListItemObject);
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_SelectRoleCardIllustrationsListItem_C_2147477282")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_SelectRoleCardIllustrationsListItem_C_2147477282")
-	}
-	static class ULUA_OVERRIDES_WBP_SelectRoleCardIllustrationsListItem_C_2147477282* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_SelectRoleCardIllustrationsListItem_C_2147477282>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_SelectRoleCardIllustrationsListItem_C_2147477282;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_SelectRoleCardIllustrationsBtn_C_2147477254
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_SelectRoleCardIllustrationsBtn_C_2147477254 final : public ULuaOverridesClass
-{
-public:
-	void OnInitialized();
-	void Destruct();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_SelectRoleCardIllustrationsBtn_C_2147477254")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_SelectRoleCardIllustrationsBtn_C_2147477254")
-	}
-	static class ULUA_OVERRIDES_WBP_SelectRoleCardIllustrationsBtn_C_2147477254* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_SelectRoleCardIllustrationsBtn_C_2147477254>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_SelectRoleCardIllustrationsBtn_C_2147477254;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_SelectPlayerShowSkin_C_2147477252
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_SelectPlayerShowSkin_C_2147477252 final : public ULuaOverridesClass
-{
-public:
-	void Construct();
-	void OnLuaShow();
-	void OnLuaHide();
-	void OnLuaOpen();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void OnInitialized();
-	void Destruct();
-	void OnLuaClose();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_SelectPlayerShowSkin_C_2147477252")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_SelectPlayerShowSkin_C_2147477252")
-	}
-	static class ULUA_OVERRIDES_WBP_SelectPlayerShowSkin_C_2147477252* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_SelectPlayerShowSkin_C_2147477252>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_SelectPlayerShowSkin_C_2147477252;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_SelectPlayerShareSkinTips_C_2147477250
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_SelectPlayerShareSkinTips_C_2147477250 final : public ULuaOverridesClass
-{
-public:
-	void Construct();
-	void OnLuaHide();
-	void OnLuaOpen();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void OnInitialized();
-	void Destruct();
-	void OnLuaShow();
-	void OnLuaClose();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_SelectPlayerShareSkinTips_C_2147477250")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_SelectPlayerShareSkinTips_C_2147477250")
-	}
-	static class ULUA_OVERRIDES_WBP_SelectPlayerShareSkinTips_C_2147477250* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_SelectPlayerShareSkinTips_C_2147477250>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_SelectPlayerShareSkinTips_C_2147477250;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_SelectPlayerChangeRole_C_2147477249
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_SelectPlayerChangeRole_C_2147477249 final : public ULuaOverridesClass
-{
-public:
-	void OnLuaShow();
-	void OnLuaClose();
-	void OnInitialized();
-	void OnLuaHide();
-	void Construct();
-	void OnLuaOpen();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void Destruct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_SelectPlayerChangeRole_C_2147477249")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_SelectPlayerChangeRole_C_2147477249")
-	}
-	static class ULUA_OVERRIDES_WBP_SelectPlayerChangeRole_C_2147477249* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_SelectPlayerChangeRole_C_2147477249>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_SelectPlayerChangeRole_C_2147477249;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_SelectPlayerBumpTip_C_2147477248
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_SelectPlayerBumpTip_C_2147477248 final : public ULuaOverridesClass
-{
-public:
-	void Construct();
-	void OnLuaShow();
-	void OnLuaHide();
-	void OnLuaOpen();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void OnInitialized();
-	void Destruct();
-	void OnLuaClose();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_SelectPlayerBumpTip_C_2147477248")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_SelectPlayerBumpTip_C_2147477248")
-	}
-	static class ULUA_OVERRIDES_WBP_SelectPlayerBumpTip_C_2147477248* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_SelectPlayerBumpTip_C_2147477248>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_SelectPlayerBumpTip_C_2147477248;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_SelectPlayerItem_C_2147477247
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_SelectPlayerItem_C_2147477247 final : public ULuaOverridesClass
-{
-public:
-	void OnLuaShow();
-	void OnLuaClose();
-	void OnLuaHide();
-	void Construct();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void Destruct();
-	void OnInitialized();
-	void OnLuaOpen();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_SelectPlayerItem_C_2147477247")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_SelectPlayerItem_C_2147477247")
-	}
-	static class ULUA_OVERRIDES_WBP_SelectPlayerItem_C_2147477247* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_SelectPlayerItem_C_2147477247>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_SelectPlayerItem_C_2147477247;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_SelectRoleRoomInfo_C_2147477246
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_SelectRoleRoomInfo_C_2147477246 final : public ULuaOverridesClass
-{
-public:
-	void Construct();
-	void OnLuaHide();
-	void OnLuaOpen();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void OnInitialized();
-	void Destruct();
-	void OnLuaClose();
-	void OnLuaShow();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_SelectRoleRoomInfo_C_2147477246")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_SelectRoleRoomInfo_C_2147477246")
-	}
-	static class ULUA_OVERRIDES_WBP_SelectRoleRoomInfo_C_2147477246* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_SelectRoleRoomInfo_C_2147477246>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_SelectRoleRoomInfo_C_2147477246;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_SelectRoleCardIllustrations_C_2147477245
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_SelectRoleCardIllustrations_C_2147477245 final : public ULuaOverridesClass
-{
-public:
-	void Construct();
-	void OnLuaHide();
-	void OnLuaOpen();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void OnInitialized();
-	void Destruct();
-	void OnLuaShow();
-	void OnLuaClose();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_SelectRoleCardIllustrations_C_2147477245")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_SelectRoleCardIllustrations_C_2147477245")
-	}
-	static class ULUA_OVERRIDES_WBP_SelectRoleCardIllustrations_C_2147477245* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_SelectRoleCardIllustrations_C_2147477245>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_SelectRoleCardIllustrations_C_2147477245;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_SelectPlayerList_C_2147477244
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_SelectPlayerList_C_2147477244 final : public ULuaOverridesClass
-{
-public:
-	void Construct();
-	void OnLuaHide();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void OnInitialized();
-	void Destruct();
-	void OnLuaShow();
-	void OnLuaClose();
-	void OnLuaOpen();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_SelectPlayerList_C_2147477244")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_SelectPlayerList_C_2147477244")
-	}
-	static class ULUA_OVERRIDES_WBP_SelectPlayerList_C_2147477244* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_SelectPlayerList_C_2147477244>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_SelectPlayerList_C_2147477244;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_SelectRoleBombPage_C_2147477243
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_SelectRoleBombPage_C_2147477243 final : public ULuaOverridesClass
-{
-public:
-	bool LuaOnNavigation(const EUINavigation& UINavigationType);
-	void OnLuaClose();
-	void OnLuaHide();
-	void Construct();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void Destruct();
-	struct FEventReply OnMouseMove(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent);
-	void OnLuaShow();
-	void OnLuaOpen();
-	void OnInitialized();
-	void HideOrShowAllPage(bool bShowCharacterOnly);
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_SelectRoleBombPage_C_2147477243")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_SelectRoleBombPage_C_2147477243")
-	}
-	static class ULUA_OVERRIDES_WBP_SelectRoleBombPage_C_2147477243* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_SelectRoleBombPage_C_2147477243>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_SelectRoleBombPage_C_2147477243;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_SelectRoleChangeSkinListItem_C_2147477242
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_SelectRoleChangeSkinListItem_C_2147477242 final : public ULuaOverridesClass
-{
-public:
-	void Construct();
-	void OnLuaHide();
-	void OnLuaOpen();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void OnInitialized();
-	void Destruct();
-	void OnLuaShow();
-	void OnLuaClose();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_SelectRoleChangeSkinListItem_C_2147477242")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_SelectRoleChangeSkinListItem_C_2147477242")
-	}
-	static class ULUA_OVERRIDES_WBP_SelectRoleChangeSkinListItem_C_2147477242* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_SelectRoleChangeSkinListItem_C_2147477242>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_SelectRoleChangeSkinListItem_C_2147477242;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_SelectRoleCustomSkinPanel_C_2147477241
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_SelectRoleCustomSkinPanel_C_2147477241 final : public ULuaOverridesClass
-{
-public:
-	void Construct();
-	void OnLuaShow();
-	void OnLuaHide();
-	void OnLuaOpen();
-	bool LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent);
-	void OnInitialized();
-	void Destruct();
-	void OnLuaClose();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_SelectRoleCustomSkinPanel_C_2147477241")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_SelectRoleCustomSkinPanel_C_2147477241")
-	}
-	static class ULUA_OVERRIDES_WBP_SelectRoleCustomSkinPanel_C_2147477241* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_SelectRoleCustomSkinPanel_C_2147477241>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_SelectRoleCustomSkinPanel_C_2147477241;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_SelectRoletChangeSkinPanelListItem_C_2147477240
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_SelectRoletChangeSkinPanelListItem_C_2147477240 final : public ULuaOverridesClass
-{
-public:
-	void BP_OnItemSelectionChanged(bool bIsSelected);
-	void Construct();
-	void OnLuaItemHovered();
-	void OnInitialized();
-	void OnListItemObjectSet(class UObject* ListItemObject);
-	void OnLuaItemDoubleClick();
-	void OnLuaItemClick();
-	void OnDragDetected(const struct FGeometry& MyGeometry, const struct FPointerEvent& PointerEvent, class UDragDropOperation** Operation);
-	void Destruct();
-	struct FEventReply OnMouseButtonDown(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent);
-	void OnLuaItemUnhovered();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_SelectRoletChangeSkinPanelListItem_C_2147477240")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_SelectRoletChangeSkinPanelListItem_C_2147477240")
-	}
-	static class ULUA_OVERRIDES_WBP_SelectRoletChangeSkinPanelListItem_C_2147477240* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_SelectRoletChangeSkinPanelListItem_C_2147477240>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_SelectRoletChangeSkinPanelListItem_C_2147477240;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_SelectRoleListItem_C_2147477238
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_SelectRoleListItem_C_2147477238 final : public ULuaOverridesClass
-{
-public:
-	void Destruct();
-	void OnInitialized();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_SelectRoleListItem_C_2147477238")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_SelectRoleListItem_C_2147477238")
-	}
-	static class ULUA_OVERRIDES_WBP_SelectRoleListItem_C_2147477238* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_SelectRoleListItem_C_2147477238>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_SelectRoleListItem_C_2147477238;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_SelectRoleWeaponSubItemShort_C_2147477237
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_SelectRoleWeaponSubItemShort_C_2147477237 final : public ULuaOverridesClass
-{
-public:
-	void Destruct();
-	void OnInitialized();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_SelectRoleWeaponSubItemShort_C_2147477237")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_SelectRoleWeaponSubItemShort_C_2147477237")
-	}
-	static class ULUA_OVERRIDES_WBP_SelectRoleWeaponSubItemShort_C_2147477237* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_SelectRoleWeaponSubItemShort_C_2147477237>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_SelectRoleWeaponSubItemShort_C_2147477237;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_SelectRoleWeaponSubItemLong_C_2147477236
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_SelectRoleWeaponSubItemLong_C_2147477236 final : public ULuaOverridesClass
-{
-public:
-	void Destruct();
-	void OnInitialized();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_SelectRoleWeaponSubItemLong_C_2147477236")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_SelectRoleWeaponSubItemLong_C_2147477236")
-	}
-	static class ULUA_OVERRIDES_WBP_SelectRoleWeaponSubItemLong_C_2147477236* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_SelectRoleWeaponSubItemLong_C_2147477236>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_SelectRoleWeaponSubItemLong_C_2147477236;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_DragItem_C_2147477235
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_DragItem_C_2147477235 final : public ULuaOverridesClass
-{
-public:
-	void Destruct();
-	void OnInitialized();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_DragItem_C_2147477235")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_DragItem_C_2147477235")
-	}
-	static class ULUA_OVERRIDES_WBP_DragItem_C_2147477235* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_DragItem_C_2147477235>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_DragItem_C_2147477235;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_BP_SpectatorPlayerController_C_2147460577
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_BP_SpectatorPlayerController_C_2147460577 final : public ULuaOverridesClass
-{
-public:
-	bool IsFriendOrRoomMember(int64 InPlayerId_IsFriendOrRoomMember);
-	bool CamparePlayer(int64 InPlayerId_1_CamparePlayer, int64 InPlayerId_2_CamparePlayer, uint8 InPlayerSerial_1_CamparePlayer, uint8 InPlayerSerial_2_CamparePlayer);
 	void ReceiveEndPlay(EEndPlayReason EndPlayReason_ReceiveEndPlay);
 	void ReceiveBeginPlay();
+	bool CamparePlayer(int64 InPlayerId_1_CamparePlayer, int64 InPlayerId_2_CamparePlayer, uint8 InPlayerSerial_1_CamparePlayer, uint8 InPlayerSerial_2_CamparePlayer);
+	bool IsFriendOrRoomMember(int64 InPlayerId_IsFriendOrRoomMember);
 
 public:
 	static class UClass* StaticClass()
 	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_BP_SpectatorPlayerController_C_2147460577")
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_BP_SpectatorPlayerController_C_2147471454")
 	}
 	static const class FName& StaticName()
 	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_BP_SpectatorPlayerController_C_2147460577")
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_BP_SpectatorPlayerController_C_2147471454")
 	}
-	static class ULUA_OVERRIDES_BP_SpectatorPlayerController_C_2147460577* GetDefaultObj()
+	static class ULUA_OVERRIDES_BP_SpectatorPlayerController_C_2147471454* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_BP_SpectatorPlayerController_C_2147460577>();
+		return GetDefaultObjImpl<ULUA_OVERRIDES_BP_SpectatorPlayerController_C_2147471454>();
 	}
 };
-DUMPER7_ASSERTS_ULUA_OVERRIDES_BP_SpectatorPlayerController_C_2147460577;
+DUMPER7_ASSERTS_ULUA_OVERRIDES_BP_SpectatorPlayerController_C_2147471454;
 
-// LuaOverridesClass Transient.LUA_OVERRIDES_BP_PMPlayerController_BombMatch_C_2147460578
+// LuaOverridesClass Transient.LUA_OVERRIDES_BP_PMPlayerController_BombMatch_C_2147471455
 // 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_BP_PMPlayerController_BombMatch_C_2147460578 final : public ULuaOverridesClass
+class ULUA_OVERRIDES_BP_PMPlayerController_BombMatch_C_2147471455 final : public ULuaOverridesClass
 {
 public:
-	bool IsFriendOrRoomMember(int64 InPlayerId_IsFriendOrRoomMember);
-	bool CamparePlayer(int64 InPlayerId_1_CamparePlayer, int64 InPlayerId_2_CamparePlayer, uint8 InPlayerSerial_1_CamparePlayer, uint8 InPlayerSerial_2_CamparePlayer);
 	void ReceiveEndPlay(EEndPlayReason EndPlayReason_ReceiveEndPlay);
 	void ReceiveBeginPlay();
+	bool CamparePlayer(int64 InPlayerId_1_CamparePlayer, int64 InPlayerId_2_CamparePlayer, uint8 InPlayerSerial_1_CamparePlayer, uint8 InPlayerSerial_2_CamparePlayer);
+	bool IsFriendOrRoomMember(int64 InPlayerId_IsFriendOrRoomMember);
 
 public:
 	static class UClass* StaticClass()
 	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_BP_PMPlayerController_BombMatch_C_2147460578")
+		STATIC_CLASS_IMPL("LUA_OVERRIDES_BP_PMPlayerController_BombMatch_C_2147471455")
 	}
 	static const class FName& StaticName()
 	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_BP_PMPlayerController_BombMatch_C_2147460578")
+		STATIC_NAME_IMPL(L"LUA_OVERRIDES_BP_PMPlayerController_BombMatch_C_2147471455")
 	}
-	static class ULUA_OVERRIDES_BP_PMPlayerController_BombMatch_C_2147460578* GetDefaultObj()
+	static class ULUA_OVERRIDES_BP_PMPlayerController_BombMatch_C_2147471455* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_BP_PMPlayerController_BombMatch_C_2147460578>();
+		return GetDefaultObjImpl<ULUA_OVERRIDES_BP_PMPlayerController_BombMatch_C_2147471455>();
 	}
 };
-DUMPER7_ASSERTS_ULUA_OVERRIDES_BP_PMPlayerController_BombMatch_C_2147460578;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_LotteryPoolDetail_C_2147466421
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_LotteryPoolDetail_C_2147466421 final : public ULuaOverridesClass
-{
-public:
-	void OnLuaShow();
-	void Destruct();
-	void OnInitialized();
-	void OnLuaOpen();
-	bool LuaHandleKeyEvent(const struct FKey& Key_LuaHandleKeyEvent, EInputEvent InputEvent_LuaHandleKeyEvent);
-	void Construct();
-	void OnLuaHide();
-	void OnLuaClose();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_LotteryPoolDetail_C_2147466421")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_LotteryPoolDetail_C_2147466421")
-	}
-	static class ULUA_OVERRIDES_WBP_LotteryPoolDetail_C_2147466421* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_LotteryPoolDetail_C_2147466421>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_LotteryPoolDetail_C_2147466421;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_HermesGridItem_C_2147466423
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_HermesGridItem_C_2147466423 final : public ULuaOverridesClass
-{
-public:
-	void OnListItemObjectSet(class UObject* ListItemObject);
-	void OnLuaItemUnhovered();
-	void BP_OnItemSelectionChanged(bool bIsSelected);
-	void Destruct();
-	void OnInitialized();
-	void OnLuaItemHovered();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_HermesGridItem_C_2147466423")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_HermesGridItem_C_2147466423")
-	}
-	static class ULUA_OVERRIDES_WBP_HermesGridItem_C_2147466423* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_HermesGridItem_C_2147466423>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_HermesGridItem_C_2147466423;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_LotteryDisplay_ThreeBtn_C_2147466914
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_LotteryDisplay_ThreeBtn_C_2147466914 final : public ULuaOverridesClass
-{
-public:
-	void Construct();
-	void Destruct();
-	void OnInitialized();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_LotteryDisplay_ThreeBtn_C_2147466914")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_LotteryDisplay_ThreeBtn_C_2147466914")
-	}
-	static class ULUA_OVERRIDES_WBP_LotteryDisplay_ThreeBtn_C_2147466914* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_LotteryDisplay_ThreeBtn_C_2147466914>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_LotteryDisplay_ThreeBtn_C_2147466914;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ItemDisplayKeys_C_2147466425
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_ItemDisplayKeys_C_2147466425 final : public ULuaOverridesClass
-{
-public:
-	void Destruct();
-	bool LuaHandleKeyEvent(const struct FKey& Key_LuaHandleKeyEvent, EInputEvent InputEvent_LuaHandleKeyEvent);
-	void Construct();
-	void OnInitialized();
-	void OnGMHidePage(bool bHide_OnGMHidePage);
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ItemDisplayKeys_C_2147466425")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ItemDisplayKeys_C_2147466425")
-	}
-	static class ULUA_OVERRIDES_WBP_ItemDisplayKeys_C_2147466425* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ItemDisplayKeys_C_2147466425>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ItemDisplayKeys_C_2147466425;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ItemImageDisplayPage_C_2147466426
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_ItemImageDisplayPage_C_2147466426 final : public ULuaOverridesClass
-{
-public:
-	void Construct();
-	void Destruct();
-	void OnInitialized();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ItemImageDisplayPage_C_2147466426")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ItemImageDisplayPage_C_2147466426")
-	}
-	static class ULUA_OVERRIDES_WBP_ItemImageDisplayPage_C_2147466426* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ItemImageDisplayPage_C_2147466426>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ItemImageDisplayPage_C_2147466426;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_RoleVoiceDsiplay_C_2147466427
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_RoleVoiceDsiplay_C_2147466427 final : public ULuaOverridesClass
-{
-public:
-	void Construct();
-	void OnInitialized();
-	void Destruct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_RoleVoiceDsiplay_C_2147466427")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_RoleVoiceDsiplay_C_2147466427")
-	}
-	static class ULUA_OVERRIDES_WBP_RoleVoiceDsiplay_C_2147466427* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_RoleVoiceDsiplay_C_2147466427>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_RoleVoiceDsiplay_C_2147466427;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_WeaponSkinUpgradePanel_C_2147466428
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_WeaponSkinUpgradePanel_C_2147466428 final : public ULuaOverridesClass
-{
-public:
-	void OnInitialized();
-	void Destruct();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_WeaponSkinUpgradePanel_C_2147466428")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_WeaponSkinUpgradePanel_C_2147466428")
-	}
-	static class ULUA_OVERRIDES_WBP_WeaponSkinUpgradePanel_C_2147466428* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_WeaponSkinUpgradePanel_C_2147466428>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_WeaponSkinUpgradePanel_C_2147466428;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_ImageItemProxy_C_2147466429
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_ImageItemProxy_C_2147466429 final : public ULuaOverridesClass
-{
-public:
-	void Construct();
-	void OnInitialized();
-	void Destruct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_ImageItemProxy_C_2147466429")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_ImageItemProxy_C_2147466429")
-	}
-	static class ULUA_OVERRIDES_WBP_ImageItemProxy_C_2147466429* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_ImageItemProxy_C_2147466429>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_ImageItemProxy_C_2147466429;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_FlutterItem_C_2147466432
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_FlutterItem_C_2147466432 final : public ULuaOverridesClass
-{
-public:
-	void OnLuaItemUnhovered();
-	void Destruct();
-	void OnLuaItemClick();
-	void OnLuaItemHovered();
-	void Construct();
-	void OnInitialized();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_FlutterItem_C_2147466432")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_FlutterItem_C_2147466432")
-	}
-	static class ULUA_OVERRIDES_WBP_FlutterItem_C_2147466432* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_FlutterItem_C_2147466432>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_FlutterItem_C_2147466432;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_AdvancedSkinList_C_2147466433
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_AdvancedSkinList_C_2147466433 final : public ULuaOverridesClass
-{
-public:
-	void Construct();
-	void OnInitialized();
-	void Destruct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_AdvancedSkinList_C_2147466433")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_AdvancedSkinList_C_2147466433")
-	}
-	static class ULUA_OVERRIDES_WBP_AdvancedSkinList_C_2147466433* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_AdvancedSkinList_C_2147466433>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_AdvancedSkinList_C_2147466433;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_CommonPC_RuleBtn_C_2147466434
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_CommonPC_RuleBtn_C_2147466434 final : public ULuaOverridesClass
-{
-public:
-	void Construct();
-	void OnInitialized();
-	void Destruct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_CommonPC_RuleBtn_C_2147466434")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_CommonPC_RuleBtn_C_2147466434")
-	}
-	static class ULUA_OVERRIDES_WBP_CommonPC_RuleBtn_C_2147466434* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_CommonPC_RuleBtn_C_2147466434>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_CommonPC_RuleBtn_C_2147466434;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_AdvancedSkinItem_C_2147466435
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_AdvancedSkinItem_C_2147466435 final : public ULuaOverridesClass
-{
-public:
-	void OnLuaItemUnhovered();
-	void Destruct();
-	void OnLuaItemClick();
-	void OnLuaItemHovered();
-	void Construct();
-	void OnInitialized();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_AdvancedSkinItem_C_2147466435")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_AdvancedSkinItem_C_2147466435")
-	}
-	static class ULUA_OVERRIDES_WBP_AdvancedSkinItem_C_2147466435* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_AdvancedSkinItem_C_2147466435>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_AdvancedSkinItem_C_2147466435;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_AdvancedPartSkinItem_C_2147466437
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_AdvancedPartSkinItem_C_2147466437 final : public ULuaOverridesClass
-{
-public:
-	void OnLuaItemUnhovered();
-	void Destruct();
-	void OnLuaItemClick();
-	void OnLuaItemHovered();
-	void Construct();
-	void OnInitialized();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_AdvancedPartSkinItem_C_2147466437")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_AdvancedPartSkinItem_C_2147466437")
-	}
-	static class ULUA_OVERRIDES_WBP_AdvancedPartSkinItem_C_2147466437* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_AdvancedPartSkinItem_C_2147466437>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_AdvancedPartSkinItem_C_2147466437;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_LotteryDisplay_AwardPro_Id25_C_2147466785
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_LotteryDisplay_AwardPro_Id25_C_2147466785 final : public ULuaOverridesClass
-{
-public:
-	void Construct();
-	void OnInitialized();
-	void Destruct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_LotteryDisplay_AwardPro_Id25_C_2147466785")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_LotteryDisplay_AwardPro_Id25_C_2147466785")
-	}
-	static class ULUA_OVERRIDES_WBP_LotteryDisplay_AwardPro_Id25_C_2147466785* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_LotteryDisplay_AwardPro_Id25_C_2147466785>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_LotteryDisplay_AwardPro_Id25_C_2147466785;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_LotteryDisplay_AwardProItem_Id25_C_2147466786
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_LotteryDisplay_AwardProItem_Id25_C_2147466786 final : public ULuaOverridesClass
-{
-public:
-	void Construct();
-	void OnInitialized();
-	void Destruct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_LotteryDisplay_AwardProItem_Id25_C_2147466786")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_LotteryDisplay_AwardProItem_Id25_C_2147466786")
-	}
-	static class ULUA_OVERRIDES_WBP_LotteryDisplay_AwardProItem_Id25_C_2147466786* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_LotteryDisplay_AwardProItem_Id25_C_2147466786>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_LotteryDisplay_AwardProItem_Id25_C_2147466786;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_LotteryDisplay_AwardPro_Id20_C_2147466782
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_LotteryDisplay_AwardPro_Id20_C_2147466782 final : public ULuaOverridesClass
-{
-public:
-	void Construct();
-	void OnInitialized();
-	void Destruct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_LotteryDisplay_AwardPro_Id20_C_2147466782")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_LotteryDisplay_AwardPro_Id20_C_2147466782")
-	}
-	static class ULUA_OVERRIDES_WBP_LotteryDisplay_AwardPro_Id20_C_2147466782* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_LotteryDisplay_AwardPro_Id20_C_2147466782>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_LotteryDisplay_AwardPro_Id20_C_2147466782;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_LotteryDisplay_Id1_C_2147466808
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_LotteryDisplay_Id1_C_2147466808 final : public ULuaOverridesClass
-{
-public:
-	void Construct();
-	void OnInitialized();
-	void Destruct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_LotteryDisplay_Id1_C_2147466808")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_LotteryDisplay_Id1_C_2147466808")
-	}
-	static class ULUA_OVERRIDES_WBP_LotteryDisplay_Id1_C_2147466808* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_LotteryDisplay_Id1_C_2147466808>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_LotteryDisplay_Id1_C_2147466808;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_LotteryDisplay_AssociatedItem_C_2147466810
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_LotteryDisplay_AssociatedItem_C_2147466810 final : public ULuaOverridesClass
-{
-public:
-	void Construct();
-	void OnListItemObjectSet(class UObject* ListItemObject);
-	void Destruct();
-	void OnInitialized();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_LotteryDisplay_AssociatedItem_C_2147466810")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_LotteryDisplay_AssociatedItem_C_2147466810")
-	}
-	static class ULUA_OVERRIDES_WBP_LotteryDisplay_AssociatedItem_C_2147466810* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_LotteryDisplay_AssociatedItem_C_2147466810>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_LotteryDisplay_AssociatedItem_C_2147466810;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_DisplayBase_C_2147466912
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_DisplayBase_C_2147466912 final : public ULuaOverridesClass
-{
-public:
-	void Construct();
-	void OnInitialized();
-	void Destruct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_DisplayBase_C_2147466912")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_DisplayBase_C_2147466912")
-	}
-	static class ULUA_OVERRIDES_WBP_DisplayBase_C_2147466912* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_DisplayBase_C_2147466912>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_DisplayBase_C_2147466912;
-
-// LuaOverridesClass Transient.LUA_OVERRIDES_WBP_LotteryDisplay_Id16_C_2147466913
-// 0x0000 (0x0260 - 0x0260)
-class ULUA_OVERRIDES_WBP_LotteryDisplay_Id16_C_2147466913 final : public ULuaOverridesClass
-{
-public:
-	void Destruct();
-	void OnInitialized();
-	void Construct();
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LUA_OVERRIDES_WBP_LotteryDisplay_Id16_C_2147466913")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LUA_OVERRIDES_WBP_LotteryDisplay_Id16_C_2147466913")
-	}
-	static class ULUA_OVERRIDES_WBP_LotteryDisplay_Id16_C_2147466913* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULUA_OVERRIDES_WBP_LotteryDisplay_Id16_C_2147466913>();
-	}
-};
-DUMPER7_ASSERTS_ULUA_OVERRIDES_WBP_LotteryDisplay_Id16_C_2147466913;
+DUMPER7_ASSERTS_ULUA_OVERRIDES_BP_PMPlayerController_BombMatch_C_2147471455;
 
 SDK_NAMESPACE_END

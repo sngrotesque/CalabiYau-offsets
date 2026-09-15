@@ -160,26 +160,6 @@ public:
 };
 DUMPER7_ASSERTS_UMovieSceneTrack;
 
-// Class MovieScene.MovieSceneNameableTrack
-// 0x0000 (0x0058 - 0x0058)
-class UMovieSceneNameableTrack : public UMovieSceneTrack
-{
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("MovieSceneNameableTrack")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"MovieSceneNameableTrack")
-	}
-	static class UMovieSceneNameableTrack* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<UMovieSceneNameableTrack>();
-	}
-};
-DUMPER7_ASSERTS_UMovieSceneNameableTrack;
-
 // Class MovieScene.MovieSceneSection
 // 0x0090 (0x00E0 - 0x0050)
 class UMovieSceneSection : public UMovieSceneSignedObject
@@ -240,6 +220,46 @@ public:
 	}
 };
 DUMPER7_ASSERTS_UMovieSceneSection;
+
+// Class MovieScene.TestMovieSceneSection
+// 0x0000 (0x00E0 - 0x00E0)
+class UTestMovieSceneSection final : public UMovieSceneSection
+{
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("TestMovieSceneSection")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"TestMovieSceneSection")
+	}
+	static class UTestMovieSceneSection* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<UTestMovieSceneSection>();
+	}
+};
+DUMPER7_ASSERTS_UTestMovieSceneSection;
+
+// Class MovieScene.MovieSceneNameableTrack
+// 0x0000 (0x0058 - 0x0058)
+class UMovieSceneNameableTrack : public UMovieSceneTrack
+{
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("MovieSceneNameableTrack")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"MovieSceneNameableTrack")
+	}
+	static class UMovieSceneNameableTrack* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<UMovieSceneNameableTrack>();
+	}
+};
+DUMPER7_ASSERTS_UMovieSceneNameableTrack;
 
 // Class MovieScene.MovieSceneSequence
 // 0x02F8 (0x0348 - 0x0050)
@@ -601,26 +621,6 @@ public:
 	}
 };
 DUMPER7_ASSERTS_UTestMovieSceneTrack;
-
-// Class MovieScene.TestMovieSceneSection
-// 0x0000 (0x00E0 - 0x00E0)
-class UTestMovieSceneSection final : public UMovieSceneSection
-{
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("TestMovieSceneSection")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"TestMovieSceneSection")
-	}
-	static class UTestMovieSceneSection* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<UTestMovieSceneSection>();
-	}
-};
-DUMPER7_ASSERTS_UTestMovieSceneSection;
 
 // Class MovieScene.TestMovieSceneSequence
 // 0x0008 (0x0350 - 0x0348)

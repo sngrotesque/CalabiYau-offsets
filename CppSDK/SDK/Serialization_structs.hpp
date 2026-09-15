@@ -36,6 +36,40 @@ public:
 };
 DUMPER7_ASSERTS_FStructSerializerNumericTestStruct;
 
+// ScriptStruct Serialization.StructSerializerBooleanTestStruct
+// 0x0003 (0x0003 - 0x0000)
+struct FStructSerializerBooleanTestStruct final
+{
+public:
+	bool                                          BoolFalse;                                         // 0x0000(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                          BoolTrue;                                          // 0x0001(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	uint8                                         Bitfield0 : 1;                                     // 0x0002(0x0001)(BitIndex: 0x00, PropSize: 0x0001 (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic))
+	uint8                                         Bitfield1 : 1;                                     // 0x0002(0x0001)(BitIndex: 0x01, PropSize: 0x0001 (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic))
+	uint8                                         Bitfield2Set : 1;                                  // 0x0002(0x0001)(BitIndex: 0x02, PropSize: 0x0001 (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic))
+	uint8                                         Bitfield3 : 1;                                     // 0x0002(0x0001)(BitIndex: 0x03, PropSize: 0x0001 (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic))
+	uint8                                         Bitfield4Set : 1;                                  // 0x0002(0x0001)(BitIndex: 0x04, PropSize: 0x0001 (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic))
+	uint8                                         Bitfield5Set : 1;                                  // 0x0002(0x0001)(BitIndex: 0x05, PropSize: 0x0001 (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic))
+	uint8                                         Bitfield6 : 1;                                     // 0x0002(0x0001)(BitIndex: 0x06, PropSize: 0x0001 (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic))
+	uint8                                         Bitfield7Set : 1;                                  // 0x0002(0x0001)(BitIndex: 0x07, PropSize: 0x0001 (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic))
+};
+DUMPER7_ASSERTS_FStructSerializerBooleanTestStruct;
+
+// ScriptStruct Serialization.StructSerializerObjectTestStruct
+// 0x00A0 (0x00A0 - 0x0000)
+struct FStructSerializerObjectTestStruct final
+{
+public:
+	class UClass*                                 Class;                                             // 0x0000(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	TSubclassOf<class UMetaData>                  SubClass;                                          // 0x0008(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	TSoftClassPtr<class UClass>                   SoftClass;                                         // 0x0010(0x0028)(UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class UObject*                                Object;                                            // 0x0038(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	TWeakObjectPtr<class UMetaData>               WeakObject;                                        // 0x0040(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	TSoftObjectPtr<class UMetaData>               SoftObject;                                        // 0x0048(0x0028)(UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FSoftClassPath                         ClassPath;                                         // 0x0070(0x0018)(ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FSoftObjectPath                        ObjectPath;                                        // 0x0088(0x0018)(ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+DUMPER7_ASSERTS_FStructSerializerObjectTestStruct;
+
 // ScriptStruct Serialization.StructSerializerBuiltinTestStruct
 // 0x0090 (0x0090 - 0x0000)
 struct FStructSerializerBuiltinTestStruct final
@@ -56,52 +90,6 @@ public:
 };
 DUMPER7_ASSERTS_FStructSerializerBuiltinTestStruct;
 
-// ScriptStruct Serialization.StructSerializerBooleanTestStruct
-// 0x0003 (0x0003 - 0x0000)
-struct FStructSerializerBooleanTestStruct final
-{
-public:
-	bool                                          BoolFalse;                                         // 0x0000(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                          BoolTrue;                                          // 0x0001(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint8                                         Bitfield0 : 1;                                     // 0x0002(0x0001)(BitIndex: 0x00, PropSize: 0x0001 (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic))
-	uint8                                         Bitfield1 : 1;                                     // 0x0002(0x0001)(BitIndex: 0x01, PropSize: 0x0001 (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic))
-	uint8                                         Bitfield2Set : 1;                                  // 0x0002(0x0001)(BitIndex: 0x02, PropSize: 0x0001 (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic))
-	uint8                                         Bitfield3 : 1;                                     // 0x0002(0x0001)(BitIndex: 0x03, PropSize: 0x0001 (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic))
-	uint8                                         Bitfield4Set : 1;                                  // 0x0002(0x0001)(BitIndex: 0x04, PropSize: 0x0001 (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic))
-	uint8                                         Bitfield5Set : 1;                                  // 0x0002(0x0001)(BitIndex: 0x05, PropSize: 0x0001 (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic))
-	uint8                                         Bitfield6 : 1;                                     // 0x0002(0x0001)(BitIndex: 0x06, PropSize: 0x0001 (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic))
-	uint8                                         Bitfield7Set : 1;                                  // 0x0002(0x0001)(BitIndex: 0x07, PropSize: 0x0001 (NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic))
-};
-DUMPER7_ASSERTS_FStructSerializerBooleanTestStruct;
-
-// ScriptStruct Serialization.StructSerializerMapTestStruct
-// 0x0140 (0x0140 - 0x0000)
-struct FStructSerializerMapTestStruct final
-{
-public:
-	TMap<int32, class FString>                    IntToStr;                                          // 0x0000(0x0050)(NativeAccessSpecifierPublic)
-	TMap<class FString, class FString>            StrToStr;                                          // 0x0050(0x0050)(NativeAccessSpecifierPublic)
-	TMap<class FString, struct FVector>           StrToVec;                                          // 0x00A0(0x0050)(NativeAccessSpecifierPublic)
-	TMap<class FString, struct FStructSerializerBuiltinTestStruct> StrToStruct;                      // 0x00F0(0x0050)(NativeAccessSpecifierPublic)
-};
-DUMPER7_ASSERTS_FStructSerializerMapTestStruct;
-
-// ScriptStruct Serialization.StructSerializerObjectTestStruct
-// 0x00A0 (0x00A0 - 0x0000)
-struct FStructSerializerObjectTestStruct final
-{
-public:
-	class UClass*                                 Class;                                             // 0x0000(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	TSubclassOf<class UMetaData>                  SubClass;                                          // 0x0008(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	TSoftClassPtr<class UClass>                   SoftClass;                                         // 0x0010(0x0028)(UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class UObject*                                Object;                                            // 0x0038(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	TWeakObjectPtr<class UMetaData>               WeakObject;                                        // 0x0040(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	TSoftObjectPtr<class UMetaData>               SoftObject;                                        // 0x0048(0x0028)(UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FSoftClassPath                         ClassPath;                                         // 0x0070(0x0018)(ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FSoftObjectPath                        ObjectPath;                                        // 0x0088(0x0018)(ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-DUMPER7_ASSERTS_FStructSerializerObjectTestStruct;
-
 // ScriptStruct Serialization.StructSerializerArrayTestStruct
 // 0x0060 (0x0060 - 0x0000)
 struct FStructSerializerArrayTestStruct final
@@ -117,6 +105,18 @@ public:
 	TArray<struct FStructSerializerBuiltinTestStruct> StructArray;                                   // 0x0050(0x0010)(ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 DUMPER7_ASSERTS_FStructSerializerArrayTestStruct;
+
+// ScriptStruct Serialization.StructSerializerMapTestStruct
+// 0x0140 (0x0140 - 0x0000)
+struct FStructSerializerMapTestStruct final
+{
+public:
+	TMap<int32, class FString>                    IntToStr;                                          // 0x0000(0x0050)(NativeAccessSpecifierPublic)
+	TMap<class FString, class FString>            StrToStr;                                          // 0x0050(0x0050)(NativeAccessSpecifierPublic)
+	TMap<class FString, struct FVector>           StrToVec;                                          // 0x00A0(0x0050)(NativeAccessSpecifierPublic)
+	TMap<class FString, struct FStructSerializerBuiltinTestStruct> StrToStruct;                      // 0x00F0(0x0050)(NativeAccessSpecifierPublic)
+};
+DUMPER7_ASSERTS_FStructSerializerMapTestStruct;
 
 // ScriptStruct Serialization.StructSerializerSetTestStruct
 // 0x0140 (0x0140 - 0x0000)

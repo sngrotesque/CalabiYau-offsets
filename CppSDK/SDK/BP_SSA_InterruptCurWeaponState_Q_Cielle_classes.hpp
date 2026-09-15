@@ -16,7 +16,7 @@
 SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_SSA_InterruptCurWeaponState_Q_Cielle.BP_SSA_InterruptCurWeaponState_Q_Cielle_C
-// 0x0000 (0x0390 - 0x0390)
+// 0x0000 (0x0398 - 0x0398)
 class UBP_SSA_InterruptCurWeaponState_Q_Cielle_C final : public UCySSAtomInterruptCurWeaponState
 {
 public:

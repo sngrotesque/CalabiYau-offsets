@@ -15,26 +15,6 @@
 
 SDK_NAMESPACE_START
 
-// Class SlateCore.FontFaceInterface
-// 0x0000 (0x0000 - 0x0000)
-class IFontFaceInterface final : public IInterface
-{
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("FontFaceInterface")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"FontFaceInterface")
-	}
-	static class IFontFaceInterface* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<IFontFaceInterface>();
-	}
-};
-DUMPER7_ASSERTS_IFontFaceInterface;
-
 // Class SlateCore.FontBulkData
 // 0x0048 (0x0070 - 0x0028)
 class UFontBulkData final : public UObject
@@ -57,6 +37,26 @@ public:
 	}
 };
 DUMPER7_ASSERTS_UFontBulkData;
+
+// Class SlateCore.FontFaceInterface
+// 0x0000 (0x0000 - 0x0000)
+class IFontFaceInterface final : public IInterface
+{
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("FontFaceInterface")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"FontFaceInterface")
+	}
+	static class IFontFaceInterface* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<IFontFaceInterface>();
+	}
+};
+DUMPER7_ASSERTS_IFontFaceInterface;
 
 // Class SlateCore.FontProviderInterface
 // 0x0000 (0x0000 - 0x0000)

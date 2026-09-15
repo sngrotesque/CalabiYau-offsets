@@ -17,7 +17,7 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_GPEM_TagEvent.BP_GPEM_TagEvent_C
 // 0x0000 (0x0548 - 0x0548)
-class BP_GPEM_TagEvent::UBP_GPEM_TagEvent_C final : public UCyGPEM_GlobalEvent
+class BP_GPEM_TagEvent::UBP_GPEM_TagEvent_C final : public UCyGPEM_EventWorld
 {
 public:
 	static class UClass* StaticClass()

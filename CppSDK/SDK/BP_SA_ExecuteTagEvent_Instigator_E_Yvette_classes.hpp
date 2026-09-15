@@ -16,7 +16,7 @@
 SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_SA_ExecuteTagEvent_Instigator_E_Yvette.BP_SA_ExecuteTagEvent_Instigator_E_Yvette_C
-// 0x0000 (0x0810 - 0x0810)
+// 0x0000 (0x0798 - 0x0798)
 class BP_SA_ExecuteTagEvent_Instigator_E_Yvette::UBP_SA_ExecuteTagEvent_Instigator_E_Yvette_C final : public UCySAtomExecuteGameplayTagEvent
 {
 public:

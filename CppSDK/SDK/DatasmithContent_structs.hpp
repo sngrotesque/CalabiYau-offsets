@@ -206,15 +206,6 @@ public:
 };
 DUMPER7_ASSERTS_FDatasmithCameraFilmbackSettingsTemplate;
 
-// ScriptStruct DatasmithContent.DatasmithMeshSectionInfoTemplate
-// 0x0004 (0x0004 - 0x0000)
-struct FDatasmithMeshSectionInfoTemplate final
-{
-public:
-	int32                                         MaterialIndex;                                     // 0x0000(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-DUMPER7_ASSERTS_FDatasmithMeshSectionInfoTemplate;
-
 // ScriptStruct DatasmithContent.DatasmithTessellationOptions
 // 0x0010 (0x0010 - 0x0000)
 struct FDatasmithTessellationOptions final
@@ -284,6 +275,15 @@ public:
 	TMap<class FName, bool>                       StaticSwitchParameters;                            // 0x0000(0x0050)(NativeAccessSpecifierPublic)
 };
 DUMPER7_ASSERTS_FDatasmithStaticParameterSetTemplate;
+
+// ScriptStruct DatasmithContent.DatasmithMeshSectionInfoTemplate
+// 0x0004 (0x0004 - 0x0000)
+struct FDatasmithMeshSectionInfoTemplate final
+{
+public:
+	int32                                         MaterialIndex;                                     // 0x0000(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+DUMPER7_ASSERTS_FDatasmithMeshSectionInfoTemplate;
 
 // ScriptStruct DatasmithContent.DatasmithMeshSectionInfoMapTemplate
 // 0x0050 (0x0050 - 0x0000)

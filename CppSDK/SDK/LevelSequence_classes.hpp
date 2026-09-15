@@ -12,40 +12,34 @@
 
 #include "MovieScene_structs.hpp"
 #include "MovieScene_classes.hpp"
-#include "LevelSequence_structs.hpp"
 #include "CoreUObject_structs.hpp"
 #include "CoreUObject_classes.hpp"
+#include "LevelSequence_structs.hpp"
 #include "Engine_classes.hpp"
 #include "UMG_classes.hpp"
 
 
 SDK_NAMESPACE_START
 
-// Class LevelSequence.LevelSequenceDirector
-// 0x0008 (0x0030 - 0x0028)
-class ULevelSequenceDirector : public UObject
+// Class LevelSequence.LevelSequenceMetaData
+// 0x0000 (0x0000 - 0x0000)
+class ILevelSequenceMetaData final : public IInterface
 {
-public:
-	class ULevelSequencePlayer*                   Player;                                            // 0x0028(0x0008)(BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-public:
-	void OnCreated();
-
 public:
 	static class UClass* StaticClass()
 	{
-		STATIC_CLASS_IMPL("LevelSequenceDirector")
+		STATIC_CLASS_IMPL("LevelSequenceMetaData")
 	}
 	static const class FName& StaticName()
 	{
-		STATIC_NAME_IMPL(L"LevelSequenceDirector")
+		STATIC_NAME_IMPL(L"LevelSequenceMetaData")
 	}
-	static class ULevelSequenceDirector* GetDefaultObj()
+	static class ILevelSequenceMetaData* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<ULevelSequenceDirector>();
+		return GetDefaultObjImpl<ILevelSequenceMetaData>();
 	}
 };
-DUMPER7_ASSERTS_ULevelSequenceDirector;
+DUMPER7_ASSERTS_ILevelSequenceMetaData;
 
 // Class LevelSequence.LevelSequenceActor
 // 0x0090 (0x03A0 - 0x0310)
@@ -108,6 +102,32 @@ public:
 };
 DUMPER7_ASSERTS_ALevelSequenceActor;
 
+// Class LevelSequence.LevelSequenceDirector
+// 0x0008 (0x0030 - 0x0028)
+class ULevelSequenceDirector : public UObject
+{
+public:
+	class ULevelSequencePlayer*                   Player;                                            // 0x0028(0x0008)(BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+public:
+	void OnCreated();
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LevelSequenceDirector")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LevelSequenceDirector")
+	}
+	static class ULevelSequenceDirector* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULevelSequenceDirector>();
+	}
+};
+DUMPER7_ASSERTS_ULevelSequenceDirector;
+
 // Class LevelSequence.DefaultLevelSequenceInstanceData
 // 0x0048 (0x0070 - 0x0028)
 class UDefaultLevelSequenceInstanceData final : public UObject
@@ -133,26 +153,6 @@ public:
 	}
 };
 DUMPER7_ASSERTS_UDefaultLevelSequenceInstanceData;
-
-// Class LevelSequence.LevelSequenceMetaData
-// 0x0000 (0x0000 - 0x0000)
-class ILevelSequenceMetaData final : public IInterface
-{
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LevelSequenceMetaData")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LevelSequenceMetaData")
-	}
-	static class ILevelSequenceMetaData* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ILevelSequenceMetaData>();
-	}
-};
-DUMPER7_ASSERTS_ILevelSequenceMetaData;
 
 // Class LevelSequence.LevelSequence
 // 0x0150 (0x0498 - 0x0348)

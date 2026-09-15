@@ -11,9 +11,9 @@
 #include "Basic.hpp"
 
 #include "CoreUObject_classes.hpp"
-#include "LiveLinkInterface_structs.hpp"
 #include "Engine_structs.hpp"
 #include "Engine_classes.hpp"
+#include "LiveLinkInterface_structs.hpp"
 #include "LiveLinkComponents_structs.hpp"
 
 
