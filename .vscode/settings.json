@@ -1,0 +1,7 @@
+{
+    "editor.fontSize": 14,
+    "workbench.colorTheme": "Kawaii Theme",
+    "workbench.colorCustomizations": {
+        "statusBar.background":"#774857"
+    }
+}
