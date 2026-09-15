@@ -533,7 +533,7 @@ enum class ECyCharacterActionType : uint8
 };
 
 // Enum ALSV4_CPP.ECyWeaponActionType
-// NumValues: 0x0030
+// NumValues: 0x0031
 enum class ECyWeaponActionType : uint8
 {
 	None                                     = 0,
@@ -565,25 +565,26 @@ enum class ECyWeaponActionType : uint8
 	Work                                     = 26,
 	SecondWork                               = 27,
 	ThirdWork                                = 28,
-	FifthWork                                = 29,
-	WorkEnd                                  = 30,
-	UnWork                                   = 31,
-	BeginADS                                 = 32,
-	BeginCustom                              = 33,
-	EndCustom                                = 34,
-	CustomAttack                             = 35,
-	ThrowBeginHigh                           = 36,
-	ThrowEndHigh                             = 37,
-	ThrowBeginLow                            = 38,
-	ThrowEndLow                              = 39,
-	MeleeBlockStart                          = 40,
-	MeleeBlockLoop                           = 41,
-	MeleeBlockEnd                            = 42,
-	BeginRelax                               = 43,
-	BeginReady                               = 44,
-	BeginAiming                              = 45,
-	BeginWaist                               = 46,
-	ECyWeaponActionType_MAX                  = 47,
+	FourthWork                               = 29,
+	FifthWork                                = 30,
+	WorkEnd                                  = 31,
+	UnWork                                   = 32,
+	BeginADS                                 = 33,
+	BeginCustom                              = 34,
+	EndCustom                                = 35,
+	CustomAttack                             = 36,
+	ThrowBeginHigh                           = 37,
+	ThrowEndHigh                             = 38,
+	ThrowBeginLow                            = 39,
+	ThrowEndLow                              = 40,
+	MeleeBlockStart                          = 41,
+	MeleeBlockLoop                           = 42,
+	MeleeBlockEnd                            = 43,
+	BeginRelax                               = 44,
+	BeginReady                               = 45,
+	BeginAiming                              = 46,
+	BeginWaist                               = 47,
+	ECyWeaponActionType_MAX                  = 48,
 };
 
 // ScriptStruct ALSV4_CPP.AnimSequencePose
@@ -804,7 +805,7 @@ public:
 	bool                                          bJumped;                                           // 0x0000(0x0001)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, DisableEditOnInstance, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                          bSecondJumped;                                     // 0x0001(0x0001)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, DisableEditOnInstance, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	bool                                          bThirdJumped;                                      // 0x0002(0x0001)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, DisableEditOnInstance, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint8                                         Pad_3[0x1];                                        // 0x0003(0x0001)(Fixing Size After Last Property [ Dumper-7 ])
+	bool                                          bFourthJumped;                                     // 0x0003(0x0001)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, DisableEditOnInstance, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	float                                         JumpPlayRate;                                      // 0x0004(0x0004)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, DisableEditOnInstance, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	float                                         FallSpeed;                                         // 0x0008(0x0004)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, DisableEditOnInstance, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 	float                                         LandPrediction;                                    // 0x000C(0x0004)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, DisableEditOnInstance, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)

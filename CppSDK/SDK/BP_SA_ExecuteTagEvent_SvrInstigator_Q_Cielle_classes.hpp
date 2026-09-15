@@ -16,7 +16,7 @@
 SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_SA_ExecuteTagEvent_SvrInstigator_Q_Cielle.BP_SA_ExecuteTagEvent_SvrInstigator_Q_Cielle_C
-// 0x0000 (0x0810 - 0x0810)
+// 0x0000 (0x0798 - 0x0798)
 class UBP_SA_ExecuteTagEvent_SvrInstigator_Q_Cielle_C final : public UCySAtomExecuteGameplayTagEvent
 {
 public:

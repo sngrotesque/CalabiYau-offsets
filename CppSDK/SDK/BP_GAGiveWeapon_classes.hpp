@@ -16,7 +16,7 @@
 SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_GAGiveWeapon.BP_GAGiveWeapon_C
-// 0x0000 (0x0068 - 0x0068)
+// 0x0000 (0x0080 - 0x0080)
 class UBP_GAGiveWeapon_C final : public UCyGAGiveWeapon
 {
 public:

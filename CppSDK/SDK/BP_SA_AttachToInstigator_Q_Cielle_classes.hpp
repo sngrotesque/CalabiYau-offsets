@@ -16,7 +16,7 @@
 SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_SA_AttachToInstigator_Q_Cielle.BP_SA_AttachToInstigator_Q_Cielle_C
-// 0x0000 (0x0670 - 0x0670)
+// 0x0000 (0x0810 - 0x0810)
 class UBP_SA_AttachToInstigator_Q_Cielle_C final : public UCySAtomAttachTo
 {
 public:

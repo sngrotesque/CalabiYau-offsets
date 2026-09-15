@@ -41,31 +41,6 @@ enum class EPlanarConstraint : uint8
 	EPlanarConstraint_MAX                    = 4,
 };
 
-// ScriptStruct KawaiiPhysics.CollisionLimitBase
-// 0x0050 (0x0050 - 0x0000)
-struct FCollisionLimitBase
-{
-public:
-	struct FBoneReference                         DrivingBone;                                       // 0x0000(0x0010)(Edit, NoDestructor, NativeAccessSpecifierPublic)
-	struct FVector                                OffsetLocation;                                    // 0x0010(0x000C)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FRotator                               OffsetRotation;                                    // 0x001C(0x000C)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-	struct FVector                                Location;                                          // 0x0028(0x000C)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint8                                         Pad_34[0xC];                                       // 0x0034(0x000C)(Fixing Size After Last Property [ Dumper-7 ])
-	struct FQuat                                  Rotation;                                          // 0x0040(0x0010)(IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-};
-DUMPER7_ASSERTS_FCollisionLimitBase;
-
-// ScriptStruct KawaiiPhysics.SphericalLimit
-// 0x0010 (0x0060 - 0x0050)
-struct FSphericalLimit final : public FCollisionLimitBase
-{
-public:
-	float                                         Radius;                                            // 0x0050(0x0004)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	ESphericalLimitType                           LimitType;                                         // 0x0054(0x0001)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint8                                         Pad_55[0xB];                                       // 0x0055(0x000B)(Fixing Struct Size After Last Property [ Dumper-7 ])
-};
-DUMPER7_ASSERTS_FSphericalLimit;
-
 // ScriptStruct KawaiiPhysics.KawaiiPhysicsSettings
 // 0x0018 (0x0018 - 0x0000)
 struct FKawaiiPhysicsSettings final
@@ -80,6 +55,20 @@ public:
 };
 DUMPER7_ASSERTS_FKawaiiPhysicsSettings;
 
+// ScriptStruct KawaiiPhysics.CollisionLimitBase
+// 0x0050 (0x0050 - 0x0000)
+struct FCollisionLimitBase
+{
+public:
+	struct FBoneReference                         DrivingBone;                                       // 0x0000(0x0010)(Edit, NoDestructor, NativeAccessSpecifierPublic)
+	struct FVector                                OffsetLocation;                                    // 0x0010(0x000C)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FRotator                               OffsetRotation;                                    // 0x001C(0x000C)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+	struct FVector                                Location;                                          // 0x0028(0x000C)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	uint8                                         Pad_34[0xC];                                       // 0x0034(0x000C)(Fixing Size After Last Property [ Dumper-7 ])
+	struct FQuat                                  Rotation;                                          // 0x0040(0x0010)(IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+};
+DUMPER7_ASSERTS_FCollisionLimitBase;
+
 // ScriptStruct KawaiiPhysics.CapsuleLimit
 // 0x0010 (0x0060 - 0x0050)
 struct FCapsuleLimit final : public FCollisionLimitBase
@@ -90,6 +79,17 @@ public:
 	uint8                                         Pad_58[0x8];                                       // 0x0058(0x0008)(Fixing Struct Size After Last Property [ Dumper-7 ])
 };
 DUMPER7_ASSERTS_FCapsuleLimit;
+
+// ScriptStruct KawaiiPhysics.SphericalLimit
+// 0x0010 (0x0060 - 0x0050)
+struct FSphericalLimit final : public FCollisionLimitBase
+{
+public:
+	float                                         Radius;                                            // 0x0050(0x0004)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	ESphericalLimitType                           LimitType;                                         // 0x0054(0x0001)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	uint8                                         Pad_55[0xB];                                       // 0x0055(0x000B)(Fixing Struct Size After Last Property [ Dumper-7 ])
+};
+DUMPER7_ASSERTS_FSphericalLimit;
 
 // ScriptStruct KawaiiPhysics.PlanarLimit
 // 0x0010 (0x0060 - 0x0050)

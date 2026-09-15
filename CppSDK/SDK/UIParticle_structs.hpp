@@ -76,6 +76,20 @@ enum class ECurveType : uint8
 	ECurveType_MAX                           = 3,
 };
 
+// ScriptStruct UIParticle.ChildEmitter
+// 0x0018 (0x0018 - 0x0000)
+struct FChildEmitter final
+{
+public:
+	float                                         ActivityInParentLifeTime;                          // 0x0000(0x0004)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                          FollowParentPosition;                              // 0x0004(0x0001)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	uint8                                         Pad_5[0x3];                                        // 0x0005(0x0003)(Fixing Size After Last Property [ Dumper-7 ])
+	float                                         FollowParentSpeedPercent;                          // 0x0008(0x0004)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	int32                                         ZOrderOffset;                                      // 0x000C(0x0004)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class UUIParticleEmitterAsset*                ChildrenAsset;                                     // 0x0010(0x0008)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+DUMPER7_ASSERTS_FChildEmitter;
+
 // ScriptStruct UIParticle.UIParticleEmitterInfo
 // 0x0018 (0x0018 - 0x0000)
 struct FUIParticleEmitterInfo final
@@ -90,17 +104,15 @@ public:
 };
 DUMPER7_ASSERTS_FUIParticleEmitterInfo;
 
-// ScriptStruct UIParticle.UIParticleFloatCurve
-// 0x0088 (0x0088 - 0x0000)
-struct FUIParticleFloatCurve final
+// ScriptStruct UIParticle.Range_Float
+// 0x0008 (0x0008 - 0x0000)
+struct FRange_Float final
 {
 public:
-	struct FRichCurve                             CurveData;                                         // 0x0000(0x0080)(Edit, NativeAccessSpecifierPublic)
-	ECurveType                                    CurveType;                                         // 0x0080(0x0001)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                          Loop;                                              // 0x0081(0x0001)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint8                                         Pad_82[0x6];                                       // 0x0082(0x0006)(Fixing Struct Size After Last Property [ Dumper-7 ])
+	float                                         Min;                                               // 0x0000(0x0004)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	float                                         Max;                                               // 0x0004(0x0004)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
-DUMPER7_ASSERTS_FUIParticleFloatCurve;
+DUMPER7_ASSERTS_FRange_Float;
 
 // ScriptStruct UIParticle.UIParticleLinearColorCurve
 // 0x0208 (0x0208 - 0x0000)
@@ -114,15 +126,17 @@ public:
 };
 DUMPER7_ASSERTS_FUIParticleLinearColorCurve;
 
-// ScriptStruct UIParticle.Range_Float
-// 0x0008 (0x0008 - 0x0000)
-struct FRange_Float final
+// ScriptStruct UIParticle.UIParticleFloatCurve
+// 0x0088 (0x0088 - 0x0000)
+struct FUIParticleFloatCurve final
 {
 public:
-	float                                         Min;                                               // 0x0000(0x0004)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	float                                         Max;                                               // 0x0004(0x0004)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FRichCurve                             CurveData;                                         // 0x0000(0x0080)(Edit, NativeAccessSpecifierPublic)
+	ECurveType                                    CurveType;                                         // 0x0080(0x0001)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                          Loop;                                              // 0x0081(0x0001)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	uint8                                         Pad_82[0x6];                                       // 0x0082(0x0006)(Fixing Struct Size After Last Property [ Dumper-7 ])
 };
-DUMPER7_ASSERTS_FRange_Float;
+DUMPER7_ASSERTS_FUIParticleFloatCurve;
 
 // ScriptStruct UIParticle.Range_FloatCurve
 // 0x0110 (0x0110 - 0x0000)
@@ -221,20 +235,6 @@ public:
 	struct FRange_Float                           Value;                                             // 0x0008(0x0008)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
 };
 DUMPER7_ASSERTS_FScalarParamFloat;
-
-// ScriptStruct UIParticle.ChildEmitter
-// 0x0018 (0x0018 - 0x0000)
-struct FChildEmitter final
-{
-public:
-	float                                         ActivityInParentLifeTime;                          // 0x0000(0x0004)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                          FollowParentPosition;                              // 0x0004(0x0001)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint8                                         Pad_5[0x3];                                        // 0x0005(0x0003)(Fixing Size After Last Property [ Dumper-7 ])
-	float                                         FollowParentSpeedPercent;                          // 0x0008(0x0004)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	int32                                         ZOrderOffset;                                      // 0x000C(0x0004)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class UUIParticleEmitterAsset*                ChildrenAsset;                                     // 0x0010(0x0008)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-DUMPER7_ASSERTS_FChildEmitter;
 
 // ScriptStruct UIParticle.LerpKeyColor
 // 0x0010 (0x0010 - 0x0000)

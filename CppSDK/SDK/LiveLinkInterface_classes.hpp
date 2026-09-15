@@ -56,25 +56,51 @@ public:
 };
 DUMPER7_ASSERTS_ULiveLinkFrameInterpolationProcessor;
 
-// Class LiveLinkInterface.LiveLinkFrameTranslator
+// Class LiveLinkInterface.LiveLinkSubjectSettings
+// 0x0030 (0x0058 - 0x0028)
+class ULiveLinkSubjectSettings final : public UObject
+{
+public:
+	TArray<class ULiveLinkFramePreProcessor*>     PreProcessors;                                     // 0x0028(0x0010)(Edit, ExportObject, ZeroConstructor, ContainsInstancedReference, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class ULiveLinkFrameInterpolationProcessor*   InterpolationProcessor;                            // 0x0038(0x0008)(Edit, ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, PersistentInstance, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	TArray<class ULiveLinkFrameTranslator*>       Translators;                                       // 0x0040(0x0010)(Edit, ExportObject, ZeroConstructor, ContainsInstancedReference, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	TSubclassOf<class ULiveLinkRole>              Role;                                              // 0x0050(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LiveLinkSubjectSettings")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LiveLinkSubjectSettings")
+	}
+	static class ULiveLinkSubjectSettings* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULiveLinkSubjectSettings>();
+	}
+};
+DUMPER7_ASSERTS_ULiveLinkSubjectSettings;
+
+// Class LiveLinkInterface.LiveLinkSourceFactory
 // 0x0000 (0x0028 - 0x0028)
-class ULiveLinkFrameTranslator : public UObject
+class ULiveLinkSourceFactory : public UObject
 {
 public:
 	static class UClass* StaticClass()
 	{
-		STATIC_CLASS_IMPL("LiveLinkFrameTranslator")
+		STATIC_CLASS_IMPL("LiveLinkSourceFactory")
 	}
 	static const class FName& StaticName()
 	{
-		STATIC_NAME_IMPL(L"LiveLinkFrameTranslator")
+		STATIC_NAME_IMPL(L"LiveLinkSourceFactory")
 	}
-	static class ULiveLinkFrameTranslator* GetDefaultObj()
+	static class ULiveLinkSourceFactory* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<ULiveLinkFrameTranslator>();
+		return GetDefaultObjImpl<ULiveLinkSourceFactory>();
 	}
 };
-DUMPER7_ASSERTS_ULiveLinkFrameTranslator;
+DUMPER7_ASSERTS_ULiveLinkSourceFactory;
 
 // Class LiveLinkInterface.LiveLinkRole
 // 0x0000 (0x0028 - 0x0028)
@@ -96,25 +122,45 @@ public:
 };
 DUMPER7_ASSERTS_ULiveLinkRole;
 
-// Class LiveLinkInterface.LiveLinkSourceFactory
+// Class LiveLinkInterface.LiveLinkBasicRole
 // 0x0000 (0x0028 - 0x0028)
-class ULiveLinkSourceFactory : public UObject
+class ULiveLinkBasicRole : public ULiveLinkRole
 {
 public:
 	static class UClass* StaticClass()
 	{
-		STATIC_CLASS_IMPL("LiveLinkSourceFactory")
+		STATIC_CLASS_IMPL("LiveLinkBasicRole")
 	}
 	static const class FName& StaticName()
 	{
-		STATIC_NAME_IMPL(L"LiveLinkSourceFactory")
+		STATIC_NAME_IMPL(L"LiveLinkBasicRole")
 	}
-	static class ULiveLinkSourceFactory* GetDefaultObj()
+	static class ULiveLinkBasicRole* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<ULiveLinkSourceFactory>();
+		return GetDefaultObjImpl<ULiveLinkBasicRole>();
 	}
 };
-DUMPER7_ASSERTS_ULiveLinkSourceFactory;
+DUMPER7_ASSERTS_ULiveLinkBasicRole;
+
+// Class LiveLinkInterface.LiveLinkFrameTranslator
+// 0x0000 (0x0028 - 0x0028)
+class ULiveLinkFrameTranslator : public UObject
+{
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("LiveLinkFrameTranslator")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"LiveLinkFrameTranslator")
+	}
+	static class ULiveLinkFrameTranslator* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ULiveLinkFrameTranslator>();
+	}
+};
+DUMPER7_ASSERTS_ULiveLinkFrameTranslator;
 
 // Class LiveLinkInterface.LiveLinkSourceSettings
 // 0x0070 (0x0098 - 0x0028)
@@ -169,26 +215,6 @@ public:
 	}
 };
 DUMPER7_ASSERTS_ULiveLinkVirtualSubject;
-
-// Class LiveLinkInterface.LiveLinkBasicRole
-// 0x0000 (0x0028 - 0x0028)
-class ULiveLinkBasicRole : public ULiveLinkRole
-{
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LiveLinkBasicRole")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LiveLinkBasicRole")
-	}
-	static class ULiveLinkBasicRole* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULiveLinkBasicRole>();
-	}
-};
-DUMPER7_ASSERTS_ULiveLinkBasicRole;
 
 // Class LiveLinkInterface.LiveLinkAnimationRole
 // 0x0000 (0x0028 - 0x0028)
@@ -312,31 +338,5 @@ public:
 	}
 };
 DUMPER7_ASSERTS_ULiveLinkLightRole;
-
-// Class LiveLinkInterface.LiveLinkSubjectSettings
-// 0x0030 (0x0058 - 0x0028)
-class ULiveLinkSubjectSettings final : public UObject
-{
-public:
-	TArray<class ULiveLinkFramePreProcessor*>     PreProcessors;                                     // 0x0028(0x0010)(Edit, ExportObject, ZeroConstructor, ContainsInstancedReference, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class ULiveLinkFrameInterpolationProcessor*   InterpolationProcessor;                            // 0x0038(0x0008)(Edit, ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, PersistentInstance, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	TArray<class ULiveLinkFrameTranslator*>       Translators;                                       // 0x0040(0x0010)(Edit, ExportObject, ZeroConstructor, ContainsInstancedReference, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	TSubclassOf<class ULiveLinkRole>              Role;                                              // 0x0050(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("LiveLinkSubjectSettings")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"LiveLinkSubjectSettings")
-	}
-	static class ULiveLinkSubjectSettings* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<ULiveLinkSubjectSettings>();
-	}
-};
-DUMPER7_ASSERTS_ULiveLinkSubjectSettings;
 
 SDK_NAMESPACE_END

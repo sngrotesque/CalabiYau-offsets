@@ -16,20 +16,6 @@
 
 SDK_NAMESPACE_START
 
-// Function LevelSequence.LevelSequenceDirector.OnCreated
-// (Event, Public, BlueprintEvent)
-
-void ULevelSequenceDirector::OnCreated()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LevelSequenceDirector", "OnCreated");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
 // Function LevelSequence.LevelSequenceActor.AddBinding
 // (Final, Native, Public, BlueprintCallable)
 // Parameters:
@@ -485,6 +471,20 @@ class ULevelSequence* ALevelSequenceActor::LoadSequence() const
 	Func->FunctionFlags = Flgs;
 
 	return Parms.ReturnValue;
+}
+
+
+// Function LevelSequence.LevelSequenceDirector.OnCreated
+// (Event, Public, BlueprintEvent)
+
+void ULevelSequenceDirector::OnCreated()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LevelSequenceDirector", "OnCreated");
+
+	UObject::ProcessEvent(Func, nullptr);
 }
 
 

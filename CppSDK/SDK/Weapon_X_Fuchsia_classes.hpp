@@ -16,7 +16,7 @@
 SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass Weapon_X_Fuchsia.Weapon_X_Fuchsia_C
-// 0x0000 (0x12D0 - 0x12D0)
+// 0x0000 (0x12F0 - 0x12F0)
 class AWeapon_X_Fuchsia_C final : public ACyWeaponSkill
 {
 public:

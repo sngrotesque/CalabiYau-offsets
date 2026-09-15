@@ -16,11 +16,11 @@
 SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_PMBombMatchHUD.BP_PMBombMatchHUD_C
-// 0x0008 (0x0948 - 0x0940)
+// 0x0008 (0x0950 - 0x0948)
 class ABP_PMBombMatchHUD_C final : public APMBombMatchHUD
 {
 public:
-	class USceneComponent*                        DefaultSceneRoot;                                  // 0x0940(0x0008)(BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash)
+	class USceneComponent*                        DefaultSceneRoot;                                  // 0x0948(0x0008)(BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash)
 
 public:
 	static class UClass* StaticClass()

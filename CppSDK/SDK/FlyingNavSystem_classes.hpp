@@ -10,12 +10,12 @@
 
 #include "Basic.hpp"
 
-#include "FlyingNavSystem_structs.hpp"
 #include "CoreUObject_structs.hpp"
 #include "CoreUObject_classes.hpp"
 #include "NavigationSystem_classes.hpp"
 #include "Engine_structs.hpp"
 #include "Engine_classes.hpp"
+#include "FlyingNavSystem_structs.hpp"
 
 
 SDK_NAMESPACE_START
