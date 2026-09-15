@@ -1,13 +1,18 @@
 # CalabiYau offsets
 
-> 注意，国际服和国服的偏移量不一样
-
 这是一个公开披露游戏《卡拉彼丘》的偏移量的仓库。  
 
 ## 使用
 
-到[分支](https://github.com/sngrotesque/CalabiYau-offsets/branches)去找你需要的版本。  
+`master` 分支永远是最新版本，到 [分支](https://github.com/sngrotesque/CalabiYau-offsets/branches) 去找你需要的版本。  
 没有的话自行使用dump工具获取。
 
 没有新手教程，不欢迎新手。  
 就这样。
+
+## 其他
+
+本仓库不处理《Strinova》（也就是国际服）的任何事情，想要国际服的偏移量的话。  
+规矩你懂的，想要你得自己去拿。
+
+由于本仓库的特殊性，可能随时消失，且用且珍惜。
