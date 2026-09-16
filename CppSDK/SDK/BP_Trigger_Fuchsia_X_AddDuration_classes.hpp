@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_Trigger_Fuchsia_X_AddDuration.BP_Trigger_Fuchsia_X_AddDuration_C
 // 0x0000 (0x0268 - 0x0268)
-class UBP_Trigger_Fuchsia_X_AddDuration_C final : public UCyGATriggerAddEffects
+class BP_Trigger_Fuchsia_X_AddDuration::UBP_Trigger_Fuchsia_X_AddDuration_C final : public UCyGATriggerAddEffects
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_Trigger_Fuchsia_X_AddDuration_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_Trigger_Fuchsia_X_AddDuration.BP_Trigger_Fuchsia_X_AddDuration_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_Trigger_Fuchsia_X_AddDuration_C")
 	}
-	static class UBP_Trigger_Fuchsia_X_AddDuration_C* GetDefaultObj()
+	static class BP_Trigger_Fuchsia_X_AddDuration::UBP_Trigger_Fuchsia_X_AddDuration_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_Trigger_Fuchsia_X_AddDuration_C>();
+		return GetDefaultObjImpl<BP_Trigger_Fuchsia_X_AddDuration::UBP_Trigger_Fuchsia_X_AddDuration_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_Trigger_Fuchsia_X_AddDuration_C;
+DUMPER7_ASSERTS_BP_Trigger_Fuchsia_X_AddDuration__UBP_Trigger_Fuchsia_X_AddDuration_C;
 
 SDK_NAMESPACE_END

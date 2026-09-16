@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_Trigger_PressedCancelAbility.BP_Trigger_PressedCancelAbility_C
 // 0x0000 (0x0240 - 0x0240)
-class UBP_Trigger_PressedCancelAbility_C final : public UCyGATriggerCancelAbility
+class BP_Trigger_PressedCancelAbility::UBP_Trigger_PressedCancelAbility_C final : public UCyGATriggerCancelAbility
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_Trigger_PressedCancelAbility_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_Trigger_PressedCancelAbility.BP_Trigger_PressedCancelAbility_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_Trigger_PressedCancelAbility_C")
 	}
-	static class UBP_Trigger_PressedCancelAbility_C* GetDefaultObj()
+	static class BP_Trigger_PressedCancelAbility::UBP_Trigger_PressedCancelAbility_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_Trigger_PressedCancelAbility_C>();
+		return GetDefaultObjImpl<BP_Trigger_PressedCancelAbility::UBP_Trigger_PressedCancelAbility_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_Trigger_PressedCancelAbility_C;
+DUMPER7_ASSERTS_BP_Trigger_PressedCancelAbility__UBP_Trigger_PressedCancelAbility_C;
 
 SDK_NAMESPACE_END

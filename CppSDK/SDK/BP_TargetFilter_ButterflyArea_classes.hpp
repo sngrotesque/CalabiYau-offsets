@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_TargetFilter_ButterflyArea.BP_TargetFilter_ButterflyArea_C
 // 0x0000 (0x0060 - 0x0060)
-class UBP_TargetFilter_ButterflyArea_C final : public UCyFilterButterflyArea
+class BP_TargetFilter_ButterflyArea::UBP_TargetFilter_ButterflyArea_C final : public UCyFilterButterflyArea
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_TargetFilter_ButterflyArea_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_TargetFilter_ButterflyArea.BP_TargetFilter_ButterflyArea_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_TargetFilter_ButterflyArea_C")
 	}
-	static class UBP_TargetFilter_ButterflyArea_C* GetDefaultObj()
+	static class BP_TargetFilter_ButterflyArea::UBP_TargetFilter_ButterflyArea_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_TargetFilter_ButterflyArea_C>();
+		return GetDefaultObjImpl<BP_TargetFilter_ButterflyArea::UBP_TargetFilter_ButterflyArea_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_TargetFilter_ButterflyArea_C;
+DUMPER7_ASSERTS_BP_TargetFilter_ButterflyArea__UBP_TargetFilter_ButterflyArea_C;
 
 SDK_NAMESPACE_END

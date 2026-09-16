@@ -17,7 +17,7 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_Summon_Q_Audery_Two.BP_Summon_Q_Audery_Two_C
 // 0x00E8 (0x0A58 - 0x0970)
-class ABP_Summon_Q_Audery_Two_C final : public ACySummonPawn
+class BP_Summon_Q_Audery_Two::ABP_Summon_Q_Audery_Two_C final : public ACySummonPawn
 {
 public:
 	class UPMSummonAnimationComponent*            PMSummonAnimation;                                 // 0x0970(0x0008)(BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash)
@@ -53,17 +53,17 @@ public:
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_Summon_Q_Audery_Two_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_Summon_Q_Audery_Two.BP_Summon_Q_Audery_Two_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_Summon_Q_Audery_Two_C")
 	}
-	static class ABP_Summon_Q_Audery_Two_C* GetDefaultObj()
+	static class BP_Summon_Q_Audery_Two::ABP_Summon_Q_Audery_Two_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<ABP_Summon_Q_Audery_Two_C>();
+		return GetDefaultObjImpl<BP_Summon_Q_Audery_Two::ABP_Summon_Q_Audery_Two_C>();
 	}
 };
-DUMPER7_ASSERTS_ABP_Summon_Q_Audery_Two_C;
+DUMPER7_ASSERTS_BP_Summon_Q_Audery_Two__ABP_Summon_Q_Audery_Two_C;
 
 SDK_NAMESPACE_END

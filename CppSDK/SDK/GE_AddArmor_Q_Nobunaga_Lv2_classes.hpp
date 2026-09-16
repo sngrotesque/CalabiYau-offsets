@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass GE_AddArmor_Q_Nobunaga_Lv2.GE_AddArmor_Q_Nobunaga_Lv2_C
 // 0x0000 (0x10E0 - 0x10E0)
-class UGE_AddArmor_Q_Nobunaga_Lv2_C final : public UCyGameplayEffect
+class GE_AddArmor_Q_Nobunaga_Lv2::UGE_AddArmor_Q_Nobunaga_Lv2_C final : public UCyGameplayEffect
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("GE_AddArmor_Q_Nobunaga_Lv2_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass GE_AddArmor_Q_Nobunaga_Lv2.GE_AddArmor_Q_Nobunaga_Lv2_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"GE_AddArmor_Q_Nobunaga_Lv2_C")
 	}
-	static class UGE_AddArmor_Q_Nobunaga_Lv2_C* GetDefaultObj()
+	static class GE_AddArmor_Q_Nobunaga_Lv2::UGE_AddArmor_Q_Nobunaga_Lv2_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UGE_AddArmor_Q_Nobunaga_Lv2_C>();
+		return GetDefaultObjImpl<GE_AddArmor_Q_Nobunaga_Lv2::UGE_AddArmor_Q_Nobunaga_Lv2_C>();
 	}
 };
-DUMPER7_ASSERTS_UGE_AddArmor_Q_Nobunaga_Lv2_C;
+DUMPER7_ASSERTS_GE_AddArmor_Q_Nobunaga_Lv2__UGE_AddArmor_Q_Nobunaga_Lv2_C;
 
 SDK_NAMESPACE_END

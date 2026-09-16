@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass GE_E_Mobai_Damage_Zombie.GE_E_Mobai_Damage_Zombie_C
 // 0x0000 (0x10E0 - 0x10E0)
-class UGE_E_Mobai_Damage_Zombie_C final : public UCyGameplayEffect
+class GE_E_Mobai_Damage_Zombie::UGE_E_Mobai_Damage_Zombie_C final : public UCyGameplayEffect
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("GE_E_Mobai_Damage_Zombie_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass GE_E_Mobai_Damage_Zombie.GE_E_Mobai_Damage_Zombie_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"GE_E_Mobai_Damage_Zombie_C")
 	}
-	static class UGE_E_Mobai_Damage_Zombie_C* GetDefaultObj()
+	static class GE_E_Mobai_Damage_Zombie::UGE_E_Mobai_Damage_Zombie_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UGE_E_Mobai_Damage_Zombie_C>();
+		return GetDefaultObjImpl<GE_E_Mobai_Damage_Zombie::UGE_E_Mobai_Damage_Zombie_C>();
 	}
 };
-DUMPER7_ASSERTS_UGE_E_Mobai_Damage_Zombie_C;
+DUMPER7_ASSERTS_GE_E_Mobai_Damage_Zombie__UGE_E_Mobai_Damage_Zombie_C;
 
 SDK_NAMESPACE_END

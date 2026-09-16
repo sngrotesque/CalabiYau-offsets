@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_AbilityStatConfig_Mobai_X.BP_AbilityStatConfig_Mobai_X_C
 // 0x0000 (0x00D8 - 0x00D8)
-class UBP_AbilityStatConfig_Mobai_X_C final : public UCyAbilityStatConfig
+class BP_AbilityStatConfig_Mobai_X::UBP_AbilityStatConfig_Mobai_X_C final : public UCyAbilityStatConfig
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_AbilityStatConfig_Mobai_X_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_AbilityStatConfig_Mobai_X.BP_AbilityStatConfig_Mobai_X_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_AbilityStatConfig_Mobai_X_C")
 	}
-	static class UBP_AbilityStatConfig_Mobai_X_C* GetDefaultObj()
+	static class BP_AbilityStatConfig_Mobai_X::UBP_AbilityStatConfig_Mobai_X_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_AbilityStatConfig_Mobai_X_C>();
+		return GetDefaultObjImpl<BP_AbilityStatConfig_Mobai_X::UBP_AbilityStatConfig_Mobai_X_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_AbilityStatConfig_Mobai_X_C;
+DUMPER7_ASSERTS_BP_AbilityStatConfig_Mobai_X__UBP_AbilityStatConfig_Mobai_X_C;
 
 SDK_NAMESPACE_END

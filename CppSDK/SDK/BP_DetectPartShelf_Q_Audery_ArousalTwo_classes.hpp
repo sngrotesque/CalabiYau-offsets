@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_DetectPartShelf_Q_Audery_ArousalTwo.BP_DetectPartShelf_Q_Audery_ArousalTwo_C
 // 0x0000 (0x01E0 - 0x01E0)
-class UBP_DetectPartShelf_Q_Audery_ArousalTwo_C final : public UCyLocationDetectPart
+class BP_DetectPartShelf_Q_Audery_ArousalTwo::UBP_DetectPartShelf_Q_Audery_ArousalTwo_C final : public UCyLocationDetectPart
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_DetectPartShelf_Q_Audery_ArousalTwo_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_DetectPartShelf_Q_Audery_ArousalTwo.BP_DetectPartShelf_Q_Audery_ArousalTwo_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_DetectPartShelf_Q_Audery_ArousalTwo_C")
 	}
-	static class UBP_DetectPartShelf_Q_Audery_ArousalTwo_C* GetDefaultObj()
+	static class BP_DetectPartShelf_Q_Audery_ArousalTwo::UBP_DetectPartShelf_Q_Audery_ArousalTwo_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_DetectPartShelf_Q_Audery_ArousalTwo_C>();
+		return GetDefaultObjImpl<BP_DetectPartShelf_Q_Audery_ArousalTwo::UBP_DetectPartShelf_Q_Audery_ArousalTwo_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_DetectPartShelf_Q_Audery_ArousalTwo_C;
+DUMPER7_ASSERTS_BP_DetectPartShelf_Q_Audery_ArousalTwo__UBP_DetectPartShelf_Q_Audery_ArousalTwo_C;
 
 SDK_NAMESPACE_END

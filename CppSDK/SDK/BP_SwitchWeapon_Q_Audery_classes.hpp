@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_SwitchWeapon_Q_Audery.BP_SwitchWeapon_Q_Audery_C
 // 0x0000 (0x0230 - 0x0230)
-class UBP_SwitchWeapon_Q_Audery_C final : public UCyGASwitchWeapon
+class BP_SwitchWeapon_Q_Audery::UBP_SwitchWeapon_Q_Audery_C final : public UCyGASwitchWeapon
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_SwitchWeapon_Q_Audery_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_SwitchWeapon_Q_Audery.BP_SwitchWeapon_Q_Audery_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_SwitchWeapon_Q_Audery_C")
 	}
-	static class UBP_SwitchWeapon_Q_Audery_C* GetDefaultObj()
+	static class BP_SwitchWeapon_Q_Audery::UBP_SwitchWeapon_Q_Audery_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_SwitchWeapon_Q_Audery_C>();
+		return GetDefaultObjImpl<BP_SwitchWeapon_Q_Audery::UBP_SwitchWeapon_Q_Audery_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_SwitchWeapon_Q_Audery_C;
+DUMPER7_ASSERTS_BP_SwitchWeapon_Q_Audery__UBP_SwitchWeapon_Q_Audery_C;
 
 SDK_NAMESPACE_END

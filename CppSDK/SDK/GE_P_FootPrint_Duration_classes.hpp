@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass GE_P_FootPrint_Duration.GE_P_FootPrint_Duration_C
 // 0x0000 (0x10E0 - 0x10E0)
-class UGE_P_FootPrint_Duration_C final : public UCyGameplayEffect
+class GE_P_FootPrint_Duration::UGE_P_FootPrint_Duration_C final : public UCyGameplayEffect
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("GE_P_FootPrint_Duration_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass GE_P_FootPrint_Duration.GE_P_FootPrint_Duration_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"GE_P_FootPrint_Duration_C")
 	}
-	static class UGE_P_FootPrint_Duration_C* GetDefaultObj()
+	static class GE_P_FootPrint_Duration::UGE_P_FootPrint_Duration_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UGE_P_FootPrint_Duration_C>();
+		return GetDefaultObjImpl<GE_P_FootPrint_Duration::UGE_P_FootPrint_Duration_C>();
 	}
 };
-DUMPER7_ASSERTS_UGE_P_FootPrint_Duration_C;
+DUMPER7_ASSERTS_GE_P_FootPrint_Duration__UGE_P_FootPrint_Duration_C;
 
 SDK_NAMESPACE_END

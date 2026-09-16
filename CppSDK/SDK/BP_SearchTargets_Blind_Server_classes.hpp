@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_SearchTargets_Blind_Server.BP_SearchTargets_Blind_Server_C
 // 0x0000 (0x07A0 - 0x07A0)
-class UBP_SearchTargets_Blind_Server_C final : public UCySAtomSearchTargets
+class BP_SearchTargets_Blind_Server::UBP_SearchTargets_Blind_Server_C final : public UCySAtomSearchTargets
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_SearchTargets_Blind_Server_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_SearchTargets_Blind_Server.BP_SearchTargets_Blind_Server_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_SearchTargets_Blind_Server_C")
 	}
-	static class UBP_SearchTargets_Blind_Server_C* GetDefaultObj()
+	static class BP_SearchTargets_Blind_Server::UBP_SearchTargets_Blind_Server_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_SearchTargets_Blind_Server_C>();
+		return GetDefaultObjImpl<BP_SearchTargets_Blind_Server::UBP_SearchTargets_Blind_Server_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_SearchTargets_Blind_Server_C;
+DUMPER7_ASSERTS_BP_SearchTargets_Blind_Server__UBP_SearchTargets_Blind_Server_C;
 
 SDK_NAMESPACE_END

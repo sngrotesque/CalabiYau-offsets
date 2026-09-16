@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_SSAtom_MaidSharkColor.BP_SSAtom_MaidSharkColor_C
 // 0x0000 (0x0338 - 0x0338)
-class UBP_SSAtom_MaidSharkColor_C final : public UCySSAtomMaterialParam
+class BP_SSAtom_MaidSharkColor::UBP_SSAtom_MaidSharkColor_C final : public UCySSAtomMaterialParam
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_SSAtom_MaidSharkColor_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_SSAtom_MaidSharkColor.BP_SSAtom_MaidSharkColor_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_SSAtom_MaidSharkColor_C")
 	}
-	static class UBP_SSAtom_MaidSharkColor_C* GetDefaultObj()
+	static class BP_SSAtom_MaidSharkColor::UBP_SSAtom_MaidSharkColor_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_SSAtom_MaidSharkColor_C>();
+		return GetDefaultObjImpl<BP_SSAtom_MaidSharkColor::UBP_SSAtom_MaidSharkColor_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_SSAtom_MaidSharkColor_C;
+DUMPER7_ASSERTS_BP_SSAtom_MaidSharkColor__UBP_SSAtom_MaidSharkColor_C;
 
 SDK_NAMESPACE_END

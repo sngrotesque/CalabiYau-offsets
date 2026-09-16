@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_TargetFilter_ButterflyBlind.BP_TargetFilter_ButterflyBlind_C
 // 0x0000 (0x0058 - 0x0058)
-class UBP_TargetFilter_ButterflyBlind_C final : public UCyFilterButterflyBlind
+class BP_TargetFilter_ButterflyBlind::UBP_TargetFilter_ButterflyBlind_C final : public UCyFilterButterflyBlind
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_TargetFilter_ButterflyBlind_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_TargetFilter_ButterflyBlind.BP_TargetFilter_ButterflyBlind_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_TargetFilter_ButterflyBlind_C")
 	}
-	static class UBP_TargetFilter_ButterflyBlind_C* GetDefaultObj()
+	static class BP_TargetFilter_ButterflyBlind::UBP_TargetFilter_ButterflyBlind_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_TargetFilter_ButterflyBlind_C>();
+		return GetDefaultObjImpl<BP_TargetFilter_ButterflyBlind::UBP_TargetFilter_ButterflyBlind_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_TargetFilter_ButterflyBlind_C;
+DUMPER7_ASSERTS_BP_TargetFilter_ButterflyBlind__UBP_TargetFilter_ButterflyBlind_C;
 
 SDK_NAMESPACE_END

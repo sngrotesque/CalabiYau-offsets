@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass GE_Q_FootPrint_Infinite.GE_Q_FootPrint_Infinite_C
 // 0x0000 (0x10E0 - 0x10E0)
-class UGE_Q_FootPrint_Infinite_C final : public UCyGameplayEffect
+class GE_Q_FootPrint_Infinite::UGE_Q_FootPrint_Infinite_C final : public UCyGameplayEffect
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("GE_Q_FootPrint_Infinite_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass GE_Q_FootPrint_Infinite.GE_Q_FootPrint_Infinite_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"GE_Q_FootPrint_Infinite_C")
 	}
-	static class UGE_Q_FootPrint_Infinite_C* GetDefaultObj()
+	static class GE_Q_FootPrint_Infinite::UGE_Q_FootPrint_Infinite_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UGE_Q_FootPrint_Infinite_C>();
+		return GetDefaultObjImpl<GE_Q_FootPrint_Infinite::UGE_Q_FootPrint_Infinite_C>();
 	}
 };
-DUMPER7_ASSERTS_UGE_Q_FootPrint_Infinite_C;
+DUMPER7_ASSERTS_GE_Q_FootPrint_Infinite__UGE_Q_FootPrint_Infinite_C;
 
 SDK_NAMESPACE_END

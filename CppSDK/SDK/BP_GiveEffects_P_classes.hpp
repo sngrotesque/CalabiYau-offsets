@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_GiveEffects_P.BP_GiveEffects_P_C
 // 0x0000 (0x0080 - 0x0080)
-class UBP_GiveEffects_P_C final : public UCyGAGiveEffects
+class BP_GiveEffects_P::UBP_GiveEffects_P_C final : public UCyGAGiveEffects
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_GiveEffects_P_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_GiveEffects_P.BP_GiveEffects_P_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_GiveEffects_P_C")
 	}
-	static class UBP_GiveEffects_P_C* GetDefaultObj()
+	static class BP_GiveEffects_P::UBP_GiveEffects_P_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_GiveEffects_P_C>();
+		return GetDefaultObjImpl<BP_GiveEffects_P::UBP_GiveEffects_P_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_GiveEffects_P_C;
+DUMPER7_ASSERTS_BP_GiveEffects_P__UBP_GiveEffects_P_C;
 
 SDK_NAMESPACE_END

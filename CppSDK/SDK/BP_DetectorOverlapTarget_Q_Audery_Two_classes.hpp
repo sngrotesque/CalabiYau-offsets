@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_DetectorOverlapTarget_Q_Audery_Two.BP_DetectorOverlapTarget_Q_Audery_Two_C
 // 0x0000 (0x05B8 - 0x05B8)
-class UBP_DetectorOverlapTarget_Q_Audery_Two_C final : public UCyTargetDetectorOverlap
+class BP_DetectorOverlapTarget_Q_Audery_Two::UBP_DetectorOverlapTarget_Q_Audery_Two_C final : public UCyTargetDetectorOverlap
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_DetectorOverlapTarget_Q_Audery_Two_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_DetectorOverlapTarget_Q_Audery_Two.BP_DetectorOverlapTarget_Q_Audery_Two_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_DetectorOverlapTarget_Q_Audery_Two_C")
 	}
-	static class UBP_DetectorOverlapTarget_Q_Audery_Two_C* GetDefaultObj()
+	static class BP_DetectorOverlapTarget_Q_Audery_Two::UBP_DetectorOverlapTarget_Q_Audery_Two_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_DetectorOverlapTarget_Q_Audery_Two_C>();
+		return GetDefaultObjImpl<BP_DetectorOverlapTarget_Q_Audery_Two::UBP_DetectorOverlapTarget_Q_Audery_Two_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_DetectorOverlapTarget_Q_Audery_Two_C;
+DUMPER7_ASSERTS_BP_DetectorOverlapTarget_Q_Audery_Two__UBP_DetectorOverlapTarget_Q_Audery_Two_C;
 
 SDK_NAMESPACE_END

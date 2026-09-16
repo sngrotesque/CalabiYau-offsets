@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_Trigger_AddEffects.BP_Trigger_AddEffects_C
 // 0x0000 (0x0258 - 0x0258)
-class UBP_Trigger_AddEffects_C final : public UCyGATriggerAddEffectsToActuator
+class BP_Trigger_AddEffects::UBP_Trigger_AddEffects_C final : public UCyGATriggerAddEffectsToActuator
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_Trigger_AddEffects_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_Trigger_AddEffects.BP_Trigger_AddEffects_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_Trigger_AddEffects_C")
 	}
-	static class UBP_Trigger_AddEffects_C* GetDefaultObj()
+	static class BP_Trigger_AddEffects::UBP_Trigger_AddEffects_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_Trigger_AddEffects_C>();
+		return GetDefaultObjImpl<BP_Trigger_AddEffects::UBP_Trigger_AddEffects_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_Trigger_AddEffects_C;
+DUMPER7_ASSERTS_BP_Trigger_AddEffects__UBP_Trigger_AddEffects_C;
 
 SDK_NAMESPACE_END

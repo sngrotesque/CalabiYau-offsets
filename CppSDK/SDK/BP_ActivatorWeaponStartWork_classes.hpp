@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_ActivatorWeaponStartWork.BP_ActivatorWeaponStartWork_C
 // 0x0000 (0x0230 - 0x0230)
-class UBP_ActivatorWeaponStartWork_C final : public UCyGAActivatorWeaponStartWork
+class BP_ActivatorWeaponStartWork::UBP_ActivatorWeaponStartWork_C final : public UCyGAActivatorWeaponStartWork
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_ActivatorWeaponStartWork_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_ActivatorWeaponStartWork.BP_ActivatorWeaponStartWork_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_ActivatorWeaponStartWork_C")
 	}
-	static class UBP_ActivatorWeaponStartWork_C* GetDefaultObj()
+	static class BP_ActivatorWeaponStartWork::UBP_ActivatorWeaponStartWork_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_ActivatorWeaponStartWork_C>();
+		return GetDefaultObjImpl<BP_ActivatorWeaponStartWork::UBP_ActivatorWeaponStartWork_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_ActivatorWeaponStartWork_C;
+DUMPER7_ASSERTS_BP_ActivatorWeaponStartWork__UBP_ActivatorWeaponStartWork_C;
 
 SDK_NAMESPACE_END

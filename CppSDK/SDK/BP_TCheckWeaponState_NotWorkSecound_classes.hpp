@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_TCheckWeaponState_NotWorkSecound.BP_TCheckWeaponState_NotWorkSecound_C
 // 0x0000 (0x0100 - 0x0100)
-class UBP_TCheckWeaponState_NotWorkSecound_C final : public UCyGATCheckWeaponState
+class BP_TCheckWeaponState_NotWorkSecound::UBP_TCheckWeaponState_NotWorkSecound_C final : public UCyGATCheckWeaponState
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_TCheckWeaponState_NotWorkSecound_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_TCheckWeaponState_NotWorkSecound.BP_TCheckWeaponState_NotWorkSecound_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_TCheckWeaponState_NotWorkSecound_C")
 	}
-	static class UBP_TCheckWeaponState_NotWorkSecound_C* GetDefaultObj()
+	static class BP_TCheckWeaponState_NotWorkSecound::UBP_TCheckWeaponState_NotWorkSecound_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_TCheckWeaponState_NotWorkSecound_C>();
+		return GetDefaultObjImpl<BP_TCheckWeaponState_NotWorkSecound::UBP_TCheckWeaponState_NotWorkSecound_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_TCheckWeaponState_NotWorkSecound_C;
+DUMPER7_ASSERTS_BP_TCheckWeaponState_NotWorkSecound__UBP_TCheckWeaponState_NotWorkSecound_C;
 
 SDK_NAMESPACE_END

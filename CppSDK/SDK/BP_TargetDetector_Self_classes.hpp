@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_TargetDetector_Self.BP_TargetDetector_Self_C
 // 0x0000 (0x0550 - 0x0550)
-class UBP_TargetDetector_Self_C final : public UCyTargetDetectorSelf
+class BP_TargetDetector_Self::UBP_TargetDetector_Self_C final : public UCyTargetDetectorSelf
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_TargetDetector_Self_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_TargetDetector_Self.BP_TargetDetector_Self_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_TargetDetector_Self_C")
 	}
-	static class UBP_TargetDetector_Self_C* GetDefaultObj()
+	static class BP_TargetDetector_Self::UBP_TargetDetector_Self_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_TargetDetector_Self_C>();
+		return GetDefaultObjImpl<BP_TargetDetector_Self::UBP_TargetDetector_Self_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_TargetDetector_Self_C;
+DUMPER7_ASSERTS_BP_TargetDetector_Self__UBP_TargetDetector_Self_C;
 
 SDK_NAMESPACE_END

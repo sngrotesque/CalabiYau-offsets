@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_SAtom_SpawnShark.BP_SAtom_SpawnShark_C
 // 0x0000 (0x0688 - 0x0688)
-class UBP_SAtom_SpawnShark_C final : public UCySAtomSpawnActor
+class BP_SAtom_SpawnShark::UBP_SAtom_SpawnShark_C final : public UCySAtomSpawnActor
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_SAtom_SpawnShark_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_SAtom_SpawnShark.BP_SAtom_SpawnShark_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_SAtom_SpawnShark_C")
 	}
-	static class UBP_SAtom_SpawnShark_C* GetDefaultObj()
+	static class BP_SAtom_SpawnShark::UBP_SAtom_SpawnShark_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_SAtom_SpawnShark_C>();
+		return GetDefaultObjImpl<BP_SAtom_SpawnShark::UBP_SAtom_SpawnShark_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_SAtom_SpawnShark_C;
+DUMPER7_ASSERTS_BP_SAtom_SpawnShark__UBP_SAtom_SpawnShark_C;
 
 SDK_NAMESPACE_END

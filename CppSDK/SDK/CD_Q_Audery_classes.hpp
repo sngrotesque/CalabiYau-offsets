@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass CD_Q_Audery.CD_Q_Audery_C
 // 0x0000 (0x1060 - 0x1060)
-class UCD_Q_Audery_C final : public UGameplayEffect
+class CD_Q_Audery::UCD_Q_Audery_C final : public UGameplayEffect
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("CD_Q_Audery_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass CD_Q_Audery.CD_Q_Audery_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"CD_Q_Audery_C")
 	}
-	static class UCD_Q_Audery_C* GetDefaultObj()
+	static class CD_Q_Audery::UCD_Q_Audery_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UCD_Q_Audery_C>();
+		return GetDefaultObjImpl<CD_Q_Audery::UCD_Q_Audery_C>();
 	}
 };
-DUMPER7_ASSERTS_UCD_Q_Audery_C;
+DUMPER7_ASSERTS_CD_Q_Audery__UCD_Q_Audery_C;
 
 SDK_NAMESPACE_END

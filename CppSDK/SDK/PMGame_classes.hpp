@@ -1025,7 +1025,7 @@ DUMPER7_ASSERTS_UCyInteractAtom;
 
 // Class PMGame.CyInteractAtomPressControl
 // 0x0008 (0x0A78 - 0x0A70)
-class UCyInteractAtomPressControl final : public UCyInteractAtom
+class UCyInteractAtomPressControl : public UCyInteractAtom
 {
 public:
 	EAIStateType                                  ClosingState;                                      // 0x0A70(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -1154,7 +1154,7 @@ DUMPER7_ASSERTS_UAblAllocateTargets;
 
 // Class PMGame.CyGATCheckOptionalObjectRecordBool
 // 0x0008 (0x0070 - 0x0068)
-class UCyGATCheckOptionalObjectRecordBool final : public UCyGATriggerCheck
+class UCyGATCheckOptionalObjectRecordBool : public UCyGATriggerCheck
 {
 public:
 	bool                                          bCheckRecordValue;                                 // 0x0068(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -2813,7 +2813,7 @@ DUMPER7_ASSERTS_UCyUWGuideUIGuidePagePC;
 
 // Class PMGame.CyGATriggerReboundProjectile
 // 0x0020 (0x0260 - 0x0240)
-class UCyGATriggerReboundProjectile final : public UCyGAAtomTrigger
+class UCyGATriggerReboundProjectile : public UCyGAAtomTrigger
 {
 public:
 	bool                                          bKillOldProjectile;                                // 0x0240(0x0001)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -3031,7 +3031,7 @@ DUMPER7_ASSERTS_UCyAccumulator;
 
 // Class PMGame.CyEventCountAccumulator
 // 0x0200 (0x02D0 - 0x00D0)
-class UCyEventCountAccumulator final : public UCyAccumulator
+class UCyEventCountAccumulator : public UCyAccumulator
 {
 public:
 	struct FGameplayTagContainer                  ListenEventTags;                                   // 0x00D0(0x0060)(Edit, Protected, NativeAccessSpecifierProtected)
@@ -3153,7 +3153,7 @@ DUMPER7_ASSERTS_UCyStateAtom;
 
 // Class PMGame.CySAtomEventAddXPoint
 // 0x0060 (0x05E8 - 0x0588)
-class UCySAtomEventAddXPoint final : public UCyStateAtom
+class UCySAtomEventAddXPoint : public UCyStateAtom
 {
 public:
 	TMap<EGStateType, float>                      GStateAddRatioMap;                                 // 0x0588(0x0050)(Edit, DisableEditOnInstance, Protected, NativeAccessSpecifierProtected)
@@ -3422,7 +3422,7 @@ DUMPER7_ASSERTS_UablSetCompCollisionEnableTask;
 
 // Class PMGame.CySAChangeMoveToActor
 // 0x0010 (0x0598 - 0x0588)
-class UCySAChangeMoveToActor final : public UCyStateAtom
+class UCySAChangeMoveToActor : public UCyStateAtom
 {
 public:
 	float                                         ChangeStateDistance;                               // 0x0588(0x0004)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -4428,7 +4428,7 @@ DUMPER7_ASSERTS_UCyStateSubAtom;
 
 // Class PMGame.CySSAtomSendEvent
 // 0x0010 (0x0060 - 0x0050)
-class UCySSAtomSendEvent final : public UCyStateSubAtom
+class UCySSAtomSendEvent : public UCyStateSubAtom
 {
 public:
 	struct FGameplayTag                           EventTag;                                          // 0x0050(0x0008)(Edit, DisableEditOnInstance, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -5102,7 +5102,7 @@ DUMPER7_ASSERTS_UCyTargetCopyComponent;
 
 // Class PMGame.CyCalculationBigHeadCauseSafeZoneDamage
 // 0x0020 (0x0060 - 0x0040)
-class UCyCalculationBigHeadCauseSafeZoneDamage final : public UGameplayModMagnitudeCalculation
+class UCyCalculationBigHeadCauseSafeZoneDamage : public UGameplayModMagnitudeCalculation
 {
 public:
 	TArray<struct FCalculationAttribute>          CalNormalAttribute;                                // 0x0040(0x0010)(Edit, ZeroConstructor, DisableEditOnInstance, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -5400,7 +5400,7 @@ DUMPER7_ASSERTS_UCyFLeaveAttackTypeState;
 
 // Class PMGame.CyChallengePartitionWall
 // 0x0000 (0x0348 - 0x0348)
-class ACyChallengePartitionWall final : public ACyPartitionWall
+class ACyChallengePartitionWall : public ACyPartitionWall
 {
 public:
 	static class UClass* StaticClass()
@@ -5420,7 +5420,7 @@ DUMPER7_ASSERTS_ACyChallengePartitionWall;
 
 // Class PMGame.CyGAAtomTriggerSummonPlayAsset
 // 0x0018 (0x0258 - 0x0240)
-class UCyGAAtomTriggerSummonPlayAsset final : public UCyGAAtomTrigger
+class UCyGAAtomTriggerSummonPlayAsset : public UCyGAAtomTrigger
 {
 public:
 	struct FGameplayTag                           SummonActorTag;                                    // 0x0240(0x0008)(Edit, DisableEditOnInstance, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -5758,7 +5758,7 @@ DUMPER7_ASSERTS_ACyApartmentGarageKitsPedestal;
 
 // Class PMGame.CyGATCheckAbilityActivated
 // 0x0000 (0x0068 - 0x0068)
-class UCyGATCheckAbilityActivated final : public UCyGATriggerCheck
+class UCyGATCheckAbilityActivated : public UCyGATriggerCheck
 {
 public:
 	static class UClass* StaticClass()
@@ -6207,7 +6207,7 @@ DUMPER7_ASSERTS_UCyGAAtomGiver;
 
 // Class PMGame.CyGAGiveAccumulator
 // 0x0088 (0x00E8 - 0x0060)
-class UCyGAGiveAccumulator final : public UCyGAAtomGiver
+class UCyGAGiveAccumulator : public UCyGAAtomGiver
 {
 public:
 	TArray<TSubclassOf<class UCyAccumulator>>     Accumulators;                                      // 0x0060(0x0010)(Edit, ZeroConstructor, DisableEditOnInstance, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -7356,7 +7356,7 @@ DUMPER7_ASSERTS_ACySimpleSplineMoveActor;
 
 // Class PMGame.CyGATCheckInstigatorClass
 // 0x0010 (0x0078 - 0x0068)
-class UCyGATCheckInstigatorClass final : public UCyGATriggerCheck
+class UCyGATCheckInstigatorClass : public UCyGATriggerCheck
 {
 public:
 	TArray<TSubclassOf<class AActor>>             ActorClassFilter;                                  // 0x0068(0x0010)(Edit, ZeroConstructor, DisableEditOnInstance, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -7416,7 +7416,7 @@ DUMPER7_ASSERTS_UCyActuatorJulianPointComponent;
 
 // Class PMGame.CyGATCheckInstigatorTargetEnemy
 // 0x0000 (0x0068 - 0x0068)
-class UCyGATCheckInstigatorTargetEnemy final : public UCyGATriggerCheck
+class UCyGATCheckInstigatorTargetEnemy : public UCyGATriggerCheck
 {
 public:
 	static class UClass* StaticClass()
@@ -7836,7 +7836,7 @@ DUMPER7_ASSERTS_UCyFeedbackLuckyCoinTipsMonitor;
 
 // Class PMGame.CyAdjustShapeStateStateAtom
 // 0x0090 (0x0618 - 0x0588)
-class UCyAdjustShapeStateStateAtom final : public UCyStateAtom
+class UCyAdjustShapeStateStateAtom : public UCyStateAtom
 {
 public:
 	struct FGameplayTag                           ShapeStateTag;                                     // 0x0588(0x0008)(Edit, DisableEditOnInstance, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -8428,7 +8428,7 @@ DUMPER7_ASSERTS_ACyAIController;
 
 // Class PMGame.CySAtomSearchInstigator
 // 0x0030 (0x05B8 - 0x0588)
-class UCySAtomSearchInstigator final : public UCyStateAtom
+class UCySAtomSearchInstigator : public UCyStateAtom
 {
 public:
 	float                                         Radius;                                            // 0x0588(0x0004)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -8653,7 +8653,7 @@ DUMPER7_ASSERTS_UCyAIEntryState;
 
 // Class PMGame.CySSAtomDataCollectionEvent
 // 0x0008 (0x0058 - 0x0050)
-class UCySSAtomDataCollectionEvent final : public UCyStateSubAtom
+class UCySSAtomDataCollectionEvent : public UCyStateSubAtom
 {
 public:
 	struct FGameplayTag                           DefaultTag;                                        // 0x0050(0x0008)(Edit, DisableEditOnInstance, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -8802,7 +8802,7 @@ DUMPER7_ASSERTS_UCyGPAction_RemoveQuestsInGiftSystem;
 
 // Class PMGame.CyCalcPlayerScore_Common
 // 0x0130 (0x0158 - 0x0028)
-class UCyCalcPlayerScore_Common : public UCyCalcPlayerScoreBase
+class UCyCalcPlayerScore_Common final : public UCyCalcPlayerScoreBase
 {
 public:
 	TSet<int32>                                   LimitGroupID;                                      // 0x0028(0x0050)(Edit, DisableEditOnInstance, Protected, NativeAccessSpecifierProtected)
@@ -9251,7 +9251,7 @@ DUMPER7_ASSERTS_UCyAILogGameInstanceSubsystem;
 
 // Class PMGame.CyGATriggerSetWeaponDefaults
 // 0x0008 (0x0248 - 0x0240)
-class UCyGATriggerSetWeaponDefaults final : public UCyGAAtomTrigger
+class UCyGATriggerSetWeaponDefaults : public UCyGAAtomTrigger
 {
 public:
 	EWeaponSlotTypes                              SlotType;                                          // 0x0240(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -9524,7 +9524,7 @@ DUMPER7_ASSERTS_UCyAimAssistProcessorBase;
 
 // Class PMGame.CySAtomApplyEffectSickleBlock
 // 0x0020 (0x05A8 - 0x0588)
-class UCySAtomApplyEffectSickleBlock final : public UCyStateAtom
+class UCySAtomApplyEffectSickleBlock : public UCyStateAtom
 {
 public:
 	TArray<struct FConditionalEffect>             EffectsToApply;                                    // 0x0588(0x0010)(Edit, ZeroConstructor, DisableEditOnInstance, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -9572,7 +9572,7 @@ DUMPER7_ASSERTS_UCyBTDecorator_CheckPayloadOverlapState;
 
 // Class PMGame.CyCheckExtraJump
 // 0x0008 (0x0060 - 0x0058)
-class UCyCheckExtraJump final : public UCyCheckAtom
+class UCyCheckExtraJump : public UCyCheckAtom
 {
 public:
 	int32                                         MaxExtraJumpCount;                                 // 0x0058(0x0004)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -9630,7 +9630,7 @@ DUMPER7_ASSERTS_UCyAimAssistProcessorConsole;
 
 // Class PMGame.CyFilterCreator
 // 0x0000 (0x0048 - 0x0048)
-class UCyFilterCreator final : public UCyTargetFilter
+class UCyFilterCreator : public UCyTargetFilter
 {
 public:
 	static class UClass* StaticClass()
@@ -9650,7 +9650,7 @@ DUMPER7_ASSERTS_UCyFilterCreator;
 
 // Class PMGame.CyCheckInitializeLocation
 // 0x0008 (0x0060 - 0x0058)
-class UCyCheckInitializeLocation final : public UCyCheckAtom
+class UCyCheckInitializeLocation : public UCyCheckAtom
 {
 public:
 	bool                                          bSearchWithTarget;                                 // 0x0058(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -9784,7 +9784,7 @@ DUMPER7_ASSERTS_UCyFilterInstigatorOwner;
 
 // Class PMGame.CyCheckAttributeAtom
 // 0x0078 (0x00D0 - 0x0058)
-class UCyCheckAttributeAtom final : public UCyCheckAtom
+class UCyCheckAttributeAtom : public UCyCheckAtom
 {
 public:
 	struct FGameplayAttribute                     AttributeValue;                                    // 0x0058(0x0038)(Edit, DisableEditOnInstance, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -9813,7 +9813,7 @@ DUMPER7_ASSERTS_UCyCheckAttributeAtom;
 
 // Class PMGame.CyGPAction_StatInstallBombNum
 // 0x0000 (0x0080 - 0x0080)
-class UCyGPAction_StatInstallBombNum : public UCyGPAction
+class UCyGPAction_StatInstallBombNum final : public UCyGPAction
 {
 public:
 	static class UClass* StaticClass()
@@ -9958,7 +9958,7 @@ DUMPER7_ASSERTS_UCyAINotify_Pivot;
 
 // Class PMGame.CySAtomSetParentOwnerTargetsWithOwnerTargets
 // 0x0010 (0x0598 - 0x0588)
-class UCySAtomSetParentOwnerTargetsWithOwnerTargets final : public UCyStateAtom
+class UCySAtomSetParentOwnerTargetsWithOwnerTargets : public UCyStateAtom
 {
 public:
 	TArray<TSubclassOf<class UObject>>            TypeArray;                                         // 0x0588(0x0010)(Edit, ZeroConstructor, DisableEditOnInstance, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -10010,7 +10010,7 @@ DUMPER7_ASSERTS_UCyStateCheckAtom;
 
 // Class PMGame.CyStateCheckAtomTargetDistance
 // 0x0058 (0x0298 - 0x0240)
-class UCyStateCheckAtomTargetDistance final : public UCyStateCheckAtom
+class UCyStateCheckAtomTargetDistance : public UCyStateCheckAtom
 {
 public:
 	class FName                                   EndComponentTagName;                               // 0x0240(0x0008)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -10083,7 +10083,7 @@ DUMPER7_ASSERTS_UCyAINotify_PlayMontage;
 
 // Class PMGame.CySAtomSetCraneMode
 // 0x0038 (0x05C0 - 0x0588)
-class UCySAtomSetCraneMode final : public UCyStateAtom
+class UCySAtomSetCraneMode : public UCyStateAtom
 {
 public:
 	class UCurveVector*                           SocketOffsetCurve;                                 // 0x0588(0x0008)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -10197,7 +10197,7 @@ DUMPER7_ASSERTS_UCyAINotify_PlayTransition;
 
 // Class PMGame.CyStateCheckAtomLockTargetsValid
 // 0x0020 (0x0260 - 0x0240)
-class UCyStateCheckAtomLockTargetsValid final : public UCyStateCheckAtom
+class UCyStateCheckAtomLockTargetsValid : public UCyStateCheckAtom
 {
 public:
 	TArray<TSubclassOf<class UCyTargetFilter>>    Filters;                                           // 0x0240(0x0010)(Edit, ZeroConstructor, DisableEditOnInstance, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
@@ -10321,7 +10321,7 @@ DUMPER7_ASSERTS_UCyCheckHasWeapon;
 
 // Class PMGame.CyAINotify_SetHipDirection
 // 0x0050 (0x0080 - 0x0030)
-class UCyAINotify_SetHipDirection final : public UCyAnimInstanceNotify
+class UCyAINotify_SetHipDirection : public UCyAnimInstanceNotify
 {
 public:
 	TMap<class FName, EALSHipsDirection>          DirectionMap;                                      // 0x0030(0x0050)(Edit, DisableEditOnInstance, NativeAccessSpecifierPrivate)
@@ -10364,7 +10364,7 @@ DUMPER7_ASSERTS_UCyFilterInstigatorInstigatorOnly;
 
 // Class PMGame.CyGATriggerSpawnSummonAtHitResult
 // 0x0020 (0x0260 - 0x0240)
-class UCyGATriggerSpawnSummonAtHitResult final : public UCyGAAtomTrigger
+class UCyGATriggerSpawnSummonAtHitResult : public UCyGAAtomTrigger
 {
 public:
 	bool                                          bIgnoredRotator;                                   // 0x0240(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -11175,7 +11175,7 @@ DUMPER7_ASSERTS_UCyAIStateMonitorNekoBotWait;
 
 // Class PMGame.CyStateAtom_InterruptCurState
 // 0x01F0 (0x0778 - 0x0588)
-class UCyStateAtom_InterruptCurState final : public UCyStateAtom
+class UCyStateAtom_InterruptCurState : public UCyStateAtom
 {
 public:
 	ETargetSourceType                             TargetType;                                        // 0x0588(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -11227,7 +11227,7 @@ DUMPER7_ASSERTS_ACyBombDefaultSpawnLocationActor;
 
 // Class PMGame.CyGATCheckClickInterval
 // 0x0008 (0x0070 - 0x0068)
-class UCyGATCheckClickInterval final : public UCyGATriggerCheck
+class UCyGATCheckClickInterval : public UCyGATriggerCheck
 {
 public:
 	float                                         Interval;                                          // 0x0068(0x0004)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -11760,7 +11760,7 @@ DUMPER7_ASSERTS_UCyAN_PlayAtLocation;
 
 // Class PMGame.CyExecutionRecoverHealth
 // 0x0230 (0x0270 - 0x0040)
-class UCyExecutionRecoverHealth final : public UGameplayEffectExecutionCalculation
+class UCyExecutionRecoverHealth : public UGameplayEffectExecutionCalculation
 {
 public:
 	struct FGameplayAttribute                     AttributeConsume;                                  // 0x0040(0x0038)(Edit, DisableEditOnInstance, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -12294,7 +12294,7 @@ DUMPER7_ASSERTS_UCyExecutionCalculationPlayersDistance;
 
 // Class PMGame.CyGATriggerDataCollectionEvent
 // 0x0008 (0x0248 - 0x0240)
-class UCyGATriggerDataCollectionEvent final : public UCyGAAtomTrigger
+class UCyGATriggerDataCollectionEvent : public UCyGAAtomTrigger
 {
 public:
 	struct FGameplayTag                           DefaultTag;                                        // 0x0240(0x0008)(Edit, DisableEditOnInstance, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -12792,7 +12792,7 @@ DUMPER7_ASSERTS_UCyAnimNotifyState_ExpressionPlayEffect;
 
 // Class PMGame.CySSAtomActiveEffect
 // 0x0018 (0x0068 - 0x0050)
-class UCySSAtomActiveEffect final : public UCyStateSubAtom
+class UCySSAtomActiveEffect : public UCyStateSubAtom
 {
 public:
 	TArray<struct FMeshTagContainer>              AssetTags;                                         // 0x0050(0x0010)(Edit, ZeroConstructor, DisableEditOnInstance, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -13386,7 +13386,7 @@ DUMPER7_ASSERTS_UCyAnimNotifyState_TimedParticleEffect_HideInWall;
 
 // Class PMGame.CyGATCheckWeaponSlot
 // 0x0008 (0x0070 - 0x0068)
-class UCyGATCheckWeaponSlot final : public UCyGATriggerCheck
+class UCyGATCheckWeaponSlot : public UCyGATriggerCheck
 {
 public:
 	EWeaponSlotTypes                              CheckWeaponSlotType;                               // 0x0068(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -14507,7 +14507,7 @@ DUMPER7_ASSERTS_UCyGPActionCheck_ConnectStatus;
 
 // Class PMGame.CyAttackAccumulator
 // 0x0430 (0x0500 - 0x00D0)
-class UCyAttackAccumulator final : public UCyAccumulator
+class UCyAttackAccumulator : public UCyAccumulator
 {
 public:
 	struct FScalableFloat                         TargetKeepTime;                                    // 0x00D0(0x0030)(Edit, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -15175,7 +15175,7 @@ DUMPER7_ASSERTS_UCyAttributeSetConfig;
 
 // Class PMGame.CyAttributeValueRequirement
 // 0x00D8 (0x0100 - 0x0028)
-class UCyAttributeValueRequirement final : public UGameplayEffectCustomApplicationRequirement
+class UCyAttributeValueRequirement : public UGameplayEffectCustomApplicationRequirement
 {
 public:
 	EAttributeCompareType                         AttributeCompareType;                              // 0x0028(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
@@ -15204,7 +15204,7 @@ DUMPER7_ASSERTS_UCyAttributeValueRequirement;
 
 // Class PMGame.CyGSEventAtomMatchInitialization_Bomb
 // 0x0000 (0x03C8 - 0x03C8)
-class UCyGSEventAtomMatchInitialization_Bomb : public UCyGSEventAtom
+class UCyGSEventAtomMatchInitialization_Bomb final : public UCyGSEventAtom
 {
 public:
 	static class UClass* StaticClass()
@@ -15484,7 +15484,7 @@ DUMPER7_ASSERTS_UCyCStateFly2D;
 
 // Class PMGame.CyGPEM_GlobalEvent
 // 0x0060 (0x0548 - 0x04E8)
-class UCyGPEM_GlobalEvent : public UCyGameplayEventMonitor
+class UCyGPEM_GlobalEvent final : public UCyGameplayEventMonitor
 {
 public:
 	struct FGameplayTagContainer                  MonitorEventTags;                                  // 0x04E8(0x0060)(Edit, BlueprintVisible, BlueprintReadOnly, DisableEditOnInstance, Protected, NativeAccessSpecifierProtected)
@@ -15613,7 +15613,7 @@ DUMPER7_ASSERTS_UCyAVGCinematicTitlePage;
 
 // Class PMGame.CyGATCheckSummonHadDeathProtect
 // 0x0060 (0x00C8 - 0x0068)
-class UCyGATCheckSummonHadDeathProtect final : public UCyGATriggerCheck
+class UCyGATCheckSummonHadDeathProtect : public UCyGATriggerCheck
 {
 public:
 	struct FGameplayTagContainer                  SummonActorTags;                                   // 0x0068(0x0060)(Edit, DisableEditOnInstance, Protected, NativeAccessSpecifierProtected)
@@ -16657,7 +16657,7 @@ DUMPER7_ASSERTS_UCyBigHeadTeammateHitExecutionCalculation;
 
 // Class PMGame.CyGAActivatorSetActors
 // 0x0018 (0x0240 - 0x0228)
-class UCyGAActivatorSetActors final : public UCyGAAtomActivator
+class UCyGAActivatorSetActors : public UCyGAAtomActivator
 {
 public:
 	struct FGameplayTag                           TargetActorTag;                                    // 0x0228(0x0008)(Edit, DisableEditOnInstance, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -17195,7 +17195,7 @@ DUMPER7_ASSERTS_UCyGPAction_GiveWeapon;
 
 // Class PMGame.CyCheckHasCurrentWeapon
 // 0x0008 (0x0060 - 0x0058)
-class UCyCheckHasCurrentWeapon final : public UCyCheckAtom
+class UCyCheckHasCurrentWeapon : public UCyCheckAtom
 {
 public:
 	bool                                          bNegate;                                           // 0x0058(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -17768,7 +17768,7 @@ DUMPER7_ASSERTS_UCyBTService_CheckDistance;
 
 // Class PMGame.CyGAActivatorCacheEventTarget
 // 0x0000 (0x0228 - 0x0228)
-class UCyGAActivatorCacheEventTarget final : public UCyGAAtomActivator
+class UCyGAActivatorCacheEventTarget : public UCyGAAtomActivator
 {
 public:
 	static class UClass* StaticClass()
@@ -19100,7 +19100,7 @@ DUMPER7_ASSERTS_UCyCheatAtom;
 
 // Class PMGame.CyCheatAmmoConsume
 // 0x0000 (0x00B0 - 0x00B0)
-class UCyCheatAmmoConsume final : public UCyCheatAtom
+class UCyCheatAmmoConsume : public UCyCheatAtom
 {
 public:
 	static class UClass* StaticClass()
@@ -19143,7 +19143,7 @@ DUMPER7_ASSERTS_UCyGPActionCheck_ZombieToHuman;
 
 // Class PMGame.CyBulletTrajectory
 // 0x0018 (0x0328 - 0x0310)
-class ACyBulletTrajectory final : public ACyBaseTrajectory
+class ACyBulletTrajectory : public ACyBaseTrajectory
 {
 public:
 	TArray<struct FCyBulletTrajectoryInfo>        BulletTrajectoryInfo;                              // 0x0310(0x0010)(Edit, ZeroConstructor, DisableEditOnInstance, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
@@ -19548,7 +19548,7 @@ DUMPER7_ASSERTS_UCyLocationDetector;
 
 // Class PMGame.CyLocationDetectorAlwaysTrue
 // 0x0000 (0x01D8 - 0x01D8)
-class UCyLocationDetectorAlwaysTrue final : public UCyLocationDetector
+class UCyLocationDetectorAlwaysTrue : public UCyLocationDetector
 {
 public:
 	static class UClass* StaticClass()
@@ -19895,7 +19895,7 @@ DUMPER7_ASSERTS_UCyCalcPlayerCompositeScore_Zombie_MB;
 
 // Class PMGame.CyGAAtomTriggerCachedWall
 // 0x0008 (0x0248 - 0x0240)
-class UCyGAAtomTriggerCachedWall final : public UCyGAAtomTrigger
+class UCyGAAtomTriggerCachedWall : public UCyGAAtomTrigger
 {
 public:
 	struct FGameplayTag                           SummonActorTag;                                    // 0x0240(0x0008)(Edit, DisableEditOnInstance, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -20228,7 +20228,7 @@ DUMPER7_ASSERTS_UCyCalcPlayerMvp_TeamScores_MB;
 
 // Class PMGame.CyGAACancelControllerAbility
 // 0x0060 (0x0288 - 0x0228)
-class UCyGAACancelControllerAbility final : public UCyGAAtomActivator
+class UCyGAACancelControllerAbility : public UCyGAAtomActivator
 {
 public:
 	struct FGameplayTagContainer                  AbilityTags;                                       // 0x0228(0x0060)(Edit, DisableEditOnInstance, Protected, NativeAccessSpecifierProtected)
@@ -20427,7 +20427,7 @@ DUMPER7_ASSERTS_UCyCalcPlayerResourceScore;
 
 // Class PMGame.CyGAActivateCancelAbility
 // 0x0000 (0x0228 - 0x0228)
-class UCyGAActivateCancelAbility final : public UCyGAAtomActivator
+class UCyGAActivateCancelAbility : public UCyGAAtomActivator
 {
 public:
 	static class UClass* StaticClass()
@@ -20543,7 +20543,7 @@ DUMPER7_ASSERTS_UCyCalcPlayerScore_AddGroupScore;
 
 // Class PMGame.CyCalcPlayerScore_Bomb
 // 0x0040 (0x0068 - 0x0028)
-class UCyCalcPlayerScore_Bomb : public UCyCalcPlayerScoreBase
+class UCyCalcPlayerScore_Bomb final : public UCyCalcPlayerScoreBase
 {
 public:
 	class FString                                 InstallC4ScoreFactorName;                          // 0x0028(0x0010)(Edit, ZeroConstructor, DisableEditOnInstance, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -20569,7 +20569,7 @@ DUMPER7_ASSERTS_UCyCalcPlayerScore_Bomb;
 
 // Class PMGame.CyCheckHasTarget
 // 0x0008 (0x0060 - 0x0058)
-class UCyCheckHasTarget final : public UCyCheckAtom
+class UCyCheckHasTarget : public UCyCheckAtom
 {
 public:
 	EDetectorGroupType                            GroupType;                                         // 0x0058(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -21092,7 +21092,7 @@ DUMPER7_ASSERTS_UCyCalcPlayerScore_KnifeFight;
 
 // Class PMGame.CyGAGivePlayerDeathEventListening
 // 0x0018 (0x0078 - 0x0060)
-class UCyGAGivePlayerDeathEventListening final : public UCyGAAtomGiver
+class UCyGAGivePlayerDeathEventListening : public UCyGAAtomGiver
 {
 public:
 	struct FGameplayTag                           EventTag;                                          // 0x0060(0x0008)(Edit, DisableEditOnInstance, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -21655,7 +21655,7 @@ DUMPER7_ASSERTS_UCyGSMonitorWaveTimer;
 
 // Class PMGame.CyCalculationArmorRecoverWithRoleLevel
 // 0x0000 (0x0040 - 0x0040)
-class UCyCalculationArmorRecoverWithRoleLevel final : public UGameplayModMagnitudeCalculation
+class UCyCalculationArmorRecoverWithRoleLevel : public UGameplayModMagnitudeCalculation
 {
 public:
 	static class UClass* StaticClass()
@@ -21757,7 +21757,7 @@ DUMPER7_ASSERTS_UCyGPAction_UpdateStartPoint_Parkour;
 
 // Class PMGame.CyCalculationAttenuationByDistance
 // 0x0048 (0x0088 - 0x0040)
-class UCyCalculationAttenuationByDistance final : public UGameplayModMagnitudeCalculation
+class UCyCalculationAttenuationByDistance : public UGameplayModMagnitudeCalculation
 {
 public:
 	class UCurveFloat*                            AttenuationCurve;                                  // 0x0040(0x0008)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
@@ -21872,7 +21872,7 @@ DUMPER7_ASSERTS_UCyCheckInteractTargetValid;
 
 // Class PMGame.CyCalculationAttributeFloatCurve
 // 0x0050 (0x0090 - 0x0040)
-class UCyCalculationAttributeFloatCurve final : public UGameplayModMagnitudeCalculation
+class UCyCalculationAttributeFloatCurve : public UGameplayModMagnitudeCalculation
 {
 public:
 	struct FGameplayTag                           SetByCallerTag;                                    // 0x0040(0x0008)(Edit, DisableEditOnInstance, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -21968,7 +21968,7 @@ DUMPER7_ASSERTS_ACySpawnMinePoint;
 
 // Class PMGame.CyCheckWantToWall2D
 // 0x0008 (0x0060 - 0x0058)
-class UCyCheckWantToWall2D final : public UCyCheckAtom
+class UCyCheckWantToWall2D : public UCyCheckAtom
 {
 public:
 	bool                                          bInverse;                                          // 0x0058(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -22417,7 +22417,7 @@ DUMPER7_ASSERTS_UCyCalculationBigHeadLevel;
 
 // Class PMGame.CyGATCheckIsSummon
 // 0x0030 (0x0098 - 0x0068)
-class UCyGATCheckIsSummon final : public UCyGATriggerCheck
+class UCyGATCheckIsSummon : public UCyGATriggerCheck
 {
 public:
 	bool                                          bIgnoreTarget;                                     // 0x0068(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -22445,7 +22445,7 @@ DUMPER7_ASSERTS_UCyGATCheckIsSummon;
 
 // Class PMGame.CyCalculationByCallerMap
 // 0x0160 (0x01A0 - 0x0040)
-class UCyCalculationByCallerMap final : public UGameplayModMagnitudeCalculation
+class UCyCalculationByCallerMap : public UGameplayModMagnitudeCalculation
 {
 public:
 	struct FScalableFloat                         TargetValue;                                       // 0x0040(0x0030)(Edit, DisableEditOnInstance, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -22569,7 +22569,7 @@ DUMPER7_ASSERTS_UCyCalculationByGainedChoiceCount;
 
 // Class PMGame.CyCalculationDamage
 // 0x00E8 (0x0128 - 0x0040)
-class UCyCalculationDamage final : public UGameplayModMagnitudeCalculation
+class UCyCalculationDamage : public UGameplayModMagnitudeCalculation
 {
 public:
 	uint8                                         DamageMask;                                        // 0x0040(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -22978,7 +22978,7 @@ DUMPER7_ASSERTS_UCyGSStateAtomTickDelayRespawn;
 
 // Class PMGame.CyGSStateAtomDelayRespawnGuide
 // 0x0000 (0x0598 - 0x0598)
-class UCyGSStateAtomDelayRespawnGuide final : public UCyGSStateAtomTickDelayRespawn
+class UCyGSStateAtomDelayRespawnGuide : public UCyGSStateAtomTickDelayRespawn
 {
 public:
 	static class UClass* StaticClass()
@@ -23138,7 +23138,7 @@ DUMPER7_ASSERTS_UCyGSSA_PlayBGM_ZombieChase;
 
 // Class PMGame.CyCheckWeaponHasStates
 // 0x0028 (0x0080 - 0x0058)
-class UCyCheckWeaponHasStates final : public UCyCheckAtom
+class UCyCheckWeaponHasStates : public UCyCheckAtom
 {
 public:
 	TArray<EFStateType>                           AllStateTypes;                                     // 0x0058(0x0010)(Edit, ZeroConstructor, DisableEditOnInstance, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -23191,7 +23191,7 @@ DUMPER7_ASSERTS_UCyGPEM_CharacterStateChanged;
 
 // Class PMGame.CyCalculationGiftScalableFloatAdd
 // 0x0458 (0x0498 - 0x0040)
-class UCyCalculationGiftScalableFloatAdd final : public UGameplayModMagnitudeCalculation
+class UCyCalculationGiftScalableFloatAdd : public UGameplayModMagnitudeCalculation
 {
 public:
 	struct FGameplayEffectModifierMagnitude       ModifierMagnitude;                                 // 0x0040(0x0298)(Edit, DisableEditOnInstance, NativeAccessSpecifierPublic)
@@ -23736,7 +23736,7 @@ DUMPER7_ASSERTS_ACyMineHUD;
 
 // Class PMGame.CyCalculationStealArmor
 // 0x0010 (0x0050 - 0x0040)
-class UCyCalculationStealArmor final : public UGameplayModMagnitudeCalculation
+class UCyCalculationStealArmor : public UGameplayModMagnitudeCalculation
 {
 public:
 	float                                         StealArmorScale;                                   // 0x0040(0x0004)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -23812,7 +23812,7 @@ DUMPER7_ASSERTS_UCyCheatGrowthPoint;
 
 // Class PMGame.CyCalculationSumCondition
 // 0x0120 (0x0160 - 0x0040)
-class UCyCalculationSumCondition final : public UGameplayModMagnitudeCalculation
+class UCyCalculationSumCondition : public UGameplayModMagnitudeCalculation
 {
 public:
 	struct FScalableFloat                         BaseMagnitude;                                     // 0x0040(0x0030)(Edit, DisableEditOnInstance, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -23838,7 +23838,7 @@ DUMPER7_ASSERTS_UCyCalculationSumCondition;
 
 // Class PMGame.CyCalculationTakeDamage
 // 0x00D0 (0x0110 - 0x0040)
-class UCyCalculationTakeDamage final : public UGameplayModMagnitudeCalculation
+class UCyCalculationTakeDamage : public UGameplayModMagnitudeCalculation
 {
 public:
 	struct FScalableFloat                         DefaultTakeDamageScale;                            // 0x0040(0x0030)(Edit, DisableEditOnInstance, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -24146,7 +24146,7 @@ DUMPER7_ASSERTS_UCyGPEFilter_CheckSearchResult;
 
 // Class PMGame.CyCanDropLocationCheckAtom
 // 0x0018 (0x0058 - 0x0040)
-class UCyCanDropLocationCheckAtom final : public UCyBaseAtom
+class UCyCanDropLocationCheckAtom : public UCyBaseAtom
 {
 public:
 	float                                         CheckRadius;                                       // 0x0040(0x0004)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -24503,7 +24503,7 @@ DUMPER7_ASSERTS_UCyCardEventOptionalObject;
 
 // Class PMGame.CyGAAtomTriggerEventSetAttribute
 // 0x0078 (0x02B8 - 0x0240)
-class UCyGAAtomTriggerEventSetAttribute final : public UCyGAAtomTrigger
+class UCyGAAtomTriggerEventSetAttribute : public UCyGAAtomTrigger
 {
 public:
 	EGAAtomTriggerEventSetAttributeTargetType     TargetType;                                        // 0x0240(0x0004)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
@@ -24569,7 +24569,7 @@ DUMPER7_ASSERTS_UCyTargetDetector;
 
 // Class PMGame.CyClientDetector_ViewTargetCrossBox
 // 0x00E0 (0x0630 - 0x0550)
-class UCyClientDetector_ViewTargetCrossBox final : public UCyTargetDetector
+class UCyClientDetector_ViewTargetCrossBox : public UCyTargetDetector
 {
 public:
 	struct FScalableFloat                         ViewPointRadius;                                   // 0x0550(0x0030)(Edit, DisableEditOnInstance, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -24809,7 +24809,7 @@ DUMPER7_ASSERTS_ACyChallengeBotGenerator;
 
 // Class PMGame.CyGAAtomTriggerSearchTarget
 // 0x01F8 (0x0438 - 0x0240)
-class UCyGAAtomTriggerSearchTarget final : public UCyGAAtomTrigger
+class UCyGAAtomTriggerSearchTarget : public UCyGAAtomTrigger
 {
 public:
 	struct FGameplayTag                           SummonActorTag;                                    // 0x0240(0x0008)(Edit, DisableEditOnInstance, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -25145,7 +25145,7 @@ DUMPER7_ASSERTS_UCyCommonCustomClickAreaButton;
 
 // Class PMGame.CyChallengeStartPoint
 // 0x0000 (0x0310 - 0x0310)
-class ACyChallengeStartPoint final : public AActor
+class ACyChallengeStartPoint : public AActor
 {
 public:
 	static class UClass* StaticClass()
@@ -25165,7 +25165,7 @@ DUMPER7_ASSERTS_ACyChallengeStartPoint;
 
 // Class PMGame.CyChallengeUIActor
 // 0x0000 (0x0310 - 0x0310)
-class ACyChallengeUIActor final : public AActor
+class ACyChallengeUIActor : public AActor
 {
 public:
 	void OnRoundChanged(const ERoundStage InRoundState);
@@ -25411,7 +25411,7 @@ DUMPER7_ASSERTS_UPMUWHurtPanelBase;
 
 // Class PMGame.PMUWTotalHurtPanel
 // 0x00F0 (0x06C8 - 0x05D8)
-class UPMUWTotalHurtPanel final : public UPMUWHurtPanelBase
+class UPMUWTotalHurtPanel : public UPMUWHurtPanelBase
 {
 public:
 	class UAttributeSet*                          CachedAttributeSet;                                // 0x05D8(0x0008)(ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -25499,7 +25499,7 @@ DUMPER7_ASSERTS_UCyLocationDetectorPlacement;
 
 // Class PMGame.CyLocationDetectorPlacementVertical
 // 0x0000 (0x0218 - 0x0218)
-class UCyLocationDetectorPlacementVertical final : public UCyLocationDetectorPlacement
+class UCyLocationDetectorPlacementVertical : public UCyLocationDetectorPlacement
 {
 public:
 	static class UClass* StaticClass()
@@ -25843,7 +25843,7 @@ DUMPER7_ASSERTS_UCyCharacterLobbyAsset;
 
 // Class PMGame.CyFilterSpaceTeleportFinish
 // 0x0008 (0x0050 - 0x0048)
-class UCyFilterSpaceTeleportFinish final : public UCyTargetFilter
+class UCyFilterSpaceTeleportFinish : public UCyTargetFilter
 {
 public:
 	bool                                          bFilter;                                           // 0x0048(0x0001)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -26395,7 +26395,7 @@ DUMPER7_ASSERTS_UCyCheatComponent;
 
 // Class PMGame.CyCheatSkillConsume
 // 0x0000 (0x00B0 - 0x00B0)
-class UCyCheatSkillConsume final : public UCyCheatAtom
+class UCyCheatSkillConsume : public UCyCheatAtom
 {
 public:
 	static class UClass* StaticClass()
@@ -26661,7 +26661,7 @@ DUMPER7_ASSERTS_UCyInteractAtomSwitchWeapon;
 
 // Class PMGame.CyInteractAtomStealMine
 // 0x0318 (0x0DA8 - 0x0A90)
-class UCyInteractAtomStealMine final : public UCyInteractAtomSwitchWeapon
+class UCyInteractAtomStealMine : public UCyInteractAtomSwitchWeapon
 {
 public:
 	struct FCyFeedbackTipsConfig                  MineRepositoryCDTipsConfig;                        // 0x0A90(0x0108)(Edit, DisableEditOnInstance, Protected, NativeAccessSpecifierProtected)
@@ -26926,7 +26926,7 @@ DUMPER7_ASSERTS_UCyPickupMine;
 
 // Class PMGame.CyCheckAtomWeaponType
 // 0x0008 (0x0060 - 0x0058)
-class UCyCheckAtomWeaponType final : public UCyCheckAtom
+class UCyCheckAtomWeaponType : public UCyCheckAtom
 {
 public:
 	EFAttackType                                  AttackType;                                        // 0x0058(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -27028,7 +27028,7 @@ DUMPER7_ASSERTS_UCyCheckCanGraffiti;
 
 // Class PMGame.CyCheckCharacter
 // 0x0008 (0x0060 - 0x0058)
-class UCyCheckCharacter final : public UCyCheckAtom
+class UCyCheckCharacter : public UCyCheckAtom
 {
 public:
 	bool                                          bIngoreSelf;                                       // 0x0058(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -27091,7 +27091,7 @@ DUMPER7_ASSERTS_UCyFilterCanFindPlacement;
 
 // Class PMGame.CyCheckCurrentWeaponType
 // 0x0050 (0x00A8 - 0x0058)
-class UCyCheckCurrentWeaponType final : public UCyCheckAtom
+class UCyCheckCurrentWeaponType : public UCyCheckAtom
 {
 public:
 	TSet<ECyWeaponType>                           WeaponTypes;                                       // 0x0058(0x0050)(Edit, DisableEditOnInstance, Protected, NativeAccessSpecifierProtected)
@@ -27228,7 +27228,7 @@ DUMPER7_ASSERTS_UCyCheckHasAnyGameState;
 
 // Class PMGame.CyFilterHasTarget
 // 0x0008 (0x0050 - 0x0048)
-class UCyFilterHasTarget final : public UCyTargetFilter
+class UCyFilterHasTarget : public UCyTargetFilter
 {
 public:
 	ETracePointType                               TargetType;                                        // 0x0048(0x0004)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -27276,7 +27276,7 @@ DUMPER7_ASSERTS_UCyPlayerAttributeSet_GunGame;
 
 // Class PMGame.CyCheckHasInteractProps
 // 0x0058 (0x00B0 - 0x0058)
-class UCyCheckHasInteractProps final : public UCyCheckAtom
+class UCyCheckHasInteractProps : public UCyCheckAtom
 {
 public:
 	EWeaponSlotTypes                              WeaponSlot;                                        // 0x0058(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -27330,7 +27330,7 @@ DUMPER7_ASSERTS_UCyLevelSequencePlaybackSubsystem;
 
 // Class PMGame.CyCheckInteractivePropsAllowGState
 // 0x00B0 (0x0108 - 0x0058)
-class UCyCheckInteractivePropsAllowGState final : public UCyCheckAtom
+class UCyCheckInteractivePropsAllowGState : public UCyCheckAtom
 {
 public:
 	EWeaponSlotTypes                              WeaponSlotType;                                    // 0x0058(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -27621,7 +27621,7 @@ DUMPER7_ASSERTS_UCyFThrowState;
 
 // Class PMGame.CyCheckSlotTypeWeapon
 // 0x0008 (0x0060 - 0x0058)
-class UCyCheckSlotTypeWeapon final : public UCyCheckAtom
+class UCyCheckSlotTypeWeapon : public UCyCheckAtom
 {
 public:
 	EWeaponSlotTypes                              SlotType;                                          // 0x0058(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -27720,7 +27720,7 @@ DUMPER7_ASSERTS_UCyFThrowSwitchEnd;
 
 // Class PMGame.CyCheckSummonTagRequire
 // 0x01E8 (0x0240 - 0x0058)
-class UCyCheckSummonTagRequire final : public UCyCheckAtom
+class UCyCheckSummonTagRequire : public UCyCheckAtom
 {
 public:
 	struct FGameplayTagContainer                  SummonActorTags;                                   // 0x0058(0x0060)(Edit, DisableEditOnInstance, Protected, NativeAccessSpecifierProtected)
@@ -27767,7 +27767,7 @@ DUMPER7_ASSERTS_UCyCheckTagRequirements;
 
 // Class PMGame.CyFilterTargetClassType
 // 0x0018 (0x0060 - 0x0048)
-class UCyFilterTargetClassType final : public UCyTargetFilter
+class UCyFilterTargetClassType : public UCyTargetFilter
 {
 public:
 	TArray<TSubclassOf<class AActor>>             FilterActorTypes;                                  // 0x0048(0x0010)(Edit, ZeroConstructor, DisableEditOnInstance, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -27811,7 +27811,7 @@ DUMPER7_ASSERTS_UCyCheckWall;
 
 // Class PMGame.CyCheckWeaponAllowInterrupt
 // 0x0000 (0x0058 - 0x0058)
-class UCyCheckWeaponAllowInterrupt final : public UCyCheckAtom
+class UCyCheckWeaponAllowInterrupt : public UCyCheckAtom
 {
 public:
 	static class UClass* StaticClass()
@@ -27877,7 +27877,7 @@ DUMPER7_ASSERTS_UCyHotZoneFunctionLibrary;
 
 // Class PMGame.CyCheckWeaponHoldType
 // 0x00B0 (0x0108 - 0x0058)
-class UCyCheckWeaponHoldType final : public UCyCheckAtom
+class UCyCheckWeaponHoldType : public UCyCheckAtom
 {
 public:
 	TSet<EFHoldType>                              NeedHoldTypes;                                     // 0x0058(0x0050)(Edit, DisableEditOnInstance, NativeAccessSpecifierPrivate)
@@ -27901,7 +27901,7 @@ DUMPER7_ASSERTS_UCyCheckWeaponHoldType;
 
 // Class PMGame.CyGPAction_GotoStates_OnWeapon
 // 0x0028 (0x00A8 - 0x0080)
-class UCyGPAction_GotoStates_OnWeapon final : public UCyGPAction
+class UCyGPAction_GotoStates_OnWeapon : public UCyGPAction
 {
 public:
 	TArray<EFStateType>                           StateTypes;                                        // 0x0080(0x0010)(Edit, ZeroConstructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -30179,7 +30179,7 @@ DUMPER7_ASSERTS_UCyGPAction_JokerAddEffects;
 
 // Class PMGame.CyDamageAccumulator
 // 0x02D8 (0x03A8 - 0x00D0)
-class UCyDamageAccumulator final : public UCyAccumulator
+class UCyDamageAccumulator : public UCyAccumulator
 {
 public:
 	ETargetSourceType                             SourceType;                                        // 0x00D0(0x0001)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -30219,7 +30219,7 @@ DUMPER7_ASSERTS_UCyDamageAccumulator;
 
 // Class PMGame.CyDamageCacheComponent
 // 0x00D0 (0x0220 - 0x0150)
-class UCyDamageCacheComponent final : public UCyBaseComponent
+class UCyDamageCacheComponent : public UCyBaseComponent
 {
 public:
 	TMulticastInlineDelegate<void(float CachedDamage)> OnDamageCacheChanged;                         // 0x0150(0x0010)(ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
@@ -30465,7 +30465,7 @@ DUMPER7_ASSERTS_UCyInteractAtomBombDismantle;
 
 // Class PMGame.CyDataCollectionComponent
 // 0x04D8 (0x0628 - 0x0150)
-class UCyDataCollectionComponent : public UCyDataCollectionBaseComponent
+class UCyDataCollectionComponent final : public UCyDataCollectionBaseComponent
 {
 public:
 	uint8                                         Pad_150[0x4];                                      // 0x0150(0x0004)(Fixing Size After Last Property [ Dumper-7 ])
@@ -30715,7 +30715,7 @@ DUMPER7_ASSERTS_UCyGenActorAtom;
 
 // Class PMGame.CyGenPickupActorAtom
 // 0x0010 (0x00D8 - 0x00C8)
-class UCyGenPickupActorAtom final : public UCyGenActorAtom
+class UCyGenPickupActorAtom : public UCyGenActorAtom
 {
 public:
 	uint8                                         bCustomInitializeSpeed : 1;                        // 0x00C8(0x0001)(BitIndex: 0x00, PropSize: 0x0001 (Edit, BlueprintVisible, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected))
@@ -30853,7 +30853,7 @@ DUMPER7_ASSERTS_UCyGenCharacterAtom;
 
 // Class PMGame.CyGenCustomCharacterAtom
 // 0x00A0 (0x0240 - 0x01A0)
-class UCyGenCustomCharacterAtom final : public UCyGenCharacterAtom
+class UCyGenCustomCharacterAtom : public UCyGenCharacterAtom
 {
 public:
 	struct FCyPatrolPathConfig                    PatrolPathConfig;                                  // 0x01A0(0x0050)(Edit, DisableEditOnInstance, Protected, NativeAccessSpecifierProtected)
@@ -31025,7 +31025,7 @@ DUMPER7_ASSERTS_UCyEffectWorldSubsystem;
 
 // Class PMGame.CyDataControlAtomStartPayloadTeamFunctions
 // 0x0010 (0x0540 - 0x0530)
-class UCyDataControlAtomStartPayloadTeamFunctions final : public UCyTriggerEventDataControlAtomBase
+class UCyDataControlAtomStartPayloadTeamFunctions : public UCyTriggerEventDataControlAtomBase
 {
 public:
 	class FName                                   CheckPointDataControlComponentTag;                 // 0x0530(0x0008)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -31379,7 +31379,7 @@ DUMPER7_ASSERTS_UCyDataTrackAtomBombAntiCheat;
 
 // Class PMGame.CyGATriggerToggleRecordBool
 // 0x0000 (0x0240 - 0x0240)
-class UCyGATriggerToggleRecordBool final : public UCyGAAtomTrigger
+class UCyGATriggerToggleRecordBool : public UCyGAAtomTrigger
 {
 public:
 	static class UClass* StaticClass()
@@ -32403,7 +32403,7 @@ DUMPER7_ASSERTS_UCyFilterDiffTeam;
 
 // Class PMGame.CyGATriggerUseInteractProps
 // 0x0060 (0x02A0 - 0x0240)
-class UCyGATriggerUseInteractProps final : public UCyGAAtomTrigger
+class UCyGATriggerUseInteractProps : public UCyGAAtomTrigger
 {
 public:
 	EWeaponSlotTypes                              WeaponSlot;                                        // 0x0240(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -32695,7 +32695,7 @@ DUMPER7_ASSERTS_UCyTaskLimitRevengeDefeat;
 
 // Class PMGame.CyLocationDetectorAttackPointRotation
 // 0x0070 (0x0248 - 0x01D8)
-class UCyLocationDetectorAttackPointRotation final : public UCyLocationDetector
+class UCyLocationDetectorAttackPointRotation : public UCyLocationDetector
 {
 public:
 	ECyRotationMask                               RotationMask;                                      // 0x01D8(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
@@ -32766,7 +32766,7 @@ DUMPER7_ASSERTS_UCyLocationCheckAtom;
 
 // Class PMGame.CyLocationCheckBoxBlock
 // 0x0010 (0x0058 - 0x0048)
-class UCyLocationCheckBoxBlock final : public UCyLocationCheckAtom
+class UCyLocationCheckBoxBlock : public UCyLocationCheckAtom
 {
 public:
 	struct FVector                                BoxExtent;                                         // 0x0048(0x000C)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -33376,7 +33376,7 @@ DUMPER7_ASSERTS_UCyGPAction_AddHotZoneScores;
 
 // Class PMGame.CyDetectorPriority_CharacterAlive
 // 0x0000 (0x0028 - 0x0028)
-class UCyDetectorPriority_CharacterAlive final : public UCyDetectorPriority
+class UCyDetectorPriority_CharacterAlive : public UCyDetectorPriority
 {
 public:
 	static class UClass* StaticClass()
@@ -33396,7 +33396,7 @@ DUMPER7_ASSERTS_UCyDetectorPriority_CharacterAlive;
 
 // Class PMGame.CyDetectorPriority_ClosestToSource
 // 0x0000 (0x0028 - 0x0028)
-class UCyDetectorPriority_ClosestToSource final : public UCyDetectorPriority
+class UCyDetectorPriority_ClosestToSource : public UCyDetectorPriority
 {
 public:
 	static class UClass* StaticClass()
@@ -33474,7 +33474,7 @@ DUMPER7_ASSERTS_UCyGPAction_AddGiftAttributeSet;
 
 // Class PMGame.CyDetectorViewTarget
 // 0x0060 (0x05B0 - 0x0550)
-class UCyDetectorViewTarget final : public UCyTargetDetector
+class UCyDetectorViewTarget : public UCyTargetDetector
 {
 public:
 	struct FOverlapData                           OverlapData;                                       // 0x0550(0x0058)(Edit, DisableEditOnInstance, Protected, NativeAccessSpecifierProtected)
@@ -33847,7 +33847,7 @@ DUMPER7_ASSERTS_UCyGCAtomSetScreenState;
 
 // Class PMGame.CyDisplayWorldReticle
 // 0x0098 (0x03C8 - 0x0330)
-class ACyDisplayWorldReticle final : public AGameplayAbilityWorldReticle
+class ACyDisplayWorldReticle : public AGameplayAbilityWorldReticle
 {
 public:
 	TSoftObjectPtr<class UAkAudioEvent>           AkEventOnDisplay;                                  // 0x0330(0x0028)(Edit, DisableEditOnInstance, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -34683,7 +34683,7 @@ DUMPER7_ASSERTS_UCySAtomDisableLandTransition;
 
 // Class PMGame.CySAtomControlSummon
 // 0x0030 (0x05B8 - 0x0588)
-class UCySAtomControlSummon final : public UCyStateAtom
+class UCySAtomControlSummon : public UCyStateAtom
 {
 public:
 	struct FGameplayTag                           SummonActorTag;                                    // 0x0588(0x0008)(Edit, DisableEditOnInstance, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -35007,7 +35007,7 @@ DUMPER7_ASSERTS_UCyEventCheckIsLocalPlayer;
 
 // Class PMGame.CySAtomDisableTeamStartCube
 // 0x0008 (0x0590 - 0x0588)
-class UCySAtomDisableTeamStartCube final : public UCyStateAtom
+class UCySAtomDisableTeamStartCube : public UCyStateAtom
 {
 public:
 	bool                                          bDisableInRange;                                   // 0x0588(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -35105,7 +35105,7 @@ DUMPER7_ASSERTS_UCyExecutionAddAmmoRemain;
 
 // Class PMGame.CyExecutionAttributeConversion
 // 0x0270 (0x02B0 - 0x0040)
-class UCyExecutionAttributeConversion final : public UGameplayEffectExecutionCalculation
+class UCyExecutionAttributeConversion : public UGameplayEffectExecutionCalculation
 {
 public:
 	TArray<struct FGameplayAttribute>             ExtraAttributes;                                   // 0x0040(0x0010)(Edit, ZeroConstructor, DisableEditOnInstance, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -35135,7 +35135,7 @@ DUMPER7_ASSERTS_UCyExecutionAttributeConversion;
 
 // Class PMGame.CyPracticePlayerController
 // 0x0020 (0x0DB0 - 0x0D90)
-class ACyPracticePlayerController final : public APMPlayerController
+class ACyPracticePlayerController : public APMPlayerController
 {
 public:
 	uint8                                         Pad_D90[0x20];                                     // 0x0D90(0x0020)(Fixing Struct Size After Last Property [ Dumper-7 ])
@@ -35643,7 +35643,7 @@ DUMPER7_ASSERTS_UCyGSEventAtomHandleCharacterDeath_RestartUseCurrentTransform;
 
 // Class PMGame.CyFeedbackTipsMonitorSummonDetect
 // 0x0228 (0x0260 - 0x0038)
-class UCyFeedbackTipsMonitorSummonDetect final : public UCyFeedbackTipsMonitorBase
+class UCyFeedbackTipsMonitorSummonDetect : public UCyFeedbackTipsMonitorBase
 {
 public:
 	class ACyPlayerState*                         CachedPlayerState;                                 // 0x0038(0x0008)(ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
@@ -36230,7 +36230,7 @@ DUMPER7_ASSERTS_UCyMC_GiveChoiceByAverageLevel_Zombie;
 
 // Class PMGame.CyFilterAttribute
 // 0x0020 (0x0068 - 0x0048)
-class UCyFilterAttribute final : public UCyTargetFilter
+class UCyFilterAttribute : public UCyTargetFilter
 {
 public:
 	TArray<struct FCyAttributeCondition>          InstigatorConditions;                              // 0x0048(0x0010)(Edit, ZeroConstructor, DisableEditOnInstance, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -36331,7 +36331,7 @@ DUMPER7_ASSERTS_UCyFilterButterflyBlind;
 
 // Class PMGame.CyFilterCanDetectingLocation
 // 0x0008 (0x0050 - 0x0048)
-class UCyFilterCanDetectingLocation final : public UCyTargetFilter
+class UCyFilterCanDetectingLocation : public UCyTargetFilter
 {
 public:
 	TSubclassOf<class UCyLocationDetector>        LocDetector;                                       // 0x0048(0x0008)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
@@ -36426,7 +36426,7 @@ DUMPER7_ASSERTS_UCyFilterControlDataTeamID;
 
 // Class PMGame.CyGSEventAtomCustomMatchInitStateDuration
 // 0x0010 (0x03D8 - 0x03C8)
-class UCyGSEventAtomCustomMatchInitStateDuration : public UCyGSEventAtom
+class UCyGSEventAtomCustomMatchInitStateDuration final : public UCyGSEventAtom
 {
 public:
 	TArray<struct FCyStateChangeInfo>             ChangeStateInfo;                                   // 0x03C8(0x0010)(Edit, ZeroConstructor, DisableEditOnInstance, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
@@ -36494,7 +36494,7 @@ DUMPER7_ASSERTS_UCyFilterInstigatorEnemy;
 
 // Class PMGame.CyLocationDetectorAttackPointChargeDistance
 // 0x0010 (0x01E8 - 0x01D8)
-class UCyLocationDetectorAttackPointChargeDistance final : public UCyLocationDetector
+class UCyLocationDetectorAttackPointChargeDistance : public UCyLocationDetector
 {
 public:
 	class UCurveFloat*                            DistanceCurve;                                     // 0x01D8(0x0008)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -36519,7 +36519,7 @@ DUMPER7_ASSERTS_UCyLocationDetectorAttackPointChargeDistance;
 
 // Class PMGame.CyFilterInstigatorHasTags
 // 0x0188 (0x01D0 - 0x0048)
-class UCyFilterInstigatorHasTags final : public UCyTargetFilter
+class UCyFilterInstigatorHasTags : public UCyTargetFilter
 {
 public:
 	struct FGameplayTagRequirements               RequireTags;                                       // 0x0048(0x0188)(Edit, DisableEditOnInstance, NativeAccessSpecifierPublic)
@@ -36591,7 +36591,7 @@ DUMPER7_ASSERTS_UCyFilterIsAlive;
 
 // Class PMGame.CyFilterIsAnyAlive
 // 0x0000 (0x01F0 - 0x01F0)
-class UCyFilterIsAnyAlive final : public UCyFilterIsAlive
+class UCyFilterIsAnyAlive : public UCyFilterIsAlive
 {
 public:
 	static class UClass* StaticClass()
@@ -36753,7 +36753,7 @@ DUMPER7_ASSERTS_UCyFilterSpecifiedType;
 
 // Class PMGame.CyFilterStealth
 // 0x0000 (0x0048 - 0x0048)
-class UCyFilterStealth final : public UCyTargetFilter
+class UCyFilterStealth : public UCyTargetFilter
 {
 public:
 	static class UClass* StaticClass()
@@ -36897,7 +36897,7 @@ DUMPER7_ASSERTS_UCyLifeShareCheckRecordBool;
 
 // Class PMGame.CyFilterTargetAllowRelieveSlide
 // 0x0000 (0x0048 - 0x0048)
-class UCyFilterTargetAllowRelieveSlide final : public UCyTargetFilter
+class UCyFilterTargetAllowRelieveSlide : public UCyTargetFilter
 {
 public:
 	static class UClass* StaticClass()
@@ -36961,7 +36961,7 @@ DUMPER7_ASSERTS_UCyFilterTargetBlocked;
 
 // Class PMGame.CyFilterTargetCameraBlocked
 // 0x0028 (0x0070 - 0x0048)
-class UCyFilterTargetCameraBlocked final : public UCyTargetFilter
+class UCyFilterTargetCameraBlocked : public UCyTargetFilter
 {
 public:
 	bool                                          bIgnoreVisibleBlock;                               // 0x0048(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -36995,7 +36995,7 @@ DUMPER7_ASSERTS_UCyFilterTargetCameraBlocked;
 
 // Class PMGame.CyFilterTargetFaceAngle
 // 0x0058 (0x00A0 - 0x0048)
-class UCyFilterTargetFaceAngle final : public UCyTargetFilter
+class UCyFilterTargetFaceAngle : public UCyTargetFilter
 {
 public:
 	ECollisionChannel                             CollisionChannel;                                  // 0x0048(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
@@ -37145,7 +37145,7 @@ DUMPER7_ASSERTS_UCyLifeComponent;
 
 // Class PMGame.CyFilterTargetFullHealth
 // 0x0000 (0x0048 - 0x0048)
-class UCyFilterTargetFullHealth final : public UCyTargetFilter
+class UCyFilterTargetFullHealth : public UCyTargetFilter
 {
 public:
 	static class UClass* StaticClass()
@@ -37315,7 +37315,7 @@ DUMPER7_ASSERTS_UQTEAction_StopSequence;
 
 // Class PMGame.CyFilterTargetNoBlocked
 // 0x0048 (0x0090 - 0x0048)
-class UCyFilterTargetNoBlocked final : public UCyTargetFilter
+class UCyFilterTargetNoBlocked : public UCyTargetFilter
 {
 public:
 	ECollisionChannel                             CollisionChannel;                                  // 0x0048(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -37537,7 +37537,7 @@ DUMPER7_ASSERTS_UCyLogReviewItem;
 
 // Class PMGame.CyFilterVelocitySize
 // 0x0048 (0x0090 - 0x0048)
-class UCyFilterVelocitySize final : public UCyTargetFilter
+class UCyFilterVelocitySize : public UCyTargetFilter
 {
 public:
 	ECyTargetFilterVelocitySource                 SourceType;                                        // 0x0048(0x0004)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -38682,7 +38682,7 @@ DUMPER7_ASSERTS_UCyLocalActorPoolSubsystem;
 
 // Class PMGame.PMBombCamera
 // 0x0030 (0x0900 - 0x08D0)
-class APMBombCamera : public ACameraActor
+class APMBombCamera final : public ACameraActor
 {
 public:
 	uint8                                         Pad_8D0[0x20];                                     // 0x08D0(0x0020)(Fixing Size After Last Property [ Dumper-7 ])
@@ -38881,7 +38881,7 @@ DUMPER7_ASSERTS_UCyFThrowOnReleaseState;
 
 // Class PMGame.CyLocationDetectorSurround
 // 0x0050 (0x0228 - 0x01D8)
-class UCyLocationDetectorSurround final : public UCyLocationDetector
+class UCyLocationDetectorSurround : public UCyLocationDetector
 {
 public:
 	ECySurroundCenterType                         CenterType;                                        // 0x01D8(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -39441,7 +39441,7 @@ DUMPER7_ASSERTS_UCyUWCharacterBigHeadOverheadEquipmentPanel;
 
 // Class PMGame.CyGAActivateChangeCameraParam
 // 0x01B8 (0x03E0 - 0x0228)
-class UCyGAActivateChangeCameraParam final : public UCyGAAtomActivator
+class UCyGAActivateChangeCameraParam : public UCyGAAtomActivator
 {
 public:
 	struct FCameraParam                           CameraParam;                                       // 0x0228(0x01B8)(Edit, DisableEditOnInstance, NativeAccessSpecifierPublic)
@@ -39778,7 +39778,7 @@ DUMPER7_ASSERTS_UCyGAActivateSprint;
 
 // Class PMGame.CyGAActivateUIEvent
 // 0x00C0 (0x02E8 - 0x0228)
-class UCyGAActivateUIEvent final : public UCyGAAtomActivator
+class UCyGAActivateUIEvent : public UCyGAAtomActivator
 {
 public:
 	struct FGameplayTagContainer                  ActivateUIEventTags;                               // 0x0228(0x0060)(Edit, DisableEditOnInstance, Protected, NativeAccessSpecifierProtected)
@@ -39865,7 +39865,7 @@ DUMPER7_ASSERTS_UCyGStateGuide;
 
 // Class PMGame.CyGAActivateWeapon
 // 0x0000 (0x0228 - 0x0228)
-class UCyGAActivateWeapon final : public UCyGAActivateActuator
+class UCyGAActivateWeapon : public UCyGAActivateActuator
 {
 public:
 	static class UClass* StaticClass()
@@ -39905,7 +39905,7 @@ DUMPER7_ASSERTS_UCyGAActivatorCacheInstigator;
 
 // Class PMGame.CyGAActivatorCacheRescuer
 // 0x0008 (0x0230 - 0x0228)
-class UCyGAActivatorCacheRescuer final : public UCyGAAtomActivator
+class UCyGAActivatorCacheRescuer : public UCyGAAtomActivator
 {
 public:
 	class APMCharacter*                           TargetCharacter;                                   // 0x0228(0x0008)(ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
@@ -39948,7 +39948,7 @@ DUMPER7_ASSERTS_UCyGAActivatorCacheTargets;
 
 // Class PMGame.CyGAActivatorCancelAbility
 // 0x0000 (0x0228 - 0x0228)
-class UCyGAActivatorCancelAbility final : public UCyGAAtomActivator
+class UCyGAActivatorCancelAbility : public UCyGAAtomActivator
 {
 public:
 	static class UClass* StaticClass()
@@ -39992,7 +39992,7 @@ DUMPER7_ASSERTS_UCyGPAction_KillAllInjured;
 
 // Class PMGame.CyGAActivatorCommitCD
 // 0x0000 (0x0228 - 0x0228)
-class UCyGAActivatorCommitCD final : public UCyGAAtomActivator
+class UCyGAActivatorCommitCD : public UCyGAAtomActivator
 {
 public:
 	static class UClass* StaticClass()
@@ -40039,7 +40039,7 @@ DUMPER7_ASSERTS_UCyInteractAtomTriggerGuideEvent;
 
 // Class PMGame.CyGAActivatorCommitCost
 // 0x0000 (0x0228 - 0x0228)
-class UCyGAActivatorCommitCost final : public UCyGAAtomActivator
+class UCyGAActivatorCommitCost : public UCyGAAtomActivator
 {
 public:
 	static class UClass* StaticClass()
@@ -40123,7 +40123,7 @@ DUMPER7_ASSERTS_UCyGAActivatorEndAbility;
 
 // Class PMGame.CyGAActivatorEnterAttackType
 // 0x0000 (0x0228 - 0x0228)
-class UCyGAActivatorEnterAttackType final : public UCyGAAtomActivator
+class UCyGAActivatorEnterAttackType : public UCyGAAtomActivator
 {
 public:
 	static class UClass* StaticClass()
@@ -40252,7 +40252,7 @@ DUMPER7_ASSERTS_UCySearchLocationComponent;
 
 // Class PMGame.CyGAActivatorExtraJump
 // 0x0018 (0x0240 - 0x0228)
-class UCyGAActivatorExtraJump final : public UCyGAAtomActivator
+class UCyGAActivatorExtraJump : public UCyGAAtomActivator
 {
 public:
 	class UCurveFloat*                            ExtraJumpZVelocityCurve;                           // 0x0228(0x0008)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -40282,7 +40282,7 @@ DUMPER7_ASSERTS_UCyGAActivatorExtraJump;
 
 // Class PMGame.CyScreenEffectManager
 // 0x0100 (0x0B28 - 0x0A28)
-class UCyScreenEffectManager final : public UPMUWGameplayBase
+class UCyScreenEffectManager : public UPMUWGameplayBase
 {
 public:
 	class UCanvasPanel*                           CanvasPanel_EffectManager;                         // 0x0A28(0x0008)(ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -40364,7 +40364,7 @@ DUMPER7_ASSERTS_UCyGPAction_AddEffectsByCatDistance_Zombie;
 
 // Class PMGame.CyGAActivatorLockTargets
 // 0x0008 (0x0230 - 0x0228)
-class UCyGAActivatorLockTargets final : public UCyGAAtomActivator
+class UCyGAActivatorLockTargets : public UCyGAAtomActivator
 {
 public:
 	EDetectorGroupType                            LockGroupType;                                     // 0x0228(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -40388,7 +40388,7 @@ DUMPER7_ASSERTS_UCyGAActivatorLockTargets;
 
 // Class PMGame.CySceneMapYvetteQControlRangeItem
 // 0x0008 (0x09E8 - 0x09E0)
-class UCySceneMapYvetteQControlRangeItem final : public UCySceneMapAbilityItem
+class UCySceneMapYvetteQControlRangeItem : public UCySceneMapAbilityItem
 {
 public:
 	class UImage*                                 Range_Control;                                     // 0x09E0(0x0008)(ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -40662,7 +40662,7 @@ DUMPER7_ASSERTS_UCyKumaAnimInstance;
 
 // Class PMGame.CyGAActivatorPlayInGameVoice
 // 0x0198 (0x03C0 - 0x0228)
-class UCyGAActivatorPlayInGameVoice final : public UCyGAAtomActivator
+class UCyGAActivatorPlayInGameVoice : public UCyGAAtomActivator
 {
 public:
 	struct FGameplayTag                           DefaultTag;                                        // 0x0228(0x0008)(Edit, DisableEditOnInstance, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -40728,7 +40728,7 @@ DUMPER7_ASSERTS_UCyGAActivatorSearchLocation;
 
 // Class PMGame.CyGAActivatorSetControlMode
 // 0x0008 (0x0230 - 0x0228)
-class UCyGAActivatorSetControlMode final : public UCyGAAtomActivator
+class UCyGAActivatorSetControlMode : public UCyGAAtomActivator
 {
 public:
 	class FName                                   ControlModeName;                                   // 0x0228(0x0008)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -40777,7 +40777,7 @@ DUMPER7_ASSERTS_UCyGPAction_PlayAudio;
 
 // Class PMGame.CyGAActivatorWeaponEmptyToStates
 // 0x0018 (0x0240 - 0x0228)
-class UCyGAActivatorWeaponEmptyToStates final : public UCyGAAtomActivator
+class UCyGAActivatorWeaponEmptyToStates : public UCyGAAtomActivator
 {
 public:
 	TArray<EFStateType>                           EmptyToStates;                                     // 0x0228(0x0010)(Edit, ZeroConstructor, DisableEditOnInstance, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -40990,7 +40990,7 @@ DUMPER7_ASSERTS_UCySelectRolePlayerListMB;
 
 // Class PMGame.CyGAAtomActivatorGotoState
 // 0x0008 (0x0230 - 0x0228)
-class UCyGAAtomActivatorGotoState final : public UCyGAAtomActivator
+class UCyGAAtomActivatorGotoState : public UCyGAAtomActivator
 {
 public:
 	bool                                          bUseOwnerActor;                                    // 0x0228(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -41075,7 +41075,7 @@ DUMPER7_ASSERTS_UCyGPAction_DelayRestartPlayer;
 
 // Class PMGame.CyGAAtomGiver_AddQuests
 // 0x0020 (0x0080 - 0x0060)
-class UCyGAAtomGiver_AddQuests final : public UCyGAAtomGiver
+class UCyGAAtomGiver_AddQuests : public UCyGAAtomGiver
 {
 public:
 	TArray<TSubclassOf<class UCyGameplayQuest>>   Quests;                                            // 0x0060(0x0010)(Edit, ZeroConstructor, DisableEditOnInstance, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -41154,7 +41154,7 @@ DUMPER7_ASSERTS_ACyGuideShotTarget;
 
 // Class PMGame.CyGAAtomGiver_AttributeSet
 // 0x0020 (0x0080 - 0x0060)
-class UCyGAAtomGiver_AttributeSet final : public UCyGAAtomGiver
+class UCyGAAtomGiver_AttributeSet : public UCyGAAtomGiver
 {
 public:
 	TArray<TSubclassOf<class UAttributeSet>>      ForeverAttributeSets;                              // 0x0060(0x0010)(Edit, ZeroConstructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -41306,7 +41306,7 @@ DUMPER7_ASSERTS_UCyGAAtomTriggerActivateAccumulator;
 
 // Class PMGame.CyGAAtomTriggerAddExpectedSlotType
 // 0x0028 (0x0268 - 0x0240)
-class UCyGAAtomTriggerAddExpectedSlotType final : public UCyGAAtomTrigger
+class UCyGAAtomTriggerAddExpectedSlotType : public UCyGAAtomTrigger
 {
 public:
 	EWeaponSlotTypes                              TargetSlotType;                                    // 0x0240(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -41333,7 +41333,7 @@ DUMPER7_ASSERTS_UCyGAAtomTriggerAddExpectedSlotType;
 
 // Class PMGame.CyGAAtomTriggerDamageCache
 // 0x0010 (0x0250 - 0x0240)
-class UCyGAAtomTriggerDamageCache final : public UCyGAAtomTrigger
+class UCyGAAtomTriggerDamageCache : public UCyGAAtomTrigger
 {
 public:
 	ECyDamageCacheOperation                       Operation;                                         // 0x0240(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -41453,7 +41453,7 @@ DUMPER7_ASSERTS_ACyLevelSequenceActor;
 
 // Class PMGame.CyGAAtomTriggerGotoAIState
 // 0x0008 (0x0248 - 0x0240)
-class UCyGAAtomTriggerGotoAIState final : public UCyGAAtomTrigger
+class UCyGAAtomTriggerGotoAIState : public UCyGAAtomTrigger
 {
 public:
 	EAIStateType                                  GotoStateType;                                     // 0x0240(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -41478,7 +41478,7 @@ DUMPER7_ASSERTS_UCyGAAtomTriggerGotoAIState;
 
 // Class PMGame.CyGAAtomTriggerOptObjectSetRecordBool
 // 0x0008 (0x0248 - 0x0240)
-class UCyGAAtomTriggerOptObjectSetRecordBool final : public UCyGAAtomTrigger
+class UCyGAAtomTriggerOptObjectSetRecordBool : public UCyGAAtomTrigger
 {
 public:
 	bool                                          bSetRecordValue;                                   // 0x0240(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -41578,7 +41578,7 @@ DUMPER7_ASSERTS_UCyGPAction_RandomDistributeBombTeam;
 
 // Class PMGame.CyGAAtomTriggerStopWall
 // 0x0000 (0x0240 - 0x0240)
-class UCyGAAtomTriggerStopWall final : public UCyGAAtomTrigger
+class UCyGAAtomTriggerStopWall : public UCyGAAtomTrigger
 {
 public:
 	static class UClass* StaticClass()
@@ -41648,7 +41648,7 @@ DUMPER7_ASSERTS_UCyGAAtomTriggerSwitchAttackTypeToDefault;
 
 // Class PMGame.CyGAAtomTriggerTakeDamageEffects
 // 0x00A8 (0x02E8 - 0x0240)
-class UCyGAAtomTriggerTakeDamageEffects final : public UCyGAAtomTrigger
+class UCyGAAtomTriggerTakeDamageEffects : public UCyGAAtomTrigger
 {
 public:
 	uint8                                         bApplyGeToInstigator : 1;                          // 0x0240(0x0001)(BitIndex: 0x00, PropSize: 0x0001 (Edit, BlueprintVisible, BlueprintReadOnly, DisableEditOnInstance, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected))
@@ -41682,7 +41682,7 @@ DUMPER7_ASSERTS_UCyGAAtomTriggerTakeDamageEffects;
 
 // Class PMGame.CyGAAtomTriggerTakeDeath
 // 0x0000 (0x0240 - 0x0240)
-class UCyGAAtomTriggerTakeDeath final : public UCyGAAtomTrigger
+class UCyGAAtomTriggerTakeDeath : public UCyGAAtomTrigger
 {
 public:
 	static class UClass* StaticClass()
@@ -41702,7 +41702,7 @@ DUMPER7_ASSERTS_UCyGAAtomTriggerTakeDeath;
 
 // Class PMGame.CyGACheckAttributeRemain
 // 0x0038 (0x00A0 - 0x0068)
-class UCyGACheckAttributeRemain final : public UCyGATriggerCheck
+class UCyGACheckAttributeRemain : public UCyGATriggerCheck
 {
 public:
 	struct FGameplayAttribute                     AttributeRemainPoints;                             // 0x0068(0x0038)(Edit, DisableEditOnInstance, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -42589,7 +42589,7 @@ DUMPER7_ASSERTS_UCyGameplayQuest;
 
 // Class PMGame.CyGameplayQuestPack
 // 0x00E0 (0x0108 - 0x0028)
-class UCyGameplayQuestPack : public UObject
+class UCyGameplayQuestPack final : public UObject
 {
 public:
 	TArray<TSubclassOf<class UCyGameplayQuest>>   GlobalQuest;                                       // 0x0028(0x0010)(Edit, ZeroConstructor, DisableEditOnInstance, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -42900,7 +42900,7 @@ DUMPER7_ASSERTS_UCyGameStateDataComponent_ZombieChase;
 
 // Class PMGame.CyGameStateTargetFilter
 // 0x00A0 (0x00E8 - 0x0048)
-class UCyGameStateTargetFilter final : public UCyTargetFilter
+class UCyGameStateTargetFilter : public UCyTargetFilter
 {
 public:
 	TSet<EGStateType>                             RequireStateTypes;                                 // 0x0048(0x0050)(Edit, DisableEditOnInstance, Protected, NativeAccessSpecifierProtected)
@@ -42982,7 +42982,7 @@ DUMPER7_ASSERTS_UCyGASetSlideWallRenderState;
 
 // Class PMGame.CyGAStartUseOnActivate
 // 0x0000 (0x0228 - 0x0228)
-class UCyGAStartUseOnActivate final : public UCyGAAtomActivator
+class UCyGAStartUseOnActivate : public UCyGAAtomActivator
 {
 public:
 	static class UClass* StaticClass()
@@ -43002,7 +43002,7 @@ DUMPER7_ASSERTS_UCyGAStartUseOnActivate;
 
 // Class PMGame.CyGASwitchMagnification
 // 0x0000 (0x0228 - 0x0228)
-class UCyGASwitchMagnification final : public UCyGAAtomActivator
+class UCyGASwitchMagnification : public UCyGAAtomActivator
 {
 public:
 	static class UClass* StaticClass()
@@ -43118,7 +43118,7 @@ DUMPER7_ASSERTS_UCyGCAtomAudio;
 
 // Class PMGame.CyGATCheckAIState
 // 0x0010 (0x0078 - 0x0068)
-class UCyGATCheckAIState final : public UCyGATriggerCheck
+class UCyGATCheckAIState : public UCyGATriggerCheck
 {
 public:
 	TArray<EAIStateType>                          CheckAIStateTypes;                                 // 0x0068(0x0010)(Edit, ZeroConstructor, DisableEditOnInstance, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -43236,7 +43236,7 @@ DUMPER7_ASSERTS_UCyGSMonitorIntervalAddScore;
 
 // Class PMGame.CyGATCheckAttributeValue
 // 0x0080 (0x00E8 - 0x0068)
-class UCyGATCheckAttributeValue final : public UCyGATriggerCheck
+class UCyGATCheckAttributeValue : public UCyGATriggerCheck
 {
 public:
 	struct FGameplayAttribute                     AttributeValue;                                    // 0x0068(0x0038)(Edit, DisableEditOnInstance, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -43291,7 +43291,7 @@ DUMPER7_ASSERTS_UCyGSEventAtomUpgradeHumanWeapon_Zombie;
 
 // Class PMGame.CyGATCheckCachedWall
 // 0x0008 (0x0070 - 0x0068)
-class UCyGATCheckCachedWall final : public UCyGATriggerCheck
+class UCyGATCheckCachedWall : public UCyGATriggerCheck
 {
 public:
 	TSubclassOf<class AActor>                     Block2DActor;                                      // 0x0068(0x0008)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -43413,7 +43413,7 @@ DUMPER7_ASSERTS_UCyGATCheckCost;
 
 // Class PMGame.CyGATCheckDamageCauseValue
 // 0x0038 (0x00A0 - 0x0068)
-class UCyGATCheckDamageCauseValue final : public UCyGATriggerCheck
+class UCyGATCheckDamageCauseValue : public UCyGATriggerCheck
 {
 public:
 	uint8                                         DamageMask;                                        // 0x0068(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -43439,7 +43439,7 @@ DUMPER7_ASSERTS_UCyGATCheckDamageCauseValue;
 
 // Class PMGame.CyGATCheckDamageType
 // 0x0008 (0x0070 - 0x0068)
-class UCyGATCheckDamageType final : public UCyGATriggerCheck
+class UCyGATCheckDamageType : public UCyGATriggerCheck
 {
 public:
 	ECyPlayerDamageType                           PlayerDamageType;                                  // 0x0068(0x0001)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -43483,7 +43483,7 @@ DUMPER7_ASSERTS_UCyGPAction_AddEffectsToRevengePlayer;
 
 // Class PMGame.CyGATCheckDamageWeaponType
 // 0x0018 (0x0080 - 0x0068)
-class UCyGATCheckDamageWeaponType final : public UCyGATriggerCheck
+class UCyGATCheckDamageWeaponType : public UCyGATriggerCheck
 {
 public:
 	TArray<ECyWeaponType>                         WeaponTypes;                                       // 0x0068(0x0010)(Edit, ZeroConstructor, DisableEditOnInstance, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
@@ -43509,7 +43509,7 @@ DUMPER7_ASSERTS_UCyGATCheckDamageWeaponType;
 
 // Class PMGame.CyGATCheckDistance
 // 0x0008 (0x0070 - 0x0068)
-class UCyGATCheckDistance final : public UCyGATriggerCheck
+class UCyGATCheckDistance : public UCyGATriggerCheck
 {
 public:
 	ECyMathContrast                               ContrastType;                                      // 0x0068(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -43554,7 +43554,7 @@ DUMPER7_ASSERTS_UCyGATCheckForceFly;
 
 // Class PMGame.CyGATCheckHasAbility
 // 0x0008 (0x0070 - 0x0068)
-class UCyGATCheckHasAbility final : public UCyGATriggerCheck
+class UCyGATCheckHasAbility : public UCyGATriggerCheck
 {
 public:
 	TSubclassOf<class UCyBaseAbility>             AbilityClass;                                      // 0x0068(0x0008)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -43601,7 +43601,7 @@ DUMPER7_ASSERTS_UCyGSStateAtomPlayerStateAddOrRemove_Zombie;
 
 // Class PMGame.CyGATCheckHasCurrentWeapon
 // 0x0008 (0x0070 - 0x0068)
-class UCyGATCheckHasCurrentWeapon final : public UCyGATriggerCheck
+class UCyGATCheckHasCurrentWeapon : public UCyGATriggerCheck
 {
 public:
 	bool                                          bNegate;                                           // 0x0068(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -43645,7 +43645,7 @@ DUMPER7_ASSERTS_UCyGSStateAtomMosaGrantInitialGold;
 
 // Class PMGame.CyGATCheckHitTargetType
 // 0x0008 (0x0070 - 0x0068)
-class UCyGATCheckHitTargetType final : public UCyGATriggerCheck
+class UCyGATCheckHitTargetType : public UCyGATriggerCheck
 {
 public:
 	uint8                                         HitTargetTypeMask;                                 // 0x0068(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -43739,7 +43739,7 @@ DUMPER7_ASSERTS_UCyInteractAtomStartPayloadTeamFunction;
 
 // Class PMGame.CyGATCheckInstigatorTargetSameTeam
 // 0x0000 (0x0068 - 0x0068)
-class UCyGATCheckInstigatorTargetSameTeam final : public UCyGATriggerCheck
+class UCyGATCheckInstigatorTargetSameTeam : public UCyGATriggerCheck
 {
 public:
 	static class UClass* StaticClass()
@@ -43880,7 +43880,7 @@ DUMPER7_ASSERTS_UCyGPAction_InheritChoiceCount_HumanToZombieChase;
 
 // Class PMGame.CyGATCheckLogic
 // 0x0018 (0x0080 - 0x0068)
-class UCyGATCheckLogic final : public UCyGATriggerCheck
+class UCyGATCheckLogic : public UCyGATriggerCheck
 {
 public:
 	TArray<TSubclassOf<class UCyGATriggerCheck>>  GATriggerChecks;                                   // 0x0068(0x0010)(Edit, ZeroConstructor, DisableEditOnInstance, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -43971,7 +43971,7 @@ DUMPER7_ASSERTS_UCyGATCheckSummonCount;
 
 // Class PMGame.CyGATCheckSwitchedFromSelf
 // 0x0000 (0x0068 - 0x0068)
-class UCyGATCheckSwitchedFromSelf final : public UCyGATriggerCheck
+class UCyGATCheckSwitchedFromSelf : public UCyGATriggerCheck
 {
 public:
 	static class UClass* StaticClass()
@@ -44017,7 +44017,7 @@ DUMPER7_ASSERTS_UCyGATCheckSwitchedInterrupt;
 
 // Class PMGame.CyGATCheckTargetClass
 // 0x0010 (0x0078 - 0x0068)
-class UCyGATCheckTargetClass final : public UCyGATriggerCheck
+class UCyGATCheckTargetClass : public UCyGATriggerCheck
 {
 public:
 	TArray<TSubclassOf<class AActor>>             ActorClassFilter;                                  // 0x0068(0x0010)(Edit, ZeroConstructor, DisableEditOnInstance, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -44064,7 +44064,7 @@ DUMPER7_ASSERTS_UCyGATCheckTeam;
 
 // Class PMGame.CyGATCheckWeaponAttackType
 // 0x0008 (0x0070 - 0x0068)
-class UCyGATCheckWeaponAttackType final : public UCyGATriggerCheck
+class UCyGATCheckWeaponAttackType : public UCyGATriggerCheck
 {
 public:
 	EFAttackType                                  AttackType;                                        // 0x0068(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -44232,7 +44232,7 @@ DUMPER7_ASSERTS_UCyGATriggerActivateAbility;
 
 // Class PMGame.CyGATriggerAddAmmo
 // 0x0040 (0x0280 - 0x0240)
-class UCyGATriggerAddAmmo final : public UCyGAAtomTrigger
+class UCyGATriggerAddAmmo : public UCyGAAtomTrigger
 {
 public:
 	EWeaponSlotTypes                              WeaponSlotType;                                    // 0x0240(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -44434,7 +44434,7 @@ DUMPER7_ASSERTS_UCyGATriggerAddProjectileBounce;
 
 // Class PMGame.CySAtomScaleParticle
 // 0x0030 (0x05B8 - 0x0588)
-class UCySAtomScaleParticle final : public UCyStateAtom
+class UCySAtomScaleParticle : public UCyStateAtom
 {
 public:
 	struct FGameplayTag                           AssetTag;                                          // 0x0588(0x0008)(Edit, DisableEditOnInstance, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -44461,7 +44461,7 @@ DUMPER7_ASSERTS_UCySAtomScaleParticle;
 
 // Class PMGame.CyGATriggerAttributeReset
 // 0x0000 (0x0240 - 0x0240)
-class UCyGATriggerAttributeReset final : public UCyGAAtomTrigger
+class UCyGATriggerAttributeReset : public UCyGAAtomTrigger
 {
 public:
 	static class UClass* StaticClass()
@@ -44481,7 +44481,7 @@ DUMPER7_ASSERTS_UCyGATriggerAttributeReset;
 
 // Class PMGame.CyGSEventAtomRestartPlayer_RandomLockRole
 // 0x0000 (0x03C8 - 0x03C8)
-class UCyGSEventAtomRestartPlayer_RandomLockRole : public UCyGSEventAtomRestartPlayer
+class UCyGSEventAtomRestartPlayer_RandomLockRole final : public UCyGSEventAtomRestartPlayer
 {
 public:
 	static class UClass* StaticClass()
@@ -44591,7 +44591,7 @@ DUMPER7_ASSERTS_UCyGPAction_AddEffectsByCatVelocityFace_Zombie;
 
 // Class PMGame.CyGATriggerChangeGEDuration
 // 0x00A0 (0x02E0 - 0x0240)
-class UCyGATriggerChangeGEDuration final : public UCyGAAtomTrigger
+class UCyGATriggerChangeGEDuration : public UCyGAAtomTrigger
 {
 public:
 	struct FGameplayTagContainer                  GameplayEffectTags;                                // 0x0240(0x0060)(Edit, DisableEditOnInstance, Protected, NativeAccessSpecifierProtected)
@@ -44687,7 +44687,7 @@ DUMPER7_ASSERTS_UCySAtomSearchTargets;
 
 // Class PMGame.CySAtomSafeZoneSearchTargets
 // 0x0000 (0x07A0 - 0x07A0)
-class UCySAtomSafeZoneSearchTargets final : public UCySAtomSearchTargets
+class UCySAtomSafeZoneSearchTargets : public UCySAtomSearchTargets
 {
 public:
 	static class UClass* StaticClass()
@@ -44733,7 +44733,7 @@ DUMPER7_ASSERTS_UCyGATriggerCheckAttributeCondition;
 
 // Class PMGame.CyGATriggerCheckEventTag
 // 0x0060 (0x00C8 - 0x0068)
-class UCyGATriggerCheckEventTag final : public UCyGATriggerCheck
+class UCyGATriggerCheckEventTag : public UCyGATriggerCheck
 {
 public:
 	struct FGameplayTagContainer                  TriggerTags;                                       // 0x0068(0x0060)(Edit, DisableEditOnInstance, Protected, NativeAccessSpecifierProtected)
@@ -44781,7 +44781,7 @@ DUMPER7_ASSERTS_UCyGATriggerCheckNotify;
 
 // Class PMGame.CySAtomSearchEnemyAroundTeammate
 // 0x0048 (0x05D0 - 0x0588)
-class UCySAtomSearchEnemyAroundTeammate final : public UCyStateAtom
+class UCySAtomSearchEnemyAroundTeammate : public UCyStateAtom
 {
 public:
 	struct FScalableFloat                         Distance;                                          // 0x0588(0x0030)(Edit, DisableEditOnInstance, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -44965,7 +44965,7 @@ DUMPER7_ASSERTS_UCyGATriggerCheckTagRequirements;
 
 // Class PMGame.CyGATriggerClampSummonNum
 // 0x0038 (0x0278 - 0x0240)
-class UCyGATriggerClampSummonNum final : public UCyGAAtomTrigger
+class UCyGATriggerClampSummonNum : public UCyGAAtomTrigger
 {
 public:
 	struct FGameplayTag                           ActorTag;                                          // 0x0240(0x0008)(Edit, DisableEditOnInstance, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -45013,7 +45013,7 @@ DUMPER7_ASSERTS_UCyGATriggerCommitCD;
 
 // Class PMGame.CySAtomSetMeshPlayRateByOwnerSpeed
 // 0x00C0 (0x0648 - 0x0588)
-class UCySAtomSetMeshPlayRateByOwnerSpeed final : public UCyStateAtom
+class UCySAtomSetMeshPlayRateByOwnerSpeed : public UCyStateAtom
 {
 public:
 	ETargetSourceType                             TargetSourceType;                                  // 0x0588(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -45065,7 +45065,7 @@ DUMPER7_ASSERTS_UCyGATriggerCommitCost;
 
 // Class PMGame.CyGSEventAtomUpdatePlayerScore
 // 0x00B0 (0x0478 - 0x03C8)
-class UCyGSEventAtomUpdatePlayerScore : public UCyGSEventAtom
+class UCyGSEventAtomUpdatePlayerScore final : public UCyGSEventAtom
 {
 public:
 	TSet<EGStateType>                             NotAllowStates;                                    // 0x03C8(0x0050)(Edit, DisableEditOnInstance, Protected, NativeAccessSpecifierProtected)
@@ -45102,7 +45102,7 @@ DUMPER7_ASSERTS_UCyGSEventAtomUpdatePlayerScore;
 
 // Class PMGame.CyGATriggerDamageEvent_Attribute
 // 0x0118 (0x0358 - 0x0240)
-class UCyGATriggerDamageEvent_Attribute final : public UCyGAAtomTrigger
+class UCyGATriggerDamageEvent_Attribute : public UCyGAAtomTrigger
 {
 public:
 	struct FGameplayAttribute                     TargetAttribute;                                   // 0x0240(0x0038)(Edit, DisableEditOnInstance, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -45206,7 +45206,7 @@ DUMPER7_ASSERTS_UCyGPAction_DelayWaveRespawn;
 
 // Class PMGame.CyGATriggerDropItem
 // 0x0338 (0x0578 - 0x0240)
-class UCyGATriggerDropItem final : public UCyGAAtomTrigger
+class UCyGATriggerDropItem : public UCyGAAtomTrigger
 {
 public:
 	struct FGameplayTagRequirements               InstigatorRequireTags;                             // 0x0240(0x0188)(Edit, BlueprintVisible, BlueprintReadOnly, DisableEditOnInstance, Protected, NativeAccessSpecifierProtected)
@@ -45466,7 +45466,7 @@ DUMPER7_ASSERTS_UCyGuideDataAsset;
 
 // Class PMGame.CyGATriggerGrantedGASpawnSummon
 // 0x0020 (0x0260 - 0x0240)
-class UCyGATriggerGrantedGASpawnSummon final : public UCyGAAtomTrigger
+class UCyGATriggerGrantedGASpawnSummon : public UCyGAAtomTrigger
 {
 public:
 	TSubclassOf<class UCyLocationDetector>        LocationDetector;                                  // 0x0240(0x0008)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -45498,7 +45498,7 @@ DUMPER7_ASSERTS_UCyGATriggerGrantedGASpawnSummon;
 
 // Class PMGame.CySAtomSetMaterial
 // 0x0058 (0x05E0 - 0x0588)
-class UCySAtomSetMaterial final : public UCyStateAtom
+class UCySAtomSetMaterial : public UCyStateAtom
 {
 public:
 	TSet<class FName>                             ComponentNames;                                    // 0x0588(0x0050)(Edit, DisableEditOnInstance, Protected, NativeAccessSpecifierProtected)
@@ -45566,7 +45566,7 @@ DUMPER7_ASSERTS_UCyGATriggerHideActuator;
 
 // Class PMGame.CyGATriggerIngameVoice
 // 0x0008 (0x0248 - 0x0240)
-class UCyGATriggerIngameVoice final : public UCyGAAtomTrigger
+class UCyGATriggerIngameVoice : public UCyGAAtomTrigger
 {
 public:
 	struct FGameplayTag                           DefaultTag;                                        // 0x0240(0x0008)(Edit, DisableEditOnInstance, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -45737,7 +45737,7 @@ DUMPER7_ASSERTS_UCyGPAction_AddGuideInGameTask;
 
 // Class PMGame.CyGATriggerLeaveAttackType
 // 0x0000 (0x0240 - 0x0240)
-class UCyGATriggerLeaveAttackType final : public UCyGAAtomTrigger
+class UCyGATriggerLeaveAttackType : public UCyGAAtomTrigger
 {
 public:
 	static class UClass* StaticClass()
@@ -45757,7 +45757,7 @@ DUMPER7_ASSERTS_UCyGATriggerLeaveAttackType;
 
 // Class PMGame.CyGATriggerMagazineEndAbility
 // 0x0008 (0x0248 - 0x0240)
-class UCyGATriggerMagazineEndAbility final : public UCyGAAtomTrigger
+class UCyGATriggerMagazineEndAbility : public UCyGAAtomTrigger
 {
 public:
 	bool                                          bTriggerOnMagazineEmpty;                           // 0x0240(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -45781,7 +45781,7 @@ DUMPER7_ASSERTS_UCyGATriggerMagazineEndAbility;
 
 // Class PMGame.CyGATriggerModifyGameplayEffectDuration
 // 0x0118 (0x0358 - 0x0240)
-class UCyGATriggerModifyGameplayEffectDuration final : public UCyGAAtomTrigger
+class UCyGATriggerModifyGameplayEffectDuration : public UCyGAAtomTrigger
 {
 public:
 	struct FGameplayTagContainer                  GameplayEffectTags;                                // 0x0240(0x0060)(Edit, DisableEditOnInstance, Protected, NativeAccessSpecifierProtected)
@@ -45822,7 +45822,7 @@ DUMPER7_ASSERTS_UCyGATriggerModifyGameplayEffectDuration;
 
 // Class PMGame.CyGATriggerPlayAsset
 // 0x0028 (0x0268 - 0x0240)
-class UCyGATriggerPlayAsset final : public UCyGAAtomTrigger
+class UCyGATriggerPlayAsset : public UCyGAAtomTrigger
 {
 public:
 	ETargetSourceType                             TargetType;                                        // 0x0240(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -46053,7 +46053,7 @@ DUMPER7_ASSERTS_UCyGATriggerRemoveGameEffectStack;
 
 // Class PMGame.CyGATriggerRescue
 // 0x0010 (0x0250 - 0x0240)
-class UCyGATriggerRescue final : public UCyGAAtomTrigger
+class UCyGATriggerRescue : public UCyGAAtomTrigger
 {
 public:
 	TArray<struct FConditionalEffect>             ConditionalEffects;                                // 0x0240(0x0010)(Edit, ZeroConstructor, DisableEditOnInstance, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -46076,7 +46076,7 @@ DUMPER7_ASSERTS_UCyGATriggerRescue;
 
 // Class PMGame.CyGSStateAtomDamageAddXPoint
 // 0x0428 (0x09B0 - 0x0588)
-class UCyGSStateAtomDamageAddXPoint final : public UCyGSStateAtom
+class UCyGSStateAtomDamageAddXPoint : public UCyGSStateAtom
 {
 public:
 	struct FGameplayTagContainer                  ListenEventTagContainer;                           // 0x0588(0x0060)(Edit, DisableEditOnInstance, Protected, NativeAccessSpecifierProtected)
@@ -46230,7 +46230,7 @@ DUMPER7_ASSERTS_UCyGSStateAtomAddRainEffect;
 
 // Class PMGame.CyGATriggerSetAttackType
 // 0x0008 (0x0248 - 0x0240)
-class UCyGATriggerSetAttackType final : public UCyGAAtomTrigger
+class UCyGATriggerSetAttackType : public UCyGAAtomTrigger
 {
 public:
 	EFAttackType                                  AttackType;                                        // 0x0240(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -46254,7 +46254,7 @@ DUMPER7_ASSERTS_UCyGATriggerSetAttackType;
 
 // Class PMGame.CyGPAction_AddAttribute
 // 0x00F8 (0x0178 - 0x0080)
-class UCyGPAction_AddAttribute final : public UCyGPAction
+class UCyGPAction_AddAttribute : public UCyGPAction
 {
 public:
 	int32                                         DetectMask;                                        // 0x0080(0x0004)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -46305,7 +46305,7 @@ DUMPER7_ASSERTS_UCyGATriggerSetAttributeValue;
 
 // Class PMGame.CyGATriggerSetRecordBool
 // 0x0008 (0x0248 - 0x0240)
-class UCyGATriggerSetRecordBool final : public UCyGAAtomTrigger
+class UCyGATriggerSetRecordBool : public UCyGAAtomTrigger
 {
 public:
 	uint8                                         bInBoolValue : 1;                                  // 0x0240(0x0001)(BitIndex: 0x00, PropSize: 0x0001 (Edit, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate))
@@ -46329,7 +46329,7 @@ DUMPER7_ASSERTS_UCyGATriggerSetRecordBool;
 
 // Class PMGame.CyGATriggerSpaceTeleportCancel
 // 0x0000 (0x0240 - 0x0240)
-class UCyGATriggerSpaceTeleportCancel final : public UCyGAAtomTrigger
+class UCyGATriggerSpaceTeleportCancel : public UCyGAAtomTrigger
 {
 public:
 	static class UClass* StaticClass()
@@ -46349,7 +46349,7 @@ DUMPER7_ASSERTS_UCyGATriggerSpaceTeleportCancel;
 
 // Class PMGame.CyGATriggerSpaceTeleportFail
 // 0x0000 (0x0240 - 0x0240)
-class UCyGATriggerSpaceTeleportFail final : public UCyGAAtomTrigger
+class UCyGATriggerSpaceTeleportFail : public UCyGAAtomTrigger
 {
 public:
 	static class UClass* StaticClass()
@@ -46445,7 +46445,7 @@ DUMPER7_ASSERTS_UCyEvaluateData_RemoveC4Count;
 
 // Class PMGame.CyGATriggerSpawnSummonOnTarget
 // 0x0010 (0x0250 - 0x0240)
-class UCyGATriggerSpawnSummonOnTarget final : public UCyGAAtomTrigger
+class UCyGATriggerSpawnSummonOnTarget : public UCyGAAtomTrigger
 {
 public:
 	TSubclassOf<class AActor>                     ActorClass;                                        // 0x0240(0x0008)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -46841,7 +46841,7 @@ DUMPER7_ASSERTS_UCySceneMapSummonCtrlPawnMaskComponent;
 
 // Class PMGame.CyGATriggerStopUse
 // 0x0008 (0x0248 - 0x0240)
-class UCyGATriggerStopUse final : public UCyGAAtomTrigger
+class UCyGATriggerStopUse : public UCyGAAtomTrigger
 {
 public:
 	EUseID                                        UseID;                                             // 0x0240(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -47051,7 +47051,7 @@ DUMPER7_ASSERTS_UCyCharacterActionEventDataObject;
 
 // Class PMGame.CyGATriggerWeaponGotoStates
 // 0x0018 (0x0258 - 0x0240)
-class UCyGATriggerWeaponGotoStates final : public UCyGAAtomTrigger
+class UCyGATriggerWeaponGotoStates : public UCyGAAtomTrigger
 {
 public:
 	TArray<EFStateType>                           States;                                            // 0x0240(0x0010)(Edit, ZeroConstructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -47268,7 +47268,7 @@ DUMPER7_ASSERTS_UCyMiniSceneMap2D;
 
 // Class PMGame.CyGATriggerWeaponUse
 // 0x0008 (0x0248 - 0x0240)
-class UCyGATriggerWeaponUse final : public UCyGAAtomTrigger
+class UCyGATriggerWeaponUse : public UCyGAAtomTrigger
 {
 public:
 	EUseID                                        UseWeaponID;                                       // 0x0240(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -47890,7 +47890,7 @@ DUMPER7_ASSERTS_UCyGCAtomParameterParticle;
 
 // Class PMGame.CySAtomSwitchCharacterShape
 // 0x0008 (0x0590 - 0x0588)
-class UCySAtomSwitchCharacterShape final : public UCyStateAtom
+class UCySAtomSwitchCharacterShape : public UCyStateAtom
 {
 public:
 	ETargetSourceType                             TargetType;                                        // 0x0588(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -48411,7 +48411,7 @@ DUMPER7_ASSERTS_UCySummonSpringArmComponent;
 
 // Class PMGame.CySAtomTargetActorGotoState
 // 0x0010 (0x0598 - 0x0588)
-class UCySAtomTargetActorGotoState final : public UCyStateAtom
+class UCySAtomTargetActorGotoState : public UCyStateAtom
 {
 public:
 	EAIStateType                                  DesiredState;                                      // 0x0588(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -49590,7 +49590,7 @@ DUMPER7_ASSERTS_UCyGiftAttributeSet;
 
 // Class PMGame.CyPayloadAIController
 // 0x0000 (0x0428 - 0x0428)
-class ACyPayloadAIController final : public ACyBehaviorAIController
+class ACyPayloadAIController : public ACyBehaviorAIController
 {
 public:
 	static class UClass* StaticClass()
@@ -49610,7 +49610,7 @@ DUMPER7_ASSERTS_ACyPayloadAIController;
 
 // Class PMGame.CyTargetDetectInSquareSafeZone
 // 0x0020 (0x0570 - 0x0550)
-class UCyTargetDetectInSquareSafeZone final : public UCyTargetDetector
+class UCyTargetDetectInSquareSafeZone : public UCyTargetDetector
 {
 public:
 	TArray<TSubclassOf<class UCyTargetDetector>>  Detectors;                                         // 0x0550(0x0010)(Edit, ZeroConstructor, DisableEditOnInstance, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -50024,7 +50024,7 @@ DUMPER7_ASSERTS_UCyGPAction_AddCalculationItem;
 
 // Class PMGame.CyPracticeGameMode
 // 0x0100 (0x07D8 - 0x06D8)
-class ACyPracticeGameMode final : public APMGameMode
+class ACyPracticeGameMode : public APMGameMode
 {
 public:
 	class UCySpawnChallengeBotComponent*          ChallengeBotComponent;                             // 0x06D8(0x0008)(ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
@@ -50196,7 +50196,7 @@ DUMPER7_ASSERTS_UCyGPAction_AddCardTaskPointByCardBox_Zombie;
 
 // Class PMGame.CyPracticePartitionWall
 // 0x0000 (0x0348 - 0x0348)
-class ACyPracticePartitionWall final : public ACyPartitionWall
+class ACyPracticePartitionWall : public ACyPartitionWall
 {
 public:
 	static class UClass* StaticClass()
@@ -50241,7 +50241,7 @@ DUMPER7_ASSERTS_UCyGPAction_AddCardTaskPointByCharge_Zombie;
 
 // Class PMGame.CySetHighLightColorStateAtom
 // 0x0010 (0x0598 - 0x0588)
-class UCySetHighLightColorStateAtom final : public UCyStateAtom
+class UCySetHighLightColorStateAtom : public UCyStateAtom
 {
 public:
 	struct FGameplayTag                           XrayStateTag;                                      // 0x0588(0x0008)(Edit, DisableEditOnInstance, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -50605,7 +50605,7 @@ DUMPER7_ASSERTS_UCyGPAction_AddEffectByMoraleLevel_Zombie;
 
 // Class PMGame.CyPickupCapsuleActor
 // 0x0000 (0x0780 - 0x0780)
-class ACyPickupCapsuleActor final : public ACyPickupActor
+class ACyPickupCapsuleActor : public ACyPickupActor
 {
 public:
 	static class UClass* StaticClass()
@@ -50701,7 +50701,7 @@ DUMPER7_ASSERTS_UCyPickupDevourEnergy;
 
 // Class PMGame.CySAtomSetActorSpeed
 // 0x0010 (0x0598 - 0x0588)
-class UCySAtomSetActorSpeed final : public UCyStateAtom
+class UCySAtomSetActorSpeed : public UCyStateAtom
 {
 public:
 	ETargetSourceType                             TargetType;                                        // 0x0588(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -51919,7 +51919,7 @@ DUMPER7_ASSERTS_UCySelectRoleRoundPanelMB;
 
 // Class PMGame.CyGPAction_AddLooseGameplayTag
 // 0x00C0 (0x0140 - 0x0080)
-class UCyGPAction_AddLooseGameplayTag final : public UCyGPAction
+class UCyGPAction_AddLooseGameplayTag : public UCyGPAction
 {
 public:
 	int32                                         DetectMask;                                        // 0x0080(0x0004)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -52379,7 +52379,7 @@ DUMPER7_ASSERTS_UCyGPAction_AddQuestsByCard;
 
 // Class PMGame.CySAtomRandomYawRotation
 // 0x0038 (0x05C0 - 0x0588)
-class UCySAtomRandomYawRotation final : public UCyStateAtom
+class UCySAtomRandomYawRotation : public UCyStateAtom
 {
 public:
 	uint8                                         Pad_588[0x20];                                     // 0x0588(0x0020)(Fixing Size After Last Property [ Dumper-7 ])
@@ -52536,7 +52536,7 @@ DUMPER7_ASSERTS_UCyGPAction_AddRound;
 
 // Class PMGame.CyGPAction_AddRoundNum_PlayerAttribute
 // 0x0008 (0x0088 - 0x0080)
-class UCyGPAction_AddRoundNum_PlayerAttribute : public UCyGPAction
+class UCyGPAction_AddRoundNum_PlayerAttribute final : public UCyGPAction
 {
 public:
 	int32                                         RoundToAdd;                                        // 0x0080(0x0004)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
@@ -52980,7 +52980,7 @@ DUMPER7_ASSERTS_UCyGPAction_BombPassManagerSafeZone;
 
 // Class PMGame.CySAtomWaitToRevival
 // 0x0000 (0x0588 - 0x0588)
-class UCySAtomWaitToRevival final : public UCyStateAtom
+class UCySAtomWaitToRevival : public UCyStateAtom
 {
 public:
 	static class UClass* StaticClass()
@@ -53171,7 +53171,7 @@ DUMPER7_ASSERTS_UCyGPAction_ChangeAIStateDuration;
 
 // Class PMGame.CySAtomUpdateTargetActorList
 // 0x0090 (0x0618 - 0x0588)
-class UCySAtomUpdateTargetActorList final : public UCyStateAtom
+class UCySAtomUpdateTargetActorList : public UCyStateAtom
 {
 public:
 	TArray<TSubclassOf<class UCyTargetDetector>>  OverrideDetectors;                                 // 0x0588(0x0010)(Edit, ZeroConstructor, DisableEditOnInstance, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -53820,7 +53820,7 @@ DUMPER7_ASSERTS_UCyPlayerAttributeSet_BombPass;
 
 // Class PMGame.CySAtomSetTargetActors
 // 0x0008 (0x0590 - 0x0588)
-class UCySAtomSetTargetActors final : public UCyStateAtom
+class UCySAtomSetTargetActors : public UCyStateAtom
 {
 public:
 	ETargetSourceType                             TargetType;                                        // 0x0588(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -53884,7 +53884,7 @@ DUMPER7_ASSERTS_UCyTaskLimitSelfRoleBeInNonCombatState;
 
 // Class PMGame.CyLocationDetectorPlacementForce
 // 0x0010 (0x0228 - 0x0218)
-class UCyLocationDetectorPlacementForce final : public UCyLocationDetectorPlacement
+class UCyLocationDetectorPlacementForce : public UCyLocationDetectorPlacement
 {
 public:
 	struct FVector                                CharacterLocationOffset;                           // 0x0218(0x000C)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -53985,7 +53985,7 @@ DUMPER7_ASSERTS_UCyGPAction_DimensionDataCollect_EventCount;
 
 // Class PMGame.CySelectRoleNamePanelPC
 // 0x0020 (0x08F8 - 0x08D8)
-class UCySelectRoleNamePanelPC final : public UPMUserWidget
+class UCySelectRoleNamePanelPC : public UPMUserWidget
 {
 public:
 	class UImage*                                 Image_Career;                                      // 0x08D8(0x0008)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -54107,7 +54107,7 @@ DUMPER7_ASSERTS_UCyGPAction_DisableSetDefaultWeapon;
 
 // Class PMGame.CySAtomOcclusionSeeModeSelfOpen
 // 0x0020 (0x05A8 - 0x0588)
-class UCySAtomOcclusionSeeModeSelfOpen final : public UCyStateAtom
+class UCySAtomOcclusionSeeModeSelfOpen : public UCyStateAtom
 {
 public:
 	ETargetSourceType                             TargetType;                                        // 0x0588(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -54399,7 +54399,7 @@ DUMPER7_ASSERTS_UCyGPAction_GameWin;
 
 // Class PMGame.CySAtomPlayAssetFromAttackType
 // 0x0030 (0x05B8 - 0x0588)
-class UCySAtomPlayAssetFromAttackType final : public UCyStateAtom
+class UCySAtomPlayAssetFromAttackType : public UCyStateAtom
 {
 public:
 	ETargetSourceType                             TargetType;                                        // 0x0588(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -54455,7 +54455,7 @@ DUMPER7_ASSERTS_UCyGPAction_GiveAbility;
 
 // Class PMGame.CyTargetFilterGameRoleType
 // 0x0008 (0x0050 - 0x0048)
-class UCyTargetFilterGameRoleType final : public UCyTargetFilter
+class UCyTargetFilterGameRoleType : public UCyTargetFilter
 {
 public:
 	EGameRoleType                                 GameRoleType;                                      // 0x0048(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
@@ -54506,7 +54506,7 @@ DUMPER7_ASSERTS_UCyGPAction_GiveChoiceCard;
 
 // Class PMGame.CyGPAction_GiveChoiceCard_Escort2
 // 0x0180 (0x0200 - 0x0080)
-class UCyGPAction_GiveChoiceCard_Escort2 final : public UCyGPAction
+class UCyGPAction_GiveChoiceCard_Escort2 : public UCyGPAction
 {
 public:
 	int32                                         DetectMask;                                        // 0x0080(0x0004)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -54538,7 +54538,7 @@ DUMPER7_ASSERTS_UCyGPAction_GiveChoiceCard_Escort2;
 
 // Class PMGame.CySAtomPlayAsset_BeamTarget
 // 0x0050 (0x05D8 - 0x0588)
-class UCySAtomPlayAsset_BeamTarget final : public UCyStateAtom
+class UCySAtomPlayAsset_BeamTarget : public UCyStateAtom
 {
 public:
 	class FName                                   MeshTag;                                           // 0x0588(0x0008)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -54640,7 +54640,7 @@ DUMPER7_ASSERTS_UCyGPAction_GiveChoiceCardByKillOrAssist_Zombie;
 
 // Class PMGame.CySAtomSummonSimpleMove
 // 0x0048 (0x05D0 - 0x0588)
-class UCySAtomSummonSimpleMove final : public UCyGSStateAtom
+class UCySAtomSummonSimpleMove : public UCyGSStateAtom
 {
 public:
 	ESummonSimpleMoveTargetType                   TargetType;                                        // 0x0588(0x0004)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
@@ -54963,7 +54963,7 @@ DUMPER7_ASSERTS_UCyGPAction_GotoCharacterStates;
 
 // Class PMGame.CySAtomUpdateFightBackTargetActor
 // 0x0040 (0x05C8 - 0x0588)
-class UCySAtomUpdateFightBackTargetActor final : public UCyStateAtom
+class UCySAtomUpdateFightBackTargetActor : public UCyStateAtom
 {
 public:
 	class UCySearchTargetsComponent*              SearchTargetsComponent;                            // 0x0588(0x0008)(ExportObject, ZeroConstructor, Transient, InstancedReference, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -55067,7 +55067,7 @@ DUMPER7_ASSERTS_UCyGPAction_GuideBotDeactivate;
 
 // Class PMGame.CySAtomTravelLinkedNode
 // 0x0000 (0x0588 - 0x0588)
-class UCySAtomTravelLinkedNode final : public UCyStateAtom
+class UCySAtomTravelLinkedNode : public UCyStateAtom
 {
 public:
 	static class UClass* StaticClass()
@@ -55274,7 +55274,7 @@ DUMPER7_ASSERTS_UCyTriggerAtomRemoveLooseTags;
 
 // Class PMGame.CyGPAction_IgnoreLookInput
 // 0x0058 (0x00D8 - 0x0080)
-class UCyGPAction_IgnoreLookInput final : public UCyGPAction
+class UCyGPAction_IgnoreLookInput : public UCyGPAction
 {
 public:
 	TSet<class AController*>                      CachedControllers;                                 // 0x0080(0x0050)(Transient, Protected, NativeAccessSpecifierProtected)
@@ -56072,7 +56072,7 @@ DUMPER7_ASSERTS_UCyGPAction_MoveToActor;
 
 // Class PMGame.CySceneMapContainer
 // 0x0098 (0x0AC0 - 0x0A28)
-class UCySceneMapContainer final : public UPMUWGameplayBase
+class UCySceneMapContainer : public UPMUWGameplayBase
 {
 public:
 	struct FVector2D                              Default_Size;                                      // 0x0A28(0x0008)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -56272,7 +56272,7 @@ DUMPER7_ASSERTS_UCySceneMapCircleRangeItem;
 
 // Class PMGame.CyLocationDetectorPredictPathEndPoint
 // 0x0008 (0x01E0 - 0x01D8)
-class UCyLocationDetectorPredictPathEndPoint final : public UCyLocationDetector
+class UCyLocationDetectorPredictPathEndPoint : public UCyLocationDetector
 {
 public:
 	ECollisionChannel                             ActiveTrackChannel;                                // 0x01D8(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
@@ -56341,7 +56341,7 @@ DUMPER7_ASSERTS_UCyGPAction_PlayerLeaveCheckPoint_ZombieChase;
 
 // Class PMGame.CySAtomSpawnActorWithTarget
 // 0x0090 (0x0618 - 0x0588)
-class UCySAtomSpawnActorWithTarget final : public UCyStateAtom
+class UCySAtomSpawnActorWithTarget : public UCyStateAtom
 {
 public:
 	ETargetSourceType                             SourceType;                                        // 0x0588(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -56563,7 +56563,7 @@ DUMPER7_ASSERTS_UCySAtomSpawnActor;
 
 // Class PMGame.CyLocationDetectorTraceChannel
 // 0x0020 (0x01F8 - 0x01D8)
-class UCyLocationDetectorTraceChannel final : public UCyLocationDetector
+class UCyLocationDetectorTraceChannel : public UCyLocationDetector
 {
 public:
 	bool                                          bUseDistance;                                      // 0x01D8(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -56670,7 +56670,7 @@ DUMPER7_ASSERTS_UCySAtomStartSearch;
 
 // Class PMGame.CySAtomStartSearchWithCondition
 // 0x0000 (0x0588 - 0x0588)
-class UCySAtomStartSearchWithCondition final : public UCySAtomStartSearch
+class UCySAtomStartSearchWithCondition : public UCySAtomStartSearch
 {
 public:
 	static class UClass* StaticClass()
@@ -56719,7 +56719,7 @@ DUMPER7_ASSERTS_UCyGPAction_RefreshMinorityCard_Zombie;
 
 // Class PMGame.CyLocationDetectorWhileFoundPlacement
 // 0x0040 (0x0218 - 0x01D8)
-class UCyLocationDetectorWhileFoundPlacement final : public UCyLocationDetector
+class UCyLocationDetectorWhileFoundPlacement : public UCyLocationDetector
 {
 public:
 	float                                         SourceInWallOffset;                                // 0x01D8(0x0004)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -57009,7 +57009,7 @@ DUMPER7_ASSERTS_UCyGPAction_RemoveWeapon;
 
 // Class PMGame.CySAtomChangeAnimationVelocity
 // 0x0040 (0x05C8 - 0x0588)
-class UCySAtomChangeAnimationVelocity final : public UCyStateAtom
+class UCySAtomChangeAnimationVelocity : public UCyStateAtom
 {
 public:
 	struct FVector                                OverrideVelocity;                                  // 0x0588(0x000C)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -57326,7 +57326,7 @@ DUMPER7_ASSERTS_UCySAtomChargedAttack;
 
 // Class PMGame.CySAtomChargedAttack_WaterPolo
 // 0x0028 (0x0638 - 0x0610)
-class UCySAtomChargedAttack_WaterPolo final : public UCySAtomChargedAttack
+class UCySAtomChargedAttack_WaterPolo : public UCySAtomChargedAttack
 {
 public:
 	float                                         PeakPhaseChargedTime;                              // 0x0610(0x0004)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -57747,7 +57747,7 @@ DUMPER7_ASSERTS_UCyGPAction_SetExtraNumPayloadMechanics;
 
 // Class PMGame.CySARotateActor
 // 0x0018 (0x05A0 - 0x0588)
-class UCySARotateActor final : public UCyStateAtom
+class UCySARotateActor : public UCyStateAtom
 {
 public:
 	float                                         PredictTime;                                       // 0x0588(0x0004)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -58654,7 +58654,7 @@ DUMPER7_ASSERTS_UCyGPAction_SpawnActorAtEventActorLocation;
 
 // Class PMGame.CySAApplyGE_TransferZone
 // 0x0020 (0x05A8 - 0x0588)
-class UCySAApplyGE_TransferZone final : public UCyStateAtom
+class UCySAApplyGE_TransferZone : public UCyStateAtom
 {
 public:
 	bool                                          bRemoveOnEnd;                                      // 0x0588(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -58839,7 +58839,7 @@ DUMPER7_ASSERTS_UCyGPAction_SpawnActorAttachToPayload_Escort2;
 
 // Class PMGame.CySAActiveGAByAttributeChange
 // 0x00A0 (0x0628 - 0x0588)
-class UCySAActiveGAByAttributeChange final : public UCyStateAtom
+class UCySAActiveGAByAttributeChange : public UCyStateAtom
 {
 public:
 	struct FGameplayAttribute                     AttributeTarget;                                   // 0x0588(0x0038)(Edit, DisableEditOnInstance, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -59141,7 +59141,7 @@ DUMPER7_ASSERTS_UCyStateCheckAtomWeaponState;
 
 // Class PMGame.CyGPAction_StatRemoveBombNum
 // 0x0000 (0x0080 - 0x0080)
-class UCyGPAction_StatRemoveBombNum : public UCyGPAction
+class UCyGPAction_StatRemoveBombNum final : public UCyGPAction
 {
 public:
 	static class UClass* StaticClass()
@@ -59161,7 +59161,7 @@ DUMPER7_ASSERTS_UCyGPAction_StatRemoveBombNum;
 
 // Class PMGame.CySAtomAttributeTimer
 // 0x0060 (0x05E8 - 0x0588)
-class UCySAtomAttributeTimer final : public UCyStateAtom
+class UCySAtomAttributeTimer : public UCyStateAtom
 {
 public:
 	EWeaponSlotTypes                              WeaponSlotType;                                    // 0x0588(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -59303,7 +59303,7 @@ DUMPER7_ASSERTS_UCyGPAction_StealGrowthPoint;
 
 // Class PMGame.CySAtomApplyFlashEffects
 // 0x0030 (0x05B8 - 0x0588)
-class UCySAtomApplyFlashEffects final : public UCyStateAtom
+class UCySAtomApplyFlashEffects : public UCyStateAtom
 {
 public:
 	TArray<TSubclassOf<class UGameplayEffect>>    EffectsToApply;                                    // 0x0588(0x0010)(Edit, ZeroConstructor, DisableEditOnInstance, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -59485,7 +59485,7 @@ DUMPER7_ASSERTS_UCyGPAction_SwitchWeaponToInteract;
 
 // Class PMGame.CyTargetDetectorPlayers
 // 0x0030 (0x0580 - 0x0550)
-class UCyTargetDetectorPlayers final : public UCyTargetDetector
+class UCyTargetDetectorPlayers : public UCyTargetDetector
 {
 public:
 	struct FScalableFloat                         MaxDistance;                                       // 0x0550(0x0030)(Edit, DisableEditOnInstance, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -59819,7 +59819,7 @@ DUMPER7_ASSERTS_UCyGPAction_UnlockSkill;
 
 // Class PMGame.CySAtomMoveToOnWallTarget
 // 0x00C0 (0x0648 - 0x0588)
-class UCySAtomMoveToOnWallTarget final : public UCyStateAtom
+class UCySAtomMoveToOnWallTarget : public UCyStateAtom
 {
 public:
 	struct FGameplayTagContainer                  AbilityTagContainer;                               // 0x0588(0x0060)(Edit, DisableEditOnInstance, Protected, NativeAccessSpecifierProtected)
@@ -59843,7 +59843,7 @@ DUMPER7_ASSERTS_UCySAtomMoveToOnWallTarget;
 
 // Class PMGame.CyGPAction_UpdateAllPlayerEffectsWithTeamType
 // 0x0060 (0x00E0 - 0x0080)
-class UCyGPAction_UpdateAllPlayerEffectsWithTeamType : public UCyGPAction
+class UCyGPAction_UpdateAllPlayerEffectsWithTeamType final : public UCyGPAction
 {
 public:
 	struct FConditionalEffectAddRemoveGroup       AllTeamEffectGroup;                                // 0x0080(0x0020)(Edit, DisableEditOnInstance, Protected, NativeAccessSpecifierProtected)
@@ -59891,7 +59891,7 @@ DUMPER7_ASSERTS_UCyGPAction_UpdateCheckPointState_Parkour;
 
 // Class PMGame.CySAtomMatchAddLooseTags
 // 0x0598 (0x0B20 - 0x0588)
-class UCySAtomMatchAddLooseTags final : public UCyStateAtom
+class UCySAtomMatchAddLooseTags : public UCyStateAtom
 {
 public:
 	bool                                          bInstigator;                                       // 0x0588(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -60020,7 +60020,7 @@ DUMPER7_ASSERTS_UCyGSMonitorTieVote;
 
 // Class PMGame.CyGPAction_UpdateGameProgressToDSA
 // 0x0000 (0x0080 - 0x0080)
-class UCyGPAction_UpdateGameProgressToDSA : public UCyGPAction
+class UCyGPAction_UpdateGameProgressToDSA final : public UCyGPAction
 {
 public:
 	static class UClass* StaticClass()
@@ -60060,7 +60060,7 @@ DUMPER7_ASSERTS_ACyHideSeekPlayerController;
 
 // Class PMGame.CyGPAction_UpdatePlayerEffectsWithTeamType
 // 0x0068 (0x00E8 - 0x0080)
-class UCyGPAction_UpdatePlayerEffectsWithTeamType : public UCyGPAction
+class UCyGPAction_UpdatePlayerEffectsWithTeamType final : public UCyGPAction
 {
 public:
 	int32                                         DetectMask;                                        // 0x0080(0x0004)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -60191,7 +60191,7 @@ DUMPER7_ASSERTS_UCyGPAction_UpgradeCard;
 
 // Class PMGame.CySAtomDeactivateProjectileMovement
 // 0x0000 (0x0588 - 0x0588)
-class UCySAtomDeactivateProjectileMovement final : public UCyStateAtom
+class UCySAtomDeactivateProjectileMovement : public UCyStateAtom
 {
 public:
 	static class UClass* StaticClass()
@@ -60535,7 +60535,7 @@ DUMPER7_ASSERTS_UCyGPActionCheck_CheckEventPlayer;
 
 // Class PMGame.CySAtomDisablePickupActorCube
 // 0x0008 (0x0590 - 0x0588)
-class UCySAtomDisablePickupActorCube final : public UCyStateAtom
+class UCySAtomDisablePickupActorCube : public UCyStateAtom
 {
 public:
 	bool                                          bDisableInRange;                                   // 0x0588(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -60745,7 +60745,7 @@ DUMPER7_ASSERTS_UCyGPActionCheck_ZombieAliveCount;
 
 // Class PMGame.CyGPActionContainer
 // 0x04C8 (0x04F0 - 0x0028)
-class UCyGPActionContainer final : public UObject
+class UCyGPActionContainer : public UObject
 {
 public:
 	uint8                                         Pad_28[0x10];                                      // 0x0028(0x0010)(Fixing Size After Last Property [ Dumper-7 ])
@@ -60812,7 +60812,7 @@ DUMPER7_ASSERTS_UCyStateAtomSendEvent;
 
 // Class PMGame.CySAtomAddGameplayEffect
 // 0x00B8 (0x0640 - 0x0588)
-class UCySAtomAddGameplayEffect final : public UCyGSStateAtom
+class UCySAtomAddGameplayEffect : public UCyGSStateAtom
 {
 public:
 	uint8                                         bSetOnBegin : 1;                                   // 0x0588(0x0001)(BitIndex: 0x00, PropSize: 0x0001 (Edit, DisableEditOnInstance, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected))
@@ -61258,7 +61258,7 @@ DUMPER7_ASSERTS_UCyGPEFilter_CheckEventPlayer;
 
 // Class PMGame.CyInteractAtomSummonGotoState
 // 0x0018 (0x0A88 - 0x0A70)
-class UCyInteractAtomSummonGotoState final : public UCyInteractAtom
+class UCyInteractAtomSummonGotoState : public UCyInteractAtom
 {
 public:
 	TArray<EAIStateType>                          GotoStates;                                        // 0x0A70(0x0010)(Edit, ZeroConstructor, DisableEditOnInstance, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -61283,7 +61283,7 @@ DUMPER7_ASSERTS_UCyInteractAtomSummonGotoState;
 
 // Class PMGame.CyGPEFilter_CheckGameModeType
 // 0x0010 (0x0040 - 0x0030)
-class UCyGPEFilter_CheckGameModeType : public UCyGPEFilter
+class UCyGPEFilter_CheckGameModeType final : public UCyGPEFilter
 {
 public:
 	TArray<EPMGameModeType>                       FilterGameModeTypeList;                            // 0x0030(0x0010)(Edit, ZeroConstructor, DisableEditOnInstance, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -61382,7 +61382,7 @@ DUMPER7_ASSERTS_UCyGPEFilter_CheckGuideTask;
 
 // Class PMGame.CySAtomGotoState
 // 0x0018 (0x05A0 - 0x0588)
-class UCySAtomGotoState final : public UCyStateAtom
+class UCySAtomGotoState : public UCyStateAtom
 {
 public:
 	ECStateType                                   GotoState;                                         // 0x0588(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -61411,7 +61411,7 @@ DUMPER7_ASSERTS_UCySAtomGotoState;
 
 // Class PMGame.CyInteractAtomWidget
 // 0x0008 (0x0A78 - 0x0A70)
-class UCyInteractAtomWidget final : public UCyInteractAtom
+class UCyInteractAtomWidget : public UCyInteractAtom
 {
 public:
 	class FName                                   PanelName;                                         // 0x0A70(0x0008)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -61661,7 +61661,7 @@ DUMPER7_ASSERTS_UCyTargetDetectorInstigator;
 
 // Class PMGame.CyGPEFilter_ClassType
 // 0x0018 (0x0048 - 0x0030)
-class UCyGPEFilter_ClassType final : public UCyGPEFilter
+class UCyGPEFilter_ClassType : public UCyGPEFilter
 {
 public:
 	ESelectObjectName                             CheckObjectName;                                   // 0x0030(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -62402,7 +62402,7 @@ DUMPER7_ASSERTS_ACyProjectileSnowBallGrenade;
 
 // Class PMGame.CyProjectileWaterPoloGrenade
 // 0x0010 (0x0BB8 - 0x0BA8)
-class ACyProjectileWaterPoloGrenade final : public ACyProjectileSnowBallGrenade
+class ACyProjectileWaterPoloGrenade : public ACyProjectileSnowBallGrenade
 {
 public:
 	TWeakObjectPtr<class AActor>                  DirectHitActor;                                    // 0x0BA8(0x0008)(ZeroConstructor, Transient, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
@@ -62489,7 +62489,7 @@ DUMPER7_ASSERTS_UCyGPEFilter_GameStateRequirements;
 
 // Class PMGame.CyGPEFilter_GameStateType
 // 0x00A0 (0x00D0 - 0x0030)
-class UCyGPEFilter_GameStateType : public UCyGPEFilter
+class UCyGPEFilter_GameStateType final : public UCyGPEFilter
 {
 public:
 	TSet<EGStateType>                             AllowStates;                                       // 0x0030(0x0050)(Edit, DisableEditOnInstance, NativeAccessSpecifierPrivate)
@@ -62864,7 +62864,7 @@ DUMPER7_ASSERTS_UCyGPEFilter_StateTypes;
 
 // Class PMGame.CySSAtomPlayInGameVoice
 // 0x0010 (0x0060 - 0x0050)
-class UCySSAtomPlayInGameVoice final : public UCyStateSubAtom
+class UCySSAtomPlayInGameVoice : public UCyStateSubAtom
 {
 public:
 	struct FGameplayTag                           OnActorAddPlayInGameVoiceTag;                      // 0x0050(0x0008)(Edit, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -63154,7 +63154,7 @@ DUMPER7_ASSERTS_UCyGPEFilter_WeaponTypes;
 
 // Class PMGame.CySAControlCamera_TransferZone
 // 0x00D8 (0x0660 - 0x0588)
-class UCySAControlCamera_TransferZone final : public UCyStateAtom
+class UCySAControlCamera_TransferZone : public UCyStateAtom
 {
 public:
 	struct FMeshTagContainer                      AssetTagContainer;                                 // 0x0588(0x00D8)(Edit, DisableEditOnInstance, Protected, NativeAccessSpecifierProtected)
@@ -63221,7 +63221,7 @@ DUMPER7_ASSERTS_UCySSAtomSetClientOverrideViewRadius;
 
 // Class PMGame.CyGSStateAtomRespawnAtStartPoint
 // 0x0010 (0x0598 - 0x0588)
-class UCyGSStateAtomRespawnAtStartPoint : public UCyGSStateAtom
+class UCyGSStateAtomRespawnAtStartPoint final : public UCyGSStateAtom
 {
 public:
 	TArray<struct FConditionalEffect>             ApplyEffectsAfterRestart;                          // 0x0588(0x0010)(Edit, ZeroConstructor, DisableEditOnInstance, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -63467,7 +63467,7 @@ DUMPER7_ASSERTS_UCyRemoteCommunicationUI;
 
 // Class PMGame.PMUWCrossHairPanel
 // 0x0038 (0x0910 - 0x08D8)
-class UPMUWCrossHairPanel final : public UPMUserWidget
+class UPMUWCrossHairPanel : public UPMUserWidget
 {
 public:
 	class UCanvasPanel*                           BodyHitPanel;                                      // 0x08D8(0x0008)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -63519,7 +63519,7 @@ DUMPER7_ASSERTS_UCyGPEM_CharacterTakeDamage;
 
 // Class PMGame.CySummonWeaponManagerComponent
 // 0x0018 (0x1728 - 0x1710)
-class UCySummonWeaponManagerComponent final : public UCyWeaponManagerBaseComponent
+class UCySummonWeaponManagerComponent : public UCyWeaponManagerBaseComponent
 {
 public:
 	float                                         ReloadProgress;                                    // 0x1710(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -63645,7 +63645,7 @@ DUMPER7_ASSERTS_UCyGPEM_ConnectStatusChange;
 
 // Class PMGame.CyInteractAtomMined
 // 0x0210 (0x0CA0 - 0x0A90)
-class UCyInteractAtomMined final : public UCyInteractAtomSwitchWeapon
+class UCyInteractAtomMined : public UCyInteractAtomSwitchWeapon
 {
 public:
 	struct FCyFeedbackTipsConfig                  MineSpawnPointEmptyTipsConfig;                     // 0x0A90(0x0108)(Edit, DisableEditOnInstance, Protected, NativeAccessSpecifierProtected)
@@ -64242,7 +64242,7 @@ DUMPER7_ASSERTS_UCyGPEM_MonitorPayloadDistance;
 
 // Class PMGame.CyGPEM_OnActorHit
 // 0x0000 (0x04E8 - 0x04E8)
-class UCyGPEM_OnActorHit final : public UCyGameplayEventMonitor
+class UCyGPEM_OnActorHit : public UCyGameplayEventMonitor
 {
 public:
 	void OnActorHit(class AActor* SelfActor, class AActor* OtherActor, const struct FVector& NormalImpulse, const struct FHitResult& Hit);
@@ -64457,7 +64457,7 @@ DUMPER7_ASSERTS_UCySkinComponent;
 
 // Class PMGame.CyGSEventAtomSwitchWeapon
 // 0x0020 (0x03E8 - 0x03C8)
-class UCyGSEventAtomSwitchWeapon : public UCyGSEventAtom
+class UCyGSEventAtomSwitchWeapon final : public UCyGSEventAtom
 {
 public:
 	TArray<EWeaponSlotTypes>                      ExpectWeaponSlot;                                  // 0x03C8(0x0010)(Edit, ZeroConstructor, DisableEditOnInstance, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
@@ -64565,7 +64565,7 @@ DUMPER7_ASSERTS_UCyGPEM_Timer;
 
 // Class PMGame.CyProjectileBlastBome
 // 0x0000 (0x0B50 - 0x0B50)
-class ACyProjectileBlastBome final : public ACyProjectileBlast
+class ACyProjectileBlastBome : public ACyProjectileBlast
 {
 public:
 	static class UClass* StaticClass()
@@ -64826,7 +64826,7 @@ DUMPER7_ASSERTS_UCyGrowthComponent;
 
 // Class PMGame.CySSAtomFoundTarget
 // 0x0088 (0x00D8 - 0x0050)
-class UCySSAtomFoundTarget final : public UCyStateSubAtom
+class UCySSAtomFoundTarget : public UCyStateSubAtom
 {
 public:
 	TArray<TSubclassOf<class UCyTargetFilter>>    Filters;                                           // 0x0050(0x0010)(Edit, ZeroConstructor, DisableEditOnInstance, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
@@ -65040,7 +65040,7 @@ DUMPER7_ASSERTS_UCySAOnGEAddedAndRemoved;
 
 // Class PMGame.CySAApplyEffectsOnGEAddedAndRemoved
 // 0x01B8 (0x0760 - 0x05A8)
-class UCySAApplyEffectsOnGEAddedAndRemoved final : public UCySAOnGEAddedAndRemoved
+class UCySAApplyEffectsOnGEAddedAndRemoved : public UCySAOnGEAddedAndRemoved
 {
 public:
 	bool                                          bRemoveOnAppliedGEOnEnd;                           // 0x05A8(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -65133,7 +65133,7 @@ DUMPER7_ASSERTS_UCySSAtomFilterTargets;
 
 // Class PMGame.CySSAtomModelHighlight
 // 0x0008 (0x02A8 - 0x02A0)
-class UCySSAtomModelHighlight final : public UCySSAtomFilterTargets
+class UCySSAtomModelHighlight : public UCySSAtomFilterTargets
 {
 public:
 	struct FGameplayTag                           AssetTag;                                          // 0x02A0(0x0008)(Edit, DisableEditOnInstance, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -65388,7 +65388,7 @@ DUMPER7_ASSERTS_UCySAtomApplyEffectsByTagEvent;
 
 // Class PMGame.CyStateCheckAtomRecordBool
 // 0x0008 (0x0248 - 0x0240)
-class UCyStateCheckAtomRecordBool final : public UCyStateCheckAtom
+class UCyStateCheckAtomRecordBool : public UCyStateCheckAtom
 {
 public:
 	bool                                          bInverseCondition;                                 // 0x0240(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -65505,7 +65505,7 @@ DUMPER7_ASSERTS_UCyGSEventAtomDebugFastFight;
 
 // Class PMGame.CySAtomApplyBuffOnEnd_WaterPolo
 // 0x0010 (0x0598 - 0x0588)
-class UCySAtomApplyBuffOnEnd_WaterPolo final : public UCyStateAtom
+class UCySAtomApplyBuffOnEnd_WaterPolo : public UCyStateAtom
 {
 public:
 	TSubclassOf<class UGameplayEffect>            BuffEffect;                                        // 0x0588(0x0008)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -65634,7 +65634,7 @@ DUMPER7_ASSERTS_UCyGSEventAtomServerLockRole;
 
 // Class PMGame.CySAtomAttributeConvert
 // 0x00A8 (0x0630 - 0x0588)
-class UCySAtomAttributeConvert final : public UCyStateAtom
+class UCySAtomAttributeConvert : public UCyStateAtom
 {
 public:
 	ETargetSourceType                             SourceType;                                        // 0x0588(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -65726,7 +65726,7 @@ DUMPER7_ASSERTS_UCyGSEventAtomDefaultServerLockRole;
 
 // Class PMGame.CyStateCheckAtomWeaponStateType
 // 0x0018 (0x0258 - 0x0240)
-class UCyStateCheckAtomWeaponStateType final : public UCyStateCheckAtom
+class UCyStateCheckAtomWeaponStateType : public UCyStateCheckAtom
 {
 public:
 	struct FStateTypeArray                        StateTypeArray;                                    // 0x0240(0x0010)(Edit, DisableEditOnInstance, Protected, NativeAccessSpecifierProtected)
@@ -65751,7 +65751,7 @@ DUMPER7_ASSERTS_UCyStateCheckAtomWeaponStateType;
 
 // Class PMGame.CySAtomAttachComponentToMesh
 // 0x0068 (0x05F0 - 0x0588)
-class UCySAtomAttachComponentToMesh final : public UCyStateAtom
+class UCySAtomAttachComponentToMesh : public UCyStateAtom
 {
 public:
 	class FName                                   ComponentName;                                     // 0x0588(0x0008)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -65884,7 +65884,7 @@ DUMPER7_ASSERTS_UCyGSEventAtomHandleCharacterDeath_AddGE;
 
 // Class PMGame.CySAGotoState_TransferTarget
 // 0x0020 (0x05A8 - 0x0588)
-class UCySAGotoState_TransferTarget final : public UCyStateAtom
+class UCySAGotoState_TransferTarget : public UCyStateAtom
 {
 public:
 	TArray<EAIStateType>                          BeginStates;                                       // 0x0588(0x0010)(Edit, ZeroConstructor, DisableEditOnInstance, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -65934,7 +65934,7 @@ DUMPER7_ASSERTS_UCyGSEventAtomHandleCharacterDeath_AddLevel;
 
 // Class PMGame.CySSAtomSwitchAudio
 // 0x0010 (0x0060 - 0x0050)
-class UCySSAtomSwitchAudio final : public UCyStateSubAtom
+class UCySSAtomSwitchAudio : public UCyStateSubAtom
 {
 public:
 	class UAkAudioEvent*                          AkScanTarget;                                      // 0x0050(0x0008)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -66072,7 +66072,7 @@ DUMPER7_ASSERTS_UCyGSEventAtomHandleCharacterDeath_TeamWinKilledAll;
 
 // Class PMGame.CySAEnableSearchByGStateChange
 // 0x0030 (0x05B8 - 0x0588)
-class UCySAEnableSearchByGStateChange final : public UCyStateAtom
+class UCySAEnableSearchByGStateChange : public UCyStateAtom
 {
 public:
 	ETargetSourceType                             TargetType;                                        // 0x0588(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
@@ -66099,7 +66099,7 @@ DUMPER7_ASSERTS_UCySAEnableSearchByGStateChange;
 
 // Class PMGame.CyGSStateAtomUpdateDelayRespawnTimeStamp
 // 0x01D8 (0x0760 - 0x0588)
-class UCyGSStateAtomUpdateDelayRespawnTimeStamp final : public UCyGSStateAtom
+class UCyGSStateAtomUpdateDelayRespawnTimeStamp : public UCyGSStateAtom
 {
 public:
 	bool                                          bUseCustomRespawnDelayTime;                        // 0x0588(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -66175,7 +66175,7 @@ DUMPER7_ASSERTS_UCyGSEventAtomHandleCharacterDeath_ZombieChaseKilledAll;
 
 // Class PMGame.CySAOnAddExpectedSlotType
 // 0x0138 (0x06C0 - 0x0588)
-class UCySAOnAddExpectedSlotType final : public UCyStateAtom
+class UCySAOnAddExpectedSlotType : public UCyStateAtom
 {
 public:
 	TArray<EWeaponSlotTypes>                      RequireSlotTypes;                                  // 0x0588(0x0010)(Edit, ZeroConstructor, DisableEditOnInstance, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -66206,7 +66206,7 @@ DUMPER7_ASSERTS_UCySAOnAddExpectedSlotType;
 
 // Class PMGame.CyStateAtomAddInfoToLinkSubSys
 // 0x0090 (0x0618 - 0x0588)
-class UCyStateAtomAddInfoToLinkSubSys final : public UCyStateAtom
+class UCyStateAtomAddInfoToLinkSubSys : public UCyStateAtom
 {
 public:
 	bool                                          bUseLinkageSubsystem;                              // 0x0588(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -66253,7 +66253,7 @@ DUMPER7_ASSERTS_UCyGSEventAtomHandleTeamWin_ZombieChase;
 
 // Class PMGame.CySAMaterialEffectOnFire
 // 0x00A8 (0x0630 - 0x0588)
-class UCySAMaterialEffectOnFire final : public UCyStateAtom
+class UCySAMaterialEffectOnFire : public UCyStateAtom
 {
 public:
 	uint32                                        TargetSkinId;                                      // 0x0588(0x0004)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -66419,7 +66419,7 @@ DUMPER7_ASSERTS_UCyGSEventAtomMatchInitialization_SnowBall;
 
 // Class PMGame.CyGSEventAtomMatchStarted
 // 0x0010 (0x03D8 - 0x03C8)
-class UCyGSEventAtomMatchStarted final : public UCyGSEventAtom
+class UCyGSEventAtomMatchStarted : public UCyGSEventAtom
 {
 public:
 	TArray<TSubclassOf<class UGameplayEffect>>    InitEffects;                                       // 0x03C8(0x0010)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -66586,7 +66586,7 @@ DUMPER7_ASSERTS_UCyGSEventAtomPlayBigHeadInitBgm;
 
 // Class PMGame.CySSAtomApplyEffect
 // 0x0098 (0x00E8 - 0x0050)
-class UCySSAtomApplyEffect final : public UCyStateSubAtom
+class UCySSAtomApplyEffect : public UCyStateSubAtom
 {
 public:
 	TArray<struct FConditionalEffect>             AddedActorEffects;                                 // 0x0050(0x0010)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, DisableEditOnInstance, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -67393,7 +67393,7 @@ DUMPER7_ASSERTS_UCyGSSA_PlayBGM_Zombie;
 
 // Class PMGame.CySAtomCheckLockTarget
 // 0x0080 (0x0608 - 0x0588)
-class UCySAtomCheckLockTarget final : public UCyStateAtom
+class UCySAtomCheckLockTarget : public UCyStateAtom
 {
 public:
 	TArray<TSubclassOf<class UCyTargetFilter>>    Filters;                                           // 0x0588(0x0010)(Edit, ZeroConstructor, DisableEditOnInstance, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -67477,7 +67477,7 @@ DUMPER7_ASSERTS_UCyGSStateAtomApplyEffectsAfterDamage;
 
 // Class PMGame.CySAtomTargetsGotoStates
 // 0x0018 (0x05A0 - 0x0588)
-class UCySAtomTargetsGotoStates final : public UCyStateAtom
+class UCySAtomTargetsGotoStates : public UCyStateAtom
 {
 public:
 	TArray<EAIStateType>                          StateTypes;                                        // 0x0588(0x0010)(Edit, ZeroConstructor, DisableEditOnInstance, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -67835,7 +67835,7 @@ DUMPER7_ASSERTS_UCyEvaluateData_Kill5;
 
 // Class PMGame.CySAtomDisableTeamStart
 // 0x0008 (0x0590 - 0x0588)
-class UCySAtomDisableTeamStart final : public UCyStateAtom
+class UCySAtomDisableTeamStart : public UCyStateAtom
 {
 public:
 	uint8                                         Pad_588[0x4];                                      // 0x0588(0x0004)(Fixing Size After Last Property [ Dumper-7 ])
@@ -68742,7 +68742,7 @@ DUMPER7_ASSERTS_UCySAtomSearchTargetsOnce;
 
 // Class PMGame.CyGSStateAtomEvaluateRoleTitle
 // 0x0150 (0x06D8 - 0x0588)
-class UCyGSStateAtomEvaluateRoleTitle : public UCyGSStateAtom
+class UCyGSStateAtomEvaluateRoleTitle final : public UCyGSStateAtom
 {
 public:
 	TMap<EEvaluateDataType, TSubclassOf<class UCyEvaluateDataBase>> EvaluateDatas;                   // 0x0588(0x0050)(Edit, UObjectWrapper, NativeAccessSpecifierPublic)
@@ -68843,7 +68843,7 @@ DUMPER7_ASSERTS_UCyTaskLimitHitDist;
 
 // Class PMGame.CyGSStateAtomIntervalTimeAddXPoint
 // 0x0018 (0x05A0 - 0x0588)
-class UCyGSStateAtomIntervalTimeAddXPoint final : public UCyGSStateAtom
+class UCyGSStateAtomIntervalTimeAddXPoint : public UCyGSStateAtom
 {
 public:
 	ECyTeamType                                   AddXPointTeamType;                                 // 0x0588(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -69754,7 +69754,7 @@ DUMPER7_ASSERTS_UCyGStateFight;
 
 // Class PMGame.CySAtomPlayForceFeedBack
 // 0x0008 (0x0590 - 0x0588)
-class UCySAtomPlayForceFeedBack final : public UCyStateAtom
+class UCySAtomPlayForceFeedBack : public UCyStateAtom
 {
 public:
 	ECyGamepadForceFeedbackEffectType             ForceFeedbackEffectType;                           // 0x0588(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -69938,7 +69938,7 @@ DUMPER7_ASSERTS_UCyGStateGameOver;
 
 // Class PMGame.CySAtomReleasedInteract
 // 0x0000 (0x0588 - 0x0588)
-class UCySAtomReleasedInteract final : public UCyStateAtom
+class UCySAtomReleasedInteract : public UCyStateAtom
 {
 public:
 	static class UClass* StaticClass()
@@ -70427,7 +70427,7 @@ DUMPER7_ASSERTS_ACyGuidelineActor;
 
 // Class PMGame.CySAtomSetProjectileSpeed
 // 0x0018 (0x05A0 - 0x0588)
-class UCySAtomSetProjectileSpeed final : public UCyStateAtom
+class UCySAtomSetProjectileSpeed : public UCyStateAtom
 {
 public:
 	float                                         ProjectileSpeed;                                   // 0x0588(0x0004)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -70583,7 +70583,7 @@ DUMPER7_ASSERTS_ACyGuideTriggerAreaBase;
 
 // Class PMGame.CyTargetDisplayReticle
 // 0x0058 (0x0098 - 0x0040)
-class UCyTargetDisplayReticle final : public UCyTargetDisplayAtom
+class UCyTargetDisplayReticle : public UCyTargetDisplayAtom
 {
 public:
 	TSubclassOf<class ACyDisplayWorldReticle>     ReticleClass;                                      // 0x0040(0x0008)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -70955,7 +70955,7 @@ DUMPER7_ASSERTS_ACyHideSeekHUD;
 
 // Class PMGame.CyTargetFilterHasActiveRopeLock
 // 0x0000 (0x0048 - 0x0048)
-class UCyTargetFilterHasActiveRopeLock final : public UCyTargetFilter
+class UCyTargetFilterHasActiveRopeLock : public UCyTargetFilter
 {
 public:
 	static class UClass* StaticClass()
@@ -71066,7 +71066,7 @@ DUMPER7_ASSERTS_ACyHitAttachActor;
 
 // Class PMGame.CySAtomSummonGotoSliding
 // 0x0028 (0x05B0 - 0x0588)
-class UCySAtomSummonGotoSliding final : public UCyStateAtom
+class UCySAtomSummonGotoSliding : public UCyStateAtom
 {
 public:
 	int32                                         CapsuleIgnoreMaskOnSlideWall;                      // 0x0588(0x0004)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -71263,7 +71263,7 @@ DUMPER7_ASSERTS_UCyHQDecalDisplayComponent;
 
 // Class PMGame.CySAtomTossOwnerToTarget
 // 0x0048 (0x05D0 - 0x0588)
-class UCySAtomTossOwnerToTarget final : public UCyStateAtom
+class UCySAtomTossOwnerToTarget : public UCyStateAtom
 {
 public:
 	TSubclassOf<class UCyTargetDetector>          TargetDetector;                                    // 0x0588(0x0008)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -71765,7 +71765,7 @@ DUMPER7_ASSERTS_UCySceneMapRestartAreaComponent;
 
 // Class PMGame.CyInteractAtomStoreMine
 // 0x0108 (0x0B78 - 0x0A70)
-class UCyInteractAtomStoreMine final : public UCyInteractAtom
+class UCyInteractAtomStoreMine : public UCyInteractAtom
 {
 public:
 	struct FCyFeedbackTipsConfig                  StoreMineSuccessTipsConfig;                        // 0x0A70(0x0108)(Edit, DisableEditOnInstance, Protected, NativeAccessSpecifierProtected)
@@ -71905,7 +71905,7 @@ DUMPER7_ASSERTS_ACyTeamGuideHUD;
 
 // Class PMGame.CyInteractAtomTransferZone
 // 0x0000 (0x0A90 - 0x0A90)
-class UCyInteractAtomTransferZone final : public UCyInteractAtomSwitchWeapon
+class UCyInteractAtomTransferZone : public UCyInteractAtomSwitchWeapon
 {
 public:
 	static class UClass* StaticClass()
@@ -72275,7 +72275,7 @@ DUMPER7_ASSERTS_UCyKumaAnimationAsset;
 
 // Class PMGame.CySAtomSpaceTeleportSuccess
 // 0x0000 (0x0588 - 0x0588)
-class UCySAtomSpaceTeleportSuccess final : public UCyStateAtom
+class UCySAtomSpaceTeleportSuccess : public UCyStateAtom
 {
 public:
 	static class UClass* StaticClass()
@@ -72392,7 +72392,7 @@ DUMPER7_ASSERTS_ACyLevelSeqSelectActor;
 
 // Class PMGame.CySAtomSpawnSlaver
 // 0x0028 (0x05B0 - 0x0588)
-class UCySAtomSpawnSlaver final : public UCyStateAtom
+class UCySAtomSpawnSlaver : public UCyStateAtom
 {
 public:
 	class FName                                   MeshName;                                          // 0x0588(0x0008)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -72419,7 +72419,7 @@ DUMPER7_ASSERTS_UCySAtomSpawnSlaver;
 
 // Class PMGame.CyLevelUpAttributeChangeExecutionCalc
 // 0x0348 (0x0388 - 0x0040)
-class UCyLevelUpAttributeChangeExecutionCalc final : public UGameplayEffectExecutionCalculation
+class UCyLevelUpAttributeChangeExecutionCalc : public UGameplayEffectExecutionCalculation
 {
 public:
 	struct FGameplayAttribute                     HealthMaxAttr;                                     // 0x0040(0x0038)(Edit, DisableEditOnInstance, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
@@ -72496,7 +72496,7 @@ DUMPER7_ASSERTS_UCyLifeShareCheckSameObject;
 
 // Class PMGame.CySAtomButterflyArea
 // 0x0070 (0x05F8 - 0x0588)
-class UCySAtomButterflyArea final : public UCyStateAtom
+class UCySAtomButterflyArea : public UCyStateAtom
 {
 public:
 	struct FGameplayTag                           LocalStealthTag;                                   // 0x0588(0x0008)(Edit, DisableEditOnInstance, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -72824,7 +72824,7 @@ DUMPER7_ASSERTS_UCyListenTargetCheckAtomBase;
 
 // Class PMGame.CySASetCollisionResponse
 // 0x0010 (0x0598 - 0x0588)
-class UCySASetCollisionResponse final : public UCyStateAtom
+class UCySASetCollisionResponse : public UCyStateAtom
 {
 public:
 	TArray<struct FCollisionResponseConfig>       CollisionResponseConfigs;                          // 0x0588(0x0010)(Edit, ZeroConstructor, DisableEditOnInstance, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -73095,7 +73095,7 @@ DUMPER7_ASSERTS_ACyLobbyCharacterMascotHeadActor;
 
 // Class PMGame.CyStateAtomLockTargets
 // 0x0008 (0x0590 - 0x0588)
-class UCyStateAtomLockTargets final : public UCyGSStateAtom
+class UCyStateAtomLockTargets : public UCyGSStateAtom
 {
 public:
 	EDetectorGroupType                            LockGroupType;                                     // 0x0588(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -73152,7 +73152,7 @@ DUMPER7_ASSERTS_ACyLobbyDrawCardPackActor;
 
 // Class PMGame.CyRoleLevelInitAttributeExecutionCalc
 // 0x0150 (0x0190 - 0x0040)
-class UCyRoleLevelInitAttributeExecutionCalc final : public UGameplayEffectExecutionCalculation
+class UCyRoleLevelInitAttributeExecutionCalc : public UGameplayEffectExecutionCalculation
 {
 public:
 	struct FGameplayAttribute                     HealthMaxAttr;                                     // 0x0040(0x0038)(Edit, DisableEditOnInstance, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
@@ -73296,7 +73296,7 @@ DUMPER7_ASSERTS_UCySceneMapWorldSubSystem;
 
 // Class PMGame.CySSAtomChangeParticleParam
 // 0x0018 (0x0068 - 0x0050)
-class UCySSAtomChangeParticleParam final : public UCyStateSubAtom
+class UCySSAtomChangeParticleParam : public UCyStateSubAtom
 {
 public:
 	bool                                          bUseOwnerDefinedSize;                              // 0x0050(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -73663,7 +73663,7 @@ DUMPER7_ASSERTS_UPMBTDecorator_IsBombTeam;
 
 // Class PMGame.CyLobbyWeapon
 // 0x0060 (0x1350 - 0x12F0)
-class ACyLobbyWeapon final : public ACyWeaponBase
+class ACyLobbyWeapon : public ACyWeaponBase
 {
 public:
 	class FName                                   WeaponFoldPath;                                    // 0x12E8(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
@@ -73870,7 +73870,7 @@ DUMPER7_ASSERTS_UCySSAtomLooseGameplayTags;
 
 // Class PMGame.CyLocationCheckBoxOverlap
 // 0x0020 (0x0068 - 0x0048)
-class UCyLocationCheckBoxOverlap final : public UCyLocationCheckAtom
+class UCyLocationCheckBoxOverlap : public UCyLocationCheckAtom
 {
 public:
 	struct FVector                                BoxExtent;                                         // 0x0048(0x000C)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -73896,7 +73896,7 @@ DUMPER7_ASSERTS_UCyLocationCheckBoxOverlap;
 
 // Class PMGame.CySAtomAlphaFade
 // 0x0058 (0x05E0 - 0x0588)
-class UCySAtomAlphaFade final : public UCyStateAtom
+class UCySAtomAlphaFade : public UCyStateAtom
 {
 public:
 	uint8                                         Pad_588[0x8];                                      // 0x0588(0x0008)(Fixing Size After Last Property [ Dumper-7 ])
@@ -73928,7 +73928,7 @@ DUMPER7_ASSERTS_UCySAtomAlphaFade;
 
 // Class PMGame.CyLocationCheckHasC4InArea
 // 0x0008 (0x0050 - 0x0048)
-class UCyLocationCheckHasC4InArea final : public UCyLocationCheckAtom
+class UCyLocationCheckHasC4InArea : public UCyLocationCheckAtom
 {
 public:
 	float                                         Distance;                                          // 0x0048(0x0004)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -73975,7 +73975,7 @@ DUMPER7_ASSERTS_UCyStateCheckAtomTargetDetector;
 
 // Class PMGame.CyLocationDetectorAdsorption
 // 0x0098 (0x0270 - 0x01D8)
-class UCyLocationDetectorAdsorption final : public UCyLocationDetector
+class UCyLocationDetectorAdsorption : public UCyLocationDetector
 {
 public:
 	struct FAdsorptionConditions                  Conditions;                                        // 0x01D8(0x0090)(Edit, DisableEditOnInstance, NativeAccessSpecifierPrivate)
@@ -74050,7 +74050,7 @@ DUMPER7_ASSERTS_UCyStateCheckAtomLocalViewTargetType;
 
 // Class PMGame.CyLocationDetectorOwnerLocation
 // 0x0010 (0x01E8 - 0x01D8)
-class UCyLocationDetectorOwnerLocation final : public UCyLocationDetector
+class UCyLocationDetectorOwnerLocation : public UCyLocationDetector
 {
 public:
 	struct FVector                                LocationOffset;                                    // 0x01D8(0x000C)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -74186,7 +74186,7 @@ DUMPER7_ASSERTS_UCySelectRoleNameInfoPanelMB;
 
 // Class PMGame.CyStateCheckAtomTargetTags
 // 0x0188 (0x03C8 - 0x0240)
-class UCyStateCheckAtomTargetTags final : public UCyStateCheckAtom
+class UCyStateCheckAtomTargetTags : public UCyStateCheckAtom
 {
 public:
 	struct FGameplayTagRequirements               TagRequirements;                                   // 0x0240(0x0188)(Edit, DisableEditOnInstance, Protected, NativeAccessSpecifierProtected)
@@ -74209,7 +74209,7 @@ DUMPER7_ASSERTS_UCyStateCheckAtomTargetTags;
 
 // Class PMGame.CyLocationDetectorPredictPath
 // 0x0020 (0x01F8 - 0x01D8)
-class UCyLocationDetectorPredictPath final : public UCyLocationDetector
+class UCyLocationDetectorPredictPath : public UCyLocationDetector
 {
 public:
 	float                                         StartLocationOffsetHeight;                         // 0x01D8(0x0004)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -74338,7 +74338,7 @@ DUMPER7_ASSERTS_UCyTargetDetectorSelf;
 
 // Class PMGame.CyLocationDetectorSocketLocation
 // 0x0018 (0x01F0 - 0x01D8)
-class UCyLocationDetectorSocketLocation final : public UCyLocationDetector
+class UCyLocationDetectorSocketLocation : public UCyLocationDetector
 {
 public:
 	class FName                                   SocketName;                                        // 0x01D8(0x0008)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -74384,7 +74384,7 @@ DUMPER7_ASSERTS_UCyTargetDetector_Cross;
 
 // Class PMGame.CyTargetDetectorPlane
 // 0x00E8 (0x0638 - 0x0550)
-class UCyTargetDetectorPlane final : public UCyTargetDetector_Cross
+class UCyTargetDetectorPlane : public UCyTargetDetector_Cross
 {
 public:
 	uint8                                         TargetActorMask;                                   // 0x0550(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -74424,7 +74424,7 @@ DUMPER7_ASSERTS_UCyTargetDetectorPlane;
 
 // Class PMGame.CyLocationDetectorTraceChannelDrop
 // 0x0020 (0x01F8 - 0x01D8)
-class UCyLocationDetectorTraceChannelDrop final : public UCyLocationDetector
+class UCyLocationDetectorTraceChannelDrop : public UCyLocationDetector
 {
 public:
 	float                                         Distance;                                          // 0x01D8(0x0004)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -74462,7 +74462,7 @@ DUMPER7_ASSERTS_UCyLocationDetectorTraceChannelDrop;
 
 // Class PMGame.CyLocationDetectorViewForward
 // 0x0020 (0x01F8 - 0x01D8)
-class UCyLocationDetectorViewForward final : public UCyLocationDetector
+class UCyLocationDetectorViewForward : public UCyLocationDetector
 {
 public:
 	float                                         ViewForwardDist;                                   // 0x01D8(0x0004)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -74493,7 +74493,7 @@ DUMPER7_ASSERTS_UCyLocationDetectorViewForward;
 
 // Class PMGame.CySAtomMetParameterWithAmmo
 // 0x0020 (0x05A8 - 0x0588)
-class UCySAtomMetParameterWithAmmo final : public UCyStateAtom
+class UCySAtomMetParameterWithAmmo : public UCyStateAtom
 {
 public:
 	float                                         ResetParameterValue;                               // 0x0588(0x0004)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
@@ -74520,7 +74520,7 @@ DUMPER7_ASSERTS_UCySAtomMetParameterWithAmmo;
 
 // Class PMGame.CyLocationDetectorViewLocation
 // 0x0010 (0x01E8 - 0x01D8)
-class UCyLocationDetectorViewLocation final : public UCyLocationDetector
+class UCyLocationDetectorViewLocation : public UCyLocationDetector
 {
 public:
 	bool                                          bUseSource;                                        // 0x01D8(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -74609,7 +74609,7 @@ DUMPER7_ASSERTS_UCyLocationDetectPart;
 
 // Class PMGame.CyTargetDetectorSourceTargets
 // 0x0000 (0x0550 - 0x0550)
-class UCyTargetDetectorSourceTargets final : public UCyTargetDetector
+class UCyTargetDetectorSourceTargets : public UCyTargetDetector
 {
 public:
 	static class UClass* StaticClass()
@@ -74696,7 +74696,7 @@ DUMPER7_ASSERTS_UCyLogReviewPage;
 
 // Class PMGame.CySAtomClearTarget
 // 0x0198 (0x0720 - 0x0588)
-class UCySAtomClearTarget final : public UCyStateAtom
+class UCySAtomClearTarget : public UCyStateAtom
 {
 public:
 	bool                                          bFilterTargetsInsteadOfClear;                      // 0x0588(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -74788,7 +74788,7 @@ DUMPER7_ASSERTS_ACyMarkNeedHelp;
 
 // Class PMGame.CySAtomDetectActors
 // 0x02B0 (0x0838 - 0x0588)
-class UCySAtomDetectActors final : public UCyStateAtom
+class UCySAtomDetectActors : public UCyStateAtom
 {
 public:
 	struct FDetectorGroup                         DetectorGroup;                                     // 0x0588(0x0238)(Edit, DisableEditOnInstance, Protected, NativeAccessSpecifierProtected)
@@ -75196,7 +75196,7 @@ DUMPER7_ASSERTS_UCyMC_MoveSpeedMagnitude;
 
 // Class PMGame.CySAtomAddImpulse
 // 0x0010 (0x0598 - 0x0588)
-class UCySAtomAddImpulse final : public UCyStateAtom
+class UCySAtomAddImpulse : public UCyStateAtom
 {
 public:
 	float                                         ImpulseVal;                                        // 0x0588(0x0004)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -75401,7 +75401,7 @@ DUMPER7_ASSERTS_ICyMeshTransparencyInterface;
 
 // Class PMGame.CySAtomFStateMonitorAddAdditionalDuration
 // 0x0048 (0x05D0 - 0x0588)
-class UCySAtomFStateMonitorAddAdditionalDuration final : public UCyStateAtom
+class UCySAtomFStateMonitorAddAdditionalDuration : public UCyStateAtom
 {
 public:
 	ETargetSourceType                             TargetType;                                        // 0x0588(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -75491,7 +75491,7 @@ DUMPER7_ASSERTS_UCyMineDataAsset;
 
 // Class PMGame.CyTargetDetectorDistance
 // 0x0018 (0x0568 - 0x0550)
-class UCyTargetDetectorDistance final : public UCyTargetDetector
+class UCyTargetDetectorDistance : public UCyTargetDetector
 {
 public:
 	uint8                                         TargetActorMask;                                   // 0x0550(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -75684,7 +75684,7 @@ DUMPER7_ASSERTS_ACyMineRepositoryMachine;
 
 // Class PMGame.CySAtomHighlightEnemies
 // 0x0190 (0x0718 - 0x0588)
-class UCySAtomHighlightEnemies final : public UCyStateAtom
+class UCySAtomHighlightEnemies : public UCyStateAtom
 {
 public:
 	struct FGameplayTagRequirements               TagRequirements;                                   // 0x0588(0x0188)(Edit, DisableEditOnInstance, Protected, NativeAccessSpecifierProtected)
@@ -75833,7 +75833,7 @@ DUMPER7_ASSERTS_ACyMineTriHUD;
 
 // Class PMGame.CyTargetDetectorFocusSummon
 // 0x0068 (0x05B8 - 0x0550)
-class UCyTargetDetectorFocusSummon final : public UCyTargetDetector
+class UCyTargetDetectorFocusSummon : public UCyTargetDetector
 {
 public:
 	struct FGameplayTagContainer                  SummonActorTags;                                   // 0x0550(0x0060)(Edit, DisableEditOnInstance, Protected, NativeAccessSpecifierProtected)
@@ -76496,7 +76496,7 @@ DUMPER7_ASSERTS_UCyNumCompareCondition;
 
 // Class PMGame.CySSAtomPlayLocationAkEvent
 // 0x0028 (0x0078 - 0x0050)
-class UCySSAtomPlayLocationAkEvent final : public UCyStateSubAtom
+class UCySSAtomPlayLocationAkEvent : public UCyStateSubAtom
 {
 public:
 	TSoftObjectPtr<class UAkAudioEvent>           AkEvent;                                           // 0x0050(0x0028)(Edit, DisableEditOnInstance, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -76589,7 +76589,7 @@ DUMPER7_ASSERTS_UCyAtomExecuteOptionalObject;
 
 // Class PMGame.CySAChangeSphereComponentRadius
 // 0x0010 (0x0598 - 0x0588)
-class UCySAChangeSphereComponentRadius final : public UCyStateAtom
+class UCySAChangeSphereComponentRadius : public UCyStateAtom
 {
 public:
 	float                                         SphereRadius;                                      // 0x0588(0x0004)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -76666,7 +76666,7 @@ DUMPER7_ASSERTS_UCyPartGrip;
 
 // Class PMGame.CySSAtomSetComponentVisible
 // 0x0010 (0x0060 - 0x0050)
-class UCySSAtomSetComponentVisible final : public UCyStateSubAtom
+class UCySSAtomSetComponentVisible : public UCyStateSubAtom
 {
 public:
 	class FName                                   ComponentName;                                     // 0x0050(0x0008)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -76723,7 +76723,7 @@ DUMPER7_ASSERTS_UCyPartPendant;
 
 // Class PMGame.CySAtomEmissionLuckyCoin
 // 0x0030 (0x05B8 - 0x0588)
-class UCySAtomEmissionLuckyCoin final : public UCyStateAtom
+class UCySAtomEmissionLuckyCoin : public UCyStateAtom
 {
 public:
 	uint32                                        LuckyCoinNum;                                      // 0x0588(0x0004)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -77086,7 +77086,7 @@ DUMPER7_ASSERTS_UCyPendantSkeletalMeshComponent;
 
 // Class PMGame.CyPeriodChangeExecutionCalc
 // 0x0088 (0x00C8 - 0x0040)
-class UCyPeriodChangeExecutionCalc final : public UGameplayEffectExecutionCalculation
+class UCyPeriodChangeExecutionCalc : public UGameplayEffectExecutionCalculation
 {
 public:
 	struct FGameplayAttribute                     ChangeAttribute;                                   // 0x0040(0x0038)(Edit, DisableEditOnInstance, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -77700,7 +77700,7 @@ DUMPER7_ASSERTS_UCyUWZombieSelectRoleItem;
 
 // Class PMGame.CyPickupSphereActor
 // 0x0000 (0x0780 - 0x0780)
-class ACyPickupSphereActor final : public ACyPickupActor
+class ACyPickupSphereActor : public ACyPickupActor
 {
 public:
 	static class UClass* StaticClass()
@@ -77720,7 +77720,7 @@ DUMPER7_ASSERTS_ACyPickupSphereActor;
 
 // Class PMGame.CySAtomSearchUpdateModifier
 // 0x0208 (0x0790 - 0x0588)
-class UCySAtomSearchUpdateModifier final : public UCyStateAtom
+class UCySAtomSearchUpdateModifier : public UCyStateAtom
 {
 public:
 	TArray<TSubclassOf<class UCyTargetDetector>>  OverrideDetectors;                                 // 0x0588(0x0010)(Edit, ZeroConstructor, DisableEditOnInstance, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -77890,7 +77890,7 @@ DUMPER7_ASSERTS_ACyPlacedBaseActor;
 
 // Class PMGame.CySAtomAnimAngleClamp
 // 0x0028 (0x05B0 - 0x0588)
-class UCySAtomAnimAngleClamp final : public UCyStateAtom
+class UCySAtomAnimAngleClamp : public UCyStateAtom
 {
 public:
 	ETargetSourceType                             TargetType;                                        // 0x0588(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -78123,7 +78123,7 @@ DUMPER7_ASSERTS_UCyPlayerAttributeSet_Bomb;
 
 // Class PMGame.CySAtomSetMeshCollision
 // 0x0000 (0x0588 - 0x0588)
-class UCySAtomSetMeshCollision final : public UCyStateAtom
+class UCySAtomSetMeshCollision : public UCyStateAtom
 {
 public:
 	static class UClass* StaticClass()
@@ -78143,7 +78143,7 @@ DUMPER7_ASSERTS_UCySAtomSetMeshCollision;
 
 // Class PMGame.CyStateCheckAtomSkinID
 // 0x0058 (0x0298 - 0x0240)
-class UCyStateCheckAtomSkinID final : public UCyStateCheckAtom
+class UCyStateCheckAtomSkinID : public UCyStateCheckAtom
 {
 public:
 	EWeaponSlotTypes                              CheckWeaponSlotType;                               // 0x0240(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -78493,7 +78493,7 @@ DUMPER7_ASSERTS_UCyPlayerAttributeSet_Escort;
 
 // Class PMGame.CySAtomApplyWeaponControlMode
 // 0x0000 (0x0588 - 0x0588)
-class UCySAtomApplyWeaponControlMode final : public UCyStateAtom
+class UCySAtomApplyWeaponControlMode : public UCyStateAtom
 {
 public:
 	static class UClass* StaticClass()
@@ -78565,7 +78565,7 @@ DUMPER7_ASSERTS_UCyPlayerAttributeSet_Mine;
 
 // Class PMGame.CySAtomSetSmoothingMode
 // 0x0008 (0x0590 - 0x0588)
-class UCySAtomSetSmoothingMode final : public UCyStateAtom
+class UCySAtomSetSmoothingMode : public UCyStateAtom
 {
 public:
 	bool                                          bInstigator;                                       // 0x0588(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -78662,7 +78662,7 @@ DUMPER7_ASSERTS_UCyPlayerAttributeSet_SnowBall;
 
 // Class PMGame.CySAEnableSearchByAttributeChange
 // 0x0070 (0x05F8 - 0x0588)
-class UCySAEnableSearchByAttributeChange final : public UCyStateAtom
+class UCySAEnableSearchByAttributeChange : public UCyStateAtom
 {
 public:
 	ETargetSourceType                             TargetType;                                        // 0x0588(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
@@ -78799,7 +78799,7 @@ DUMPER7_ASSERTS_UCyPlayerBigHeadComponent;
 
 // Class PMGame.CySSAtomTakeDamage
 // 0x0040 (0x0090 - 0x0050)
-class UCySSAtomTakeDamage final : public UCyStateSubAtom
+class UCySSAtomTakeDamage : public UCyStateSubAtom
 {
 public:
 	struct FScalableFloat                         Damage;                                            // 0x0050(0x0030)(Edit, DisableEditOnInstance, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -79111,7 +79111,7 @@ DUMPER7_ASSERTS_UCyPlayerStateDataComponent_Zombie;
 
 // Class PMGame.CySSAtomAddAISightIgnoreActor
 // 0x0000 (0x0050 - 0x0050)
-class UCySSAtomAddAISightIgnoreActor final : public UCyStateSubAtom
+class UCySSAtomAddAISightIgnoreActor : public UCyStateSubAtom
 {
 public:
 	static class UClass* StaticClass()
@@ -79287,7 +79287,7 @@ DUMPER7_ASSERTS_ICyPoolableInterface;
 
 // Class PMGame.CyPracticeAIController
 // 0x0000 (0x07E0 - 0x07E0)
-class ACyPracticeAIController final : public APMAIController
+class ACyPracticeAIController : public APMAIController
 {
 public:
 	static class UClass* StaticClass()
@@ -79307,7 +79307,7 @@ DUMPER7_ASSERTS_ACyPracticeAIController;
 
 // Class PMGame.CySSAtomActorBlockedProcess
 // 0x0078 (0x0318 - 0x02A0)
-class UCySSAtomActorBlockedProcess final : public UCySSAtomFilterTargets
+class UCySSAtomActorBlockedProcess : public UCySSAtomFilterTargets
 {
 public:
 	ETargetSourceType                             SourceActorType;                                   // 0x02A0(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -79336,7 +79336,7 @@ DUMPER7_ASSERTS_UCySSAtomActorBlockedProcess;
 
 // Class PMGame.CyPracticeGameState
 // 0x0010 (0x1C10 - 0x1C00)
-class ACyPracticeGameState final : public APMGameState
+class ACyPracticeGameState : public APMGameState
 {
 public:
 	class UCyChallengeManagerComponent*           ChallengeManager;                                  // 0x1C00(0x0008)(ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
@@ -79389,7 +79389,7 @@ DUMPER7_ASSERTS_UCySSAtomAttractActors;
 
 // Class PMGame.CyPracticeGrendeSinageBase
 // 0x0020 (0x08F8 - 0x08D8)
-class UCyPracticeGrendeSinageBase final : public UPMUserWidget
+class UCyPracticeGrendeSinageBase : public UPMUserWidget
 {
 public:
 	class UTextBlock*                             Text_GrenadeName;                                  // 0x08D8(0x0008)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -79447,7 +79447,7 @@ DUMPER7_ASSERTS_UCyRepPlayerAttributeSet_WaterPolo;
 
 // Class PMGame.CyPracticePlayerState
 // 0x00F0 (0x2340 - 0x2250)
-class ACyPracticePlayerState final : public APMPlayerState
+class ACyPracticePlayerState : public APMPlayerState
 {
 public:
 	struct FGameplayTagContainer                  OnForceChangeRoleTag;                              // 0x2248(0x0060)(Edit, DisableEditOnInstance, Protected, NativeAccessSpecifierProtected)
@@ -79624,7 +79624,7 @@ DUMPER7_ASSERTS_UCyPredictPathComponent;
 
 // Class PMGame.CyTriggerCheckBombPassModeInjuredPlayer
 // 0x0000 (0x0068 - 0x0068)
-class UCyTriggerCheckBombPassModeInjuredPlayer final : public UCyGATriggerCheck
+class UCyTriggerCheckBombPassModeInjuredPlayer : public UCyGATriggerCheck
 {
 public:
 	static class UClass* StaticClass()
@@ -80978,7 +80978,7 @@ DUMPER7_ASSERTS_UCyRepPlayerAttributeSet_Mosa;
 
 // Class PMGame.CyUWAbilityKeyBindingSpellGuide
 // 0x01B0 (0x0BD8 - 0x0A28)
-class UCyUWAbilityKeyBindingSpellGuide final : public UPMUWGameplayBase
+class UCyUWAbilityKeyBindingSpellGuide : public UPMUWGameplayBase
 {
 public:
 	class UCyUWInGameCommonKeyMapping*            KeyMappingPanel;                                   // 0x0A28(0x0008)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -81468,7 +81468,7 @@ DUMPER7_ASSERTS_UCySABigHeadHalfPlayerSelectRoleAfter;
 
 // Class PMGame.CySAChangeActorLifeSpan
 // 0x0038 (0x05C0 - 0x0588)
-class UCySAChangeActorLifeSpan final : public UCyStateAtom
+class UCySAChangeActorLifeSpan : public UCyStateAtom
 {
 public:
 	struct FScalableFloat                         LifeSpan;                                          // 0x0588(0x0030)(Edit, DisableEditOnInstance, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -81523,7 +81523,7 @@ DUMPER7_ASSERTS_UCySAChangeParticleParam;
 
 // Class PMGame.CySAChangeProjectileSpeed
 // 0x0028 (0x05B0 - 0x0588)
-class UCySAChangeProjectileSpeed final : public UCyStateAtom
+class UCySAChangeProjectileSpeed : public UCyStateAtom
 {
 public:
 	uint8                                         bChangeSpeed : 1;                                  // 0x0588(0x0001)(BitIndex: 0x00, PropSize: 0x0001 (Edit, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic))
@@ -81586,7 +81586,7 @@ DUMPER7_ASSERTS_UCyTriggerAtomAddLooseTags;
 
 // Class PMGame.CySAChangeSearchComponentRadius
 // 0x0010 (0x0598 - 0x0588)
-class UCySAChangeSearchComponentRadius final : public UCyStateAtom
+class UCySAChangeSearchComponentRadius : public UCyStateAtom
 {
 public:
 	float                                         Radius;                                            // 0x0588(0x0004)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -81660,7 +81660,7 @@ DUMPER7_ASSERTS_UCyTriggerAtomInfraredAlarm;
 
 // Class PMGame.CySAEdgeScreenEffect
 // 0x0030 (0x05B8 - 0x0588)
-class UCySAEdgeScreenEffect final : public UCyStateAtom
+class UCySAEdgeScreenEffect : public UCyStateAtom
 {
 public:
 	bool                                          bDisableForFun;                                    // 0x0588(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -81814,7 +81814,7 @@ DUMPER7_ASSERTS_UCySAEnablePlaneConstraint;
 
 // Class PMGame.CySAGotoState_TransferExit
 // 0x0020 (0x05A8 - 0x0588)
-class UCySAGotoState_TransferExit final : public UCyStateAtom
+class UCySAGotoState_TransferExit : public UCyStateAtom
 {
 public:
 	TArray<EAIStateType>                          BeginStates;                                       // 0x0588(0x0010)(Edit, ZeroConstructor, DisableEditOnInstance, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -81925,7 +81925,7 @@ DUMPER7_ASSERTS_UCyUIGPEFilter_CheckTargetData;
 
 // Class PMGame.CySALinkScannedTarget
 // 0x0268 (0x07F0 - 0x0588)
-class UCySALinkScannedTarget final : public UCyStateAtom
+class UCySALinkScannedTarget : public UCyStateAtom
 {
 public:
 	int8                                          UseActorsFormTargetActorsCompOnBegin;              // 0x0588(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -81977,7 +81977,7 @@ DUMPER7_ASSERTS_UCySALinkScannedTarget;
 
 // Class PMGame.CySANobunagaP
 // 0x0160 (0x06E8 - 0x0588)
-class UCySANobunagaP final : public UCyStateAtom
+class UCySANobunagaP : public UCyStateAtom
 {
 public:
 	uint8                                         Pad_588[0x8];                                      // 0x0588(0x0008)(Fixing Size After Last Property [ Dumper-7 ])
@@ -82129,7 +82129,7 @@ DUMPER7_ASSERTS_UCySAReceivedAttackHitEffect;
 
 // Class PMGame.CySARemoveGameEffects
 // 0x00C0 (0x0648 - 0x0588)
-class UCySARemoveGameEffects final : public UCyStateAtom
+class UCySARemoveGameEffects : public UCyStateAtom
 {
 public:
 	struct FGameplayTagContainer                  BeginRemoveEffectTags;                             // 0x0588(0x0060)(Edit, DisableEditOnInstance, Protected, NativeAccessSpecifierProtected)
@@ -82153,7 +82153,7 @@ DUMPER7_ASSERTS_UCySARemoveGameEffects;
 
 // Class PMGame.CyTargetFilterRoleID
 // 0x0030 (0x0078 - 0x0048)
-class UCyTargetFilterRoleID final : public UCyTargetFilter
+class UCyTargetFilterRoleID : public UCyTargetFilter
 {
 public:
 	TArray<int32>                                 InstigatorAllowRoleIDs;                            // 0x0048(0x0010)(Edit, ZeroConstructor, DisableEditOnInstance, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
@@ -82178,7 +82178,7 @@ DUMPER7_ASSERTS_UCyTargetFilterRoleID;
 
 // Class PMGame.CySASetControlDataOnGEAddedAndRemoved
 // 0x0020 (0x05C8 - 0x05A8)
-class UCySASetControlDataOnGEAddedAndRemoved final : public UCySAOnGEAddedAndRemoved
+class UCySASetControlDataOnGEAddedAndRemoved : public UCySAOnGEAddedAndRemoved
 {
 public:
 	class FName                                   DataControlComponentTag;                           // 0x05A8(0x0008)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -82327,7 +82327,7 @@ DUMPER7_ASSERTS_UCySASetHotZoneState;
 
 // Class PMGame.CySASetOwnerNoSee
 // 0x0000 (0x0588 - 0x0588)
-class UCySASetOwnerNoSee final : public UCyStateAtom
+class UCySASetOwnerNoSee : public UCyStateAtom
 {
 public:
 	static class UClass* StaticClass()
@@ -82440,7 +82440,7 @@ DUMPER7_ASSERTS_UCyTaskDataAsset;
 
 // Class PMGame.CySAStartTransfer_TransferZone
 // 0x0000 (0x0588 - 0x0588)
-class UCySAStartTransfer_TransferZone final : public UCyStateAtom
+class UCySAStartTransfer_TransferZone : public UCyStateAtom
 {
 public:
 	static class UClass* StaticClass()
@@ -82460,7 +82460,7 @@ DUMPER7_ASSERTS_UCySAStartTransfer_TransferZone;
 
 // Class PMGame.CySASummonDistanceMonitor
 // 0x0060 (0x05E8 - 0x0588)
-class UCySASummonDistanceMonitor final : public UCyStateAtom
+class UCySASummonDistanceMonitor : public UCyStateAtom
 {
 public:
 	TMap<EDistanceStateType, struct FGameplayTagContainer> LooseTagContainerMap;                     // 0x0588(0x0050)(Edit, DisableEditOnInstance, Protected, NativeAccessSpecifierProtected)
@@ -82510,7 +82510,7 @@ DUMPER7_ASSERTS_UCyTaskLimitBountyKill;
 
 // Class PMGame.CySAtomAccumulatorSwitch
 // 0x0018 (0x05A0 - 0x0588)
-class UCySAtomAccumulatorSwitch final : public UCyStateAtom
+class UCySAtomAccumulatorSwitch : public UCyStateAtom
 {
 public:
 	TSubclassOf<class UCyAccumulator>             AccumulatorQ;                                      // 0x0588(0x0008)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -82535,7 +82535,7 @@ DUMPER7_ASSERTS_UCySAtomAccumulatorSwitch;
 
 // Class PMGame.CySAtomActivateMovement
 // 0x0020 (0x05A8 - 0x0588)
-class UCySAtomActivateMovement final : public UCyStateAtom
+class UCySAtomActivateMovement : public UCyStateAtom
 {
 public:
 	uint8                                         Pad_588[0x8];                                      // 0x0588(0x0008)(Fixing Size After Last Property [ Dumper-7 ])
@@ -82648,7 +82648,7 @@ DUMPER7_ASSERTS_UCyTaskPurposeStoreStolenMines;
 
 // Class PMGame.CySAtomAddAmmo
 // 0x0078 (0x0600 - 0x0588)
-class UCySAtomAddAmmo final : public UCyStateAtom
+class UCySAtomAddAmmo : public UCyStateAtom
 {
 public:
 	ETargetSourceType                             TargetType;                                        // 0x0588(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -82683,7 +82683,7 @@ DUMPER7_ASSERTS_UCySAtomAddAmmo;
 
 // Class PMGame.CySAtomAddCacheTargets
 // 0x0008 (0x0590 - 0x0588)
-class UCySAtomAddCacheTargets final : public UCyStateAtom
+class UCySAtomAddCacheTargets : public UCyStateAtom
 {
 public:
 	bool                                          bSearchAndAdd;                                     // 0x0588(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -82728,7 +82728,7 @@ DUMPER7_ASSERTS_UCyTaskPurposeTotalDamageByThrowMost;
 
 // Class PMGame.CySAtomAddForceMoveComponent
 // 0x0040 (0x05C8 - 0x0588)
-class UCySAtomAddForceMoveComponent final : public UCyStateAtom
+class UCySAtomAddForceMoveComponent : public UCyStateAtom
 {
 public:
 	int32                                         TargetMask;                                        // 0x0588(0x0004)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
@@ -82979,7 +82979,7 @@ DUMPER7_ASSERTS_UCySAtomAddLooseTags;
 
 // Class PMGame.CySAtomAddLooseTagsOnAttribute
 // 0x0090 (0x0618 - 0x0588)
-class UCySAtomAddLooseTagsOnAttribute final : public UCyStateAtom
+class UCySAtomAddLooseTagsOnAttribute : public UCyStateAtom
 {
 public:
 	uint8                                         Pad_588[0x8];                                      // 0x0588(0x0008)(Fixing Size After Last Property [ Dumper-7 ])
@@ -83057,7 +83057,7 @@ DUMPER7_ASSERTS_UCySAtomAddLooseTagsToGS;
 
 // Class PMGame.CySAtomAddMovementInput
 // 0x0040 (0x05C8 - 0x0588)
-class UCySAtomAddMovementInput final : public UCyStateAtom
+class UCySAtomAddMovementInput : public UCyStateAtom
 {
 public:
 	float                                         SpeedDuringMovement;                               // 0x0588(0x0004)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -83091,7 +83091,7 @@ DUMPER7_ASSERTS_UCySAtomAddMovementInput;
 
 // Class PMGame.CySAtomAddSearchDetectorFilter
 // 0x0050 (0x05D8 - 0x0588)
-class UCySAtomAddSearchDetectorFilter final : public UCyStateAtom
+class UCySAtomAddSearchDetectorFilter : public UCyStateAtom
 {
 public:
 	TMap<EDetectorGroupType, struct FDetectorFilters> DetectorFilters;                               // 0x0588(0x0050)(Edit, DisableEditOnInstance, NativeAccessSpecifierPrivate)
@@ -83384,7 +83384,7 @@ DUMPER7_ASSERTS_UCySAtomBallisticAttack;
 
 // Class PMGame.CyTargetDetectorViewTarget
 // 0x0088 (0x05D8 - 0x0550)
-class UCyTargetDetectorViewTarget final : public UCyTargetDetector
+class UCyTargetDetectorViewTarget : public UCyTargetDetector
 {
 public:
 	struct FEveryPlatformFloat                    AngleScale;                                        // 0x0550(0x0058)(Edit, DisableEditOnInstance, Protected, NativeAccessSpecifierProtected)
@@ -83419,7 +83419,7 @@ DUMPER7_ASSERTS_UCyTargetDetectorViewTarget;
 
 // Class PMGame.CySAtomCacheLockedLocation
 // 0x0000 (0x0588 - 0x0588)
-class UCySAtomCacheLockedLocation final : public UCyStateAtom
+class UCySAtomCacheLockedLocation : public UCyStateAtom
 {
 public:
 	static class UClass* StaticClass()
@@ -83583,7 +83583,7 @@ DUMPER7_ASSERTS_UCySAtomChangeCameraParam;
 
 // Class PMGame.CyTargetFilterCauserInInstigatorSphere
 // 0x0008 (0x0050 - 0x0048)
-class UCyTargetFilterCauserInInstigatorSphere final : public UCyTargetFilter
+class UCyTargetFilterCauserInInstigatorSphere : public UCyTargetFilter
 {
 public:
 	float                                         SphereRadius;                                      // 0x0048(0x0004)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
@@ -83607,7 +83607,7 @@ DUMPER7_ASSERTS_UCyTargetFilterCauserInInstigatorSphere;
 
 // Class PMGame.CySAtomChangeMaterialParam
 // 0x0048 (0x05D0 - 0x0588)
-class UCySAtomChangeMaterialParam final : public UCyStateAtom
+class UCySAtomChangeMaterialParam : public UCyStateAtom
 {
 public:
 	uint8                                         bCheckNamedMeshesInOwnerMeshDA : 1;                // 0x0588(0x0001)(BitIndex: 0x00, PropSize: 0x0001 (Edit, DisableEditOnInstance, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic))
@@ -83671,7 +83671,7 @@ DUMPER7_ASSERTS_UCySAtomChangeMoveMode;
 
 // Class PMGame.CyTargetFilterHideInGame
 // 0x0000 (0x0048 - 0x0048)
-class UCyTargetFilterHideInGame final : public UCyTargetFilter
+class UCyTargetFilterHideInGame : public UCyTargetFilter
 {
 public:
 	static class UClass* StaticClass()
@@ -83691,7 +83691,7 @@ DUMPER7_ASSERTS_UCyTargetFilterHideInGame;
 
 // Class PMGame.CySAtomChangeSearchTargetRadius
 // 0x0010 (0x0598 - 0x0588)
-class UCySAtomChangeSearchTargetRadius final : public UCyStateAtom
+class UCySAtomChangeSearchTargetRadius : public UCyStateAtom
 {
 public:
 	class UCurveFloat*                            MapScaleCurveFloat;                                // 0x0588(0x0008)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -83715,7 +83715,7 @@ DUMPER7_ASSERTS_UCySAtomChangeSearchTargetRadius;
 
 // Class PMGame.CySAtomCommitAbility
 // 0x0070 (0x05F8 - 0x0588)
-class UCySAtomCommitAbility final : public UCyStateAtom
+class UCySAtomCommitAbility : public UCyStateAtom
 {
 public:
 	ETargetSourceType                             TargetType;                                        // 0x0588(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -83744,7 +83744,7 @@ DUMPER7_ASSERTS_UCySAtomCommitAbility;
 
 // Class PMGame.CyWeaponEmptyHand
 // 0x0000 (0x12F0 - 0x12F0)
-class ACyWeaponEmptyHand final : public ACyWeaponParent
+class ACyWeaponEmptyHand : public ACyWeaponParent
 {
 public:
 	static class UClass* StaticClass()
@@ -83784,7 +83784,7 @@ DUMPER7_ASSERTS_UPMCrashSightSdkSubSystem;
 
 // Class PMGame.CySAtomCompleteInteract
 // 0x0000 (0x0588 - 0x0588)
-class UCySAtomCompleteInteract final : public UCyStateAtom
+class UCySAtomCompleteInteract : public UCyStateAtom
 {
 public:
 	static class UClass* StaticClass()
@@ -83824,7 +83824,7 @@ DUMPER7_ASSERTS_UCyTaskPurposeForceFlyCounter;
 
 // Class PMGame.CySAtomConditionalHideOwner
 // 0x0188 (0x0710 - 0x0588)
-class UCySAtomConditionalHideOwner final : public UCyStateAtom
+class UCySAtomConditionalHideOwner : public UCyStateAtom
 {
 public:
 	struct FGameplayTagRequirements               InstigatorTagRequirements;                         // 0x0588(0x0188)(Edit, DisableEditOnInstance, Protected, NativeAccessSpecifierProtected)
@@ -83847,7 +83847,7 @@ DUMPER7_ASSERTS_UCySAtomConditionalHideOwner;
 
 // Class PMGame.CySAtomDisableCharacterMovement
 // 0x0000 (0x0588 - 0x0588)
-class UCySAtomDisableCharacterMovement final : public UCyStateAtom
+class UCySAtomDisableCharacterMovement : public UCyStateAtom
 {
 public:
 	static class UClass* StaticClass()
@@ -83867,7 +83867,7 @@ DUMPER7_ASSERTS_UCySAtomDisableCharacterMovement;
 
 // Class PMGame.CySAtomDisableCollision
 // 0x0008 (0x0590 - 0x0588)
-class UCySAtomDisableCollision final : public UCyStateAtom
+class UCySAtomDisableCollision : public UCyStateAtom
 {
 public:
 	bool                                          bDisableInstigatorCharacter;                       // 0x0588(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -83940,7 +83940,7 @@ DUMPER7_ASSERTS_UCySAtomDisableMovement;
 
 // Class PMGame.CySAtomEnableSearchGroup
 // 0x0018 (0x05A0 - 0x0588)
-class UCySAtomEnableSearchGroup final : public UCyStateAtom
+class UCySAtomEnableSearchGroup : public UCyStateAtom
 {
 public:
 	ETargetSourceType                             TargetType;                                        // 0x0588(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -83965,7 +83965,7 @@ DUMPER7_ASSERTS_UCySAtomEnableSearchGroup;
 
 // Class PMGame.CySAtomEnd2DStates
 // 0x0008 (0x0590 - 0x0588)
-class UCySAtomEnd2DStates final : public UCyStateAtom
+class UCySAtomEnd2DStates : public UCyStateAtom
 {
 public:
 	ETargetSourceType                             TargetType;                                        // 0x0588(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -84175,7 +84175,7 @@ DUMPER7_ASSERTS_UCySAtomFilterCachedTargetsBlocked;
 
 // Class PMGame.CySAtomForceFullAnimTickOnDS
 // 0x0020 (0x05A8 - 0x0588)
-class UCySAtomForceFullAnimTickOnDS final : public UCyStateAtom
+class UCySAtomForceFullAnimTickOnDS : public UCyStateAtom
 {
 public:
 	ETargetSourceType                             TargetType;                                        // 0x0588(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -84355,7 +84355,7 @@ DUMPER7_ASSERTS_UCySAtomGenerateChallenge;
 
 // Class PMGame.CySAtomGenerateWave
 // 0x0030 (0x05E0 - 0x05B0)
-class UCySAtomGenerateWave final : public UCySAtomGenerateBase
+class UCySAtomGenerateWave : public UCySAtomGenerateBase
 {
 public:
 	TArray<struct FCyGeneratorWaveConfig>         Waves;                                             // 0x05B0(0x0010)(Edit, ZeroConstructor, DisableEditOnInstance, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
@@ -84407,7 +84407,7 @@ DUMPER7_ASSERTS_UCySAtomGetCameraRotation;
 
 // Class PMGame.CySAtomHideCharacterMaterial
 // 0x0018 (0x05A0 - 0x0588)
-class UCySAtomHideCharacterMaterial final : public UCyStateAtom
+class UCySAtomHideCharacterMaterial : public UCyStateAtom
 {
 public:
 	TArray<class FName>                           HideTagList;                                       // 0x0588(0x0010)(Edit, ZeroConstructor, DisableEditOnInstance, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -84509,7 +84509,7 @@ DUMPER7_ASSERTS_UCyTeamStartCheckTeam_BigHead;
 
 // Class PMGame.CySAtomInstigatorAttackWithEffect
 // 0x0048 (0x05D0 - 0x0588)
-class UCySAtomInstigatorAttackWithEffect final : public UCyStateAtom
+class UCySAtomInstigatorAttackWithEffect : public UCyStateAtom
 {
 public:
 	uint8                                         TargetActorMask;                                   // 0x0588(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -84657,7 +84657,7 @@ DUMPER7_ASSERTS_UCyTaskLimitUseRole;
 
 // Class PMGame.CySAtomLinkBeam
 // 0x00D0 (0x0658 - 0x0588)
-class UCySAtomLinkBeam final : public UCyStateAtom
+class UCySAtomLinkBeam : public UCyStateAtom
 {
 public:
 	uint8                                         Pad_588[0x8];                                      // 0x0588(0x0008)(Fixing Size After Last Property [ Dumper-7 ])
@@ -84695,7 +84695,7 @@ DUMPER7_ASSERTS_UCySAtomLinkBeam;
 
 // Class PMGame.CySAtomLocalChangeComponentScale
 // 0x0028 (0x06B8 - 0x0690)
-class UCySAtomLocalChangeComponentScale final : public UCySAtomChangeComponentScale
+class UCySAtomLocalChangeComponentScale : public UCySAtomChangeComponentScale
 {
 public:
 	class UCySearchTargetsComponent*              SearchTargetsComponent;                            // 0x0690(0x0008)(ExportObject, ZeroConstructor, Transient, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
@@ -84782,7 +84782,7 @@ DUMPER7_ASSERTS_IICyMapDataInterface;
 
 // Class PMGame.CySAtomLockSmoothCharacterRotation
 // 0x0008 (0x0590 - 0x0588)
-class UCySAtomLockSmoothCharacterRotation final : public UCyStateAtom
+class UCySAtomLockSmoothCharacterRotation : public UCyStateAtom
 {
 public:
 	ETargetSourceType                             TargetType;                                        // 0x0588(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -84957,7 +84957,7 @@ DUMPER7_ASSERTS_UCyTaskPurposeAttributeChange;
 
 // Class PMGame.CySAtomMoveToActor
 // 0x01A8 (0x0730 - 0x0588)
-class UCySAtomMoveToActor final : public UCyStateAtom
+class UCySAtomMoveToActor : public UCyStateAtom
 {
 public:
 	class FName                                   ActorsKey;                                         // 0x0588(0x0008)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -84987,7 +84987,7 @@ DUMPER7_ASSERTS_UCySAtomMoveToActor;
 
 // Class PMGame.CySAtomMoveToLocation
 // 0x0058 (0x05E0 - 0x0588)
-class UCySAtomMoveToLocation final : public UCyStateAtom
+class UCySAtomMoveToLocation : public UCyStateAtom
 {
 public:
 	ETargetSourceType                             SourceType;                                        // 0x0588(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -85021,7 +85021,7 @@ DUMPER7_ASSERTS_UCySAtomMoveToLocation;
 
 // Class PMGame.CySAtomMoveToRotator
 // 0x0030 (0x05B8 - 0x0588)
-class UCySAtomMoveToRotator final : public UCyStateAtom
+class UCySAtomMoveToRotator : public UCyStateAtom
 {
 public:
 	bool                                          bUseCustomRotator;                                 // 0x0588(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -85087,7 +85087,7 @@ DUMPER7_ASSERTS_UCySAtomMoveToTarget;
 
 // Class PMGame.CySAtomNekoBotHitTarget
 // 0x0030 (0x05B8 - 0x0588)
-class UCySAtomNekoBotHitTarget final : public UCyStateAtom
+class UCySAtomNekoBotHitTarget : public UCyStateAtom
 {
 public:
 	TArray<struct FConditionalEffect>             HitEffects;                                        // 0x0588(0x0010)(Edit, ZeroConstructor, DisableEditOnInstance, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -85112,7 +85112,7 @@ DUMPER7_ASSERTS_UCySAtomNekoBotHitTarget;
 
 // Class PMGame.CySAtomNotEnableHitReaction
 // 0x0010 (0x0598 - 0x0588)
-class UCySAtomNotEnableHitReaction final : public UCyStateAtom
+class UCySAtomNotEnableHitReaction : public UCyStateAtom
 {
 public:
 	ETargetSourceType                             TargetType;                                        // 0x0588(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -85161,7 +85161,7 @@ DUMPER7_ASSERTS_UCyStatsEvent_GameplayAbilityActivated;
 
 // Class PMGame.CySAtomOwnerLifeSpanGotoAIState
 // 0x0020 (0x05A8 - 0x0588)
-class UCySAtomOwnerLifeSpanGotoAIState final : public UCyStateAtom
+class UCySAtomOwnerLifeSpanGotoAIState : public UCyStateAtom
 {
 public:
 	float                                         TriggerRemainLifeSpan;                             // 0x0588(0x0004)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -85189,7 +85189,7 @@ DUMPER7_ASSERTS_UCySAtomOwnerLifeSpanGotoAIState;
 
 // Class PMGame.CySAtomParticleParameterChange
 // 0x0230 (0x07B8 - 0x0588)
-class UCySAtomParticleParameterChange final : public UCyStateAtom
+class UCySAtomParticleParameterChange : public UCyStateAtom
 {
 public:
 	bool                                          bUseUniqueAssetKey;                                // 0x0588(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -85225,7 +85225,7 @@ DUMPER7_ASSERTS_UCySAtomParticleParameterChange;
 
 // Class PMGame.CySAtomParticleProgressBar
 // 0x00E8 (0x0670 - 0x0588)
-class UCySAtomParticleProgressBar final : public UCyStateAtom
+class UCySAtomParticleProgressBar : public UCyStateAtom
 {
 public:
 	struct FMeshTagContainer                      AssetConfig;                                       // 0x0588(0x00D8)(Edit, DisableEditOnInstance, Protected, NativeAccessSpecifierProtected)
@@ -85304,7 +85304,7 @@ DUMPER7_ASSERTS_UCySAtomParticleScale;
 
 // Class PMGame.CySAtomPlayAsset_NormalWall
 // 0x0018 (0x05A0 - 0x0588)
-class UCySAtomPlayAsset_NormalWall final : public UCyStateAtom
+class UCySAtomPlayAsset_NormalWall : public UCyStateAtom
 {
 public:
 	ETargetSourceType                             TargetType;                                        // 0x0588(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
@@ -85360,7 +85360,7 @@ DUMPER7_ASSERTS_UCyStealthPathComponent;
 
 // Class PMGame.CySAtomPlayAssetLoop
 // 0x0008 (0x05F0 - 0x05E8)
-class UCySAtomPlayAssetLoop final : public UCySAtomPlayAsset
+class UCySAtomPlayAssetLoop : public UCySAtomPlayAsset
 {
 public:
 	bool                                          bPlayAssetLoop;                                    // 0x05E8(0x0001)(ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -85410,7 +85410,7 @@ DUMPER7_ASSERTS_UCySAtomPlayAssetOnlyPlay;
 
 // Class PMGame.CyUWInGameCommonKeyMapping
 // 0x0080 (0x0AA8 - 0x0A28)
-class UCyUWInGameCommonKeyMapping final : public UPMUWGameplayBase
+class UCyUWInGameCommonKeyMapping : public UPMUWGameplayBase
 {
 public:
 	TArray<struct FKeyImageStyleParam>            ModeTypes;                                         // 0x0A28(0x0010)(Edit, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -85507,7 +85507,7 @@ DUMPER7_ASSERTS_UCySAtomPlayAssetSet;
 
 // Class PMGame.CySAtomPlaySpecialAudio
 // 0x0058 (0x05E0 - 0x0588)
-class UCySAtomPlaySpecialAudio final : public UCyStateAtom
+class UCySAtomPlaySpecialAudio : public UCyStateAtom
 {
 public:
 	TSoftObjectPtr<class UAkAudioEvent>           AkEvent;                                           // 0x0588(0x0028)(Edit, DisableEditOnInstance, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -85554,7 +85554,7 @@ DUMPER7_ASSERTS_UCyStateAtomGameEvent_UpdatePlayerRespawnTime;
 
 // Class PMGame.CySAtomRefillSecondaryAmmoOnGERemoved
 // 0x0060 (0x0608 - 0x05A8)
-class UCySAtomRefillSecondaryAmmoOnGERemoved final : public UCySAOnGEAddedAndRemoved
+class UCySAtomRefillSecondaryAmmoOnGERemoved : public UCySAOnGEAddedAndRemoved
 {
 public:
 	struct FScalableFloat                         Amount;                                            // 0x05A8(0x0030)(Edit, DisableEditOnInstance, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -85578,7 +85578,7 @@ DUMPER7_ASSERTS_UCySAtomRefillSecondaryAmmoOnGERemoved;
 
 // Class PMGame.CySAtomRefreshOnWallMesh
 // 0x0018 (0x05A0 - 0x0588)
-class UCySAtomRefreshOnWallMesh final : public UCyStateAtom
+class UCySAtomRefreshOnWallMesh : public UCyStateAtom
 {
 public:
 	bool                                          bAttachToHitActor;                                 // 0x0588(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -85652,7 +85652,7 @@ DUMPER7_ASSERTS_UCyStateAtomLifeStateCompResetRunningType;
 
 // Class PMGame.CySAtomReiichiWallSuper
 // 0x0028 (0x05B0 - 0x0588)
-class UCySAtomReiichiWallSuper final : public UCyStateAtom
+class UCySAtomReiichiWallSuper : public UCyStateAtom
 {
 public:
 	struct FGameplayTag                           TagToCheck;                                        // 0x0588(0x0008)(Edit, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -85740,7 +85740,7 @@ DUMPER7_ASSERTS_UCyStateAtomNotAcceptClientPos;
 
 // Class PMGame.CySAtomRescue
 // 0x0020 (0x05A8 - 0x0588)
-class UCySAtomRescue final : public UCyStateAtom
+class UCySAtomRescue : public UCyStateAtom
 {
 public:
 	TArray<struct FConditionalEffect>             ConditionalEffects;                                // 0x0588(0x0010)(Edit, ZeroConstructor, DisableEditOnInstance, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -85784,7 +85784,7 @@ DUMPER7_ASSERTS_APMGameState_DebugFast;
 
 // Class PMGame.CySAtomRescuedPlayIngameVoice
 // 0x0008 (0x0590 - 0x0588)
-class UCySAtomRescuedPlayIngameVoice final : public UCyStateAtom
+class UCySAtomRescuedPlayIngameVoice : public UCyStateAtom
 {
 public:
 	struct FGameplayTag                           DefaultTag;                                        // 0x0588(0x0008)(Edit, DisableEditOnInstance, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -85807,7 +85807,7 @@ DUMPER7_ASSERTS_UCySAtomRescuedPlayIngameVoice;
 
 // Class PMGame.CySAtomRevival
 // 0x0090 (0x0618 - 0x0588)
-class UCySAtomRevival final : public UCyStateAtom
+class UCySAtomRevival : public UCyStateAtom
 {
 public:
 	TArray<struct FConditionalEffect>             ConditionalEffects;                                // 0x0588(0x0010)(Edit, ZeroConstructor, DisableEditOnInstance, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -85835,7 +85835,7 @@ DUMPER7_ASSERTS_UCySAtomRevival;
 
 // Class PMGame.CySSAtomChangeMaterial
 // 0x0020 (0x0070 - 0x0050)
-class UCySSAtomChangeMaterial final : public UCyStateSubAtom
+class UCySSAtomChangeMaterial : public UCyStateSubAtom
 {
 public:
 	struct FGameplayTag                           NotActivateAssetTag;                               // 0x0050(0x0008)(Edit, DisableEditOnInstance, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -85904,7 +85904,7 @@ DUMPER7_ASSERTS_APMSpectatorPawn;
 
 // Class PMGame.CySAtomSearchTargetsEvent_GotoState
 // 0x0048 (0x05D0 - 0x0588)
-class UCySAtomSearchTargetsEvent_GotoState final : public UCyStateAtom
+class UCySAtomSearchTargetsEvent_GotoState : public UCyStateAtom
 {
 public:
 	uint8                                         Pad_588[0x8];                                      // 0x0588(0x0008)(Fixing Size After Last Property [ Dumper-7 ])
@@ -85964,7 +85964,7 @@ DUMPER7_ASSERTS_UCySAtomSetAnimRootScale;
 
 // Class PMGame.CySAtomSetComponentMaskFilter
 // 0x0068 (0x05F0 - 0x0588)
-class UCySAtomSetComponentMaskFilter final : public UCyStateAtom
+class UCySAtomSetComponentMaskFilter : public UCyStateAtom
 {
 public:
 	TSet<class FName>                             ComponentNames;                                    // 0x0588(0x0050)(Edit, DisableEditOnInstance, Protected, NativeAccessSpecifierProtected)
@@ -86061,7 +86061,7 @@ DUMPER7_ASSERTS_UCySAtomSetControlMode;
 
 // Class PMGame.CyStateCheckAtomHaveTargets
 // 0x0120 (0x0360 - 0x0240)
-class UCyStateCheckAtomHaveTargets final : public UCyStateCheckAtom
+class UCyStateCheckAtomHaveTargets : public UCyStateCheckAtom
 {
 public:
 	struct FCyFeedbackTipsConfig                  FeedbackTipsConfig;                                // 0x0240(0x0108)(Edit, DisableEditOnInstance, NativeAccessSpecifierPublic)
@@ -86334,7 +86334,7 @@ DUMPER7_ASSERTS_UPMGlobalScenarioState;
 
 // Class PMGame.CySAtomSetTargetRotation
 // 0x0088 (0x0610 - 0x0588)
-class UCySAtomSetTargetRotation final : public UCyStateAtom
+class UCySAtomSetTargetRotation : public UCyStateAtom
 {
 public:
 	ETargetSourceType                             TargetType;                                        // 0x0588(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -86366,7 +86366,7 @@ DUMPER7_ASSERTS_UCySAtomSetTargetRotation;
 
 // Class PMGame.CySAtomSoundFollowEdge
 // 0x0028 (0x05B0 - 0x0588)
-class UCySAtomSoundFollowEdge final : public UCyStateAtom
+class UCySAtomSoundFollowEdge : public UCyStateAtom
 {
 public:
 	ECyOverlapType                                OverlapType;                                       // 0x0588(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -86397,7 +86397,7 @@ DUMPER7_ASSERTS_UCySAtomSoundFollowEdge;
 
 // Class PMGame.CyTargetDetectorPayload
 // 0x0030 (0x0580 - 0x0550)
-class UCyTargetDetectorPayload final : public UCyTargetDetector
+class UCyTargetDetectorPayload : public UCyTargetDetector
 {
 public:
 	struct FScalableFloat                         DetectedRadius;                                    // 0x0550(0x0030)(Edit, DisableEditOnInstance, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -86420,7 +86420,7 @@ DUMPER7_ASSERTS_UCyTargetDetectorPayload;
 
 // Class PMGame.CySAtomSpaceTeleportStart
 // 0x0000 (0x0588 - 0x0588)
-class UCySAtomSpaceTeleportStart final : public UCyStateAtom
+class UCySAtomSpaceTeleportStart : public UCyStateAtom
 {
 public:
 	static class UClass* StaticClass()
@@ -86469,7 +86469,7 @@ DUMPER7_ASSERTS_UCySAtomSpawnActorToSceneCapture;
 
 // Class PMGame.CyTargetDetectorRadialHV
 // 0x0070 (0x05C0 - 0x0550)
-class UCyTargetDetectorRadialHV final : public UCyTargetDetector
+class UCyTargetDetectorRadialHV : public UCyTargetDetector
 {
 public:
 	ECyDetectorTargetType                         DetectorTargetType;                                // 0x0550(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -86497,7 +86497,7 @@ DUMPER7_ASSERTS_UCyTargetDetectorRadialHV;
 
 // Class PMGame.CySAtomSpawnParticlesToSpecificShape
 // 0x0040 (0x05C8 - 0x0588)
-class UCySAtomSpawnParticlesToSpecificShape final : public UCyStateAtom
+class UCySAtomSpawnParticlesToSpecificShape : public UCyStateAtom
 {
 public:
 	struct FGameplayTag                           ParticleTag;                                       // 0x0588(0x0008)(Edit, DisableEditOnInstance, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -86531,7 +86531,7 @@ DUMPER7_ASSERTS_UCySAtomSpawnParticlesToSpecificShape;
 
 // Class PMGame.CySAtomSpawnPickup
 // 0x0018 (0x05A0 - 0x0588)
-class UCySAtomSpawnPickup final : public UCyStateAtom
+class UCySAtomSpawnPickup : public UCyStateAtom
 {
 public:
 	TArray<TSubclassOf<class ACyPickupActor>>     PickupActorClasses;                                // 0x0588(0x0010)(Edit, ZeroConstructor, DisableEditOnInstance, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -86597,7 +86597,7 @@ DUMPER7_ASSERTS_UCySAtomSpawnProjectile;
 
 // Class PMGame.CyTargetDetectorSourceTargetActors
 // 0x0000 (0x0550 - 0x0550)
-class UCyTargetDetectorSourceTargetActors final : public UCyTargetDetector
+class UCyTargetDetectorSourceTargetActors : public UCyTargetDetector
 {
 public:
 	static class UClass* StaticClass()
@@ -86617,7 +86617,7 @@ DUMPER7_ASSERTS_UCyTargetDetectorSourceTargetActors;
 
 // Class PMGame.CySAtomSpawnProjectileByClass
 // 0x00E0 (0x0668 - 0x0588)
-class UCySAtomSpawnProjectileByClass final : public UCyStateAtom
+class UCySAtomSpawnProjectileByClass : public UCyStateAtom
 {
 public:
 	ETargetSourceType                             TargetSourceType;                                  // 0x0588(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -86696,7 +86696,7 @@ DUMPER7_ASSERTS_UCyTargetDetectorTeamActors;
 
 // Class PMGame.CySAtomStopMovementImmediately
 // 0x0008 (0x0590 - 0x0588)
-class UCySAtomStopMovementImmediately final : public UCyStateAtom
+class UCySAtomStopMovementImmediately : public UCyStateAtom
 {
 public:
 	ETargetSourceType                             TargetType;                                        // 0x0588(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -86810,7 +86810,7 @@ DUMPER7_ASSERTS_UCyUWPracticeRecordDataPanelPC;
 
 // Class PMGame.CySAtomSummonGotoStateByTargetTag
 // 0x0038 (0x05C0 - 0x0588)
-class UCySAtomSummonGotoStateByTargetTag final : public UCyStateAtom
+class UCySAtomSummonGotoStateByTargetTag : public UCyStateAtom
 {
 public:
 	struct FGameplayTag                           TargetTag;                                         // 0x0588(0x0008)(Edit, DisableEditOnInstance, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -86941,7 +86941,7 @@ DUMPER7_ASSERTS_ACySummonCharacter;
 
 // Class PMGame.CySummonCharacterControl
 // 0x0280 (0x0E80 - 0x0C00)
-class ACySummonCharacterControl final : public ACySummonCharacter
+class ACySummonCharacterControl : public ACySummonCharacter
 {
 public:
 	uint8                                         Pad_C00[0x128];                                    // 0x0C00(0x0128)(Fixing Size After Last Property [ Dumper-7 ])
@@ -87002,7 +87002,7 @@ DUMPER7_ASSERTS_ACySummonCharacterControl;
 
 // Class PMGame.CySAtomSwitchWeapon
 // 0x0008 (0x0590 - 0x0588)
-class UCySAtomSwitchWeapon final : public UCyStateAtom
+class UCySAtomSwitchWeapon : public UCyStateAtom
 {
 public:
 	bool                                          bSwitchExpected;                                   // 0x0588(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -87135,7 +87135,7 @@ DUMPER7_ASSERTS_UCySummonSimpleMovementComponent;
 
 // Class PMGame.CySAtomUpdateMaterialBombPass
 // 0x0000 (0x05C0 - 0x05C0)
-class UCySAtomUpdateMaterialBombPass final : public UCySAtomUpdateMaterial
+class UCySAtomUpdateMaterialBombPass : public UCySAtomUpdateMaterial
 {
 public:
 	static class UClass* StaticClass()
@@ -87155,7 +87155,7 @@ DUMPER7_ASSERTS_UCySAtomUpdateMaterialBombPass;
 
 // Class PMGame.CySAtomUpdateMeshTransparency
 // 0x0050 (0x05D8 - 0x0588)
-class UCySAtomUpdateMeshTransparency final : public UCyStateAtom
+class UCySAtomUpdateMeshTransparency : public UCyStateAtom
 {
 public:
 	TSet<class FName>                             ComponentNames;                                    // 0x0588(0x0050)(Edit, DisableEditOnInstance, Protected, NativeAccessSpecifierProtected)
@@ -87281,7 +87281,7 @@ DUMPER7_ASSERTS_UCyStateAtomSetCustomMoveCompCanMove;
 
 // Class PMGame.CySAtomWatchAttribute
 // 0x0070 (0x05F8 - 0x0588)
-class UCySAtomWatchAttribute final : public UCyStateAtom
+class UCySAtomWatchAttribute : public UCyStateAtom
 {
 public:
 	ETargetSourceType                             TargetType;                                        // 0x0588(0x0001)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -87312,7 +87312,7 @@ DUMPER7_ASSERTS_UCySAtomWatchAttribute;
 
 // Class PMGame.CySAtomWeaponGotoState
 // 0x0070 (0x05F8 - 0x0588)
-class UCySAtomWeaponGotoState final : public UCyStateAtom
+class UCySAtomWeaponGotoState : public UCyStateAtom
 {
 public:
 	EWeaponGotoStateType                          WeaponGotoStateType;                               // 0x0588(0x0004)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -87525,7 +87525,7 @@ DUMPER7_ASSERTS_UCySceneEffectObFlashGrenade;
 
 // Class PMGame.CyUWScoreBehaviorItem
 // 0x0058 (0x0930 - 0x08D8)
-class UCyUWScoreBehaviorItem final : public UPMUserWidget
+class UCyUWScoreBehaviorItem : public UPMUserWidget
 {
 public:
 	uint8                                         Pad_8D8[0x20];                                     // 0x08D8(0x0020)(Fixing Size After Last Property [ Dumper-7 ])
@@ -88301,7 +88301,7 @@ DUMPER7_ASSERTS_UCySceneMapHotZonePointItem;
 
 // Class PMGame.CySSAtomProtectTargets
 // 0x0020 (0x0070 - 0x0050)
-class UCySSAtomProtectTargets final : public UCyStateSubAtom
+class UCySSAtomProtectTargets : public UCyStateSubAtom
 {
 public:
 	class UCyProtectorComponent*                  ProtectorComponent;                                // 0x0050(0x0008)(ExportObject, ZeroConstructor, Transient, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
@@ -89331,7 +89331,7 @@ DUMPER7_ASSERTS_UCySearchGroupComponent;
 
 // Class PMGame.CySSAtomOverlapDataCensus
 // 0x0008 (0x0058 - 0x0050)
-class UCySSAtomOverlapDataCensus final : public UCyStateSubAtom
+class UCySSAtomOverlapDataCensus : public UCyStateSubAtom
 {
 public:
 	int32                                         WeaponID;                                          // 0x0050(0x0004)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -89723,7 +89723,7 @@ DUMPER7_ASSERTS_UCyUWFeedbackTipsBombPassMonitorPanel;
 
 // Class PMGame.CySelectRolePagePC
 // 0x0040 (0x0918 - 0x08D8)
-class UCySelectRolePagePC final : public UPMUserWidget
+class UCySelectRolePagePC : public UPMUserWidget
 {
 public:
 	class UCySelectRolePlaySequencePC*            Show3DPlaySeq;                                     // 0x08D8(0x0008)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -89827,7 +89827,7 @@ DUMPER7_ASSERTS_UCyStateEventAtomAddGE;
 
 // Class PMGame.CySelectRolePlaySequencePC
 // 0x0078 (0x0950 - 0x08D8)
-class UCySelectRolePlaySequencePC final : public UPMUserWidget
+class UCySelectRolePlaySequencePC : public UPMUserWidget
 {
 public:
 	class UPMModelShow3DWidget*                   UserWidget_ModelShow3D;                            // 0x08D8(0x0008)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -89946,7 +89946,7 @@ DUMPER7_ASSERTS_UCyUWGuideUIGuideTypePanelPC;
 
 // Class PMGame.CySelectRoleSkillPanelPC
 // 0x01B8 (0x0A90 - 0x08D8)
-class UCySelectRoleSkillPanelPC final : public UPMUserWidget
+class UCySelectRoleSkillPanelPC : public UPMUserWidget
 {
 public:
 	uint8                                         Pad_8D8[0x10];                                     // 0x08D8(0x0010)(Fixing Size After Last Property [ Dumper-7 ])
@@ -90001,7 +90001,7 @@ DUMPER7_ASSERTS_UCySelectRoleSkillPanelPC;
 
 // Class PMGame.CySSAtomTakeDamageAndBack
 // 0x0040 (0x0090 - 0x0050)
-class UCySSAtomTakeDamageAndBack final : public UCyStateSubAtom
+class UCySSAtomTakeDamageAndBack : public UCyStateSubAtom
 {
 public:
 	struct FScalableFloat                         Damage;                                            // 0x0050(0x0030)(Edit, DisableEditOnInstance, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -90096,7 +90096,7 @@ DUMPER7_ASSERTS_USelectRoleSaveGame;
 
 // Class PMGame.CyStateAtom_PlayCameraShake
 // 0x0010 (0x0598 - 0x0588)
-class UCyStateAtom_PlayCameraShake final : public UCyStateAtom
+class UCyStateAtom_PlayCameraShake : public UCyStateAtom
 {
 public:
 	TSubclassOf<class UCameraShake>               CameraShake;                                       // 0x0588(0x0008)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -90402,7 +90402,7 @@ DUMPER7_ASSERTS_UCySequenceEventDelegate;
 
 // Class PMGame.CySSAtomAddAimAssistIgnoreActor
 // 0x0000 (0x0050 - 0x0050)
-class UCySSAtomAddAimAssistIgnoreActor final : public UCyStateSubAtom
+class UCySSAtomAddAimAssistIgnoreActor : public UCyStateSubAtom
 {
 public:
 	static class UClass* StaticClass()
@@ -90611,7 +90611,7 @@ DUMPER7_ASSERTS_UCySequenceTools;
 
 // Class PMGame.CySSAtomAddForceMove
 // 0x0010 (0x02B0 - 0x02A0)
-class UCySSAtomAddForceMove final : public UCySSAtomFilterTargets
+class UCySSAtomAddForceMove : public UCySSAtomFilterTargets
 {
 public:
 	class UCyForceMoveComponent*                  ForceMoveComponent;                                // 0x02A0(0x0008)(ExportObject, ZeroConstructor, Transient, InstancedReference, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -90833,7 +90833,7 @@ DUMPER7_ASSERTS_UCySickleComponent;
 
 // Class PMGame.CySkillDataCollectionComponent
 // 0x0340 (0x0490 - 0x0150)
-class UCySkillDataCollectionComponent : public UCyDataCollectionBaseComponent
+class UCySkillDataCollectionComponent final : public UCyDataCollectionBaseComponent
 {
 public:
 	struct FCyDamageTypeApplicationDataStatContainer DamageTypeApplicationDataStatContainer;         // 0x0150(0x0050)(Transient, NativeAccessSpecifierPublic)
@@ -91317,7 +91317,7 @@ DUMPER7_ASSERTS_UPMSkelMeshComp;
 
 // Class PMGame.CySquareSafeZone
 // 0x0020 (0x08C0 - 0x08A0)
-class ACySquareSafeZone final : public ACySummonActor
+class ACySquareSafeZone : public ACySummonActor
 {
 public:
 	uint8                                         Pad_898[0x8];                                      // 0x0898(0x0008)(Fixing Size After Last Property [ Dumper-7 ])
@@ -91397,7 +91397,7 @@ DUMPER7_ASSERTS_UPMAnimNotify_AkAudioEvent_SkillStartEnd;
 
 // Class PMGame.CySquareSafeZoneManager
 // 0x0030 (0x08D0 - 0x08A0)
-class ACySquareSafeZoneManager final : public ACySummonActor
+class ACySquareSafeZoneManager : public ACySummonActor
 {
 public:
 	TArray<struct FSquareSafeZoneSpawnOrder>      SafeZoneSpawnOrders;                               // 0x0898(0x0010)(Edit, ZeroConstructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -91425,7 +91425,7 @@ DUMPER7_ASSERTS_ACySquareSafeZoneManager;
 
 // Class PMGame.CySSAtomAddCustomForceMove
 // 0x0040 (0x02E0 - 0x02A0)
-class UCySSAtomAddCustomForceMove final : public UCySSAtomFilterTargets
+class UCySSAtomAddCustomForceMove : public UCySSAtomFilterTargets
 {
 public:
 	class UCyForceMoveComponent*                  ForceMoveComponent;                                // 0x02A0(0x0008)(ExportObject, ZeroConstructor, Transient, InstancedReference, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -91449,7 +91449,7 @@ DUMPER7_ASSERTS_UCySSAtomAddCustomForceMove;
 
 // Class PMGame.CySSAtomAddRopeLock
 // 0x0040 (0x02E0 - 0x02A0)
-class UCySSAtomAddRopeLock final : public UCySSAtomFilterTargets
+class UCySSAtomAddRopeLock : public UCySSAtomFilterTargets
 {
 public:
 	uint8                                         bAddRopeLockOnAddActor : 1;                        // 0x02A0(0x0001)(BitIndex: 0x00, PropSize: 0x0001 (Edit, DisableEditOnInstance, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected))
@@ -91598,7 +91598,7 @@ DUMPER7_ASSERTS_UCySSAtomSetActorLocationFromOwner;
 
 // Class PMGame.CySSAtomShowTips
 // 0x0110 (0x03B0 - 0x02A0)
-class UCySSAtomShowTips final : public UCySSAtomFilterTargets
+class UCySSAtomShowTips : public UCySSAtomFilterTargets
 {
 public:
 	struct FCyFeedbackTipsConfig                  TipsConfig;                                        // 0x02A0(0x0108)(Edit, DisableEditOnInstance, Protected, NativeAccessSpecifierProtected)
@@ -91629,7 +91629,7 @@ DUMPER7_ASSERTS_UCySSAtomShowTips;
 
 // Class PMGame.CySSAtomSummonDestroy
 // 0x0008 (0x0058 - 0x0050)
-class UCySSAtomSummonDestroy final : public UCyStateSubAtom
+class UCySSAtomSummonDestroy : public UCyStateSubAtom
 {
 public:
 	TSubclassOf<class UDamageType>                DamageTypeCls;                                     // 0x0050(0x0008)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -91652,7 +91652,7 @@ DUMPER7_ASSERTS_UCySSAtomSummonDestroy;
 
 // Class PMGame.CyStateAtom_ApplyControlMode
 // 0x0008 (0x0590 - 0x0588)
-class UCyStateAtom_ApplyControlMode final : public UCyStateAtom
+class UCyStateAtom_ApplyControlMode : public UCyStateAtom
 {
 public:
 	class FName                                   ControlModeName;                                   // 0x0588(0x0008)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -91698,7 +91698,7 @@ DUMPER7_ASSERTS_APMUGCTriggerActor;
 
 // Class PMGame.CyStateAtom_PredictAddEffects
 // 0x0028 (0x05B0 - 0x0588)
-class UCyStateAtom_PredictAddEffects final : public UCyStateAtom
+class UCyStateAtom_PredictAddEffects : public UCyStateAtom
 {
 public:
 	ETargetSourceType                             TargetSourceType;                                  // 0x0588(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -91980,7 +91980,7 @@ DUMPER7_ASSERTS_UCyUWZombieInventoryCardPanelMB;
 
 // Class PMGame.CyStateAtomSetAttackIsSpecial
 // 0x0150 (0x06D8 - 0x0588)
-class UCyStateAtomSetAttackIsSpecial final : public UCyStateAtom
+class UCyStateAtomSetAttackIsSpecial : public UCyStateAtom
 {
 public:
 	uint8                                         Pad_588[0x8];                                      // 0x0588(0x0008)(Fixing Size After Last Property [ Dumper-7 ])
@@ -92017,7 +92017,7 @@ DUMPER7_ASSERTS_UCyStateAtomSetAttackIsSpecial;
 
 // Class PMGame.CyStateAtomShowTips
 // 0x0118 (0x06A0 - 0x0588)
-class UCyStateAtomShowTips final : public UCyStateAtom
+class UCyStateAtomShowTips : public UCyStateAtom
 {
 public:
 	struct FCyFeedbackTipsConfig                  FeedbackTipsConfig;                                // 0x0588(0x0108)(Edit, DisableEditOnInstance, NativeAccessSpecifierPublic)
@@ -92045,7 +92045,7 @@ DUMPER7_ASSERTS_UCyStateAtomShowTips;
 
 // Class PMGame.PMModelShow3DWidget
 // 0x02E0 (0x0540 - 0x0260)
-class alignas(0x10) UPMModelShow3DWidget final : public UUserWidget
+class alignas(0x10) UPMModelShow3DWidget : public UUserWidget
 {
 public:
 	class UPMModelRotate3DImage*                  RotateImage;                                       // 0x0260(0x0008)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -92154,7 +92154,7 @@ DUMPER7_ASSERTS_UCyStateAtomSummonGotoStateCustom;
 
 // Class PMGame.CyStateCheckAtomAttributeValue
 // 0x0078 (0x02B8 - 0x0240)
-class UCyStateCheckAtomAttributeValue final : public UCyStateCheckAtom
+class UCyStateCheckAtomAttributeValue : public UCyStateCheckAtom
 {
 public:
 	struct FGameplayAttribute                     AttributeValue;                                    // 0x0240(0x0038)(Edit, DisableEditOnInstance, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -92183,7 +92183,7 @@ DUMPER7_ASSERTS_UCyStateCheckAtomAttributeValue;
 
 // Class PMGame.CyStateCheckAtomGameStateTagRequirements
 // 0x01E8 (0x0428 - 0x0240)
-class UCyStateCheckAtomGameStateTagRequirements final : public UCyStateCheckAtom
+class UCyStateCheckAtomGameStateTagRequirements : public UCyStateCheckAtom
 {
 public:
 	struct FGameplayTagRequirements               TagRequirements;                                   // 0x0240(0x0188)(Edit, NativeAccessSpecifierPrivate)
@@ -92207,7 +92207,7 @@ DUMPER7_ASSERTS_UCyStateCheckAtomGameStateTagRequirements;
 
 // Class PMGame.CyStateCheckAtomHadDeathProtect
 // 0x0000 (0x0240 - 0x0240)
-class UCyStateCheckAtomHadDeathProtect final : public UCyStateCheckAtom
+class UCyStateCheckAtomHadDeathProtect : public UCyStateCheckAtom
 {
 public:
 	static class UClass* StaticClass()
@@ -92915,7 +92915,7 @@ DUMPER7_ASSERTS_UPMPlayerMaterialEffectComponent;
 
 // Class PMGame.CyTargetDetectorComponentBox
 // 0x0060 (0x05B0 - 0x0550)
-class UCyTargetDetectorComponentBox final : public UCyTargetDetector
+class UCyTargetDetectorComponentBox : public UCyTargetDetector
 {
 public:
 	class FName                                   BoxComponentTag;                                   // 0x0550(0x0008)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -93033,7 +93033,7 @@ DUMPER7_ASSERTS_UCyTargetDetectorJulian;
 
 // Class PMGame.CyTargetDetectorLineTrace
 // 0x0030 (0x0580 - 0x0550)
-class UCyTargetDetectorLineTrace final : public UCyTargetDetector
+class UCyTargetDetectorLineTrace : public UCyTargetDetector
 {
 public:
 	ECollisionChannel                             LineTraceChannel;                                  // 0x0550(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -93065,7 +93065,7 @@ DUMPER7_ASSERTS_UCyTargetDetectorLineTrace;
 
 // Class PMGame.CyTargetDetectorLineTraceOnlyClass
 // 0x0030 (0x0580 - 0x0550)
-class UCyTargetDetectorLineTraceOnlyClass final : public UCyTargetDetector
+class UCyTargetDetectorLineTraceOnlyClass : public UCyTargetDetector
 {
 public:
 	ECollisionChannel                             LineTraceChannel;                                  // 0x0550(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -93264,7 +93264,7 @@ DUMPER7_ASSERTS_UCyTargetDetectorSceneMap;
 
 // Class PMGame.CyTargetDetectorSphereFace
 // 0x0088 (0x05D8 - 0x0550)
-class UCyTargetDetectorSphereFace final : public UCyTargetDetector_Cross
+class UCyTargetDetectorSphereFace : public UCyTargetDetector_Cross
 {
 public:
 	uint8                                         TargetActorMask;                                   // 0x0550(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -93328,7 +93328,7 @@ DUMPER7_ASSERTS_UCyTargetDetectorTeamActorsCube;
 
 // Class PMGame.CyTargetDetectorTeamPlayersCube
 // 0x0018 (0x0568 - 0x0550)
-class UCyTargetDetectorTeamPlayersCube final : public UCyTargetDetector
+class UCyTargetDetectorTeamPlayersCube : public UCyTargetDetector
 {
 public:
 	bool                                          bDetectInRange;                                    // 0x0550(0x0001)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -93441,7 +93441,7 @@ DUMPER7_ASSERTS_UCyTargetFightBackComponent;
 
 // Class PMGame.CyTargetFilterAllowRelieveWall
 // 0x0000 (0x0048 - 0x0048)
-class UCyTargetFilterAllowRelieveWall final : public UCyTargetFilter
+class UCyTargetFilterAllowRelieveWall : public UCyTargetFilter
 {
 public:
 	static class UClass* StaticClass()
@@ -93517,7 +93517,7 @@ DUMPER7_ASSERTS_UCyTargetFilterInViewRadius;
 
 // Class PMGame.CyTargetFilterRange
 // 0x0070 (0x00B8 - 0x0048)
-class UCyTargetFilterRange final : public UCyTargetFilter
+class UCyTargetFilterRange : public UCyTargetFilter
 {
 public:
 	ETracePointType                               StartActorType;                                    // 0x0048(0x0004)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -94097,7 +94097,7 @@ DUMPER7_ASSERTS_UCyTaskLimitTotalKill;
 
 // Class PMGame.CyUWOverheadEmotionPanelPC
 // 0x0008 (0x08E0 - 0x08D8)
-class UCyUWOverheadEmotionPanelPC final : public UPMUserWidget
+class UCyUWOverheadEmotionPanelPC : public UPMUserWidget
 {
 public:
 	class UScaleBox*                              EmotionBox;                                        // 0x08D8(0x0008)(ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -95849,7 +95849,7 @@ DUMPER7_ASSERTS_UCyUIInGameRoguelikeCardDataSubSystem;
 
 // Class PMGame.CyUIInteractionActor
 // 0x0098 (0x03A8 - 0x0310)
-class ACyUIInteractionActor final : public AActor
+class ACyUIInteractionActor : public AActor
 {
 public:
 	uint8                                         Pad_310[0x20];                                     // 0x0310(0x0020)(Fixing Size After Last Property [ Dumper-7 ])
@@ -96113,7 +96113,7 @@ DUMPER7_ASSERTS_ICyUWAbilityOverheadSkillContextInterface;
 
 // Class PMGame.CyUWAbilityPressStateYvetteQ
 // 0x0000 (0x0C88 - 0x0C88)
-class UCyUWAbilityPressStateYvetteQ final : public UCyUWAbilityPressState
+class UCyUWAbilityPressStateYvetteQ : public UCyUWAbilityPressState
 {
 public:
 	static class UClass* StaticClass()
@@ -96339,7 +96339,7 @@ DUMPER7_ASSERTS_UCyUWAbilitySetting;
 
 // Class PMGame.CyUWAbilitySilence
 // 0x0020 (0x0A48 - 0x0A28)
-class UCyUWAbilitySilence final : public UPMUWGameplayBase
+class UCyUWAbilitySilence : public UPMUWGameplayBase
 {
 public:
 	class UImage*                                 Image_Silence;                                     // 0x0A28(0x0008)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -96604,7 +96604,7 @@ DUMPER7_ASSERTS_UCyUWAbilitySpellGuideYvetteQ;
 
 // Class PMGame.CyUWAbilitySuicide
 // 0x0250 (0x0C78 - 0x0A28)
-class UCyUWAbilitySuicide final : public UPMUWGameplayBase
+class UCyUWAbilitySuicide : public UPMUWGameplayBase
 {
 public:
 	class UProgressBar*                           ProgressBar_Progress;                              // 0x0A28(0x0008)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -97005,7 +97005,7 @@ DUMPER7_ASSERTS_UCyUWBigHeadRoundIcon;
 
 // Class PMGame.PMProgressDynamicWidget
 // 0x0060 (0x0628 - 0x05C8)
-class UPMProgressDynamicWidget final : public UPMBaseUserWidget
+class UPMProgressDynamicWidget : public UPMBaseUserWidget
 {
 public:
 	struct FColor                                 DefaultColor;                                      // 0x05C8(0x0004)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -98042,7 +98042,7 @@ DUMPER7_ASSERTS_APMTriggerSphereZoneActor;
 
 // Class PMGame.CyUWControlSummonDistanceSignalPanel
 // 0x0050 (0x0A78 - 0x0A28)
-class UCyUWControlSummonDistanceSignalPanel final : public UPMUWGameplayBase
+class UCyUWControlSummonDistanceSignalPanel : public UPMUWGameplayBase
 {
 public:
 	TArray<int32>                                 SignalDistanceList;                                // 0x0A28(0x0010)(Edit, ZeroConstructor, DisableEditOnInstance, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -98240,7 +98240,7 @@ DUMPER7_ASSERTS_UCyUWCrossHairOpacityPanel;
 
 // Class PMGame.CyUWDamageCauserByTagEvent
 // 0x02B0 (0x0CD8 - 0x0A28)
-class UCyUWDamageCauserByTagEvent final : public UPMUWGameplayBase
+class UCyUWDamageCauserByTagEvent : public UPMUWGameplayBase
 {
 public:
 	struct FGameplayTagContainer                  RegisterWarningEventTags;                          // 0x0A28(0x0060)(Edit, NativeAccessSpecifierPublic)
@@ -98332,7 +98332,7 @@ DUMPER7_ASSERTS_UPMURadarChartWidget;
 
 // Class PMGame.CyUWDangerAreaRemindPanel
 // 0x0020 (0x0B18 - 0x0AF8)
-class UCyUWDangerAreaRemindPanel final : public UCyUWFeedbackTipsBase
+class UCyUWDangerAreaRemindPanel : public UCyUWFeedbackTipsBase
 {
 public:
 	class UTextBlock*                             Text_Time;                                         // 0x0AF8(0x0008)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -98858,7 +98858,7 @@ DUMPER7_ASSERTS_UCyUWFeedbackGunTypeTipsMonitorPanel;
 
 // Class PMGame.CyUWFeedbackManagerPage
 // 0x0100 (0x0B28 - 0x0A28)
-class UCyUWFeedbackManagerPage final : public UPMUWGameplayBase
+class UCyUWFeedbackManagerPage : public UPMUWGameplayBase
 {
 public:
 	TMap<ECyFeedbackTipsStyle, class UCyUWFeedbackTipsBase*> FeedbackTipsStyleMap;                   // 0x0A28(0x0050)(Edit, ExportObject, Transient, EditConst, ContainsInstancedReference, Protected, NativeAccessSpecifierProtected)
@@ -99599,7 +99599,7 @@ DUMPER7_ASSERTS_UPMRoomListPanelWidgetPC;
 
 // Class PMGame.CyUWGrowthCSkill
 // 0x0010 (0x08E8 - 0x08D8)
-class UCyUWGrowthCSkill final : public UPMUserWidget
+class UCyUWGrowthCSkill : public UPMUserWidget
 {
 public:
 	class APMPlayerState*                         PlayerState;                                       // 0x08D8(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
@@ -100051,7 +100051,7 @@ DUMPER7_ASSERTS_UCyUWHotZonePointOverHeadPanel;
 
 // Class PMGame.PMTreatmentExecutionCalculation
 // 0x0080 (0x00C0 - 0x0040)
-class UPMTreatmentExecutionCalculation final : public UGameplayEffectExecutionCalculation
+class UPMTreatmentExecutionCalculation : public UGameplayEffectExecutionCalculation
 {
 public:
 	float                                         AddHealth;                                         // 0x0040(0x0004)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -100186,7 +100186,7 @@ DUMPER7_ASSERTS_UCyUWHotZoneStatePanel;
 
 // Class PMGame.CyUWIconFeedbackContainerPagePC
 // 0x0160 (0x0B88 - 0x0A28)
-class UCyUWIconFeedbackContainerPagePC final : public UPMUWGameplayBase
+class UCyUWIconFeedbackContainerPagePC : public UPMUWGameplayBase
 {
 public:
 	uint8                                         Pad_A28[0x18];                                     // 0x0A28(0x0018)(Fixing Size After Last Property [ Dumper-7 ])
@@ -100717,7 +100717,7 @@ DUMPER7_ASSERTS_UCyUWInventorySwitchExpectedWeaponPanel;
 
 // Class PMGame.PMPatrolPath
 // 0x0048 (0x0358 - 0x0310)
-class APMPatrolPath final : public AActor
+class APMPatrolPath : public AActor
 {
 public:
 	uint8                                         Pad_310[0x10];                                     // 0x0310(0x0010)(Fixing Size After Last Property [ Dumper-7 ])
@@ -100961,7 +100961,7 @@ DUMPER7_ASSERTS_UCyUWMarkItemMobile;
 
 // Class PMGame.CyUWMarkPointItem
 // 0x0130 (0x0FB0 - 0x0E80)
-class UCyUWMarkPointItem final : public UPMUWCharacterOverheadBasePanel
+class UCyUWMarkPointItem : public UPMUWCharacterOverheadBasePanel
 {
 public:
 	uint8                                         Pad_E78[0x50];                                     // 0x0E78(0x0050)(Fixing Size After Last Property [ Dumper-7 ])
@@ -101650,7 +101650,7 @@ DUMPER7_ASSERTS_UCyUWMineTriStatusPanel;
 
 // Class PMGame.CyUWMultiKillRewardPanel
 // 0x00E0 (0x09B8 - 0x08D8)
-class UCyUWMultiKillRewardPanel final : public UPMUserWidget
+class UCyUWMultiKillRewardPanel : public UPMUserWidget
 {
 public:
 	uint8                                         Pad_8D8[0x18];                                     // 0x08D8(0x0018)(Fixing Size After Last Property [ Dumper-7 ])
@@ -101721,7 +101721,7 @@ DUMPER7_ASSERTS_APMNavLinkProxy_Glide;
 
 // Class PMGame.CyUWMultiKillRewardTipsPanel
 // 0x0008 (0x05D0 - 0x05C8)
-class UCyUWMultiKillRewardTipsPanel final : public UPMBaseUserWidget
+class UCyUWMultiKillRewardTipsPanel : public UPMBaseUserWidget
 {
 public:
 	class UWidgetAnimation*                       Anim_MultiKillRewardFull;                          // 0x05C8(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -102453,7 +102453,7 @@ DUMPER7_ASSERTS_UPMMapMeshComponent;
 
 // Class PMGame.CyUWPracticeBtnPC
 // 0x0050 (0x0928 - 0x08D8)
-class UCyUWPracticeBtnPC final : public UPMUserWidget
+class UCyUWPracticeBtnPC : public UPMUserWidget
 {
 public:
 	class UPMButton*                              CurButton;                                         // 0x08D8(0x0008)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -102487,7 +102487,7 @@ DUMPER7_ASSERTS_UCyUWPracticeBtnPC;
 
 // Class PMGame.CyUWPracticeChallengeDataPanelPC
 // 0x0080 (0x0958 - 0x08D8)
-class UCyUWPracticeChallengeDataPanelPC final : public UPMUserWidget
+class UCyUWPracticeChallengeDataPanelPC : public UPMUserWidget
 {
 public:
 	class UTextBlock*                             Text_CountDown;                                    // 0x08D8(0x0008)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -102528,7 +102528,7 @@ DUMPER7_ASSERTS_UCyUWPracticeChallengeDataPanelPC;
 
 // Class PMGame.CyUWPracticeChallengePanelPC
 // 0x0050 (0x0928 - 0x08D8)
-class UCyUWPracticeChallengePanelPC final : public UPMUserWidget
+class UCyUWPracticeChallengePanelPC : public UPMUserWidget
 {
 public:
 	class UButton*                                Button_BeginChallenge;                             // 0x08D8(0x0008)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -102573,7 +102573,7 @@ DUMPER7_ASSERTS_UCyUWPracticeChallengePanelPC;
 
 // Class PMGame.CyUWPracticeChallengeScorePanelPC
 // 0x00C0 (0x0998 - 0x08D8)
-class UCyUWPracticeChallengeScorePanelPC final : public UPMUserWidget
+class UCyUWPracticeChallengeScorePanelPC : public UPMUserWidget
 {
 public:
 	class FText                                   FormatArray[0x5];                                  // 0x08D8(0x0018)(Edit, NativeAccessSpecifierPublic)
@@ -102631,7 +102631,7 @@ DUMPER7_ASSERTS_UPMOnlineServiceHandle_Shop;
 
 // Class PMGame.CyUWPracticeCheatDetailPanelPC
 // 0x0228 (0x0C50 - 0x0A28)
-class UCyUWPracticeCheatDetailPanelPC final : public UPMUWGameplayBase
+class UCyUWPracticeCheatDetailPanelPC : public UPMUWGameplayBase
 {
 public:
 	class UTextBlock*                             Text_SkillConsumeKey;                              // 0x0A28(0x0008)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -102684,7 +102684,7 @@ DUMPER7_ASSERTS_UCyUWPracticeCheatDetailPanelPC;
 
 // Class PMGame.CyUWPracticeKillFeedBackPagePC
 // 0x0030 (0x0908 - 0x08D8)
-class UCyUWPracticeKillFeedBackPagePC final : public UPMUserWidget
+class UCyUWPracticeKillFeedBackPagePC : public UPMUserWidget
 {
 public:
 	TArray<int32>                                 KillCountIndex;                                    // 0x08D8(0x0010)(Edit, ZeroConstructor, DisableEditOnInstance, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -102856,7 +102856,7 @@ DUMPER7_ASSERTS_UCyUWPracticeSettingPage;
 
 // Class PMGame.CyUWPracticeTargetPagePC
 // 0x0190 (0x0A68 - 0x08D8)
-class UCyUWPracticeTargetPagePC final : public UPMUserWidget
+class UCyUWPracticeTargetPagePC : public UPMUserWidget
 {
 public:
 	class UDynamicEntryBox*                       EntryBox_DistanceBtnContainter;                    // 0x08D8(0x0008)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -103913,7 +103913,7 @@ DUMPER7_ASSERTS_ICyUWScoreBehaviorDataInterface;
 
 // Class PMGame.CyUWScoreBehaviorPanel
 // 0x0140 (0x0B68 - 0x0A28)
-class UCyUWScoreBehaviorPanel final : public UPMUWGameplayBase
+class UCyUWScoreBehaviorPanel : public UPMUWGameplayBase
 {
 public:
 	uint8                                         Pad_A28[0x8];                                      // 0x0A28(0x0008)(Fixing Size After Last Property [ Dumper-7 ])
@@ -104080,7 +104080,7 @@ DUMPER7_ASSERTS_UCyUWSeekerSign;
 
 // Class PMGame.CyUWSegmentHealthBar
 // 0x0278 (0x0B50 - 0x08D8)
-class alignas(0x10) UCyUWSegmentHealthBar final : public UPMUserWidget
+class alignas(0x10) UCyUWSegmentHealthBar : public UPMUserWidget
 {
 public:
 	float                                         LastExtraArmor;                                    // 0x08D8(0x0004)(Edit, ZeroConstructor, Transient, EditConst, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -104989,7 +104989,7 @@ DUMPER7_ASSERTS_UCyUWTacticWheelPanelItem;
 
 // Class PMGame.CyUWTagIndicatorBase
 // 0x0070 (0x0638 - 0x05C8)
-class UCyUWTagIndicatorBase final : public UPMBaseUserWidget
+class UCyUWTagIndicatorBase : public UPMBaseUserWidget
 {
 public:
 	class UPMImage*                               IndicatorIcon;                                     // 0x05C8(0x0008)(BlueprintVisible, ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -105212,7 +105212,7 @@ DUMPER7_ASSERTS_UPMUWUpgradePagePC;
 
 // Class PMGame.CyUWTotalDamageItem
 // 0x0018 (0x05E0 - 0x05C8)
-class UCyUWTotalDamageItem final : public UPMBaseUserWidget
+class UCyUWTotalDamageItem : public UPMBaseUserWidget
 {
 public:
 	class UPMImage*                               Img_Number;                                        // 0x05C8(0x0008)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -105753,7 +105753,7 @@ DUMPER7_ASSERTS_UPMUWSelectRoleLoadingItemPC;
 
 // Class PMGame.CyUWWeaponCoolDownDuration
 // 0x0120 (0x0B48 - 0x0A28)
-class UCyUWWeaponCoolDownDuration final : public UPMUWGameplayBase
+class UCyUWWeaponCoolDownDuration : public UPMUWGameplayBase
 {
 public:
 	uint8                                         Pad_A28[0x18];                                     // 0x0A28(0x0018)(Fixing Size After Last Property [ Dumper-7 ])
@@ -105973,7 +105973,7 @@ DUMPER7_ASSERTS_UPMUWScoreEscort2MemberItem;
 
 // Class PMGame.CyUWWeaponSkillPanel
 // 0x01E0 (0x0C08 - 0x0A28)
-class UCyUWWeaponSkillPanel final : public UPMUWGameplayBase
+class UCyUWWeaponSkillPanel : public UPMUWGameplayBase
 {
 public:
 	class UHorizontalBox*                         IconGroup;                                         // 0x0A28(0x0008)(BlueprintVisible, ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -107859,7 +107859,7 @@ DUMPER7_ASSERTS_UCyWeaponBlueprintLibrary;
 
 // Class PMGame.CyWeaponBomb
 // 0x0000 (0x12F0 - 0x12F0)
-class ACyWeaponBomb final : public ACyWeaponParent
+class ACyWeaponBomb : public ACyWeaponParent
 {
 public:
 	static class UClass* StaticClass()
@@ -108030,7 +108030,7 @@ DUMPER7_ASSERTS_UWFCoreEventCenter;
 
 // Class PMGame.CyWeaponBombDismantle
 // 0x0000 (0x12F0 - 0x12F0)
-class ACyWeaponBombDismantle final : public ACyWeaponParent
+class ACyWeaponBombDismantle : public ACyWeaponParent
 {
 public:
 	float                                         ActiveDistance;                                    // 0x12E8(0x0004)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -108076,7 +108076,7 @@ DUMPER7_ASSERTS_ACyWeaponThrow;
 
 // Class PMGame.CyWeaponBow
 // 0x0000 (0x12F0 - 0x12F0)
-class ACyWeaponBow final : public ACyWeaponThrow
+class ACyWeaponBow : public ACyWeaponThrow
 {
 public:
 	static class UClass* StaticClass()
@@ -108221,7 +108221,7 @@ DUMPER7_ASSERTS_ACyWeaponRifle;
 
 // Class PMGame.CyWeaponCrossbow
 // 0x0000 (0x1320 - 0x1320)
-class ACyWeaponCrossbow final : public ACyWeaponRifle
+class ACyWeaponCrossbow : public ACyWeaponRifle
 {
 public:
 	static class UClass* StaticClass()
@@ -108241,7 +108241,7 @@ DUMPER7_ASSERTS_ACyWeaponCrossbow;
 
 // Class PMGame.CyWeaponCustom
 // 0x0210 (0x1500 - 0x12F0)
-class ACyWeaponCustom final : public ACyWeaponParent
+class ACyWeaponCustom : public ACyWeaponParent
 {
 public:
 	uint8                                         Pad_12E8[0x2];                                     // 0x12E8(0x0002)(Fixing Size After Last Property [ Dumper-7 ])
@@ -108511,7 +108511,7 @@ DUMPER7_ASSERTS_UPMUWCharacterOverheadEquipmentPanel;
 
 // Class PMGame.CyWeaponFist
 // 0x0000 (0x1350 - 0x1350)
-class ACyWeaponFist final : public ACyWeaponMelee
+class ACyWeaponFist : public ACyWeaponMelee
 {
 public:
 	static class UClass* StaticClass()
@@ -108531,7 +108531,7 @@ DUMPER7_ASSERTS_ACyWeaponFist;
 
 // Class PMGame.CyWeaponFlamePistol
 // 0x0000 (0x12F0 - 0x12F0)
-class ACyWeaponFlamePistol final : public ACyWeaponParent
+class ACyWeaponFlamePistol : public ACyWeaponParent
 {
 public:
 	class UCyFlameUpdateMaterialComponent*        MaterialUpdateComponent;                           // 0x12E8(0x0008)(ExportObject, ZeroConstructor, Transient, InstancedReference, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -108654,7 +108654,7 @@ DUMPER7_ASSERTS_UPMCrowdCharacterComponent;
 
 // Class PMGame.CyWeaponManagerComponent
 // 0x0020 (0x1730 - 0x1710)
-class UCyWeaponManagerComponent final : public UCyWeaponManagerBaseComponent
+class UCyWeaponManagerComponent : public UCyWeaponManagerBaseComponent
 {
 public:
 	float                                         ReloadProgress;                                    // 0x1710(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -108758,7 +108758,7 @@ DUMPER7_ASSERTS_UPMUWZOrderManagerPagePC;
 
 // Class PMGame.CyWeaponMelee_ExtremeKnifeFight
 // 0x0000 (0x1350 - 0x1350)
-class ACyWeaponMelee_ExtremeKnifeFight final : public ACyWeaponMelee
+class ACyWeaponMelee_ExtremeKnifeFight : public ACyWeaponMelee
 {
 public:
 	static class UClass* StaticClass()
@@ -108778,7 +108778,7 @@ DUMPER7_ASSERTS_ACyWeaponMelee_ExtremeKnifeFight;
 
 // Class PMGame.PMUWCharacterOverheadAbilitiesPanel
 // 0x0350 (0x11D0 - 0x0E80)
-class UPMUWCharacterOverheadAbilitiesPanel final : public UPMUWCharacterOverheadBasePanel
+class UPMUWCharacterOverheadAbilitiesPanel : public UPMUWCharacterOverheadBasePanel
 {
 public:
 	class UCanvasPanel*                           CanvasPanel_Container;                             // 0x0E78(0x0008)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -108875,7 +108875,7 @@ DUMPER7_ASSERTS_UCyWeaponMeshAsset;
 
 // Class PMGame.CyWeaponMine
 // 0x0000 (0x12F0 - 0x12F0)
-class ACyWeaponMine final : public ACyWeaponParent
+class ACyWeaponMine : public ACyWeaponParent
 {
 public:
 	static class UClass* StaticClass()
@@ -108895,7 +108895,7 @@ DUMPER7_ASSERTS_ACyWeaponMine;
 
 // Class PMGame.PMUWControlSummonInfoPanel
 // 0x0038 (0x0A60 - 0x0A28)
-class UPMUWControlSummonInfoPanel final : public UPMUWGameplayBase
+class UPMUWControlSummonInfoPanel : public UPMUWGameplayBase
 {
 public:
 	struct FGameplayTag                           SummonActorTag;                                    // 0x0A28(0x0008)(Edit, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -108927,7 +108927,7 @@ DUMPER7_ASSERTS_UPMUWControlSummonInfoPanel;
 
 // Class PMGame.CyWeaponPistol
 // 0x0000 (0x12F0 - 0x12F0)
-class ACyWeaponPistol final : public ACyWeaponParent
+class ACyWeaponPistol : public ACyWeaponParent
 {
 public:
 	static class UClass* StaticClass()
@@ -109017,7 +109017,7 @@ DUMPER7_ASSERTS_UPMWeaponDisplayComponent;
 
 // Class PMGame.CyWeaponQuickThrowLocation
 // 0x0000 (0x12F0 - 0x12F0)
-class ACyWeaponQuickThrowLocation final : public ACyWeaponQuickThrow
+class ACyWeaponQuickThrowLocation : public ACyWeaponQuickThrow
 {
 public:
 	static class UClass* StaticClass()
@@ -109291,7 +109291,7 @@ DUMPER7_ASSERTS_UCyWeaponSkinEffectPreviewSubsystem;
 
 // Class PMGame.CyWeaponSR
 // 0x0030 (0x1320 - 0x12F0)
-class ACyWeaponSR final : public ACyWeaponParent
+class ACyWeaponSR : public ACyWeaponParent
 {
 public:
 	uint8                                         Pad_12E8[0x30];                                    // 0x12E8(0x0030)(Fixing Size After Last Property [ Dumper-7 ])
@@ -109420,7 +109420,7 @@ DUMPER7_ASSERTS_UPMUWSparRoundTimerPanelPC;
 
 // Class PMGame.CyWeaponTip
 // 0x0030 (0x0A58 - 0x0A28)
-class UCyWeaponTip final : public UPMUWGameplayBase
+class UCyWeaponTip : public UPMUWGameplayBase
 {
 public:
 	uint8                                         Pad_A28[0x18];                                     // 0x0A28(0x0018)(Fixing Size After Last Property [ Dumper-7 ])
@@ -109515,7 +109515,7 @@ DUMPER7_ASSERTS_UPMUWSnowBallTaskItem;
 
 // Class PMGame.CyWeaponTransferWall
 // 0x0000 (0x12F0 - 0x12F0)
-class ACyWeaponTransferWall final : public ACyWeaponParent
+class ACyWeaponTransferWall : public ACyWeaponParent
 {
 public:
 	static class UClass* StaticClass()
@@ -109535,7 +109535,7 @@ DUMPER7_ASSERTS_ACyWeaponTransferWall;
 
 // Class PMGame.CyWeaponTriggerThrow
 // 0x0000 (0x12F0 - 0x12F0)
-class ACyWeaponTriggerThrow final : public ACyWeaponParent
+class ACyWeaponTriggerThrow : public ACyWeaponParent
 {
 public:
 	static class UClass* StaticClass()
@@ -109731,7 +109731,7 @@ DUMPER7_ASSERTS_ICyWidgetInterface;
 
 // Class PMGame.CyWidgetTargetFilter
 // 0x0020 (0x0068 - 0x0048)
-class UCyWidgetTargetFilter final : public UCyTargetFilter
+class UCyWidgetTargetFilter : public UCyTargetFilter
 {
 public:
 	TArray<class FName>                           RequireUIPanelNames;                               // 0x0048(0x0010)(Edit, ZeroConstructor, DisableEditOnInstance, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -111453,7 +111453,7 @@ DUMPER7_ASSERTS_UPMAIPerceptionStimuliSourceComponent;
 
 // Class PMGame.PMAirWall
 // 0x0030 (0x0340 - 0x0310)
-class APMAirWall final : public AActor
+class APMAirWall : public AActor
 {
 public:
 	class UStaticMeshComponent*                   MeshComAir;                                        // 0x0310(0x0008)(Edit, BlueprintVisible, ExportObject, ZeroConstructor, DisableEditOnInstance, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -112201,7 +112201,7 @@ DUMPER7_ASSERTS_UPMAnimInstanceBase2D;
 
 // Class PMGame.PMUWDamageCauserPanel
 // 0x0040 (0x0A68 - 0x0A28)
-class UPMUWDamageCauserPanel final : public UPMUWGameplayBase
+class UPMUWDamageCauserPanel : public UPMUWGameplayBase
 {
 public:
 	class UWidgetAnimation*                       Anim_Damage;                                       // 0x0A28(0x0008)(BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -112481,7 +112481,7 @@ DUMPER7_ASSERTS_APMInteractionBombTrigger;
 
 // Class PMGame.PMAnimInstanceLobby3D
 // 0x0060 (0x0460 - 0x0400)
-class UPMAnimInstanceLobby3D final : public UPMAnimInstanceBaseLobby3D
+class UPMAnimInstanceLobby3D : public UPMAnimInstanceBaseLobby3D
 {
 public:
 	class UAnimSequenceBase*                      LobbyIdle;                                         // 0x0400(0x0008)(BlueprintVisible, BlueprintReadOnly, ZeroConstructor, Transient, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -113509,7 +113509,7 @@ DUMPER7_ASSERTS_UPMAvatarTableManager;
 
 // Class PMGame.PMUWInventoryGrowthPointPC
 // 0x0068 (0x0A90 - 0x0A28)
-class UPMUWInventoryGrowthPointPC final : public UPMUWGameplayBase
+class UPMUWInventoryGrowthPointPC : public UPMUWGameplayBase
 {
 public:
 	class UTextBlock*                             Text_Point;                                        // 0x0A28(0x0008)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -113969,7 +113969,7 @@ DUMPER7_ASSERTS_APMBombAreaPointActor;
 
 // Class PMGame.PMBombMatchHUD
 // 0x0018 (0x0948 - 0x0930)
-class APMBombMatchHUD : public APMHUD
+class APMBombMatchHUD final : public APMHUD
 {
 public:
 	uint8                                         Pad_930[0x18];                                     // 0x0930(0x0018)(Fixing Struct Size After Last Property [ Dumper-7 ])
@@ -115243,7 +115243,7 @@ DUMPER7_ASSERTS_UPMBTTask_WaitRandomBlackboardTime;
 
 // Class PMGame.PMUWInteractionProgressBarPC
 // 0x0008 (0x08E0 - 0x08D8)
-class UPMUWInteractionProgressBarPC final : public UPMUserWidget
+class UPMUWInteractionProgressBarPC : public UPMUserWidget
 {
 public:
 	class UProgressBar*                           ProgressBar_Progress;                              // 0x08D8(0x0008)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -117138,7 +117138,7 @@ DUMPER7_ASSERTS_UPMWidgetDecorator;
 
 // Class PMGame.PMArmorDamageType
 // 0x0000 (0x0548 - 0x0548)
-class UPMArmorDamageType final : public UPMDamageType
+class UPMArmorDamageType : public UPMDamageType
 {
 public:
 	static class UClass* StaticClass()
@@ -117278,7 +117278,7 @@ DUMPER7_ASSERTS_UPMDeathProtectedDamageType;
 
 // Class PMGame.PMDamageCacheTickDamageType
 // 0x0000 (0x0548 - 0x0548)
-class UPMDamageCacheTickDamageType final : public UPMDamageType
+class UPMDamageCacheTickDamageType : public UPMDamageType
 {
 public:
 	static class UClass* StaticClass()
@@ -117361,7 +117361,7 @@ DUMPER7_ASSERTS_APMDangerAreaNotifyActor;
 
 // Class PMGame.PMDangerousZoneActor
 // 0x0030 (0x0388 - 0x0358)
-class APMDangerousZoneActor : public APMTriggerBoxZoneActor
+class APMDangerousZoneActor final : public APMTriggerBoxZoneActor
 {
 public:
 	TSubclassOf<class UGameplayEffect>            PreDangerousZoneEffect;                            // 0x0358(0x0008)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -118150,7 +118150,7 @@ DUMPER7_ASSERTS_APMFrontEndPlayerController;
 
 // Class PMGame.PMGameChatPage
 // 0x0020 (0x08F8 - 0x08D8)
-class UPMGameChatPage final : public UPMUserWidget
+class UPMGameChatPage : public UPMUserWidget
 {
 public:
 	uint8                                         Pad_8D8[0x8];                                      // 0x08D8(0x0008)(Fixing Size After Last Property [ Dumper-7 ])
@@ -119715,7 +119715,7 @@ DUMPER7_ASSERTS_UPMLinkRichTextBlockDecorator;
 
 // Class PMGame.PMLoadingGameMode
 // 0x00E0 (0x0490 - 0x03B0)
-class APMLoadingGameMode : public AGameModeBase
+class APMLoadingGameMode final : public AGameModeBase
 {
 public:
 	uint8                                         Pad_3B0[0x10];                                     // 0x03B0(0x0010)(Fixing Size After Last Property [ Dumper-7 ])
@@ -119914,7 +119914,7 @@ DUMPER7_ASSERTS_UPMLobbyAppearanceComponent;
 
 // Class PMGame.PMLobbyCharacter
 // 0x0380 (0x09C0 - 0x0640)
-class APMLobbyCharacter final : public ACyLobbyCharacterBase
+class APMLobbyCharacter : public ACyLobbyCharacterBase
 {
 public:
 	uint8                                         Pad_640[0x8];                                      // 0x0640(0x0008)(Fixing Size After Last Property [ Dumper-7 ])
@@ -120566,7 +120566,7 @@ DUMPER7_ASSERTS_UPMLuaBridgeObject;
 
 // Class PMGame.PMUWVoiceChatPagePC
 // 0x0140 (0x0B68 - 0x0A28)
-class UPMUWVoiceChatPagePC final : public UPMUWGameplayBase
+class UPMUWVoiceChatPagePC : public UPMUWGameplayBase
 {
 public:
 	class UVerticalBox*                           VoiceChatPanelVBox;                                // 0x0A28(0x0008)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -121232,7 +121232,7 @@ DUMPER7_ASSERTS_UPMUWSelectRoleSpectatorPagePC;
 
 // Class PMGame.PMMonster
 // 0x00A0 (0x1E20 - 0x1D80)
-class APMMonster final : public APMCharacter
+class APMMonster : public APMCharacter
 {
 public:
 	uint8                                         Pad_1D80[0x8];                                     // 0x1D80(0x0008)(Fixing Size After Last Property [ Dumper-7 ])
@@ -122795,7 +122795,7 @@ DUMPER7_ASSERTS_UPMUWSparTaskPanel;
 
 // Class PMGame.PMPlayerController_Bomb
 // 0x0038 (0x0DC8 - 0x0D90)
-class APMPlayerController_Bomb : public APMPlayerController
+class APMPlayerController_Bomb final : public APMPlayerController
 {
 public:
 	class AActor*                                 DeathCamIndicator;                                 // 0x0D90(0x0008)(ZeroConstructor, Transient, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -122985,7 +122985,7 @@ DUMPER7_ASSERTS_APMPlayerStartVolume;
 
 // Class PMGame.PMPlayerState_Bomb
 // 0x0020 (0x2270 - 0x2250)
-class APMPlayerState_Bomb : public APMPlayerState
+class APMPlayerState_Bomb final : public APMPlayerState
 {
 public:
 	uint8                                         Pad_2248[0x28];                                    // 0x2248(0x0028)(Fixing Struct Size After Last Property [ Dumper-7 ])
@@ -123263,7 +123263,7 @@ DUMPER7_ASSERTS_UPMProgressBar;
 
 // Class PMGame.PMProgressCellWidget
 // 0x0050 (0x02B0 - 0x0260)
-class UPMProgressCellWidget final : public UUserWidget
+class UPMProgressCellWidget : public UUserWidget
 {
 public:
 	class UPMImage*                               Image_Bg;                                          // 0x0260(0x0008)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -123841,7 +123841,7 @@ DUMPER7_ASSERTS_UPMSafeSDKSubSystem;
 
 // Class PMGame.PMUWDamageCauserPage
 // 0x0180 (0x0BA8 - 0x0A28)
-class UPMUWDamageCauserPage final : public UPMUWGameplayBase
+class UPMUWDamageCauserPage : public UPMUWGameplayBase
 {
 public:
 	class UCanvasPanel*                           CanvasPanel_DamageCauser;                          // 0x0A28(0x0008)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -123956,7 +123956,7 @@ DUMPER7_ASSERTS_APMSceneMapDiedMarkActor;
 
 // Class PMGame.PMUWFeedbackTipsPanel
 // 0x00F0 (0x0BE8 - 0x0AF8)
-class UPMUWFeedbackTipsPanel final : public UCyUWFeedbackTipsBase
+class UPMUWFeedbackTipsPanel : public UCyUWFeedbackTipsBase
 {
 public:
 	class UPanelWidget*                           Panel_FeedbackTips;                                // 0x0AF8(0x0008)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -124364,7 +124364,7 @@ DUMPER7_ASSERTS_UPMSoundSubsystem;
 
 // Class PMGame.PMUWInventoryGrowthAddedPC
 // 0x0058 (0x0930 - 0x08D8)
-class UPMUWInventoryGrowthAddedPC final : public UPMUserWidget
+class UPMUWInventoryGrowthAddedPC : public UPMUserWidget
 {
 public:
 	class UTextBlock*                             Text_AddPoints;                                    // 0x08D8(0x0008)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -124519,7 +124519,7 @@ DUMPER7_ASSERTS_APMSplatoonDecalActor;
 
 // Class PMGame.PMUWKillMessagesPanelPC
 // 0x0080 (0x0AA8 - 0x0A28)
-class UPMUWKillMessagesPanelPC final : public UPMUWGameplayBase
+class UPMUWKillMessagesPanelPC : public UPMUWGameplayBase
 {
 public:
 	int32                                         MaxKillMessages;                                   // 0x0A28(0x0004)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -125314,7 +125314,7 @@ DUMPER7_ASSERTS_UPMUINavSettings;
 
 // Class PMGame.PMUMGGrowthRecommend
 // 0x0000 (0x08D8 - 0x08D8)
-class UPMUMGGrowthRecommend final : public UPMUserWidget
+class UPMUMGGrowthRecommend : public UPMUserWidget
 {
 public:
 	void OnAnimStartFinish();
@@ -125362,7 +125362,7 @@ DUMPER7_ASSERTS_UPMUWAbility2D;
 
 // Class PMGame.PMUWIconFeedbackPagePC
 // 0x01C0 (0x0BE8 - 0x0A28)
-class UPMUWIconFeedbackPagePC final : public UPMUWGameplayBase
+class UPMUWIconFeedbackPagePC : public UPMUWGameplayBase
 {
 public:
 	uint8                                         Pad_A28[0x10];                                     // 0x0A28(0x0010)(Fixing Size After Last Property [ Dumper-7 ])
@@ -125582,7 +125582,7 @@ DUMPER7_ASSERTS_UPMUWAbilityFire_Right;
 
 // Class PMGame.PMUWAbilityIconAudreyQ
 // 0x01D0 (0x1A78 - 0x18A8)
-class UPMUWAbilityIconAudreyQ final : public UPMUWAbilityIcon
+class UPMUWAbilityIconAudreyQ : public UPMUWAbilityIcon
 {
 public:
 	class UImage*                                 ImageIcon_ArousalTwo;                              // 0x18A8(0x0008)(ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -125685,7 +125685,7 @@ DUMPER7_ASSERTS_UPMUWAbilityProgressAudreyQ;
 
 // Class PMGame.PMUWAbilityProgressYvetteQ
 // 0x0030 (0x0EA0 - 0x0E70)
-class UPMUWAbilityProgressYvetteQ final : public UPMUWAbilityProgress
+class UPMUWAbilityProgressYvetteQ : public UPMUWAbilityProgress
 {
 public:
 	uint8                                         ProgressNum;                                       // 0x0E70(0x0001)(Edit, ZeroConstructor, DisableEditOnInstance, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -125786,7 +125786,7 @@ DUMPER7_ASSERTS_UPMUWAbilityTransfer;
 
 // Class PMGame.PMUWAmmoProgressBarPanelPC
 // 0x0018 (0x0A40 - 0x0A28)
-class UPMUWAmmoProgressBarPanelPC final : public UPMUWGameplayBase
+class UPMUWAmmoProgressBarPanelPC : public UPMUWGameplayBase
 {
 public:
 	class UPMUWStyleBase*                         CurrentUWStyle;                                    // 0x0A28(0x0008)(ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -126188,7 +126188,7 @@ DUMPER7_ASSERTS_UPMUWCharacterWaterPoloOverheadPanel;
 
 // Class PMGame.PMUWCrossHairPage
 // 0x0070 (0x0A98 - 0x0A28)
-class UPMUWCrossHairPage final : public UPMUWGameplayBase
+class UPMUWCrossHairPage : public UPMUWGameplayBase
 {
 public:
 	struct FGameplayTagContainer                  InjuredEventGameplayTags;                          // 0x0A28(0x0060)(Edit, DisableEditOnInstance, NativeAccessSpecifierPublic)
@@ -126339,7 +126339,7 @@ DUMPER7_ASSERTS_UPMUWEscortHeadPanelPC;
 
 // Class PMGame.PMUWGameplayAbility
 // 0x0810 (0x1238 - 0x0A28)
-class UPMUWGameplayAbility final : public UPMUWGameplayBase
+class UPMUWGameplayAbility : public UPMUWGameplayBase
 {
 public:
 	uint8                                         Pad_A28[0x10];                                     // 0x0A28(0x0010)(Fixing Size After Last Property [ Dumper-7 ])
@@ -126526,7 +126526,7 @@ DUMPER7_ASSERTS_UPMUWHUDSettingPanelMobile;
 
 // Class PMGame.PMUWHurtPage
 // 0x0068 (0x0A90 - 0x0A28)
-class UPMUWHurtPage final : public UPMUWGameplayBase
+class UPMUWHurtPage : public UPMUWGameplayBase
 {
 public:
 	class UCanvasPanel*                           CanvasPanel_HurtTextContainer;                     // 0x0A28(0x0008)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -126562,7 +126562,7 @@ DUMPER7_ASSERTS_UPMUWHurtPage;
 
 // Class PMGame.PMUWHurtPanel
 // 0x0048 (0x0620 - 0x05D8)
-class UPMUWHurtPanel final : public UPMUWHurtPanelBase
+class UPMUWHurtPanel : public UPMUWHurtPanelBase
 {
 public:
 	class UPMTextBlock*                           Text_Damage;                                       // 0x05D8(0x0008)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -126616,7 +126616,7 @@ DUMPER7_ASSERTS_UPMUWInteractionPanelMB;
 
 // Class PMGame.PMUWInteractionSyncPanelPC
 // 0x00A0 (0x0AC8 - 0x0A28)
-class UPMUWInteractionSyncPanelPC final : public UPMUWGameplayBase
+class UPMUWInteractionSyncPanelPC : public UPMUWGameplayBase
 {
 public:
 	class UCanvasPanel*                           GroupInteraction;                                  // 0x0A28(0x0008)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -126773,7 +126773,7 @@ DUMPER7_ASSERTS_UPMUWMarkSystemButton;
 
 // Class PMGame.PMUWModePerformanceItemPC
 // 0x0020 (0x05E8 - 0x05C8)
-class UPMUWModePerformanceItemPC final : public UPMBaseUserWidget
+class UPMUWModePerformanceItemPC : public UPMBaseUserWidget
 {
 public:
 	class FString                                 Title;                                             // 0x05C8(0x0010)(Edit, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -126906,7 +126906,7 @@ DUMPER7_ASSERTS_UPMUWPlayerLevelItem;
 
 // Class PMGame.PMUWReadyStagePage
 // 0x0068 (0x0A90 - 0x0A28)
-class UPMUWReadyStagePage final : public UPMUWGameplayBase
+class UPMUWReadyStagePage : public UPMUWGameplayBase
 {
 public:
 	class UWidgetSwitcher*                        Switcher_Attacktype;                               // 0x0A28(0x0008)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -127332,7 +127332,7 @@ DUMPER7_ASSERTS_UPMUWSelectRoleHideSeekLoadingPagePC;
 
 // Class PMGame.PMUWSelectRoleRoundPanelPC
 // 0x0068 (0x0B70 - 0x0B08)
-class UPMUWSelectRoleRoundPanelPC final : public UPMUWRoundBasePanelPC
+class UPMUWSelectRoleRoundPanelPC : public UPMUWRoundBasePanelPC
 {
 public:
 	class UTextBlock*                             TextBlock_TeamRed;                                 // 0x0B08(0x0008)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -127450,7 +127450,7 @@ DUMPER7_ASSERTS_UPMUWSingleTeamSelectRoleLoadingPage;
 
 // Class PMGame.PMUWSmallSpeakerContrlPanel
 // 0x0008 (0x05D0 - 0x05C8)
-class UPMUWSmallSpeakerContrlPanel final : public UPMBaseUserWidget
+class UPMUWSmallSpeakerContrlPanel : public UPMBaseUserWidget
 {
 public:
 	uint64                                        playerId;                                          // 0x05C8(0x0008)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -127708,7 +127708,7 @@ DUMPER7_ASSERTS_UPMUWStyleBase;
 
 // Class PMGame.PMUWStyleCircle
 // 0x0058 (0x0668 - 0x0610)
-class UPMUWStyleCircle final : public UPMUWStyleBase
+class UPMUWStyleCircle : public UPMUWStyleBase
 {
 public:
 	class UImage*                                 Img_Empty;                                         // 0x0610(0x0008)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -127889,7 +127889,7 @@ DUMPER7_ASSERTS_UPMUWTriTeamRoundPanelPC;
 
 // Class PMGame.PMUWVoiceChatPanelPC
 // 0x0070 (0x0638 - 0x05C8)
-class UPMUWVoiceChatPanelPC final : public UPMBaseUserWidget
+class UPMUWVoiceChatPanelPC : public UPMBaseUserWidget
 {
 public:
 	class UImage*                                 Img_Role;                                          // 0x05C8(0x0008)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -128062,7 +128062,7 @@ DUMPER7_ASSERTS_UPMUWWaterPoloScoreItem;
 
 // Class PMGame.PMUWYvetteBearCtrlSummonInfoPage
 // 0x0160 (0x0B88 - 0x0A28)
-class UPMUWYvetteBearCtrlSummonInfoPage final : public UPMUWGameplayBase
+class UPMUWYvetteBearCtrlSummonInfoPage : public UPMUWGameplayBase
 {
 public:
 	class UProgressBar*                           ProgressBar_Duration;                              // 0x0A28(0x0008)(ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -128345,7 +128345,7 @@ DUMPER7_ASSERTS_UPMVoiceManager;
 
 // Class PMGame.PMWallSceneCapture
 // 0x0040 (0x0368 - 0x0328)
-class APMWallSceneCapture final : public ASceneCapture2D
+class APMWallSceneCapture : public ASceneCapture2D
 {
 public:
 	class USkeletalMeshComponent*                 CharacterMesh;                                     // 0x0328(0x0008)(ExportObject, ZeroConstructor, Transient, InstancedReference, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)

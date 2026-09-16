@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass GE_NoReload.GE_NoReload_C
 // 0x0000 (0x10E0 - 0x10E0)
-class UGE_NoReload_C final : public UCyGameplayEffect
+class GE_NoReload::UGE_NoReload_C final : public UCyGameplayEffect
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("GE_NoReload_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass GE_NoReload.GE_NoReload_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"GE_NoReload_C")
 	}
-	static class UGE_NoReload_C* GetDefaultObj()
+	static class GE_NoReload::UGE_NoReload_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UGE_NoReload_C>();
+		return GetDefaultObjImpl<GE_NoReload::UGE_NoReload_C>();
 	}
 };
-DUMPER7_ASSERTS_UGE_NoReload_C;
+DUMPER7_ASSERTS_GE_NoReload__UGE_NoReload_C;
 
 SDK_NAMESPACE_END

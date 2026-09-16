@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_FilterTagRequirements.BP_FilterTagRequirements_C
 // 0x0000 (0x04E0 - 0x04E0)
-class UBP_FilterTagRequirements_C final : public UCyFilterTagRequirements
+class BP_FilterTagRequirements::UBP_FilterTagRequirements_C final : public UCyFilterTagRequirements
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_FilterTagRequirements_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_FilterTagRequirements.BP_FilterTagRequirements_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_FilterTagRequirements_C")
 	}
-	static class UBP_FilterTagRequirements_C* GetDefaultObj()
+	static class BP_FilterTagRequirements::UBP_FilterTagRequirements_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_FilterTagRequirements_C>();
+		return GetDefaultObjImpl<BP_FilterTagRequirements::UBP_FilterTagRequirements_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_FilterTagRequirements_C;
+DUMPER7_ASSERTS_BP_FilterTagRequirements__UBP_FilterTagRequirements_C;
 
 SDK_NAMESPACE_END

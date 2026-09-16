@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass Duration_X_Fuchsia.Duration_X_Fuchsia_C
 // 0x0000 (0x1060 - 0x1060)
-class UDuration_X_Fuchsia_C final : public UGameplayEffect
+class Duration_X_Fuchsia::UDuration_X_Fuchsia_C final : public UGameplayEffect
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("Duration_X_Fuchsia_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass Duration_X_Fuchsia.Duration_X_Fuchsia_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"Duration_X_Fuchsia_C")
 	}
-	static class UDuration_X_Fuchsia_C* GetDefaultObj()
+	static class Duration_X_Fuchsia::UDuration_X_Fuchsia_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UDuration_X_Fuchsia_C>();
+		return GetDefaultObjImpl<Duration_X_Fuchsia::UDuration_X_Fuchsia_C>();
 	}
 };
-DUMPER7_ASSERTS_UDuration_X_Fuchsia_C;
+DUMPER7_ASSERTS_Duration_X_Fuchsia__UDuration_X_Fuchsia_C;
 
 SDK_NAMESPACE_END

@@ -17,7 +17,8 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_PMCharacterBase_V3.BP_PMCharacterBase_V3_C
 // 0x00D0 (0x1E50 - 0x1D80)
-class ABP_PMCharacterBase_V3_C final : public APMCharacter
+#pragma pack(push, 0x1)
+class SDK_ALIGN(0x10) ABP_PMCharacterBase_V3_C : public APMCharacter
 {
 public:
 	class UCyPlayerPartBigHead*                   CyPlayerPartBigHead;                               // 0x1D80(0x0008)(BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash)
@@ -63,6 +64,7 @@ public:
 		return GetDefaultObjImpl<ABP_PMCharacterBase_V3_C>();
 	}
 };
+#pragma pack(pop)
 DUMPER7_ASSERTS_ABP_PMCharacterBase_V3_C;
 
 SDK_NAMESPACE_END

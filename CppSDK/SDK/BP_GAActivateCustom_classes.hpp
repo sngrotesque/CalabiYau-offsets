@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_GAActivateCustom.BP_GAActivateCustom_C
 // 0x0000 (0x0228 - 0x0228)
-class UBP_GAActivateCustom_C final : public UCyGAActivateCustom
+class BP_GAActivateCustom::UBP_GAActivateCustom_C final : public UCyGAActivateCustom
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_GAActivateCustom_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_GAActivateCustom.BP_GAActivateCustom_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_GAActivateCustom_C")
 	}
-	static class UBP_GAActivateCustom_C* GetDefaultObj()
+	static class BP_GAActivateCustom::UBP_GAActivateCustom_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_GAActivateCustom_C>();
+		return GetDefaultObjImpl<BP_GAActivateCustom::UBP_GAActivateCustom_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_GAActivateCustom_C;
+DUMPER7_ASSERTS_BP_GAActivateCustom__UBP_GAActivateCustom_C;
 
 SDK_NAMESPACE_END

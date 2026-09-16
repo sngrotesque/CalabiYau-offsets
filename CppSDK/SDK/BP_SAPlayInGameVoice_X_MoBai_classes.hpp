@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_SAPlayInGameVoice_X_MoBai.BP_SAPlayInGameVoice_X_MoBai_C
 // 0x0000 (0x0598 - 0x0598)
-class UBP_SAPlayInGameVoice_X_MoBai_C final : public UCySAtomPlayInGameVoice
+class BP_SAPlayInGameVoice_X_MoBai::UBP_SAPlayInGameVoice_X_MoBai_C final : public UCySAtomPlayInGameVoice
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_SAPlayInGameVoice_X_MoBai_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_SAPlayInGameVoice_X_MoBai.BP_SAPlayInGameVoice_X_MoBai_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_SAPlayInGameVoice_X_MoBai_C")
 	}
-	static class UBP_SAPlayInGameVoice_X_MoBai_C* GetDefaultObj()
+	static class BP_SAPlayInGameVoice_X_MoBai::UBP_SAPlayInGameVoice_X_MoBai_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_SAPlayInGameVoice_X_MoBai_C>();
+		return GetDefaultObjImpl<BP_SAPlayInGameVoice_X_MoBai::UBP_SAPlayInGameVoice_X_MoBai_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_SAPlayInGameVoice_X_MoBai_C;
+DUMPER7_ASSERTS_BP_SAPlayInGameVoice_X_MoBai__UBP_SAPlayInGameVoice_X_MoBai_C;
 
 SDK_NAMESPACE_END

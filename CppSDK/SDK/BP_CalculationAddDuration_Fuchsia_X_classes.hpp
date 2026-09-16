@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_CalculationAddDuration_Fuchsia_X.BP_CalculationAddDuration_Fuchsia_X_C
 // 0x0000 (0x00A0 - 0x00A0)
-class UBP_CalculationAddDuration_Fuchsia_X_C final : public UCyCalculationAddDuration
+class BP_CalculationAddDuration_Fuchsia_X::UBP_CalculationAddDuration_Fuchsia_X_C final : public UCyCalculationAddDuration
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_CalculationAddDuration_Fuchsia_X_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_CalculationAddDuration_Fuchsia_X.BP_CalculationAddDuration_Fuchsia_X_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_CalculationAddDuration_Fuchsia_X_C")
 	}
-	static class UBP_CalculationAddDuration_Fuchsia_X_C* GetDefaultObj()
+	static class BP_CalculationAddDuration_Fuchsia_X::UBP_CalculationAddDuration_Fuchsia_X_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_CalculationAddDuration_Fuchsia_X_C>();
+		return GetDefaultObjImpl<BP_CalculationAddDuration_Fuchsia_X::UBP_CalculationAddDuration_Fuchsia_X_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_CalculationAddDuration_Fuchsia_X_C;
+DUMPER7_ASSERTS_BP_CalculationAddDuration_Fuchsia_X__UBP_CalculationAddDuration_Fuchsia_X_C;
 
 SDK_NAMESPACE_END

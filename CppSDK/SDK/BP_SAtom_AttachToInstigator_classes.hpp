@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_SAtom_AttachToInstigator.BP_SAtom_AttachToInstigator_C
 // 0x0000 (0x0810 - 0x0810)
-class UBP_SAtom_AttachToInstigator_C final : public UCySAtomAttachTo
+class BP_SAtom_AttachToInstigator::UBP_SAtom_AttachToInstigator_C final : public UCySAtomAttachTo
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_SAtom_AttachToInstigator_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_SAtom_AttachToInstigator.BP_SAtom_AttachToInstigator_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_SAtom_AttachToInstigator_C")
 	}
-	static class UBP_SAtom_AttachToInstigator_C* GetDefaultObj()
+	static class BP_SAtom_AttachToInstigator::UBP_SAtom_AttachToInstigator_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_SAtom_AttachToInstigator_C>();
+		return GetDefaultObjImpl<BP_SAtom_AttachToInstigator::UBP_SAtom_AttachToInstigator_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_SAtom_AttachToInstigator_C;
+DUMPER7_ASSERTS_BP_SAtom_AttachToInstigator__UBP_SAtom_AttachToInstigator_C;
 
 SDK_NAMESPACE_END

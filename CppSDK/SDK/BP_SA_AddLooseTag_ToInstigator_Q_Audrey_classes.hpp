@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_SA_AddLooseTag_ToInstigator_Q_Audrey.BP_SA_AddLooseTag_ToInstigator_Q_Audrey_C
 // 0x0000 (0x0670 - 0x0670)
-class UBP_SA_AddLooseTag_ToInstigator_Q_Audrey_C final : public UCySAtomAddLooseTags
+class BP_SA_AddLooseTag_ToInstigator_Q_Audrey::UBP_SA_AddLooseTag_ToInstigator_Q_Audrey_C final : public UCySAtomAddLooseTags
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_SA_AddLooseTag_ToInstigator_Q_Audrey_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_SA_AddLooseTag_ToInstigator_Q_Audrey.BP_SA_AddLooseTag_ToInstigator_Q_Audrey_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_SA_AddLooseTag_ToInstigator_Q_Audrey_C")
 	}
-	static class UBP_SA_AddLooseTag_ToInstigator_Q_Audrey_C* GetDefaultObj()
+	static class BP_SA_AddLooseTag_ToInstigator_Q_Audrey::UBP_SA_AddLooseTag_ToInstigator_Q_Audrey_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_SA_AddLooseTag_ToInstigator_Q_Audrey_C>();
+		return GetDefaultObjImpl<BP_SA_AddLooseTag_ToInstigator_Q_Audrey::UBP_SA_AddLooseTag_ToInstigator_Q_Audrey_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_SA_AddLooseTag_ToInstigator_Q_Audrey_C;
+DUMPER7_ASSERTS_BP_SA_AddLooseTag_ToInstigator_Q_Audrey__UBP_SA_AddLooseTag_ToInstigator_Q_Audrey_C;
 
 SDK_NAMESPACE_END

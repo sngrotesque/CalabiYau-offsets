@@ -17,7 +17,7 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass Summon_Q_MoBai.Summon_Q_MoBai_C
 // 0x00B0 (0x0A20 - 0x0970)
-class ASummon_Q_MoBai_C final : public ACySummonPawn
+class Summon_Q_MoBai::ASummon_Q_MoBai_C final : public ACySummonPawn
 {
 public:
 	class UCyProjectileFlyDropMovementComponent*  CyProjectileFlyDropMovement;                       // 0x0970(0x0008)(BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash)
@@ -46,17 +46,17 @@ public:
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("Summon_Q_MoBai_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass Summon_Q_MoBai.Summon_Q_MoBai_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"Summon_Q_MoBai_C")
 	}
-	static class ASummon_Q_MoBai_C* GetDefaultObj()
+	static class Summon_Q_MoBai::ASummon_Q_MoBai_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<ASummon_Q_MoBai_C>();
+		return GetDefaultObjImpl<Summon_Q_MoBai::ASummon_Q_MoBai_C>();
 	}
 };
-DUMPER7_ASSERTS_ASummon_Q_MoBai_C;
+DUMPER7_ASSERTS_Summon_Q_MoBai__ASummon_Q_MoBai_C;
 
 SDK_NAMESPACE_END

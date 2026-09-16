@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_TargetDetector_Blind_NotClose.BP_TargetDetector_Blind_NotClose_C
 // 0x0000 (0x0560 - 0x0560)
-class UBP_TargetDetector_Blind_NotClose_C final : public UCyTargetDetectorViewingPlayer
+class BP_TargetDetector_Blind_NotClose::UBP_TargetDetector_Blind_NotClose_C final : public UCyTargetDetectorViewingPlayer
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_TargetDetector_Blind_NotClose_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_TargetDetector_Blind_NotClose.BP_TargetDetector_Blind_NotClose_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_TargetDetector_Blind_NotClose_C")
 	}
-	static class UBP_TargetDetector_Blind_NotClose_C* GetDefaultObj()
+	static class BP_TargetDetector_Blind_NotClose::UBP_TargetDetector_Blind_NotClose_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_TargetDetector_Blind_NotClose_C>();
+		return GetDefaultObjImpl<BP_TargetDetector_Blind_NotClose::UBP_TargetDetector_Blind_NotClose_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_TargetDetector_Blind_NotClose_C;
+DUMPER7_ASSERTS_BP_TargetDetector_Blind_NotClose__UBP_TargetDetector_Blind_NotClose_C;
 
 SDK_NAMESPACE_END

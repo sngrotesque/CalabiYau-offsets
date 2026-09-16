@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass GE_P_Michele.GE_P_Michele_C
 // 0x0000 (0x10E0 - 0x10E0)
-class UGE_P_Michele_C final : public UCyGameplayEffect
+class GE_P_Michele::UGE_P_Michele_C final : public UCyGameplayEffect
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("GE_P_Michele_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass GE_P_Michele.GE_P_Michele_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"GE_P_Michele_C")
 	}
-	static class UGE_P_Michele_C* GetDefaultObj()
+	static class GE_P_Michele::UGE_P_Michele_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UGE_P_Michele_C>();
+		return GetDefaultObjImpl<GE_P_Michele::UGE_P_Michele_C>();
 	}
 };
-DUMPER7_ASSERTS_UGE_P_Michele_C;
+DUMPER7_ASSERTS_GE_P_Michele__UGE_P_Michele_C;
 
 SDK_NAMESPACE_END

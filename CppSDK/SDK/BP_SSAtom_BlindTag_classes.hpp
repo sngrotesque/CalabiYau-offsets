@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_SSAtom_BlindTag.BP_SSAtom_BlindTag_C
 // 0x0000 (0x0198 - 0x0198)
-class UBP_SSAtom_BlindTag_C final : public UCySSAtomLooseGameplayTags
+class BP_SSAtom_BlindTag::UBP_SSAtom_BlindTag_C final : public UCySSAtomLooseGameplayTags
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_SSAtom_BlindTag_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_SSAtom_BlindTag.BP_SSAtom_BlindTag_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_SSAtom_BlindTag_C")
 	}
-	static class UBP_SSAtom_BlindTag_C* GetDefaultObj()
+	static class BP_SSAtom_BlindTag::UBP_SSAtom_BlindTag_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_SSAtom_BlindTag_C>();
+		return GetDefaultObjImpl<BP_SSAtom_BlindTag::UBP_SSAtom_BlindTag_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_SSAtom_BlindTag_C;
+DUMPER7_ASSERTS_BP_SSAtom_BlindTag__UBP_SSAtom_BlindTag_C;
 
 SDK_NAMESPACE_END

@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_Check_Factory.BP_Check_Factory_C
 // 0x0000 (0x0068 - 0x0068)
-class UBP_Check_Factory_C final : public UCyCheck_Factory
+class BP_Check_Factory::UBP_Check_Factory_C final : public UCyCheck_Factory
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_Check_Factory_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_Check_Factory.BP_Check_Factory_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_Check_Factory_C")
 	}
-	static class UBP_Check_Factory_C* GetDefaultObj()
+	static class BP_Check_Factory::UBP_Check_Factory_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_Check_Factory_C>();
+		return GetDefaultObjImpl<BP_Check_Factory::UBP_Check_Factory_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_Check_Factory_C;
+DUMPER7_ASSERTS_BP_Check_Factory__UBP_Check_Factory_C;
 
 SDK_NAMESPACE_END

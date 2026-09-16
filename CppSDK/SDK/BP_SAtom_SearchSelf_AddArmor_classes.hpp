@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_SAtom_SearchSelf_AddArmor.BP_SAtom_SearchSelf_AddArmor_C
 // 0x0000 (0x07A0 - 0x07A0)
-class UBP_SAtom_SearchSelf_AddArmor_C final : public UCySAtomSearchTargets
+class BP_SAtom_SearchSelf_AddArmor::UBP_SAtom_SearchSelf_AddArmor_C final : public UCySAtomSearchTargets
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_SAtom_SearchSelf_AddArmor_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_SAtom_SearchSelf_AddArmor.BP_SAtom_SearchSelf_AddArmor_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_SAtom_SearchSelf_AddArmor_C")
 	}
-	static class UBP_SAtom_SearchSelf_AddArmor_C* GetDefaultObj()
+	static class BP_SAtom_SearchSelf_AddArmor::UBP_SAtom_SearchSelf_AddArmor_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_SAtom_SearchSelf_AddArmor_C>();
+		return GetDefaultObjImpl<BP_SAtom_SearchSelf_AddArmor::UBP_SAtom_SearchSelf_AddArmor_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_SAtom_SearchSelf_AddArmor_C;
+DUMPER7_ASSERTS_BP_SAtom_SearchSelf_AddArmor__UBP_SAtom_SearchSelf_AddArmor_C;
 
 SDK_NAMESPACE_END

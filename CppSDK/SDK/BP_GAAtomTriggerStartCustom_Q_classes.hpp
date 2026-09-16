@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_GAAtomTriggerStartCustom_Q.BP_GAAtomTriggerStartCustom_Q_C
 // 0x0000 (0x0240 - 0x0240)
-class UBP_GAAtomTriggerStartCustom_Q_C final : public UCyGAAtomTriggerStartCustom
+class BP_GAAtomTriggerStartCustom_Q::UBP_GAAtomTriggerStartCustom_Q_C final : public UCyGAAtomTriggerStartCustom
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_GAAtomTriggerStartCustom_Q_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_GAAtomTriggerStartCustom_Q.BP_GAAtomTriggerStartCustom_Q_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_GAAtomTriggerStartCustom_Q_C")
 	}
-	static class UBP_GAAtomTriggerStartCustom_Q_C* GetDefaultObj()
+	static class BP_GAAtomTriggerStartCustom_Q::UBP_GAAtomTriggerStartCustom_Q_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_GAAtomTriggerStartCustom_Q_C>();
+		return GetDefaultObjImpl<BP_GAAtomTriggerStartCustom_Q::UBP_GAAtomTriggerStartCustom_Q_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_GAAtomTriggerStartCustom_Q_C;
+DUMPER7_ASSERTS_BP_GAAtomTriggerStartCustom_Q__UBP_GAAtomTriggerStartCustom_Q_C;
 
 SDK_NAMESPACE_END

@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_TargetFilter_Or.BP_TargetFilter_Or_C
 // 0x0000 (0x0060 - 0x0060)
-class UBP_TargetFilter_Or_C final : public UCyFilterBoolean
+class BP_TargetFilter_Or::UBP_TargetFilter_Or_C final : public UCyFilterBoolean
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_TargetFilter_Or_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_TargetFilter_Or.BP_TargetFilter_Or_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_TargetFilter_Or_C")
 	}
-	static class UBP_TargetFilter_Or_C* GetDefaultObj()
+	static class BP_TargetFilter_Or::UBP_TargetFilter_Or_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_TargetFilter_Or_C>();
+		return GetDefaultObjImpl<BP_TargetFilter_Or::UBP_TargetFilter_Or_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_TargetFilter_Or_C;
+DUMPER7_ASSERTS_BP_TargetFilter_Or__UBP_TargetFilter_Or_C;
 
 SDK_NAMESPACE_END

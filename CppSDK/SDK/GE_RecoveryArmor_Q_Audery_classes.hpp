@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass GE_RecoveryArmor_Q_Audery.GE_RecoveryArmor_Q_Audery_C
 // 0x0000 (0x1060 - 0x1060)
-class UGE_RecoveryArmor_Q_Audery_C final : public UGameplayEffect
+class GE_RecoveryArmor_Q_Audery::UGE_RecoveryArmor_Q_Audery_C final : public UGameplayEffect
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("GE_RecoveryArmor_Q_Audery_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass GE_RecoveryArmor_Q_Audery.GE_RecoveryArmor_Q_Audery_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"GE_RecoveryArmor_Q_Audery_C")
 	}
-	static class UGE_RecoveryArmor_Q_Audery_C* GetDefaultObj()
+	static class GE_RecoveryArmor_Q_Audery::UGE_RecoveryArmor_Q_Audery_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UGE_RecoveryArmor_Q_Audery_C>();
+		return GetDefaultObjImpl<GE_RecoveryArmor_Q_Audery::UGE_RecoveryArmor_Q_Audery_C>();
 	}
 };
-DUMPER7_ASSERTS_UGE_RecoveryArmor_Q_Audery_C;
+DUMPER7_ASSERTS_GE_RecoveryArmor_Q_Audery__UGE_RecoveryArmor_Q_Audery_C;
 
 SDK_NAMESPACE_END

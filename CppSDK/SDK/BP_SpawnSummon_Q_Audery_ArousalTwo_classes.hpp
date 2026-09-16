@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_SpawnSummon_Q_Audery_ArousalTwo.BP_SpawnSummon_Q_Audery_ArousalTwo_C
 // 0x0000 (0x0268 - 0x0268)
-class UBP_SpawnSummon_Q_Audery_ArousalTwo_C final : public UCyGATriggerSpawnSummon
+class BP_SpawnSummon_Q_Audery_ArousalTwo::UBP_SpawnSummon_Q_Audery_ArousalTwo_C final : public UCyGATriggerSpawnSummon
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_SpawnSummon_Q_Audery_ArousalTwo_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_SpawnSummon_Q_Audery_ArousalTwo.BP_SpawnSummon_Q_Audery_ArousalTwo_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_SpawnSummon_Q_Audery_ArousalTwo_C")
 	}
-	static class UBP_SpawnSummon_Q_Audery_ArousalTwo_C* GetDefaultObj()
+	static class BP_SpawnSummon_Q_Audery_ArousalTwo::UBP_SpawnSummon_Q_Audery_ArousalTwo_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_SpawnSummon_Q_Audery_ArousalTwo_C>();
+		return GetDefaultObjImpl<BP_SpawnSummon_Q_Audery_ArousalTwo::UBP_SpawnSummon_Q_Audery_ArousalTwo_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_SpawnSummon_Q_Audery_ArousalTwo_C;
+DUMPER7_ASSERTS_BP_SpawnSummon_Q_Audery_ArousalTwo__UBP_SpawnSummon_Q_Audery_ArousalTwo_C;
 
 SDK_NAMESPACE_END

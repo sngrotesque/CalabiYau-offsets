@@ -18,7 +18,7 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass GA_Q_Audery.GA_Q_Audery_C
 // 0x0008 (0x1B10 - 0x1B08)
-class UGA_Q_Audery_C final : public UCyBaseAbility
+class GA_Q_Audery::UGA_Q_Audery_C final : public UCyBaseAbility
 {
 public:
 	struct FPointerToUberGraphFrame               UberGraphFrame;                                    // 0x1B08(0x0008)(ZeroConstructor, Transient, DuplicateTransient)
@@ -29,17 +29,17 @@ public:
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("GA_Q_Audery_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass GA_Q_Audery.GA_Q_Audery_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"GA_Q_Audery_C")
 	}
-	static class UGA_Q_Audery_C* GetDefaultObj()
+	static class GA_Q_Audery::UGA_Q_Audery_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UGA_Q_Audery_C>();
+		return GetDefaultObjImpl<GA_Q_Audery::UGA_Q_Audery_C>();
 	}
 };
-DUMPER7_ASSERTS_UGA_Q_Audery_C;
+DUMPER7_ASSERTS_GA_Q_Audery__UGA_Q_Audery_C;
 
 SDK_NAMESPACE_END

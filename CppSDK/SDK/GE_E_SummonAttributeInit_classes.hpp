@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass GE_E_SummonAttributeInit.GE_E_SummonAttributeInit_C
 // 0x0000 (0x10E0 - 0x10E0)
-class UGE_E_SummonAttributeInit_C final : public UCyGameplayEffect
+class GE_E_SummonAttributeInit::UGE_E_SummonAttributeInit_C final : public UCyGameplayEffect
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("GE_E_SummonAttributeInit_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass GE_E_SummonAttributeInit.GE_E_SummonAttributeInit_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"GE_E_SummonAttributeInit_C")
 	}
-	static class UGE_E_SummonAttributeInit_C* GetDefaultObj()
+	static class GE_E_SummonAttributeInit::UGE_E_SummonAttributeInit_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UGE_E_SummonAttributeInit_C>();
+		return GetDefaultObjImpl<GE_E_SummonAttributeInit::UGE_E_SummonAttributeInit_C>();
 	}
 };
-DUMPER7_ASSERTS_UGE_E_SummonAttributeInit_C;
+DUMPER7_ASSERTS_GE_E_SummonAttributeInit__UGE_E_SummonAttributeInit_C;
 
 SDK_NAMESPACE_END

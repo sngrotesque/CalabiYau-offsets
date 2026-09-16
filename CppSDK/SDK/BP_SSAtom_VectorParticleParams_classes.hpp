@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_SSAtom_VectorParticleParams.BP_SSAtom_VectorParticleParams_C
 // 0x0000 (0x00C0 - 0x00C0)
-class UBP_SSAtom_VectorParticleParams_C final : public UCySSAtomParticleVectorParam
+class BP_SSAtom_VectorParticleParams::UBP_SSAtom_VectorParticleParams_C final : public UCySSAtomParticleVectorParam
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_SSAtom_VectorParticleParams_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_SSAtom_VectorParticleParams.BP_SSAtom_VectorParticleParams_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_SSAtom_VectorParticleParams_C")
 	}
-	static class UBP_SSAtom_VectorParticleParams_C* GetDefaultObj()
+	static class BP_SSAtom_VectorParticleParams::UBP_SSAtom_VectorParticleParams_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_SSAtom_VectorParticleParams_C>();
+		return GetDefaultObjImpl<BP_SSAtom_VectorParticleParams::UBP_SSAtom_VectorParticleParams_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_SSAtom_VectorParticleParams_C;
+DUMPER7_ASSERTS_BP_SSAtom_VectorParticleParams__UBP_SSAtom_VectorParticleParams_C;
 
 SDK_NAMESPACE_END

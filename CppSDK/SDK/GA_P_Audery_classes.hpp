@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass GA_P_Audery.GA_P_Audery_C
 // 0x0000 (0x1B08 - 0x1B08)
-class UGA_P_Audery_C final : public UCyBaseAbility
+class GA_P_Audery::UGA_P_Audery_C final : public UCyBaseAbility
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("GA_P_Audery_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass GA_P_Audery.GA_P_Audery_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"GA_P_Audery_C")
 	}
-	static class UGA_P_Audery_C* GetDefaultObj()
+	static class GA_P_Audery::UGA_P_Audery_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UGA_P_Audery_C>();
+		return GetDefaultObjImpl<GA_P_Audery::UGA_P_Audery_C>();
 	}
 };
-DUMPER7_ASSERTS_UGA_P_Audery_C;
+DUMPER7_ASSERTS_GA_P_Audery__UGA_P_Audery_C;
 
 SDK_NAMESPACE_END

@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_Atom_SetControlMode.BP_Atom_SetControlMode_C
 // 0x0000 (0x0598 - 0x0598)
-class UBP_Atom_SetControlMode_C final : public UCySAtomSetControlMode
+class BP_Atom_SetControlMode::UBP_Atom_SetControlMode_C final : public UCySAtomSetControlMode
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_Atom_SetControlMode_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_Atom_SetControlMode.BP_Atom_SetControlMode_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_Atom_SetControlMode_C")
 	}
-	static class UBP_Atom_SetControlMode_C* GetDefaultObj()
+	static class BP_Atom_SetControlMode::UBP_Atom_SetControlMode_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_Atom_SetControlMode_C>();
+		return GetDefaultObjImpl<BP_Atom_SetControlMode::UBP_Atom_SetControlMode_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_Atom_SetControlMode_C;
+DUMPER7_ASSERTS_BP_Atom_SetControlMode__UBP_Atom_SetControlMode_C;
 
 SDK_NAMESPACE_END

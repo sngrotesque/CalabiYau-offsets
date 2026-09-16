@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass GiverAddEffects.GiverAddEffects_C
 // 0x0000 (0x0080 - 0x0080)
-class UGiverAddEffects_C final : public UCyGAGiveEffects
+class GiverAddEffects::UGiverAddEffects_C final : public UCyGAGiveEffects
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("GiverAddEffects_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass GiverAddEffects.GiverAddEffects_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"GiverAddEffects_C")
 	}
-	static class UGiverAddEffects_C* GetDefaultObj()
+	static class GiverAddEffects::UGiverAddEffects_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UGiverAddEffects_C>();
+		return GetDefaultObjImpl<GiverAddEffects::UGiverAddEffects_C>();
 	}
 };
-DUMPER7_ASSERTS_UGiverAddEffects_C;
+DUMPER7_ASSERTS_GiverAddEffects__UGiverAddEffects_C;
 
 SDK_NAMESPACE_END

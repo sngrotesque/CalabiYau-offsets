@@ -17,7 +17,7 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_TriggerUIEvent_InputPressedAgain.BP_TriggerUIEvent_InputPressedAgain_C
 // 0x0000 (0x02B8 - 0x02B8)
-class UBP_TriggerUIEvent_InputPressedAgain_C final : public UCyGATriggerUIEvent
+class UBP_TriggerUIEvent_InputPressedAgain_C : public UCyGATriggerUIEvent
 {
 public:
 	static class UClass* StaticClass()

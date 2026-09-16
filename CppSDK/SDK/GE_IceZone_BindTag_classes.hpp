@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass GE_IceZone_BindTag.GE_IceZone_BindTag_C
 // 0x0000 (0x10E0 - 0x10E0)
-class UGE_IceZone_BindTag_C final : public UCyGameplayEffect
+class GE_IceZone_BindTag::UGE_IceZone_BindTag_C final : public UCyGameplayEffect
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("GE_IceZone_BindTag_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass GE_IceZone_BindTag.GE_IceZone_BindTag_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"GE_IceZone_BindTag_C")
 	}
-	static class UGE_IceZone_BindTag_C* GetDefaultObj()
+	static class GE_IceZone_BindTag::UGE_IceZone_BindTag_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UGE_IceZone_BindTag_C>();
+		return GetDefaultObjImpl<GE_IceZone_BindTag::UGE_IceZone_BindTag_C>();
 	}
 };
-DUMPER7_ASSERTS_UGE_IceZone_BindTag_C;
+DUMPER7_ASSERTS_GE_IceZone_BindTag__UGE_IceZone_BindTag_C;
 
 SDK_NAMESPACE_END

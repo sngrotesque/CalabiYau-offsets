@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_CheckSummon_HasNot.BP_CheckSummon_HasNot_C
 // 0x0000 (0x00C0 - 0x00C0)
-class UBP_CheckSummon_HasNot_C final : public UCyCheckSummonCount
+class BP_CheckSummon_HasNot::UBP_CheckSummon_HasNot_C final : public UCyCheckSummonCount
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_CheckSummon_HasNot_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_CheckSummon_HasNot.BP_CheckSummon_HasNot_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_CheckSummon_HasNot_C")
 	}
-	static class UBP_CheckSummon_HasNot_C* GetDefaultObj()
+	static class BP_CheckSummon_HasNot::UBP_CheckSummon_HasNot_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_CheckSummon_HasNot_C>();
+		return GetDefaultObjImpl<BP_CheckSummon_HasNot::UBP_CheckSummon_HasNot_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_CheckSummon_HasNot_C;
+DUMPER7_ASSERTS_BP_CheckSummon_HasNot__UBP_CheckSummon_HasNot_C;
 
 SDK_NAMESPACE_END

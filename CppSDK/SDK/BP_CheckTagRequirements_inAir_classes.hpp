@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_CheckTagRequirements_inAir.BP_CheckTagRequirements_inAir_C
 // 0x0000 (0x01E0 - 0x01E0)
-class UBP_CheckTagRequirements_inAir_C final : public UCyCheckTagRequirements
+class BP_CheckTagRequirements_inAir::UBP_CheckTagRequirements_inAir_C final : public UCyCheckTagRequirements
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_CheckTagRequirements_inAir_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_CheckTagRequirements_inAir.BP_CheckTagRequirements_inAir_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_CheckTagRequirements_inAir_C")
 	}
-	static class UBP_CheckTagRequirements_inAir_C* GetDefaultObj()
+	static class BP_CheckTagRequirements_inAir::UBP_CheckTagRequirements_inAir_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_CheckTagRequirements_inAir_C>();
+		return GetDefaultObjImpl<BP_CheckTagRequirements_inAir::UBP_CheckTagRequirements_inAir_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_CheckTagRequirements_inAir_C;
+DUMPER7_ASSERTS_BP_CheckTagRequirements_inAir__UBP_CheckTagRequirements_inAir_C;
 
 SDK_NAMESPACE_END

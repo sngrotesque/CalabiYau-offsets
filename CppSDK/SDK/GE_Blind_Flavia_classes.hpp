@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass GE_Blind_Flavia.GE_Blind_Flavia_C
 // 0x0000 (0x10E0 - 0x10E0)
-class UGE_Blind_Flavia_C final : public UCyGameplayEffect
+class GE_Blind_Flavia::UGE_Blind_Flavia_C final : public UCyGameplayEffect
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("GE_Blind_Flavia_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass GE_Blind_Flavia.GE_Blind_Flavia_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"GE_Blind_Flavia_C")
 	}
-	static class UGE_Blind_Flavia_C* GetDefaultObj()
+	static class GE_Blind_Flavia::UGE_Blind_Flavia_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UGE_Blind_Flavia_C>();
+		return GetDefaultObjImpl<GE_Blind_Flavia::UGE_Blind_Flavia_C>();
 	}
 };
-DUMPER7_ASSERTS_UGE_Blind_Flavia_C;
+DUMPER7_ASSERTS_GE_Blind_Flavia__UGE_Blind_Flavia_C;
 
 SDK_NAMESPACE_END

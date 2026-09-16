@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass Cost_X_Fuchsia.Cost_X_Fuchsia_C
 // 0x0000 (0x1060 - 0x1060)
-class UCost_X_Fuchsia_C final : public UGameplayEffect
+class Cost_X_Fuchsia::UCost_X_Fuchsia_C final : public UGameplayEffect
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("Cost_X_Fuchsia_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass Cost_X_Fuchsia.Cost_X_Fuchsia_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"Cost_X_Fuchsia_C")
 	}
-	static class UCost_X_Fuchsia_C* GetDefaultObj()
+	static class Cost_X_Fuchsia::UCost_X_Fuchsia_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UCost_X_Fuchsia_C>();
+		return GetDefaultObjImpl<Cost_X_Fuchsia::UCost_X_Fuchsia_C>();
 	}
 };
-DUMPER7_ASSERTS_UCost_X_Fuchsia_C;
+DUMPER7_ASSERTS_Cost_X_Fuchsia__UCost_X_Fuchsia_C;
 
 SDK_NAMESPACE_END

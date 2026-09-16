@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_Check_WeaponSocket.BP_Check_WeaponSocket_C
 // 0x0000 (0x00E0 - 0x00E0)
-class UBP_Check_WeaponSocket_C final : public UCyCheckWeaponState
+class BP_Check_WeaponSocket::UBP_Check_WeaponSocket_C final : public UCyCheckWeaponState
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_Check_WeaponSocket_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_Check_WeaponSocket.BP_Check_WeaponSocket_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_Check_WeaponSocket_C")
 	}
-	static class UBP_Check_WeaponSocket_C* GetDefaultObj()
+	static class BP_Check_WeaponSocket::UBP_Check_WeaponSocket_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_Check_WeaponSocket_C>();
+		return GetDefaultObjImpl<BP_Check_WeaponSocket::UBP_Check_WeaponSocket_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_Check_WeaponSocket_C;
+DUMPER7_ASSERTS_BP_Check_WeaponSocket__UBP_Check_WeaponSocket_C;
 
 SDK_NAMESPACE_END

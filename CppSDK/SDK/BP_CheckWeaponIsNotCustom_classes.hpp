@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_CheckWeaponIsNotCustom.BP_CheckWeaponIsNotCustom_C
 // 0x0000 (0x01E0 - 0x01E0)
-class UBP_CheckWeaponIsNotCustom_C final : public UCyCheckTagRequirements
+class BP_CheckWeaponIsNotCustom::UBP_CheckWeaponIsNotCustom_C final : public UCyCheckTagRequirements
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_CheckWeaponIsNotCustom_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_CheckWeaponIsNotCustom.BP_CheckWeaponIsNotCustom_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_CheckWeaponIsNotCustom_C")
 	}
-	static class UBP_CheckWeaponIsNotCustom_C* GetDefaultObj()
+	static class BP_CheckWeaponIsNotCustom::UBP_CheckWeaponIsNotCustom_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_CheckWeaponIsNotCustom_C>();
+		return GetDefaultObjImpl<BP_CheckWeaponIsNotCustom::UBP_CheckWeaponIsNotCustom_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_CheckWeaponIsNotCustom_C;
+DUMPER7_ASSERTS_BP_CheckWeaponIsNotCustom__UBP_CheckWeaponIsNotCustom_C;
 
 SDK_NAMESPACE_END

@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass GE_X_Mobai_SpeedFactor.GE_X_Mobai_SpeedFactor_C
 // 0x0000 (0x10E0 - 0x10E0)
-class UGE_X_Mobai_SpeedFactor_C final : public UCyGameplayEffect
+class GE_X_Mobai_SpeedFactor::UGE_X_Mobai_SpeedFactor_C final : public UCyGameplayEffect
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("GE_X_Mobai_SpeedFactor_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass GE_X_Mobai_SpeedFactor.GE_X_Mobai_SpeedFactor_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"GE_X_Mobai_SpeedFactor_C")
 	}
-	static class UGE_X_Mobai_SpeedFactor_C* GetDefaultObj()
+	static class GE_X_Mobai_SpeedFactor::UGE_X_Mobai_SpeedFactor_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UGE_X_Mobai_SpeedFactor_C>();
+		return GetDefaultObjImpl<GE_X_Mobai_SpeedFactor::UGE_X_Mobai_SpeedFactor_C>();
 	}
 };
-DUMPER7_ASSERTS_UGE_X_Mobai_SpeedFactor_C;
+DUMPER7_ASSERTS_GE_X_Mobai_SpeedFactor__UGE_X_Mobai_SpeedFactor_C;
 
 SDK_NAMESPACE_END

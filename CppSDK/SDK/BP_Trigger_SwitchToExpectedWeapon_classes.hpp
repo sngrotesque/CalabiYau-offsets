@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_Trigger_SwitchToExpectedWeapon.BP_Trigger_SwitchToExpectedWeapon_C
 // 0x0000 (0x0248 - 0x0248)
-class UBP_Trigger_SwitchToExpectedWeapon_C final : public UCyGATriggerSwitchToDesiredWeapon
+class BP_Trigger_SwitchToExpectedWeapon::UBP_Trigger_SwitchToExpectedWeapon_C final : public UCyGATriggerSwitchToDesiredWeapon
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_Trigger_SwitchToExpectedWeapon_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_Trigger_SwitchToExpectedWeapon.BP_Trigger_SwitchToExpectedWeapon_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_Trigger_SwitchToExpectedWeapon_C")
 	}
-	static class UBP_Trigger_SwitchToExpectedWeapon_C* GetDefaultObj()
+	static class BP_Trigger_SwitchToExpectedWeapon::UBP_Trigger_SwitchToExpectedWeapon_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_Trigger_SwitchToExpectedWeapon_C>();
+		return GetDefaultObjImpl<BP_Trigger_SwitchToExpectedWeapon::UBP_Trigger_SwitchToExpectedWeapon_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_Trigger_SwitchToExpectedWeapon_C;
+DUMPER7_ASSERTS_BP_Trigger_SwitchToExpectedWeapon__UBP_Trigger_SwitchToExpectedWeapon_C;
 
 SDK_NAMESPACE_END

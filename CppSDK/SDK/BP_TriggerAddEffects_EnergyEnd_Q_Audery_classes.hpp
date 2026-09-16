@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_TriggerAddEffects_EnergyEnd_Q_Audery.BP_TriggerAddEffects_EnergyEnd_Q_Audery_C
 // 0x0000 (0x0268 - 0x0268)
-class UBP_TriggerAddEffects_EnergyEnd_Q_Audery_C final : public UCyGATriggerAddEffects
+class BP_TriggerAddEffects_EnergyEnd_Q_Audery::UBP_TriggerAddEffects_EnergyEnd_Q_Audery_C final : public UCyGATriggerAddEffects
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_TriggerAddEffects_EnergyEnd_Q_Audery_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_TriggerAddEffects_EnergyEnd_Q_Audery.BP_TriggerAddEffects_EnergyEnd_Q_Audery_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_TriggerAddEffects_EnergyEnd_Q_Audery_C")
 	}
-	static class UBP_TriggerAddEffects_EnergyEnd_Q_Audery_C* GetDefaultObj()
+	static class BP_TriggerAddEffects_EnergyEnd_Q_Audery::UBP_TriggerAddEffects_EnergyEnd_Q_Audery_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_TriggerAddEffects_EnergyEnd_Q_Audery_C>();
+		return GetDefaultObjImpl<BP_TriggerAddEffects_EnergyEnd_Q_Audery::UBP_TriggerAddEffects_EnergyEnd_Q_Audery_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_TriggerAddEffects_EnergyEnd_Q_Audery_C;
+DUMPER7_ASSERTS_BP_TriggerAddEffects_EnergyEnd_Q_Audery__UBP_TriggerAddEffects_EnergyEnd_Q_Audery_C;
 
 SDK_NAMESPACE_END

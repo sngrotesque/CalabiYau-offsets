@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass DamageType_Q_Maddelena.DamageType_Q_Maddelena_C
 // 0x0000 (0x0548 - 0x0548)
-class UDamageType_Q_Maddelena_C final : public UPMDamageType
+class DamageType_Q_Maddelena::UDamageType_Q_Maddelena_C final : public UPMDamageType
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("DamageType_Q_Maddelena_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass DamageType_Q_Maddelena.DamageType_Q_Maddelena_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"DamageType_Q_Maddelena_C")
 	}
-	static class UDamageType_Q_Maddelena_C* GetDefaultObj()
+	static class DamageType_Q_Maddelena::UDamageType_Q_Maddelena_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UDamageType_Q_Maddelena_C>();
+		return GetDefaultObjImpl<DamageType_Q_Maddelena::UDamageType_Q_Maddelena_C>();
 	}
 };
-DUMPER7_ASSERTS_UDamageType_Q_Maddelena_C;
+DUMPER7_ASSERTS_DamageType_Q_Maddelena__UDamageType_Q_Maddelena_C;
 
 SDK_NAMESPACE_END

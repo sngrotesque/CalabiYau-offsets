@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_SAHideMesh_Q_Shelf.BP_SAHideMesh_Q_Shelf_C
 // 0x0000 (0x05F0 - 0x05F0)
-class UBP_SAHideMesh_Q_Shelf_C final : public UCySASetVisible
+class BP_SAHideMesh_Q_Shelf::UBP_SAHideMesh_Q_Shelf_C final : public UCySASetVisible
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_SAHideMesh_Q_Shelf_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_SAHideMesh_Q_Shelf.BP_SAHideMesh_Q_Shelf_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_SAHideMesh_Q_Shelf_C")
 	}
-	static class UBP_SAHideMesh_Q_Shelf_C* GetDefaultObj()
+	static class BP_SAHideMesh_Q_Shelf::UBP_SAHideMesh_Q_Shelf_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_SAHideMesh_Q_Shelf_C>();
+		return GetDefaultObjImpl<BP_SAHideMesh_Q_Shelf::UBP_SAHideMesh_Q_Shelf_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_SAHideMesh_Q_Shelf_C;
+DUMPER7_ASSERTS_BP_SAHideMesh_Q_Shelf__UBP_SAHideMesh_Q_Shelf_C;
 
 SDK_NAMESPACE_END

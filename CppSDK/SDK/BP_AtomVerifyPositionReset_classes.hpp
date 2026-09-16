@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_AtomVerifyPositionReset.BP_AtomVerifyPositionReset_C
 // 0x0000 (0x05F8 - 0x05F8)
-class UBP_AtomVerifyPositionReset_C final : public UCySAtomVerifyPositionReset
+class BP_AtomVerifyPositionReset::UBP_AtomVerifyPositionReset_C final : public UCySAtomVerifyPositionReset
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_AtomVerifyPositionReset_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_AtomVerifyPositionReset.BP_AtomVerifyPositionReset_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_AtomVerifyPositionReset_C")
 	}
-	static class UBP_AtomVerifyPositionReset_C* GetDefaultObj()
+	static class BP_AtomVerifyPositionReset::UBP_AtomVerifyPositionReset_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_AtomVerifyPositionReset_C>();
+		return GetDefaultObjImpl<BP_AtomVerifyPositionReset::UBP_AtomVerifyPositionReset_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_AtomVerifyPositionReset_C;
+DUMPER7_ASSERTS_BP_AtomVerifyPositionReset__UBP_AtomVerifyPositionReset_C;
 
 SDK_NAMESPACE_END

@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass GE_AddArmor.GE_AddArmor_C
 // 0x0000 (0x10E0 - 0x10E0)
-class UGE_AddArmor_C final : public UCyGameplayEffect
+class GE_AddArmor::UGE_AddArmor_C final : public UCyGameplayEffect
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("GE_AddArmor_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass GE_AddArmor.GE_AddArmor_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"GE_AddArmor_C")
 	}
-	static class UGE_AddArmor_C* GetDefaultObj()
+	static class GE_AddArmor::UGE_AddArmor_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UGE_AddArmor_C>();
+		return GetDefaultObjImpl<GE_AddArmor::UGE_AddArmor_C>();
 	}
 };
-DUMPER7_ASSERTS_UGE_AddArmor_C;
+DUMPER7_ASSERTS_GE_AddArmor__UGE_AddArmor_C;
 
 SDK_NAMESPACE_END

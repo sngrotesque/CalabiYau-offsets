@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass GE_Q_Flavia_Summon_AddArmor.GE_Q_Flavia_Summon_AddArmor_C
 // 0x0000 (0x1060 - 0x1060)
-class UGE_Q_Flavia_Summon_AddArmor_C final : public UGameplayEffect
+class GE_Q_Flavia_Summon_AddArmor::UGE_Q_Flavia_Summon_AddArmor_C final : public UGameplayEffect
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("GE_Q_Flavia_Summon_AddArmor_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass GE_Q_Flavia_Summon_AddArmor.GE_Q_Flavia_Summon_AddArmor_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"GE_Q_Flavia_Summon_AddArmor_C")
 	}
-	static class UGE_Q_Flavia_Summon_AddArmor_C* GetDefaultObj()
+	static class GE_Q_Flavia_Summon_AddArmor::UGE_Q_Flavia_Summon_AddArmor_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UGE_Q_Flavia_Summon_AddArmor_C>();
+		return GetDefaultObjImpl<GE_Q_Flavia_Summon_AddArmor::UGE_Q_Flavia_Summon_AddArmor_C>();
 	}
 };
-DUMPER7_ASSERTS_UGE_Q_Flavia_Summon_AddArmor_C;
+DUMPER7_ASSERTS_GE_Q_Flavia_Summon_AddArmor__UGE_Q_Flavia_Summon_AddArmor_C;
 
 SDK_NAMESPACE_END

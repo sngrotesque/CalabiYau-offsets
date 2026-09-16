@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_CheckSummonState.BP_CheckSummonState_C
 // 0x0000 (0x00D0 - 0x00D0)
-class UBP_CheckSummonState_C final : public UCyCheckSummonState
+class BP_CheckSummonState::UBP_CheckSummonState_C final : public UCyCheckSummonState
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_CheckSummonState_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_CheckSummonState.BP_CheckSummonState_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_CheckSummonState_C")
 	}
-	static class UBP_CheckSummonState_C* GetDefaultObj()
+	static class BP_CheckSummonState::UBP_CheckSummonState_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_CheckSummonState_C>();
+		return GetDefaultObjImpl<BP_CheckSummonState::UBP_CheckSummonState_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_CheckSummonState_C;
+DUMPER7_ASSERTS_BP_CheckSummonState__UBP_CheckSummonState_C;
 
 SDK_NAMESPACE_END

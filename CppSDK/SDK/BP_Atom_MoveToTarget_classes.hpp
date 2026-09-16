@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_Atom_MoveToTarget.BP_Atom_MoveToTarget_C
 // 0x0000 (0x05D0 - 0x05D0)
-class UBP_Atom_MoveToTarget_C final : public UCySAtomMoveToTarget
+class BP_Atom_MoveToTarget::UBP_Atom_MoveToTarget_C final : public UCySAtomMoveToTarget
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_Atom_MoveToTarget_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_Atom_MoveToTarget.BP_Atom_MoveToTarget_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_Atom_MoveToTarget_C")
 	}
-	static class UBP_Atom_MoveToTarget_C* GetDefaultObj()
+	static class BP_Atom_MoveToTarget::UBP_Atom_MoveToTarget_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_Atom_MoveToTarget_C>();
+		return GetDefaultObjImpl<BP_Atom_MoveToTarget::UBP_Atom_MoveToTarget_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_Atom_MoveToTarget_C;
+DUMPER7_ASSERTS_BP_Atom_MoveToTarget__UBP_Atom_MoveToTarget_C;
 
 SDK_NAMESPACE_END

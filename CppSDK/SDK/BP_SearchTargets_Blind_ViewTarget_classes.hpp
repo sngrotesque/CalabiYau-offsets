@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_SearchTargets_Blind_ViewTarget.BP_SearchTargets_Blind_ViewTarget_C
 // 0x0000 (0x07A0 - 0x07A0)
-class UBP_SearchTargets_Blind_ViewTarget_C final : public UCySAtomSearchTargets
+class BP_SearchTargets_Blind_ViewTarget::UBP_SearchTargets_Blind_ViewTarget_C final : public UCySAtomSearchTargets
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_SearchTargets_Blind_ViewTarget_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_SearchTargets_Blind_ViewTarget.BP_SearchTargets_Blind_ViewTarget_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_SearchTargets_Blind_ViewTarget_C")
 	}
-	static class UBP_SearchTargets_Blind_ViewTarget_C* GetDefaultObj()
+	static class BP_SearchTargets_Blind_ViewTarget::UBP_SearchTargets_Blind_ViewTarget_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_SearchTargets_Blind_ViewTarget_C>();
+		return GetDefaultObjImpl<BP_SearchTargets_Blind_ViewTarget::UBP_SearchTargets_Blind_ViewTarget_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_SearchTargets_Blind_ViewTarget_C;
+DUMPER7_ASSERTS_BP_SearchTargets_Blind_ViewTarget__UBP_SearchTargets_Blind_ViewTarget_C;
 
 SDK_NAMESPACE_END

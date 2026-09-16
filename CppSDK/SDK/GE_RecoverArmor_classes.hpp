@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass GE_RecoverArmor.GE_RecoverArmor_C
 // 0x0000 (0x10E0 - 0x10E0)
-class UGE_RecoverArmor_C final : public UCyGameplayEffect
+class GE_RecoverArmor::UGE_RecoverArmor_C final : public UCyGameplayEffect
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("GE_RecoverArmor_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass GE_RecoverArmor.GE_RecoverArmor_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"GE_RecoverArmor_C")
 	}
-	static class UGE_RecoverArmor_C* GetDefaultObj()
+	static class GE_RecoverArmor::UGE_RecoverArmor_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UGE_RecoverArmor_C>();
+		return GetDefaultObjImpl<GE_RecoverArmor::UGE_RecoverArmor_C>();
 	}
 };
-DUMPER7_ASSERTS_UGE_RecoverArmor_C;
+DUMPER7_ASSERTS_GE_RecoverArmor__UGE_RecoverArmor_C;
 
 SDK_NAMESPACE_END

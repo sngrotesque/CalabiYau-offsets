@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass GE_AddHealthEnergy.GE_AddHealthEnergy_C
 // 0x0000 (0x10E0 - 0x10E0)
-class UGE_AddHealthEnergy_C final : public UCyGameplayEffect
+class GE_AddHealthEnergy::UGE_AddHealthEnergy_C final : public UCyGameplayEffect
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("GE_AddHealthEnergy_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass GE_AddHealthEnergy.GE_AddHealthEnergy_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"GE_AddHealthEnergy_C")
 	}
-	static class UGE_AddHealthEnergy_C* GetDefaultObj()
+	static class GE_AddHealthEnergy::UGE_AddHealthEnergy_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UGE_AddHealthEnergy_C>();
+		return GetDefaultObjImpl<GE_AddHealthEnergy::UGE_AddHealthEnergy_C>();
 	}
 };
-DUMPER7_ASSERTS_UGE_AddHealthEnergy_C;
+DUMPER7_ASSERTS_GE_AddHealthEnergy__UGE_AddHealthEnergy_C;
 
 SDK_NAMESPACE_END

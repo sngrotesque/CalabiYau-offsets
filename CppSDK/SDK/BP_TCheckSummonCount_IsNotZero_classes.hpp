@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_TCheckSummonCount_IsNotZero.BP_TCheckSummonCount_IsNotZero_C
 // 0x0000 (0x00D0 - 0x00D0)
-class UBP_TCheckSummonCount_IsNotZero_C final : public UCyGATCheckSummonCount
+class BP_TCheckSummonCount_IsNotZero::UBP_TCheckSummonCount_IsNotZero_C final : public UCyGATCheckSummonCount
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_TCheckSummonCount_IsNotZero_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_TCheckSummonCount_IsNotZero.BP_TCheckSummonCount_IsNotZero_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_TCheckSummonCount_IsNotZero_C")
 	}
-	static class UBP_TCheckSummonCount_IsNotZero_C* GetDefaultObj()
+	static class BP_TCheckSummonCount_IsNotZero::UBP_TCheckSummonCount_IsNotZero_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_TCheckSummonCount_IsNotZero_C>();
+		return GetDefaultObjImpl<BP_TCheckSummonCount_IsNotZero::UBP_TCheckSummonCount_IsNotZero_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_TCheckSummonCount_IsNotZero_C;
+DUMPER7_ASSERTS_BP_TCheckSummonCount_IsNotZero__UBP_TCheckSummonCount_IsNotZero_C;
 
 SDK_NAMESPACE_END

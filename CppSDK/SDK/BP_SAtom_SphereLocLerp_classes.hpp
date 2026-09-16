@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_SAtom_SphereLocLerp.BP_SAtom_SphereLocLerp_C
 // 0x0000 (0x05B8 - 0x05B8)
-class UBP_SAtom_SphereLocLerp_C final : public UCySAtomSphereLocationLerp
+class BP_SAtom_SphereLocLerp::UBP_SAtom_SphereLocLerp_C final : public UCySAtomSphereLocationLerp
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_SAtom_SphereLocLerp_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_SAtom_SphereLocLerp.BP_SAtom_SphereLocLerp_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_SAtom_SphereLocLerp_C")
 	}
-	static class UBP_SAtom_SphereLocLerp_C* GetDefaultObj()
+	static class BP_SAtom_SphereLocLerp::UBP_SAtom_SphereLocLerp_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_SAtom_SphereLocLerp_C>();
+		return GetDefaultObjImpl<BP_SAtom_SphereLocLerp::UBP_SAtom_SphereLocLerp_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_SAtom_SphereLocLerp_C;
+DUMPER7_ASSERTS_BP_SAtom_SphereLocLerp__UBP_SAtom_SphereLocLerp_C;
 
 SDK_NAMESPACE_END

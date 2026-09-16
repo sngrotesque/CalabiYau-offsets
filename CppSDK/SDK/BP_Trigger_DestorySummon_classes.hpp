@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_Trigger_DestorySummon.BP_Trigger_DestorySummon_C
 // 0x0000 (0x0250 - 0x0250)
-class UBP_Trigger_DestorySummon_C final : public UCyGATriggerDestroySummon
+class BP_Trigger_DestorySummon::UBP_Trigger_DestorySummon_C final : public UCyGATriggerDestroySummon
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_Trigger_DestorySummon_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_Trigger_DestorySummon.BP_Trigger_DestorySummon_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_Trigger_DestorySummon_C")
 	}
-	static class UBP_Trigger_DestorySummon_C* GetDefaultObj()
+	static class BP_Trigger_DestorySummon::UBP_Trigger_DestorySummon_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_Trigger_DestorySummon_C>();
+		return GetDefaultObjImpl<BP_Trigger_DestorySummon::UBP_Trigger_DestorySummon_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_Trigger_DestorySummon_C;
+DUMPER7_ASSERTS_BP_Trigger_DestorySummon__UBP_Trigger_DestorySummon_C;
 
 SDK_NAMESPACE_END

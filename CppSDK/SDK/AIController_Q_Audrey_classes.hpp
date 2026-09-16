@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass AIController_Q_Audrey.AIController_Q_Audrey_C
 // 0x0000 (0x0428 - 0x0428)
-class AAIController_Q_Audrey_C final : public ACyBehaviorAIController
+class AIController_Q_Audrey::AAIController_Q_Audrey_C final : public ACyBehaviorAIController
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("AIController_Q_Audrey_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass AIController_Q_Audrey.AIController_Q_Audrey_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"AIController_Q_Audrey_C")
 	}
-	static class AAIController_Q_Audrey_C* GetDefaultObj()
+	static class AIController_Q_Audrey::AAIController_Q_Audrey_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<AAIController_Q_Audrey_C>();
+		return GetDefaultObjImpl<AIController_Q_Audrey::AAIController_Q_Audrey_C>();
 	}
 };
-DUMPER7_ASSERTS_AAIController_Q_Audrey_C;
+DUMPER7_ASSERTS_AIController_Q_Audrey__AAIController_Q_Audrey_C;
 
 SDK_NAMESPACE_END

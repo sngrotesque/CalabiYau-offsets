@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_SearchTargets_Blind_NotClose.BP_SearchTargets_Blind_NotClose_C
 // 0x0000 (0x07A0 - 0x07A0)
-class UBP_SearchTargets_Blind_NotClose_C final : public UCySAtomSearchTargets
+class BP_SearchTargets_Blind_NotClose::UBP_SearchTargets_Blind_NotClose_C final : public UCySAtomSearchTargets
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_SearchTargets_Blind_NotClose_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_SearchTargets_Blind_NotClose.BP_SearchTargets_Blind_NotClose_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_SearchTargets_Blind_NotClose_C")
 	}
-	static class UBP_SearchTargets_Blind_NotClose_C* GetDefaultObj()
+	static class BP_SearchTargets_Blind_NotClose::UBP_SearchTargets_Blind_NotClose_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_SearchTargets_Blind_NotClose_C>();
+		return GetDefaultObjImpl<BP_SearchTargets_Blind_NotClose::UBP_SearchTargets_Blind_NotClose_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_SearchTargets_Blind_NotClose_C;
+DUMPER7_ASSERTS_BP_SearchTargets_Blind_NotClose__UBP_SearchTargets_Blind_NotClose_C;
 
 SDK_NAMESPACE_END

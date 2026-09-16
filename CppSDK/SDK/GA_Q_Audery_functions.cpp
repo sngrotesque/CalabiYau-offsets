@@ -21,7 +21,7 @@ SDK_NAMESPACE_START
 // Parameters:
 // int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void UGA_Q_Audery_C::ExecuteUbergraph_GA_Q_Audery(int32 EntryPoint)
+void GA_Q_Audery::UGA_Q_Audery_C::ExecuteUbergraph_GA_Q_Audery(int32 EntryPoint)
 {
 	static class UFunction* Func = nullptr;
 

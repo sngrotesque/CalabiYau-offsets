@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_CheckClickInterval_Q_Audery.BP_CheckClickInterval_Q_Audery_C
 // 0x0000 (0x0060 - 0x0060)
-class UBP_CheckClickInterval_Q_Audery_C final : public UCyCheckClickInterval
+class BP_CheckClickInterval_Q_Audery::UBP_CheckClickInterval_Q_Audery_C final : public UCyCheckClickInterval
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_CheckClickInterval_Q_Audery_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_CheckClickInterval_Q_Audery.BP_CheckClickInterval_Q_Audery_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_CheckClickInterval_Q_Audery_C")
 	}
-	static class UBP_CheckClickInterval_Q_Audery_C* GetDefaultObj()
+	static class BP_CheckClickInterval_Q_Audery::UBP_CheckClickInterval_Q_Audery_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_CheckClickInterval_Q_Audery_C>();
+		return GetDefaultObjImpl<BP_CheckClickInterval_Q_Audery::UBP_CheckClickInterval_Q_Audery_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_CheckClickInterval_Q_Audery_C;
+DUMPER7_ASSERTS_BP_CheckClickInterval_Q_Audery__UBP_CheckClickInterval_Q_Audery_C;
 
 SDK_NAMESPACE_END

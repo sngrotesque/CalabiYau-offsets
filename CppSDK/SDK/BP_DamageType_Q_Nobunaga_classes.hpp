@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_DamageType_Q_Nobunaga.BP_DamageType_Q_Nobunaga_C
 // 0x0000 (0x0548 - 0x0548)
-class UBP_DamageType_Q_Nobunaga_C final : public UPMDamageType
+class BP_DamageType_Q_Nobunaga::UBP_DamageType_Q_Nobunaga_C final : public UPMDamageType
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_DamageType_Q_Nobunaga_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_DamageType_Q_Nobunaga.BP_DamageType_Q_Nobunaga_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_DamageType_Q_Nobunaga_C")
 	}
-	static class UBP_DamageType_Q_Nobunaga_C* GetDefaultObj()
+	static class BP_DamageType_Q_Nobunaga::UBP_DamageType_Q_Nobunaga_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_DamageType_Q_Nobunaga_C>();
+		return GetDefaultObjImpl<BP_DamageType_Q_Nobunaga::UBP_DamageType_Q_Nobunaga_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_DamageType_Q_Nobunaga_C;
+DUMPER7_ASSERTS_BP_DamageType_Q_Nobunaga__UBP_DamageType_Q_Nobunaga_C;
 
 SDK_NAMESPACE_END

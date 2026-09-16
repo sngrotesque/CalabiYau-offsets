@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_TriggerSetAttributeValue.BP_TriggerSetAttributeValue_C
 // 0x0000 (0x0280 - 0x0280)
-class UBP_TriggerSetAttributeValue_C final : public UCyGATriggerSetAttributeValue
+class BP_TriggerSetAttributeValue::UBP_TriggerSetAttributeValue_C final : public UCyGATriggerSetAttributeValue
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_TriggerSetAttributeValue_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_TriggerSetAttributeValue.BP_TriggerSetAttributeValue_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_TriggerSetAttributeValue_C")
 	}
-	static class UBP_TriggerSetAttributeValue_C* GetDefaultObj()
+	static class BP_TriggerSetAttributeValue::UBP_TriggerSetAttributeValue_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_TriggerSetAttributeValue_C>();
+		return GetDefaultObjImpl<BP_TriggerSetAttributeValue::UBP_TriggerSetAttributeValue_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_TriggerSetAttributeValue_C;
+DUMPER7_ASSERTS_BP_TriggerSetAttributeValue__UBP_TriggerSetAttributeValue_C;
 
 SDK_NAMESPACE_END

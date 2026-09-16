@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_TriggerCheckWeaponState_Equip_X_Fuchsia.BP_TriggerCheckWeaponState_Equip_X_Fuchsia_C
 // 0x0000 (0x0100 - 0x0100)
-class UBP_TriggerCheckWeaponState_Equip_X_Fuchsia_C final : public UCyGATCheckWeaponState
+class BP_TriggerCheckWeaponState_Equip_X_Fuchsia::UBP_TriggerCheckWeaponState_Equip_X_Fuchsia_C final : public UCyGATCheckWeaponState
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_TriggerCheckWeaponState_Equip_X_Fuchsia_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_TriggerCheckWeaponState_Equip_X_Fuchsia.BP_TriggerCheckWeaponState_Equip_X_Fuchsia_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_TriggerCheckWeaponState_Equip_X_Fuchsia_C")
 	}
-	static class UBP_TriggerCheckWeaponState_Equip_X_Fuchsia_C* GetDefaultObj()
+	static class BP_TriggerCheckWeaponState_Equip_X_Fuchsia::UBP_TriggerCheckWeaponState_Equip_X_Fuchsia_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_TriggerCheckWeaponState_Equip_X_Fuchsia_C>();
+		return GetDefaultObjImpl<BP_TriggerCheckWeaponState_Equip_X_Fuchsia::UBP_TriggerCheckWeaponState_Equip_X_Fuchsia_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_TriggerCheckWeaponState_Equip_X_Fuchsia_C;
+DUMPER7_ASSERTS_BP_TriggerCheckWeaponState_Equip_X_Fuchsia__UBP_TriggerCheckWeaponState_Equip_X_Fuchsia_C;
 
 SDK_NAMESPACE_END

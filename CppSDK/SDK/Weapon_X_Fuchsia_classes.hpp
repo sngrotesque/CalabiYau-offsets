@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass Weapon_X_Fuchsia.Weapon_X_Fuchsia_C
 // 0x0000 (0x12F0 - 0x12F0)
-class AWeapon_X_Fuchsia_C final : public ACyWeaponSkill
+class Weapon_X_Fuchsia::AWeapon_X_Fuchsia_C final : public ACyWeaponSkill
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("Weapon_X_Fuchsia_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass Weapon_X_Fuchsia.Weapon_X_Fuchsia_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"Weapon_X_Fuchsia_C")
 	}
-	static class AWeapon_X_Fuchsia_C* GetDefaultObj()
+	static class Weapon_X_Fuchsia::AWeapon_X_Fuchsia_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<AWeapon_X_Fuchsia_C>();
+		return GetDefaultObjImpl<Weapon_X_Fuchsia::AWeapon_X_Fuchsia_C>();
 	}
 };
-DUMPER7_ASSERTS_AWeapon_X_Fuchsia_C;
+DUMPER7_ASSERTS_Weapon_X_Fuchsia__AWeapon_X_Fuchsia_C;
 
 SDK_NAMESPACE_END

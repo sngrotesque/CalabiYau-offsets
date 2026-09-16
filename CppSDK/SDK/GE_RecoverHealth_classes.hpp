@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass GE_RecoverHealth.GE_RecoverHealth_C
 // 0x0000 (0x10E0 - 0x10E0)
-class UGE_RecoverHealth_C final : public UCyGameplayEffect
+class GE_RecoverHealth::UGE_RecoverHealth_C final : public UCyGameplayEffect
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("GE_RecoverHealth_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass GE_RecoverHealth.GE_RecoverHealth_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"GE_RecoverHealth_C")
 	}
-	static class UGE_RecoverHealth_C* GetDefaultObj()
+	static class GE_RecoverHealth::UGE_RecoverHealth_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UGE_RecoverHealth_C>();
+		return GetDefaultObjImpl<GE_RecoverHealth::UGE_RecoverHealth_C>();
 	}
 };
-DUMPER7_ASSERTS_UGE_RecoverHealth_C;
+DUMPER7_ASSERTS_GE_RecoverHealth__UGE_RecoverHealth_C;
 
 SDK_NAMESPACE_END

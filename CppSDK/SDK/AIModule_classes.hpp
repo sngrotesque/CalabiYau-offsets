@@ -3293,7 +3293,7 @@ DUMPER7_ASSERTS_UEnvQueryContext;
 
 // Class AIModule.EnvQueryContext_BlueprintBase
 // 0x0008 (0x0030 - 0x0028)
-class UEnvQueryContext_BlueprintBase : public UEnvQueryContext
+class UEnvQueryContext_BlueprintBase final : public UEnvQueryContext
 {
 public:
 	uint8                                         Pad_28[0x8];                                       // 0x0028(0x0008)(Fixing Struct Size After Last Property [ Dumper-7 ])

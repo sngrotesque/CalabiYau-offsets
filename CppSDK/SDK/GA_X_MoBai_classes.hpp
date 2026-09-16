@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass GA_X_MoBai.GA_X_MoBai_C
 // 0x0000 (0x1B08 - 0x1B08)
-class UGA_X_MoBai_C final : public UCyBaseAbility
+class GA_X_MoBai::UGA_X_MoBai_C final : public UCyBaseAbility
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("GA_X_MoBai_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass GA_X_MoBai.GA_X_MoBai_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"GA_X_MoBai_C")
 	}
-	static class UGA_X_MoBai_C* GetDefaultObj()
+	static class GA_X_MoBai::UGA_X_MoBai_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UGA_X_MoBai_C>();
+		return GetDefaultObjImpl<GA_X_MoBai::UGA_X_MoBai_C>();
 	}
 };
-DUMPER7_ASSERTS_UGA_X_MoBai_C;
+DUMPER7_ASSERTS_GA_X_MoBai__UGA_X_MoBai_C;
 
 SDK_NAMESPACE_END

@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass GE_AddArmorMax_X.GE_AddArmorMax_X_C
 // 0x0000 (0x1060 - 0x1060)
-class UGE_AddArmorMax_X_C final : public UGameplayEffect
+class GE_AddArmorMax_X::UGE_AddArmorMax_X_C final : public UGameplayEffect
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("GE_AddArmorMax_X_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass GE_AddArmorMax_X.GE_AddArmorMax_X_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"GE_AddArmorMax_X_C")
 	}
-	static class UGE_AddArmorMax_X_C* GetDefaultObj()
+	static class GE_AddArmorMax_X::UGE_AddArmorMax_X_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UGE_AddArmorMax_X_C>();
+		return GetDefaultObjImpl<GE_AddArmorMax_X::UGE_AddArmorMax_X_C>();
 	}
 };
-DUMPER7_ASSERTS_UGE_AddArmorMax_X_C;
+DUMPER7_ASSERTS_GE_AddArmorMax_X__UGE_AddArmorMax_X_C;
 
 SDK_NAMESPACE_END

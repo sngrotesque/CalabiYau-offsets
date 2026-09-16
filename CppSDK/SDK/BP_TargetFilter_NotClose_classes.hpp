@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_TargetFilter_NotClose.BP_TargetFilter_NotClose_C
 // 0x0000 (0x00B0 - 0x00B0)
-class UBP_TargetFilter_NotClose_C final : public UCyTargetFilterDistance
+class BP_TargetFilter_NotClose::UBP_TargetFilter_NotClose_C final : public UCyTargetFilterDistance
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_TargetFilter_NotClose_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_TargetFilter_NotClose.BP_TargetFilter_NotClose_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_TargetFilter_NotClose_C")
 	}
-	static class UBP_TargetFilter_NotClose_C* GetDefaultObj()
+	static class BP_TargetFilter_NotClose::UBP_TargetFilter_NotClose_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_TargetFilter_NotClose_C>();
+		return GetDefaultObjImpl<BP_TargetFilter_NotClose::UBP_TargetFilter_NotClose_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_TargetFilter_NotClose_C;
+DUMPER7_ASSERTS_BP_TargetFilter_NotClose__UBP_TargetFilter_NotClose_C;
 
 SDK_NAMESPACE_END

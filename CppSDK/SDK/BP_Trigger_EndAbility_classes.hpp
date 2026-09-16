@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_Trigger_EndAbility.BP_Trigger_EndAbility_C
 // 0x0000 (0x0240 - 0x0240)
-class UBP_Trigger_EndAbility_C final : public UCyGATriggerEndAbility
+class BP_Trigger_EndAbility::UBP_Trigger_EndAbility_C final : public UCyGATriggerEndAbility
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_Trigger_EndAbility_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_Trigger_EndAbility.BP_Trigger_EndAbility_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_Trigger_EndAbility_C")
 	}
-	static class UBP_Trigger_EndAbility_C* GetDefaultObj()
+	static class BP_Trigger_EndAbility::UBP_Trigger_EndAbility_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_Trigger_EndAbility_C>();
+		return GetDefaultObjImpl<BP_Trigger_EndAbility::UBP_Trigger_EndAbility_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_Trigger_EndAbility_C;
+DUMPER7_ASSERTS_BP_Trigger_EndAbility__UBP_Trigger_EndAbility_C;
 
 SDK_NAMESPACE_END

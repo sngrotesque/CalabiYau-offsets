@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_Atom_ApplayEffect_Work.BP_Atom_ApplayEffect_Work_C
 // 0x0000 (0x05D8 - 0x05D8)
-class UBP_Atom_ApplayEffect_Work_C final : public UCySAtomApplyEffects
+class BP_Atom_ApplayEffect_Work::UBP_Atom_ApplayEffect_Work_C final : public UCySAtomApplyEffects
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_Atom_ApplayEffect_Work_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_Atom_ApplayEffect_Work.BP_Atom_ApplayEffect_Work_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_Atom_ApplayEffect_Work_C")
 	}
-	static class UBP_Atom_ApplayEffect_Work_C* GetDefaultObj()
+	static class BP_Atom_ApplayEffect_Work::UBP_Atom_ApplayEffect_Work_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_Atom_ApplayEffect_Work_C>();
+		return GetDefaultObjImpl<BP_Atom_ApplayEffect_Work::UBP_Atom_ApplayEffect_Work_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_Atom_ApplayEffect_Work_C;
+DUMPER7_ASSERTS_BP_Atom_ApplayEffect_Work__UBP_Atom_ApplayEffect_Work_C;
 
 SDK_NAMESPACE_END

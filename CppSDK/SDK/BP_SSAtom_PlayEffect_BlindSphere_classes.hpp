@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_SSAtom_PlayEffect_BlindSphere.BP_SSAtom_PlayEffect_BlindSphere_C
 // 0x0000 (0x0088 - 0x0088)
-class UBP_SSAtom_PlayEffect_BlindSphere_C final : public UCySSAtomPlayEffect
+class BP_SSAtom_PlayEffect_BlindSphere::UBP_SSAtom_PlayEffect_BlindSphere_C final : public UCySSAtomPlayEffect
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_SSAtom_PlayEffect_BlindSphere_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_SSAtom_PlayEffect_BlindSphere.BP_SSAtom_PlayEffect_BlindSphere_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_SSAtom_PlayEffect_BlindSphere_C")
 	}
-	static class UBP_SSAtom_PlayEffect_BlindSphere_C* GetDefaultObj()
+	static class BP_SSAtom_PlayEffect_BlindSphere::UBP_SSAtom_PlayEffect_BlindSphere_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_SSAtom_PlayEffect_BlindSphere_C>();
+		return GetDefaultObjImpl<BP_SSAtom_PlayEffect_BlindSphere::UBP_SSAtom_PlayEffect_BlindSphere_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_SSAtom_PlayEffect_BlindSphere_C;
+DUMPER7_ASSERTS_BP_SSAtom_PlayEffect_BlindSphere__UBP_SSAtom_PlayEffect_BlindSphere_C;
 
 SDK_NAMESPACE_END

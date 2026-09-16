@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass GE_ArousalOne_MoBai.GE_ArousalOne_MoBai_C
 // 0x0000 (0x10E0 - 0x10E0)
-class UGE_ArousalOne_MoBai_C final : public UCyGameplayEffect
+class GE_ArousalOne_MoBai::UGE_ArousalOne_MoBai_C final : public UCyGameplayEffect
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("GE_ArousalOne_MoBai_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass GE_ArousalOne_MoBai.GE_ArousalOne_MoBai_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"GE_ArousalOne_MoBai_C")
 	}
-	static class UGE_ArousalOne_MoBai_C* GetDefaultObj()
+	static class GE_ArousalOne_MoBai::UGE_ArousalOne_MoBai_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UGE_ArousalOne_MoBai_C>();
+		return GetDefaultObjImpl<GE_ArousalOne_MoBai::UGE_ArousalOne_MoBai_C>();
 	}
 };
-DUMPER7_ASSERTS_UGE_ArousalOne_MoBai_C;
+DUMPER7_ASSERTS_GE_ArousalOne_MoBai__UGE_ArousalOne_MoBai_C;
 
 SDK_NAMESPACE_END

@@ -17,7 +17,7 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass Summon_Q_Flavia_Eye.Summon_Q_Flavia_Eye_C
 // 0x0090 (0x0930 - 0x08A0)
-class ASummon_Q_Flavia_Eye_C final : public ACySummonActor
+class Summon_Q_Flavia_Eye::ASummon_Q_Flavia_Eye_C final : public ACySummonActor
 {
 public:
 	uint8                                         Pad_898[0x8];                                      // 0x0898(0x0008)(Fixing Size After Last Property [ Dumper-7 ])
@@ -43,17 +43,17 @@ public:
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("Summon_Q_Flavia_Eye_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass Summon_Q_Flavia_Eye.Summon_Q_Flavia_Eye_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"Summon_Q_Flavia_Eye_C")
 	}
-	static class ASummon_Q_Flavia_Eye_C* GetDefaultObj()
+	static class Summon_Q_Flavia_Eye::ASummon_Q_Flavia_Eye_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<ASummon_Q_Flavia_Eye_C>();
+		return GetDefaultObjImpl<Summon_Q_Flavia_Eye::ASummon_Q_Flavia_Eye_C>();
 	}
 };
-DUMPER7_ASSERTS_ASummon_Q_Flavia_Eye_C;
+DUMPER7_ASSERTS_Summon_Q_Flavia_Eye__ASummon_Q_Flavia_Eye_C;
 
 SDK_NAMESPACE_END

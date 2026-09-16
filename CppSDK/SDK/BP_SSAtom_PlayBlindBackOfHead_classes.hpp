@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_SSAtom_PlayBlindBackOfHead.BP_SSAtom_PlayBlindBackOfHead_C
 // 0x0000 (0x0060 - 0x0060)
-class UBP_SSAtom_PlayBlindBackOfHead_C final : public UCySSAtomPlayEffectOnTargets
+class BP_SSAtom_PlayBlindBackOfHead::UBP_SSAtom_PlayBlindBackOfHead_C final : public UCySSAtomPlayEffectOnTargets
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_SSAtom_PlayBlindBackOfHead_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_SSAtom_PlayBlindBackOfHead.BP_SSAtom_PlayBlindBackOfHead_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_SSAtom_PlayBlindBackOfHead_C")
 	}
-	static class UBP_SSAtom_PlayBlindBackOfHead_C* GetDefaultObj()
+	static class BP_SSAtom_PlayBlindBackOfHead::UBP_SSAtom_PlayBlindBackOfHead_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_SSAtom_PlayBlindBackOfHead_C>();
+		return GetDefaultObjImpl<BP_SSAtom_PlayBlindBackOfHead::UBP_SSAtom_PlayBlindBackOfHead_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_SSAtom_PlayBlindBackOfHead_C;
+DUMPER7_ASSERTS_BP_SSAtom_PlayBlindBackOfHead__UBP_SSAtom_PlayBlindBackOfHead_C;
 
 SDK_NAMESPACE_END

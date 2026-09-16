@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_TargetFilter_SameTeam.BP_TargetFilter_SameTeam_C
 // 0x0000 (0x0050 - 0x0050)
-class UBP_TargetFilter_SameTeam_C final : public UCyFilterSameTeam
+class BP_TargetFilter_SameTeam::UBP_TargetFilter_SameTeam_C final : public UCyFilterSameTeam
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_TargetFilter_SameTeam_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_TargetFilter_SameTeam.BP_TargetFilter_SameTeam_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_TargetFilter_SameTeam_C")
 	}
-	static class UBP_TargetFilter_SameTeam_C* GetDefaultObj()
+	static class BP_TargetFilter_SameTeam::UBP_TargetFilter_SameTeam_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_TargetFilter_SameTeam_C>();
+		return GetDefaultObjImpl<BP_TargetFilter_SameTeam::UBP_TargetFilter_SameTeam_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_TargetFilter_SameTeam_C;
+DUMPER7_ASSERTS_BP_TargetFilter_SameTeam__UBP_TargetFilter_SameTeam_C;
 
 SDK_NAMESPACE_END
