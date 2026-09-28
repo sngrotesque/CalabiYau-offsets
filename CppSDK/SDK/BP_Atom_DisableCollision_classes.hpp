@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_Atom_DisableCollision.BP_Atom_DisableCollision_C
 // 0x0000 (0x0590 - 0x0590)
-class BP_Atom_DisableCollision::UBP_Atom_DisableCollision_C final : public UCySAtomDisableCollision
+class UBP_Atom_DisableCollision_C final : public UCySAtomDisableCollision
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_Atom_DisableCollision.BP_Atom_DisableCollision_C")
+		BP_STATIC_CLASS_IMPL("BP_Atom_DisableCollision_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_Atom_DisableCollision_C")
 	}
-	static class BP_Atom_DisableCollision::UBP_Atom_DisableCollision_C* GetDefaultObj()
+	static class UBP_Atom_DisableCollision_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<BP_Atom_DisableCollision::UBP_Atom_DisableCollision_C>();
+		return GetDefaultObjImpl<UBP_Atom_DisableCollision_C>();
 	}
 };
-DUMPER7_ASSERTS_BP_Atom_DisableCollision__UBP_Atom_DisableCollision_C;
+DUMPER7_ASSERTS_UBP_Atom_DisableCollision_C;
 
 SDK_NAMESPACE_END

@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_SA_ModifyCompProperty_E_Yvette.BP_SA_ModifyCompProperty_E_Yvette_C
 // 0x0000 (0x08A0 - 0x08A0)
-class BP_SA_ModifyCompProperty_E_Yvette::UBP_SA_ModifyCompProperty_E_Yvette_C final : public UCyStateAtomModifyCompProperty
+class UBP_SA_ModifyCompProperty_E_Yvette_C final : public UCyStateAtomModifyCompProperty
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_SA_ModifyCompProperty_E_Yvette.BP_SA_ModifyCompProperty_E_Yvette_C")
+		BP_STATIC_CLASS_IMPL("BP_SA_ModifyCompProperty_E_Yvette_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_SA_ModifyCompProperty_E_Yvette_C")
 	}
-	static class BP_SA_ModifyCompProperty_E_Yvette::UBP_SA_ModifyCompProperty_E_Yvette_C* GetDefaultObj()
+	static class UBP_SA_ModifyCompProperty_E_Yvette_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<BP_SA_ModifyCompProperty_E_Yvette::UBP_SA_ModifyCompProperty_E_Yvette_C>();
+		return GetDefaultObjImpl<UBP_SA_ModifyCompProperty_E_Yvette_C>();
 	}
 };
-DUMPER7_ASSERTS_BP_SA_ModifyCompProperty_E_Yvette__UBP_SA_ModifyCompProperty_E_Yvette_C;
+DUMPER7_ASSERTS_UBP_SA_ModifyCompProperty_E_Yvette_C;
 
 SDK_NAMESPACE_END

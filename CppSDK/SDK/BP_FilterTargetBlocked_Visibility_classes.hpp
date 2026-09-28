@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_FilterTargetBlocked_Visibility.BP_FilterTargetBlocked_Visibility_C
 // 0x0000 (0x00A8 - 0x00A8)
-class BP_FilterTargetBlocked_Visibility::UBP_FilterTargetBlocked_Visibility_C final : public UCyFilterTargetBlocked
+class UBP_FilterTargetBlocked_Visibility_C final : public UCyFilterTargetBlocked
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_FilterTargetBlocked_Visibility.BP_FilterTargetBlocked_Visibility_C")
+		BP_STATIC_CLASS_IMPL("BP_FilterTargetBlocked_Visibility_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_FilterTargetBlocked_Visibility_C")
 	}
-	static class BP_FilterTargetBlocked_Visibility::UBP_FilterTargetBlocked_Visibility_C* GetDefaultObj()
+	static class UBP_FilterTargetBlocked_Visibility_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<BP_FilterTargetBlocked_Visibility::UBP_FilterTargetBlocked_Visibility_C>();
+		return GetDefaultObjImpl<UBP_FilterTargetBlocked_Visibility_C>();
 	}
 };
-DUMPER7_ASSERTS_BP_FilterTargetBlocked_Visibility__UBP_FilterTargetBlocked_Visibility_C;
+DUMPER7_ASSERTS_UBP_FilterTargetBlocked_Visibility_C;
 
 SDK_NAMESPACE_END

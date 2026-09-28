@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_AdjustShapeStateStateAtom.BP_AdjustShapeStateStateAtom_C
 // 0x0000 (0x0618 - 0x0618)
-class BP_AdjustShapeStateStateAtom::UBP_AdjustShapeStateStateAtom_C final : public UCyAdjustShapeStateStateAtom
+class UBP_AdjustShapeStateStateAtom_C final : public UCyAdjustShapeStateStateAtom
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_AdjustShapeStateStateAtom.BP_AdjustShapeStateStateAtom_C")
+		BP_STATIC_CLASS_IMPL("BP_AdjustShapeStateStateAtom_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_AdjustShapeStateStateAtom_C")
 	}
-	static class BP_AdjustShapeStateStateAtom::UBP_AdjustShapeStateStateAtom_C* GetDefaultObj()
+	static class UBP_AdjustShapeStateStateAtom_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<BP_AdjustShapeStateStateAtom::UBP_AdjustShapeStateStateAtom_C>();
+		return GetDefaultObjImpl<UBP_AdjustShapeStateStateAtom_C>();
 	}
 };
-DUMPER7_ASSERTS_BP_AdjustShapeStateStateAtom__UBP_AdjustShapeStateStateAtom_C;
+DUMPER7_ASSERTS_UBP_AdjustShapeStateStateAtom_C;
 
 SDK_NAMESPACE_END

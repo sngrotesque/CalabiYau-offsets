@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass DamageType_ArousalThree.DamageType_ArousalThree_C
 // 0x0000 (0x0548 - 0x0548)
-class DamageType_ArousalThree::UDamageType_ArousalThree_C final : public UPMAbilityDamageType
+class UDamageType_ArousalThree_C final : public UPMAbilityDamageType
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass DamageType_ArousalThree.DamageType_ArousalThree_C")
+		BP_STATIC_CLASS_IMPL("DamageType_ArousalThree_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"DamageType_ArousalThree_C")
 	}
-	static class DamageType_ArousalThree::UDamageType_ArousalThree_C* GetDefaultObj()
+	static class UDamageType_ArousalThree_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<DamageType_ArousalThree::UDamageType_ArousalThree_C>();
+		return GetDefaultObjImpl<UDamageType_ArousalThree_C>();
 	}
 };
-DUMPER7_ASSERTS_DamageType_ArousalThree__UDamageType_ArousalThree_C;
+DUMPER7_ASSERTS_UDamageType_ArousalThree_C;
 
 SDK_NAMESPACE_END

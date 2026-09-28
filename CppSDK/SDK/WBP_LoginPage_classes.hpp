@@ -142,9 +142,9 @@ public:
 	class UAkAudioEvent*                          AKEventBGM_I;                                      // 0x0998(0x0008)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
 public:
-	void PreConstruct(bool IsDesignTime_PreConstruct);
-	void Construct();
 	void ExecuteUbergraph_WBP_LoginPage(int32 EntryPoint);
+	void Construct();
+	void PreConstruct(bool IsDesignTime);
 
 public:
 	static class UClass* StaticClass()

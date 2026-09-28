@@ -16,26 +16,6 @@
 
 SDK_NAMESPACE_START
 
-// Function WBP_CustomStyleButton.WBP_CustomStyleButton_C.PreConstruct
-// (BlueprintCosmetic, Event, Public, BlueprintEvent)
-// Parameters:
-// bool                                    IsDesignTime_PreConstruct                              (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
-
-void UWBP_CustomStyleButton_C::PreConstruct(bool IsDesignTime_PreConstruct)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("WBP_CustomStyleButton_C", "PreConstruct");
-
-	Params::WBP_CustomStyleButton_C_PreConstruct Parms{};
-
-	Parms.IsDesignTime_PreConstruct = IsDesignTime_PreConstruct;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
 // Function WBP_CustomStyleButton.WBP_CustomStyleButton_C.ExecuteUbergraph_WBP_CustomStyleButton
 // (Final, UbergraphFunction)
 // Parameters:
@@ -51,6 +31,26 @@ void UWBP_CustomStyleButton_C::ExecuteUbergraph_WBP_CustomStyleButton(int32 Entr
 	Params::WBP_CustomStyleButton_C_ExecuteUbergraph_WBP_CustomStyleButton Parms{};
 
 	Parms.EntryPoint = EntryPoint;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function WBP_CustomStyleButton.WBP_CustomStyleButton_C.PreConstruct
+// (BlueprintCosmetic, Event, Public, BlueprintEvent)
+// Parameters:
+// bool                                    IsDesignTime                                           (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
+
+void UWBP_CustomStyleButton_C::PreConstruct(bool IsDesignTime)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("WBP_CustomStyleButton_C", "PreConstruct");
+
+	Params::WBP_CustomStyleButton_C_PreConstruct Parms{};
+
+	Parms.IsDesignTime = IsDesignTime;
 
 	UObject::ProcessEvent(Func, &Parms);
 }

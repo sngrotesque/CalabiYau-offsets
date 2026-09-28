@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_TargetDetectorPlane.BP_TargetDetectorPlane_C
 // 0x0000 (0x0638 - 0x0638)
-class BP_TargetDetectorPlane::UBP_TargetDetectorPlane_C final : public UCyTargetDetectorPlane
+class UBP_TargetDetectorPlane_C final : public UCyTargetDetectorPlane
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_TargetDetectorPlane.BP_TargetDetectorPlane_C")
+		BP_STATIC_CLASS_IMPL("BP_TargetDetectorPlane_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_TargetDetectorPlane_C")
 	}
-	static class BP_TargetDetectorPlane::UBP_TargetDetectorPlane_C* GetDefaultObj()
+	static class UBP_TargetDetectorPlane_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<BP_TargetDetectorPlane::UBP_TargetDetectorPlane_C>();
+		return GetDefaultObjImpl<UBP_TargetDetectorPlane_C>();
 	}
 };
-DUMPER7_ASSERTS_BP_TargetDetectorPlane__UBP_TargetDetectorPlane_C;
+DUMPER7_ASSERTS_UBP_TargetDetectorPlane_C;
 
 SDK_NAMESPACE_END

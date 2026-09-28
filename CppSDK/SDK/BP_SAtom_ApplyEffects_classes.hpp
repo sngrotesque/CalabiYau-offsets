@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_SAtom_ApplyEffects.BP_SAtom_ApplyEffects_C
 // 0x0000 (0x05D8 - 0x05D8)
-class BP_SAtom_ApplyEffects::UBP_SAtom_ApplyEffects_C final : public UCySAtomApplyEffects
+class UBP_SAtom_ApplyEffects_C final : public UCySAtomApplyEffects
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_SAtom_ApplyEffects.BP_SAtom_ApplyEffects_C")
+		BP_STATIC_CLASS_IMPL("BP_SAtom_ApplyEffects_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_SAtom_ApplyEffects_C")
 	}
-	static class BP_SAtom_ApplyEffects::UBP_SAtom_ApplyEffects_C* GetDefaultObj()
+	static class UBP_SAtom_ApplyEffects_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<BP_SAtom_ApplyEffects::UBP_SAtom_ApplyEffects_C>();
+		return GetDefaultObjImpl<UBP_SAtom_ApplyEffects_C>();
 	}
 };
-DUMPER7_ASSERTS_BP_SAtom_ApplyEffects__UBP_SAtom_ApplyEffects_C;
+DUMPER7_ASSERTS_UBP_SAtom_ApplyEffects_C;
 
 SDK_NAMESPACE_END

@@ -16,12 +16,26 @@
 
 SDK_NAMESPACE_START
 
+// Function SummonIceZone_Q_Yvette_ArousalOne.SummonIceZone_Q_Yvette_ArousalOne_C.ReceiveBeginPlay
+// (Event, Protected, BlueprintEvent)
+
+void ASummonIceZone_Q_Yvette_ArousalOne_C::ReceiveBeginPlay()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("SummonIceZone_Q_Yvette_ArousalOne_C", "ReceiveBeginPlay");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
 // Function SummonIceZone_Q_Yvette_ArousalOne.SummonIceZone_Q_Yvette_ArousalOne_C.ExecuteUbergraph_SummonIceZone_Q_Yvette_ArousalOne
 // (Final, UbergraphFunction)
 // Parameters:
 // int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void SummonIceZone_Q_Yvette_ArousalOne::ASummonIceZone_Q_Yvette_ArousalOne_C::ExecuteUbergraph_SummonIceZone_Q_Yvette_ArousalOne(int32 EntryPoint)
+void ASummonIceZone_Q_Yvette_ArousalOne_C::ExecuteUbergraph_SummonIceZone_Q_Yvette_ArousalOne(int32 EntryPoint)
 {
 	static class UFunction* Func = nullptr;
 
@@ -33,20 +47,6 @@ void SummonIceZone_Q_Yvette_ArousalOne::ASummonIceZone_Q_Yvette_ArousalOne_C::Ex
 	Parms.EntryPoint = EntryPoint;
 
 	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// Function SummonIceZone_Q_Yvette_ArousalOne.SummonIceZone_Q_Yvette_ArousalOne_C.ReceiveBeginPlay
-// (Event, Protected, BlueprintEvent)
-
-void SummonIceZone_Q_Yvette_ArousalOne::ASummonIceZone_Q_Yvette_ArousalOne_C::ReceiveBeginPlay()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("SummonIceZone_Q_Yvette_ArousalOne_C", "ReceiveBeginPlay");
-
-	UObject::ProcessEvent(Func, nullptr);
 }
 
 

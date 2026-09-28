@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BPSA_TryGotoSliding.BPSA_TryGotoSliding_C
 // 0x0000 (0x05B0 - 0x05B0)
-class BPSA_TryGotoSliding::UBPSA_TryGotoSliding_C final : public UCySAtomSummonGotoSliding
+class UBPSA_TryGotoSliding_C final : public UCySAtomSummonGotoSliding
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BPSA_TryGotoSliding.BPSA_TryGotoSliding_C")
+		BP_STATIC_CLASS_IMPL("BPSA_TryGotoSliding_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BPSA_TryGotoSliding_C")
 	}
-	static class BPSA_TryGotoSliding::UBPSA_TryGotoSliding_C* GetDefaultObj()
+	static class UBPSA_TryGotoSliding_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<BPSA_TryGotoSliding::UBPSA_TryGotoSliding_C>();
+		return GetDefaultObjImpl<UBPSA_TryGotoSliding_C>();
 	}
 };
-DUMPER7_ASSERTS_BPSA_TryGotoSliding__UBPSA_TryGotoSliding_C;
+DUMPER7_ASSERTS_UBPSA_TryGotoSliding_C;
 
 SDK_NAMESPACE_END

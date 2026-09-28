@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BPSA_SearchEnemy.BPSA_SearchEnemy_C
 // 0x0000 (0x07A0 - 0x07A0)
-class BPSA_SearchEnemy::UBPSA_SearchEnemy_C final : public UCySAtomSearchTargets
+class UBPSA_SearchEnemy_C final : public UCySAtomSearchTargets
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BPSA_SearchEnemy.BPSA_SearchEnemy_C")
+		BP_STATIC_CLASS_IMPL("BPSA_SearchEnemy_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BPSA_SearchEnemy_C")
 	}
-	static class BPSA_SearchEnemy::UBPSA_SearchEnemy_C* GetDefaultObj()
+	static class UBPSA_SearchEnemy_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<BPSA_SearchEnemy::UBPSA_SearchEnemy_C>();
+		return GetDefaultObjImpl<UBPSA_SearchEnemy_C>();
 	}
 };
-DUMPER7_ASSERTS_BPSA_SearchEnemy__UBPSA_SearchEnemy_C;
+DUMPER7_ASSERTS_UBPSA_SearchEnemy_C;
 
 SDK_NAMESPACE_END

@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_TargetDetectorSphere_Self.BP_TargetDetectorSphere_Self_C
 // 0x0000 (0x0618 - 0x0618)
-class BP_TargetDetectorSphere_Self::UBP_TargetDetectorSphere_Self_C final : public UCyTargetDetectorSphere
+class UBP_TargetDetectorSphere_Self_C final : public UCyTargetDetectorSphere
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_TargetDetectorSphere_Self.BP_TargetDetectorSphere_Self_C")
+		BP_STATIC_CLASS_IMPL("BP_TargetDetectorSphere_Self_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_TargetDetectorSphere_Self_C")
 	}
-	static class BP_TargetDetectorSphere_Self::UBP_TargetDetectorSphere_Self_C* GetDefaultObj()
+	static class UBP_TargetDetectorSphere_Self_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<BP_TargetDetectorSphere_Self::UBP_TargetDetectorSphere_Self_C>();
+		return GetDefaultObjImpl<UBP_TargetDetectorSphere_Self_C>();
 	}
 };
-DUMPER7_ASSERTS_BP_TargetDetectorSphere_Self__UBP_TargetDetectorSphere_Self_C;
+DUMPER7_ASSERTS_UBP_TargetDetectorSphere_Self_C;
 
 SDK_NAMESPACE_END

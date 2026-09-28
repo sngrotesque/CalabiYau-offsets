@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass Detector_X_Enemy_Right.Detector_X_Enemy_Right_C
 // 0x0000 (0x0638 - 0x0638)
-class Detector_X_Enemy_Right::UDetector_X_Enemy_Right_C final : public UCyTargetDetectorPlane
+class UDetector_X_Enemy_Right_C final : public UCyTargetDetectorPlane
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass Detector_X_Enemy_Right.Detector_X_Enemy_Right_C")
+		BP_STATIC_CLASS_IMPL("Detector_X_Enemy_Right_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"Detector_X_Enemy_Right_C")
 	}
-	static class Detector_X_Enemy_Right::UDetector_X_Enemy_Right_C* GetDefaultObj()
+	static class UDetector_X_Enemy_Right_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<Detector_X_Enemy_Right::UDetector_X_Enemy_Right_C>();
+		return GetDefaultObjImpl<UDetector_X_Enemy_Right_C>();
 	}
 };
-DUMPER7_ASSERTS_Detector_X_Enemy_Right__UDetector_X_Enemy_Right_C;
+DUMPER7_ASSERTS_UDetector_X_Enemy_Right_C;
 
 SDK_NAMESPACE_END

@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass TriggerAddEffects_P_Lawine.TriggerAddEffects_P_Lawine_C
 // 0x0000 (0x02A8 - 0x02A8)
-class TriggerAddEffects_P_Lawine::UTriggerAddEffects_P_Lawine_C final : public UCyGATriggerAddGameplayEffects
+class UTriggerAddEffects_P_Lawine_C final : public UCyGATriggerAddGameplayEffects
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass TriggerAddEffects_P_Lawine.TriggerAddEffects_P_Lawine_C")
+		BP_STATIC_CLASS_IMPL("TriggerAddEffects_P_Lawine_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"TriggerAddEffects_P_Lawine_C")
 	}
-	static class TriggerAddEffects_P_Lawine::UTriggerAddEffects_P_Lawine_C* GetDefaultObj()
+	static class UTriggerAddEffects_P_Lawine_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<TriggerAddEffects_P_Lawine::UTriggerAddEffects_P_Lawine_C>();
+		return GetDefaultObjImpl<UTriggerAddEffects_P_Lawine_C>();
 	}
 };
-DUMPER7_ASSERTS_TriggerAddEffects_P_Lawine__UTriggerAddEffects_P_Lawine_C;
+DUMPER7_ASSERTS_UTriggerAddEffects_P_Lawine_C;
 
 SDK_NAMESPACE_END

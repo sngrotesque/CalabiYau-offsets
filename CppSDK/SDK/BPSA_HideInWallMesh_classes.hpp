@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BPSA_HideInWallMesh.BPSA_HideInWallMesh_C
 // 0x0000 (0x05F0 - 0x05F0)
-class BPSA_HideInWallMesh::UBPSA_HideInWallMesh_C final : public UCySASetVisible
+class UBPSA_HideInWallMesh_C final : public UCySASetVisible
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BPSA_HideInWallMesh.BPSA_HideInWallMesh_C")
+		BP_STATIC_CLASS_IMPL("BPSA_HideInWallMesh_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BPSA_HideInWallMesh_C")
 	}
-	static class BPSA_HideInWallMesh::UBPSA_HideInWallMesh_C* GetDefaultObj()
+	static class UBPSA_HideInWallMesh_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<BPSA_HideInWallMesh::UBPSA_HideInWallMesh_C>();
+		return GetDefaultObjImpl<UBPSA_HideInWallMesh_C>();
 	}
 };
-DUMPER7_ASSERTS_BPSA_HideInWallMesh__UBPSA_HideInWallMesh_C;
+DUMPER7_ASSERTS_UBPSA_HideInWallMesh_C;
 
 SDK_NAMESPACE_END

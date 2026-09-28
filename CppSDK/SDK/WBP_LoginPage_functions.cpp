@@ -16,21 +16,21 @@
 
 SDK_NAMESPACE_START
 
-// Function WBP_LoginPage.WBP_LoginPage_C.PreConstruct
-// (BlueprintCosmetic, Event, Public, BlueprintEvent)
+// Function WBP_LoginPage.WBP_LoginPage_C.ExecuteUbergraph_WBP_LoginPage
+// (Final, UbergraphFunction)
 // Parameters:
-// bool                                    IsDesignTime_PreConstruct                              (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
+// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void UWBP_LoginPage_C::PreConstruct(bool IsDesignTime_PreConstruct)
+void UWBP_LoginPage_C::ExecuteUbergraph_WBP_LoginPage(int32 EntryPoint)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("WBP_LoginPage_C", "PreConstruct");
+		Func = Class->GetFunction("WBP_LoginPage_C", "ExecuteUbergraph_WBP_LoginPage");
 
-	Params::WBP_LoginPage_C_PreConstruct Parms{};
+	Params::WBP_LoginPage_C_ExecuteUbergraph_WBP_LoginPage Parms{};
 
-	Parms.IsDesignTime_PreConstruct = IsDesignTime_PreConstruct;
+	Parms.EntryPoint = EntryPoint;
 
 	UObject::ProcessEvent(Func, &Parms);
 }
@@ -55,21 +55,21 @@ void UWBP_LoginPage_C::Construct()
 }
 
 
-// Function WBP_LoginPage.WBP_LoginPage_C.ExecuteUbergraph_WBP_LoginPage
-// (Final, UbergraphFunction)
+// Function WBP_LoginPage.WBP_LoginPage_C.PreConstruct
+// (BlueprintCosmetic, Event, Public, BlueprintEvent)
 // Parameters:
-// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// bool                                    IsDesignTime                                           (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
 
-void UWBP_LoginPage_C::ExecuteUbergraph_WBP_LoginPage(int32 EntryPoint)
+void UWBP_LoginPage_C::PreConstruct(bool IsDesignTime)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("WBP_LoginPage_C", "ExecuteUbergraph_WBP_LoginPage");
+		Func = Class->GetFunction("WBP_LoginPage_C", "PreConstruct");
 
-	Params::WBP_LoginPage_C_ExecuteUbergraph_WBP_LoginPage Parms{};
+	Params::WBP_LoginPage_C_PreConstruct Parms{};
 
-	Parms.EntryPoint = EntryPoint;
+	Parms.IsDesignTime = IsDesignTime;
 
 	UObject::ProcessEvent(Func, &Parms);
 }

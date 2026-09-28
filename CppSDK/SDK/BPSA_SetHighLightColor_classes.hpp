@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BPSA_SetHighLightColor.BPSA_SetHighLightColor_C
 // 0x0000 (0x0598 - 0x0598)
-class BPSA_SetHighLightColor::UBPSA_SetHighLightColor_C final : public UCySetHighLightColorStateAtom
+class UBPSA_SetHighLightColor_C final : public UCySetHighLightColorStateAtom
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BPSA_SetHighLightColor.BPSA_SetHighLightColor_C")
+		BP_STATIC_CLASS_IMPL("BPSA_SetHighLightColor_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BPSA_SetHighLightColor_C")
 	}
-	static class BPSA_SetHighLightColor::UBPSA_SetHighLightColor_C* GetDefaultObj()
+	static class UBPSA_SetHighLightColor_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<BPSA_SetHighLightColor::UBPSA_SetHighLightColor_C>();
+		return GetDefaultObjImpl<UBPSA_SetHighLightColor_C>();
 	}
 };
-DUMPER7_ASSERTS_BPSA_SetHighLightColor__UBPSA_SetHighLightColor_C;
+DUMPER7_ASSERTS_UBPSA_SetHighLightColor_C;
 
 SDK_NAMESPACE_END

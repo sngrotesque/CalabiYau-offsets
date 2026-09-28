@@ -1,0 +1,139 @@
+{
+	"files": [
+		{
+			"path": "CppSDK/SDK/Basic.hpp",
+			"bookmarks": [
+				{
+					"line": 61,
+					"column": 0,
+					"label": "基础偏移量"
+				}
+			]
+		},
+		{
+			"path": "CppSDK/SDK/Engine_classes.hpp",
+			"bookmarks": [
+				{
+					"line": 108,
+					"column": 0,
+					"label": "USceneComponent"
+				},
+				{
+					"line": 1177,
+					"column": 0,
+					"label": "UPlayer"
+				},
+				{
+					"line": 1952,
+					"column": 0,
+					"label": "AActor"
+				},
+				{
+					"line": 3672,
+					"column": 0,
+					"label": "APawn"
+				},
+				{
+					"line": 4753,
+					"column": 0,
+					"label": "AController"
+				},
+				{
+					"line": 5006,
+					"column": 0,
+					"label": "ACharacter"
+				},
+				{
+					"line": 5196,
+					"column": 0,
+					"label": "UGameInstance"
+				},
+				{
+					"line": 5256,
+					"column": 0,
+					"label": "APlayerCameraManager"
+				},
+				{
+					"line": 5426,
+					"column": 0,
+					"label": "APlayerController"
+				},
+				{
+					"line": 6422,
+					"column": 0,
+					"label": "UWorld"
+				},
+				{
+					"line": 8214,
+					"column": 0,
+					"label": "APlayerState"
+				},
+				{
+					"line": 22652,
+					"column": 0,
+					"label": "ULevel"
+				}
+			]
+		},
+		{
+			"path": "CppSDK/SDK/PMGame_classes.hpp",
+			"bookmarks": [
+				{
+					"line": 6900,
+					"column": 0,
+					"label": "ACyPlayerStateBase"
+				},
+				{
+					"line": 7167,
+					"column": 0,
+					"label": "UCyBaseAttributeSet"
+				},
+				{
+					"line": 10857,
+					"column": 0,
+					"label": "AWFBasePlayerState"
+				},
+				{
+					"line": 17288,
+					"column": 0,
+					"label": "ACyCharacterBase"
+				},
+				{
+					"line": 17854,
+					"column": 0,
+					"label": "UCyCharacterAttributeSet"
+				},
+				{
+					"line": 36775,
+					"column": 0,
+					"label": "UCyLifeStateComponent"
+				},
+				{
+					"line": 37080,
+					"column": 0,
+					"label": "UCyLifeComponent"
+				}
+			]
+		},
+		{
+			"path": "CppSDK/SDK/PMGame_structs.hpp",
+			"bookmarks": [
+				{
+					"line": 1646,
+					"column": 0,
+					"label": "ELifeStateType"
+				},
+				{
+					"line": 5957,
+					"column": 0,
+					"label": "EArmorStateType"
+				},
+				{
+					"line": 10067,
+					"column": 0,
+					"label": "EHealthStage"
+				}
+			]
+		}
+	]
+}

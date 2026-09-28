@@ -16,21 +16,21 @@
 
 SDK_NAMESPACE_START
 
-// Function WBP_HotKey.WBP_HotKey_C.PreConstruct
-// (BlueprintCosmetic, Event, Public, BlueprintEvent)
+// Function WBP_HotKey.WBP_HotKey_C.ExecuteUbergraph_WBP_HotKey
+// (Final, UbergraphFunction)
 // Parameters:
-// bool                                    IsDesignTime_PreConstruct                              (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
+// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void UWBP_HotKey_C::PreConstruct(bool IsDesignTime_PreConstruct)
+void UWBP_HotKey_C::ExecuteUbergraph_WBP_HotKey(int32 EntryPoint)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("WBP_HotKey_C", "PreConstruct");
+		Func = Class->GetFunction("WBP_HotKey_C", "ExecuteUbergraph_WBP_HotKey");
 
-	Params::WBP_HotKey_C_PreConstruct Parms{};
+	Params::WBP_HotKey_C_ExecuteUbergraph_WBP_HotKey Parms{};
 
-	Parms.IsDesignTime_PreConstruct = IsDesignTime_PreConstruct;
+	Parms.EntryPoint = EntryPoint;
 
 	UObject::ProcessEvent(Func, &Parms);
 }
@@ -50,21 +50,21 @@ void UWBP_HotKey_C::Construct()
 }
 
 
-// Function WBP_HotKey.WBP_HotKey_C.ExecuteUbergraph_WBP_HotKey
-// (Final, UbergraphFunction)
+// Function WBP_HotKey.WBP_HotKey_C.PreConstruct
+// (BlueprintCosmetic, Event, Public, BlueprintEvent)
 // Parameters:
-// int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// bool                                    IsDesignTime                                           (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
 
-void UWBP_HotKey_C::ExecuteUbergraph_WBP_HotKey(int32 EntryPoint)
+void UWBP_HotKey_C::PreConstruct(bool IsDesignTime)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("WBP_HotKey_C", "ExecuteUbergraph_WBP_HotKey");
+		Func = Class->GetFunction("WBP_HotKey_C", "PreConstruct");
 
-	Params::WBP_HotKey_C_ExecuteUbergraph_WBP_HotKey Parms{};
+	Params::WBP_HotKey_C_PreConstruct Parms{};
 
-	Parms.EntryPoint = EntryPoint;
+	Parms.IsDesignTime = IsDesignTime;
 
 	UObject::ProcessEvent(Func, &Parms);
 }

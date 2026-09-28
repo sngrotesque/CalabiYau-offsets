@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_TriggerSpawnSummon.BP_TriggerSpawnSummon_C
 // 0x0000 (0x0268 - 0x0268)
-class BP_TriggerSpawnSummon::UBP_TriggerSpawnSummon_C final : public UCyGATriggerSpawnSummon
+class UBP_TriggerSpawnSummon_C final : public UCyGATriggerSpawnSummon
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_TriggerSpawnSummon.BP_TriggerSpawnSummon_C")
+		BP_STATIC_CLASS_IMPL("BP_TriggerSpawnSummon_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_TriggerSpawnSummon_C")
 	}
-	static class BP_TriggerSpawnSummon::UBP_TriggerSpawnSummon_C* GetDefaultObj()
+	static class UBP_TriggerSpawnSummon_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<BP_TriggerSpawnSummon::UBP_TriggerSpawnSummon_C>();
+		return GetDefaultObjImpl<UBP_TriggerSpawnSummon_C>();
 	}
 };
-DUMPER7_ASSERTS_BP_TriggerSpawnSummon__UBP_TriggerSpawnSummon_C;
+DUMPER7_ASSERTS_UBP_TriggerSpawnSummon_C;
 
 SDK_NAMESPACE_END

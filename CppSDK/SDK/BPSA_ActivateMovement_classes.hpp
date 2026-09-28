@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BPSA_ActivateMovement.BPSA_ActivateMovement_C
 // 0x0000 (0x05A8 - 0x05A8)
-class BPSA_ActivateMovement::UBPSA_ActivateMovement_C final : public UCySAtomActivateMovement
+class UBPSA_ActivateMovement_C final : public UCySAtomActivateMovement
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BPSA_ActivateMovement.BPSA_ActivateMovement_C")
+		BP_STATIC_CLASS_IMPL("BPSA_ActivateMovement_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BPSA_ActivateMovement_C")
 	}
-	static class BPSA_ActivateMovement::UBPSA_ActivateMovement_C* GetDefaultObj()
+	static class UBPSA_ActivateMovement_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<BPSA_ActivateMovement::UBPSA_ActivateMovement_C>();
+		return GetDefaultObjImpl<UBPSA_ActivateMovement_C>();
 	}
 };
-DUMPER7_ASSERTS_BPSA_ActivateMovement__UBPSA_ActivateMovement_C;
+DUMPER7_ASSERTS_UBPSA_ActivateMovement_C;
 
 SDK_NAMESPACE_END

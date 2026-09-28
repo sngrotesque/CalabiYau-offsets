@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_CheckAllowBigMap.BP_CheckAllowBigMap_C
 // 0x0000 (0x0058 - 0x0058)
-class BP_CheckAllowBigMap::UBP_CheckAllowBigMap_C final : public UCyCheckAllowBigMap
+class UBP_CheckAllowBigMap_C final : public UCyCheckAllowBigMap
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_CheckAllowBigMap.BP_CheckAllowBigMap_C")
+		BP_STATIC_CLASS_IMPL("BP_CheckAllowBigMap_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_CheckAllowBigMap_C")
 	}
-	static class BP_CheckAllowBigMap::UBP_CheckAllowBigMap_C* GetDefaultObj()
+	static class UBP_CheckAllowBigMap_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<BP_CheckAllowBigMap::UBP_CheckAllowBigMap_C>();
+		return GetDefaultObjImpl<UBP_CheckAllowBigMap_C>();
 	}
 };
-DUMPER7_ASSERTS_BP_CheckAllowBigMap__UBP_CheckAllowBigMap_C;
+DUMPER7_ASSERTS_UBP_CheckAllowBigMap_C;
 
 SDK_NAMESPACE_END

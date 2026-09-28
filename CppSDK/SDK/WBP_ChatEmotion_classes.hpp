@@ -17,7 +17,7 @@ SDK_NAMESPACE_START
 
 // WidgetBlueprintGeneratedClass WBP_ChatEmotion.WBP_ChatEmotion_C
 // 0x0028 (0x05F0 - 0x05C8)
-class WBP_ChatEmotion::UWBP_ChatEmotion_C final : public UPMBaseUserWidget
+class UWBP_ChatEmotion_C final : public UPMBaseUserWidget
 {
 public:
 	class UButton*                                Btn_Next;                                          // 0x05C8(0x0008)(BlueprintVisible, ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash)
@@ -29,17 +29,17 @@ public:
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL_FULLNAME("WidgetBlueprintGeneratedClass WBP_ChatEmotion.WBP_ChatEmotion_C")
+		BP_STATIC_CLASS_IMPL("WBP_ChatEmotion_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"WBP_ChatEmotion_C")
 	}
-	static class WBP_ChatEmotion::UWBP_ChatEmotion_C* GetDefaultObj()
+	static class UWBP_ChatEmotion_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<WBP_ChatEmotion::UWBP_ChatEmotion_C>();
+		return GetDefaultObjImpl<UWBP_ChatEmotion_C>();
 	}
 };
-DUMPER7_ASSERTS_WBP_ChatEmotion__UWBP_ChatEmotion_C;
+DUMPER7_ASSERTS_UWBP_ChatEmotion_C;
 
 SDK_NAMESPACE_END

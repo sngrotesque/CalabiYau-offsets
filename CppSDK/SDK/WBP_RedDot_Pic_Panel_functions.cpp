@@ -16,25 +16,6 @@
 
 SDK_NAMESPACE_START
 
-// Function WBP_RedDot_Pic_Panel.WBP_RedDot_Pic_Panel_C.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void UWBP_RedDot_Pic_Panel_C::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("WBP_RedDot_Pic_Panel_C", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
 // Function WBP_RedDot_Pic_Panel.WBP_RedDot_Pic_Panel_C.ExecuteUbergraph_WBP_RedDot_Pic_Panel
 // (Final, UbergraphFunction)
 // Parameters:
@@ -52,6 +33,25 @@ void UWBP_RedDot_Pic_Panel_C::ExecuteUbergraph_WBP_RedDot_Pic_Panel(int32 EntryP
 	Parms.EntryPoint = EntryPoint;
 
 	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function WBP_RedDot_Pic_Panel.WBP_RedDot_Pic_Panel_C.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void UWBP_RedDot_Pic_Panel_C::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("WBP_RedDot_Pic_Panel_C", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
 }
 
 

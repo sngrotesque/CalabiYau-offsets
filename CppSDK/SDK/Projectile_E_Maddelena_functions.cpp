@@ -21,7 +21,7 @@ SDK_NAMESPACE_START
 // Parameters:
 // int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void Projectile_E_Maddelena::AProjectile_E_Maddelena_C::ExecuteUbergraph_Projectile_E_Maddelena(int32 EntryPoint)
+void AProjectile_E_Maddelena_C::ExecuteUbergraph_Projectile_E_Maddelena(int32 EntryPoint)
 {
 	static class UFunction* Func = nullptr;
 
@@ -41,7 +41,7 @@ void Projectile_E_Maddelena::AProjectile_E_Maddelena_C::ExecuteUbergraph_Project
 // Parameters:
 // float                                   DeltaSeconds                                           (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void Projectile_E_Maddelena::AProjectile_E_Maddelena_C::ReceiveTick(float DeltaSeconds)
+void AProjectile_E_Maddelena_C::ReceiveTick(float DeltaSeconds)
 {
 	static class UFunction* Func = nullptr;
 

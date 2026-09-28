@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_SSA_ScaleBlindSphere.BP_SSA_ScaleBlindSphere_C
 // 0x0000 (0x0080 - 0x0080)
-class BP_SSA_ScaleBlindSphere::UBP_SSA_ScaleBlindSphere_C final : public UCySSAtomScaleBlindSphere
+class UBP_SSA_ScaleBlindSphere_C final : public UCySSAtomScaleBlindSphere
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_SSA_ScaleBlindSphere.BP_SSA_ScaleBlindSphere_C")
+		BP_STATIC_CLASS_IMPL("BP_SSA_ScaleBlindSphere_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_SSA_ScaleBlindSphere_C")
 	}
-	static class BP_SSA_ScaleBlindSphere::UBP_SSA_ScaleBlindSphere_C* GetDefaultObj()
+	static class UBP_SSA_ScaleBlindSphere_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<BP_SSA_ScaleBlindSphere::UBP_SSA_ScaleBlindSphere_C>();
+		return GetDefaultObjImpl<UBP_SSA_ScaleBlindSphere_C>();
 	}
 };
-DUMPER7_ASSERTS_BP_SSA_ScaleBlindSphere__UBP_SSA_ScaleBlindSphere_C;
+DUMPER7_ASSERTS_UBP_SSA_ScaleBlindSphere_C;
 
 SDK_NAMESPACE_END

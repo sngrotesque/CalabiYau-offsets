@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BPSA_HideNormalMesh.BPSA_HideNormalMesh_C
 // 0x0000 (0x05F0 - 0x05F0)
-class BPSA_HideNormalMesh::UBPSA_HideNormalMesh_C final : public UCySASetVisible
+class UBPSA_HideNormalMesh_C final : public UCySASetVisible
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BPSA_HideNormalMesh.BPSA_HideNormalMesh_C")
+		BP_STATIC_CLASS_IMPL("BPSA_HideNormalMesh_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BPSA_HideNormalMesh_C")
 	}
-	static class BPSA_HideNormalMesh::UBPSA_HideNormalMesh_C* GetDefaultObj()
+	static class UBPSA_HideNormalMesh_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<BPSA_HideNormalMesh::UBPSA_HideNormalMesh_C>();
+		return GetDefaultObjImpl<UBPSA_HideNormalMesh_C>();
 	}
 };
-DUMPER7_ASSERTS_BPSA_HideNormalMesh__UBPSA_HideNormalMesh_C;
+DUMPER7_ASSERTS_UBPSA_HideNormalMesh_C;
 
 SDK_NAMESPACE_END

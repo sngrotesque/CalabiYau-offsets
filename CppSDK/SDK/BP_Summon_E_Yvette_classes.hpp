@@ -17,7 +17,7 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_Summon_E_Yvette.BP_Summon_E_Yvette_C
 // 0x00D0 (0x0970 - 0x08A0)
-class BP_Summon_E_Yvette::ABP_Summon_E_Yvette_C final : public ACySummonActor
+class ABP_Summon_E_Yvette_C final : public ACySummonActor
 {
 public:
 	uint8                                         Pad_898[0x8];                                      // 0x0898(0x0008)(Fixing Size After Last Property [ Dumper-7 ])
@@ -50,17 +50,17 @@ public:
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_Summon_E_Yvette.BP_Summon_E_Yvette_C")
+		BP_STATIC_CLASS_IMPL("BP_Summon_E_Yvette_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_Summon_E_Yvette_C")
 	}
-	static class BP_Summon_E_Yvette::ABP_Summon_E_Yvette_C* GetDefaultObj()
+	static class ABP_Summon_E_Yvette_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<BP_Summon_E_Yvette::ABP_Summon_E_Yvette_C>();
+		return GetDefaultObjImpl<ABP_Summon_E_Yvette_C>();
 	}
 };
-DUMPER7_ASSERTS_BP_Summon_E_Yvette__ABP_Summon_E_Yvette_C;
+DUMPER7_ASSERTS_ABP_Summon_E_Yvette_C;
 
 SDK_NAMESPACE_END

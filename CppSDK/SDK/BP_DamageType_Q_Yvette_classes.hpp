@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_DamageType_Q_Yvette.BP_DamageType_Q_Yvette_C
 // 0x0000 (0x0548 - 0x0548)
-class BP_DamageType_Q_Yvette::UBP_DamageType_Q_Yvette_C final : public UPMDamageType
+class UBP_DamageType_Q_Yvette_C final : public UPMDamageType
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_DamageType_Q_Yvette.BP_DamageType_Q_Yvette_C")
+		BP_STATIC_CLASS_IMPL("BP_DamageType_Q_Yvette_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_DamageType_Q_Yvette_C")
 	}
-	static class BP_DamageType_Q_Yvette::UBP_DamageType_Q_Yvette_C* GetDefaultObj()
+	static class UBP_DamageType_Q_Yvette_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<BP_DamageType_Q_Yvette::UBP_DamageType_Q_Yvette_C>();
+		return GetDefaultObjImpl<UBP_DamageType_Q_Yvette_C>();
 	}
 };
-DUMPER7_ASSERTS_BP_DamageType_Q_Yvette__UBP_DamageType_Q_Yvette_C;
+DUMPER7_ASSERTS_UBP_DamageType_Q_Yvette_C;
 
 SDK_NAMESPACE_END

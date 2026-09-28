@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_SearchTargets_Self.BP_SearchTargets_Self_C
 // 0x0000 (0x07A0 - 0x07A0)
-class BP_SearchTargets_Self::UBP_SearchTargets_Self_C final : public UCySAtomSearchTargets
+class UBP_SearchTargets_Self_C final : public UCySAtomSearchTargets
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_SearchTargets_Self.BP_SearchTargets_Self_C")
+		BP_STATIC_CLASS_IMPL("BP_SearchTargets_Self_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_SearchTargets_Self_C")
 	}
-	static class BP_SearchTargets_Self::UBP_SearchTargets_Self_C* GetDefaultObj()
+	static class UBP_SearchTargets_Self_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<BP_SearchTargets_Self::UBP_SearchTargets_Self_C>();
+		return GetDefaultObjImpl<UBP_SearchTargets_Self_C>();
 	}
 };
-DUMPER7_ASSERTS_BP_SearchTargets_Self__UBP_SearchTargets_Self_C;
+DUMPER7_ASSERTS_UBP_SearchTargets_Self_C;
 
 SDK_NAMESPACE_END

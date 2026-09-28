@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass GE_XRay_X_Lawine.GE_XRay_X_Lawine_C
 // 0x0000 (0x10E0 - 0x10E0)
-class GE_XRay_X_Lawine::UGE_XRay_X_Lawine_C final : public UCyGameplayEffect
+class UGE_XRay_X_Lawine_C final : public UCyGameplayEffect
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass GE_XRay_X_Lawine.GE_XRay_X_Lawine_C")
+		BP_STATIC_CLASS_IMPL("GE_XRay_X_Lawine_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"GE_XRay_X_Lawine_C")
 	}
-	static class GE_XRay_X_Lawine::UGE_XRay_X_Lawine_C* GetDefaultObj()
+	static class UGE_XRay_X_Lawine_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<GE_XRay_X_Lawine::UGE_XRay_X_Lawine_C>();
+		return GetDefaultObjImpl<UGE_XRay_X_Lawine_C>();
 	}
 };
-DUMPER7_ASSERTS_GE_XRay_X_Lawine__UGE_XRay_X_Lawine_C;
+DUMPER7_ASSERTS_UGE_XRay_X_Lawine_C;
 
 SDK_NAMESPACE_END

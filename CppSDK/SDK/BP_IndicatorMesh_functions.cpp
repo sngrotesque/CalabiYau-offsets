@@ -19,9 +19,9 @@ SDK_NAMESPACE_START
 // Function BP_IndicatorMesh.BP_IndicatorMesh_C.ReceiveTick
 // (Event, Public, BlueprintEvent)
 // Parameters:
-// float                                   DeltaSeconds_ReceiveTick                               (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// float                                   DeltaSeconds                                           (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void UBP_IndicatorMesh_C::ReceiveTick(float DeltaSeconds_ReceiveTick)
+void UBP_IndicatorMesh_C::ReceiveTick(float DeltaSeconds)
 {
 	static class UFunction* Func = nullptr;
 
@@ -30,7 +30,7 @@ void UBP_IndicatorMesh_C::ReceiveTick(float DeltaSeconds_ReceiveTick)
 
 	Params::BP_IndicatorMesh_C_ReceiveTick Parms{};
 
-	Parms.DeltaSeconds_ReceiveTick = DeltaSeconds_ReceiveTick;
+	Parms.DeltaSeconds = DeltaSeconds;
 
 	UObject::ProcessEvent(Func, &Parms);
 }
