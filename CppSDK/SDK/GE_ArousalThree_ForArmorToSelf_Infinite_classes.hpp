@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass GE_ArousalThree_ForArmorToSelf_Infinite.GE_ArousalThree_ForArmorToSelf_Infinite_C
 // 0x0000 (0x10E0 - 0x10E0)
-class UGE_ArousalThree_ForArmorToSelf_Infinite_C final : public UCyGameplayEffect
+class GE_ArousalThree_ForArmorToSelf_Infinite::UGE_ArousalThree_ForArmorToSelf_Infinite_C final : public UCyGameplayEffect
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("GE_ArousalThree_ForArmorToSelf_Infinite_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass GE_ArousalThree_ForArmorToSelf_Infinite.GE_ArousalThree_ForArmorToSelf_Infinite_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"GE_ArousalThree_ForArmorToSelf_Infinite_C")
 	}
-	static class UGE_ArousalThree_ForArmorToSelf_Infinite_C* GetDefaultObj()
+	static class GE_ArousalThree_ForArmorToSelf_Infinite::UGE_ArousalThree_ForArmorToSelf_Infinite_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UGE_ArousalThree_ForArmorToSelf_Infinite_C>();
+		return GetDefaultObjImpl<GE_ArousalThree_ForArmorToSelf_Infinite::UGE_ArousalThree_ForArmorToSelf_Infinite_C>();
 	}
 };
-DUMPER7_ASSERTS_UGE_ArousalThree_ForArmorToSelf_Infinite_C;
+DUMPER7_ASSERTS_GE_ArousalThree_ForArmorToSelf_Infinite__UGE_ArousalThree_ForArmorToSelf_Infinite_C;
 
 SDK_NAMESPACE_END

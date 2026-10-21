@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_SSA_SwitchAudio.BP_SSA_SwitchAudio_C
 // 0x0000 (0x0060 - 0x0060)
-class UBP_SSA_SwitchAudio_C final : public UCySSAtomSwitchAudio
+class BP_SSA_SwitchAudio::UBP_SSA_SwitchAudio_C final : public UCySSAtomSwitchAudio
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_SSA_SwitchAudio_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_SSA_SwitchAudio.BP_SSA_SwitchAudio_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_SSA_SwitchAudio_C")
 	}
-	static class UBP_SSA_SwitchAudio_C* GetDefaultObj()
+	static class BP_SSA_SwitchAudio::UBP_SSA_SwitchAudio_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_SSA_SwitchAudio_C>();
+		return GetDefaultObjImpl<BP_SSA_SwitchAudio::UBP_SSA_SwitchAudio_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_SSA_SwitchAudio_C;
+DUMPER7_ASSERTS_BP_SSA_SwitchAudio__UBP_SSA_SwitchAudio_C;
 
 SDK_NAMESPACE_END

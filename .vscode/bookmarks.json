@@ -29,6 +29,11 @@
 					"label": "AActor"
 				},
 				{
+					"line": 2887,
+					"column": 0,
+					"label": "USkinnedMeshComponent"
+				},
+				{
 					"line": 3672,
 					"column": 0,
 					"label": "APawn"
@@ -69,6 +74,11 @@
 					"label": "APlayerState"
 				},
 				{
+					"line": 15378,
+					"column": 0,
+					"label": "UCapsuleComponent"
+				},
+				{
 					"line": 22652,
 					"column": 0,
 					"label": "ULevel"
@@ -99,12 +109,12 @@
 					"label": "ACyCharacterBase"
 				},
 				{
-					"line": 17854,
+					"line": 17858,
 					"column": 0,
 					"label": "UCyCharacterAttributeSet"
 				},
 				{
-					"line": 36775,
+					"line": 36779,
 					"column": 0,
 					"label": "UCyLifeStateComponent"
 				},

@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_Activator_SwitchWeapon.BP_Activator_SwitchWeapon_C
 // 0x0000 (0x0230 - 0x0230)
-class UBP_Activator_SwitchWeapon_C final : public UCyGASwitchWeapon
+class BP_Activator_SwitchWeapon::UBP_Activator_SwitchWeapon_C final : public UCyGASwitchWeapon
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_Activator_SwitchWeapon_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_Activator_SwitchWeapon.BP_Activator_SwitchWeapon_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_Activator_SwitchWeapon_C")
 	}
-	static class UBP_Activator_SwitchWeapon_C* GetDefaultObj()
+	static class BP_Activator_SwitchWeapon::UBP_Activator_SwitchWeapon_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_Activator_SwitchWeapon_C>();
+		return GetDefaultObjImpl<BP_Activator_SwitchWeapon::UBP_Activator_SwitchWeapon_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_Activator_SwitchWeapon_C;
+DUMPER7_ASSERTS_BP_Activator_SwitchWeapon__UBP_Activator_SwitchWeapon_C;
 
 SDK_NAMESPACE_END

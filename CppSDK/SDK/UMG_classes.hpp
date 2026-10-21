@@ -208,103 +208,6 @@ public:
 };
 DUMPER7_ASSERTS_UContentWidget;
 
-// Class UMG.DynamicEntryBoxBase
-// 0x00C8 (0x01D8 - 0x0110)
-class UDynamicEntryBoxBase : public UWidget
-{
-public:
-	EDynamicBoxType                               EntryBoxType;                                      // 0x0110(0x0001)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	uint8                                         Pad_111[0x3];                                      // 0x0111(0x0003)(Fixing Size After Last Property [ Dumper-7 ])
-	struct FVector2D                              EntrySpacing;                                      // 0x0114(0x0008)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	uint8                                         Pad_11C[0x4];                                      // 0x011C(0x0004)(Fixing Size After Last Property [ Dumper-7 ])
-	TArray<struct FVector2D>                      SpacingPattern;                                    // 0x0120(0x0010)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	struct FSlateChildSize                        EntrySizeRule;                                     // 0x0130(0x0008)(Edit, BlueprintVisible, BlueprintReadOnly, NoDestructor, Protected, NativeAccessSpecifierProtected)
-	EHorizontalAlignment                          EntryHorizontalAlignment;                          // 0x0138(0x0001)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	EVerticalAlignment                            EntryVerticalAlignment;                            // 0x0139(0x0001)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	uint8                                         Pad_13A[0x2];                                      // 0x013A(0x0002)(Fixing Size After Last Property [ Dumper-7 ])
-	int32                                         MaxElementSize;                                    // 0x013C(0x0004)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	int32                                         WrapWidth;                                         // 0x0140(0x0004)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	ETextJustify                                  Justification;                                     // 0x0144(0x0001)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
-	uint8                                         Pad_145[0x13];                                     // 0x0145(0x0013)(Fixing Size After Last Property [ Dumper-7 ])
-	struct FUserWidgetPool                        EntryWidgetPool;                                   // 0x0158(0x0080)(Transient, ContainsInstancedReference, NativeAccessSpecifierPrivate)
-
-public:
-	void SetEntrySpacing(const struct FVector2D& InEntrySpacing);
-	void SetJustification(const ETextJustify InJustification);
-	void SetWrapWidth(const int32 InWrapWidth);
-
-	const TArray<class UUserWidget*> GetAllEntries() const;
-	int32 GetNumEntries() const;
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("DynamicEntryBoxBase")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"DynamicEntryBoxBase")
-	}
-	static class UDynamicEntryBoxBase* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<UDynamicEntryBoxBase>();
-	}
-};
-DUMPER7_ASSERTS_UDynamicEntryBoxBase;
-
-// Class UMG.DynamicEntryBox
-// 0x0008 (0x01E0 - 0x01D8)
-class UDynamicEntryBox final : public UDynamicEntryBoxBase
-{
-public:
-	TSubclassOf<class UUserWidget>                EntryWidgetClass;                                  // 0x01D8(0x0008)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
-
-public:
-	class UUserWidget* BP_CreateEntry();
-	class UUserWidget* BP_CreateEntryOfClass(TSubclassOf<class UUserWidget> EntryClass);
-	void RemoveEntry(class UUserWidget* EntryWidget);
-	void Reset(bool bDeleteWidgets);
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("DynamicEntryBox")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"DynamicEntryBox")
-	}
-	static class UDynamicEntryBox* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<UDynamicEntryBox>();
-	}
-};
-DUMPER7_ASSERTS_UDynamicEntryBox;
-
-// Class UMG.PanelSlot
-// 0x0010 (0x0038 - 0x0028)
-class UPanelSlot : public UVisual
-{
-public:
-	class UPanelWidget*                           Parent;                                            // 0x0028(0x0008)(ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, PersistentInstance, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class UWidget*                                Content;                                           // 0x0030(0x0008)(ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, PersistentInstance, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("PanelSlot")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"PanelSlot")
-	}
-	static class UPanelSlot* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<UPanelSlot>();
-	}
-};
-DUMPER7_ASSERTS_UPanelSlot;
-
 // Class UMG.Button
 // 0x0308 (0x0430 - 0x0128)
 class UButton : public UContentWidget
@@ -352,97 +255,51 @@ public:
 };
 DUMPER7_ASSERTS_UButton;
 
-// Class UMG.AsyncTaskDownloadImage
-// 0x0020 (0x0050 - 0x0030)
-class UAsyncTaskDownloadImage final : public UBlueprintAsyncActionBase
+// Class UMG.MenuAnchor
+// 0x0048 (0x0170 - 0x0128)
+class UMenuAnchor final : public UContentWidget
 {
 public:
-	TMulticastInlineDelegate<void(class UTexture2DDynamic* Texture)> OnSuccess;                      // 0x0030(0x0010)(ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
-	TMulticastInlineDelegate<void(class UTexture2DDynamic* Texture)> OnFail;                         // 0x0040(0x0010)(ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
+	TSubclassOf<class UUserWidget>                MenuClass;                                         // 0x0128(0x0008)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	TDelegate<void()>                             OnGetMenuContentEvent;                             // 0x0130(0x0010)(Edit, ZeroConstructor, InstancedReference, NoDestructor, NativeAccessSpecifierPublic)
+	EMenuPlacement                                Placement;                                         // 0x0140(0x0001)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                          bFitInWindow;                                      // 0x0141(0x0001)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                          ShouldDeferPaintingAfterWindowContent;             // 0x0142(0x0001)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                          UseApplicationMenuStack;                           // 0x0143(0x0001)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                          IsRemoveMenuContentWhenResetPopup;                 // 0x0144(0x0001)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	uint8                                         Pad_145[0x3];                                      // 0x0145(0x0003)(Fixing Size After Last Property [ Dumper-7 ])
+	TMulticastInlineDelegate<void(bool bIsOpen)>  OnMenuOpenChanged;                                 // 0x0148(0x0010)(ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
+	uint8                                         Pad_158[0x18];                                     // 0x0158(0x0018)(Fixing Struct Size After Last Property [ Dumper-7 ])
 
 public:
-	static class UAsyncTaskDownloadImage* DownloadImage(const class FString& URL);
+	void Close();
+	void FitInWindow(bool bFit);
+	void Open(bool bFocusMenu);
+	void SetIsRemoveMenuContentWhenResetPopup(bool bRemove);
+	void SetPlacement(EMenuPlacement InPlacement);
+	void ToggleOpen(bool bFocusOnOpen);
+
+	struct FVector2D GetMenuLocalPosition() const;
+	struct FVector2D GetMenuPosition() const;
+	bool HasOpenSubMenus() const;
+	bool IsOpen() const;
+	bool ShouldOpenDueToClick() const;
 
 public:
 	static class UClass* StaticClass()
 	{
-		STATIC_CLASS_IMPL("AsyncTaskDownloadImage")
+		STATIC_CLASS_IMPL("MenuAnchor")
 	}
 	static const class FName& StaticName()
 	{
-		STATIC_NAME_IMPL(L"AsyncTaskDownloadImage")
+		STATIC_NAME_IMPL(L"MenuAnchor")
 	}
-	static class UAsyncTaskDownloadImage* GetDefaultObj()
+	static class UMenuAnchor* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UAsyncTaskDownloadImage>();
+		return GetDefaultObjImpl<UMenuAnchor>();
 	}
 };
-DUMPER7_ASSERTS_UAsyncTaskDownloadImage;
-
-// Class UMG.EditableTextBox
-// 0x0920 (0x0A30 - 0x0110)
-class UEditableTextBox final : public UWidget
-{
-public:
-	class FText                                   Text;                                              // 0x0110(0x0018)(Edit, NativeAccessSpecifierPublic)
-	TDelegate<void()>                             TextDelegate;                                      // 0x0128(0x0010)(ZeroConstructor, InstancedReference, NoDestructor, NativeAccessSpecifierPublic)
-	struct FEditableTextBoxStyle                  WidgetStyle;                                       // 0x0138(0x07F0)(Edit, BlueprintVisible, NativeAccessSpecifierPublic)
-	class USlateWidgetStyleAsset*                 Style;                                             // 0x0928(0x0008)(ZeroConstructor, Deprecated, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class FText                                   HintText;                                          // 0x0930(0x0018)(Edit, BlueprintVisible, BlueprintReadOnly, NativeAccessSpecifierPublic)
-	TDelegate<void()>                             HintTextDelegate;                                  // 0x0948(0x0010)(ZeroConstructor, InstancedReference, NoDestructor, NativeAccessSpecifierPublic)
-	struct FSlateFontInfo                         Font;                                              // 0x0958(0x0050)(Deprecated, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FLinearColor                           ForegroundColor;                                   // 0x09A8(0x0010)(ZeroConstructor, Deprecated, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FLinearColor                           BackgroundColor;                                   // 0x09B8(0x0010)(ZeroConstructor, Deprecated, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FLinearColor                           ReadOnlyForegroundColor;                           // 0x09C8(0x0010)(ZeroConstructor, Deprecated, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                          IsReadonly;                                        // 0x09D8(0x0001)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                          IsPassword;                                        // 0x09D9(0x0001)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint8                                         Pad_9DA[0x2];                                      // 0x09DA(0x0002)(Fixing Size After Last Property [ Dumper-7 ])
-	float                                         MinimumDesiredWidth;                               // 0x09DC(0x0004)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FMargin                                Padding;                                           // 0x09E0(0x0010)(ZeroConstructor, Deprecated, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-	bool                                          IsCaretMovedWhenGainFocus;                         // 0x09F0(0x0001)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                          SelectAllTextWhenFocused;                          // 0x09F1(0x0001)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                          RevertTextOnEscape;                                // 0x09F2(0x0001)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                          ClearKeyboardFocusOnCommit;                        // 0x09F3(0x0001)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                          SelectAllTextOnCommit;                             // 0x09F4(0x0001)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                          AllowContextMenu;                                  // 0x09F5(0x0001)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	EVirtualKeyboardType                          KeyboardType;                                      // 0x09F6(0x0001)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FVirtualKeyboardOptions                VirtualKeyboardOptions;                            // 0x09F7(0x0001)(Edit, NoDestructor, AdvancedDisplay, NativeAccessSpecifierPublic)
-	EVirtualKeyboardTrigger                       VirtualKeyboardTrigger;                            // 0x09F8(0x0001)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	EVirtualKeyboardDismissAction                 VirtualKeyboardDismissAction;                      // 0x09F9(0x0001)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	ETextJustify                                  Justification;                                     // 0x09FA(0x0001)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	struct FShapedTextOptions                     ShapedTextOptions;                                 // 0x09FB(0x0003)(Edit, BlueprintVisible, BlueprintReadOnly, NoDestructor, AdvancedDisplay, NativeAccessSpecifierPublic)
-	uint8                                         Pad_9FE[0x2];                                      // 0x09FE(0x0002)(Fixing Size After Last Property [ Dumper-7 ])
-	TMulticastInlineDelegate<void(const class FText& Text_0)> OnTextChanged;                         // 0x0A00(0x0010)(ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
-	TMulticastInlineDelegate<void(const class FText& Text_0, ETextCommit CommitMethod)> OnTextCommitted; // 0x0A10(0x0010)(ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
-	uint8                                         Pad_A20[0x10];                                     // 0x0A20(0x0010)(Fixing Struct Size After Last Property [ Dumper-7 ])
-
-public:
-	void ClearError();
-	void SetError(const class FText& InError);
-	void SetHintText(const class FText& InText);
-	void SetIsPassword(bool bIsPassword);
-	void SetIsReadOnly(bool bReadOnly);
-	void SetJustification(ETextJustify InJustification);
-	void SetText(const class FText& InText);
-
-	class FText GetText() const;
-	bool HasError() const;
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("EditableTextBox")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"EditableTextBox")
-	}
-	static class UEditableTextBox* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<UEditableTextBox>();
-	}
-};
-DUMPER7_ASSERTS_UEditableTextBox;
+DUMPER7_ASSERTS_UMenuAnchor;
 
 // Class UMG.UserWidget
 // 0x0150 (0x0260 - 0x0110)
@@ -583,73 +440,70 @@ public:
 };
 DUMPER7_ASSERTS_UUserWidget;
 
-// Class UMG.ListViewDesignerPreviewItem
-// 0x0000 (0x0028 - 0x0028)
-class UListViewDesignerPreviewItem final : public UObject
+// Class UMG.EditableTextBox
+// 0x0920 (0x0A30 - 0x0110)
+class UEditableTextBox final : public UWidget
 {
 public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("ListViewDesignerPreviewItem")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"ListViewDesignerPreviewItem")
-	}
-	static class UListViewDesignerPreviewItem* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<UListViewDesignerPreviewItem>();
-	}
-};
-DUMPER7_ASSERTS_UListViewDesignerPreviewItem;
+	class FText                                   Text;                                              // 0x0110(0x0018)(Edit, NativeAccessSpecifierPublic)
+	TDelegate<void()>                             TextDelegate;                                      // 0x0128(0x0010)(ZeroConstructor, InstancedReference, NoDestructor, NativeAccessSpecifierPublic)
+	struct FEditableTextBoxStyle                  WidgetStyle;                                       // 0x0138(0x07F0)(Edit, BlueprintVisible, NativeAccessSpecifierPublic)
+	class USlateWidgetStyleAsset*                 Style;                                             // 0x0928(0x0008)(ZeroConstructor, Deprecated, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class FText                                   HintText;                                          // 0x0930(0x0018)(Edit, BlueprintVisible, BlueprintReadOnly, NativeAccessSpecifierPublic)
+	TDelegate<void()>                             HintTextDelegate;                                  // 0x0948(0x0010)(ZeroConstructor, InstancedReference, NoDestructor, NativeAccessSpecifierPublic)
+	struct FSlateFontInfo                         Font;                                              // 0x0958(0x0050)(Deprecated, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FLinearColor                           ForegroundColor;                                   // 0x09A8(0x0010)(ZeroConstructor, Deprecated, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FLinearColor                           BackgroundColor;                                   // 0x09B8(0x0010)(ZeroConstructor, Deprecated, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FLinearColor                           ReadOnlyForegroundColor;                           // 0x09C8(0x0010)(ZeroConstructor, Deprecated, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                          IsReadonly;                                        // 0x09D8(0x0001)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                          IsPassword;                                        // 0x09D9(0x0001)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	uint8                                         Pad_9DA[0x2];                                      // 0x09DA(0x0002)(Fixing Size After Last Property [ Dumper-7 ])
+	float                                         MinimumDesiredWidth;                               // 0x09DC(0x0004)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FMargin                                Padding;                                           // 0x09E0(0x0010)(ZeroConstructor, Deprecated, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+	bool                                          IsCaretMovedWhenGainFocus;                         // 0x09F0(0x0001)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                          SelectAllTextWhenFocused;                          // 0x09F1(0x0001)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                          RevertTextOnEscape;                                // 0x09F2(0x0001)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                          ClearKeyboardFocusOnCommit;                        // 0x09F3(0x0001)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                          SelectAllTextOnCommit;                             // 0x09F4(0x0001)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                          AllowContextMenu;                                  // 0x09F5(0x0001)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	EVirtualKeyboardType                          KeyboardType;                                      // 0x09F6(0x0001)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FVirtualKeyboardOptions                VirtualKeyboardOptions;                            // 0x09F7(0x0001)(Edit, NoDestructor, AdvancedDisplay, NativeAccessSpecifierPublic)
+	EVirtualKeyboardTrigger                       VirtualKeyboardTrigger;                            // 0x09F8(0x0001)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	EVirtualKeyboardDismissAction                 VirtualKeyboardDismissAction;                      // 0x09F9(0x0001)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	ETextJustify                                  Justification;                                     // 0x09FA(0x0001)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	struct FShapedTextOptions                     ShapedTextOptions;                                 // 0x09FB(0x0003)(Edit, BlueprintVisible, BlueprintReadOnly, NoDestructor, AdvancedDisplay, NativeAccessSpecifierPublic)
+	uint8                                         Pad_9FE[0x2];                                      // 0x09FE(0x0002)(Fixing Size After Last Property [ Dumper-7 ])
+	TMulticastInlineDelegate<void(const class FText& Text_0)> OnTextChanged;                         // 0x0A00(0x0010)(ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
+	TMulticastInlineDelegate<void(const class FText& Text_0, ETextCommit CommitMethod)> OnTextCommitted; // 0x0A10(0x0010)(ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
+	uint8                                         Pad_A20[0x10];                                     // 0x0A20(0x0010)(Fixing Struct Size After Last Property [ Dumper-7 ])
 
-// Class UMG.Image
-// 0x0130 (0x0240 - 0x0110)
-class UImage : public UWidget
-{
 public:
-	struct FSlateBrush                            Brush;                                             // 0x0110(0x0088)(Edit, BlueprintVisible, BlueprintReadOnly, NativeAccessSpecifierPublic)
-	TDelegate<void()>                             BrushDelegate;                                     // 0x0198(0x0010)(ZeroConstructor, InstancedReference, NoDestructor, NativeAccessSpecifierPublic)
-	struct FLinearColor                           ColorAndOpacity;                                   // 0x01A8(0x0010)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	TDelegate<void()>                             ColorAndOpacityDelegate;                           // 0x01B8(0x0010)(ZeroConstructor, InstancedReference, NoDestructor, NativeAccessSpecifierPublic)
-	struct FSlateHollow                           Hollow;                                            // 0x01C8(0x0018)(Edit, BlueprintVisible, BlueprintReadOnly, NativeAccessSpecifierPublic)
-	TDelegate<void()>                             HollowDelegate;                                    // 0x01E0(0x0010)(ZeroConstructor, InstancedReference, NoDestructor, NativeAccessSpecifierPublic)
-	bool                                          bFlipForRightToLeftFlowDirection;                  // 0x01F0(0x0001)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint8                                         Pad_1F1[0x3];                                      // 0x01F1(0x0003)(Fixing Size After Last Property [ Dumper-7 ])
-	TDelegate<void(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)> OnMouseButtonDownEvent; // 0x01F4(0x0010)(Edit, ZeroConstructor, InstancedReference, NoDestructor, NativeAccessSpecifierPublic)
-	uint8                                         Pad_204[0x3C];                                     // 0x0204(0x003C)(Fixing Struct Size After Last Property [ Dumper-7 ])
+	void ClearError();
+	void SetError(const class FText& InError);
+	void SetHintText(const class FText& InText);
+	void SetIsPassword(bool bIsPassword);
+	void SetIsReadOnly(bool bReadOnly);
+	void SetJustification(ETextJustify InJustification);
+	void SetText(const class FText& InText);
 
-public:
-	class UMaterialInstanceDynamic* GetDynamicMaterial();
-	void SetBrush(const struct FSlateBrush& InBrush);
-	void SetBrushFromAsset(class USlateBrushAsset* Asset);
-	void SetBrushFromAtlasInterface(TScriptInterface<class ISlateTextureAtlasInterface> AtlasRegion, bool bMatchSize);
-	void SetBrushFromMaterial(class UMaterialInterface* Material);
-	void SetBrushFromSoftMaterial(TSoftObjectPtr<class UMaterialInterface> SoftMaterial);
-	void SetBrushFromSoftTexture(TSoftObjectPtr<class UTexture2D> SoftTexture, bool bMatchSize);
-	void SetBrushFromTexture(class UTexture2D* Texture, bool bMatchSize);
-	void SetBrushFromTextureDynamic(class UTexture2DDynamic* Texture, bool bMatchSize);
-	void SetBrushResourceObject(class UObject* ResourceObject);
-	void SetBrushSize(const struct FVector2D& DesiredSize);
-	void SetBrushTintColor(const struct FSlateColor& TintColor);
-	void SetColorAndOpacity(const struct FLinearColor& InColorAndOpacity);
-	void SetOpacity(float InOpacity);
+	class FText GetText() const;
+	bool HasError() const;
 
 public:
 	static class UClass* StaticClass()
 	{
-		STATIC_CLASS_IMPL("Image")
+		STATIC_CLASS_IMPL("EditableTextBox")
 	}
 	static const class FName& StaticName()
 	{
-		STATIC_NAME_IMPL(L"Image")
+		STATIC_NAME_IMPL(L"EditableTextBox")
 	}
-	static class UImage* GetDefaultObj()
+	static class UEditableTextBox* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UImage>();
+		return GetDefaultObjImpl<UEditableTextBox>();
 	}
 };
-DUMPER7_ASSERTS_UImage;
+DUMPER7_ASSERTS_UEditableTextBox;
 
 // Class UMG.UserListEntry
 // 0x0000 (0x0000 - 0x0000)
@@ -787,32 +641,6 @@ public:
 };
 DUMPER7_ASSERTS_UWidgetComponent;
 
-// Class UMG.CanvasPanel
-// 0x0010 (0x0138 - 0x0128)
-class UCanvasPanel : public UPanelWidget
-{
-public:
-	uint8                                         Pad_128[0x10];                                     // 0x0128(0x0010)(Fixing Struct Size After Last Property [ Dumper-7 ])
-
-public:
-	class UCanvasPanelSlot* AddChildToCanvas(class UWidget* Content);
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("CanvasPanel")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"CanvasPanel")
-	}
-	static class UCanvasPanel* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<UCanvasPanel>();
-	}
-};
-DUMPER7_ASSERTS_UCanvasPanel;
-
 // Class UMG.PropertyBinding
 // 0x0038 (0x0060 - 0x0028)
 class UPropertyBinding : public UObject
@@ -838,6 +666,138 @@ public:
 };
 DUMPER7_ASSERTS_UPropertyBinding;
 
+// Class UMG.HorizontalBox
+// 0x0010 (0x0138 - 0x0128)
+class UHorizontalBox : public UPanelWidget
+{
+public:
+	uint8                                         Pad_128[0x10];                                     // 0x0128(0x0010)(Fixing Struct Size After Last Property [ Dumper-7 ])
+
+public:
+	class UHorizontalBoxSlot* AddChildToHorizontalBox(class UWidget* Content);
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("HorizontalBox")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"HorizontalBox")
+	}
+	static class UHorizontalBox* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<UHorizontalBox>();
+	}
+};
+DUMPER7_ASSERTS_UHorizontalBox;
+
+// Class UMG.PanelSlot
+// 0x0010 (0x0038 - 0x0028)
+class UPanelSlot : public UVisual
+{
+public:
+	class UPanelWidget*                           Parent;                                            // 0x0028(0x0008)(ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, PersistentInstance, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class UWidget*                                Content;                                           // 0x0030(0x0008)(ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, PersistentInstance, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("PanelSlot")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"PanelSlot")
+	}
+	static class UPanelSlot* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<UPanelSlot>();
+	}
+};
+DUMPER7_ASSERTS_UPanelSlot;
+
+// Class UMG.VerticalBoxSlot
+// 0x0028 (0x0060 - 0x0038)
+class UVerticalBoxSlot final : public UPanelSlot
+{
+public:
+	struct FSlateChildSize                        Size;                                              // 0x0038(0x0008)(Edit, BlueprintVisible, BlueprintReadOnly, NoDestructor, NativeAccessSpecifierPublic)
+	struct FMargin                                Padding;                                           // 0x0040(0x0010)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+	uint8                                         Pad_50[0x8];                                       // 0x0050(0x0008)(Fixing Size After Last Property [ Dumper-7 ])
+	EHorizontalAlignment                          HorizontalAlignment;                               // 0x0058(0x0001)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	EVerticalAlignment                            VerticalAlignment;                                 // 0x0059(0x0001)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	uint8                                         Pad_5A[0x6];                                       // 0x005A(0x0006)(Fixing Struct Size After Last Property [ Dumper-7 ])
+
+public:
+	void SetHorizontalAlignment(EHorizontalAlignment InHorizontalAlignment);
+	void SetPadding(const struct FMargin& InPadding);
+	void SetSize(const struct FSlateChildSize& InSize);
+	void SetVerticalAlignment(EVerticalAlignment InVerticalAlignment);
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("VerticalBoxSlot")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"VerticalBoxSlot")
+	}
+	static class UVerticalBoxSlot* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<UVerticalBoxSlot>();
+	}
+};
+DUMPER7_ASSERTS_UVerticalBoxSlot;
+
+// Class UMG.Image
+// 0x0130 (0x0240 - 0x0110)
+class UImage : public UWidget
+{
+public:
+	struct FSlateBrush                            Brush;                                             // 0x0110(0x0088)(Edit, BlueprintVisible, BlueprintReadOnly, NativeAccessSpecifierPublic)
+	TDelegate<void()>                             BrushDelegate;                                     // 0x0198(0x0010)(ZeroConstructor, InstancedReference, NoDestructor, NativeAccessSpecifierPublic)
+	struct FLinearColor                           ColorAndOpacity;                                   // 0x01A8(0x0010)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	TDelegate<void()>                             ColorAndOpacityDelegate;                           // 0x01B8(0x0010)(ZeroConstructor, InstancedReference, NoDestructor, NativeAccessSpecifierPublic)
+	struct FSlateHollow                           Hollow;                                            // 0x01C8(0x0018)(Edit, BlueprintVisible, BlueprintReadOnly, NativeAccessSpecifierPublic)
+	TDelegate<void()>                             HollowDelegate;                                    // 0x01E0(0x0010)(ZeroConstructor, InstancedReference, NoDestructor, NativeAccessSpecifierPublic)
+	bool                                          bFlipForRightToLeftFlowDirection;                  // 0x01F0(0x0001)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	uint8                                         Pad_1F1[0x3];                                      // 0x01F1(0x0003)(Fixing Size After Last Property [ Dumper-7 ])
+	TDelegate<void(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)> OnMouseButtonDownEvent; // 0x01F4(0x0010)(Edit, ZeroConstructor, InstancedReference, NoDestructor, NativeAccessSpecifierPublic)
+	uint8                                         Pad_204[0x3C];                                     // 0x0204(0x003C)(Fixing Struct Size After Last Property [ Dumper-7 ])
+
+public:
+	class UMaterialInstanceDynamic* GetDynamicMaterial();
+	void SetBrush(const struct FSlateBrush& InBrush);
+	void SetBrushFromAsset(class USlateBrushAsset* Asset);
+	void SetBrushFromAtlasInterface(TScriptInterface<class ISlateTextureAtlasInterface> AtlasRegion, bool bMatchSize);
+	void SetBrushFromMaterial(class UMaterialInterface* Material);
+	void SetBrushFromSoftMaterial(TSoftObjectPtr<class UMaterialInterface> SoftMaterial);
+	void SetBrushFromSoftTexture(TSoftObjectPtr<class UTexture2D> SoftTexture, bool bMatchSize);
+	void SetBrushFromTexture(class UTexture2D* Texture, bool bMatchSize);
+	void SetBrushFromTextureDynamic(class UTexture2DDynamic* Texture, bool bMatchSize);
+	void SetBrushResourceObject(class UObject* ResourceObject);
+	void SetBrushSize(const struct FVector2D& DesiredSize);
+	void SetBrushTintColor(const struct FSlateColor& TintColor);
+	void SetColorAndOpacity(const struct FLinearColor& InColorAndOpacity);
+	void SetOpacity(float InOpacity);
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("Image")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"Image")
+	}
+	static class UImage* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<UImage>();
+	}
+};
+DUMPER7_ASSERTS_UImage;
+
 // Class UMG.BoolBinding
 // 0x0000 (0x0060 - 0x0060)
 class UBoolBinding final : public UPropertyBinding
@@ -860,6 +820,65 @@ public:
 	}
 };
 DUMPER7_ASSERTS_UBoolBinding;
+
+// Class UMG.Viewport
+// 0x0028 (0x0150 - 0x0128)
+class UViewport final : public UContentWidget
+{
+public:
+	struct FLinearColor                           BackgroundColor;                                   // 0x0128(0x0010)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	uint8                                         Pad_138[0x18];                                     // 0x0138(0x0018)(Fixing Struct Size After Last Property [ Dumper-7 ])
+
+public:
+	void SetViewLocation(const struct FVector& Location);
+	void SetViewRotation(const struct FRotator& Rotation);
+	class AActor* Spawn(TSubclassOf<class AActor> ActorClass);
+
+	struct FVector GetViewLocation() const;
+	class UWorld* GetViewportWorld() const;
+	struct FRotator GetViewRotation() const;
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("Viewport")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"Viewport")
+	}
+	static class UViewport* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<UViewport>();
+	}
+};
+DUMPER7_ASSERTS_UViewport;
+
+// Class UMG.CanvasPanel
+// 0x0010 (0x0138 - 0x0128)
+class UCanvasPanel : public UPanelWidget
+{
+public:
+	uint8                                         Pad_128[0x10];                                     // 0x0128(0x0010)(Fixing Struct Size After Last Property [ Dumper-7 ])
+
+public:
+	class UCanvasPanelSlot* AddChildToCanvas(class UWidget* Content);
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("CanvasPanel")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"CanvasPanel")
+	}
+	static class UCanvasPanel* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<UCanvasPanel>();
+	}
+};
+DUMPER7_ASSERTS_UCanvasPanel;
 
 // Class UMG.CheckBox
 // 0x0650 (0x0778 - 0x0128)
@@ -1130,26 +1149,6 @@ public:
 };
 DUMPER7_ASSERTS_UScrollBox;
 
-// Class UMG.MovieSceneMarginTrack
-// 0x0000 (0x0088 - 0x0088)
-class UMovieSceneMarginTrack final : public UMovieScenePropertyTrack
-{
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("MovieSceneMarginTrack")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"MovieSceneMarginTrack")
-	}
-	static class UMovieSceneMarginTrack* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<UMovieSceneMarginTrack>();
-	}
-};
-DUMPER7_ASSERTS_UMovieSceneMarginTrack;
-
 // Class UMG.EditableText
 // 0x0348 (0x0458 - 0x0110)
 class UEditableText : public UWidget
@@ -1369,6 +1368,26 @@ public:
 };
 DUMPER7_ASSERTS_UTileView;
 
+// Class UMG.MovieSceneMarginTrack
+// 0x0000 (0x0088 - 0x0088)
+class UMovieSceneMarginTrack final : public UMovieScenePropertyTrack
+{
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("MovieSceneMarginTrack")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"MovieSceneMarginTrack")
+	}
+	static class UMovieSceneMarginTrack* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<UMovieSceneMarginTrack>();
+	}
+};
+DUMPER7_ASSERTS_UMovieSceneMarginTrack;
+
 // Class UMG.SimpleMeshWidget
 // 0x00C8 (0x01D8 - 0x0110)
 class USimpleMeshWidget final : public UWidget
@@ -1454,31 +1473,78 @@ public:
 };
 DUMPER7_ASSERTS_URichTextBlock;
 
-// Class UMG.HorizontalBox
-// 0x0010 (0x0138 - 0x0128)
-class UHorizontalBox : public UPanelWidget
+// Class UMG.DynamicEntryBoxBase
+// 0x00C8 (0x01D8 - 0x0110)
+class UDynamicEntryBoxBase : public UWidget
 {
 public:
-	uint8                                         Pad_128[0x10];                                     // 0x0128(0x0010)(Fixing Struct Size After Last Property [ Dumper-7 ])
+	EDynamicBoxType                               EntryBoxType;                                      // 0x0110(0x0001)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
+	uint8                                         Pad_111[0x3];                                      // 0x0111(0x0003)(Fixing Size After Last Property [ Dumper-7 ])
+	struct FVector2D                              EntrySpacing;                                      // 0x0114(0x0008)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
+	uint8                                         Pad_11C[0x4];                                      // 0x011C(0x0004)(Fixing Size After Last Property [ Dumper-7 ])
+	TArray<struct FVector2D>                      SpacingPattern;                                    // 0x0120(0x0010)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
+	struct FSlateChildSize                        EntrySizeRule;                                     // 0x0130(0x0008)(Edit, BlueprintVisible, BlueprintReadOnly, NoDestructor, Protected, NativeAccessSpecifierProtected)
+	EHorizontalAlignment                          EntryHorizontalAlignment;                          // 0x0138(0x0001)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
+	EVerticalAlignment                            EntryVerticalAlignment;                            // 0x0139(0x0001)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
+	uint8                                         Pad_13A[0x2];                                      // 0x013A(0x0002)(Fixing Size After Last Property [ Dumper-7 ])
+	int32                                         MaxElementSize;                                    // 0x013C(0x0004)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
+	int32                                         WrapWidth;                                         // 0x0140(0x0004)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
+	ETextJustify                                  Justification;                                     // 0x0144(0x0001)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
+	uint8                                         Pad_145[0x13];                                     // 0x0145(0x0013)(Fixing Size After Last Property [ Dumper-7 ])
+	struct FUserWidgetPool                        EntryWidgetPool;                                   // 0x0158(0x0080)(Transient, ContainsInstancedReference, NativeAccessSpecifierPrivate)
 
 public:
-	class UHorizontalBoxSlot* AddChildToHorizontalBox(class UWidget* Content);
+	void SetEntrySpacing(const struct FVector2D& InEntrySpacing);
+	void SetJustification(const ETextJustify InJustification);
+	void SetWrapWidth(const int32 InWrapWidth);
+
+	const TArray<class UUserWidget*> GetAllEntries() const;
+	int32 GetNumEntries() const;
 
 public:
 	static class UClass* StaticClass()
 	{
-		STATIC_CLASS_IMPL("HorizontalBox")
+		STATIC_CLASS_IMPL("DynamicEntryBoxBase")
 	}
 	static const class FName& StaticName()
 	{
-		STATIC_NAME_IMPL(L"HorizontalBox")
+		STATIC_NAME_IMPL(L"DynamicEntryBoxBase")
 	}
-	static class UHorizontalBox* GetDefaultObj()
+	static class UDynamicEntryBoxBase* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UHorizontalBox>();
+		return GetDefaultObjImpl<UDynamicEntryBoxBase>();
 	}
 };
-DUMPER7_ASSERTS_UHorizontalBox;
+DUMPER7_ASSERTS_UDynamicEntryBoxBase;
+
+// Class UMG.DynamicEntryBox
+// 0x0008 (0x01E0 - 0x01D8)
+class UDynamicEntryBox final : public UDynamicEntryBoxBase
+{
+public:
+	TSubclassOf<class UUserWidget>                EntryWidgetClass;                                  // 0x01D8(0x0008)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
+
+public:
+	class UUserWidget* BP_CreateEntry();
+	class UUserWidget* BP_CreateEntryOfClass(TSubclassOf<class UUserWidget> EntryClass);
+	void RemoveEntry(class UUserWidget* EntryWidget);
+	void Reset(bool bDeleteWidgets);
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("DynamicEntryBox")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"DynamicEntryBox")
+	}
+	static class UDynamicEntryBox* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<UDynamicEntryBox>();
+	}
+};
+DUMPER7_ASSERTS_UDynamicEntryBox;
 
 // Class UMG.MovieScene2DTransformTrack
 // 0x0000 (0x0088 - 0x0088)
@@ -1779,6 +1845,32 @@ public:
 };
 DUMPER7_ASSERTS_USafeZone;
 
+// Class UMG.BrushBinding
+// 0x0008 (0x0068 - 0x0060)
+class UBrushBinding final : public UPropertyBinding
+{
+public:
+	uint8                                         Pad_60[0x8];                                       // 0x0060(0x0008)(Fixing Struct Size After Last Property [ Dumper-7 ])
+
+public:
+	struct FSlateBrush GetValue() const;
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("BrushBinding")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"BrushBinding")
+	}
+	static class UBrushBinding* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<UBrushBinding>();
+	}
+};
+DUMPER7_ASSERTS_UBrushBinding;
+
 // Class UMG.Slider
 // 0x03F0 (0x0500 - 0x0110)
 class USlider : public UWidget
@@ -1838,32 +1930,6 @@ public:
 };
 DUMPER7_ASSERTS_USlider;
 
-// Class UMG.BrushBinding
-// 0x0008 (0x0068 - 0x0060)
-class UBrushBinding final : public UPropertyBinding
-{
-public:
-	uint8                                         Pad_60[0x8];                                       // 0x0060(0x0008)(Fixing Struct Size After Last Property [ Dumper-7 ])
-
-public:
-	struct FSlateBrush GetValue() const;
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("BrushBinding")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"BrushBinding")
-	}
-	static class UBrushBinding* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<UBrushBinding>();
-	}
-};
-DUMPER7_ASSERTS_UBrushBinding;
-
 // Class UMG.TextBlock
 // 0x0188 (0x02B8 - 0x0130)
 class UTextBlock : public UTextLayoutWidget
@@ -1919,6 +1985,33 @@ public:
 	}
 };
 DUMPER7_ASSERTS_UTextBlock;
+
+// Class UMG.AsyncTaskDownloadImage
+// 0x0020 (0x0050 - 0x0030)
+class UAsyncTaskDownloadImage final : public UBlueprintAsyncActionBase
+{
+public:
+	TMulticastInlineDelegate<void(class UTexture2DDynamic* Texture)> OnSuccess;                      // 0x0030(0x0010)(ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
+	TMulticastInlineDelegate<void(class UTexture2DDynamic* Texture)> OnFail;                         // 0x0040(0x0010)(ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
+
+public:
+	static class UAsyncTaskDownloadImage* DownloadImage(const class FString& URL);
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("AsyncTaskDownloadImage")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"AsyncTaskDownloadImage")
+	}
+	static class UAsyncTaskDownloadImage* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<UAsyncTaskDownloadImage>();
+	}
+};
+DUMPER7_ASSERTS_UAsyncTaskDownloadImage;
 
 // Class UMG.BackgroundBlur
 // 0x00B8 (0x01E0 - 0x0128)
@@ -2606,51 +2699,25 @@ public:
 };
 DUMPER7_ASSERTS_UUserObjectListEntryLibrary;
 
-// Class UMG.MenuAnchor
-// 0x0048 (0x0170 - 0x0128)
-class UMenuAnchor final : public UContentWidget
+// Class UMG.ListViewDesignerPreviewItem
+// 0x0000 (0x0028 - 0x0028)
+class UListViewDesignerPreviewItem final : public UObject
 {
-public:
-	TSubclassOf<class UUserWidget>                MenuClass;                                         // 0x0128(0x0008)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, UObjectWrapper, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	TDelegate<void()>                             OnGetMenuContentEvent;                             // 0x0130(0x0010)(Edit, ZeroConstructor, InstancedReference, NoDestructor, NativeAccessSpecifierPublic)
-	EMenuPlacement                                Placement;                                         // 0x0140(0x0001)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                          bFitInWindow;                                      // 0x0141(0x0001)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                          ShouldDeferPaintingAfterWindowContent;             // 0x0142(0x0001)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                          UseApplicationMenuStack;                           // 0x0143(0x0001)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, AdvancedDisplay, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                          IsRemoveMenuContentWhenResetPopup;                 // 0x0144(0x0001)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint8                                         Pad_145[0x3];                                      // 0x0145(0x0003)(Fixing Size After Last Property [ Dumper-7 ])
-	TMulticastInlineDelegate<void(bool bIsOpen)>  OnMenuOpenChanged;                                 // 0x0148(0x0010)(ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
-	uint8                                         Pad_158[0x18];                                     // 0x0158(0x0018)(Fixing Struct Size After Last Property [ Dumper-7 ])
-
-public:
-	void Close();
-	void FitInWindow(bool bFit);
-	void Open(bool bFocusMenu);
-	void SetIsRemoveMenuContentWhenResetPopup(bool bRemove);
-	void SetPlacement(EMenuPlacement InPlacement);
-	void ToggleOpen(bool bFocusOnOpen);
-
-	struct FVector2D GetMenuLocalPosition() const;
-	struct FVector2D GetMenuPosition() const;
-	bool HasOpenSubMenus() const;
-	bool IsOpen() const;
-	bool ShouldOpenDueToClick() const;
-
 public:
 	static class UClass* StaticClass()
 	{
-		STATIC_CLASS_IMPL("MenuAnchor")
+		STATIC_CLASS_IMPL("ListViewDesignerPreviewItem")
 	}
 	static const class FName& StaticName()
 	{
-		STATIC_NAME_IMPL(L"MenuAnchor")
+		STATIC_NAME_IMPL(L"ListViewDesignerPreviewItem")
 	}
-	static class UMenuAnchor* GetDefaultObj()
+	static class UListViewDesignerPreviewItem* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UMenuAnchor>();
+		return GetDefaultObjImpl<UListViewDesignerPreviewItem>();
 	}
 };
-DUMPER7_ASSERTS_UMenuAnchor;
+DUMPER7_ASSERTS_UListViewDesignerPreviewItem;
 
 // Class UMG.MouseCursorBinding
 // 0x0000 (0x0060 - 0x0060)
@@ -3598,73 +3665,6 @@ public:
 	}
 };
 DUMPER7_ASSERTS_UVerticalBox;
-
-// Class UMG.VerticalBoxSlot
-// 0x0028 (0x0060 - 0x0038)
-class UVerticalBoxSlot final : public UPanelSlot
-{
-public:
-	struct FSlateChildSize                        Size;                                              // 0x0038(0x0008)(Edit, BlueprintVisible, BlueprintReadOnly, NoDestructor, NativeAccessSpecifierPublic)
-	struct FMargin                                Padding;                                           // 0x0040(0x0010)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-	uint8                                         Pad_50[0x8];                                       // 0x0050(0x0008)(Fixing Size After Last Property [ Dumper-7 ])
-	EHorizontalAlignment                          HorizontalAlignment;                               // 0x0058(0x0001)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	EVerticalAlignment                            VerticalAlignment;                                 // 0x0059(0x0001)(Edit, BlueprintVisible, BlueprintReadOnly, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint8                                         Pad_5A[0x6];                                       // 0x005A(0x0006)(Fixing Struct Size After Last Property [ Dumper-7 ])
-
-public:
-	void SetHorizontalAlignment(EHorizontalAlignment InHorizontalAlignment);
-	void SetPadding(const struct FMargin& InPadding);
-	void SetSize(const struct FSlateChildSize& InSize);
-	void SetVerticalAlignment(EVerticalAlignment InVerticalAlignment);
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("VerticalBoxSlot")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"VerticalBoxSlot")
-	}
-	static class UVerticalBoxSlot* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<UVerticalBoxSlot>();
-	}
-};
-DUMPER7_ASSERTS_UVerticalBoxSlot;
-
-// Class UMG.Viewport
-// 0x0028 (0x0150 - 0x0128)
-class UViewport final : public UContentWidget
-{
-public:
-	struct FLinearColor                           BackgroundColor;                                   // 0x0128(0x0010)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint8                                         Pad_138[0x18];                                     // 0x0138(0x0018)(Fixing Struct Size After Last Property [ Dumper-7 ])
-
-public:
-	void SetViewLocation(const struct FVector& Location);
-	void SetViewRotation(const struct FRotator& Rotation);
-	class AActor* Spawn(TSubclassOf<class AActor> ActorClass);
-
-	struct FVector GetViewLocation() const;
-	class UWorld* GetViewportWorld() const;
-	struct FRotator GetViewRotation() const;
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("Viewport")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"Viewport")
-	}
-	static class UViewport* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<UViewport>();
-	}
-};
-DUMPER7_ASSERTS_UViewport;
 
 // Class UMG.VisibilityBinding
 // 0x0000 (0x0060 - 0x0060)

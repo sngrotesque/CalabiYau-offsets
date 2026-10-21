@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_TargetDetectorCylinder_IceZoneTop.BP_TargetDetectorCylinder_IceZoneTop_C
 // 0x0000 (0x0640 - 0x0640)
-class UBP_TargetDetectorCylinder_IceZoneTop_C final : public UCyTargetDetectorCylinder
+class BP_TargetDetectorCylinder_IceZoneTop::UBP_TargetDetectorCylinder_IceZoneTop_C final : public UCyTargetDetectorCylinder
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_TargetDetectorCylinder_IceZoneTop_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_TargetDetectorCylinder_IceZoneTop.BP_TargetDetectorCylinder_IceZoneTop_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_TargetDetectorCylinder_IceZoneTop_C")
 	}
-	static class UBP_TargetDetectorCylinder_IceZoneTop_C* GetDefaultObj()
+	static class BP_TargetDetectorCylinder_IceZoneTop::UBP_TargetDetectorCylinder_IceZoneTop_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_TargetDetectorCylinder_IceZoneTop_C>();
+		return GetDefaultObjImpl<BP_TargetDetectorCylinder_IceZoneTop::UBP_TargetDetectorCylinder_IceZoneTop_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_TargetDetectorCylinder_IceZoneTop_C;
+DUMPER7_ASSERTS_BP_TargetDetectorCylinder_IceZoneTop__UBP_TargetDetectorCylinder_IceZoneTop_C;
 
 SDK_NAMESPACE_END

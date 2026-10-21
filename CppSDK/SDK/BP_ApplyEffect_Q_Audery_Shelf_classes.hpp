@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_ApplyEffect_Q_Audery_Shelf.BP_ApplyEffect_Q_Audery_Shelf_C
 // 0x0000 (0x05D8 - 0x05D8)
-class UBP_ApplyEffect_Q_Audery_Shelf_C final : public UCySAtomApplyEffects
+class BP_ApplyEffect_Q_Audery_Shelf::UBP_ApplyEffect_Q_Audery_Shelf_C final : public UCySAtomApplyEffects
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_ApplyEffect_Q_Audery_Shelf_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_ApplyEffect_Q_Audery_Shelf.BP_ApplyEffect_Q_Audery_Shelf_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_ApplyEffect_Q_Audery_Shelf_C")
 	}
-	static class UBP_ApplyEffect_Q_Audery_Shelf_C* GetDefaultObj()
+	static class BP_ApplyEffect_Q_Audery_Shelf::UBP_ApplyEffect_Q_Audery_Shelf_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_ApplyEffect_Q_Audery_Shelf_C>();
+		return GetDefaultObjImpl<BP_ApplyEffect_Q_Audery_Shelf::UBP_ApplyEffect_Q_Audery_Shelf_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_ApplyEffect_Q_Audery_Shelf_C;
+DUMPER7_ASSERTS_BP_ApplyEffect_Q_Audery_Shelf__UBP_ApplyEffect_Q_Audery_Shelf_C;
 
 SDK_NAMESPACE_END

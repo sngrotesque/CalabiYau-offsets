@@ -16,8 +16,7 @@
 
 ## 其他
 
-本仓库不处理《Strinova》（也就是国际服）的任何事情，想要国际服的偏移量的话。  
-规矩你懂的，想要你得自己去拿。
+对于国际服，请去 [Strinova](https://github.com/sngrotesque/Strinova-offsets) 。
 
 由于本仓库的特殊性，可能随时消失，且用且珍惜。
 

@@ -10,8 +10,8 @@
 
 #include "Basic.hpp"
 
-#include "PMGame_classes.hpp"
 #include "SlateCore_structs.hpp"
+#include "PMGame_classes.hpp"
 
 
 SDK_NAMESPACE_START

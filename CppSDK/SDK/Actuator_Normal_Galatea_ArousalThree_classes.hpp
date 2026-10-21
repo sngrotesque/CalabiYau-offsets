@@ -17,7 +17,7 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass Actuator_Normal_Galatea_ArousalThree.Actuator_Normal_Galatea_ArousalThree_C
 // 0x00C0 (0x0CC0 - 0x0C00)
-class AActuator_Normal_Galatea_ArousalThree_C final : public ACySummonCharacter
+class Actuator_Normal_Galatea_ArousalThree::AActuator_Normal_Galatea_ArousalThree_C final : public ACySummonCharacter
 {
 public:
 	class UCyAIStateMonitor*                      CyAIStateMonitorEntryAndWork;                      // 0x0C00(0x0008)(BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash)
@@ -48,17 +48,17 @@ public:
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("Actuator_Normal_Galatea_ArousalThree_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass Actuator_Normal_Galatea_ArousalThree.Actuator_Normal_Galatea_ArousalThree_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"Actuator_Normal_Galatea_ArousalThree_C")
 	}
-	static class AActuator_Normal_Galatea_ArousalThree_C* GetDefaultObj()
+	static class Actuator_Normal_Galatea_ArousalThree::AActuator_Normal_Galatea_ArousalThree_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<AActuator_Normal_Galatea_ArousalThree_C>();
+		return GetDefaultObjImpl<Actuator_Normal_Galatea_ArousalThree::AActuator_Normal_Galatea_ArousalThree_C>();
 	}
 };
-DUMPER7_ASSERTS_AActuator_Normal_Galatea_ArousalThree_C;
+DUMPER7_ASSERTS_Actuator_Normal_Galatea_ArousalThree__AActuator_Normal_Galatea_ArousalThree_C;
 
 SDK_NAMESPACE_END

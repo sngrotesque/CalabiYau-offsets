@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass GE_SummonShape3D.GE_SummonShape3D_C
 // 0x0000 (0x1060 - 0x1060)
-class UGE_SummonShape3D_C final : public UGameplayEffect
+class GE_SummonShape3D::UGE_SummonShape3D_C final : public UGameplayEffect
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("GE_SummonShape3D_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass GE_SummonShape3D.GE_SummonShape3D_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"GE_SummonShape3D_C")
 	}
-	static class UGE_SummonShape3D_C* GetDefaultObj()
+	static class GE_SummonShape3D::UGE_SummonShape3D_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UGE_SummonShape3D_C>();
+		return GetDefaultObjImpl<GE_SummonShape3D::UGE_SummonShape3D_C>();
 	}
 };
-DUMPER7_ASSERTS_UGE_SummonShape3D_C;
+DUMPER7_ASSERTS_GE_SummonShape3D__UGE_SummonShape3D_C;
 
 SDK_NAMESPACE_END

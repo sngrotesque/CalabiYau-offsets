@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_SA_ActivateParticleSystem_EnergeBar.BP_SA_ActivateParticleSystem_EnergeBar_C
 // 0x0000 (0x05E0 - 0x05E0)
-class UBP_SA_ActivateParticleSystem_EnergeBar_C final : public UCySAActivateParticleSystem
+class BP_SA_ActivateParticleSystem_EnergeBar::UBP_SA_ActivateParticleSystem_EnergeBar_C final : public UCySAActivateParticleSystem
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_SA_ActivateParticleSystem_EnergeBar_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_SA_ActivateParticleSystem_EnergeBar.BP_SA_ActivateParticleSystem_EnergeBar_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_SA_ActivateParticleSystem_EnergeBar_C")
 	}
-	static class UBP_SA_ActivateParticleSystem_EnergeBar_C* GetDefaultObj()
+	static class BP_SA_ActivateParticleSystem_EnergeBar::UBP_SA_ActivateParticleSystem_EnergeBar_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_SA_ActivateParticleSystem_EnergeBar_C>();
+		return GetDefaultObjImpl<BP_SA_ActivateParticleSystem_EnergeBar::UBP_SA_ActivateParticleSystem_EnergeBar_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_SA_ActivateParticleSystem_EnergeBar_C;
+DUMPER7_ASSERTS_BP_SA_ActivateParticleSystem_EnergeBar__UBP_SA_ActivateParticleSystem_EnergeBar_C;
 
 SDK_NAMESPACE_END

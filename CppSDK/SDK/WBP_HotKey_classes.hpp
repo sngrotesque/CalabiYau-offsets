@@ -25,9 +25,9 @@ public:
 	class UPMImage*                               PMImage_Click;                                     // 0x06B8(0x0008)(BlueprintVisible, ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash)
 
 public:
-	void ExecuteUbergraph_WBP_HotKey(int32 EntryPoint);
+	void PreConstruct(bool IsDesignTime_PreConstruct);
 	void Construct();
-	void PreConstruct(bool IsDesignTime);
+	void ExecuteUbergraph_WBP_HotKey(int32 EntryPoint);
 
 public:
 	static class UClass* StaticClass()

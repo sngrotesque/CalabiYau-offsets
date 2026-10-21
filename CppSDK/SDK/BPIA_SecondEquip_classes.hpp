@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BPIA_SecondEquip.BPIA_SecondEquip_C
 // 0x0000 (0x0A90 - 0x0A90)
-class UBPIA_SecondEquip_C final : public UCyInteractAtomSwitchWeapon
+class BPIA_SecondEquip::UBPIA_SecondEquip_C final : public UCyInteractAtomSwitchWeapon
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BPIA_SecondEquip_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BPIA_SecondEquip.BPIA_SecondEquip_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BPIA_SecondEquip_C")
 	}
-	static class UBPIA_SecondEquip_C* GetDefaultObj()
+	static class BPIA_SecondEquip::UBPIA_SecondEquip_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBPIA_SecondEquip_C>();
+		return GetDefaultObjImpl<BPIA_SecondEquip::UBPIA_SecondEquip_C>();
 	}
 };
-DUMPER7_ASSERTS_UBPIA_SecondEquip_C;
+DUMPER7_ASSERTS_BPIA_SecondEquip__UBPIA_SecondEquip_C;
 
 SDK_NAMESPACE_END

@@ -27,8 +27,8 @@ public:
 	class UOverlay*                               ScaleBox_Red_1;                                    // 0x05E0(0x0008)(BlueprintVisible, ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash)
 
 public:
-	void ExecuteUbergraph_WBP_RedDot_Pic_Panel(int32 EntryPoint);
 	void Construct();
+	void ExecuteUbergraph_WBP_RedDot_Pic_Panel(int32 EntryPoint);
 
 public:
 	static class UClass* StaticClass()

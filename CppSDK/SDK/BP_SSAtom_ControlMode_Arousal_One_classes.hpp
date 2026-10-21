@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_SSAtom_ControlMode_Arousal_One.BP_SSAtom_ControlMode_Arousal_One_C
 // 0x0000 (0x0058 - 0x0058)
-class UBP_SSAtom_ControlMode_Arousal_One_C final : public UCySSAtomSetControlMode
+class BP_SSAtom_ControlMode_Arousal_One::UBP_SSAtom_ControlMode_Arousal_One_C final : public UCySSAtomSetControlMode
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_SSAtom_ControlMode_Arousal_One_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_SSAtom_ControlMode_Arousal_One.BP_SSAtom_ControlMode_Arousal_One_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_SSAtom_ControlMode_Arousal_One_C")
 	}
-	static class UBP_SSAtom_ControlMode_Arousal_One_C* GetDefaultObj()
+	static class BP_SSAtom_ControlMode_Arousal_One::UBP_SSAtom_ControlMode_Arousal_One_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_SSAtom_ControlMode_Arousal_One_C>();
+		return GetDefaultObjImpl<BP_SSAtom_ControlMode_Arousal_One::UBP_SSAtom_ControlMode_Arousal_One_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_SSAtom_ControlMode_Arousal_One_C;
+DUMPER7_ASSERTS_BP_SSAtom_ControlMode_Arousal_One__UBP_SSAtom_ControlMode_Arousal_One_C;
 
 SDK_NAMESPACE_END

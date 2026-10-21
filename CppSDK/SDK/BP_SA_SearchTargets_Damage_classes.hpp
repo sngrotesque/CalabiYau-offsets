@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_SA_SearchTargets_Damage.BP_SA_SearchTargets_Damage_C
 // 0x0000 (0x07A0 - 0x07A0)
-class UBP_SA_SearchTargets_Damage_C final : public UCySAtomSearchTargets
+class BP_SA_SearchTargets_Damage::UBP_SA_SearchTargets_Damage_C final : public UCySAtomSearchTargets
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_SA_SearchTargets_Damage_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_SA_SearchTargets_Damage.BP_SA_SearchTargets_Damage_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_SA_SearchTargets_Damage_C")
 	}
-	static class UBP_SA_SearchTargets_Damage_C* GetDefaultObj()
+	static class BP_SA_SearchTargets_Damage::UBP_SA_SearchTargets_Damage_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_SA_SearchTargets_Damage_C>();
+		return GetDefaultObjImpl<BP_SA_SearchTargets_Damage::UBP_SA_SearchTargets_Damage_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_SA_SearchTargets_Damage_C;
+DUMPER7_ASSERTS_BP_SA_SearchTargets_Damage__UBP_SA_SearchTargets_Damage_C;
 
 SDK_NAMESPACE_END

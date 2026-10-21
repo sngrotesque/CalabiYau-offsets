@@ -10,9 +10,9 @@
 
 #include "Basic.hpp"
 
-#include "DatasmithContent_structs.hpp"
 #include "CoreUObject_structs.hpp"
 #include "CoreUObject_classes.hpp"
+#include "DatasmithContent_structs.hpp"
 #include "Engine_structs.hpp"
 #include "Engine_classes.hpp"
 
@@ -266,6 +266,31 @@ public:
 };
 DUMPER7_ASSERTS_UDatasmithTranslatedSceneImportData;
 
+// Class DatasmithContent.DatasmithContentBlueprintLibrary
+// 0x0000 (0x0028 - 0x0028)
+class UDatasmithContentBlueprintLibrary final : public UBlueprintFunctionLibrary
+{
+public:
+	static class UDatasmithAssetUserData* GetDatasmithUserData(class UObject* Object);
+	static void GetDatasmithUserDataKeysAndValuesForValue(class UObject* Object, const class FString& StringToMatch, TArray<class FName>* OutKeys, TArray<class FString>* OutValues);
+	static class FString GetDatasmithUserDataValueForKey(class UObject* Object, class FName Key);
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("DatasmithContentBlueprintLibrary")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"DatasmithContentBlueprintLibrary")
+	}
+	static class UDatasmithContentBlueprintLibrary* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<UDatasmithContentBlueprintLibrary>();
+	}
+};
+DUMPER7_ASSERTS_UDatasmithContentBlueprintLibrary;
+
 // Class DatasmithContent.DatasmithCADImportSceneData
 // 0x0000 (0x0028 - 0x0028)
 class UDatasmithCADImportSceneData final : public UDatasmithSceneImportData
@@ -306,31 +331,25 @@ public:
 };
 DUMPER7_ASSERTS_UDatasmithMDLSceneImportData;
 
-// Class DatasmithContent.DatasmithImportedSequencesActor
-// 0x0010 (0x0320 - 0x0310)
-class ADatasmithImportedSequencesActor final : public AActor
+// Class DatasmithContent.DatasmithIFCSceneImportData
+// 0x0000 (0x0028 - 0x0028)
+class UDatasmithIFCSceneImportData final : public UDatasmithSceneImportData
 {
-public:
-	TArray<class ULevelSequence*>                 ImportedSequences;                                 // 0x0310(0x0010)(Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-public:
-	void PlayLevelSequence(class ULevelSequence* SequenceToPlay);
-
 public:
 	static class UClass* StaticClass()
 	{
-		STATIC_CLASS_IMPL("DatasmithImportedSequencesActor")
+		STATIC_CLASS_IMPL("DatasmithIFCSceneImportData")
 	}
 	static const class FName& StaticName()
 	{
-		STATIC_NAME_IMPL(L"DatasmithImportedSequencesActor")
+		STATIC_NAME_IMPL(L"DatasmithIFCSceneImportData")
 	}
-	static class ADatasmithImportedSequencesActor* GetDefaultObj()
+	static class UDatasmithIFCSceneImportData* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<ADatasmithImportedSequencesActor>();
+		return GetDefaultObjImpl<UDatasmithIFCSceneImportData>();
 	}
 };
-DUMPER7_ASSERTS_ADatasmithImportedSequencesActor;
+DUMPER7_ASSERTS_UDatasmithIFCSceneImportData;
 
 // Class DatasmithContent.DatasmithGLTFSceneImportData
 // 0x0048 (0x0070 - 0x0028)
@@ -431,6 +450,29 @@ public:
 };
 DUMPER7_ASSERTS_UDatasmithDeltaGenAssetImportData;
 
+// Class DatasmithContent.DatasmithCineCameraActorTemplate
+// 0x0030 (0x0060 - 0x0030)
+class UDatasmithCineCameraActorTemplate final : public UDatasmithObjectTemplate
+{
+public:
+	struct FDatasmithCameraLookatTrackingSettingsTemplate LookatTrackingSettings;                    // 0x0030(0x0030)(NativeAccessSpecifierPublic)
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("DatasmithCineCameraActorTemplate")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"DatasmithCineCameraActorTemplate")
+	}
+	static class UDatasmithCineCameraActorTemplate* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<UDatasmithCineCameraActorTemplate>();
+	}
+};
+DUMPER7_ASSERTS_UDatasmithCineCameraActorTemplate;
+
 // Class DatasmithContent.DatasmithDeltaGenSceneImportData
 // 0x0048 (0x0090 - 0x0048)
 class UDatasmithDeltaGenSceneImportData final : public UDatasmithFBXSceneImportData
@@ -486,31 +528,6 @@ public:
 };
 DUMPER7_ASSERTS_UDatasmithVREDAssetImportData;
 
-// Class DatasmithContent.DatasmithContentBlueprintLibrary
-// 0x0000 (0x0028 - 0x0028)
-class UDatasmithContentBlueprintLibrary final : public UBlueprintFunctionLibrary
-{
-public:
-	static class UDatasmithAssetUserData* GetDatasmithUserData(class UObject* Object);
-	static void GetDatasmithUserDataKeysAndValuesForValue(class UObject* Object, const class FString& StringToMatch, TArray<class FName>* OutKeys, TArray<class FString>* OutValues);
-	static class FString GetDatasmithUserDataValueForKey(class UObject* Object, class FName Key);
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("DatasmithContentBlueprintLibrary")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"DatasmithContentBlueprintLibrary")
-	}
-	static class UDatasmithContentBlueprintLibrary* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<UDatasmithContentBlueprintLibrary>();
-	}
-};
-DUMPER7_ASSERTS_UDatasmithContentBlueprintLibrary;
-
 // Class DatasmithContent.DatasmithVREDSceneImportData
 // 0x0060 (0x00A8 - 0x0048)
 class UDatasmithVREDSceneImportData final : public UDatasmithFBXSceneImportData
@@ -547,26 +564,6 @@ public:
 	}
 };
 DUMPER7_ASSERTS_UDatasmithVREDSceneImportData;
-
-// Class DatasmithContent.DatasmithIFCSceneImportData
-// 0x0000 (0x0028 - 0x0028)
-class UDatasmithIFCSceneImportData final : public UDatasmithSceneImportData
-{
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("DatasmithIFCSceneImportData")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"DatasmithIFCSceneImportData")
-	}
-	static class UDatasmithIFCSceneImportData* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<UDatasmithIFCSceneImportData>();
-	}
-};
-DUMPER7_ASSERTS_UDatasmithIFCSceneImportData;
 
 // Class DatasmithContent.DatasmithStaticMeshIFCImportData
 // 0x0010 (0x0038 - 0x0028)
@@ -613,29 +610,6 @@ public:
 	}
 };
 DUMPER7_ASSERTS_UDatasmithAssetUserData;
-
-// Class DatasmithContent.DatasmithCineCameraActorTemplate
-// 0x0030 (0x0060 - 0x0030)
-class UDatasmithCineCameraActorTemplate final : public UDatasmithObjectTemplate
-{
-public:
-	struct FDatasmithCameraLookatTrackingSettingsTemplate LookatTrackingSettings;                    // 0x0030(0x0030)(NativeAccessSpecifierPublic)
-
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("DatasmithCineCameraActorTemplate")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"DatasmithCineCameraActorTemplate")
-	}
-	static class UDatasmithCineCameraActorTemplate* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<UDatasmithCineCameraActorTemplate>();
-	}
-};
-DUMPER7_ASSERTS_UDatasmithCineCameraActorTemplate;
 
 // Class DatasmithContent.DatasmithCineCameraComponentTemplate
 // 0x0060 (0x0090 - 0x0030)
@@ -688,6 +662,32 @@ public:
 	}
 };
 DUMPER7_ASSERTS_UDatasmithCustomActionBase;
+
+// Class DatasmithContent.DatasmithImportedSequencesActor
+// 0x0010 (0x0320 - 0x0310)
+class ADatasmithImportedSequencesActor final : public AActor
+{
+public:
+	TArray<class ULevelSequence*>                 ImportedSequences;                                 // 0x0310(0x0010)(Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+public:
+	void PlayLevelSequence(class ULevelSequence* SequenceToPlay);
+
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("DatasmithImportedSequencesActor")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"DatasmithImportedSequencesActor")
+	}
+	static class ADatasmithImportedSequencesActor* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<ADatasmithImportedSequencesActor>();
+	}
+};
+DUMPER7_ASSERTS_ADatasmithImportedSequencesActor;
 
 // Class DatasmithContent.DatasmithOptionsBase
 // 0x0000 (0x0028 - 0x0028)

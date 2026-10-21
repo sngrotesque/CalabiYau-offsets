@@ -10,53 +10,39 @@
 
 #include "Basic.hpp"
 
-#include "PMGame_classes.hpp"
-#include "SlateCore_structs.hpp"
 #include "Engine_structs.hpp"
-#include "CoreUObject_structs.hpp"
+#include "PMGame_classes.hpp"
 
 
 SDK_NAMESPACE_START
 
 // WidgetBlueprintGeneratedClass WBP_BuffItem.WBP_BuffItem_C
-// 0x0140 (0x0708 - 0x05C8)
-class UWBP_BuffItem_C final : public UPMBaseUserWidget
+// 0x0018 (0x0AD8 - 0x0AC0)
+class WBP_BuffItem::UWBP_BuffItem_C final : public UPMUWBuffItemPC
 {
 public:
-	struct FPointerToUberGraphFrame               UberGraphFrame;                                    // 0x05C8(0x0008)(ZeroConstructor, Transient, DuplicateTransient)
-	class UWidgetAnimation*                       Try_Pop;                                           // 0x05D0(0x0008)(BlueprintVisible, BlueprintReadOnly, ZeroConstructor, Transient, IsPlainOldData, RepSkip, NoDestructor, HasGetValueTypeHash)
-	class UCanvasPanel*                           CanvasPanel_Tip;                                   // 0x05D8(0x0008)(BlueprintVisible, ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash)
-	class UImage*                                 Image;                                             // 0x05E0(0x0008)(BlueprintVisible, ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash)
-	class UImage*                                 Image_1;                                           // 0x05E8(0x0008)(BlueprintVisible, ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash)
-	class UImage*                                 Image_133;                                         // 0x05F0(0x0008)(BlueprintVisible, ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash)
-	class UImage*                                 Image_Icon;                                        // 0x05F8(0x0008)(BlueprintVisible, ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash)
-	class UListView*                              ListView_FreeTip;                                  // 0x0600(0x0008)(BlueprintVisible, ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash)
-	class UListView*                              ListView_InterTips;                                // 0x0608(0x0008)(BlueprintVisible, ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash)
-	class UListView*                              ListView_Tip;                                      // 0x0610(0x0008)(BlueprintVisible, ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash)
-	class UTextBlock*                             TextBlock_Exp;                                     // 0x0618(0x0008)(BlueprintVisible, ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash)
-	class UWidgetSwitcher*                        WidgetSwitcher_2;                                  // 0x0620(0x0008)(BlueprintVisible, ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash)
-	struct FSlateBrush                            ShowTexture;                                       // 0x0628(0x0088)(Edit, BlueprintVisible)
-	TMap<class FString, struct FSlateBrush>       BrushMap;                                          // 0x06B0(0x0050)(Edit, BlueprintVisible, DisableEditOnInstance)
-	struct FVector2D                              IconSize;                                          // 0x0700(0x0008)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	struct FPointerToUberGraphFrame               UberGraphFrame;                                    // 0x0AC0(0x0008)(ZeroConstructor, Transient, DuplicateTransient)
+	class UWidgetAnimation*                       MoveDown;                                          // 0x0AC8(0x0008)(BlueprintVisible, BlueprintReadOnly, ZeroConstructor, Transient, IsPlainOldData, RepSkip, NoDestructor, HasGetValueTypeHash)
+	bool                                          Is_BUFF;                                           // 0x0AD0(0x0001)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, ExposeOnSpawn)
 
 public:
+	void PreConstruct(bool IsDesignTime_PreConstruct);
 	void ExecuteUbergraph_WBP_BuffItem(int32 EntryPoint);
-	void PreConstruct(bool IsDesignTime);
 
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("WBP_BuffItem_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("WidgetBlueprintGeneratedClass WBP_BuffItem.WBP_BuffItem_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"WBP_BuffItem_C")
 	}
-	static class UWBP_BuffItem_C* GetDefaultObj()
+	static class WBP_BuffItem::UWBP_BuffItem_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UWBP_BuffItem_C>();
+		return GetDefaultObjImpl<WBP_BuffItem::UWBP_BuffItem_C>();
 	}
 };
-DUMPER7_ASSERTS_UWBP_BuffItem_C;
+DUMPER7_ASSERTS_WBP_BuffItem__UWBP_BuffItem_C;
 
 SDK_NAMESPACE_END

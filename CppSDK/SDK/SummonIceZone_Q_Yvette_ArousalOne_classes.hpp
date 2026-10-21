@@ -18,7 +18,7 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass SummonIceZone_Q_Yvette_ArousalOne.SummonIceZone_Q_Yvette_ArousalOne_C
 // 0x0080 (0x0920 - 0x08A0)
-class ASummonIceZone_Q_Yvette_ArousalOne_C final : public ACySummonActor
+class SummonIceZone_Q_Yvette_ArousalOne::ASummonIceZone_Q_Yvette_ArousalOne_C final : public ACySummonActor
 {
 public:
 	uint8                                         Pad_898[0x8];                                      // 0x0898(0x0008)(Fixing Size After Last Property [ Dumper-7 ])
@@ -45,17 +45,17 @@ public:
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("SummonIceZone_Q_Yvette_ArousalOne_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass SummonIceZone_Q_Yvette_ArousalOne.SummonIceZone_Q_Yvette_ArousalOne_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"SummonIceZone_Q_Yvette_ArousalOne_C")
 	}
-	static class ASummonIceZone_Q_Yvette_ArousalOne_C* GetDefaultObj()
+	static class SummonIceZone_Q_Yvette_ArousalOne::ASummonIceZone_Q_Yvette_ArousalOne_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<ASummonIceZone_Q_Yvette_ArousalOne_C>();
+		return GetDefaultObjImpl<SummonIceZone_Q_Yvette_ArousalOne::ASummonIceZone_Q_Yvette_ArousalOne_C>();
 	}
 };
-DUMPER7_ASSERTS_ASummonIceZone_Q_Yvette_ArousalOne_C;
+DUMPER7_ASSERTS_SummonIceZone_Q_Yvette_ArousalOne__ASummonIceZone_Q_Yvette_ArousalOne_C;
 
 SDK_NAMESPACE_END

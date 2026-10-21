@@ -17,7 +17,7 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass Summon_X_Lawine.Summon_X_Lawine_C
 // 0x0080 (0x0920 - 0x08A0)
-class ASummon_X_Lawine_C final : public ACySummonActor
+class Summon_X_Lawine::ASummon_X_Lawine_C final : public ACySummonActor
 {
 public:
 	uint8                                         Pad_898[0x8];                                      // 0x0898(0x0008)(Fixing Size After Last Property [ Dumper-7 ])
@@ -41,17 +41,17 @@ public:
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("Summon_X_Lawine_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass Summon_X_Lawine.Summon_X_Lawine_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"Summon_X_Lawine_C")
 	}
-	static class ASummon_X_Lawine_C* GetDefaultObj()
+	static class Summon_X_Lawine::ASummon_X_Lawine_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<ASummon_X_Lawine_C>();
+		return GetDefaultObjImpl<Summon_X_Lawine::ASummon_X_Lawine_C>();
 	}
 };
-DUMPER7_ASSERTS_ASummon_X_Lawine_C;
+DUMPER7_ASSERTS_Summon_X_Lawine__ASummon_X_Lawine_C;
 
 SDK_NAMESPACE_END

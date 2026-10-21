@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_SA_SpawnActor_Q_Yvette.BP_SA_SpawnActor_Q_Yvette_C
 // 0x0000 (0x0688 - 0x0688)
-class UBP_SA_SpawnActor_Q_Yvette_C final : public UCySAtomSpawnActor
+class BP_SA_SpawnActor_Q_Yvette::UBP_SA_SpawnActor_Q_Yvette_C final : public UCySAtomSpawnActor
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_SA_SpawnActor_Q_Yvette_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_SA_SpawnActor_Q_Yvette.BP_SA_SpawnActor_Q_Yvette_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_SA_SpawnActor_Q_Yvette_C")
 	}
-	static class UBP_SA_SpawnActor_Q_Yvette_C* GetDefaultObj()
+	static class BP_SA_SpawnActor_Q_Yvette::UBP_SA_SpawnActor_Q_Yvette_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_SA_SpawnActor_Q_Yvette_C>();
+		return GetDefaultObjImpl<BP_SA_SpawnActor_Q_Yvette::UBP_SA_SpawnActor_Q_Yvette_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_SA_SpawnActor_Q_Yvette_C;
+DUMPER7_ASSERTS_BP_SA_SpawnActor_Q_Yvette__UBP_SA_SpawnActor_Q_Yvette_C;
 
 SDK_NAMESPACE_END

@@ -115,15 +115,6 @@ public:
 };
 DUMPER7_ASSERTS_FAblAbilityCooldown;
 
-// ScriptStruct AbleCore.AnimNode_AbilityAnimPlayer
-// 0x0070 (0x00A8 - 0x0038)
-struct FAnimNode_AbilityAnimPlayer final : public FAnimNode_AssetPlayerBase
-{
-public:
-	uint8                                         Pad_38[0x70];                                      // 0x0038(0x0070)(Fixing Struct Size After Last Property [ Dumper-7 ])
-};
-DUMPER7_ASSERTS_FAnimNode_AbilityAnimPlayer;
-
 // ScriptStruct AbleCore.AblAbilityNetworkContext
 // 0x0038 (0x0038 - 0x0000)
 struct FAblAbilityNetworkContext final
@@ -140,6 +131,15 @@ public:
 	float                                         m_TimeStamp;                                       // 0x0034(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPrivate)
 };
 DUMPER7_ASSERTS_FAblAbilityNetworkContext;
+
+// ScriptStruct AbleCore.AnimNode_AbilityAnimPlayer
+// 0x0070 (0x00A8 - 0x0038)
+struct FAnimNode_AbilityAnimPlayer final : public FAnimNode_AssetPlayerBase
+{
+public:
+	uint8                                         Pad_38[0x70];                                      // 0x0038(0x0070)(Fixing Struct Size After Last Property [ Dumper-7 ])
+};
+DUMPER7_ASSERTS_FAnimNode_AbilityAnimPlayer;
 
 // ScriptStruct AbleCore.AblQueryResult
 // 0x0010 (0x0010 - 0x0000)

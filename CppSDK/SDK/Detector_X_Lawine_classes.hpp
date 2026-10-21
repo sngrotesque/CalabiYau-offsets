@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass Detector_X_Lawine.Detector_X_Lawine_C
 // 0x0000 (0x0640 - 0x0640)
-class UDetector_X_Lawine_C final : public UCyTargetDetectorBox
+class Detector_X_Lawine::UDetector_X_Lawine_C final : public UCyTargetDetectorBox
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("Detector_X_Lawine_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass Detector_X_Lawine.Detector_X_Lawine_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"Detector_X_Lawine_C")
 	}
-	static class UDetector_X_Lawine_C* GetDefaultObj()
+	static class Detector_X_Lawine::UDetector_X_Lawine_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UDetector_X_Lawine_C>();
+		return GetDefaultObjImpl<Detector_X_Lawine::UDetector_X_Lawine_C>();
 	}
 };
-DUMPER7_ASSERTS_UDetector_X_Lawine_C;
+DUMPER7_ASSERTS_Detector_X_Lawine__UDetector_X_Lawine_C;
 
 SDK_NAMESPACE_END

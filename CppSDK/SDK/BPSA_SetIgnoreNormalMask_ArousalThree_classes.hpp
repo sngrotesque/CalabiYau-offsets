@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BPSA_SetIgnoreNormalMask_ArousalThree.BPSA_SetIgnoreNormalMask_ArousalThree_C
 // 0x0000 (0x05F0 - 0x05F0)
-class UBPSA_SetIgnoreNormalMask_ArousalThree_C final : public UCySAtomSetComponentMaskFilter
+class BPSA_SetIgnoreNormalMask_ArousalThree::UBPSA_SetIgnoreNormalMask_ArousalThree_C final : public UCySAtomSetComponentMaskFilter
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BPSA_SetIgnoreNormalMask_ArousalThree_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BPSA_SetIgnoreNormalMask_ArousalThree.BPSA_SetIgnoreNormalMask_ArousalThree_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BPSA_SetIgnoreNormalMask_ArousalThree_C")
 	}
-	static class UBPSA_SetIgnoreNormalMask_ArousalThree_C* GetDefaultObj()
+	static class BPSA_SetIgnoreNormalMask_ArousalThree::UBPSA_SetIgnoreNormalMask_ArousalThree_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBPSA_SetIgnoreNormalMask_ArousalThree_C>();
+		return GetDefaultObjImpl<BPSA_SetIgnoreNormalMask_ArousalThree::UBPSA_SetIgnoreNormalMask_ArousalThree_C>();
 	}
 };
-DUMPER7_ASSERTS_UBPSA_SetIgnoreNormalMask_ArousalThree_C;
+DUMPER7_ASSERTS_BPSA_SetIgnoreNormalMask_ArousalThree__UBPSA_SetIgnoreNormalMask_ArousalThree_C;
 
 SDK_NAMESPACE_END

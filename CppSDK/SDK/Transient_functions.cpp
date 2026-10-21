@@ -16,15 +16,15 @@
 
 SDK_NAMESPACE_START
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CustomWidgetLayoutPanel_C_2147481967.Destruct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ToolTipsPage_C_2147480894.Destruct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_CustomWidgetLayoutPanel_C_2147481967::Destruct()
+void ULUA_OVERRIDES_WBP_ToolTipsPage_C_2147480894::Destruct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CustomWidgetLayoutPanel_C_2147481967", "Destruct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ToolTipsPage_C_2147480894", "Destruct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -35,15 +35,15 @@ void ULUA_OVERRIDES_WBP_CustomWidgetLayoutPanel_C_2147481967::Destruct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CustomWidgetLayoutPanel_C_2147481967.OnInitialized
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ToolTipsPage_C_2147480894.Construct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_CustomWidgetLayoutPanel_C_2147481967::OnInitialized()
+void ULUA_OVERRIDES_WBP_ToolTipsPage_C_2147480894::Construct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CustomWidgetLayoutPanel_C_2147481967", "OnInitialized");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ToolTipsPage_C_2147480894", "Construct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -54,15 +54,15 @@ void ULUA_OVERRIDES_WBP_CustomWidgetLayoutPanel_C_2147481967::OnInitialized()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CustomWidgetLayoutPanel_C_2147481967.Construct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ToolTipsPage_C_2147480894.OnInitialized
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_CustomWidgetLayoutPanel_C_2147481967::Construct()
+void ULUA_OVERRIDES_WBP_ToolTipsPage_C_2147480894::OnInitialized()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CustomWidgetLayoutPanel_C_2147481967", "Construct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ToolTipsPage_C_2147480894", "OnInitialized");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -73,26 +73,98 @@ void ULUA_OVERRIDES_WBP_CustomWidgetLayoutPanel_C_2147481967::Construct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CustomWidgetLayoutPanel_C_2147481967.OnDrop
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Clan_C_2147480867.OnLuaOpen
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatText_Clan_C_2147480867::OnLuaOpen()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Clan_C_2147480867", "OnLuaOpen");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Clan_C_2147480867.OnLuaClose
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatText_Clan_C_2147480867::OnLuaClose()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Clan_C_2147480867", "OnLuaClose");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Clan_C_2147480867.OnListItemObjectSet
+// (Event, Protected, BlueprintEvent)
 // Parameters:
-// const struct FGeometry&                 MyGeometry                                             (Parm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-// const struct FPointerEvent&             PointerEvent                                           (Parm, NativeAccessSpecifierPublic)
-// class UDragDropOperation*               Operation                                              (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+// class UObject*                          ListItemObject                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-bool ULUA_OVERRIDES_WBP_CustomWidgetLayoutPanel_C_2147481967::OnDrop(const struct FGeometry& MyGeometry, const struct FPointerEvent& PointerEvent, class UDragDropOperation* Operation)
+void ULUA_OVERRIDES_WBP_ChatText_Clan_C_2147480867::OnListItemObjectSet(class UObject* ListItemObject)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CustomWidgetLayoutPanel_C_2147481967", "OnDrop");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Clan_C_2147480867", "OnListItemObjectSet");
 
-	Params::LUA_OVERRIDES_WBP_CustomWidgetLayoutPanel_C_2147481967_OnDrop Parms{};
+	Params::LUA_OVERRIDES_WBP_ChatText_Clan_C_2147480867_OnListItemObjectSet Parms{};
 
-	Parms.MyGeometry = std::move(MyGeometry);
-	Parms.PointerEvent = std::move(PointerEvent);
-	Parms.Operation = Operation;
+	Parms.ListItemObject = ListItemObject;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Clan_C_2147480867.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatText_Clan_C_2147480867::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Clan_C_2147480867", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Clan_C_2147480867.OnMouseLeave
+// (BlueprintCosmetic, Native, Event, Public, HasOutParams, BlueprintEvent)
+// Parameters:
+// const struct FPointerEvent&             MouseEvent                                             (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
+
+void ULUA_OVERRIDES_WBP_ChatText_Clan_C_2147480867::OnMouseLeave(const struct FPointerEvent& MouseEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Clan_C_2147480867", "OnMouseLeave");
+
+	Params::LUA_OVERRIDES_WBP_ChatText_Clan_C_2147480867_OnMouseLeave Parms{};
+
+	Parms.MouseEvent = std::move(MouseEvent);
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -100,20 +172,18 @@ bool ULUA_OVERRIDES_WBP_CustomWidgetLayoutPanel_C_2147481967::OnDrop(const struc
 	UObject::ProcessEvent(Func, &Parms);
 
 	Func->FunctionFlags = Flgs;
-
-	return Parms.ReturnValue;
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_LoadingAssetPage_C_2147482144.Destruct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Clan_C_2147480867.Construct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_LoadingAssetPage_C_2147482144::Destruct()
+void ULUA_OVERRIDES_WBP_ChatText_Clan_C_2147480867::Construct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_LoadingAssetPage_C_2147482144", "Destruct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Clan_C_2147480867", "Construct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -124,15 +194,42 @@ void ULUA_OVERRIDES_WBP_LoadingAssetPage_C_2147482144::Destruct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_LoadingAssetPage_C_2147482144.OnLuaOpen
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Clan_C_2147480867.OnMouseEnter
+// (BlueprintCosmetic, Native, Event, Public, HasOutParams, BlueprintEvent)
+// Parameters:
+// const struct FGeometry&                 MyGeometry                                             (Parm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+// const struct FPointerEvent&             MouseEvent                                             (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
+
+void ULUA_OVERRIDES_WBP_ChatText_Clan_C_2147480867::OnMouseEnter(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Clan_C_2147480867", "OnMouseEnter");
+
+	Params::LUA_OVERRIDES_WBP_ChatText_Clan_C_2147480867_OnMouseEnter Parms{};
+
+	Parms.MyGeometry = std::move(MyGeometry);
+	Parms.MouseEvent = std::move(MouseEvent);
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Clan_C_2147480867.OnLuaHide
 // (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_LoadingAssetPage_C_2147482144::OnLuaOpen()
+void ULUA_OVERRIDES_WBP_ChatText_Clan_C_2147480867::OnLuaHide()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_LoadingAssetPage_C_2147482144", "OnLuaOpen");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Clan_C_2147480867", "OnLuaHide");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -143,21 +240,40 @@ void ULUA_OVERRIDES_WBP_LoadingAssetPage_C_2147482144::OnLuaOpen()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_LoadingAssetPage_C_2147482144.LuaHandleKeyEvent
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Clan_C_2147480867.OnLuaShow
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatText_Clan_C_2147480867::OnLuaShow()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Clan_C_2147480867", "OnLuaShow");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Clan_C_2147480867.LuaHandleKeyEvent
 // (Native, Event, Public, BlueprintEvent)
 // Parameters:
 // const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 // EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 // bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
 
-bool ULUA_OVERRIDES_WBP_LoadingAssetPage_C_2147482144::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+bool ULUA_OVERRIDES_WBP_ChatText_Clan_C_2147480867::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_LoadingAssetPage_C_2147482144", "LuaHandleKeyEvent");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Clan_C_2147480867", "LuaHandleKeyEvent");
 
-	Params::LUA_OVERRIDES_WBP_LoadingAssetPage_C_2147482144_LuaHandleKeyEvent Parms{};
+	Params::LUA_OVERRIDES_WBP_ChatText_Clan_C_2147480867_LuaHandleKeyEvent Parms{};
 
 	Parms.Key = std::move(Key);
 	Parms.InputEvent = InputEvent;
@@ -173,15 +289,34 @@ bool ULUA_OVERRIDES_WBP_LoadingAssetPage_C_2147482144::LuaHandleKeyEvent(const s
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_LoadingAssetPage_C_2147482144.OnLuaHide
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Clan_C_2147480867.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatText_Clan_C_2147480867::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Clan_C_2147480867", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_LoginPage_C_2147481126.OnLuaClose
 // (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_LoadingAssetPage_C_2147482144::OnLuaHide()
+void ULUA_OVERRIDES_WBP_LoginPage_C_2147481126::OnLuaClose()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_LoadingAssetPage_C_2147482144", "OnLuaHide");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_LoginPage_C_2147481126", "OnLuaClose");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -192,53 +327,15 @@ void ULUA_OVERRIDES_WBP_LoadingAssetPage_C_2147482144::OnLuaHide()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_LoadingAssetPage_C_2147482144.OnLuaClose
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_LoadingAssetPage_C_2147482144::OnLuaClose()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_LoadingAssetPage_C_2147482144", "OnLuaClose");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_LoadingAssetPage_C_2147482144.OnLuaShow
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_LoadingAssetPage_C_2147482144::OnLuaShow()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_LoadingAssetPage_C_2147482144", "OnLuaShow");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_LoadingAssetPage_C_2147482144.Construct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_LoginPage_C_2147481126.Destruct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_LoadingAssetPage_C_2147482144::Construct()
+void ULUA_OVERRIDES_WBP_LoginPage_C_2147481126::Destruct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_LoadingAssetPage_C_2147482144", "Construct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_LoginPage_C_2147481126", "Destruct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -249,74 +346,394 @@ void ULUA_OVERRIDES_WBP_LoadingAssetPage_C_2147482144::Construct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_LoadingAssetPage_C_2147482144.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_LoadingAssetPage_C_2147482144::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_LoadingAssetPage_C_2147482144", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatFriendPage_C_2147481965.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatFriendPage_C_2147481965::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatFriendPage_C_2147481965", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatFriendPage_C_2147481965.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatFriendPage_C_2147481965::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatFriendPage_C_2147481965", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatFriendPage_C_2147481965.Construct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_LoginPage_C_2147481126.Construct
 // (BlueprintCosmetic, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_ChatFriendPage_C_2147481965::Construct()
+void ULUA_OVERRIDES_WBP_LoginPage_C_2147481126::Construct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatFriendPage_C_2147481965", "Construct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_LoginPage_C_2147481126", "Construct");
 
 	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_LoginPage_C_2147481126.OnLuaShow
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_LoginPage_C_2147481126::OnLuaShow()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_LoginPage_C_2147481126", "OnLuaShow");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_LoginPage_C_2147481126.OnLuaOpen
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_LoginPage_C_2147481126::OnLuaOpen()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_LoginPage_C_2147481126", "OnLuaOpen");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_LoginPage_C_2147481126.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_LoginPage_C_2147481126::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_LoginPage_C_2147481126", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_LoginPage_C_2147481126.OnLuaHide
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_LoginPage_C_2147481126::OnLuaHide()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_LoginPage_C_2147481126", "OnLuaHide");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_LoginPage_C_2147481126.LuaHandleKeyEvent
+// (Native, Event, Public, BlueprintEvent)
+// Parameters:
+// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+
+bool ULUA_OVERRIDES_WBP_LoginPage_C_2147481126::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_LoginPage_C_2147481126", "LuaHandleKeyEvent");
+
+	Params::LUA_OVERRIDES_WBP_LoginPage_C_2147481126_LuaHandleKeyEvent Parms{};
+
+	Parms.Key = std::move(Key);
+	Parms.InputEvent = InputEvent;
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+
+	return Parms.ReturnValue;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147481228.OnLuaSessionOpen
+// (Event, Public, BlueprintEvent)
+// Parameters:
+// int32                                   ErrCode                                                (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+void ULUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147481228::OnLuaSessionOpen(int32 ErrCode)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147481228", "OnLuaSessionOpen");
+
+	Params::LUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147481228_OnLuaSessionOpen Parms{};
+
+	Parms.ErrCode = ErrCode;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147481228.OnLuaReceiveSessionCmd
+// (Event, Public, BlueprintEvent)
+// Parameters:
+// int32                                   cmd_id                                                 (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+void ULUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147481228::OnLuaReceiveSessionCmd(int32 cmd_id)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147481228", "OnLuaReceiveSessionCmd");
+
+	Params::LUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147481228_OnLuaReceiveSessionCmd Parms{};
+
+	Parms.cmd_id = cmd_id;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147481228.OnLuaSessionReOpen
+// (Event, Public, BlueprintEvent)
+// Parameters:
+// int32                                   ErrCode                                                (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+void ULUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147481228::OnLuaSessionReOpen(int32 ErrCode)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147481228", "OnLuaSessionReOpen");
+
+	Params::LUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147481228_OnLuaSessionReOpen Parms{};
+
+	Parms.ErrCode = ErrCode;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147481228.OnLuaSessionClose
+// (Event, Public, BlueprintEvent)
+// Parameters:
+// int32                                   ErrCode                                                (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+void ULUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147481228::OnLuaSessionClose(int32 ErrCode)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147481228", "OnLuaSessionClose");
+
+	Params::LUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147481228_OnLuaSessionClose Parms{};
+
+	Parms.ErrCode = ErrCode;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147481228.OnLuaReconnectFailed
+// (Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147481228::OnLuaReconnectFailed()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147481228", "OnLuaReconnectFailed");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147481228.OnLuaReconnectSuccess
+// (Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147481228::OnLuaReconnectSuccess()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147481228", "OnLuaReconnectSuccess");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_PlaceBall2_C_2147480978.OnLuaHide
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_PlaceBall2_C_2147480978::OnLuaHide()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PlaceBall2_C_2147480978", "OnLuaHide");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_PlaceBall2_C_2147480978.OnLuaOpen
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_PlaceBall2_C_2147480978::OnLuaOpen()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PlaceBall2_C_2147480978", "OnLuaOpen");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_PlaceBall2_C_2147480978.OnLuaClose
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_PlaceBall2_C_2147480978::OnLuaClose()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PlaceBall2_C_2147480978", "OnLuaClose");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_PlaceBall2_C_2147480978.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_PlaceBall2_C_2147480978::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PlaceBall2_C_2147480978", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_PlaceBall2_C_2147480978.LuaHandleKeyEvent
+// (Native, Event, Public, BlueprintEvent)
+// Parameters:
+// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+
+bool ULUA_OVERRIDES_WBP_PlaceBall2_C_2147480978::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PlaceBall2_C_2147480978", "LuaHandleKeyEvent");
+
+	Params::LUA_OVERRIDES_WBP_PlaceBall2_C_2147480978_LuaHandleKeyEvent Parms{};
+
+	Parms.Key = std::move(Key);
+	Parms.InputEvent = InputEvent;
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+
+	return Parms.ReturnValue;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_PlaceBall2_C_2147480978.OnLuaShow
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_PlaceBall2_C_2147480978::OnLuaShow()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PlaceBall2_C_2147480978", "OnLuaShow");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_PlaceBall2_C_2147480978.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_PlaceBall2_C_2147480978::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PlaceBall2_C_2147480978", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_PlaceBall2_C_2147480978.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_PlaceBall2_C_2147480978::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PlaceBall2_C_2147480978", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
 }
 
 
@@ -347,53 +764,15 @@ class UObject* ULUA_OVERRIDES_CyConditionGameInstanceSubsystem_2147482527::Creat
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatTranslate_C_2147481953.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatTranslate_C_2147481953::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatTranslate_C_2147481953", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatTranslate_C_2147481953.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatTranslate_C_2147481953::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatTranslate_C_2147481953", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatTranslate_C_2147481953.OnLuaClose
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatInput_C_2147480886.OnLuaOpen
 // (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_ChatTranslate_C_2147481953::OnLuaClose()
+void ULUA_OVERRIDES_WBP_ChatInput_C_2147480886::OnLuaOpen()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatTranslate_C_2147481953", "OnLuaClose");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatInput_C_2147480886", "OnLuaOpen");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -404,15 +783,34 @@ void ULUA_OVERRIDES_WBP_ChatTranslate_C_2147481953::OnLuaClose()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatTranslate_C_2147481953.Construct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatInput_C_2147480886.OnLuaClose
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatInput_C_2147480886::OnLuaClose()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatInput_C_2147480886", "OnLuaClose");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatInput_C_2147480886.OnInitialized
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_ChatTranslate_C_2147481953::Construct()
+void ULUA_OVERRIDES_WBP_ChatInput_C_2147480886::OnInitialized()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatTranslate_C_2147481953", "Construct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatInput_C_2147480886", "OnInitialized");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -423,21 +821,97 @@ void ULUA_OVERRIDES_WBP_ChatTranslate_C_2147481953::Construct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatTranslate_C_2147481953.LuaHandleKeyEvent
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatInput_C_2147480886.OnLuaHide
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatInput_C_2147480886::OnLuaHide()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatInput_C_2147480886", "OnLuaHide");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatInput_C_2147480886.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatInput_C_2147480886::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatInput_C_2147480886", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatInput_C_2147480886.OnLuaShow
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatInput_C_2147480886::OnLuaShow()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatInput_C_2147480886", "OnLuaShow");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatInput_C_2147480886.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatInput_C_2147480886::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatInput_C_2147480886", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatInput_C_2147480886.LuaHandleKeyEvent
 // (Native, Event, Public, BlueprintEvent)
 // Parameters:
 // const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 // EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 // bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
 
-bool ULUA_OVERRIDES_WBP_ChatTranslate_C_2147481953::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+bool ULUA_OVERRIDES_WBP_ChatInput_C_2147480886::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatTranslate_C_2147481953", "LuaHandleKeyEvent");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatInput_C_2147480886", "LuaHandleKeyEvent");
 
-	Params::LUA_OVERRIDES_WBP_ChatTranslate_C_2147481953_LuaHandleKeyEvent Parms{};
+	Params::LUA_OVERRIDES_WBP_ChatInput_C_2147480886_LuaHandleKeyEvent Parms{};
 
 	Parms.Key = std::move(Key);
 	Parms.InputEvent = InputEvent;
@@ -453,399 +927,19 @@ bool ULUA_OVERRIDES_WBP_ChatTranslate_C_2147481953::LuaHandleKeyEvent(const stru
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatTranslate_C_2147481953.OnLuaShow
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatTranslate_C_2147481953::OnLuaShow()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatTranslate_C_2147481953", "OnLuaShow");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatTranslate_C_2147481953.OnLuaOpen
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatTranslate_C_2147481953::OnLuaOpen()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatTranslate_C_2147481953", "OnLuaOpen");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatTranslate_C_2147481953.OnLuaHide
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatTranslate_C_2147481953::OnLuaHide()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatTranslate_C_2147481953", "OnLuaHide");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_RedDot_Pic_Panel_C_2147482220.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_RedDot_Pic_Panel_C_2147482220::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RedDot_Pic_Panel_C_2147482220", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_RedDot_Pic_Panel_C_2147482220.Construct
-// (BlueprintCosmetic, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_RedDot_Pic_Panel_C_2147482220::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RedDot_Pic_Panel_C_2147482220", "Construct");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_RedDot_Pic_Panel_C_2147482220.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_RedDot_Pic_Panel_C_2147482220::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RedDot_Pic_Panel_C_2147482220", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147482321.OnLuaSessionOpen
-// (Event, Public, BlueprintEvent)
-// Parameters:
-// int32                                   ErrCode                                                (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-void ULUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147482321::OnLuaSessionOpen(int32 ErrCode)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147482321", "OnLuaSessionOpen");
-
-	Params::LUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147482321_OnLuaSessionOpen Parms{};
-
-	Parms.ErrCode = ErrCode;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147482321.OnLuaReconnectFailed
-// (Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147482321::OnLuaReconnectFailed()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147482321", "OnLuaReconnectFailed");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147482321.OnLuaReconnectSuccess
-// (Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147482321::OnLuaReconnectSuccess()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147482321", "OnLuaReconnectSuccess");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147482321.OnLuaSessionClose
-// (Event, Public, BlueprintEvent)
-// Parameters:
-// int32                                   ErrCode                                                (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-void ULUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147482321::OnLuaSessionClose(int32 ErrCode)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147482321", "OnLuaSessionClose");
-
-	Params::LUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147482321_OnLuaSessionClose Parms{};
-
-	Parms.ErrCode = ErrCode;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147482321.OnLuaReceiveSessionCmd
-// (Event, Public, BlueprintEvent)
-// Parameters:
-// int32                                   cmd_id                                                 (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-void ULUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147482321::OnLuaReceiveSessionCmd(int32 cmd_id)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147482321", "OnLuaReceiveSessionCmd");
-
-	Params::LUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147482321_OnLuaReceiveSessionCmd Parms{};
-
-	Parms.cmd_id = cmd_id;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147482321.OnLuaSessionReOpen
-// (Event, Public, BlueprintEvent)
-// Parameters:
-// int32                                   ErrCode                                                (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-void ULUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147482321::OnLuaSessionReOpen(int32 ErrCode)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147482321", "OnLuaSessionReOpen");
-
-	Params::LUA_OVERRIDES_PMOnlineServiceHandle_Lua_2147482321_OnLuaSessionReOpen Parms{};
-
-	Parms.ErrCode = ErrCode;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SharingClan_C_2147481959.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_SharingClan_C_2147481959::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SharingClan_C_2147481959", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SharingClan_C_2147481959.OnLuaClose
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_SharingClan_C_2147481959::OnLuaClose()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SharingClan_C_2147481959", "OnLuaClose");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SharingClan_C_2147481959.OnLuaOpen
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_SharingClan_C_2147481959::OnLuaOpen()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SharingClan_C_2147481959", "OnLuaOpen");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SharingClan_C_2147481959.LuaHandleKeyEvent
-// (Native, Event, Public, BlueprintEvent)
-// Parameters:
-// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-
-bool ULUA_OVERRIDES_WBP_SharingClan_C_2147481959::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SharingClan_C_2147481959", "LuaHandleKeyEvent");
-
-	Params::LUA_OVERRIDES_WBP_SharingClan_C_2147481959_LuaHandleKeyEvent Parms{};
-
-	Parms.Key = std::move(Key);
-	Parms.InputEvent = InputEvent;
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	Func->FunctionFlags = Flgs;
-
-	return Parms.ReturnValue;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SharingClan_C_2147481959.OnLuaHide
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_SharingClan_C_2147481959::OnLuaHide()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SharingClan_C_2147481959", "OnLuaHide");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SharingClan_C_2147481959.OnLuaShow
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_SharingClan_C_2147481959::OnLuaShow()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SharingClan_C_2147481959", "OnLuaShow");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SharingClan_C_2147481959.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_SharingClan_C_2147481959::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SharingClan_C_2147481959", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SharingClan_C_2147481959.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_SharingClan_C_2147481959::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SharingClan_C_2147481959", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_PMLuaBridgeObject_2147482319.TickLuaBridge
+// LuaFunction Transient.LUA_OVERRIDES_PMLuaBridgeObject_2147481226.TickLuaBridge
 // (Event, Public, BlueprintEvent)
 // Parameters:
 // float                                   DeltaTime                                              (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 
-void ULUA_OVERRIDES_PMLuaBridgeObject_2147482319::TickLuaBridge(float DeltaTime)
+void ULUA_OVERRIDES_PMLuaBridgeObject_2147481226::TickLuaBridge(float DeltaTime)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_PMLuaBridgeObject_2147482319", "TickLuaBridge");
+		Func = Class->GetFunction("LUA_OVERRIDES_PMLuaBridgeObject_2147481226", "TickLuaBridge");
 
-	Params::LUA_OVERRIDES_PMLuaBridgeObject_2147482319_TickLuaBridge Parms{};
+	Params::LUA_OVERRIDES_PMLuaBridgeObject_2147481226_TickLuaBridge Parms{};
 
 	Parms.DeltaTime = DeltaTime;
 
@@ -853,43 +947,43 @@ void ULUA_OVERRIDES_PMLuaBridgeObject_2147482319::TickLuaBridge(float DeltaTime)
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_PMLuaBridgeObject_2147482319.OnAutoRegist
+// LuaFunction Transient.LUA_OVERRIDES_PMLuaBridgeObject_2147481226.ShowDelegates
 // (Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_PMLuaBridgeObject_2147482319::OnAutoRegist()
+void ULUA_OVERRIDES_PMLuaBridgeObject_2147481226::ShowDelegates()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_PMLuaBridgeObject_2147482319", "OnAutoRegist");
+		Func = Class->GetFunction("LUA_OVERRIDES_PMLuaBridgeObject_2147481226", "ShowDelegates");
 
 	UObject::ProcessEvent(Func, nullptr);
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_PMLuaBridgeObject_2147482319.ShowDelegates
+// LuaFunction Transient.LUA_OVERRIDES_PMLuaBridgeObject_2147481226.OnAutoRegist
 // (Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_PMLuaBridgeObject_2147482319::ShowDelegates()
+void ULUA_OVERRIDES_PMLuaBridgeObject_2147481226::OnAutoRegist()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_PMLuaBridgeObject_2147482319", "ShowDelegates");
+		Func = Class->GetFunction("LUA_OVERRIDES_PMLuaBridgeObject_2147481226", "OnAutoRegist");
 
 	UObject::ProcessEvent(Func, nullptr);
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_BallSetItem_C_2147482066.Destruct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_AchievementMedalShortTip_C_2147480840.Destruct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_BallSetItem_C_2147482066::Destruct()
+void ULUA_OVERRIDES_WBP_AchievementMedalShortTip_C_2147480840::Destruct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BallSetItem_C_2147482066", "Destruct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_AchievementMedalShortTip_C_2147480840", "Destruct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -900,15 +994,15 @@ void ULUA_OVERRIDES_WBP_BallSetItem_C_2147482066::Destruct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_BallSetItem_C_2147482066.OnInitialized
+// LuaFunction Transient.LUA_OVERRIDES_WBP_AchievementMedalShortTip_C_2147480840.Construct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_BallSetItem_C_2147482066::OnInitialized()
+void ULUA_OVERRIDES_WBP_AchievementMedalShortTip_C_2147480840::Construct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BallSetItem_C_2147482066", "OnInitialized");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_AchievementMedalShortTip_C_2147480840", "Construct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -919,15 +1013,15 @@ void ULUA_OVERRIDES_WBP_BallSetItem_C_2147482066::OnInitialized()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_BallSetItem_C_2147482066.Construct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_AchievementMedalShortTip_C_2147480840.OnInitialized
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_BallSetItem_C_2147482066::Construct()
+void ULUA_OVERRIDES_WBP_AchievementMedalShortTip_C_2147480840::OnInitialized()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BallSetItem_C_2147482066", "Construct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_AchievementMedalShortTip_C_2147480840", "OnInitialized");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -938,15 +1032,15 @@ void ULUA_OVERRIDES_WBP_BallSetItem_C_2147482066::Construct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_DivisionShow_C_2147481987.Destruct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_RedDot_Pic_Panel_C_2147481127.Destruct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_DivisionShow_C_2147481987::Destruct()
+void ULUA_OVERRIDES_WBP_RedDot_Pic_Panel_C_2147481127::Destruct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_DivisionShow_C_2147481987", "Destruct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RedDot_Pic_Panel_C_2147481127", "Destruct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -957,317 +1051,48 @@ void ULUA_OVERRIDES_WBP_DivisionShow_C_2147481987::Destruct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_DivisionShow_C_2147481987.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_DivisionShow_C_2147481987::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_DivisionShow_C_2147481987", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_DivisionShow_C_2147481987.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_DivisionShow_C_2147481987::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_DivisionShow_C_2147481987", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_MatchRoom_C_2147474904.LuaHandleKeyEvent
-// (Native, Event, Public, BlueprintEvent)
-// Parameters:
-// const struct FKey&                      Key_LuaHandleKeyEvent                                  (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// EInputEvent                             InputEvent_LuaHandleKeyEvent                           (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// bool                                    ReturnValue_LuaHandleKeyEvent                          (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-
-bool ULUA_OVERRIDES_WBP_MatchRoom_C_2147474904::LuaHandleKeyEvent(const struct FKey& Key_LuaHandleKeyEvent, EInputEvent InputEvent_LuaHandleKeyEvent)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_MatchRoom_C_2147474904", "LuaHandleKeyEvent");
-
-	Params::LUA_OVERRIDES_WBP_MatchRoom_C_2147474904_LuaHandleKeyEvent Parms{};
-
-	Parms.Key_LuaHandleKeyEvent = std::move(Key_LuaHandleKeyEvent);
-	Parms.InputEvent_LuaHandleKeyEvent = InputEvent_LuaHandleKeyEvent;
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	Func->FunctionFlags = Flgs;
-
-	return Parms.ReturnValue;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_MatchRoom_C_2147474904.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_MatchRoom_C_2147474904::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_MatchRoom_C_2147474904", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_MatchRoom_C_2147474904.OnLuaOpen
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_MatchRoom_C_2147474904::OnLuaOpen()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_MatchRoom_C_2147474904", "OnLuaOpen");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_MatchRoom_C_2147474904.OnLuaHide
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_MatchRoom_C_2147474904::OnLuaHide()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_MatchRoom_C_2147474904", "OnLuaHide");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_MatchRoom_C_2147474904.OnLuaShow
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_MatchRoom_C_2147474904::OnLuaShow()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_MatchRoom_C_2147474904", "OnLuaShow");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_MatchRoom_C_2147474904.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_MatchRoom_C_2147474904::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_MatchRoom_C_2147474904", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_MatchRoom_C_2147474904.OnLuaClose
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_MatchRoom_C_2147474904::OnLuaClose()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_MatchRoom_C_2147474904", "OnLuaClose");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_MatchRoom_C_2147474904.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_MatchRoom_C_2147474904::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_MatchRoom_C_2147474904", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_LoginPage_C_2147482219.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_LoginPage_C_2147482219::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_LoginPage_C_2147482219", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_LoginPage_C_2147482219.LuaHandleKeyEvent
-// (Native, Event, Public, BlueprintEvent)
-// Parameters:
-// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-
-bool ULUA_OVERRIDES_WBP_LoginPage_C_2147482219::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_LoginPage_C_2147482219", "LuaHandleKeyEvent");
-
-	Params::LUA_OVERRIDES_WBP_LoginPage_C_2147482219_LuaHandleKeyEvent Parms{};
-
-	Parms.Key = std::move(Key);
-	Parms.InputEvent = InputEvent;
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	Func->FunctionFlags = Flgs;
-
-	return Parms.ReturnValue;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_LoginPage_C_2147482219.OnLuaShow
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_LoginPage_C_2147482219::OnLuaShow()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_LoginPage_C_2147482219", "OnLuaShow");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_LoginPage_C_2147482219.OnLuaClose
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_LoginPage_C_2147482219::OnLuaClose()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_LoginPage_C_2147482219", "OnLuaClose");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_LoginPage_C_2147482219.Construct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_RedDot_Pic_Panel_C_2147481127.Construct
 // (BlueprintCosmetic, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_LoginPage_C_2147482219::Construct()
+void ULUA_OVERRIDES_WBP_RedDot_Pic_Panel_C_2147481127::Construct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_LoginPage_C_2147482219", "Construct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RedDot_Pic_Panel_C_2147481127", "Construct");
 
 	UObject::ProcessEvent(Func, nullptr);
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_LoginPage_C_2147482219.OnLuaHide
+// LuaFunction Transient.LUA_OVERRIDES_WBP_RedDot_Pic_Panel_C_2147481127.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_RedDot_Pic_Panel_C_2147481127::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RedDot_Pic_Panel_C_2147481127", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_LoadingAssetPage_C_2147481053.OnLuaClose
 // (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_LoginPage_C_2147482219::OnLuaHide()
+void ULUA_OVERRIDES_WBP_LoadingAssetPage_C_2147481053::OnLuaClose()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_LoginPage_C_2147482219", "OnLuaHide");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_LoadingAssetPage_C_2147481053", "OnLuaClose");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -1278,34 +1103,15 @@ void ULUA_OVERRIDES_WBP_LoginPage_C_2147482219::OnLuaHide()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_LoginPage_C_2147482219.OnLuaOpen
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_LoginPage_C_2147482219::OnLuaOpen()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_LoginPage_C_2147482219", "OnLuaOpen");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_LoginPage_C_2147482219.OnInitialized
+// LuaFunction Transient.LUA_OVERRIDES_WBP_LoadingAssetPage_C_2147481053.OnInitialized
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_LoginPage_C_2147482219::OnInitialized()
+void ULUA_OVERRIDES_WBP_LoadingAssetPage_C_2147481053::OnInitialized()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_LoginPage_C_2147482219", "OnInitialized");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_LoadingAssetPage_C_2147481053", "OnInitialized");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -1316,15 +1122,15 @@ void ULUA_OVERRIDES_WBP_LoginPage_C_2147482219::OnInitialized()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_BusinessCard_DataPage_C_2147481971.Destruct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_LoadingAssetPage_C_2147481053.Destruct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_BusinessCard_DataPage_C_2147481971::Destruct()
+void ULUA_OVERRIDES_WBP_LoadingAssetPage_C_2147481053::Destruct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BusinessCard_DataPage_C_2147481971", "Destruct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_LoadingAssetPage_C_2147481053", "Destruct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -1335,154 +1141,21 @@ void ULUA_OVERRIDES_WBP_BusinessCard_DataPage_C_2147481971::Destruct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_BusinessCard_DataPage_C_2147481971.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_BusinessCard_DataPage_C_2147481971::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BusinessCard_DataPage_C_2147481971", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_BusinessCard_DataPage_C_2147481971.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_BusinessCard_DataPage_C_2147481971::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BusinessCard_DataPage_C_2147481971", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_FriendAddFriendInfoItem_C_2147481979.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_FriendAddFriendInfoItem_C_2147481979::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_FriendAddFriendInfoItem_C_2147481979", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_FriendAddFriendInfoItem_C_2147481979.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_FriendAddFriendInfoItem_C_2147481979::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_FriendAddFriendInfoItem_C_2147481979", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_FriendAddFriendInfoItem_C_2147481979.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_FriendAddFriendInfoItem_C_2147481979::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_FriendAddFriendInfoItem_C_2147481979", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_OperationButtonBase_C_2147482067.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_OperationButtonBase_C_2147482067::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_OperationButtonBase_C_2147482067", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_OperationButtonBase_C_2147482067.OnLuaClose
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_OperationButtonBase_C_2147482067::OnLuaClose()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_OperationButtonBase_C_2147482067", "OnLuaClose");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_OperationButtonBase_C_2147482067.LuaHandleKeyEvent
+// LuaFunction Transient.LUA_OVERRIDES_WBP_LoadingAssetPage_C_2147481053.LuaHandleKeyEvent
 // (Native, Event, Public, BlueprintEvent)
 // Parameters:
 // const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 // EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 // bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
 
-bool ULUA_OVERRIDES_WBP_OperationButtonBase_C_2147482067::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+bool ULUA_OVERRIDES_WBP_LoadingAssetPage_C_2147481053::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_OperationButtonBase_C_2147482067", "LuaHandleKeyEvent");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_LoadingAssetPage_C_2147481053", "LuaHandleKeyEvent");
 
-	Params::LUA_OVERRIDES_WBP_OperationButtonBase_C_2147482067_LuaHandleKeyEvent Parms{};
+	Params::LUA_OVERRIDES_WBP_LoadingAssetPage_C_2147481053_LuaHandleKeyEvent Parms{};
 
 	Parms.Key = std::move(Key);
 	Parms.InputEvent = InputEvent;
@@ -1498,15 +1171,34 @@ bool ULUA_OVERRIDES_WBP_OperationButtonBase_C_2147482067::LuaHandleKeyEvent(cons
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_OperationButtonBase_C_2147482067.OnLuaOpen
+// LuaFunction Transient.LUA_OVERRIDES_WBP_LoadingAssetPage_C_2147481053.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_LoadingAssetPage_C_2147481053::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_LoadingAssetPage_C_2147481053", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_LoadingAssetPage_C_2147481053.OnLuaHide
 // (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_OperationButtonBase_C_2147482067::OnLuaOpen()
+void ULUA_OVERRIDES_WBP_LoadingAssetPage_C_2147481053::OnLuaHide()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_OperationButtonBase_C_2147482067", "OnLuaOpen");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_LoadingAssetPage_C_2147481053", "OnLuaHide");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -1517,15 +1209,15 @@ void ULUA_OVERRIDES_WBP_OperationButtonBase_C_2147482067::OnLuaOpen()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_OperationButtonBase_C_2147482067.OnLuaHide
+// LuaFunction Transient.LUA_OVERRIDES_WBP_LoadingAssetPage_C_2147481053.OnLuaShow
 // (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_OperationButtonBase_C_2147482067::OnLuaHide()
+void ULUA_OVERRIDES_WBP_LoadingAssetPage_C_2147481053::OnLuaShow()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_OperationButtonBase_C_2147482067", "OnLuaHide");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_LoadingAssetPage_C_2147481053", "OnLuaShow");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -1536,15 +1228,15 @@ void ULUA_OVERRIDES_WBP_OperationButtonBase_C_2147482067::OnLuaHide()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_OperationButtonBase_C_2147482067.OnLuaShow
+// LuaFunction Transient.LUA_OVERRIDES_WBP_LoadingAssetPage_C_2147481053.OnLuaOpen
 // (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_OperationButtonBase_C_2147482067::OnLuaShow()
+void ULUA_OVERRIDES_WBP_LoadingAssetPage_C_2147481053::OnLuaOpen()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_OperationButtonBase_C_2147482067", "OnLuaShow");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_LoadingAssetPage_C_2147481053", "OnLuaOpen");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -1555,91 +1247,15 @@ void ULUA_OVERRIDES_WBP_OperationButtonBase_C_2147482067::OnLuaShow()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_OperationButtonBase_C_2147482067.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_OperationButtonBase_C_2147482067::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_OperationButtonBase_C_2147482067", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_OperationButtonBase_C_2147482067.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_OperationButtonBase_C_2147482067::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_OperationButtonBase_C_2147482067", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_BallSetDisplay_C_2147482065.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_BallSetDisplay_C_2147482065::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BallSetDisplay_C_2147482065", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_BallSetDisplay_C_2147482065.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_BallSetDisplay_C_2147482065::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BallSetDisplay_C_2147482065", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_BallSetDisplay_C_2147482065.OnLuaClose
+// LuaFunction Transient.LUA_OVERRIDES_WBP_BallSetDisplay_C_2147480982.OnLuaHide
 // (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_BallSetDisplay_C_2147482065::OnLuaClose()
+void ULUA_OVERRIDES_WBP_BallSetDisplay_C_2147480982::OnLuaHide()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BallSetDisplay_C_2147482065", "OnLuaClose");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BallSetDisplay_C_2147480982", "OnLuaHide");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -1650,15 +1266,53 @@ void ULUA_OVERRIDES_WBP_BallSetDisplay_C_2147482065::OnLuaClose()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_BallSetDisplay_C_2147482065.Construct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_BallSetDisplay_C_2147480982.OnLuaOpen
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_BallSetDisplay_C_2147480982::OnLuaOpen()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BallSetDisplay_C_2147480982", "OnLuaOpen");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_BallSetDisplay_C_2147480982.OnLuaClose
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_BallSetDisplay_C_2147480982::OnLuaClose()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BallSetDisplay_C_2147480982", "OnLuaClose");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_BallSetDisplay_C_2147480982.Destruct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_BallSetDisplay_C_2147482065::Construct()
+void ULUA_OVERRIDES_WBP_BallSetDisplay_C_2147480982::Destruct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BallSetDisplay_C_2147482065", "Construct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BallSetDisplay_C_2147480982", "Destruct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -1669,21 +1323,40 @@ void ULUA_OVERRIDES_WBP_BallSetDisplay_C_2147482065::Construct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_BallSetDisplay_C_2147482065.LuaHandleKeyEvent
+// LuaFunction Transient.LUA_OVERRIDES_WBP_BallSetDisplay_C_2147480982.OnLuaShow
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_BallSetDisplay_C_2147480982::OnLuaShow()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BallSetDisplay_C_2147480982", "OnLuaShow");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_BallSetDisplay_C_2147480982.LuaHandleKeyEvent
 // (Native, Event, Public, BlueprintEvent)
 // Parameters:
 // const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 // EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 // bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
 
-bool ULUA_OVERRIDES_WBP_BallSetDisplay_C_2147482065::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+bool ULUA_OVERRIDES_WBP_BallSetDisplay_C_2147480982::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BallSetDisplay_C_2147482065", "LuaHandleKeyEvent");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BallSetDisplay_C_2147480982", "LuaHandleKeyEvent");
 
-	Params::LUA_OVERRIDES_WBP_BallSetDisplay_C_2147482065_LuaHandleKeyEvent Parms{};
+	Params::LUA_OVERRIDES_WBP_BallSetDisplay_C_2147480982_LuaHandleKeyEvent Parms{};
 
 	Parms.Key = std::move(Key);
 	Parms.InputEvent = InputEvent;
@@ -1699,72 +1372,15 @@ bool ULUA_OVERRIDES_WBP_BallSetDisplay_C_2147482065::LuaHandleKeyEvent(const str
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_BallSetDisplay_C_2147482065.OnLuaHide
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_BallSetDisplay_C_2147482065::OnLuaHide()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BallSetDisplay_C_2147482065", "OnLuaHide");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_BallSetDisplay_C_2147482065.OnLuaShow
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_BallSetDisplay_C_2147482065::OnLuaShow()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BallSetDisplay_C_2147482065", "OnLuaShow");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_BallSetDisplay_C_2147482065.OnLuaOpen
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_BallSetDisplay_C_2147482065::OnLuaOpen()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BallSetDisplay_C_2147482065", "OnLuaOpen");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_OperateScreen_C_2147482064.Destruct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_BallSetDisplay_C_2147480982.Construct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_OperateScreen_C_2147482064::Destruct()
+void ULUA_OVERRIDES_WBP_BallSetDisplay_C_2147480982::Construct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_OperateScreen_C_2147482064", "Destruct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BallSetDisplay_C_2147480982", "Construct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -1775,15 +1391,91 @@ void ULUA_OVERRIDES_WBP_OperateScreen_C_2147482064::Destruct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_OperateScreen_C_2147482064.OnLuaOpen
+// LuaFunction Transient.LUA_OVERRIDES_WBP_BallSetDisplay_C_2147480982.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_BallSetDisplay_C_2147480982::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BallSetDisplay_C_2147480982", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_FriendAddFriendInfoItem_C_2147480850.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_FriendAddFriendInfoItem_C_2147480850::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_FriendAddFriendInfoItem_C_2147480850", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_FriendAddFriendInfoItem_C_2147480850.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_FriendAddFriendInfoItem_C_2147480850::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_FriendAddFriendInfoItem_C_2147480850", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_FriendAddFriendInfoItem_C_2147480850.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_FriendAddFriendInfoItem_C_2147480850::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_FriendAddFriendInfoItem_C_2147480850", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147480890.OnLuaClose
 // (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_OperateScreen_C_2147482064::OnLuaOpen()
+void ULUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147480890::OnLuaClose()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_OperateScreen_C_2147482064", "OnLuaOpen");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147480890", "OnLuaClose");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -1794,21 +1486,21 @@ void ULUA_OVERRIDES_WBP_OperateScreen_C_2147482064::OnLuaOpen()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_OperateScreen_C_2147482064.LuaHandleKeyEvent
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147480890.LuaHandleKeyEvent
 // (Native, Event, Public, BlueprintEvent)
 // Parameters:
 // const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 // EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 // bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
 
-bool ULUA_OVERRIDES_WBP_OperateScreen_C_2147482064::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+bool ULUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147480890::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_OperateScreen_C_2147482064", "LuaHandleKeyEvent");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147480890", "LuaHandleKeyEvent");
 
-	Params::LUA_OVERRIDES_WBP_OperateScreen_C_2147482064_LuaHandleKeyEvent Parms{};
+	Params::LUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147480890_LuaHandleKeyEvent Parms{};
 
 	Parms.Key = std::move(Key);
 	Parms.InputEvent = InputEvent;
@@ -1824,72 +1516,15 @@ bool ULUA_OVERRIDES_WBP_OperateScreen_C_2147482064::LuaHandleKeyEvent(const stru
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_OperateScreen_C_2147482064.OnLuaHide
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_OperateScreen_C_2147482064::OnLuaHide()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_OperateScreen_C_2147482064", "OnLuaHide");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_OperateScreen_C_2147482064.OnLuaClose
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_OperateScreen_C_2147482064::OnLuaClose()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_OperateScreen_C_2147482064", "OnLuaClose");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_OperateScreen_C_2147482064.OnLuaShow
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_OperateScreen_C_2147482064::OnLuaShow()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_OperateScreen_C_2147482064", "OnLuaShow");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_OperateScreen_C_2147482064.Construct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147480890.Destruct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_OperateScreen_C_2147482064::Construct()
+void ULUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147480890::Destruct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_OperateScreen_C_2147482064", "Construct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147480890", "Destruct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -1900,53 +1535,15 @@ void ULUA_OVERRIDES_WBP_OperateScreen_C_2147482064::Construct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_OperateScreen_C_2147482064.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_OperateScreen_C_2147482064::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_OperateScreen_C_2147482064", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ClearSetBtn_C_2147482063.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ClearSetBtn_C_2147482063::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClearSetBtn_C_2147482063", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ClearSetBtn_C_2147482063.OnLuaClose
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147480890.OnLuaShow
 // (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_ClearSetBtn_C_2147482063::OnLuaClose()
+void ULUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147480890::OnLuaShow()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClearSetBtn_C_2147482063", "OnLuaClose");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147480890", "OnLuaShow");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -1957,21 +1554,211 @@ void ULUA_OVERRIDES_WBP_ClearSetBtn_C_2147482063::OnLuaClose()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ClearSetBtn_C_2147482063.LuaHandleKeyEvent
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147480890.OnLuaHide
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147480890::OnLuaHide()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147480890", "OnLuaHide");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147480890.OnLuaOpen
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147480890::OnLuaOpen()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147480890", "OnLuaOpen");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147480890.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147480890::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147480890", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147480890.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147480890::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147480890", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_BallSetItem_C_2147480983.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_BallSetItem_C_2147480983::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BallSetItem_C_2147480983", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_BallSetItem_C_2147480983.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_BallSetItem_C_2147480983::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BallSetItem_C_2147480983", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_BallSetItem_C_2147480983.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_BallSetItem_C_2147480983::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BallSetItem_C_2147480983", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_OperateScreen_C_2147480980.OnLuaClose
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_OperateScreen_C_2147480980::OnLuaClose()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_OperateScreen_C_2147480980", "OnLuaClose");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_OperateScreen_C_2147480980.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_OperateScreen_C_2147480980::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_OperateScreen_C_2147480980", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_OperateScreen_C_2147480980.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_OperateScreen_C_2147480980::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_OperateScreen_C_2147480980", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_OperateScreen_C_2147480980.LuaHandleKeyEvent
 // (Native, Event, Public, BlueprintEvent)
 // Parameters:
 // const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 // EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 // bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
 
-bool ULUA_OVERRIDES_WBP_ClearSetBtn_C_2147482063::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+bool ULUA_OVERRIDES_WBP_OperateScreen_C_2147480980::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClearSetBtn_C_2147482063", "LuaHandleKeyEvent");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_OperateScreen_C_2147480980", "LuaHandleKeyEvent");
 
-	Params::LUA_OVERRIDES_WBP_ClearSetBtn_C_2147482063_LuaHandleKeyEvent Parms{};
+	Params::LUA_OVERRIDES_WBP_OperateScreen_C_2147480980_LuaHandleKeyEvent Parms{};
 
 	Parms.Key = std::move(Key);
 	Parms.InputEvent = InputEvent;
@@ -1987,15 +1774,34 @@ bool ULUA_OVERRIDES_WBP_ClearSetBtn_C_2147482063::LuaHandleKeyEvent(const struct
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ClearSetBtn_C_2147482063.OnLuaOpen
+// LuaFunction Transient.LUA_OVERRIDES_WBP_OperateScreen_C_2147480980.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_OperateScreen_C_2147480980::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_OperateScreen_C_2147480980", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_OperateScreen_C_2147480980.OnLuaHide
 // (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_ClearSetBtn_C_2147482063::OnLuaOpen()
+void ULUA_OVERRIDES_WBP_OperateScreen_C_2147480980::OnLuaHide()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClearSetBtn_C_2147482063", "OnLuaOpen");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_OperateScreen_C_2147480980", "OnLuaHide");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -2006,15 +1812,15 @@ void ULUA_OVERRIDES_WBP_ClearSetBtn_C_2147482063::OnLuaOpen()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ClearSetBtn_C_2147482063.OnLuaHide
+// LuaFunction Transient.LUA_OVERRIDES_WBP_OperateScreen_C_2147480980.OnLuaShow
 // (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_ClearSetBtn_C_2147482063::OnLuaHide()
+void ULUA_OVERRIDES_WBP_OperateScreen_C_2147480980::OnLuaShow()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClearSetBtn_C_2147482063", "OnLuaHide");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_OperateScreen_C_2147480980", "OnLuaShow");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -2025,15 +1831,15 @@ void ULUA_OVERRIDES_WBP_ClearSetBtn_C_2147482063::OnLuaHide()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ClearSetBtn_C_2147482063.OnLuaShow
+// LuaFunction Transient.LUA_OVERRIDES_WBP_OperateScreen_C_2147480980.OnLuaOpen
 // (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_ClearSetBtn_C_2147482063::OnLuaShow()
+void ULUA_OVERRIDES_WBP_OperateScreen_C_2147480980::OnLuaOpen()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClearSetBtn_C_2147482063", "OnLuaShow");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_OperateScreen_C_2147480980", "OnLuaOpen");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -2044,243 +1850,15 @@ void ULUA_OVERRIDES_WBP_ClearSetBtn_C_2147482063::OnLuaShow()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ClearSetBtn_C_2147482063.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ClearSetBtn_C_2147482063::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClearSetBtn_C_2147482063", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ClearSetBtn_C_2147482063.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ClearSetBtn_C_2147482063::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClearSetBtn_C_2147482063", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_EmotionItem_C_2147481977.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_EmotionItem_C_2147481977::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_EmotionItem_C_2147481977", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_EmotionItem_C_2147481977.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_EmotionItem_C_2147481977::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_EmotionItem_C_2147481977", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_EmotionItem_C_2147481977.OnLuaItemClick
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_EmotionItem_C_2147481977::OnLuaItemClick()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_EmotionItem_C_2147481977", "OnLuaItemClick");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_EmotionItem_C_2147481977.OnLuaItemHovered
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_EmotionItem_C_2147481977::OnLuaItemHovered()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_EmotionItem_C_2147481977", "OnLuaItemHovered");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_EmotionItem_C_2147481977.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_EmotionItem_C_2147481977::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_EmotionItem_C_2147481977", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_EmotionItem_C_2147481977.OnLuaItemUnhovered
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_EmotionItem_C_2147481977::OnLuaItemUnhovered()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_EmotionItem_C_2147481977", "OnLuaItemUnhovered");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_TargetGuideEntrance_C_2147481803.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_TargetGuideEntrance_C_2147481803::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_TargetGuideEntrance_C_2147481803", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_TargetGuideEntrance_C_2147481803.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_TargetGuideEntrance_C_2147481803::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_TargetGuideEntrance_C_2147481803", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_TargetGuideEntrance_C_2147481803.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_TargetGuideEntrance_C_2147481803::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_TargetGuideEntrance_C_2147481803", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_PlaceBall1_C_2147482062.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_PlaceBall1_C_2147482062::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PlaceBall1_C_2147482062", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_PlaceBall1_C_2147482062.OnLuaClose
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRoomItem_C_2147480862.OnLuaHide
 // (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_PlaceBall1_C_2147482062::OnLuaClose()
+void ULUA_OVERRIDES_WBP_ChatRoomItem_C_2147480862::OnLuaHide()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PlaceBall1_C_2147482062", "OnLuaClose");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRoomItem_C_2147480862", "OnLuaHide");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -2291,21 +1869,155 @@ void ULUA_OVERRIDES_WBP_PlaceBall1_C_2147482062::OnLuaClose()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_PlaceBall1_C_2147482062.LuaHandleKeyEvent
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRoomItem_C_2147480862.OnLuaOpen
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatRoomItem_C_2147480862::OnLuaOpen()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRoomItem_C_2147480862", "OnLuaOpen");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRoomItem_C_2147480862.OnLuaClose
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatRoomItem_C_2147480862::OnLuaClose()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRoomItem_C_2147480862", "OnLuaClose");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRoomItem_C_2147480862.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatRoomItem_C_2147480862::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRoomItem_C_2147480862", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRoomItem_C_2147480862.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatRoomItem_C_2147480862::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRoomItem_C_2147480862", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRoomItem_C_2147480862.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatRoomItem_C_2147480862::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRoomItem_C_2147480862", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRoomItem_C_2147480862.OnListItemObjectSet
+// (Event, Protected, BlueprintEvent)
+// Parameters:
+// class UObject*                          ListItemObject                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void ULUA_OVERRIDES_WBP_ChatRoomItem_C_2147480862::OnListItemObjectSet(class UObject* ListItemObject)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRoomItem_C_2147480862", "OnListItemObjectSet");
+
+	Params::LUA_OVERRIDES_WBP_ChatRoomItem_C_2147480862_OnListItemObjectSet Parms{};
+
+	Parms.ListItemObject = ListItemObject;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRoomItem_C_2147480862.OnLuaShow
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatRoomItem_C_2147480862::OnLuaShow()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRoomItem_C_2147480862", "OnLuaShow");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRoomItem_C_2147480862.LuaHandleKeyEvent
 // (Native, Event, Public, BlueprintEvent)
 // Parameters:
 // const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 // EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 // bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
 
-bool ULUA_OVERRIDES_WBP_PlaceBall1_C_2147482062::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+bool ULUA_OVERRIDES_WBP_ChatRoomItem_C_2147480862::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PlaceBall1_C_2147482062", "LuaHandleKeyEvent");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRoomItem_C_2147480862", "LuaHandleKeyEvent");
 
-	Params::LUA_OVERRIDES_WBP_PlaceBall1_C_2147482062_LuaHandleKeyEvent Parms{};
+	Params::LUA_OVERRIDES_WBP_ChatRoomItem_C_2147480862_LuaHandleKeyEvent Parms{};
 
 	Parms.Key = std::move(Key);
 	Parms.InputEvent = InputEvent;
@@ -2321,15 +2033,35 @@ bool ULUA_OVERRIDES_WBP_PlaceBall1_C_2147482062::LuaHandleKeyEvent(const struct 
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_PlaceBall1_C_2147482062.OnLuaOpen
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRoomItem_C_2147480862.BP_OnItemSelectionChanged
+// (Event, Protected, BlueprintEvent)
+// Parameters:
+// bool                                    bIsSelected                                            (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
+
+void ULUA_OVERRIDES_WBP_ChatRoomItem_C_2147480862::BP_OnItemSelectionChanged(bool bIsSelected)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRoomItem_C_2147480862", "BP_OnItemSelectionChanged");
+
+	Params::LUA_OVERRIDES_WBP_ChatRoomItem_C_2147480862_BP_OnItemSelectionChanged Parms{};
+
+	Parms.bIsSelected = bIsSelected;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ClearSetBtn_C_2147480981.OnLuaHide
 // (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_PlaceBall1_C_2147482062::OnLuaOpen()
+void ULUA_OVERRIDES_WBP_ClearSetBtn_C_2147480981::OnLuaHide()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PlaceBall1_C_2147482062", "OnLuaOpen");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClearSetBtn_C_2147480981", "OnLuaHide");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -2340,15 +2072,15 @@ void ULUA_OVERRIDES_WBP_PlaceBall1_C_2147482062::OnLuaOpen()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_PlaceBall1_C_2147482062.OnLuaHide
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ClearSetBtn_C_2147480981.OnLuaOpen
 // (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_PlaceBall1_C_2147482062::OnLuaHide()
+void ULUA_OVERRIDES_WBP_ClearSetBtn_C_2147480981::OnLuaOpen()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PlaceBall1_C_2147482062", "OnLuaHide");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClearSetBtn_C_2147480981", "OnLuaOpen");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -2359,15 +2091,15 @@ void ULUA_OVERRIDES_WBP_PlaceBall1_C_2147482062::OnLuaHide()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_PlaceBall1_C_2147482062.OnLuaShow
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ClearSetBtn_C_2147480981.OnLuaClose
 // (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_PlaceBall1_C_2147482062::OnLuaShow()
+void ULUA_OVERRIDES_WBP_ClearSetBtn_C_2147480981::OnLuaClose()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PlaceBall1_C_2147482062", "OnLuaShow");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClearSetBtn_C_2147480981", "OnLuaClose");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -2378,15 +2110,15 @@ void ULUA_OVERRIDES_WBP_PlaceBall1_C_2147482062::OnLuaShow()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_PlaceBall1_C_2147482062.Construct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ClearSetBtn_C_2147480981.Destruct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_PlaceBall1_C_2147482062::Construct()
+void ULUA_OVERRIDES_WBP_ClearSetBtn_C_2147480981::Destruct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PlaceBall1_C_2147482062", "Construct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClearSetBtn_C_2147480981", "Destruct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -2397,116 +2129,21 @@ void ULUA_OVERRIDES_WBP_PlaceBall1_C_2147482062::Construct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_PlaceBall1_C_2147482062.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_PlaceBall1_C_2147482062::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PlaceBall1_C_2147482062", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147481944.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147481944::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147481944", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147481944.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147481944::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147481944", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147481944.OnLuaClose
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147481944::OnLuaClose()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147481944", "OnLuaClose");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147481944.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147481944::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147481944", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147481944.LuaHandleKeyEvent
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ClearSetBtn_C_2147480981.LuaHandleKeyEvent
 // (Native, Event, Public, BlueprintEvent)
 // Parameters:
 // const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 // EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 // bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
 
-bool ULUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147481944::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+bool ULUA_OVERRIDES_WBP_ClearSetBtn_C_2147480981::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147481944", "LuaHandleKeyEvent");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClearSetBtn_C_2147480981", "LuaHandleKeyEvent");
 
-	Params::LUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147481944_LuaHandleKeyEvent Parms{};
+	Params::LUA_OVERRIDES_WBP_ClearSetBtn_C_2147480981_LuaHandleKeyEvent Parms{};
 
 	Parms.Key = std::move(Key);
 	Parms.InputEvent = InputEvent;
@@ -2522,15 +2159,15 @@ bool ULUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147481944::LuaHandleKeyEvent(const
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147481944.OnLuaOpen
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ClearSetBtn_C_2147480981.OnLuaShow
 // (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147481944::OnLuaOpen()
+void ULUA_OVERRIDES_WBP_ClearSetBtn_C_2147480981::OnLuaShow()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147481944", "OnLuaOpen");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClearSetBtn_C_2147480981", "OnLuaShow");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -2541,53 +2178,15 @@ void ULUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147481944::OnLuaOpen()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147481944.OnLuaShow
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147481944::OnLuaShow()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147481944", "OnLuaShow");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147481944.OnLuaHide
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147481944::OnLuaHide()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147481944", "OnLuaHide");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_PlaceBall2_C_2147482061.Destruct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ClearSetBtn_C_2147480981.Construct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_PlaceBall2_C_2147482061::Destruct()
+void ULUA_OVERRIDES_WBP_ClearSetBtn_C_2147480981::Construct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PlaceBall2_C_2147482061", "Destruct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClearSetBtn_C_2147480981", "Construct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -2598,15 +2197,53 @@ void ULUA_OVERRIDES_WBP_PlaceBall2_C_2147482061::Destruct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_PlaceBall2_C_2147482061.OnLuaClose
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ClearSetBtn_C_2147480981.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ClearSetBtn_C_2147480981::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClearSetBtn_C_2147480981", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SharingCompetition_C_2147480870.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_SharingCompetition_C_2147480870::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SharingCompetition_C_2147480870", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SharingCompetition_C_2147480870.OnLuaClose
 // (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_PlaceBall2_C_2147482061::OnLuaClose()
+void ULUA_OVERRIDES_WBP_SharingCompetition_C_2147480870::OnLuaClose()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PlaceBall2_C_2147482061", "OnLuaClose");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SharingCompetition_C_2147480870", "OnLuaClose");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -2617,21 +2254,78 @@ void ULUA_OVERRIDES_WBP_PlaceBall2_C_2147482061::OnLuaClose()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_PlaceBall2_C_2147482061.LuaHandleKeyEvent
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SharingCompetition_C_2147480870.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_SharingCompetition_C_2147480870::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SharingCompetition_C_2147480870", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SharingCompetition_C_2147480870.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_SharingCompetition_C_2147480870::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SharingCompetition_C_2147480870", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SharingCompetition_C_2147480870.OnLuaHide
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_SharingCompetition_C_2147480870::OnLuaHide()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SharingCompetition_C_2147480870", "OnLuaHide");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SharingCompetition_C_2147480870.LuaHandleKeyEvent
 // (Native, Event, Public, BlueprintEvent)
 // Parameters:
 // const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 // EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 // bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
 
-bool ULUA_OVERRIDES_WBP_PlaceBall2_C_2147482061::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+bool ULUA_OVERRIDES_WBP_SharingCompetition_C_2147480870::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PlaceBall2_C_2147482061", "LuaHandleKeyEvent");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SharingCompetition_C_2147480870", "LuaHandleKeyEvent");
 
-	Params::LUA_OVERRIDES_WBP_PlaceBall2_C_2147482061_LuaHandleKeyEvent Parms{};
+	Params::LUA_OVERRIDES_WBP_SharingCompetition_C_2147480870_LuaHandleKeyEvent Parms{};
 
 	Parms.Key = std::move(Key);
 	Parms.InputEvent = InputEvent;
@@ -2647,15 +2341,15 @@ bool ULUA_OVERRIDES_WBP_PlaceBall2_C_2147482061::LuaHandleKeyEvent(const struct 
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_PlaceBall2_C_2147482061.OnLuaOpen
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SharingCompetition_C_2147480870.OnLuaOpen
 // (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_PlaceBall2_C_2147482061::OnLuaOpen()
+void ULUA_OVERRIDES_WBP_SharingCompetition_C_2147480870::OnLuaOpen()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PlaceBall2_C_2147482061", "OnLuaOpen");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SharingCompetition_C_2147480870", "OnLuaOpen");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -2666,15 +2360,15 @@ void ULUA_OVERRIDES_WBP_PlaceBall2_C_2147482061::OnLuaOpen()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_PlaceBall2_C_2147482061.OnLuaHide
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SharingCompetition_C_2147480870.OnLuaShow
 // (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_PlaceBall2_C_2147482061::OnLuaHide()
+void ULUA_OVERRIDES_WBP_SharingCompetition_C_2147480870::OnLuaShow()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PlaceBall2_C_2147482061", "OnLuaHide");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SharingCompetition_C_2147480870", "OnLuaShow");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -2685,15 +2379,15 @@ void ULUA_OVERRIDES_WBP_PlaceBall2_C_2147482061::OnLuaHide()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_PlaceBall2_C_2147482061.OnLuaShow
+// LuaFunction Transient.LUA_OVERRIDES_WBP_PlaceBall1_C_2147480979.OnLuaHide
 // (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_PlaceBall2_C_2147482061::OnLuaShow()
+void ULUA_OVERRIDES_WBP_PlaceBall1_C_2147480979::OnLuaHide()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PlaceBall2_C_2147482061", "OnLuaShow");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PlaceBall1_C_2147480979", "OnLuaHide");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -2704,15 +2398,53 @@ void ULUA_OVERRIDES_WBP_PlaceBall2_C_2147482061::OnLuaShow()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_PlaceBall2_C_2147482061.Construct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_PlaceBall1_C_2147480979.OnLuaOpen
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_PlaceBall1_C_2147480979::OnLuaOpen()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PlaceBall1_C_2147480979", "OnLuaOpen");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_PlaceBall1_C_2147480979.OnLuaClose
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_PlaceBall1_C_2147480979::OnLuaClose()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PlaceBall1_C_2147480979", "OnLuaClose");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_PlaceBall1_C_2147480979.Destruct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_PlaceBall2_C_2147482061::Construct()
+void ULUA_OVERRIDES_WBP_PlaceBall1_C_2147480979::Destruct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PlaceBall2_C_2147482061", "Construct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PlaceBall1_C_2147480979", "Destruct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -2723,78 +2455,21 @@ void ULUA_OVERRIDES_WBP_PlaceBall2_C_2147482061::Construct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_PlaceBall2_C_2147482061.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_PlaceBall2_C_2147482061::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PlaceBall2_C_2147482061", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_QuickPlace_C_2147482060.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_QuickPlace_C_2147482060::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_QuickPlace_C_2147482060", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_QuickPlace_C_2147482060.OnLuaClose
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_QuickPlace_C_2147482060::OnLuaClose()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_QuickPlace_C_2147482060", "OnLuaClose");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_QuickPlace_C_2147482060.LuaHandleKeyEvent
+// LuaFunction Transient.LUA_OVERRIDES_WBP_PlaceBall1_C_2147480979.LuaHandleKeyEvent
 // (Native, Event, Public, BlueprintEvent)
 // Parameters:
 // const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 // EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 // bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
 
-bool ULUA_OVERRIDES_WBP_QuickPlace_C_2147482060::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+bool ULUA_OVERRIDES_WBP_PlaceBall1_C_2147480979::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_QuickPlace_C_2147482060", "LuaHandleKeyEvent");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PlaceBall1_C_2147480979", "LuaHandleKeyEvent");
 
-	Params::LUA_OVERRIDES_WBP_QuickPlace_C_2147482060_LuaHandleKeyEvent Parms{};
+	Params::LUA_OVERRIDES_WBP_PlaceBall1_C_2147480979_LuaHandleKeyEvent Parms{};
 
 	Parms.Key = std::move(Key);
 	Parms.InputEvent = InputEvent;
@@ -2810,15 +2485,15 @@ bool ULUA_OVERRIDES_WBP_QuickPlace_C_2147482060::LuaHandleKeyEvent(const struct 
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_QuickPlace_C_2147482060.OnLuaOpen
+// LuaFunction Transient.LUA_OVERRIDES_WBP_PlaceBall1_C_2147480979.OnLuaShow
 // (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_QuickPlace_C_2147482060::OnLuaOpen()
+void ULUA_OVERRIDES_WBP_PlaceBall1_C_2147480979::OnLuaShow()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_QuickPlace_C_2147482060", "OnLuaOpen");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PlaceBall1_C_2147480979", "OnLuaShow");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -2829,53 +2504,15 @@ void ULUA_OVERRIDES_WBP_QuickPlace_C_2147482060::OnLuaOpen()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_QuickPlace_C_2147482060.OnLuaHide
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_QuickPlace_C_2147482060::OnLuaHide()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_QuickPlace_C_2147482060", "OnLuaHide");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_QuickPlace_C_2147482060.OnLuaShow
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_QuickPlace_C_2147482060::OnLuaShow()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_QuickPlace_C_2147482060", "OnLuaShow");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_QuickPlace_C_2147482060.Construct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_PlaceBall1_C_2147480979.Construct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_QuickPlace_C_2147482060::Construct()
+void ULUA_OVERRIDES_WBP_PlaceBall1_C_2147480979::Construct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_QuickPlace_C_2147482060", "Construct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PlaceBall1_C_2147480979", "Construct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -2886,15 +2523,15 @@ void ULUA_OVERRIDES_WBP_QuickPlace_C_2147482060::Construct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_QuickPlace_C_2147482060.OnInitialized
+// LuaFunction Transient.LUA_OVERRIDES_WBP_PlaceBall1_C_2147480979.OnInitialized
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_QuickPlace_C_2147482060::OnInitialized()
+void ULUA_OVERRIDES_WBP_PlaceBall1_C_2147480979::OnInitialized()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_QuickPlace_C_2147482060", "OnInitialized");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PlaceBall1_C_2147480979", "OnInitialized");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -2905,15 +2542,72 @@ void ULUA_OVERRIDES_WBP_QuickPlace_C_2147482060::OnInitialized()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionCard_C_2147481947.Destruct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_QuickPlace_C_2147480977.OnLuaHide
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_QuickPlace_C_2147480977::OnLuaHide()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_QuickPlace_C_2147480977", "OnLuaHide");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_QuickPlace_C_2147480977.OnLuaOpen
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_QuickPlace_C_2147480977::OnLuaOpen()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_QuickPlace_C_2147480977", "OnLuaOpen");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_QuickPlace_C_2147480977.OnLuaClose
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_QuickPlace_C_2147480977::OnLuaClose()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_QuickPlace_C_2147480977", "OnLuaClose");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_QuickPlace_C_2147480977.Destruct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_CompetitionCard_C_2147481947::Destruct()
+void ULUA_OVERRIDES_WBP_QuickPlace_C_2147480977::Destruct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionCard_C_2147481947", "Destruct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_QuickPlace_C_2147480977", "Destruct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -2924,15 +2618,45 @@ void ULUA_OVERRIDES_WBP_CompetitionCard_C_2147481947::Destruct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionCard_C_2147481947.OnLuaOpen
+// LuaFunction Transient.LUA_OVERRIDES_WBP_QuickPlace_C_2147480977.LuaHandleKeyEvent
+// (Native, Event, Public, BlueprintEvent)
+// Parameters:
+// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+
+bool ULUA_OVERRIDES_WBP_QuickPlace_C_2147480977::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_QuickPlace_C_2147480977", "LuaHandleKeyEvent");
+
+	Params::LUA_OVERRIDES_WBP_QuickPlace_C_2147480977_LuaHandleKeyEvent Parms{};
+
+	Parms.Key = std::move(Key);
+	Parms.InputEvent = InputEvent;
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+
+	return Parms.ReturnValue;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_QuickPlace_C_2147480977.OnLuaShow
 // (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_CompetitionCard_C_2147481947::OnLuaOpen()
+void ULUA_OVERRIDES_WBP_QuickPlace_C_2147480977::OnLuaShow()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionCard_C_2147481947", "OnLuaOpen");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_QuickPlace_C_2147480977", "OnLuaShow");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -2943,15 +2667,53 @@ void ULUA_OVERRIDES_WBP_CompetitionCard_C_2147481947::OnLuaOpen()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionCard_C_2147481947.OnLuaHide
+// LuaFunction Transient.LUA_OVERRIDES_WBP_QuickPlace_C_2147480977.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_QuickPlace_C_2147480977::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_QuickPlace_C_2147480977", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_QuickPlace_C_2147480977.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_QuickPlace_C_2147480977::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_QuickPlace_C_2147480977", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ClanInfoCard_C_2147480860.OnLuaClose
 // (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_CompetitionCard_C_2147481947::OnLuaHide()
+void ULUA_OVERRIDES_WBP_ClanInfoCard_C_2147480860::OnLuaClose()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionCard_C_2147481947", "OnLuaHide");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClanInfoCard_C_2147480860", "OnLuaClose");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -2962,15 +2724,64 @@ void ULUA_OVERRIDES_WBP_CompetitionCard_C_2147481947::OnLuaHide()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionCard_C_2147481947.OnLuaClose
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ClanInfoCard_C_2147480860.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ClanInfoCard_C_2147480860::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClanInfoCard_C_2147480860", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ClanInfoCard_C_2147480860.LuaHandleKeyEvent
+// (Native, Event, Public, BlueprintEvent)
+// Parameters:
+// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+
+bool ULUA_OVERRIDES_WBP_ClanInfoCard_C_2147480860::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClanInfoCard_C_2147480860", "LuaHandleKeyEvent");
+
+	Params::LUA_OVERRIDES_WBP_ClanInfoCard_C_2147480860_LuaHandleKeyEvent Parms{};
+
+	Parms.Key = std::move(Key);
+	Parms.InputEvent = InputEvent;
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+
+	return Parms.ReturnValue;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ClanInfoCard_C_2147480860.OnLuaShow
 // (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_CompetitionCard_C_2147481947::OnLuaClose()
+void ULUA_OVERRIDES_WBP_ClanInfoCard_C_2147480860::OnLuaShow()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionCard_C_2147481947", "OnLuaClose");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClanInfoCard_C_2147480860", "OnLuaShow");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -2981,15 +2792,15 @@ void ULUA_OVERRIDES_WBP_CompetitionCard_C_2147481947::OnLuaClose()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionCard_C_2147481947.OnLuaShow
-// (Native, Event, Public, BlueprintEvent)
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ClanInfoCard_C_2147480860.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_CompetitionCard_C_2147481947::OnLuaShow()
+void ULUA_OVERRIDES_WBP_ClanInfoCard_C_2147480860::Destruct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionCard_C_2147481947", "OnLuaShow");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClanInfoCard_C_2147480860", "Destruct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -3000,29 +2811,29 @@ void ULUA_OVERRIDES_WBP_CompetitionCard_C_2147481947::OnLuaShow()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionCard_C_2147481947.Construct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ClanInfoCard_C_2147480860.Construct
 // (BlueprintCosmetic, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_CompetitionCard_C_2147481947::Construct()
+void ULUA_OVERRIDES_WBP_ClanInfoCard_C_2147480860::Construct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionCard_C_2147481947", "Construct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClanInfoCard_C_2147480860", "Construct");
 
 	UObject::ProcessEvent(Func, nullptr);
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionCard_C_2147481947.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ClanInfoCard_C_2147480860.OnLuaOpen
+// (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_CompetitionCard_C_2147481947::OnInitialized()
+void ULUA_OVERRIDES_WBP_ClanInfoCard_C_2147480860::OnLuaOpen()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionCard_C_2147481947", "OnInitialized");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClanInfoCard_C_2147480860", "OnLuaOpen");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -3033,21 +2844,116 @@ void ULUA_OVERRIDES_WBP_CompetitionCard_C_2147481947::OnInitialized()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionCard_C_2147481947.LuaHandleKeyEvent
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ClanInfoCard_C_2147480860.OnLuaHide
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ClanInfoCard_C_2147480860::OnLuaHide()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClanInfoCard_C_2147480860", "OnLuaHide");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_StartLotteryBtn_C_2147480976.OnLuaHide
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_StartLotteryBtn_C_2147480976::OnLuaHide()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_StartLotteryBtn_C_2147480976", "OnLuaHide");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_StartLotteryBtn_C_2147480976.OnLuaOpen
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_StartLotteryBtn_C_2147480976::OnLuaOpen()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_StartLotteryBtn_C_2147480976", "OnLuaOpen");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_StartLotteryBtn_C_2147480976.OnLuaClose
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_StartLotteryBtn_C_2147480976::OnLuaClose()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_StartLotteryBtn_C_2147480976", "OnLuaClose");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_StartLotteryBtn_C_2147480976.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_StartLotteryBtn_C_2147480976::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_StartLotteryBtn_C_2147480976", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_StartLotteryBtn_C_2147480976.LuaHandleKeyEvent
 // (Native, Event, Public, BlueprintEvent)
 // Parameters:
 // const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 // EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 // bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
 
-bool ULUA_OVERRIDES_WBP_CompetitionCard_C_2147481947::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+bool ULUA_OVERRIDES_WBP_StartLotteryBtn_C_2147480976::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionCard_C_2147481947", "LuaHandleKeyEvent");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_StartLotteryBtn_C_2147480976", "LuaHandleKeyEvent");
 
-	Params::LUA_OVERRIDES_WBP_CompetitionCard_C_2147481947_LuaHandleKeyEvent Parms{};
+	Params::LUA_OVERRIDES_WBP_StartLotteryBtn_C_2147480976_LuaHandleKeyEvent Parms{};
 
 	Parms.Key = std::move(Key);
 	Parms.InputEvent = InputEvent;
@@ -3063,15 +2969,15 @@ bool ULUA_OVERRIDES_WBP_CompetitionCard_C_2147481947::LuaHandleKeyEvent(const st
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_BuffItem_C_2147481795.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+// LuaFunction Transient.LUA_OVERRIDES_WBP_StartLotteryBtn_C_2147480976.OnLuaShow
+// (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_BuffItem_C_2147481795::Destruct()
+void ULUA_OVERRIDES_WBP_StartLotteryBtn_C_2147480976::OnLuaShow()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BuffItem_C_2147481795", "Destruct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_StartLotteryBtn_C_2147480976", "OnLuaShow");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -3082,15 +2988,15 @@ void ULUA_OVERRIDES_WBP_BuffItem_C_2147481795::Destruct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_BuffItem_C_2147481795.OnInitialized
+// LuaFunction Transient.LUA_OVERRIDES_WBP_StartLotteryBtn_C_2147480976.Construct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_BuffItem_C_2147481795::OnInitialized()
+void ULUA_OVERRIDES_WBP_StartLotteryBtn_C_2147480976::Construct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BuffItem_C_2147481795", "OnInitialized");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_StartLotteryBtn_C_2147480976", "Construct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -3101,20 +3007,701 @@ void ULUA_OVERRIDES_WBP_BuffItem_C_2147481795::OnInitialized()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_BuffItem_C_2147481795.OnMouseEnter
+// LuaFunction Transient.LUA_OVERRIDES_WBP_StartLotteryBtn_C_2147480976.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_StartLotteryBtn_C_2147480976::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_StartLotteryBtn_C_2147480976", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_FriendShortcutMenu_C_2147480838.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_FriendShortcutMenu_C_2147480838::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_FriendShortcutMenu_C_2147480838", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_FriendShortcutMenu_C_2147480838.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_FriendShortcutMenu_C_2147480838::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_FriendShortcutMenu_C_2147480838", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_FriendShortcutMenu_C_2147480838.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_FriendShortcutMenu_C_2147480838::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_FriendShortcutMenu_C_2147480838", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_OperationButtonBase_C_2147480975.OnLuaHide
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_OperationButtonBase_C_2147480975::OnLuaHide()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_OperationButtonBase_C_2147480975", "OnLuaHide");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_OperationButtonBase_C_2147480975.OnLuaOpen
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_OperationButtonBase_C_2147480975::OnLuaOpen()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_OperationButtonBase_C_2147480975", "OnLuaOpen");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_OperationButtonBase_C_2147480975.OnLuaClose
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_OperationButtonBase_C_2147480975::OnLuaClose()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_OperationButtonBase_C_2147480975", "OnLuaClose");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_OperationButtonBase_C_2147480975.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_OperationButtonBase_C_2147480975::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_OperationButtonBase_C_2147480975", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_OperationButtonBase_C_2147480975.LuaHandleKeyEvent
+// (Native, Event, Public, BlueprintEvent)
+// Parameters:
+// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+
+bool ULUA_OVERRIDES_WBP_OperationButtonBase_C_2147480975::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_OperationButtonBase_C_2147480975", "LuaHandleKeyEvent");
+
+	Params::LUA_OVERRIDES_WBP_OperationButtonBase_C_2147480975_LuaHandleKeyEvent Parms{};
+
+	Parms.Key = std::move(Key);
+	Parms.InputEvent = InputEvent;
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+
+	return Parms.ReturnValue;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_OperationButtonBase_C_2147480975.OnLuaShow
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_OperationButtonBase_C_2147480975::OnLuaShow()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_OperationButtonBase_C_2147480975", "OnLuaShow");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_OperationButtonBase_C_2147480975.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_OperationButtonBase_C_2147480975::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_OperationButtonBase_C_2147480975", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_OperationButtonBase_C_2147480975.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_OperationButtonBase_C_2147480975::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_OperationButtonBase_C_2147480975", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SharePanel_C_2147480853.OnLuaClose
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_SharePanel_C_2147480853::OnLuaClose()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SharePanel_C_2147480853", "OnLuaClose");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SharePanel_C_2147480853.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_SharePanel_C_2147480853::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SharePanel_C_2147480853", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SharePanel_C_2147480853.LuaHandleKeyEvent
+// (Native, Event, Public, BlueprintEvent)
+// Parameters:
+// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+
+bool ULUA_OVERRIDES_WBP_SharePanel_C_2147480853::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SharePanel_C_2147480853", "LuaHandleKeyEvent");
+
+	Params::LUA_OVERRIDES_WBP_SharePanel_C_2147480853_LuaHandleKeyEvent Parms{};
+
+	Parms.Key = std::move(Key);
+	Parms.InputEvent = InputEvent;
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+
+	return Parms.ReturnValue;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SharePanel_C_2147480853.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_SharePanel_C_2147480853::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SharePanel_C_2147480853", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SharePanel_C_2147480853.OnLuaShow
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_SharePanel_C_2147480853::OnLuaShow()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SharePanel_C_2147480853", "OnLuaShow");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SharePanel_C_2147480853.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_SharePanel_C_2147480853::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SharePanel_C_2147480853", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SharePanel_C_2147480853.OnLuaHide
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_SharePanel_C_2147480853::OnLuaHide()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SharePanel_C_2147480853", "OnLuaHide");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SharePanel_C_2147480853.OnLuaOpen
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_SharePanel_C_2147480853::OnLuaOpen()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SharePanel_C_2147480853", "OnLuaOpen");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147480895.OnLuaHide
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147480895::OnLuaHide()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147480895", "OnLuaHide");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147480895.OnLuaOpen
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147480895::OnLuaOpen()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147480895", "OnLuaOpen");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147480895.OnLuaClose
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147480895::OnLuaClose()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147480895", "OnLuaClose");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147480895.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147480895::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147480895", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147480895.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147480895::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147480895", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147480895.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147480895::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147480895", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147480895.LuaHandleKeyEvent
+// (Native, Event, Public, BlueprintEvent)
+// Parameters:
+// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+
+bool ULUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147480895::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147480895", "LuaHandleKeyEvent");
+
+	Params::LUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147480895_LuaHandleKeyEvent Parms{};
+
+	Parms.Key = std::move(Key);
+	Parms.InputEvent = InputEvent;
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+
+	return Parms.ReturnValue;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147480895.OnLuaShow
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147480895::OnLuaShow()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147480895", "OnLuaShow");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147480857.OnLuaOpen
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147480857::OnLuaOpen()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147480857", "OnLuaOpen");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147480857.OnLuaClose
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147480857::OnLuaClose()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147480857", "OnLuaClose");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147480857.OnListItemObjectSet
+// (Event, Protected, BlueprintEvent)
+// Parameters:
+// class UObject*                          ListItemObject                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void ULUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147480857::OnListItemObjectSet(class UObject* ListItemObject)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147480857", "OnListItemObjectSet");
+
+	Params::LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147480857_OnListItemObjectSet Parms{};
+
+	Parms.ListItemObject = ListItemObject;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147480857.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147480857::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147480857", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147480857.OnMouseLeave
+// (BlueprintCosmetic, Native, Event, Public, HasOutParams, BlueprintEvent)
+// Parameters:
+// const struct FPointerEvent&             MouseEvent                                             (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
+
+void ULUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147480857::OnMouseLeave(const struct FPointerEvent& MouseEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147480857", "OnMouseLeave");
+
+	Params::LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147480857_OnMouseLeave Parms{};
+
+	Parms.MouseEvent = std::move(MouseEvent);
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147480857.Construct
+// (BlueprintCosmetic, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147480857::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147480857", "Construct");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147480857.OnMouseEnter
 // (BlueprintCosmetic, Native, Event, Public, HasOutParams, BlueprintEvent)
 // Parameters:
 // const struct FGeometry&                 MyGeometry                                             (Parm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
 // const struct FPointerEvent&             MouseEvent                                             (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
 
-void ULUA_OVERRIDES_WBP_BuffItem_C_2147481795::OnMouseEnter(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
+void ULUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147480857::OnMouseEnter(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BuffItem_C_2147481795", "OnMouseEnter");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147480857", "OnMouseEnter");
 
-	Params::LUA_OVERRIDES_WBP_BuffItem_C_2147481795_OnMouseEnter Parms{};
+	Params::LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147480857_OnMouseEnter Parms{};
 
 	Parms.MyGeometry = std::move(MyGeometry);
 	Parms.MouseEvent = std::move(MouseEvent);
@@ -3128,19 +3715,2748 @@ void ULUA_OVERRIDES_WBP_BuffItem_C_2147481795::OnMouseEnter(const struct FGeomet
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_BuffItem_C_2147481795.OnMouseLeave
-// (BlueprintCosmetic, Native, Event, Public, HasOutParams, BlueprintEvent)
-// Parameters:
-// const struct FPointerEvent&             MouseEvent                                             (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147480857.OnLuaHide
+// (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_BuffItem_C_2147481795::OnMouseLeave(const struct FPointerEvent& MouseEvent)
+void ULUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147480857::OnLuaHide()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BuffItem_C_2147481795", "OnMouseLeave");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147480857", "OnLuaHide");
 
-	Params::LUA_OVERRIDES_WBP_BuffItem_C_2147481795_OnMouseLeave Parms{};
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147480857.OnLuaShow
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147480857::OnLuaShow()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147480857", "OnLuaShow");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147480857.LuaHandleKeyEvent
+// (Native, Event, Public, BlueprintEvent)
+// Parameters:
+// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+
+bool ULUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147480857::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147480857", "LuaHandleKeyEvent");
+
+	Params::LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147480857_LuaHandleKeyEvent Parms{};
+
+	Parms.Key = std::move(Key);
+	Parms.InputEvent = InputEvent;
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+
+	return Parms.ReturnValue;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147480857.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147480857::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147480857", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ClanIcon_C_2147480861.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ClanIcon_C_2147480861::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClanIcon_C_2147480861", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ClanIcon_C_2147480861.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ClanIcon_C_2147480861::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClanIcon_C_2147480861", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ClanIcon_C_2147480861.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ClanIcon_C_2147480861::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClanIcon_C_2147480861", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ContentPage_Clan_C_2147480893.OnLuaHide
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ContentPage_Clan_C_2147480893::OnLuaHide()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ContentPage_Clan_C_2147480893", "OnLuaHide");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ContentPage_Clan_C_2147480893.OnLuaOpen
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ContentPage_Clan_C_2147480893::OnLuaOpen()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ContentPage_Clan_C_2147480893", "OnLuaOpen");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ContentPage_Clan_C_2147480893.OnLuaClose
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ContentPage_Clan_C_2147480893::OnLuaClose()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ContentPage_Clan_C_2147480893", "OnLuaClose");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ContentPage_Clan_C_2147480893.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ContentPage_Clan_C_2147480893::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ContentPage_Clan_C_2147480893", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ContentPage_Clan_C_2147480893.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ContentPage_Clan_C_2147480893::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ContentPage_Clan_C_2147480893", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ContentPage_Clan_C_2147480893.LuaHandleKeyEvent
+// (Native, Event, Public, BlueprintEvent)
+// Parameters:
+// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+
+bool ULUA_OVERRIDES_WBP_ContentPage_Clan_C_2147480893::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ContentPage_Clan_C_2147480893", "LuaHandleKeyEvent");
+
+	Params::LUA_OVERRIDES_WBP_ContentPage_Clan_C_2147480893_LuaHandleKeyEvent Parms{};
+
+	Parms.Key = std::move(Key);
+	Parms.InputEvent = InputEvent;
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+
+	return Parms.ReturnValue;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ContentPage_Clan_C_2147480893.OnLuaShow
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ContentPage_Clan_C_2147480893::OnLuaShow()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ContentPage_Clan_C_2147480893", "OnLuaShow");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ContentPage_Clan_C_2147480893.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ContentPage_Clan_C_2147480893::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ContentPage_Clan_C_2147480893", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ContentPage_Channel_C_2147480892.OnLuaHide
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ContentPage_Channel_C_2147480892::OnLuaHide()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ContentPage_Channel_C_2147480892", "OnLuaHide");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ContentPage_Channel_C_2147480892.OnLuaOpen
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ContentPage_Channel_C_2147480892::OnLuaOpen()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ContentPage_Channel_C_2147480892", "OnLuaOpen");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ContentPage_Channel_C_2147480892.OnLuaClose
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ContentPage_Channel_C_2147480892::OnLuaClose()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ContentPage_Channel_C_2147480892", "OnLuaClose");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ContentPage_Channel_C_2147480892.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ContentPage_Channel_C_2147480892::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ContentPage_Channel_C_2147480892", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ContentPage_Channel_C_2147480892.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ContentPage_Channel_C_2147480892::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ContentPage_Channel_C_2147480892", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ContentPage_Channel_C_2147480892.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ContentPage_Channel_C_2147480892::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ContentPage_Channel_C_2147480892", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ContentPage_Channel_C_2147480892.OnLuaShow
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ContentPage_Channel_C_2147480892::OnLuaShow()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ContentPage_Channel_C_2147480892", "OnLuaShow");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ContentPage_Channel_C_2147480892.LuaHandleKeyEvent
+// (Native, Event, Public, BlueprintEvent)
+// Parameters:
+// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+
+bool ULUA_OVERRIDES_WBP_ContentPage_Channel_C_2147480892::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ContentPage_Channel_C_2147480892", "LuaHandleKeyEvent");
+
+	Params::LUA_OVERRIDES_WBP_ContentPage_Channel_C_2147480892_LuaHandleKeyEvent Parms{};
+
+	Parms.Key = std::move(Key);
+	Parms.InputEvent = InputEvent;
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+
+	return Parms.ReturnValue;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ActivityTaskItem_C_2147480023.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ActivityTaskItem_C_2147480023::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ActivityTaskItem_C_2147480023", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ActivityTaskItem_C_2147480023.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ActivityTaskItem_C_2147480023::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ActivityTaskItem_C_2147480023", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ActivityTaskItem_C_2147480023.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ActivityTaskItem_C_2147480023::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ActivityTaskItem_C_2147480023", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelItem_C_2147480891.OnLuaHide
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatChannelItem_C_2147480891::OnLuaHide()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelItem_C_2147480891", "OnLuaHide");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelItem_C_2147480891.OnLuaOpen
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatChannelItem_C_2147480891::OnLuaOpen()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelItem_C_2147480891", "OnLuaOpen");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelItem_C_2147480891.OnLuaClose
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatChannelItem_C_2147480891::OnLuaClose()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelItem_C_2147480891", "OnLuaClose");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelItem_C_2147480891.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatChannelItem_C_2147480891::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelItem_C_2147480891", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelItem_C_2147480891.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatChannelItem_C_2147480891::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelItem_C_2147480891", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelItem_C_2147480891.LuaHandleKeyEvent
+// (Native, Event, Public, BlueprintEvent)
+// Parameters:
+// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+
+bool ULUA_OVERRIDES_WBP_ChatChannelItem_C_2147480891::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelItem_C_2147480891", "LuaHandleKeyEvent");
+
+	Params::LUA_OVERRIDES_WBP_ChatChannelItem_C_2147480891_LuaHandleKeyEvent Parms{};
+
+	Parms.Key = std::move(Key);
+	Parms.InputEvent = InputEvent;
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+
+	return Parms.ReturnValue;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelItem_C_2147480891.OnLuaShow
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatChannelItem_C_2147480891::OnLuaShow()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelItem_C_2147480891", "OnLuaShow");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelItem_C_2147480891.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatChannelItem_C_2147480891::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelItem_C_2147480891", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147480889.OnLuaClose
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147480889::OnLuaClose()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147480889", "OnLuaClose");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147480889.LuaHandleKeyEvent
+// (Native, Event, Public, BlueprintEvent)
+// Parameters:
+// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+
+bool ULUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147480889::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147480889", "LuaHandleKeyEvent");
+
+	Params::LUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147480889_LuaHandleKeyEvent Parms{};
+
+	Parms.Key = std::move(Key);
+	Parms.InputEvent = InputEvent;
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+
+	return Parms.ReturnValue;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147480889.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147480889::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147480889", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147480889.OnLuaShow
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147480889::OnLuaShow()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147480889", "OnLuaShow");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147480889.OnLuaHide
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147480889::OnLuaHide()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147480889", "OnLuaHide");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147480889.OnLuaOpen
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147480889::OnLuaOpen()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147480889", "OnLuaOpen");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147480889.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147480889::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147480889", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147480889.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147480889::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147480889", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_PlayerCardBG_C_2147480848.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_PlayerCardBG_C_2147480848::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PlayerCardBG_C_2147480848", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_PlayerCardBG_C_2147480848.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_PlayerCardBG_C_2147480848::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PlayerCardBG_C_2147480848", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_PlayerCardBG_C_2147480848.Construct
+// (BlueprintCosmetic, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_PlayerCardBG_C_2147480848::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PlayerCardBG_C_2147480848", "Construct");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRoomPage_C_2147480888.OnLuaOpen
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatRoomPage_C_2147480888::OnLuaOpen()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRoomPage_C_2147480888", "OnLuaOpen");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRoomPage_C_2147480888.OnLuaClose
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatRoomPage_C_2147480888::OnLuaClose()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRoomPage_C_2147480888", "OnLuaClose");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRoomPage_C_2147480888.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatRoomPage_C_2147480888::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRoomPage_C_2147480888", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRoomPage_C_2147480888.OnLuaHide
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatRoomPage_C_2147480888::OnLuaHide()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRoomPage_C_2147480888", "OnLuaHide");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRoomPage_C_2147480888.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatRoomPage_C_2147480888::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRoomPage_C_2147480888", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRoomPage_C_2147480888.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatRoomPage_C_2147480888::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRoomPage_C_2147480888", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRoomPage_C_2147480888.OnLuaShow
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatRoomPage_C_2147480888::OnLuaShow()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRoomPage_C_2147480888", "OnLuaShow");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRoomPage_C_2147480888.LuaHandleKeyEvent
+// (Native, Event, Public, BlueprintEvent)
+// Parameters:
+// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+
+bool ULUA_OVERRIDES_WBP_ChatRoomPage_C_2147480888::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRoomPage_C_2147480888", "LuaHandleKeyEvent");
+
+	Params::LUA_OVERRIDES_WBP_ChatRoomPage_C_2147480888_LuaHandleKeyEvent Parms{};
+
+	Parms.Key = std::move(Key);
+	Parms.InputEvent = InputEvent;
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+
+	return Parms.ReturnValue;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatPrePage_C_2147480887.OnLuaOpen
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatPrePage_C_2147480887::OnLuaOpen()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatPrePage_C_2147480887", "OnLuaOpen");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatPrePage_C_2147480887.OnLuaClose
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatPrePage_C_2147480887::OnLuaClose()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatPrePage_C_2147480887", "OnLuaClose");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatPrePage_C_2147480887.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatPrePage_C_2147480887::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatPrePage_C_2147480887", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatPrePage_C_2147480887.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatPrePage_C_2147480887::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatPrePage_C_2147480887", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatPrePage_C_2147480887.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatPrePage_C_2147480887::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatPrePage_C_2147480887", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatPrePage_C_2147480887.OnLuaHide
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatPrePage_C_2147480887::OnLuaHide()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatPrePage_C_2147480887", "OnLuaHide");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatPrePage_C_2147480887.OnLuaShow
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatPrePage_C_2147480887::OnLuaShow()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatPrePage_C_2147480887", "OnLuaShow");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatPrePage_C_2147480887.LuaHandleKeyEvent
+// (Native, Event, Public, BlueprintEvent)
+// Parameters:
+// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+
+bool ULUA_OVERRIDES_WBP_ChatPrePage_C_2147480887::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatPrePage_C_2147480887", "LuaHandleKeyEvent");
+
+	Params::LUA_OVERRIDES_WBP_ChatPrePage_C_2147480887_LuaHandleKeyEvent Parms{};
+
+	Parms.Key = std::move(Key);
+	Parms.InputEvent = InputEvent;
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+
+	return Parms.ReturnValue;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatTranslate_C_2147480876.OnLuaHide
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatTranslate_C_2147480876::OnLuaHide()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatTranslate_C_2147480876", "OnLuaHide");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatTranslate_C_2147480876.OnLuaOpen
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatTranslate_C_2147480876::OnLuaOpen()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatTranslate_C_2147480876", "OnLuaOpen");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatTranslate_C_2147480876.OnLuaClose
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatTranslate_C_2147480876::OnLuaClose()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatTranslate_C_2147480876", "OnLuaClose");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatTranslate_C_2147480876.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatTranslate_C_2147480876::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatTranslate_C_2147480876", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatTranslate_C_2147480876.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatTranslate_C_2147480876::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatTranslate_C_2147480876", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatTranslate_C_2147480876.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatTranslate_C_2147480876::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatTranslate_C_2147480876", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatTranslate_C_2147480876.LuaHandleKeyEvent
+// (Native, Event, Public, BlueprintEvent)
+// Parameters:
+// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+
+bool ULUA_OVERRIDES_WBP_ChatTranslate_C_2147480876::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatTranslate_C_2147480876", "LuaHandleKeyEvent");
+
+	Params::LUA_OVERRIDES_WBP_ChatTranslate_C_2147480876_LuaHandleKeyEvent Parms{};
+
+	Parms.Key = std::move(Key);
+	Parms.InputEvent = InputEvent;
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+
+	return Parms.ReturnValue;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatTranslate_C_2147480876.OnLuaShow
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatTranslate_C_2147480876::OnLuaShow()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatTranslate_C_2147480876", "OnLuaShow");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatFriendPage_C_2147480885.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatFriendPage_C_2147480885::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatFriendPage_C_2147480885", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatFriendPage_C_2147480885.Construct
+// (BlueprintCosmetic, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatFriendPage_C_2147480885::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatFriendPage_C_2147480885", "Construct");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatFriendPage_C_2147480885.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatFriendPage_C_2147480885::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatFriendPage_C_2147480885", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Pre_C_2147480856.OnLuaOpen
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatText_Pre_C_2147480856::OnLuaOpen()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Pre_C_2147480856", "OnLuaOpen");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Pre_C_2147480856.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatText_Pre_C_2147480856::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Pre_C_2147480856", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Pre_C_2147480856.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatText_Pre_C_2147480856::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Pre_C_2147480856", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Pre_C_2147480856.OnLuaClose
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatText_Pre_C_2147480856::OnLuaClose()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Pre_C_2147480856", "OnLuaClose");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Pre_C_2147480856.LuaHandleKeyEvent
+// (Native, Event, Public, BlueprintEvent)
+// Parameters:
+// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+
+bool ULUA_OVERRIDES_WBP_ChatText_Pre_C_2147480856::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Pre_C_2147480856", "LuaHandleKeyEvent");
+
+	Params::LUA_OVERRIDES_WBP_ChatText_Pre_C_2147480856_LuaHandleKeyEvent Parms{};
+
+	Parms.Key = std::move(Key);
+	Parms.InputEvent = InputEvent;
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+
+	return Parms.ReturnValue;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Pre_C_2147480856.OnLuaHide
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatText_Pre_C_2147480856::OnLuaHide()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Pre_C_2147480856", "OnLuaHide");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Pre_C_2147480856.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatText_Pre_C_2147480856::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Pre_C_2147480856", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Pre_C_2147480856.OnLuaShow
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatText_Pre_C_2147480856::OnLuaShow()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Pre_C_2147480856", "OnLuaShow");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Pre_C_2147480856.BP_OnItemSelectionChanged
+// (Event, Protected, BlueprintEvent)
+// Parameters:
+// bool                                    bIsSelected                                            (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
+
+void ULUA_OVERRIDES_WBP_ChatText_Pre_C_2147480856::BP_OnItemSelectionChanged(bool bIsSelected)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Pre_C_2147480856", "BP_OnItemSelectionChanged");
+
+	Params::LUA_OVERRIDES_WBP_ChatText_Pre_C_2147480856_BP_OnItemSelectionChanged Parms{};
+
+	Parms.bIsSelected = bIsSelected;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Pre_C_2147480856.OnListItemObjectSet
+// (Event, Protected, BlueprintEvent)
+// Parameters:
+// class UObject*                          ListItemObject                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void ULUA_OVERRIDES_WBP_ChatText_Pre_C_2147480856::OnListItemObjectSet(class UObject* ListItemObject)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Pre_C_2147480856", "OnListItemObjectSet");
+
+	Params::LUA_OVERRIDES_WBP_ChatText_Pre_C_2147480856_OnListItemObjectSet Parms{};
+
+	Parms.ListItemObject = ListItemObject;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147480884.OnLuaClose
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147480884::OnLuaClose()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147480884", "OnLuaClose");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147480884.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147480884::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147480884", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147480884.LuaHandleKeyEvent
+// (Native, Event, Public, BlueprintEvent)
+// Parameters:
+// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+
+bool ULUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147480884::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147480884", "LuaHandleKeyEvent");
+
+	Params::LUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147480884_LuaHandleKeyEvent Parms{};
+
+	Parms.Key = std::move(Key);
+	Parms.InputEvent = InputEvent;
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+
+	return Parms.ReturnValue;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147480884.OnLuaShow
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147480884::OnLuaShow()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147480884", "OnLuaShow");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147480884.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147480884::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147480884", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147480884.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147480884::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147480884", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147480884.OnLuaOpen
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147480884::OnLuaOpen()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147480884", "OnLuaOpen");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147480884.OnLuaHide
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147480884::OnLuaHide()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147480884", "OnLuaHide");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatClanPage_C_2147480883.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatClanPage_C_2147480883::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatClanPage_C_2147480883", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatClanPage_C_2147480883.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatClanPage_C_2147480883::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatClanPage_C_2147480883", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatClanPage_C_2147480883.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatClanPage_C_2147480883::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatClanPage_C_2147480883", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatClanPage_C_2147480883.OnRemovedFromFocusPath
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+// Parameters:
+// const struct FFocusEvent&               InFocusEvent                                           (Parm, NoDestructor, NativeAccessSpecifierPublic)
+
+void ULUA_OVERRIDES_WBP_ChatClanPage_C_2147480883::OnRemovedFromFocusPath(const struct FFocusEvent& InFocusEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatClanPage_C_2147480883", "OnRemovedFromFocusPath");
+
+	Params::LUA_OVERRIDES_WBP_ChatClanPage_C_2147480883_OnRemovedFromFocusPath Parms{};
+
+	Parms.InFocusEvent = std::move(InFocusEvent);
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelPage_C_2147480882.OnLuaClose
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatChannelPage_C_2147480882::OnLuaClose()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelPage_C_2147480882", "OnLuaClose");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelPage_C_2147480882.OnLuaHide
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatChannelPage_C_2147480882::OnLuaHide()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelPage_C_2147480882", "OnLuaHide");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelPage_C_2147480882.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatChannelPage_C_2147480882::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelPage_C_2147480882", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelPage_C_2147480882.Construct
+// (BlueprintCosmetic, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatChannelPage_C_2147480882::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelPage_C_2147480882", "Construct");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelPage_C_2147480882.OnLuaOpen
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatChannelPage_C_2147480882::OnLuaOpen()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelPage_C_2147480882", "OnLuaOpen");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelPage_C_2147480882.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatChannelPage_C_2147480882::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelPage_C_2147480882", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelPage_C_2147480882.OnLuaShow
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatChannelPage_C_2147480882::OnLuaShow()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelPage_C_2147480882", "OnLuaShow");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelPage_C_2147480882.LuaHandleKeyEvent
+// (Native, Event, Public, BlueprintEvent)
+// Parameters:
+// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+
+bool ULUA_OVERRIDES_WBP_ChatChannelPage_C_2147480882::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelPage_C_2147480882", "LuaHandleKeyEvent");
+
+	Params::LUA_OVERRIDES_WBP_ChatChannelPage_C_2147480882_LuaHandleKeyEvent Parms{};
+
+	Parms.Key = std::move(Key);
+	Parms.InputEvent = InputEvent;
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+
+	return Parms.ReturnValue;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatMainPage_C_2147480881.OnLuaOpen
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatMainPage_C_2147480881::OnLuaOpen()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatMainPage_C_2147480881", "OnLuaOpen");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatMainPage_C_2147480881.OnLuaClose
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatMainPage_C_2147480881::OnLuaClose()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatMainPage_C_2147480881", "OnLuaClose");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatMainPage_C_2147480881.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatMainPage_C_2147480881::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatMainPage_C_2147480881", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatMainPage_C_2147480881.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatMainPage_C_2147480881::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatMainPage_C_2147480881", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatMainPage_C_2147480881.OnLuaHide
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatMainPage_C_2147480881::OnLuaHide()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatMainPage_C_2147480881", "OnLuaHide");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatMainPage_C_2147480881.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatMainPage_C_2147480881::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatMainPage_C_2147480881", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatMainPage_C_2147480881.OnRemovedFromFocusPath
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+// Parameters:
+// const struct FFocusEvent&               InFocusEvent                                           (Parm, NoDestructor, NativeAccessSpecifierPublic)
+
+void ULUA_OVERRIDES_WBP_ChatMainPage_C_2147480881::OnRemovedFromFocusPath(const struct FFocusEvent& InFocusEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatMainPage_C_2147480881", "OnRemovedFromFocusPath");
+
+	Params::LUA_OVERRIDES_WBP_ChatMainPage_C_2147480881_OnRemovedFromFocusPath Parms{};
+
+	Parms.InFocusEvent = std::move(InFocusEvent);
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatMainPage_C_2147480881.OnLuaShow
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatMainPage_C_2147480881::OnLuaShow()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatMainPage_C_2147480881", "OnLuaShow");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatMainPage_C_2147480881.LuaHandleKeyEvent
+// (Native, Event, Public, BlueprintEvent)
+// Parameters:
+// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+
+bool ULUA_OVERRIDES_WBP_ChatMainPage_C_2147480881::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatMainPage_C_2147480881", "LuaHandleKeyEvent");
+
+	Params::LUA_OVERRIDES_WBP_ChatMainPage_C_2147480881_LuaHandleKeyEvent Parms{};
+
+	Parms.Key = std::move(Key);
+	Parms.InputEvent = InputEvent;
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+
+	return Parms.ReturnValue;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147480859.OnLuaHide
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147480859::OnLuaHide()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147480859", "OnLuaHide");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147480859.OnLuaOpen
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147480859::OnLuaOpen()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147480859", "OnLuaOpen");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147480859.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147480859::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147480859", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147480859.OnLuaClose
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147480859::OnLuaClose()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147480859", "OnLuaClose");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147480859.LuaHandleKeyEvent
+// (Native, Event, Public, BlueprintEvent)
+// Parameters:
+// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+
+bool ULUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147480859::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147480859", "LuaHandleKeyEvent");
+
+	Params::LUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147480859_LuaHandleKeyEvent Parms{};
+
+	Parms.Key = std::move(Key);
+	Parms.InputEvent = InputEvent;
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+
+	return Parms.ReturnValue;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147480859.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147480859::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147480859", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147480859.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147480859::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147480859", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147480859.OnLuaShow
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147480859::OnLuaShow()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147480859", "OnLuaShow");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SelectModeItem_C_2147480133.OnMouseButtonDown
+// (BlueprintCosmetic, Native, Event, Public, HasOutParams, BlueprintEvent)
+// Parameters:
+// const struct FGeometry&                 MyGeometry                                             (Parm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+// const struct FPointerEvent&             MouseEvent                                             (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
+// struct FEventReply                      ReturnValue                                            (Parm, OutParm, ReturnParm, NativeAccessSpecifierPublic)
+
+struct FEventReply ULUA_OVERRIDES_WBP_SelectModeItem_C_2147480133::OnMouseButtonDown(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SelectModeItem_C_2147480133", "OnMouseButtonDown");
+
+	Params::LUA_OVERRIDES_WBP_SelectModeItem_C_2147480133_OnMouseButtonDown Parms{};
+
+	Parms.MyGeometry = std::move(MyGeometry);
+	Parms.MouseEvent = std::move(MouseEvent);
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+
+	return Parms.ReturnValue;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SelectModeItem_C_2147480133.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_SelectModeItem_C_2147480133::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SelectModeItem_C_2147480133", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SelectModeItem_C_2147480133.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_SelectModeItem_C_2147480133::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SelectModeItem_C_2147480133", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SelectModeItem_C_2147480133.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_SelectModeItem_C_2147480133::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SelectModeItem_C_2147480133", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_DivisionShow_C_2147480880.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_DivisionShow_C_2147480880::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_DivisionShow_C_2147480880", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_DivisionShow_C_2147480880.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_DivisionShow_C_2147480880::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_DivisionShow_C_2147480880", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_DivisionShow_C_2147480880.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_DivisionShow_C_2147480880::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_DivisionShow_C_2147480880", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SharingClan_C_2147480871.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_SharingClan_C_2147480871::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SharingClan_C_2147480871", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SharingClan_C_2147480871.OnLuaClose
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_SharingClan_C_2147480871::OnLuaClose()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SharingClan_C_2147480871", "OnLuaClose");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SharingClan_C_2147480871.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_SharingClan_C_2147480871::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SharingClan_C_2147480871", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SharingClan_C_2147480871.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_SharingClan_C_2147480871::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SharingClan_C_2147480871", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SharingClan_C_2147480871.OnLuaHide
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_SharingClan_C_2147480871::OnLuaHide()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SharingClan_C_2147480871", "OnLuaHide");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SharingClan_C_2147480871.LuaHandleKeyEvent
+// (Native, Event, Public, BlueprintEvent)
+// Parameters:
+// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+
+bool ULUA_OVERRIDES_WBP_SharingClan_C_2147480871::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SharingClan_C_2147480871", "LuaHandleKeyEvent");
+
+	Params::LUA_OVERRIDES_WBP_SharingClan_C_2147480871_LuaHandleKeyEvent Parms{};
+
+	Parms.Key = std::move(Key);
+	Parms.InputEvent = InputEvent;
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+
+	return Parms.ReturnValue;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SharingClan_C_2147480871.OnLuaOpen
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_SharingClan_C_2147480871::OnLuaOpen()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SharingClan_C_2147480871", "OnLuaOpen");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SharingClan_C_2147480871.OnLuaShow
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_SharingClan_C_2147480871::OnLuaShow()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SharingClan_C_2147480871", "OnLuaShow");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ShortcutTaskPanel_C_2147480697.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ShortcutTaskPanel_C_2147480697::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ShortcutTaskPanel_C_2147480697", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ShortcutTaskPanel_C_2147480697.OnMouseLeave
+// (BlueprintCosmetic, Native, Event, Public, HasOutParams, BlueprintEvent)
+// Parameters:
+// const struct FPointerEvent&             MouseEvent                                             (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
+
+void ULUA_OVERRIDES_WBP_ShortcutTaskPanel_C_2147480697::OnMouseLeave(const struct FPointerEvent& MouseEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ShortcutTaskPanel_C_2147480697", "OnMouseLeave");
+
+	Params::LUA_OVERRIDES_WBP_ShortcutTaskPanel_C_2147480697_OnMouseLeave Parms{};
 
 	Parms.MouseEvent = std::move(MouseEvent);
 
@@ -3153,15 +6469,15 @@ void ULUA_OVERRIDES_WBP_BuffItem_C_2147481795::OnMouseLeave(const struct FPointe
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_BuffItem_C_2147481795.Construct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ShortcutTaskPanel_C_2147480697.Construct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_BuffItem_C_2147481795::Construct()
+void ULUA_OVERRIDES_WBP_ShortcutTaskPanel_C_2147480697::Construct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BuffItem_C_2147481795", "Construct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ShortcutTaskPanel_C_2147480697", "Construct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -3172,15 +6488,15 @@ void ULUA_OVERRIDES_WBP_BuffItem_C_2147481795::Construct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_FastMessagePanel_C_2147481950.Destruct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ShortcutTaskPanel_C_2147480697.OnInitialized
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_FastMessagePanel_C_2147481950::Destruct()
+void ULUA_OVERRIDES_WBP_ShortcutTaskPanel_C_2147480697::OnInitialized()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_FastMessagePanel_C_2147481950", "Destruct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ShortcutTaskPanel_C_2147480697", "OnInitialized");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -3191,2542 +6507,23 @@ void ULUA_OVERRIDES_WBP_FastMessagePanel_C_2147481950::Destruct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_FastMessagePanel_C_2147481950.OnLuaClose
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_FastMessagePanel_C_2147481950::OnLuaClose()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_FastMessagePanel_C_2147481950", "OnLuaClose");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_FastMessagePanel_C_2147481950.OnLuaOpen
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_FastMessagePanel_C_2147481950::OnLuaOpen()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_FastMessagePanel_C_2147481950", "OnLuaOpen");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_FastMessagePanel_C_2147481950.LuaHandleKeyEvent
-// (Native, Event, Public, BlueprintEvent)
-// Parameters:
-// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-
-bool ULUA_OVERRIDES_WBP_FastMessagePanel_C_2147481950::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_FastMessagePanel_C_2147481950", "LuaHandleKeyEvent");
-
-	Params::LUA_OVERRIDES_WBP_FastMessagePanel_C_2147481950_LuaHandleKeyEvent Parms{};
-
-	Parms.Key = std::move(Key);
-	Parms.InputEvent = InputEvent;
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	Func->FunctionFlags = Flgs;
-
-	return Parms.ReturnValue;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_FastMessagePanel_C_2147481950.OnLuaHide
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_FastMessagePanel_C_2147481950::OnLuaHide()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_FastMessagePanel_C_2147481950", "OnLuaHide");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_FastMessagePanel_C_2147481950.OnLuaShow
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_FastMessagePanel_C_2147481950::OnLuaShow()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_FastMessagePanel_C_2147481950", "OnLuaShow");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_FastMessagePanel_C_2147481950.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_FastMessagePanel_C_2147481950::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_FastMessagePanel_C_2147481950", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_FastMessagePanel_C_2147481950.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_FastMessagePanel_C_2147481950::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_FastMessagePanel_C_2147481950", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_StartLotteryBtn_C_2147482059.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_StartLotteryBtn_C_2147482059::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_StartLotteryBtn_C_2147482059", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_StartLotteryBtn_C_2147482059.OnLuaClose
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_StartLotteryBtn_C_2147482059::OnLuaClose()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_StartLotteryBtn_C_2147482059", "OnLuaClose");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_StartLotteryBtn_C_2147482059.LuaHandleKeyEvent
-// (Native, Event, Public, BlueprintEvent)
-// Parameters:
-// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-
-bool ULUA_OVERRIDES_WBP_StartLotteryBtn_C_2147482059::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_StartLotteryBtn_C_2147482059", "LuaHandleKeyEvent");
-
-	Params::LUA_OVERRIDES_WBP_StartLotteryBtn_C_2147482059_LuaHandleKeyEvent Parms{};
-
-	Parms.Key = std::move(Key);
-	Parms.InputEvent = InputEvent;
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	Func->FunctionFlags = Flgs;
-
-	return Parms.ReturnValue;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_StartLotteryBtn_C_2147482059.OnLuaOpen
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_StartLotteryBtn_C_2147482059::OnLuaOpen()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_StartLotteryBtn_C_2147482059", "OnLuaOpen");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_StartLotteryBtn_C_2147482059.OnLuaHide
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_StartLotteryBtn_C_2147482059::OnLuaHide()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_StartLotteryBtn_C_2147482059", "OnLuaHide");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_StartLotteryBtn_C_2147482059.OnLuaShow
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_StartLotteryBtn_C_2147482059::OnLuaShow()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_StartLotteryBtn_C_2147482059", "OnLuaShow");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_StartLotteryBtn_C_2147482059.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_StartLotteryBtn_C_2147482059::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_StartLotteryBtn_C_2147482059", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_StartLotteryBtn_C_2147482059.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_StartLotteryBtn_C_2147482059::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_StartLotteryBtn_C_2147482059", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_FastMessageItem_C_2147481988.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_FastMessageItem_C_2147481988::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_FastMessageItem_C_2147481988", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_FastMessageItem_C_2147481988.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_FastMessageItem_C_2147481988::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_FastMessageItem_C_2147481988", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_FastMessageItem_C_2147481988.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_FastMessageItem_C_2147481988::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_FastMessageItem_C_2147481988", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CardPanel_C_2147481940.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_CardPanel_C_2147481940::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CardPanel_C_2147481940", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CardPanel_C_2147481940.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_CardPanel_C_2147481940::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CardPanel_C_2147481940", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CardPanel_C_2147481940.Construct
-// (BlueprintCosmetic, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_CardPanel_C_2147481940::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CardPanel_C_2147481940", "Construct");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CommonPlayerHead_C_2147481986.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_CommonPlayerHead_C_2147481986::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CommonPlayerHead_C_2147481986", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CommonPlayerHead_C_2147481986.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_CommonPlayerHead_C_2147481986::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CommonPlayerHead_C_2147481986", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CommonPlayerHead_C_2147481986.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_CommonPlayerHead_C_2147481986::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CommonPlayerHead_C_2147481986", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatClanItem_C_2147481985.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatClanItem_C_2147481985::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatClanItem_C_2147481985", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatClanItem_C_2147481985.OnListItemObjectSet
-// (Native, Event, Protected, BlueprintEvent)
-// Parameters:
-// class UObject*                          ListItemObject                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-void ULUA_OVERRIDES_WBP_ChatClanItem_C_2147481985::OnListItemObjectSet(class UObject* ListItemObject)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatClanItem_C_2147481985", "OnListItemObjectSet");
-
-	Params::LUA_OVERRIDES_WBP_ChatClanItem_C_2147481985_OnListItemObjectSet Parms{};
-
-	Parms.ListItemObject = ListItemObject;
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatClanItem_C_2147481985.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatClanItem_C_2147481985::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatClanItem_C_2147481985", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatClanItem_C_2147481985.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatClanItem_C_2147481985::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatClanItem_C_2147481985", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatFriendItem_C_2147481984.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatFriendItem_C_2147481984::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatFriendItem_C_2147481984", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatFriendItem_C_2147481984.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatFriendItem_C_2147481984::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatFriendItem_C_2147481984", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatFriendItem_C_2147481984.OnListItemObjectSet
-// (Native, Event, Protected, BlueprintEvent)
-// Parameters:
-// class UObject*                          ListItemObject                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-void ULUA_OVERRIDES_WBP_ChatFriendItem_C_2147481984::OnListItemObjectSet(class UObject* ListItemObject)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatFriendItem_C_2147481984", "OnListItemObjectSet");
-
-	Params::LUA_OVERRIDES_WBP_ChatFriendItem_C_2147481984_OnListItemObjectSet Parms{};
-
-	Parms.ListItemObject = ListItemObject;
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatFriendItem_C_2147481984.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatFriendItem_C_2147481984::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatFriendItem_C_2147481984", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_PlayerCardBG_C_2147481942.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_PlayerCardBG_C_2147481942::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PlayerCardBG_C_2147481942", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_PlayerCardBG_C_2147481942.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_PlayerCardBG_C_2147481942::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PlayerCardBG_C_2147481942", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_PlayerCardBG_C_2147481942.Construct
-// (BlueprintCosmetic, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_PlayerCardBG_C_2147481942::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PlayerCardBG_C_2147481942", "Construct");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_EmojiSetItem_C_2147481980.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_EmojiSetItem_C_2147481980::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_EmojiSetItem_C_2147481980", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_EmojiSetItem_C_2147481980.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_EmojiSetItem_C_2147481980::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_EmojiSetItem_C_2147481980", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_EmojiSetItem_C_2147481980.OnLuaItemClick
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_EmojiSetItem_C_2147481980::OnLuaItemClick()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_EmojiSetItem_C_2147481980", "OnLuaItemClick");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_EmojiSetItem_C_2147481980.OnLuaItemHovered
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_EmojiSetItem_C_2147481980::OnLuaItemHovered()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_EmojiSetItem_C_2147481980", "OnLuaItemHovered");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_EmojiSetItem_C_2147481980.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_EmojiSetItem_C_2147481980::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_EmojiSetItem_C_2147481980", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_EmojiSetItem_C_2147481980.OnLuaItemUnhovered
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_EmojiSetItem_C_2147481980::OnLuaItemUnhovered()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_EmojiSetItem_C_2147481980", "OnLuaItemUnhovered");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRoomItem_C_2147481983.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatRoomItem_C_2147481983::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRoomItem_C_2147481983", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRoomItem_C_2147481983.OnLuaClose
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatRoomItem_C_2147481983::OnLuaClose()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRoomItem_C_2147481983", "OnLuaClose");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRoomItem_C_2147481983.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatRoomItem_C_2147481983::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRoomItem_C_2147481983", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRoomItem_C_2147481983.LuaHandleKeyEvent
-// (Native, Event, Public, BlueprintEvent)
-// Parameters:
-// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-
-bool ULUA_OVERRIDES_WBP_ChatRoomItem_C_2147481983::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRoomItem_C_2147481983", "LuaHandleKeyEvent");
-
-	Params::LUA_OVERRIDES_WBP_ChatRoomItem_C_2147481983_LuaHandleKeyEvent Parms{};
-
-	Parms.Key = std::move(Key);
-	Parms.InputEvent = InputEvent;
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	Func->FunctionFlags = Flgs;
-
-	return Parms.ReturnValue;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRoomItem_C_2147481983.OnListItemObjectSet
-// (Event, Protected, BlueprintEvent)
-// Parameters:
-// class UObject*                          ListItemObject                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-void ULUA_OVERRIDES_WBP_ChatRoomItem_C_2147481983::OnListItemObjectSet(class UObject* ListItemObject)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRoomItem_C_2147481983", "OnListItemObjectSet");
-
-	Params::LUA_OVERRIDES_WBP_ChatRoomItem_C_2147481983_OnListItemObjectSet Parms{};
-
-	Parms.ListItemObject = ListItemObject;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRoomItem_C_2147481983.OnLuaHide
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatRoomItem_C_2147481983::OnLuaHide()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRoomItem_C_2147481983", "OnLuaHide");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRoomItem_C_2147481983.OnLuaOpen
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatRoomItem_C_2147481983::OnLuaOpen()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRoomItem_C_2147481983", "OnLuaOpen");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRoomItem_C_2147481983.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatRoomItem_C_2147481983::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRoomItem_C_2147481983", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRoomItem_C_2147481983.BP_OnItemSelectionChanged
-// (Event, Protected, BlueprintEvent)
-// Parameters:
-// bool                                    bIsSelected                                            (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
-
-void ULUA_OVERRIDES_WBP_ChatRoomItem_C_2147481983::BP_OnItemSelectionChanged(bool bIsSelected)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRoomItem_C_2147481983", "BP_OnItemSelectionChanged");
-
-	Params::LUA_OVERRIDES_WBP_ChatRoomItem_C_2147481983_BP_OnItemSelectionChanged Parms{};
-
-	Parms.bIsSelected = bIsSelected;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRoomItem_C_2147481983.OnLuaShow
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatRoomItem_C_2147481983::OnLuaShow()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRoomItem_C_2147481983", "OnLuaShow");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Pre_C_2147481982.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatText_Pre_C_2147481982::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Pre_C_2147481982", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Pre_C_2147481982.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatText_Pre_C_2147481982::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Pre_C_2147481982", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Pre_C_2147481982.OnLuaClose
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatText_Pre_C_2147481982::OnLuaClose()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Pre_C_2147481982", "OnLuaClose");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Pre_C_2147481982.BP_OnItemSelectionChanged
-// (Event, Protected, BlueprintEvent)
-// Parameters:
-// bool                                    bIsSelected                                            (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
-
-void ULUA_OVERRIDES_WBP_ChatText_Pre_C_2147481982::BP_OnItemSelectionChanged(bool bIsSelected)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Pre_C_2147481982", "BP_OnItemSelectionChanged");
-
-	Params::LUA_OVERRIDES_WBP_ChatText_Pre_C_2147481982_BP_OnItemSelectionChanged Parms{};
-
-	Parms.bIsSelected = bIsSelected;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Pre_C_2147481982.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatText_Pre_C_2147481982::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Pre_C_2147481982", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Pre_C_2147481982.LuaHandleKeyEvent
-// (Native, Event, Public, BlueprintEvent)
-// Parameters:
-// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-
-bool ULUA_OVERRIDES_WBP_ChatText_Pre_C_2147481982::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Pre_C_2147481982", "LuaHandleKeyEvent");
-
-	Params::LUA_OVERRIDES_WBP_ChatText_Pre_C_2147481982_LuaHandleKeyEvent Parms{};
-
-	Parms.Key = std::move(Key);
-	Parms.InputEvent = InputEvent;
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	Func->FunctionFlags = Flgs;
-
-	return Parms.ReturnValue;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Pre_C_2147481982.OnLuaShow
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatText_Pre_C_2147481982::OnLuaShow()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Pre_C_2147481982", "OnLuaShow");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Pre_C_2147481982.OnLuaOpen
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatText_Pre_C_2147481982::OnLuaOpen()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Pre_C_2147481982", "OnLuaOpen");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Pre_C_2147481982.OnListItemObjectSet
-// (Event, Protected, BlueprintEvent)
-// Parameters:
-// class UObject*                          ListItemObject                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-void ULUA_OVERRIDES_WBP_ChatText_Pre_C_2147481982::OnListItemObjectSet(class UObject* ListItemObject)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Pre_C_2147481982", "OnListItemObjectSet");
-
-	Params::LUA_OVERRIDES_WBP_ChatText_Pre_C_2147481982_OnListItemObjectSet Parms{};
-
-	Parms.ListItemObject = ListItemObject;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Pre_C_2147481982.OnLuaHide
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatText_Pre_C_2147481982::OnLuaHide()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Pre_C_2147481982", "OnLuaHide");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatEmotion_C_2147481954.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatEmotion_C_2147481954::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatEmotion_C_2147481954", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatEmotion_C_2147481954.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatEmotion_C_2147481954::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatEmotion_C_2147481954", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatEmotion_C_2147481954.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatEmotion_C_2147481954::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatEmotion_C_2147481954", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_PlayerManagerButton_C_2147481975.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_PlayerManagerButton_C_2147481975::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PlayerManagerButton_C_2147481975", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_PlayerManagerButton_C_2147481975.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_PlayerManagerButton_C_2147481975::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PlayerManagerButton_C_2147481975", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_PlayerManagerButton_C_2147481975.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_PlayerManagerButton_C_2147481975::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PlayerManagerButton_C_2147481975", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147481981.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147481981::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147481981", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147481981.OnLuaClose
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147481981::OnLuaClose()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147481981", "OnLuaClose");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147481981.Construct
-// (BlueprintCosmetic, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147481981::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147481981", "Construct");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147481981.LuaHandleKeyEvent
-// (Native, Event, Public, BlueprintEvent)
-// Parameters:
-// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-
-bool ULUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147481981::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147481981", "LuaHandleKeyEvent");
-
-	Params::LUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147481981_LuaHandleKeyEvent Parms{};
-
-	Parms.Key = std::move(Key);
-	Parms.InputEvent = InputEvent;
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	Func->FunctionFlags = Flgs;
-
-	return Parms.ReturnValue;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147481981.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147481981::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147481981", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147481981.OnLuaShow
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147481981::OnLuaShow()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147481981", "OnLuaShow");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147481981.OnLuaOpen
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147481981::OnLuaOpen()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147481981", "OnLuaOpen");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147481981.OnLuaHide
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147481981::OnLuaHide()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147481981", "OnLuaHide");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_TargetGuideStateItem_C_2147481802.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_TargetGuideStateItem_C_2147481802::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_TargetGuideStateItem_C_2147481802", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_TargetGuideStateItem_C_2147481802.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_TargetGuideStateItem_C_2147481802::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_TargetGuideStateItem_C_2147481802", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_TargetGuideStateItem_C_2147481802.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_TargetGuideStateItem_C_2147481802::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_TargetGuideStateItem_C_2147481802", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_TargetGuideStateItem_C_2147481802.OnListItemObjectSet
-// (Event, Protected, BlueprintEvent)
-// Parameters:
-// class UObject*                          ListItemObject                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-void ULUA_OVERRIDES_WBP_TargetGuideStateItem_C_2147481802::OnListItemObjectSet(class UObject* ListItemObject)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_TargetGuideStateItem_C_2147481802", "OnListItemObjectSet");
-
-	Params::LUA_OVERRIDES_WBP_TargetGuideStateItem_C_2147481802_OnListItemObjectSet Parms{};
-
-	Parms.ListItemObject = ListItemObject;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_BusinessCard_RoleItem_C_2147481970.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_BusinessCard_RoleItem_C_2147481970::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BusinessCard_RoleItem_C_2147481970", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_BusinessCard_RoleItem_C_2147481970.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_BusinessCard_RoleItem_C_2147481970::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BusinessCard_RoleItem_C_2147481970", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_BusinessCard_RoleItem_C_2147481970.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_BusinessCard_RoleItem_C_2147481970::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BusinessCard_RoleItem_C_2147481970", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_BusinessCard_RoleItem_C_2147481970.OnListItemObjectSet
-// (Event, Protected, BlueprintEvent)
-// Parameters:
-// class UObject*                          ListItemObject                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-void ULUA_OVERRIDES_WBP_BusinessCard_RoleItem_C_2147481970::OnListItemObjectSet(class UObject* ListItemObject)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BusinessCard_RoleItem_C_2147481970", "OnListItemObjectSet");
-
-	Params::LUA_OVERRIDES_WBP_BusinessCard_RoleItem_C_2147481970_OnListItemObjectSet Parms{};
-
-	Parms.ListItemObject = ListItemObject;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_BusinessCard_PlayerInfoPage_C_2147481978.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_BusinessCard_PlayerInfoPage_C_2147481978::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BusinessCard_PlayerInfoPage_C_2147481978", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_BusinessCard_PlayerInfoPage_C_2147481978.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_BusinessCard_PlayerInfoPage_C_2147481978::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BusinessCard_PlayerInfoPage_C_2147481978", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_BusinessCard_PlayerInfoPage_C_2147481978.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_BusinessCard_PlayerInfoPage_C_2147481978::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BusinessCard_PlayerInfoPage_C_2147481978", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_AchievementMedalShortTip_C_2147481976.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_AchievementMedalShortTip_C_2147481976::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_AchievementMedalShortTip_C_2147481976", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_AchievementMedalShortTip_C_2147481976.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_AchievementMedalShortTip_C_2147481976::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_AchievementMedalShortTip_C_2147481976", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_AchievementMedalShortTip_C_2147481976.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_AchievementMedalShortTip_C_2147481976::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_AchievementMedalShortTip_C_2147481976", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelItem_C_2147481957.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatChannelItem_C_2147481957::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelItem_C_2147481957", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelItem_C_2147481957.OnLuaClose
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatChannelItem_C_2147481957::OnLuaClose()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelItem_C_2147481957", "OnLuaClose");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelItem_C_2147481957.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatChannelItem_C_2147481957::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelItem_C_2147481957", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelItem_C_2147481957.LuaHandleKeyEvent
-// (Native, Event, Public, BlueprintEvent)
-// Parameters:
-// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-
-bool ULUA_OVERRIDES_WBP_ChatChannelItem_C_2147481957::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelItem_C_2147481957", "LuaHandleKeyEvent");
-
-	Params::LUA_OVERRIDES_WBP_ChatChannelItem_C_2147481957_LuaHandleKeyEvent Parms{};
-
-	Parms.Key = std::move(Key);
-	Parms.InputEvent = InputEvent;
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	Func->FunctionFlags = Flgs;
-
-	return Parms.ReturnValue;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelItem_C_2147481957.OnLuaHide
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatChannelItem_C_2147481957::OnLuaHide()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelItem_C_2147481957", "OnLuaHide");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelItem_C_2147481957.OnLuaShow
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatChannelItem_C_2147481957::OnLuaShow()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelItem_C_2147481957", "OnLuaShow");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelItem_C_2147481957.OnLuaOpen
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatChannelItem_C_2147481957::OnLuaOpen()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelItem_C_2147481957", "OnLuaOpen");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelItem_C_2147481957.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatChannelItem_C_2147481957::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelItem_C_2147481957", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CustomWidgetOptMenu_C_2147481974.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_CustomWidgetOptMenu_C_2147481974::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CustomWidgetOptMenu_C_2147481974", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CustomWidgetOptMenu_C_2147481974.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_CustomWidgetOptMenu_C_2147481974::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CustomWidgetOptMenu_C_2147481974", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CustomWidgetOptMenu_C_2147481974.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_CustomWidgetOptMenu_C_2147481974::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CustomWidgetOptMenu_C_2147481974", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_FriendShortcutMenu_C_2147481973.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_FriendShortcutMenu_C_2147481973::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_FriendShortcutMenu_C_2147481973", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_FriendShortcutMenu_C_2147481973.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_FriendShortcutMenu_C_2147481973::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_FriendShortcutMenu_C_2147481973", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_FriendShortcutMenu_C_2147481973.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_FriendShortcutMenu_C_2147481973::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_FriendShortcutMenu_C_2147481973", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_BusinessCard_DataItem_C_2147481972.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_BusinessCard_DataItem_C_2147481972::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BusinessCard_DataItem_C_2147481972", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_BusinessCard_DataItem_C_2147481972.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_BusinessCard_DataItem_C_2147481972::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BusinessCard_DataItem_C_2147481972", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_BusinessCard_DataItem_C_2147481972.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_BusinessCard_DataItem_C_2147481972::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BusinessCard_DataItem_C_2147481972", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_BusinessCard_DataItem_C_2147481972.OnListItemObjectSet
-// (Event, Protected, BlueprintEvent)
-// Parameters:
-// class UObject*                          ListItemObject                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-void ULUA_OVERRIDES_WBP_BusinessCard_DataItem_C_2147481972::OnListItemObjectSet(class UObject* ListItemObject)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BusinessCard_DataItem_C_2147481972", "OnListItemObjectSet");
-
-	Params::LUA_OVERRIDES_WBP_BusinessCard_DataItem_C_2147481972_OnListItemObjectSet Parms{};
-
-	Parms.ListItemObject = ListItemObject;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147481961.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147481961::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147481961", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147481961.OnLuaOpen
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147481961::OnLuaOpen()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147481961", "OnLuaOpen");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147481961.LuaHandleKeyEvent
-// (Native, Event, Public, BlueprintEvent)
-// Parameters:
-// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-
-bool ULUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147481961::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147481961", "LuaHandleKeyEvent");
-
-	Params::LUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147481961_LuaHandleKeyEvent Parms{};
-
-	Parms.Key = std::move(Key);
-	Parms.InputEvent = InputEvent;
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	Func->FunctionFlags = Flgs;
-
-	return Parms.ReturnValue;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147481961.OnLuaHide
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147481961::OnLuaHide()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147481961", "OnLuaHide");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147481961.OnLuaClose
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147481961::OnLuaClose()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147481961", "OnLuaClose");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147481961.OnLuaShow
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147481961::OnLuaShow()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147481961", "OnLuaShow");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147481961.Construct
-// (BlueprintCosmetic, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147481961::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147481961", "Construct");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147481961.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147481961::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147481961", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SharePanel_C_2147481955.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_SharePanel_C_2147481955::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SharePanel_C_2147481955", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SharePanel_C_2147481955.OnLuaOpen
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_SharePanel_C_2147481955::OnLuaOpen()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SharePanel_C_2147481955", "OnLuaOpen");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SharePanel_C_2147481955.OnLuaClose
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_SharePanel_C_2147481955::OnLuaClose()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SharePanel_C_2147481955", "OnLuaClose");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SharePanel_C_2147481955.OnLuaHide
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_SharePanel_C_2147481955::OnLuaHide()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SharePanel_C_2147481955", "OnLuaHide");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SharePanel_C_2147481955.LuaHandleKeyEvent
-// (Native, Event, Public, BlueprintEvent)
-// Parameters:
-// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-
-bool ULUA_OVERRIDES_WBP_SharePanel_C_2147481955::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SharePanel_C_2147481955", "LuaHandleKeyEvent");
-
-	Params::LUA_OVERRIDES_WBP_SharePanel_C_2147481955_LuaHandleKeyEvent Parms{};
-
-	Parms.Key = std::move(Key);
-	Parms.InputEvent = InputEvent;
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	Func->FunctionFlags = Flgs;
-
-	return Parms.ReturnValue;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SharePanel_C_2147481955.OnLuaShow
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_SharePanel_C_2147481955::OnLuaShow()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SharePanel_C_2147481955", "OnLuaShow");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SharePanel_C_2147481955.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_SharePanel_C_2147481955::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SharePanel_C_2147481955", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SharePanel_C_2147481955.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_SharePanel_C_2147481955::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SharePanel_C_2147481955", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_DynamicIcon_C_2147481969.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_DynamicIcon_C_2147481969::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_DynamicIcon_C_2147481969", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_DynamicIcon_C_2147481969.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_DynamicIcon_C_2147481969::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_DynamicIcon_C_2147481969", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_DynamicIcon_C_2147481969.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_DynamicIcon_C_2147481969::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_DynamicIcon_C_2147481969", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147481968.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147481968::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147481968", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147481968.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147481968::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147481968", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147481968.OnDragCancelled
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ShortcutTaskPanel_C_2147480697.OnMouseEnter
 // (BlueprintCosmetic, Native, Event, Public, HasOutParams, BlueprintEvent)
 // Parameters:
-// const struct FPointerEvent&             PointerEvent                                           (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
-// class UDragDropOperation*               Operation                                              (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// const struct FGeometry&                 MyGeometry                                             (Parm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+// const struct FPointerEvent&             MouseEvent                                             (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
 
-void ULUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147481968::OnDragCancelled(const struct FPointerEvent& PointerEvent, class UDragDropOperation* Operation)
+void ULUA_OVERRIDES_WBP_ShortcutTaskPanel_C_2147480697::OnMouseEnter(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147481968", "OnDragCancelled");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ShortcutTaskPanel_C_2147480697", "OnMouseEnter");
 
-	Params::LUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147481968_OnDragCancelled Parms{};
+	Params::LUA_OVERRIDES_WBP_ShortcutTaskPanel_C_2147480697_OnMouseEnter Parms{};
 
-	Parms.PointerEvent = std::move(PointerEvent);
-	Parms.Operation = Operation;
+	Parms.MyGeometry = std::move(MyGeometry);
+	Parms.MouseEvent = std::move(MouseEvent);
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -5737,35 +6534,1081 @@ void ULUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147481968::OnDragCancelled(const 
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147481968.Construct
-// (BlueprintCosmetic, Event, Public, BlueprintEvent)
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CommonPlayerHead_C_2147480879.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147481968::Construct()
+void ULUA_OVERRIDES_WBP_CommonPlayerHead_C_2147480879::Destruct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147481968", "Construct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CommonPlayerHead_C_2147480879", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CommonPlayerHead_C_2147480879.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_CommonPlayerHead_C_2147480879::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CommonPlayerHead_C_2147480879", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CommonPlayerHead_C_2147480879.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_CommonPlayerHead_C_2147480879::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CommonPlayerHead_C_2147480879", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionCard_C_2147480878.OnLuaClose
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_CompetitionCard_C_2147480878::OnLuaClose()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionCard_C_2147480878", "OnLuaClose");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionCard_C_2147480878.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_CompetitionCard_C_2147480878::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionCard_C_2147480878", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionCard_C_2147480878.LuaHandleKeyEvent
+// (Native, Event, Public, BlueprintEvent)
+// Parameters:
+// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+
+bool ULUA_OVERRIDES_WBP_CompetitionCard_C_2147480878::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionCard_C_2147480878", "LuaHandleKeyEvent");
+
+	Params::LUA_OVERRIDES_WBP_CompetitionCard_C_2147480878_LuaHandleKeyEvent Parms{};
+
+	Parms.Key = std::move(Key);
+	Parms.InputEvent = InputEvent;
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+
+	return Parms.ReturnValue;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionCard_C_2147480878.Construct
+// (BlueprintCosmetic, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_CompetitionCard_C_2147480878::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionCard_C_2147480878", "Construct");
 
 	UObject::ProcessEvent(Func, nullptr);
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147481968.OnDragDetected
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionCard_C_2147480878.OnLuaHide
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_CompetitionCard_C_2147480878::OnLuaHide()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionCard_C_2147480878", "OnLuaHide");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionCard_C_2147480878.OnLuaShow
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_CompetitionCard_C_2147480878::OnLuaShow()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionCard_C_2147480878", "OnLuaShow");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionCard_C_2147480878.OnLuaOpen
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_CompetitionCard_C_2147480878::OnLuaOpen()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionCard_C_2147480878", "OnLuaOpen");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionCard_C_2147480878.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_CompetitionCard_C_2147480878::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionCard_C_2147480878", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147480877.OnLuaHide
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147480877::OnLuaHide()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147480877", "OnLuaHide");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147480877.OnLuaOpen
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147480877::OnLuaOpen()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147480877", "OnLuaOpen");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147480877.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147480877::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147480877", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147480877.Construct
+// (BlueprintCosmetic, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147480877::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147480877", "Construct");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147480877.LuaHandleKeyEvent
+// (Native, Event, Public, BlueprintEvent)
+// Parameters:
+// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+
+bool ULUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147480877::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147480877", "LuaHandleKeyEvent");
+
+	Params::LUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147480877_LuaHandleKeyEvent Parms{};
+
+	Parms.Key = std::move(Key);
+	Parms.InputEvent = InputEvent;
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+
+	return Parms.ReturnValue;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147480877.OnLuaShow
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147480877::OnLuaShow()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147480877", "OnLuaShow");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147480877.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147480877::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147480877", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147480877.OnLuaClose
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147480877::OnLuaClose()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClanCard_ClanOrfriend_C_2147480877", "OnLuaClose");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147480875.OnLuaClose
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147480875::OnLuaClose()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147480875", "OnLuaClose");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147480875.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147480875::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147480875", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147480875.LuaHandleKeyEvent
+// (Native, Event, Public, BlueprintEvent)
+// Parameters:
+// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+
+bool ULUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147480875::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147480875", "LuaHandleKeyEvent");
+
+	Params::LUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147480875_LuaHandleKeyEvent Parms{};
+
+	Parms.Key = std::move(Key);
+	Parms.InputEvent = InputEvent;
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+
+	return Parms.ReturnValue;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147480875.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147480875::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147480875", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147480875.OnLuaShow
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147480875::OnLuaShow()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147480875", "OnLuaShow");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147480875.OnLuaHide
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147480875::OnLuaHide()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147480875", "OnLuaHide");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147480875.Construct
+// (BlueprintCosmetic, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147480875::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147480875", "Construct");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147480875.OnLuaOpen
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147480875::OnLuaOpen()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatTextTeamCard_C_2147480875", "OnLuaOpen");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147480874.OnLuaHide
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147480874::OnLuaHide()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147480874", "OnLuaHide");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147480874.OnLuaOpen
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147480874::OnLuaOpen()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147480874", "OnLuaOpen");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147480874.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147480874::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147480874", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147480874.Construct
+// (BlueprintCosmetic, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147480874::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147480874", "Construct");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147480874.OnLuaShow
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147480874::OnLuaShow()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147480874", "OnLuaShow");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147480874.LuaHandleKeyEvent
+// (Native, Event, Public, BlueprintEvent)
+// Parameters:
+// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+
+bool ULUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147480874::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147480874", "LuaHandleKeyEvent");
+
+	Params::LUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147480874_LuaHandleKeyEvent Parms{};
+
+	Parms.Key = std::move(Key);
+	Parms.InputEvent = InputEvent;
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+
+	return Parms.ReturnValue;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147480874.OnLuaClose
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147480874::OnLuaClose()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147480874", "OnLuaClose");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147480874.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147480874::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147480874", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147480873.OnLuaHide
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147480873::OnLuaHide()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147480873", "OnLuaHide");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147480873.OnLuaOpen
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147480873::OnLuaOpen()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147480873", "OnLuaOpen");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147480873.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147480873::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147480873", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147480873.OnLuaClose
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147480873::OnLuaClose()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147480873", "OnLuaClose");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147480873.LuaHandleKeyEvent
+// (Native, Event, Public, BlueprintEvent)
+// Parameters:
+// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+
+bool ULUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147480873::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147480873", "LuaHandleKeyEvent");
+
+	Params::LUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147480873_LuaHandleKeyEvent Parms{};
+
+	Parms.Key = std::move(Key);
+	Parms.InputEvent = InputEvent;
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+
+	return Parms.ReturnValue;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147480873.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147480873::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147480873", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147480873.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147480873::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147480873", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147480873.OnLuaShow
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147480873::OnLuaShow()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRedPacket_Item_C_2147480873", "OnLuaShow");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatBubbles_C_2147480872.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatBubbles_C_2147480872::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatBubbles_C_2147480872", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatBubbles_C_2147480872.LuaHandleKeyEvent
+// (Native, Event, Public, BlueprintEvent)
+// Parameters:
+// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+
+bool ULUA_OVERRIDES_WBP_ChatBubbles_C_2147480872::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatBubbles_C_2147480872", "LuaHandleKeyEvent");
+
+	Params::LUA_OVERRIDES_WBP_ChatBubbles_C_2147480872_LuaHandleKeyEvent Parms{};
+
+	Parms.Key = std::move(Key);
+	Parms.InputEvent = InputEvent;
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+
+	return Parms.ReturnValue;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatBubbles_C_2147480872.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatBubbles_C_2147480872::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatBubbles_C_2147480872", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatBubbles_C_2147480872.OnLuaClose
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatBubbles_C_2147480872::OnLuaClose()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatBubbles_C_2147480872", "OnLuaClose");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatBubbles_C_2147480872.OnLuaShow
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatBubbles_C_2147480872::OnLuaShow()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatBubbles_C_2147480872", "OnLuaShow");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatBubbles_C_2147480872.OnLuaHide
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatBubbles_C_2147480872::OnLuaHide()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatBubbles_C_2147480872", "OnLuaHide");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatBubbles_C_2147480872.Construct
+// (BlueprintCosmetic, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatBubbles_C_2147480872::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatBubbles_C_2147480872", "Construct");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatBubbles_C_2147480872.OnLuaOpen
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatBubbles_C_2147480872::OnLuaOpen()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatBubbles_C_2147480872", "OnLuaOpen");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatBubbles_C_2147480872.OnListItemObjectSet
+// (Event, Protected, BlueprintEvent)
+// Parameters:
+// class UObject*                          ListItemObject                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void ULUA_OVERRIDES_WBP_ChatBubbles_C_2147480872::OnListItemObjectSet(class UObject* ListItemObject)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatBubbles_C_2147480872", "OnListItemObjectSet");
+
+	Params::LUA_OVERRIDES_WBP_ChatBubbles_C_2147480872_OnListItemObjectSet Parms{};
+
+	Parms.ListItemObject = ListItemObject;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147480869.OnMouseButtonDown
+// (BlueprintCosmetic, Native, Event, Public, HasOutParams, BlueprintEvent)
+// Parameters:
+// const struct FGeometry&                 MyGeometry                                             (Parm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+// const struct FPointerEvent&             MouseEvent                                             (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
+// struct FEventReply                      ReturnValue                                            (Parm, OutParm, ReturnParm, NativeAccessSpecifierPublic)
+
+struct FEventReply ULUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147480869::OnMouseButtonDown(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147480869", "OnMouseButtonDown");
+
+	Params::LUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147480869_OnMouseButtonDown Parms{};
+
+	Parms.MyGeometry = std::move(MyGeometry);
+	Parms.MouseEvent = std::move(MouseEvent);
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+
+	return Parms.ReturnValue;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147480869.OnDragDetected
 // (BlueprintCosmetic, Native, Event, Public, HasOutParams, BlueprintEvent)
 // Parameters:
 // const struct FGeometry&                 MyGeometry                                             (Parm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
 // const struct FPointerEvent&             PointerEvent                                           (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
 // class UDragDropOperation**              Operation                                              (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 
-void ULUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147481968::OnDragDetected(const struct FGeometry& MyGeometry, const struct FPointerEvent& PointerEvent, class UDragDropOperation** Operation)
+void ULUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147480869::OnDragDetected(const struct FGeometry& MyGeometry, const struct FPointerEvent& PointerEvent, class UDragDropOperation** Operation)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147481968", "OnDragDetected");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147480869", "OnDragDetected");
 
-	Params::LUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147481968_OnDragDetected Parms{};
+	Params::LUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147480869_OnDragDetected Parms{};
 
 	Parms.MyGeometry = std::move(MyGeometry);
 	Parms.PointerEvent = std::move(PointerEvent);
@@ -5782,24 +7625,56 @@ void ULUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147481968::OnDragDetected(const s
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147481968.OnMouseButtonDown
-// (BlueprintCosmetic, Native, Event, Public, HasOutParams, BlueprintEvent)
-// Parameters:
-// const struct FGeometry&                 MyGeometry                                             (Parm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-// const struct FPointerEvent&             MouseEvent                                             (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
-// struct FEventReply                      ReturnValue                                            (Parm, OutParm, ReturnParm, NativeAccessSpecifierPublic)
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147480869.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-struct FEventReply ULUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147481968::OnMouseButtonDown(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
+void ULUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147480869::Destruct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147481968", "OnMouseButtonDown");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147480869", "Destruct");
 
-	Params::LUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147481968_OnMouseButtonDown Parms{};
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
 
-	Parms.MyGeometry = std::move(MyGeometry);
-	Parms.MouseEvent = std::move(MouseEvent);
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147480869.Construct
+// (BlueprintCosmetic, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147480869::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147480869", "Construct");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147480869.OnDragCancelled
+// (BlueprintCosmetic, Native, Event, Public, HasOutParams, BlueprintEvent)
+// Parameters:
+// const struct FPointerEvent&             PointerEvent                                           (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
+// class UDragDropOperation*               Operation                                              (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+void ULUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147480869::OnDragCancelled(const struct FPointerEvent& PointerEvent, class UDragDropOperation* Operation)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147480869", "OnDragCancelled");
+
+	Params::LUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147480869_OnDragCancelled Parms{};
+
+	Parms.PointerEvent = std::move(PointerEvent);
+	Parms.Operation = Operation;
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -5807,20 +7682,18 @@ struct FEventReply ULUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147481968::OnMouseB
 	UObject::ProcessEvent(Func, &Parms);
 
 	Func->FunctionFlags = Flgs;
-
-	return Parms.ReturnValue;
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ToolTipsPage_C_2147481966.Destruct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147480869.OnInitialized
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_ToolTipsPage_C_2147481966::Destruct()
+void ULUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147480869::OnInitialized()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ToolTipsPage_C_2147481966", "Destruct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CustomWidgetOptItem_C_2147480869", "OnInitialized");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -5831,72 +7704,15 @@ void ULUA_OVERRIDES_WBP_ToolTipsPage_C_2147481966::Destruct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ToolTipsPage_C_2147481966.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ToolTipsPage_C_2147481966::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ToolTipsPage_C_2147481966", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ToolTipsPage_C_2147481966.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ToolTipsPage_C_2147481966::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ToolTipsPage_C_2147481966", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147481956.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatChannelListItem_C_2147481956::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147481956", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147481956.OnLuaOpen
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147480865.OnLuaClose
 // (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_ChatChannelListItem_C_2147481956::OnLuaOpen()
+void ULUA_OVERRIDES_WBP_ChatChannelListItem_C_2147480865::OnLuaClose()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147481956", "OnLuaOpen");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147480865", "OnLuaClose");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -5907,21 +7723,40 @@ void ULUA_OVERRIDES_WBP_ChatChannelListItem_C_2147481956::OnLuaOpen()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147481956.LuaHandleKeyEvent
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147480865.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatChannelListItem_C_2147480865::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147480865", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147480865.LuaHandleKeyEvent
 // (Native, Event, Public, BlueprintEvent)
 // Parameters:
 // const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 // EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 // bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
 
-bool ULUA_OVERRIDES_WBP_ChatChannelListItem_C_2147481956::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+bool ULUA_OVERRIDES_WBP_ChatChannelListItem_C_2147480865::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147481956", "LuaHandleKeyEvent");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147480865", "LuaHandleKeyEvent");
 
-	Params::LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147481956_LuaHandleKeyEvent Parms{};
+	Params::LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147480865_LuaHandleKeyEvent Parms{};
 
 	Parms.Key = std::move(Key);
 	Parms.InputEvent = InputEvent;
@@ -5937,15 +7772,35 @@ bool ULUA_OVERRIDES_WBP_ChatChannelListItem_C_2147481956::LuaHandleKeyEvent(cons
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147481956.OnLuaHide
-// (Native, Event, Public, BlueprintEvent)
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147480865.OnListItemObjectSet
+// (Event, Protected, BlueprintEvent)
+// Parameters:
+// class UObject*                          ListItemObject                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void ULUA_OVERRIDES_WBP_ChatChannelListItem_C_2147481956::OnLuaHide()
+void ULUA_OVERRIDES_WBP_ChatChannelListItem_C_2147480865::OnListItemObjectSet(class UObject* ListItemObject)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147481956", "OnLuaHide");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147480865", "OnListItemObjectSet");
+
+	Params::LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147480865_OnListItemObjectSet Parms{};
+
+	Parms.ListItemObject = ListItemObject;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147480865.OnLuaShow
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatChannelListItem_C_2147480865::OnLuaShow()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147480865", "OnLuaShow");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -5956,53 +7811,15 @@ void ULUA_OVERRIDES_WBP_ChatChannelListItem_C_2147481956::OnLuaHide()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147481956.OnLuaShow
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatChannelListItem_C_2147481956::OnLuaShow()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147481956", "OnLuaShow");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147481956.OnLuaClose
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatChannelListItem_C_2147481956::OnLuaClose()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147481956", "OnLuaClose");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147481956.Construct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147480865.Destruct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_ChatChannelListItem_C_2147481956::Construct()
+void ULUA_OVERRIDES_WBP_ChatChannelListItem_C_2147480865::Destruct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147481956", "Construct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147480865", "Destruct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -6013,19 +7830,76 @@ void ULUA_OVERRIDES_WBP_ChatChannelListItem_C_2147481956::Construct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147481956.BP_OnItemSelectionChanged
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147480865.OnLuaHide
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatChannelListItem_C_2147480865::OnLuaHide()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147480865", "OnLuaHide");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147480865.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatChannelListItem_C_2147480865::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147480865", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147480865.OnLuaOpen
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatChannelListItem_C_2147480865::OnLuaOpen()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147480865", "OnLuaOpen");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147480865.BP_OnItemSelectionChanged
 // (Event, Protected, BlueprintEvent)
 // Parameters:
 // bool                                    bIsSelected                                            (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
 
-void ULUA_OVERRIDES_WBP_ChatChannelListItem_C_2147481956::BP_OnItemSelectionChanged(bool bIsSelected)
+void ULUA_OVERRIDES_WBP_ChatChannelListItem_C_2147480865::BP_OnItemSelectionChanged(bool bIsSelected)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147481956", "BP_OnItemSelectionChanged");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147480865", "BP_OnItemSelectionChanged");
 
-	Params::LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147481956_BP_OnItemSelectionChanged Parms{};
+	Params::LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147480865_BP_OnItemSelectionChanged Parms{};
 
 	Parms.bIsSelected = bIsSelected;
 
@@ -6033,19 +7907,378 @@ void ULUA_OVERRIDES_WBP_ChatChannelListItem_C_2147481956::BP_OnItemSelectionChan
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147481956.OnListItemObjectSet
-// (Event, Protected, BlueprintEvent)
-// Parameters:
-// class UObject*                          ListItemObject                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatClanItem_C_2147480868.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_ChatChannelListItem_C_2147481956::OnListItemObjectSet(class UObject* ListItemObject)
+void ULUA_OVERRIDES_WBP_ChatClanItem_C_2147480868::OnInitialized()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147481956", "OnListItemObjectSet");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatClanItem_C_2147480868", "OnInitialized");
 
-	Params::LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147481956_OnListItemObjectSet Parms{};
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatClanItem_C_2147480868.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatClanItem_C_2147480868::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatClanItem_C_2147480868", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatClanItem_C_2147480868.OnListItemObjectSet
+// (Native, Event, Protected, BlueprintEvent)
+// Parameters:
+// class UObject*                          ListItemObject                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void ULUA_OVERRIDES_WBP_ChatClanItem_C_2147480868::OnListItemObjectSet(class UObject* ListItemObject)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatClanItem_C_2147480868", "OnListItemObjectSet");
+
+	Params::LUA_OVERRIDES_WBP_ChatClanItem_C_2147480868_OnListItemObjectSet Parms{};
+
+	Parms.ListItemObject = ListItemObject;
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatClanItem_C_2147480868.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatClanItem_C_2147480868::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatClanItem_C_2147480868", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ShareClanPanel_C_2147480866.OnLuaClose
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ShareClanPanel_C_2147480866::OnLuaClose()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ShareClanPanel_C_2147480866", "OnLuaClose");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ShareClanPanel_C_2147480866.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ShareClanPanel_C_2147480866::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ShareClanPanel_C_2147480866", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ShareClanPanel_C_2147480866.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ShareClanPanel_C_2147480866::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ShareClanPanel_C_2147480866", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ShareClanPanel_C_2147480866.LuaHandleKeyEvent
+// (Native, Event, Public, BlueprintEvent)
+// Parameters:
+// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+
+bool ULUA_OVERRIDES_WBP_ShareClanPanel_C_2147480866::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ShareClanPanel_C_2147480866", "LuaHandleKeyEvent");
+
+	Params::LUA_OVERRIDES_WBP_ShareClanPanel_C_2147480866_LuaHandleKeyEvent Parms{};
+
+	Parms.Key = std::move(Key);
+	Parms.InputEvent = InputEvent;
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+
+	return Parms.ReturnValue;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ShareClanPanel_C_2147480866.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ShareClanPanel_C_2147480866::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ShareClanPanel_C_2147480866", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ShareClanPanel_C_2147480866.OnLuaHide
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ShareClanPanel_C_2147480866::OnLuaHide()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ShareClanPanel_C_2147480866", "OnLuaHide");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ShareClanPanel_C_2147480866.OnLuaShow
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ShareClanPanel_C_2147480866::OnLuaShow()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ShareClanPanel_C_2147480866", "OnLuaShow");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ShareClanPanel_C_2147480866.OnLuaOpen
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ShareClanPanel_C_2147480866::OnLuaOpen()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ShareClanPanel_C_2147480866", "OnLuaOpen");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatEmotion_C_2147480864.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatEmotion_C_2147480864::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatEmotion_C_2147480864", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatEmotion_C_2147480864.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatEmotion_C_2147480864::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatEmotion_C_2147480864", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatEmotion_C_2147480864.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatEmotion_C_2147480864::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatEmotion_C_2147480864", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatEmotion_C_2147477894.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatEmotion_C_2147477894::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatEmotion_C_2147477894", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatEmotion_C_2147477894.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatEmotion_C_2147477894::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatEmotion_C_2147477894", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatEmotion_C_2147477894.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatEmotion_C_2147477894::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatEmotion_C_2147477894", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_TargetGuideStateItem_C_2147480705.OnListItemObjectSet
+// (Event, Protected, BlueprintEvent)
+// Parameters:
+// class UObject*                          ListItemObject                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void ULUA_OVERRIDES_WBP_TargetGuideStateItem_C_2147480705::OnListItemObjectSet(class UObject* ListItemObject)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_TargetGuideStateItem_C_2147480705", "OnListItemObjectSet");
+
+	Params::LUA_OVERRIDES_WBP_TargetGuideStateItem_C_2147480705_OnListItemObjectSet Parms{};
 
 	Parms.ListItemObject = ListItemObject;
 
@@ -6053,15 +8286,15 @@ void ULUA_OVERRIDES_WBP_ChatChannelListItem_C_2147481956::OnListItemObjectSet(cl
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147481956.OnInitialized
+// LuaFunction Transient.LUA_OVERRIDES_WBP_TargetGuideStateItem_C_2147480705.Destruct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_ChatChannelListItem_C_2147481956::OnInitialized()
+void ULUA_OVERRIDES_WBP_TargetGuideStateItem_C_2147480705::Destruct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelListItem_C_2147481956", "OnInitialized");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_TargetGuideStateItem_C_2147480705", "Destruct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -6072,15 +8305,15 @@ void ULUA_OVERRIDES_WBP_ChatChannelListItem_C_2147481956::OnInitialized()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_NavigationBarPanel_C_2147481799.Destruct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_TargetGuideStateItem_C_2147480705.Construct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_NavigationBarPanel_C_2147481799::Destruct()
+void ULUA_OVERRIDES_WBP_TargetGuideStateItem_C_2147480705::Construct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavigationBarPanel_C_2147481799", "Destruct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_TargetGuideStateItem_C_2147480705", "Construct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -6091,15 +8324,15 @@ void ULUA_OVERRIDES_WBP_NavigationBarPanel_C_2147481799::Destruct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_NavigationBarPanel_C_2147481799.OnInitialized
+// LuaFunction Transient.LUA_OVERRIDES_WBP_TargetGuideStateItem_C_2147480705.OnInitialized
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_NavigationBarPanel_C_2147481799::OnInitialized()
+void ULUA_OVERRIDES_WBP_TargetGuideStateItem_C_2147480705::OnInitialized()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavigationBarPanel_C_2147481799", "OnInitialized");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_TargetGuideStateItem_C_2147480705", "OnInitialized");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -6110,19 +8343,178 @@ void ULUA_OVERRIDES_WBP_NavigationBarPanel_C_2147481799::OnInitialized()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_NavigationBarPanel_C_2147481799.OnMouseLeave
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatFriendItem_C_2147480863.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatFriendItem_C_2147480863::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatFriendItem_C_2147480863", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatFriendItem_C_2147480863.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatFriendItem_C_2147480863::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatFriendItem_C_2147480863", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatFriendItem_C_2147480863.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatFriendItem_C_2147480863::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatFriendItem_C_2147480863", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatFriendItem_C_2147480863.OnListItemObjectSet
+// (Native, Event, Protected, BlueprintEvent)
+// Parameters:
+// class UObject*                          ListItemObject                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void ULUA_OVERRIDES_WBP_ChatFriendItem_C_2147480863::OnListItemObjectSet(class UObject* ListItemObject)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatFriendItem_C_2147480863", "OnListItemObjectSet");
+
+	Params::LUA_OVERRIDES_WBP_ChatFriendItem_C_2147480863_OnListItemObjectSet Parms{};
+
+	Parms.ListItemObject = ListItemObject;
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Channel_C_2147480858.OnLuaOpen
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatText_Channel_C_2147480858::OnLuaOpen()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Channel_C_2147480858", "OnLuaOpen");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Channel_C_2147480858.OnLuaClose
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatText_Channel_C_2147480858::OnLuaClose()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Channel_C_2147480858", "OnLuaClose");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Channel_C_2147480858.OnListItemObjectSet
+// (Event, Protected, BlueprintEvent)
+// Parameters:
+// class UObject*                          ListItemObject                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void ULUA_OVERRIDES_WBP_ChatText_Channel_C_2147480858::OnListItemObjectSet(class UObject* ListItemObject)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Channel_C_2147480858", "OnListItemObjectSet");
+
+	Params::LUA_OVERRIDES_WBP_ChatText_Channel_C_2147480858_OnListItemObjectSet Parms{};
+
+	Parms.ListItemObject = ListItemObject;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Channel_C_2147480858.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatText_Channel_C_2147480858::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Channel_C_2147480858", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Channel_C_2147480858.OnMouseLeave
 // (BlueprintCosmetic, Native, Event, Public, HasOutParams, BlueprintEvent)
 // Parameters:
 // const struct FPointerEvent&             MouseEvent                                             (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
 
-void ULUA_OVERRIDES_WBP_NavigationBarPanel_C_2147481799::OnMouseLeave(const struct FPointerEvent& MouseEvent)
+void ULUA_OVERRIDES_WBP_ChatText_Channel_C_2147480858::OnMouseLeave(const struct FPointerEvent& MouseEvent)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavigationBarPanel_C_2147481799", "OnMouseLeave");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Channel_C_2147480858", "OnMouseLeave");
 
-	Params::LUA_OVERRIDES_WBP_NavigationBarPanel_C_2147481799_OnMouseLeave Parms{};
+	Params::LUA_OVERRIDES_WBP_ChatText_Channel_C_2147480858_OnMouseLeave Parms{};
 
 	Parms.MouseEvent = std::move(MouseEvent);
 
@@ -6135,20 +8527,39 @@ void ULUA_OVERRIDES_WBP_NavigationBarPanel_C_2147481799::OnMouseLeave(const stru
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_NavigationBarPanel_C_2147481799.OnMouseEnter
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Channel_C_2147480858.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatText_Channel_C_2147480858::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Channel_C_2147480858", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Channel_C_2147480858.OnMouseEnter
 // (BlueprintCosmetic, Native, Event, Public, HasOutParams, BlueprintEvent)
 // Parameters:
 // const struct FGeometry&                 MyGeometry                                             (Parm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
 // const struct FPointerEvent&             MouseEvent                                             (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
 
-void ULUA_OVERRIDES_WBP_NavigationBarPanel_C_2147481799::OnMouseEnter(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
+void ULUA_OVERRIDES_WBP_ChatText_Channel_C_2147480858::OnMouseEnter(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavigationBarPanel_C_2147481799", "OnMouseEnter");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Channel_C_2147480858", "OnMouseEnter");
 
-	Params::LUA_OVERRIDES_WBP_NavigationBarPanel_C_2147481799_OnMouseEnter Parms{};
+	Params::LUA_OVERRIDES_WBP_ChatText_Channel_C_2147480858_OnMouseEnter Parms{};
 
 	Parms.MyGeometry = std::move(MyGeometry);
 	Parms.MouseEvent = std::move(MouseEvent);
@@ -6162,53 +8573,15 @@ void ULUA_OVERRIDES_WBP_NavigationBarPanel_C_2147481799::OnMouseEnter(const stru
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_NavigationBarPanel_C_2147481799.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_NavigationBarPanel_C_2147481799::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavigationBarPanel_C_2147481799", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatPrePage_C_2147481964.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatPrePage_C_2147481964::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatPrePage_C_2147481964", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatPrePage_C_2147481964.OnLuaClose
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Channel_C_2147480858.OnLuaHide
 // (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_ChatPrePage_C_2147481964::OnLuaClose()
+void ULUA_OVERRIDES_WBP_ChatText_Channel_C_2147480858::OnLuaHide()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatPrePage_C_2147481964", "OnLuaClose");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Channel_C_2147480858", "OnLuaHide");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -6219,15 +8592,15 @@ void ULUA_OVERRIDES_WBP_ChatPrePage_C_2147481964::OnLuaClose()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatPrePage_C_2147481964.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Channel_C_2147480858.OnLuaShow
+// (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_ChatPrePage_C_2147481964::Construct()
+void ULUA_OVERRIDES_WBP_ChatText_Channel_C_2147480858::OnLuaShow()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatPrePage_C_2147481964", "Construct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Channel_C_2147480858", "OnLuaShow");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -6238,21 +8611,21 @@ void ULUA_OVERRIDES_WBP_ChatPrePage_C_2147481964::Construct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatPrePage_C_2147481964.LuaHandleKeyEvent
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Channel_C_2147480858.LuaHandleKeyEvent
 // (Native, Event, Public, BlueprintEvent)
 // Parameters:
 // const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 // EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 // bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
 
-bool ULUA_OVERRIDES_WBP_ChatPrePage_C_2147481964::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+bool ULUA_OVERRIDES_WBP_ChatText_Channel_C_2147480858::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatPrePage_C_2147481964", "LuaHandleKeyEvent");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Channel_C_2147480858", "LuaHandleKeyEvent");
 
-	Params::LUA_OVERRIDES_WBP_ChatPrePage_C_2147481964_LuaHandleKeyEvent Parms{};
+	Params::LUA_OVERRIDES_WBP_ChatText_Channel_C_2147480858_LuaHandleKeyEvent Parms{};
 
 	Parms.Key = std::move(Key);
 	Parms.InputEvent = InputEvent;
@@ -6268,53 +8641,15 @@ bool ULUA_OVERRIDES_WBP_ChatPrePage_C_2147481964::LuaHandleKeyEvent(const struct
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatPrePage_C_2147481964.OnLuaHide
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatPrePage_C_2147481964::OnLuaHide()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatPrePage_C_2147481964", "OnLuaHide");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatPrePage_C_2147481964.OnLuaOpen
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatPrePage_C_2147481964::OnLuaOpen()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatPrePage_C_2147481964", "OnLuaOpen");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatPrePage_C_2147481964.OnInitialized
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Channel_C_2147480858.OnInitialized
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_ChatPrePage_C_2147481964::OnInitialized()
+void ULUA_OVERRIDES_WBP_ChatText_Channel_C_2147480858::OnInitialized()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatPrePage_C_2147481964", "OnInitialized");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Channel_C_2147480858", "OnInitialized");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -6325,34 +8660,15 @@ void ULUA_OVERRIDES_WBP_ChatPrePage_C_2147481964::OnInitialized()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatPrePage_C_2147481964.OnLuaShow
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatPrePage_C_2147481964::OnLuaShow()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatPrePage_C_2147481964", "OnLuaShow");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatBubbles_C_2147481963.Destruct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_FastMessageItem_C_2147480855.Destruct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_ChatBubbles_C_2147481963::Destruct()
+void ULUA_OVERRIDES_WBP_FastMessageItem_C_2147480855::Destruct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatBubbles_C_2147481963", "Destruct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_FastMessageItem_C_2147480855", "Destruct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -6363,15 +8679,53 @@ void ULUA_OVERRIDES_WBP_ChatBubbles_C_2147481963::Destruct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatBubbles_C_2147481963.OnLuaOpen
+// LuaFunction Transient.LUA_OVERRIDES_WBP_FastMessageItem_C_2147480855.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_FastMessageItem_C_2147480855::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_FastMessageItem_C_2147480855", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_FastMessageItem_C_2147480855.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_FastMessageItem_C_2147480855::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_FastMessageItem_C_2147480855", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_FastMessagePanel_C_2147480854.OnLuaClose
 // (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_ChatBubbles_C_2147481963::OnLuaOpen()
+void ULUA_OVERRIDES_WBP_FastMessagePanel_C_2147480854::OnLuaClose()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatBubbles_C_2147481963", "OnLuaOpen");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_FastMessagePanel_C_2147480854", "OnLuaClose");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -6382,21 +8736,59 @@ void ULUA_OVERRIDES_WBP_ChatBubbles_C_2147481963::OnLuaOpen()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatBubbles_C_2147481963.LuaHandleKeyEvent
+// LuaFunction Transient.LUA_OVERRIDES_WBP_FastMessagePanel_C_2147480854.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_FastMessagePanel_C_2147480854::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_FastMessagePanel_C_2147480854", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_FastMessagePanel_C_2147480854.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_FastMessagePanel_C_2147480854::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_FastMessagePanel_C_2147480854", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_FastMessagePanel_C_2147480854.LuaHandleKeyEvent
 // (Native, Event, Public, BlueprintEvent)
 // Parameters:
 // const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 // EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 // bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
 
-bool ULUA_OVERRIDES_WBP_ChatBubbles_C_2147481963::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+bool ULUA_OVERRIDES_WBP_FastMessagePanel_C_2147480854::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatBubbles_C_2147481963", "LuaHandleKeyEvent");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_FastMessagePanel_C_2147480854", "LuaHandleKeyEvent");
 
-	Params::LUA_OVERRIDES_WBP_ChatBubbles_C_2147481963_LuaHandleKeyEvent Parms{};
+	Params::LUA_OVERRIDES_WBP_FastMessagePanel_C_2147480854_LuaHandleKeyEvent Parms{};
 
 	Parms.Key = std::move(Key);
 	Parms.InputEvent = InputEvent;
@@ -6412,15 +8804,15 @@ bool ULUA_OVERRIDES_WBP_ChatBubbles_C_2147481963::LuaHandleKeyEvent(const struct
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatBubbles_C_2147481963.OnLuaHide
-// (Native, Event, Public, BlueprintEvent)
+// LuaFunction Transient.LUA_OVERRIDES_WBP_FastMessagePanel_C_2147480854.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_ChatBubbles_C_2147481963::OnLuaHide()
+void ULUA_OVERRIDES_WBP_FastMessagePanel_C_2147480854::Construct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatBubbles_C_2147481963", "OnLuaHide");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_FastMessagePanel_C_2147480854", "Construct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -6431,15 +8823,15 @@ void ULUA_OVERRIDES_WBP_ChatBubbles_C_2147481963::OnLuaHide()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatBubbles_C_2147481963.OnLuaClose
+// LuaFunction Transient.LUA_OVERRIDES_WBP_FastMessagePanel_C_2147480854.OnLuaHide
 // (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_ChatBubbles_C_2147481963::OnLuaClose()
+void ULUA_OVERRIDES_WBP_FastMessagePanel_C_2147480854::OnLuaHide()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatBubbles_C_2147481963", "OnLuaClose");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_FastMessagePanel_C_2147480854", "OnLuaHide");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -6450,15 +8842,15 @@ void ULUA_OVERRIDES_WBP_ChatBubbles_C_2147481963::OnLuaClose()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatBubbles_C_2147481963.OnLuaShow
+// LuaFunction Transient.LUA_OVERRIDES_WBP_FastMessagePanel_C_2147480854.OnLuaShow
 // (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_ChatBubbles_C_2147481963::OnLuaShow()
+void ULUA_OVERRIDES_WBP_FastMessagePanel_C_2147480854::OnLuaShow()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatBubbles_C_2147481963", "OnLuaShow");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_FastMessagePanel_C_2147480854", "OnLuaShow");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -6469,29 +8861,143 @@ void ULUA_OVERRIDES_WBP_ChatBubbles_C_2147481963::OnLuaShow()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatBubbles_C_2147481963.Construct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_FastMessagePanel_C_2147480854.OnLuaOpen
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_FastMessagePanel_C_2147480854::OnLuaOpen()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_FastMessagePanel_C_2147480854", "OnLuaOpen");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CommonHoveredTips_C_2147480852.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_CommonHoveredTips_C_2147480852::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CommonHoveredTips_C_2147480852", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CommonHoveredTips_C_2147480852.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_CommonHoveredTips_C_2147480852::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CommonHoveredTips_C_2147480852", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CommonHoveredTips_C_2147480852.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_CommonHoveredTips_C_2147480852::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CommonHoveredTips_C_2147480852", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_PressNamePanel_C_2147480851.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_PressNamePanel_C_2147480851::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PressNamePanel_C_2147480851", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_PressNamePanel_C_2147480851.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_PressNamePanel_C_2147480851::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PressNamePanel_C_2147480851", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_PressNamePanel_C_2147480851.Construct
 // (BlueprintCosmetic, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_ChatBubbles_C_2147481963::Construct()
+void ULUA_OVERRIDES_WBP_PressNamePanel_C_2147480851::Construct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatBubbles_C_2147481963", "Construct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PressNamePanel_C_2147480851", "Construct");
 
 	UObject::ProcessEvent(Func, nullptr);
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatBubbles_C_2147481963.OnInitialized
+// LuaFunction Transient.LUA_OVERRIDES_WBP_DynamicIcon_C_2147480849.Destruct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_ChatBubbles_C_2147481963::OnInitialized()
+void ULUA_OVERRIDES_WBP_DynamicIcon_C_2147480849::Destruct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatBubbles_C_2147481963", "OnInitialized");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_DynamicIcon_C_2147480849", "Destruct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -6502,19 +9008,597 @@ void ULUA_OVERRIDES_WBP_ChatBubbles_C_2147481963::OnInitialized()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatBubbles_C_2147481963.OnListItemObjectSet
+// LuaFunction Transient.LUA_OVERRIDES_WBP_DynamicIcon_C_2147480849.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_DynamicIcon_C_2147480849::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_DynamicIcon_C_2147480849", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_DynamicIcon_C_2147480849.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_DynamicIcon_C_2147480849::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_DynamicIcon_C_2147480849", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CustomWidgetLayoutPanel_C_2147480847.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_CustomWidgetLayoutPanel_C_2147480847::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CustomWidgetLayoutPanel_C_2147480847", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CustomWidgetLayoutPanel_C_2147480847.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_CustomWidgetLayoutPanel_C_2147480847::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CustomWidgetLayoutPanel_C_2147480847", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CustomWidgetLayoutPanel_C_2147480847.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_CustomWidgetLayoutPanel_C_2147480847::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CustomWidgetLayoutPanel_C_2147480847", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CustomWidgetLayoutPanel_C_2147480847.OnDrop
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+// Parameters:
+// const struct FGeometry&                 MyGeometry                                             (Parm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+// const struct FPointerEvent&             PointerEvent                                           (Parm, NativeAccessSpecifierPublic)
+// class UDragDropOperation*               Operation                                              (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+
+bool ULUA_OVERRIDES_WBP_CustomWidgetLayoutPanel_C_2147480847::OnDrop(const struct FGeometry& MyGeometry, const struct FPointerEvent& PointerEvent, class UDragDropOperation* Operation)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CustomWidgetLayoutPanel_C_2147480847", "OnDrop");
+
+	Params::LUA_OVERRIDES_WBP_CustomWidgetLayoutPanel_C_2147480847_OnDrop Parms{};
+
+	Parms.MyGeometry = std::move(MyGeometry);
+	Parms.PointerEvent = std::move(PointerEvent);
+	Parms.Operation = Operation;
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+
+	return Parms.ReturnValue;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_AchievementIcon_C_2147480846.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_AchievementIcon_C_2147480846::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_AchievementIcon_C_2147480846", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_AchievementIcon_C_2147480846.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_AchievementIcon_C_2147480846::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_AchievementIcon_C_2147480846", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_AchievementIcon_C_2147480846.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_AchievementIcon_C_2147480846::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_AchievementIcon_C_2147480846", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CardPanel_C_2147480845.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_CardPanel_C_2147480845::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CardPanel_C_2147480845", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CardPanel_C_2147480845.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_CardPanel_C_2147480845::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CardPanel_C_2147480845", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CardPanel_C_2147480845.Construct
+// (BlueprintCosmetic, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_CardPanel_C_2147480845::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CardPanel_C_2147480845", "Construct");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_BusinessCard_PlayerInfoPage_C_2147480844.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_BusinessCard_PlayerInfoPage_C_2147480844::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BusinessCard_PlayerInfoPage_C_2147480844", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_BusinessCard_PlayerInfoPage_C_2147480844.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_BusinessCard_PlayerInfoPage_C_2147480844::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BusinessCard_PlayerInfoPage_C_2147480844", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_BusinessCard_PlayerInfoPage_C_2147480844.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_BusinessCard_PlayerInfoPage_C_2147480844::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BusinessCard_PlayerInfoPage_C_2147480844", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_BusinessCard_DataPage_C_2147480843.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_BusinessCard_DataPage_C_2147480843::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BusinessCard_DataPage_C_2147480843", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_BusinessCard_DataPage_C_2147480843.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_BusinessCard_DataPage_C_2147480843::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BusinessCard_DataPage_C_2147480843", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_BusinessCard_DataPage_C_2147480843.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_BusinessCard_DataPage_C_2147480843::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BusinessCard_DataPage_C_2147480843", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_BusinessCard_MainPage_C_2147480842.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_BusinessCard_MainPage_C_2147480842::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BusinessCard_MainPage_C_2147480842", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_BusinessCard_MainPage_C_2147480842.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_BusinessCard_MainPage_C_2147480842::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BusinessCard_MainPage_C_2147480842", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_BusinessCard_MainPage_C_2147480842.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_BusinessCard_MainPage_C_2147480842::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BusinessCard_MainPage_C_2147480842", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CustomWidgetOptMenu_C_2147480841.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_CustomWidgetOptMenu_C_2147480841::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CustomWidgetOptMenu_C_2147480841", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CustomWidgetOptMenu_C_2147480841.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_CustomWidgetOptMenu_C_2147480841::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CustomWidgetOptMenu_C_2147480841", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CustomWidgetOptMenu_C_2147480841.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_CustomWidgetOptMenu_C_2147480841::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CustomWidgetOptMenu_C_2147480841", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_RankCard_C_2147480026.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_RankCard_C_2147480026::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RankCard_C_2147480026", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_RankCard_C_2147480026.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_RankCard_C_2147480026::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RankCard_C_2147480026", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_RankCard_C_2147480026.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_RankCard_C_2147480026::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RankCard_C_2147480026", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_PlayerManagerButton_C_2147480839.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_PlayerManagerButton_C_2147480839::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PlayerManagerButton_C_2147480839", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_PlayerManagerButton_C_2147480839.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_PlayerManagerButton_C_2147480839::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PlayerManagerButton_C_2147480839", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_PlayerManagerButton_C_2147480839.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_PlayerManagerButton_C_2147480839::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PlayerManagerButton_C_2147480839", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_BusinessCard_DataItem_C_2147480837.OnListItemObjectSet
 // (Event, Protected, BlueprintEvent)
 // Parameters:
 // class UObject*                          ListItemObject                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void ULUA_OVERRIDES_WBP_ChatBubbles_C_2147481963::OnListItemObjectSet(class UObject* ListItemObject)
+void ULUA_OVERRIDES_WBP_BusinessCard_DataItem_C_2147480837::OnListItemObjectSet(class UObject* ListItemObject)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatBubbles_C_2147481963", "OnListItemObjectSet");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BusinessCard_DataItem_C_2147480837", "OnListItemObjectSet");
 
-	Params::LUA_OVERRIDES_WBP_ChatBubbles_C_2147481963_OnListItemObjectSet Parms{};
+	Params::LUA_OVERRIDES_WBP_BusinessCard_DataItem_C_2147480837_OnListItemObjectSet Parms{};
 
 	Parms.ListItemObject = ListItemObject;
 
@@ -6522,15 +9606,15 @@ void ULUA_OVERRIDES_WBP_ChatBubbles_C_2147481963::OnListItemObjectSet(class UObj
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ContentPage_Clan_C_2147481935.Destruct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_BusinessCard_DataItem_C_2147480837.Destruct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_ContentPage_Clan_C_2147481935::Destruct()
+void ULUA_OVERRIDES_WBP_BusinessCard_DataItem_C_2147480837::Destruct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ContentPage_Clan_C_2147481935", "Destruct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BusinessCard_DataItem_C_2147480837", "Destruct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -6541,15 +9625,15 @@ void ULUA_OVERRIDES_WBP_ContentPage_Clan_C_2147481935::Destruct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ContentPage_Clan_C_2147481935.OnInitialized
+// LuaFunction Transient.LUA_OVERRIDES_WBP_BusinessCard_DataItem_C_2147480837.Construct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_ContentPage_Clan_C_2147481935::OnInitialized()
+void ULUA_OVERRIDES_WBP_BusinessCard_DataItem_C_2147480837::Construct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ContentPage_Clan_C_2147481935", "OnInitialized");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BusinessCard_DataItem_C_2147480837", "Construct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -6560,83 +9644,15 @@ void ULUA_OVERRIDES_WBP_ContentPage_Clan_C_2147481935::OnInitialized()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ContentPage_Clan_C_2147481935.OnLuaClose
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ContentPage_Clan_C_2147481935::OnLuaClose()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ContentPage_Clan_C_2147481935", "OnLuaClose");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ContentPage_Clan_C_2147481935.Construct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_BusinessCard_DataItem_C_2147480837.OnInitialized
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_ContentPage_Clan_C_2147481935::Construct()
+void ULUA_OVERRIDES_WBP_BusinessCard_DataItem_C_2147480837::OnInitialized()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ContentPage_Clan_C_2147481935", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ContentPage_Clan_C_2147481935.LuaHandleKeyEvent
-// (Native, Event, Public, BlueprintEvent)
-// Parameters:
-// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-
-bool ULUA_OVERRIDES_WBP_ContentPage_Clan_C_2147481935::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ContentPage_Clan_C_2147481935", "LuaHandleKeyEvent");
-
-	Params::LUA_OVERRIDES_WBP_ContentPage_Clan_C_2147481935_LuaHandleKeyEvent Parms{};
-
-	Parms.Key = std::move(Key);
-	Parms.InputEvent = InputEvent;
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	Func->FunctionFlags = Flgs;
-
-	return Parms.ReturnValue;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ContentPage_Clan_C_2147481935.OnLuaHide
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ContentPage_Clan_C_2147481935::OnLuaHide()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ContentPage_Clan_C_2147481935", "OnLuaHide");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BusinessCard_DataItem_C_2147480837", "OnInitialized");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -6647,1305 +9663,19 @@ void ULUA_OVERRIDES_WBP_ContentPage_Clan_C_2147481935::OnLuaHide()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ContentPage_Clan_C_2147481935.OnLuaShow
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ContentPage_Clan_C_2147481935::OnLuaShow()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ContentPage_Clan_C_2147481935", "OnLuaShow");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ContentPage_Clan_C_2147481935.OnLuaOpen
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ContentPage_Clan_C_2147481935::OnLuaOpen()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ContentPage_Clan_C_2147481935", "OnLuaOpen");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147481962.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147481962::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147481962", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147481962.OnLuaClose
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147481962::OnLuaClose()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147481962", "OnLuaClose");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147481962.Construct
-// (BlueprintCosmetic, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147481962::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147481962", "Construct");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147481962.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147481962::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147481962", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147481962.OnLuaShow
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147481962::OnLuaShow()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147481962", "OnLuaShow");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147481962.OnLuaHide
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147481962::OnLuaHide()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147481962", "OnLuaHide");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147481962.OnLuaOpen
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147481962::OnLuaOpen()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147481962", "OnLuaOpen");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147481962.LuaHandleKeyEvent
-// (Native, Event, Public, BlueprintEvent)
-// Parameters:
-// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-
-bool ULUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147481962::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147481962", "LuaHandleKeyEvent");
-
-	Params::LUA_OVERRIDES_WBP_ChatTextPlayerCard_C_2147481962_LuaHandleKeyEvent Parms{};
-
-	Parms.Key = std::move(Key);
-	Parms.InputEvent = InputEvent;
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	Func->FunctionFlags = Flgs;
-
-	return Parms.ReturnValue;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_PressNamePanel_C_2147481960.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_PressNamePanel_C_2147481960::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PressNamePanel_C_2147481960", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_PressNamePanel_C_2147481960.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_PressNamePanel_C_2147481960::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PressNamePanel_C_2147481960", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_PressNamePanel_C_2147481960.Construct
-// (BlueprintCosmetic, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_PressNamePanel_C_2147481960::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PressNamePanel_C_2147481960", "Construct");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SharingCompetition_C_2147481958.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_SharingCompetition_C_2147481958::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SharingCompetition_C_2147481958", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SharingCompetition_C_2147481958.OnLuaOpen
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_SharingCompetition_C_2147481958::OnLuaOpen()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SharingCompetition_C_2147481958", "OnLuaOpen");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SharingCompetition_C_2147481958.OnLuaClose
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_SharingCompetition_C_2147481958::OnLuaClose()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SharingCompetition_C_2147481958", "OnLuaClose");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SharingCompetition_C_2147481958.LuaHandleKeyEvent
-// (Native, Event, Public, BlueprintEvent)
-// Parameters:
-// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-
-bool ULUA_OVERRIDES_WBP_SharingCompetition_C_2147481958::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SharingCompetition_C_2147481958", "LuaHandleKeyEvent");
-
-	Params::LUA_OVERRIDES_WBP_SharingCompetition_C_2147481958_LuaHandleKeyEvent Parms{};
-
-	Parms.Key = std::move(Key);
-	Parms.InputEvent = InputEvent;
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	Func->FunctionFlags = Flgs;
-
-	return Parms.ReturnValue;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SharingCompetition_C_2147481958.OnLuaHide
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_SharingCompetition_C_2147481958::OnLuaHide()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SharingCompetition_C_2147481958", "OnLuaHide");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SharingCompetition_C_2147481958.OnLuaShow
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_SharingCompetition_C_2147481958::OnLuaShow()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SharingCompetition_C_2147481958", "OnLuaShow");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SharingCompetition_C_2147481958.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_SharingCompetition_C_2147481958::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SharingCompetition_C_2147481958", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SharingCompetition_C_2147481958.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_SharingCompetition_C_2147481958::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SharingCompetition_C_2147481958", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ShareClanPanel_C_2147481952.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ShareClanPanel_C_2147481952::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ShareClanPanel_C_2147481952", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ShareClanPanel_C_2147481952.OnLuaOpen
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ShareClanPanel_C_2147481952::OnLuaOpen()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ShareClanPanel_C_2147481952", "OnLuaOpen");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ShareClanPanel_C_2147481952.LuaHandleKeyEvent
-// (Native, Event, Public, BlueprintEvent)
-// Parameters:
-// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-
-bool ULUA_OVERRIDES_WBP_ShareClanPanel_C_2147481952::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ShareClanPanel_C_2147481952", "LuaHandleKeyEvent");
-
-	Params::LUA_OVERRIDES_WBP_ShareClanPanel_C_2147481952_LuaHandleKeyEvent Parms{};
-
-	Parms.Key = std::move(Key);
-	Parms.InputEvent = InputEvent;
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	Func->FunctionFlags = Flgs;
-
-	return Parms.ReturnValue;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ShareClanPanel_C_2147481952.OnLuaClose
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ShareClanPanel_C_2147481952::OnLuaClose()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ShareClanPanel_C_2147481952", "OnLuaClose");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ShareClanPanel_C_2147481952.OnLuaHide
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ShareClanPanel_C_2147481952::OnLuaHide()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ShareClanPanel_C_2147481952", "OnLuaHide");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ShareClanPanel_C_2147481952.OnLuaShow
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ShareClanPanel_C_2147481952::OnLuaShow()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ShareClanPanel_C_2147481952", "OnLuaShow");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ShareClanPanel_C_2147481952.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ShareClanPanel_C_2147481952::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ShareClanPanel_C_2147481952", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ShareClanPanel_C_2147481952.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ShareClanPanel_C_2147481952::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ShareClanPanel_C_2147481952", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147481951.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147481951::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147481951", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147481951.OnLuaOpen
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147481951::OnLuaOpen()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147481951", "OnLuaOpen");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147481951.LuaHandleKeyEvent
-// (Native, Event, Public, BlueprintEvent)
-// Parameters:
-// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-
-bool ULUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147481951::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147481951", "LuaHandleKeyEvent");
-
-	Params::LUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147481951_LuaHandleKeyEvent Parms{};
-
-	Parms.Key = std::move(Key);
-	Parms.InputEvent = InputEvent;
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	Func->FunctionFlags = Flgs;
-
-	return Parms.ReturnValue;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147481951.OnLuaHide
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147481951::OnLuaHide()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147481951", "OnLuaHide");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147481951.OnLuaShow
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147481951::OnLuaShow()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147481951", "OnLuaShow");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147481951.OnLuaClose
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147481951::OnLuaClose()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147481951", "OnLuaClose");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147481951.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147481951::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147481951", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147481951.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147481951::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatFirstLevelTag_C_2147481951", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CommonHoveredTips_C_2147481949.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_CommonHoveredTips_C_2147481949::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CommonHoveredTips_C_2147481949", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CommonHoveredTips_C_2147481949.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_CommonHoveredTips_C_2147481949::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CommonHoveredTips_C_2147481949", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CommonHoveredTips_C_2147481949.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_CommonHoveredTips_C_2147481949::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CommonHoveredTips_C_2147481949", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ClanIcon_C_2147481948.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ClanIcon_C_2147481948::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClanIcon_C_2147481948", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ClanIcon_C_2147481948.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ClanIcon_C_2147481948::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClanIcon_C_2147481948", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ClanIcon_C_2147481948.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ClanIcon_C_2147481948::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClanIcon_C_2147481948", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ClanInfoCard_C_2147481946.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ClanInfoCard_C_2147481946::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClanInfoCard_C_2147481946", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ClanInfoCard_C_2147481946.OnLuaOpen
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ClanInfoCard_C_2147481946::OnLuaOpen()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClanInfoCard_C_2147481946", "OnLuaOpen");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ClanInfoCard_C_2147481946.LuaHandleKeyEvent
-// (Native, Event, Public, BlueprintEvent)
-// Parameters:
-// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-
-bool ULUA_OVERRIDES_WBP_ClanInfoCard_C_2147481946::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClanInfoCard_C_2147481946", "LuaHandleKeyEvent");
-
-	Params::LUA_OVERRIDES_WBP_ClanInfoCard_C_2147481946_LuaHandleKeyEvent Parms{};
-
-	Parms.Key = std::move(Key);
-	Parms.InputEvent = InputEvent;
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	Func->FunctionFlags = Flgs;
-
-	return Parms.ReturnValue;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ClanInfoCard_C_2147481946.OnLuaHide
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ClanInfoCard_C_2147481946::OnLuaHide()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClanInfoCard_C_2147481946", "OnLuaHide");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ClanInfoCard_C_2147481946.OnLuaShow
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ClanInfoCard_C_2147481946::OnLuaShow()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClanInfoCard_C_2147481946", "OnLuaShow");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ClanInfoCard_C_2147481946.OnLuaClose
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ClanInfoCard_C_2147481946::OnLuaClose()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClanInfoCard_C_2147481946", "OnLuaClose");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ClanInfoCard_C_2147481946.Construct
-// (BlueprintCosmetic, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ClanInfoCard_C_2147481946::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClanInfoCard_C_2147481946", "Construct");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ClanInfoCard_C_2147481946.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ClanInfoCard_C_2147481946::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ClanInfoCard_C_2147481946", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_AchievementIcon_C_2147481941.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_AchievementIcon_C_2147481941::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_AchievementIcon_C_2147481941", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_AchievementIcon_C_2147481941.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_AchievementIcon_C_2147481941::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_AchievementIcon_C_2147481941", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_AchievementIcon_C_2147481941.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_AchievementIcon_C_2147481941::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_AchievementIcon_C_2147481941", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147481945.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147481945::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147481945", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147481945.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147481945::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147481945", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147481945.OnLuaClose
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147481945::OnLuaClose()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147481945", "OnLuaClose");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147481945.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147481945::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147481945", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147481945.LuaHandleKeyEvent
-// (Native, Event, Public, BlueprintEvent)
-// Parameters:
-// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-
-bool ULUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147481945::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147481945", "LuaHandleKeyEvent");
-
-	Params::LUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147481945_LuaHandleKeyEvent Parms{};
-
-	Parms.Key = std::move(Key);
-	Parms.InputEvent = InputEvent;
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	Func->FunctionFlags = Flgs;
-
-	return Parms.ReturnValue;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147481945.OnLuaOpen
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147481945::OnLuaOpen()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147481945", "OnLuaOpen");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147481945.OnLuaShow
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147481945::OnLuaShow()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147481945", "OnLuaShow");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147481945.OnLuaHide
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147481945::OnLuaHide()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatWaterBall_Item_C_2147481945", "OnLuaHide");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Channel_C_2147481943.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatText_Channel_C_2147481943::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Channel_C_2147481943", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Channel_C_2147481943.OnLuaClose
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatText_Channel_C_2147481943::OnLuaClose()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Channel_C_2147481943", "OnLuaClose");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Channel_C_2147481943.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatText_Channel_C_2147481943::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Channel_C_2147481943", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Channel_C_2147481943.OnListItemObjectSet
+// LuaFunction Transient.LUA_OVERRIDES_WBP_BusinessCard_RoleItem_C_2147480836.OnListItemObjectSet
 // (Event, Protected, BlueprintEvent)
 // Parameters:
 // class UObject*                          ListItemObject                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void ULUA_OVERRIDES_WBP_ChatText_Channel_C_2147481943::OnListItemObjectSet(class UObject* ListItemObject)
+void ULUA_OVERRIDES_WBP_BusinessCard_RoleItem_C_2147480836::OnListItemObjectSet(class UObject* ListItemObject)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Channel_C_2147481943", "OnListItemObjectSet");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BusinessCard_RoleItem_C_2147480836", "OnListItemObjectSet");
 
-	Params::LUA_OVERRIDES_WBP_ChatText_Channel_C_2147481943_OnListItemObjectSet Parms{};
+	Params::LUA_OVERRIDES_WBP_BusinessCard_RoleItem_C_2147480836_OnListItemObjectSet Parms{};
 
 	Parms.ListItemObject = ListItemObject;
 
@@ -7953,19 +9683,323 @@ void ULUA_OVERRIDES_WBP_ChatText_Channel_C_2147481943::OnListItemObjectSet(class
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Channel_C_2147481943.OnMouseLeave
+// LuaFunction Transient.LUA_OVERRIDES_WBP_BusinessCard_RoleItem_C_2147480836.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_BusinessCard_RoleItem_C_2147480836::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BusinessCard_RoleItem_C_2147480836", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_BusinessCard_RoleItem_C_2147480836.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_BusinessCard_RoleItem_C_2147480836::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BusinessCard_RoleItem_C_2147480836", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_BusinessCard_RoleItem_C_2147480836.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_BusinessCard_RoleItem_C_2147480836::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BusinessCard_RoleItem_C_2147480836", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_EmojiSetItem_C_2147480835.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_EmojiSetItem_C_2147480835::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_EmojiSetItem_C_2147480835", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_EmojiSetItem_C_2147480835.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_EmojiSetItem_C_2147480835::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_EmojiSetItem_C_2147480835", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_EmojiSetItem_C_2147480835.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_EmojiSetItem_C_2147480835::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_EmojiSetItem_C_2147480835", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_EmojiSetItem_C_2147480835.OnLuaItemClick
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_EmojiSetItem_C_2147480835::OnLuaItemClick()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_EmojiSetItem_C_2147480835", "OnLuaItemClick");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_EmojiSetItem_C_2147480835.OnLuaItemHovered
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_EmojiSetItem_C_2147480835::OnLuaItemHovered()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_EmojiSetItem_C_2147480835", "OnLuaItemHovered");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_EmojiSetItem_C_2147480835.OnLuaItemUnhovered
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_EmojiSetItem_C_2147480835::OnLuaItemUnhovered()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_EmojiSetItem_C_2147480835", "OnLuaItemUnhovered");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_EmotionItem_C_2147480834.OnLuaItemClick
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_EmotionItem_C_2147480834::OnLuaItemClick()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_EmotionItem_C_2147480834", "OnLuaItemClick");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_EmotionItem_C_2147480834.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_EmotionItem_C_2147480834::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_EmotionItem_C_2147480834", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_EmotionItem_C_2147480834.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_EmotionItem_C_2147480834::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_EmotionItem_C_2147480834", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_EmotionItem_C_2147480834.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_EmotionItem_C_2147480834::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_EmotionItem_C_2147480834", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_EmotionItem_C_2147480834.OnLuaItemHovered
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_EmotionItem_C_2147480834::OnLuaItemHovered()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_EmotionItem_C_2147480834", "OnLuaItemHovered");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_EmotionItem_C_2147480834.OnLuaItemUnhovered
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_EmotionItem_C_2147480834::OnLuaItemUnhovered()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_EmotionItem_C_2147480834", "OnLuaItemUnhovered");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_BuffItem_C_2147480716.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_BuffItem_C_2147480716::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BuffItem_C_2147480716", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_BuffItem_C_2147480716.OnMouseLeave
 // (BlueprintCosmetic, Native, Event, Public, HasOutParams, BlueprintEvent)
 // Parameters:
 // const struct FPointerEvent&             MouseEvent                                             (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
 
-void ULUA_OVERRIDES_WBP_ChatText_Channel_C_2147481943::OnMouseLeave(const struct FPointerEvent& MouseEvent)
+void ULUA_OVERRIDES_WBP_BuffItem_C_2147480716::OnMouseLeave(const struct FPointerEvent& MouseEvent)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Channel_C_2147481943", "OnMouseLeave");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BuffItem_C_2147480716", "OnMouseLeave");
 
-	Params::LUA_OVERRIDES_WBP_ChatText_Channel_C_2147481943_OnMouseLeave Parms{};
+	Params::LUA_OVERRIDES_WBP_BuffItem_C_2147480716_OnMouseLeave Parms{};
 
 	Parms.MouseEvent = std::move(MouseEvent);
 
@@ -7978,45 +10012,15 @@ void ULUA_OVERRIDES_WBP_ChatText_Channel_C_2147481943::OnMouseLeave(const struct
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Channel_C_2147481943.LuaHandleKeyEvent
-// (Native, Event, Public, BlueprintEvent)
-// Parameters:
-// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+// LuaFunction Transient.LUA_OVERRIDES_WBP_BuffItem_C_2147480716.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-bool ULUA_OVERRIDES_WBP_ChatText_Channel_C_2147481943::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+void ULUA_OVERRIDES_WBP_BuffItem_C_2147480716::OnInitialized()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Channel_C_2147481943", "LuaHandleKeyEvent");
-
-	Params::LUA_OVERRIDES_WBP_ChatText_Channel_C_2147481943_LuaHandleKeyEvent Parms{};
-
-	Parms.Key = std::move(Key);
-	Parms.InputEvent = InputEvent;
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	Func->FunctionFlags = Flgs;
-
-	return Parms.ReturnValue;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Channel_C_2147481943.OnLuaHide
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatText_Channel_C_2147481943::OnLuaHide()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Channel_C_2147481943", "OnLuaHide");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BuffItem_C_2147480716", "OnInitialized");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -8027,15 +10031,15 @@ void ULUA_OVERRIDES_WBP_ChatText_Channel_C_2147481943::OnLuaHide()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Channel_C_2147481943.OnLuaOpen
-// (Native, Event, Public, BlueprintEvent)
+// LuaFunction Transient.LUA_OVERRIDES_WBP_BuffItem_C_2147480716.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_ChatText_Channel_C_2147481943::OnLuaOpen()
+void ULUA_OVERRIDES_WBP_BuffItem_C_2147480716::Construct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Channel_C_2147481943", "OnLuaOpen");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BuffItem_C_2147480716", "Construct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -8046,20 +10050,20 @@ void ULUA_OVERRIDES_WBP_ChatText_Channel_C_2147481943::OnLuaOpen()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Channel_C_2147481943.OnMouseEnter
+// LuaFunction Transient.LUA_OVERRIDES_WBP_BuffItem_C_2147480716.OnMouseEnter
 // (BlueprintCosmetic, Native, Event, Public, HasOutParams, BlueprintEvent)
 // Parameters:
 // const struct FGeometry&                 MyGeometry                                             (Parm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
 // const struct FPointerEvent&             MouseEvent                                             (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
 
-void ULUA_OVERRIDES_WBP_ChatText_Channel_C_2147481943::OnMouseEnter(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
+void ULUA_OVERRIDES_WBP_BuffItem_C_2147480716::OnMouseEnter(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Channel_C_2147481943", "OnMouseEnter");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BuffItem_C_2147480716", "OnMouseEnter");
 
-	Params::LUA_OVERRIDES_WBP_ChatText_Channel_C_2147481943_OnMouseEnter Parms{};
+	Params::LUA_OVERRIDES_WBP_BuffItem_C_2147480716_OnMouseEnter Parms{};
 
 	Parms.MyGeometry = std::move(MyGeometry);
 	Parms.MouseEvent = std::move(MouseEvent);
@@ -8073,15 +10077,15 @@ void ULUA_OVERRIDES_WBP_ChatText_Channel_C_2147481943::OnMouseEnter(const struct
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Channel_C_2147481943.OnInitialized
+// LuaFunction Transient.LUA_OVERRIDES_WBP_Buff_C_2147480715.Destruct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_ChatText_Channel_C_2147481943::OnInitialized()
+void ULUA_OVERRIDES_WBP_Buff_C_2147480715::Destruct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Channel_C_2147481943", "OnInitialized");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_Buff_C_2147480715", "Destruct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -8092,34 +10096,15 @@ void ULUA_OVERRIDES_WBP_ChatText_Channel_C_2147481943::OnInitialized()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Channel_C_2147481943.OnLuaShow
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatText_Channel_C_2147481943::OnLuaShow()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Channel_C_2147481943", "OnLuaShow");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147481939.Destruct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_Buff_C_2147480715.Construct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147481939::Destruct()
+void ULUA_OVERRIDES_WBP_Buff_C_2147480715::Construct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147481939", "Destruct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_Buff_C_2147480715", "Construct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -8130,15 +10115,15 @@ void ULUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147481939::Destruct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147481939.OnLuaClose
-// (Native, Event, Public, BlueprintEvent)
+// LuaFunction Transient.LUA_OVERRIDES_WBP_Buff_C_2147480715.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147481939::OnLuaClose()
+void ULUA_OVERRIDES_WBP_Buff_C_2147480715::OnInitialized()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147481939", "OnLuaClose");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_Buff_C_2147480715", "OnInitialized");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -8149,33 +10134,38 @@ void ULUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147481939::OnLuaClose()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147481939.Construct
-// (BlueprintCosmetic, Event, Public, BlueprintEvent)
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147480714.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147481939::Construct()
+void ULUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147480714::Destruct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147481939", "Construct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147480714", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
 
 	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147481939.OnMouseLeave
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147480714.OnMouseLeave
 // (BlueprintCosmetic, Native, Event, Public, HasOutParams, BlueprintEvent)
 // Parameters:
 // const struct FPointerEvent&             MouseEvent                                             (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
 
-void ULUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147481939::OnMouseLeave(const struct FPointerEvent& MouseEvent)
+void ULUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147480714::OnMouseLeave(const struct FPointerEvent& MouseEvent)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147481939", "OnMouseLeave");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147480714", "OnMouseLeave");
 
-	Params::LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147481939_OnMouseLeave Parms{};
+	Params::LUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147480714_OnMouseLeave Parms{};
 
 	Parms.MouseEvent = std::move(MouseEvent);
 
@@ -8188,45 +10178,15 @@ void ULUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147481939::OnMouseLeave(const st
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147481939.LuaHandleKeyEvent
-// (Native, Event, Public, BlueprintEvent)
-// Parameters:
-// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147480714.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-bool ULUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147481939::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+void ULUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147480714::Construct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147481939", "LuaHandleKeyEvent");
-
-	Params::LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147481939_LuaHandleKeyEvent Parms{};
-
-	Parms.Key = std::move(Key);
-	Parms.InputEvent = InputEvent;
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	Func->FunctionFlags = Flgs;
-
-	return Parms.ReturnValue;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147481939.OnLuaHide
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147481939::OnLuaHide()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147481939", "OnLuaHide");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147480714", "Construct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -8237,15 +10197,15 @@ void ULUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147481939::OnLuaHide()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147481939.OnLuaOpen
-// (Native, Event, Public, BlueprintEvent)
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147480714.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147481939::OnLuaOpen()
+void ULUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147480714::OnInitialized()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147481939", "OnLuaOpen");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147480714", "OnInitialized");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -8256,20 +10216,20 @@ void ULUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147481939::OnLuaOpen()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147481939.OnMouseEnter
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147480714.OnMouseEnter
 // (BlueprintCosmetic, Native, Event, Public, HasOutParams, BlueprintEvent)
 // Parameters:
 // const struct FGeometry&                 MyGeometry                                             (Parm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
 // const struct FPointerEvent&             MouseEvent                                             (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
 
-void ULUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147481939::OnMouseEnter(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
+void ULUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147480714::OnMouseEnter(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147481939", "OnMouseEnter");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147480714", "OnMouseEnter");
 
-	Params::LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147481939_OnMouseEnter Parms{};
+	Params::LUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147480714_OnMouseEnter Parms{};
 
 	Parms.MyGeometry = std::move(MyGeometry);
 	Parms.MouseEvent = std::move(MouseEvent);
@@ -8283,38 +10243,19 @@ void ULUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147481939::OnMouseEnter(const st
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147481939.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147481939::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147481939", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147481939.OnListItemObjectSet
+// LuaFunction Transient.LUA_OVERRIDES_WBP_BuffEntry_C_2147480713.OnListItemObjectSet
 // (Event, Protected, BlueprintEvent)
 // Parameters:
 // class UObject*                          ListItemObject                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void ULUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147481939::OnListItemObjectSet(class UObject* ListItemObject)
+void ULUA_OVERRIDES_WBP_BuffEntry_C_2147480713::OnListItemObjectSet(class UObject* ListItemObject)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147481939", "OnListItemObjectSet");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BuffEntry_C_2147480713", "OnListItemObjectSet");
 
-	Params::LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147481939_OnListItemObjectSet Parms{};
+	Params::LUA_OVERRIDES_WBP_BuffEntry_C_2147480713_OnListItemObjectSet Parms{};
 
 	Parms.ListItemObject = ListItemObject;
 
@@ -8322,34 +10263,15 @@ void ULUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147481939::OnListItemObjectSet(c
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147481939.OnLuaShow
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147481939::OnLuaShow()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_FriendsRoom_C_2147481939", "OnLuaShow");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_BusinessCard_MainPage_C_2147481938.Destruct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_BuffEntry_C_2147480713.Destruct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_BusinessCard_MainPage_C_2147481938::Destruct()
+void ULUA_OVERRIDES_WBP_BuffEntry_C_2147480713::Destruct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BusinessCard_MainPage_C_2147481938", "Destruct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BuffEntry_C_2147480713", "Destruct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -8360,15 +10282,15 @@ void ULUA_OVERRIDES_WBP_BusinessCard_MainPage_C_2147481938::Destruct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_BusinessCard_MainPage_C_2147481938.OnInitialized
+// LuaFunction Transient.LUA_OVERRIDES_WBP_BuffEntry_C_2147480713.Construct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_BusinessCard_MainPage_C_2147481938::OnInitialized()
+void ULUA_OVERRIDES_WBP_BuffEntry_C_2147480713::Construct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BusinessCard_MainPage_C_2147481938", "OnInitialized");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BuffEntry_C_2147480713", "Construct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -8379,15 +10301,15 @@ void ULUA_OVERRIDES_WBP_BusinessCard_MainPage_C_2147481938::OnInitialized()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_BusinessCard_MainPage_C_2147481938.Construct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_BuffEntry_C_2147480713.OnInitialized
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_BusinessCard_MainPage_C_2147481938::Construct()
+void ULUA_OVERRIDES_WBP_BuffEntry_C_2147480713::OnInitialized()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BusinessCard_MainPage_C_2147481938", "Construct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BuffEntry_C_2147480713", "OnInitialized");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -8398,1806 +10320,19 @@ void ULUA_OVERRIDES_WBP_BusinessCard_MainPage_C_2147481938::Construct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147481937.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147481937::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147481937", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147481937.OnLuaOpen
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147481937::OnLuaOpen()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147481937", "OnLuaOpen");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147481937.LuaHandleKeyEvent
-// (Native, Event, Public, BlueprintEvent)
-// Parameters:
-// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-
-bool ULUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147481937::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147481937", "LuaHandleKeyEvent");
-
-	Params::LUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147481937_LuaHandleKeyEvent Parms{};
-
-	Parms.Key = std::move(Key);
-	Parms.InputEvent = InputEvent;
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	Func->FunctionFlags = Flgs;
-
-	return Parms.ReturnValue;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147481937.OnLuaClose
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147481937::OnLuaClose()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147481937", "OnLuaClose");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147481937.OnLuaHide
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147481937::OnLuaHide()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147481937", "OnLuaHide");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147481937.OnLuaShow
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147481937::OnLuaShow()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147481937", "OnLuaShow");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147481937.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147481937::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147481937", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147481937.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147481937::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRedPacket_Btn_C_2147481937", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147481936.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147481936::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147481936", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147481936.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147481936::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147481936", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147481936.OnLuaClose
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147481936::OnLuaClose()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147481936", "OnLuaClose");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147481936.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147481936::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147481936", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147481936.LuaHandleKeyEvent
-// (Native, Event, Public, BlueprintEvent)
-// Parameters:
-// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-
-bool ULUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147481936::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147481936", "LuaHandleKeyEvent");
-
-	Params::LUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147481936_LuaHandleKeyEvent Parms{};
-
-	Parms.Key = std::move(Key);
-	Parms.InputEvent = InputEvent;
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	Func->FunctionFlags = Flgs;
-
-	return Parms.ReturnValue;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147481936.OnLuaHide
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147481936::OnLuaHide()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147481936", "OnLuaHide");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147481936.OnLuaShow
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147481936::OnLuaShow()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147481936", "OnLuaShow");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147481936.OnLuaOpen
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147481936::OnLuaOpen()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ContentPage_FriendsRoom_C_2147481936", "OnLuaOpen");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CardContextMenu_C_2147474911.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_CardContextMenu_C_2147474911::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CardContextMenu_C_2147474911", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CardContextMenu_C_2147474911.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_CardContextMenu_C_2147474911::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CardContextMenu_C_2147474911", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CardContextMenu_C_2147474911.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_CardContextMenu_C_2147474911::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CardContextMenu_C_2147474911", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ContentPage_Channel_C_2147481934.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ContentPage_Channel_C_2147481934::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ContentPage_Channel_C_2147481934", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ContentPage_Channel_C_2147481934.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ContentPage_Channel_C_2147481934::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ContentPage_Channel_C_2147481934", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ContentPage_Channel_C_2147481934.OnLuaClose
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ContentPage_Channel_C_2147481934::OnLuaClose()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ContentPage_Channel_C_2147481934", "OnLuaClose");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ContentPage_Channel_C_2147481934.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ContentPage_Channel_C_2147481934::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ContentPage_Channel_C_2147481934", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ContentPage_Channel_C_2147481934.LuaHandleKeyEvent
-// (Native, Event, Public, BlueprintEvent)
-// Parameters:
-// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-
-bool ULUA_OVERRIDES_WBP_ContentPage_Channel_C_2147481934::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ContentPage_Channel_C_2147481934", "LuaHandleKeyEvent");
-
-	Params::LUA_OVERRIDES_WBP_ContentPage_Channel_C_2147481934_LuaHandleKeyEvent Parms{};
-
-	Parms.Key = std::move(Key);
-	Parms.InputEvent = InputEvent;
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	Func->FunctionFlags = Flgs;
-
-	return Parms.ReturnValue;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ContentPage_Channel_C_2147481934.OnLuaShow
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ContentPage_Channel_C_2147481934::OnLuaShow()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ContentPage_Channel_C_2147481934", "OnLuaShow");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ContentPage_Channel_C_2147481934.OnLuaOpen
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ContentPage_Channel_C_2147481934::OnLuaOpen()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ContentPage_Channel_C_2147481934", "OnLuaOpen");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ContentPage_Channel_C_2147481934.OnLuaHide
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ContentPage_Channel_C_2147481934::OnLuaHide()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ContentPage_Channel_C_2147481934", "OnLuaHide");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147481933.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147481933::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147481933", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147481933.OnLuaOpen
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147481933::OnLuaOpen()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147481933", "OnLuaOpen");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147481933.LuaHandleKeyEvent
-// (Native, Event, Public, BlueprintEvent)
-// Parameters:
-// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-
-bool ULUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147481933::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147481933", "LuaHandleKeyEvent");
-
-	Params::LUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147481933_LuaHandleKeyEvent Parms{};
-
-	Parms.Key = std::move(Key);
-	Parms.InputEvent = InputEvent;
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	Func->FunctionFlags = Flgs;
-
-	return Parms.ReturnValue;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147481933.OnLuaClose
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147481933::OnLuaClose()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147481933", "OnLuaClose");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147481933.OnLuaHide
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147481933::OnLuaHide()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147481933", "OnLuaHide");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147481933.OnLuaShow
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147481933::OnLuaShow()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147481933", "OnLuaShow");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147481933.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147481933::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147481933", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147481933.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147481933::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatWaterBall_Btn_C_2147481933", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRoomPage_C_2147481932.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatRoomPage_C_2147481932::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRoomPage_C_2147481932", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRoomPage_C_2147481932.OnLuaClose
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatRoomPage_C_2147481932::OnLuaClose()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRoomPage_C_2147481932", "OnLuaClose");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRoomPage_C_2147481932.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatRoomPage_C_2147481932::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRoomPage_C_2147481932", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRoomPage_C_2147481932.OnLuaHide
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatRoomPage_C_2147481932::OnLuaHide()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRoomPage_C_2147481932", "OnLuaHide");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRoomPage_C_2147481932.LuaHandleKeyEvent
-// (Native, Event, Public, BlueprintEvent)
-// Parameters:
-// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-
-bool ULUA_OVERRIDES_WBP_ChatRoomPage_C_2147481932::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRoomPage_C_2147481932", "LuaHandleKeyEvent");
-
-	Params::LUA_OVERRIDES_WBP_ChatRoomPage_C_2147481932_LuaHandleKeyEvent Parms{};
-
-	Parms.Key = std::move(Key);
-	Parms.InputEvent = InputEvent;
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	Func->FunctionFlags = Flgs;
-
-	return Parms.ReturnValue;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRoomPage_C_2147481932.OnLuaOpen
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatRoomPage_C_2147481932::OnLuaOpen()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRoomPage_C_2147481932", "OnLuaOpen");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRoomPage_C_2147481932.OnLuaShow
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatRoomPage_C_2147481932::OnLuaShow()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRoomPage_C_2147481932", "OnLuaShow");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatRoomPage_C_2147481932.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatRoomPage_C_2147481932::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatRoomPage_C_2147481932", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatInput_C_2147481931.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatInput_C_2147481931::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatInput_C_2147481931", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatInput_C_2147481931.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatInput_C_2147481931::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatInput_C_2147481931", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatInput_C_2147481931.OnLuaClose
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatInput_C_2147481931::OnLuaClose()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatInput_C_2147481931", "OnLuaClose");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatInput_C_2147481931.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatInput_C_2147481931::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatInput_C_2147481931", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatInput_C_2147481931.LuaHandleKeyEvent
-// (Native, Event, Public, BlueprintEvent)
-// Parameters:
-// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-
-bool ULUA_OVERRIDES_WBP_ChatInput_C_2147481931::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatInput_C_2147481931", "LuaHandleKeyEvent");
-
-	Params::LUA_OVERRIDES_WBP_ChatInput_C_2147481931_LuaHandleKeyEvent Parms{};
-
-	Parms.Key = std::move(Key);
-	Parms.InputEvent = InputEvent;
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	Func->FunctionFlags = Flgs;
-
-	return Parms.ReturnValue;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatInput_C_2147481931.OnLuaHide
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatInput_C_2147481931::OnLuaHide()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatInput_C_2147481931", "OnLuaHide");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatInput_C_2147481931.OnLuaOpen
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatInput_C_2147481931::OnLuaOpen()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatInput_C_2147481931", "OnLuaOpen");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatInput_C_2147481931.OnLuaShow
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatInput_C_2147481931::OnLuaShow()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatInput_C_2147481931", "OnLuaShow");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatClanPage_C_2147481930.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatClanPage_C_2147481930::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatClanPage_C_2147481930", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatClanPage_C_2147481930.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatClanPage_C_2147481930::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatClanPage_C_2147481930", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatClanPage_C_2147481930.OnRemovedFromFocusPath
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-// Parameters:
-// const struct FFocusEvent&               InFocusEvent                                           (Parm, NoDestructor, NativeAccessSpecifierPublic)
-
-void ULUA_OVERRIDES_WBP_ChatClanPage_C_2147481930::OnRemovedFromFocusPath(const struct FFocusEvent& InFocusEvent)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatClanPage_C_2147481930", "OnRemovedFromFocusPath");
-
-	Params::LUA_OVERRIDES_WBP_ChatClanPage_C_2147481930_OnRemovedFromFocusPath Parms{};
-
-	Parms.InFocusEvent = std::move(InFocusEvent);
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatClanPage_C_2147481930.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatClanPage_C_2147481930::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatClanPage_C_2147481930", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ShortcutTaskPanel_C_2147481791.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ShortcutTaskPanel_C_2147481791::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ShortcutTaskPanel_C_2147481791", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ShortcutTaskPanel_C_2147481791.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ShortcutTaskPanel_C_2147481791::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ShortcutTaskPanel_C_2147481791", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ShortcutTaskPanel_C_2147481791.OnMouseLeave
-// (BlueprintCosmetic, Native, Event, Public, HasOutParams, BlueprintEvent)
-// Parameters:
-// const struct FPointerEvent&             MouseEvent                                             (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
-
-void ULUA_OVERRIDES_WBP_ShortcutTaskPanel_C_2147481791::OnMouseLeave(const struct FPointerEvent& MouseEvent)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ShortcutTaskPanel_C_2147481791", "OnMouseLeave");
-
-	Params::LUA_OVERRIDES_WBP_ShortcutTaskPanel_C_2147481791_OnMouseLeave Parms{};
-
-	Parms.MouseEvent = std::move(MouseEvent);
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ShortcutTaskPanel_C_2147481791.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ShortcutTaskPanel_C_2147481791::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ShortcutTaskPanel_C_2147481791", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ShortcutTaskPanel_C_2147481791.OnMouseEnter
-// (BlueprintCosmetic, Native, Event, Public, HasOutParams, BlueprintEvent)
-// Parameters:
-// const struct FGeometry&                 MyGeometry                                             (Parm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-// const struct FPointerEvent&             MouseEvent                                             (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
-
-void ULUA_OVERRIDES_WBP_ShortcutTaskPanel_C_2147481791::OnMouseEnter(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ShortcutTaskPanel_C_2147481791", "OnMouseEnter");
-
-	Params::LUA_OVERRIDES_WBP_ShortcutTaskPanel_C_2147481791_OnMouseEnter Parms{};
-
-	Parms.MyGeometry = std::move(MyGeometry);
-	Parms.MouseEvent = std::move(MouseEvent);
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelPage_C_2147481929.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatChannelPage_C_2147481929::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelPage_C_2147481929", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelPage_C_2147481929.OnLuaClose
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatChannelPage_C_2147481929::OnLuaClose()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelPage_C_2147481929", "OnLuaClose");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelPage_C_2147481929.Construct
-// (BlueprintCosmetic, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatChannelPage_C_2147481929::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelPage_C_2147481929", "Construct");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelPage_C_2147481929.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatChannelPage_C_2147481929::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelPage_C_2147481929", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelPage_C_2147481929.LuaHandleKeyEvent
-// (Native, Event, Public, BlueprintEvent)
-// Parameters:
-// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-
-bool ULUA_OVERRIDES_WBP_ChatChannelPage_C_2147481929::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelPage_C_2147481929", "LuaHandleKeyEvent");
-
-	Params::LUA_OVERRIDES_WBP_ChatChannelPage_C_2147481929_LuaHandleKeyEvent Parms{};
-
-	Parms.Key = std::move(Key);
-	Parms.InputEvent = InputEvent;
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	Func->FunctionFlags = Flgs;
-
-	return Parms.ReturnValue;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelPage_C_2147481929.OnLuaOpen
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatChannelPage_C_2147481929::OnLuaOpen()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelPage_C_2147481929", "OnLuaOpen");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelPage_C_2147481929.OnLuaShow
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatChannelPage_C_2147481929::OnLuaShow()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelPage_C_2147481929", "OnLuaShow");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatChannelPage_C_2147481929.OnLuaHide
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatChannelPage_C_2147481929::OnLuaHide()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatChannelPage_C_2147481929", "OnLuaHide");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatMainPage_C_2147481928.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatMainPage_C_2147481928::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatMainPage_C_2147481928", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatMainPage_C_2147481928.OnLuaClose
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatMainPage_C_2147481928::OnLuaClose()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatMainPage_C_2147481928", "OnLuaClose");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatMainPage_C_2147481928.OnRemovedFromFocusPath
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-// Parameters:
-// const struct FFocusEvent&               InFocusEvent                                           (Parm, NoDestructor, NativeAccessSpecifierPublic)
-
-void ULUA_OVERRIDES_WBP_ChatMainPage_C_2147481928::OnRemovedFromFocusPath(const struct FFocusEvent& InFocusEvent)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatMainPage_C_2147481928", "OnRemovedFromFocusPath");
-
-	Params::LUA_OVERRIDES_WBP_ChatMainPage_C_2147481928_OnRemovedFromFocusPath Parms{};
-
-	Parms.InFocusEvent = std::move(InFocusEvent);
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatMainPage_C_2147481928.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatMainPage_C_2147481928::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatMainPage_C_2147481928", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatMainPage_C_2147481928.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatMainPage_C_2147481928::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatMainPage_C_2147481928", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatMainPage_C_2147481928.OnLuaOpen
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatMainPage_C_2147481928::OnLuaOpen()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatMainPage_C_2147481928", "OnLuaOpen");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatMainPage_C_2147481928.OnLuaShow
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatMainPage_C_2147481928::OnLuaShow()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatMainPage_C_2147481928", "OnLuaShow");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatMainPage_C_2147481928.OnLuaHide
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatMainPage_C_2147481928::OnLuaHide()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatMainPage_C_2147481928", "OnLuaHide");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatMainPage_C_2147481928.LuaHandleKeyEvent
-// (Native, Event, Public, BlueprintEvent)
-// Parameters:
-// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-
-bool ULUA_OVERRIDES_WBP_ChatMainPage_C_2147481928::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatMainPage_C_2147481928", "LuaHandleKeyEvent");
-
-	Params::LUA_OVERRIDES_WBP_ChatMainPage_C_2147481928_LuaHandleKeyEvent Parms{};
-
-	Parms.Key = std::move(Key);
-	Parms.InputEvent = InputEvent;
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	Func->FunctionFlags = Flgs;
-
-	return Parms.ReturnValue;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Clan_C_2147481927.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatText_Clan_C_2147481927::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Clan_C_2147481927", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Clan_C_2147481927.OnLuaClose
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatText_Clan_C_2147481927::OnLuaClose()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Clan_C_2147481927", "OnLuaClose");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Clan_C_2147481927.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatText_Clan_C_2147481927::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Clan_C_2147481927", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Clan_C_2147481927.OnMouseLeave
-// (BlueprintCosmetic, Native, Event, Public, HasOutParams, BlueprintEvent)
-// Parameters:
-// const struct FPointerEvent&             MouseEvent                                             (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
-
-void ULUA_OVERRIDES_WBP_ChatText_Clan_C_2147481927::OnMouseLeave(const struct FPointerEvent& MouseEvent)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Clan_C_2147481927", "OnMouseLeave");
-
-	Params::LUA_OVERRIDES_WBP_ChatText_Clan_C_2147481927_OnMouseLeave Parms{};
-
-	Parms.MouseEvent = std::move(MouseEvent);
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Clan_C_2147481927.LuaHandleKeyEvent
-// (Native, Event, Public, BlueprintEvent)
-// Parameters:
-// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-
-bool ULUA_OVERRIDES_WBP_ChatText_Clan_C_2147481927::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Clan_C_2147481927", "LuaHandleKeyEvent");
-
-	Params::LUA_OVERRIDES_WBP_ChatText_Clan_C_2147481927_LuaHandleKeyEvent Parms{};
-
-	Parms.Key = std::move(Key);
-	Parms.InputEvent = InputEvent;
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	Func->FunctionFlags = Flgs;
-
-	return Parms.ReturnValue;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Clan_C_2147481927.OnLuaHide
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatText_Clan_C_2147481927::OnLuaHide()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Clan_C_2147481927", "OnLuaHide");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Clan_C_2147481927.OnLuaOpen
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatText_Clan_C_2147481927::OnLuaOpen()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Clan_C_2147481927", "OnLuaOpen");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Clan_C_2147481927.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatText_Clan_C_2147481927::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Clan_C_2147481927", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Clan_C_2147481927.OnMouseEnter
-// (BlueprintCosmetic, Native, Event, Public, HasOutParams, BlueprintEvent)
-// Parameters:
-// const struct FGeometry&                 MyGeometry                                             (Parm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-// const struct FPointerEvent&             MouseEvent                                             (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
-
-void ULUA_OVERRIDES_WBP_ChatText_Clan_C_2147481927::OnMouseEnter(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Clan_C_2147481927", "OnMouseEnter");
-
-	Params::LUA_OVERRIDES_WBP_ChatText_Clan_C_2147481927_OnMouseEnter Parms{};
-
-	Parms.MyGeometry = std::move(MyGeometry);
-	Parms.MouseEvent = std::move(MouseEvent);
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Clan_C_2147481927.OnLuaShow
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ChatText_Clan_C_2147481927::OnLuaShow()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Clan_C_2147481927", "OnLuaShow");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_Clan_C_2147481927.OnListItemObjectSet
+// LuaFunction Transient.LUA_OVERRIDES_WBP_RoleFreeEntry_C_2147480712.OnListItemObjectSet
 // (Event, Protected, BlueprintEvent)
 // Parameters:
 // class UObject*                          ListItemObject                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void ULUA_OVERRIDES_WBP_ChatText_Clan_C_2147481927::OnListItemObjectSet(class UObject* ListItemObject)
+void ULUA_OVERRIDES_WBP_RoleFreeEntry_C_2147480712::OnListItemObjectSet(class UObject* ListItemObject)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_Clan_C_2147481927", "OnListItemObjectSet");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RoleFreeEntry_C_2147480712", "OnListItemObjectSet");
 
-	Params::LUA_OVERRIDES_WBP_ChatText_Clan_C_2147481927_OnListItemObjectSet Parms{};
+	Params::LUA_OVERRIDES_WBP_RoleFreeEntry_C_2147480712_OnListItemObjectSet Parms{};
 
 	Parms.ListItemObject = ListItemObject;
 
@@ -10205,15 +10340,15 @@ void ULUA_OVERRIDES_WBP_ChatText_Clan_C_2147481927::OnListItemObjectSet(class UO
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SecondaryNavBar_C_2147481784.Destruct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_RoleFreeEntry_C_2147480712.Destruct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_SecondaryNavBar_C_2147481784::Destruct()
+void ULUA_OVERRIDES_WBP_RoleFreeEntry_C_2147480712::Destruct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SecondaryNavBar_C_2147481784", "Destruct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RoleFreeEntry_C_2147480712", "Destruct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -10224,15 +10359,15 @@ void ULUA_OVERRIDES_WBP_SecondaryNavBar_C_2147481784::Destruct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SecondaryNavBar_C_2147481784.OnInitialized
+// LuaFunction Transient.LUA_OVERRIDES_WBP_RoleFreeEntry_C_2147480712.Construct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_SecondaryNavBar_C_2147481784::OnInitialized()
+void ULUA_OVERRIDES_WBP_RoleFreeEntry_C_2147480712::Construct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SecondaryNavBar_C_2147481784", "OnInitialized");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RoleFreeEntry_C_2147480712", "Construct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -10243,15 +10378,15 @@ void ULUA_OVERRIDES_WBP_SecondaryNavBar_C_2147481784::OnInitialized()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SecondaryNavBar_C_2147481784.Construct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_RoleFreeEntry_C_2147480712.OnInitialized
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_SecondaryNavBar_C_2147481784::Construct()
+void ULUA_OVERRIDES_WBP_RoleFreeEntry_C_2147480712::OnInitialized()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SecondaryNavBar_C_2147481784", "Construct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RoleFreeEntry_C_2147480712", "OnInitialized");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -10262,20 +10397,534 @@ void ULUA_OVERRIDES_WBP_SecondaryNavBar_C_2147481784::Construct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SecondaryNavBar_C_2147481784.CustomHandleNavAction
+// LuaFunction Transient.LUA_OVERRIDES_WBP_RedDot_CustomA_Panel_C_2147480711.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_RedDot_CustomA_Panel_C_2147480711::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RedDot_CustomA_Panel_C_2147480711", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_RedDot_CustomA_Panel_C_2147480711.Construct
+// (BlueprintCosmetic, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_RedDot_CustomA_Panel_C_2147480711::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RedDot_CustomA_Panel_C_2147480711", "Construct");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_RedDot_CustomA_Panel_C_2147480711.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_RedDot_CustomA_Panel_C_2147480711::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RedDot_CustomA_Panel_C_2147480711", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147480710.OnLuaClose
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147480710::OnLuaClose()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147480710", "OnLuaClose");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147480710.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147480710::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147480710", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147480710.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147480710::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147480710", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147480710.LuaHandleKeyEvent
+// (Native, Event, Public, BlueprintEvent)
+// Parameters:
+// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+
+bool ULUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147480710::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147480710", "LuaHandleKeyEvent");
+
+	Params::LUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147480710_LuaHandleKeyEvent Parms{};
+
+	Parms.Key = std::move(Key);
+	Parms.InputEvent = InputEvent;
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+
+	return Parms.ReturnValue;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147480710.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147480710::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147480710", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147480710.OnLuaHide
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147480710::OnLuaHide()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147480710", "OnLuaHide");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147480710.OnLuaShow
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147480710::OnLuaShow()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147480710", "OnLuaShow");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147480710.OnLuaOpen
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147480710::OnLuaOpen()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147480710", "OnLuaOpen");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CommonGoods_C_2147480709.OnMouseWheel
+// (BlueprintCosmetic, Native, Event, Public, HasOutParams, BlueprintEvent)
+// Parameters:
+// const struct FGeometry&                 MyGeometry                                             (Parm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+// const struct FPointerEvent&             MouseEvent                                             (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
+// struct FEventReply                      ReturnValue                                            (Parm, OutParm, ReturnParm, NativeAccessSpecifierPublic)
+
+struct FEventReply ULUA_OVERRIDES_WBP_CommonGoods_C_2147480709::OnMouseWheel(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CommonGoods_C_2147480709", "OnMouseWheel");
+
+	Params::LUA_OVERRIDES_WBP_CommonGoods_C_2147480709_OnMouseWheel Parms{};
+
+	Parms.MyGeometry = std::move(MyGeometry);
+	Parms.MouseEvent = std::move(MouseEvent);
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+
+	return Parms.ReturnValue;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CommonGoods_C_2147480709.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_CommonGoods_C_2147480709::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CommonGoods_C_2147480709", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CommonGoods_C_2147480709.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_CommonGoods_C_2147480709::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CommonGoods_C_2147480709", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CommonGoods_C_2147480709.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_CommonGoods_C_2147480709::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CommonGoods_C_2147480709", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CommonGoods_C_2147480709.OnListItemObjectSet
+// (Event, Protected, BlueprintEvent)
+// Parameters:
+// class UObject*                          ListItemObject                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void ULUA_OVERRIDES_WBP_CommonGoods_C_2147480709::OnListItemObjectSet(class UObject* ListItemObject)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CommonGoods_C_2147480709", "OnListItemObjectSet");
+
+	Params::LUA_OVERRIDES_WBP_CommonGoods_C_2147480709_OnListItemObjectSet Parms{};
+
+	Parms.ListItemObject = ListItemObject;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionProgress_C_2147480708.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_CompetitionProgress_C_2147480708::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionProgress_C_2147480708", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionProgress_C_2147480708.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_CompetitionProgress_C_2147480708::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionProgress_C_2147480708", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionProgress_C_2147480708.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_CompetitionProgress_C_2147480708::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionProgress_C_2147480708", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionProgress_C_2147480708.OnListItemObjectSet
+// (Event, Protected, BlueprintEvent)
+// Parameters:
+// class UObject*                          ListItemObject                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void ULUA_OVERRIDES_WBP_CompetitionProgress_C_2147480708::OnListItemObjectSet(class UObject* ListItemObject)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionProgress_C_2147480708", "OnListItemObjectSet");
+
+	Params::LUA_OVERRIDES_WBP_CompetitionProgress_C_2147480708_OnListItemObjectSet Parms{};
+
+	Parms.ListItemObject = ListItemObject;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionProgress_C_2147480708.OnLuaItemHovered
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_CompetitionProgress_C_2147480708::OnLuaItemHovered()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionProgress_C_2147480708", "OnLuaItemHovered");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionProgress_C_2147480708.OnLuaItemUnhovered
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_CompetitionProgress_C_2147480708::OnLuaItemUnhovered()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionProgress_C_2147480708", "OnLuaItemUnhovered");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionProgress_C_2147480708.BP_OnItemSelectionChanged
+// (Event, Protected, BlueprintEvent)
+// Parameters:
+// bool                                    bIsSelected                                            (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
+
+void ULUA_OVERRIDES_WBP_CompetitionProgress_C_2147480708::BP_OnItemSelectionChanged(bool bIsSelected)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionProgress_C_2147480708", "BP_OnItemSelectionChanged");
+
+	Params::LUA_OVERRIDES_WBP_CompetitionProgress_C_2147480708_BP_OnItemSelectionChanged Parms{};
+
+	Parms.bIsSelected = bIsSelected;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SecondaryNavBar_C_2147480700.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_SecondaryNavBar_C_2147480700::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SecondaryNavBar_C_2147480700", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SecondaryNavBar_C_2147480700.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_SecondaryNavBar_C_2147480700::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SecondaryNavBar_C_2147480700", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SecondaryNavBar_C_2147480700.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_SecondaryNavBar_C_2147480700::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SecondaryNavBar_C_2147480700", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SecondaryNavBar_C_2147480700.CustomHandleNavAction
 // (Native, Event, Public, HasOutParams, BlueprintCallable, BlueprintEvent)
 // Parameters:
 // struct FUINavActionReply*               Reply                                                  (Parm, OutParm, NativeAccessSpecifierPublic)
 // bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
 
-bool ULUA_OVERRIDES_WBP_SecondaryNavBar_C_2147481784::CustomHandleNavAction(struct FUINavActionReply* Reply)
+bool ULUA_OVERRIDES_WBP_SecondaryNavBar_C_2147480700::CustomHandleNavAction(struct FUINavActionReply* Reply)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SecondaryNavBar_C_2147481784", "CustomHandleNavAction");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SecondaryNavBar_C_2147480700", "CustomHandleNavAction");
 
-	Params::LUA_OVERRIDES_WBP_SecondaryNavBar_C_2147481784_CustomHandleNavAction Parms{};
+	Params::LUA_OVERRIDES_WBP_SecondaryNavBar_C_2147480700_CustomHandleNavAction Parms{};
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -10291,15 +10940,15 @@ bool ULUA_OVERRIDES_WBP_SecondaryNavBar_C_2147481784::CustomHandleNavAction(stru
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SecondaryNavBar_MoreItem_C_2147481809.Destruct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionReminderItem_C_2147480707.Destruct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_SecondaryNavBar_MoreItem_C_2147481809::Destruct()
+void ULUA_OVERRIDES_WBP_CompetitionReminderItem_C_2147480707::Destruct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SecondaryNavBar_MoreItem_C_2147481809", "Destruct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionReminderItem_C_2147480707", "Destruct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -10310,15 +10959,15 @@ void ULUA_OVERRIDES_WBP_SecondaryNavBar_MoreItem_C_2147481809::Destruct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SecondaryNavBar_MoreItem_C_2147481809.OnInitialized
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionReminderItem_C_2147480707.Construct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_SecondaryNavBar_MoreItem_C_2147481809::OnInitialized()
+void ULUA_OVERRIDES_WBP_CompetitionReminderItem_C_2147480707::Construct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SecondaryNavBar_MoreItem_C_2147481809", "OnInitialized");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionReminderItem_C_2147480707", "Construct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -10329,15 +10978,15 @@ void ULUA_OVERRIDES_WBP_SecondaryNavBar_MoreItem_C_2147481809::OnInitialized()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SecondaryNavBar_MoreItem_C_2147481809.Construct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionReminderItem_C_2147480707.OnInitialized
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_SecondaryNavBar_MoreItem_C_2147481809::Construct()
+void ULUA_OVERRIDES_WBP_CompetitionReminderItem_C_2147480707::OnInitialized()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SecondaryNavBar_MoreItem_C_2147481809", "Construct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionReminderItem_C_2147480707", "OnInitialized");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -10348,351 +10997,21 @@ void ULUA_OVERRIDES_WBP_SecondaryNavBar_MoreItem_C_2147481809::Construct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SecondaryNavBar_MoreItem_C_2147481809.OnListItemObjectSet
-// (Event, Protected, BlueprintEvent)
-// Parameters:
-// class UObject*                          ListItemObject                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-void ULUA_OVERRIDES_WBP_SecondaryNavBar_MoreItem_C_2147481809::OnListItemObjectSet(class UObject* ListItemObject)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SecondaryNavBar_MoreItem_C_2147481809", "OnListItemObjectSet");
-
-	Params::LUA_OVERRIDES_WBP_SecondaryNavBar_MoreItem_C_2147481809_OnListItemObjectSet Parms{};
-
-	Parms.ListItemObject = ListItemObject;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SecondaryNavBar_MoreList_C_2147481808.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_SecondaryNavBar_MoreList_C_2147481808::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SecondaryNavBar_MoreList_C_2147481808", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SecondaryNavBar_MoreList_C_2147481808.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_SecondaryNavBar_MoreList_C_2147481808::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SecondaryNavBar_MoreList_C_2147481808", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SecondaryNavBar_MoreList_C_2147481808.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_SecondaryNavBar_MoreList_C_2147481808::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SecondaryNavBar_MoreList_C_2147481808", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_RedDot_CustomA_Panel_C_2147481807.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_RedDot_CustomA_Panel_C_2147481807::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RedDot_CustomA_Panel_C_2147481807", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_RedDot_CustomA_Panel_C_2147481807.Construct
-// (BlueprintCosmetic, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_RedDot_CustomA_Panel_C_2147481807::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RedDot_CustomA_Panel_C_2147481807", "Construct");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_RedDot_CustomA_Panel_C_2147481807.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_RedDot_CustomA_Panel_C_2147481807::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RedDot_CustomA_Panel_C_2147481807", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147481806.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147481806::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147481806", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147481806.OnLuaOpen
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147481806::OnLuaOpen()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147481806", "OnLuaOpen");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147481806.LuaHandleKeyEvent
-// (Native, Event, Public, BlueprintEvent)
-// Parameters:
-// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-
-bool ULUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147481806::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147481806", "LuaHandleKeyEvent");
-
-	Params::LUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147481806_LuaHandleKeyEvent Parms{};
-
-	Parms.Key = std::move(Key);
-	Parms.InputEvent = InputEvent;
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	Func->FunctionFlags = Flgs;
-
-	return Parms.ReturnValue;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147481806.OnLuaHide
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147481806::OnLuaHide()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147481806", "OnLuaHide");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147481806.OnLuaClose
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147481806::OnLuaClose()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147481806", "OnLuaClose");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147481806.OnLuaShow
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147481806::OnLuaShow()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147481806", "OnLuaShow");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147481806.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147481806::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147481806", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147481806.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147481806::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147481806", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_BannerCellPanel_C_2147481805.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_BannerCellPanel_C_2147481805::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BannerCellPanel_C_2147481805", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_BannerCellPanel_C_2147481805.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_BannerCellPanel_C_2147481805::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BannerCellPanel_C_2147481805", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_BannerCellPanel_C_2147481805.OnMouseWheel
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionProgressList_C_2147480706.OnMouseWheel
 // (BlueprintCosmetic, Native, Event, Public, HasOutParams, BlueprintEvent)
 // Parameters:
 // const struct FGeometry&                 MyGeometry                                             (Parm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
 // const struct FPointerEvent&             MouseEvent                                             (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
 // struct FEventReply                      ReturnValue                                            (Parm, OutParm, ReturnParm, NativeAccessSpecifierPublic)
 
-struct FEventReply ULUA_OVERRIDES_WBP_BannerCellPanel_C_2147481805::OnMouseWheel(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
+struct FEventReply ULUA_OVERRIDES_WBP_CompetitionProgressList_C_2147480706::OnMouseWheel(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BannerCellPanel_C_2147481805", "OnMouseWheel");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionProgressList_C_2147480706", "OnMouseWheel");
 
-	Params::LUA_OVERRIDES_WBP_BannerCellPanel_C_2147481805_OnMouseWheel Parms{};
+	Params::LUA_OVERRIDES_WBP_CompetitionProgressList_C_2147480706_OnMouseWheel Parms{};
 
 	Parms.MyGeometry = std::move(MyGeometry);
 	Parms.MouseEvent = std::move(MouseEvent);
@@ -10708,15 +11027,15 @@ struct FEventReply ULUA_OVERRIDES_WBP_BannerCellPanel_C_2147481805::OnMouseWheel
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_BannerCellPanel_C_2147481805.OnInitialized
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionProgressList_C_2147480706.Destruct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_BannerCellPanel_C_2147481805::OnInitialized()
+void ULUA_OVERRIDES_WBP_CompetitionProgressList_C_2147480706::Destruct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BannerCellPanel_C_2147481805", "OnInitialized");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionProgressList_C_2147480706", "Destruct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -10727,15 +11046,15 @@ void ULUA_OVERRIDES_WBP_BannerCellPanel_C_2147481805::OnInitialized()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147481804.Destruct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionProgressList_C_2147480706.OnInitialized
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147481804::Destruct()
+void ULUA_OVERRIDES_WBP_CompetitionProgressList_C_2147480706::OnInitialized()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147481804", "Destruct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionProgressList_C_2147480706", "OnInitialized");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -10746,121 +11065,15 @@ void ULUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147481804::Destruct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147481804.OnLuaOpen
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147481804::OnLuaOpen()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147481804", "OnLuaOpen");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147481804.LuaHandleKeyEvent
-// (Native, Event, Public, BlueprintEvent)
-// Parameters:
-// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-
-bool ULUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147481804::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147481804", "LuaHandleKeyEvent");
-
-	Params::LUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147481804_LuaHandleKeyEvent Parms{};
-
-	Parms.Key = std::move(Key);
-	Parms.InputEvent = InputEvent;
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	Func->FunctionFlags = Flgs;
-
-	return Parms.ReturnValue;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147481804.OnLuaClose
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147481804::OnLuaClose()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147481804", "OnLuaClose");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147481804.OnLuaHide
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147481804::OnLuaHide()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147481804", "OnLuaHide");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147481804.OnLuaShow
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147481804::OnLuaShow()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147481804", "OnLuaShow");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147481804.Construct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionProgressList_C_2147480706.Construct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147481804::Construct()
+void ULUA_OVERRIDES_WBP_CompetitionProgressList_C_2147480706::Construct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147481804", "Construct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionProgressList_C_2147480706", "Construct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -10871,15 +11084,15 @@ void ULUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147481804::Construct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147481804.OnInitialized
+// LuaFunction Transient.LUA_OVERRIDES_WBP_NavBarCurrencyPanel_C_2147480704.Destruct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147481804::OnInitialized()
+void ULUA_OVERRIDES_WBP_NavBarCurrencyPanel_C_2147480704::Destruct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147481804", "OnInitialized");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavBarCurrencyPanel_C_2147480704", "Destruct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -10890,15 +11103,15 @@ void ULUA_OVERRIDES_WBP_ActivityEntryPanel_C_2147481804::OnInitialized()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionProgressList_C_2147481801.Destruct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_NavBarCurrencyPanel_C_2147480704.Construct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_CompetitionProgressList_C_2147481801::Destruct()
+void ULUA_OVERRIDES_WBP_NavBarCurrencyPanel_C_2147480704::Construct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionProgressList_C_2147481801", "Destruct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavBarCurrencyPanel_C_2147480704", "Construct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -10909,15 +11122,15 @@ void ULUA_OVERRIDES_WBP_CompetitionProgressList_C_2147481801::Destruct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionProgressList_C_2147481801.OnInitialized
+// LuaFunction Transient.LUA_OVERRIDES_WBP_NavBarCurrencyPanel_C_2147480704.OnInitialized
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_CompetitionProgressList_C_2147481801::OnInitialized()
+void ULUA_OVERRIDES_WBP_NavBarCurrencyPanel_C_2147480704::OnInitialized()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionProgressList_C_2147481801", "OnInitialized");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavBarCurrencyPanel_C_2147480704", "OnInitialized");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -10928,45 +11141,15 @@ void ULUA_OVERRIDES_WBP_CompetitionProgressList_C_2147481801::OnInitialized()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionProgressList_C_2147481801.OnMouseWheel
-// (BlueprintCosmetic, Native, Event, Public, HasOutParams, BlueprintEvent)
-// Parameters:
-// const struct FGeometry&                 MyGeometry                                             (Parm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-// const struct FPointerEvent&             MouseEvent                                             (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
-// struct FEventReply                      ReturnValue                                            (Parm, OutParm, ReturnParm, NativeAccessSpecifierPublic)
-
-struct FEventReply ULUA_OVERRIDES_WBP_CompetitionProgressList_C_2147481801::OnMouseWheel(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionProgressList_C_2147481801", "OnMouseWheel");
-
-	Params::LUA_OVERRIDES_WBP_CompetitionProgressList_C_2147481801_OnMouseWheel Parms{};
-
-	Parms.MyGeometry = std::move(MyGeometry);
-	Parms.MouseEvent = std::move(MouseEvent);
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	Func->FunctionFlags = Flgs;
-
-	return Parms.ReturnValue;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionProgressList_C_2147481801.Construct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_NavigationBarPanel_C_2147480703.OnInitialized
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_CompetitionProgressList_C_2147481801::Construct()
+void ULUA_OVERRIDES_WBP_NavigationBarPanel_C_2147480703::OnInitialized()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionProgressList_C_2147481801", "Construct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavigationBarPanel_C_2147480703", "OnInitialized");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -10977,15 +11160,15 @@ void ULUA_OVERRIDES_WBP_CompetitionProgressList_C_2147481801::Construct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionReminder_C_2147481800.Destruct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_NavigationBarPanel_C_2147480703.Destruct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_CompetitionReminder_C_2147481800::Destruct()
+void ULUA_OVERRIDES_WBP_NavigationBarPanel_C_2147480703::Destruct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionReminder_C_2147481800", "Destruct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavigationBarPanel_C_2147480703", "Destruct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -10996,125 +11179,19 @@ void ULUA_OVERRIDES_WBP_CompetitionReminder_C_2147481800::Destruct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionReminder_C_2147481800.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_CompetitionReminder_C_2147481800::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionReminder_C_2147481800", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionReminder_C_2147481800.OnMouseWheel
-// (BlueprintCosmetic, Native, Event, Public, HasOutParams, BlueprintEvent)
-// Parameters:
-// const struct FGeometry&                 MyGeometry                                             (Parm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-// const struct FPointerEvent&             MouseEvent                                             (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
-// struct FEventReply                      ReturnValue                                            (Parm, OutParm, ReturnParm, NativeAccessSpecifierPublic)
-
-struct FEventReply ULUA_OVERRIDES_WBP_CompetitionReminder_C_2147481800::OnMouseWheel(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionReminder_C_2147481800", "OnMouseWheel");
-
-	Params::LUA_OVERRIDES_WBP_CompetitionReminder_C_2147481800_OnMouseWheel Parms{};
-
-	Parms.MyGeometry = std::move(MyGeometry);
-	Parms.MouseEvent = std::move(MouseEvent);
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	Func->FunctionFlags = Flgs;
-
-	return Parms.ReturnValue;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionReminder_C_2147481800.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_CompetitionReminder_C_2147481800::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionReminder_C_2147481800", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147481798.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147481798::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147481798", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147481798.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147481798::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147481798", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147481798.OnMouseLeave
+// LuaFunction Transient.LUA_OVERRIDES_WBP_NavigationBarPanel_C_2147480703.OnMouseLeave
 // (BlueprintCosmetic, Native, Event, Public, HasOutParams, BlueprintEvent)
 // Parameters:
 // const struct FPointerEvent&             MouseEvent                                             (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
 
-void ULUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147481798::OnMouseLeave(const struct FPointerEvent& MouseEvent)
+void ULUA_OVERRIDES_WBP_NavigationBarPanel_C_2147480703::OnMouseLeave(const struct FPointerEvent& MouseEvent)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147481798", "OnMouseLeave");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavigationBarPanel_C_2147480703", "OnMouseLeave");
 
-	Params::LUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147481798_OnMouseLeave Parms{};
+	Params::LUA_OVERRIDES_WBP_NavigationBarPanel_C_2147480703_OnMouseLeave Parms{};
 
 	Parms.MouseEvent = std::move(MouseEvent);
 
@@ -11127,20 +11204,39 @@ void ULUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147481798::OnMouseLeave(const str
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147481798.OnMouseEnter
+// LuaFunction Transient.LUA_OVERRIDES_WBP_NavigationBarPanel_C_2147480703.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_NavigationBarPanel_C_2147480703::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavigationBarPanel_C_2147480703", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_NavigationBarPanel_C_2147480703.OnMouseEnter
 // (BlueprintCosmetic, Native, Event, Public, HasOutParams, BlueprintEvent)
 // Parameters:
 // const struct FGeometry&                 MyGeometry                                             (Parm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
 // const struct FPointerEvent&             MouseEvent                                             (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
 
-void ULUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147481798::OnMouseEnter(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
+void ULUA_OVERRIDES_WBP_NavigationBarPanel_C_2147480703::OnMouseEnter(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147481798", "OnMouseEnter");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavigationBarPanel_C_2147480703", "OnMouseEnter");
 
-	Params::LUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147481798_OnMouseEnter Parms{};
+	Params::LUA_OVERRIDES_WBP_NavigationBarPanel_C_2147480703_OnMouseEnter Parms{};
 
 	Parms.MyGeometry = std::move(MyGeometry);
 	Parms.MouseEvent = std::move(MouseEvent);
@@ -11154,15 +11250,15 @@ void ULUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147481798::OnMouseEnter(const str
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147481798.Construct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147480702.OnInitialized
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147481798::Construct()
+void ULUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147480702::OnInitialized()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147481798", "Construct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147480702", "OnInitialized");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -11173,15 +11269,15 @@ void ULUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147481798::Construct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147481797.Destruct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147480702.Destruct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147481797::Destruct()
+void ULUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147480702::Destruct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147481797", "Destruct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147480702", "Destruct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -11192,57 +11288,19 @@ void ULUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147481797::Destruct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147481797.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147481797::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147481797", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147481797.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147481797::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147481797", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147481797.OnMouseLeave
+// LuaFunction Transient.LUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147480702.OnMouseLeave
 // (BlueprintCosmetic, Native, Event, Public, HasOutParams, BlueprintEvent)
 // Parameters:
 // const struct FPointerEvent&             MouseEvent                                             (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
 
-void ULUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147481797::OnMouseLeave(const struct FPointerEvent& MouseEvent)
+void ULUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147480702::OnMouseLeave(const struct FPointerEvent& MouseEvent)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147481797", "OnMouseLeave");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147480702", "OnMouseLeave");
 
-	Params::LUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147481797_OnMouseLeave Parms{};
+	Params::LUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147480702_OnMouseLeave Parms{};
 
 	Parms.MouseEvent = std::move(MouseEvent);
 
@@ -11255,20 +11313,39 @@ void ULUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147481797::OnMouseLeave(const stru
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147481797.OnMouseEnter
+// LuaFunction Transient.LUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147480702.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147480702::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147480702", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147480702.OnMouseEnter
 // (BlueprintCosmetic, Native, Event, Public, HasOutParams, BlueprintEvent)
 // Parameters:
 // const struct FGeometry&                 MyGeometry                                             (Parm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
 // const struct FPointerEvent&             MouseEvent                                             (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
 
-void ULUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147481797::OnMouseEnter(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
+void ULUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147480702::OnMouseEnter(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147481797", "OnMouseEnter");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147480702", "OnMouseEnter");
 
-	Params::LUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147481797_OnMouseEnter Parms{};
+	Params::LUA_OVERRIDES_WBP_NavigationBarPanel3_C_2147480702_OnMouseEnter Parms{};
 
 	Parms.MyGeometry = std::move(MyGeometry);
 	Parms.MouseEvent = std::move(MouseEvent);
@@ -11282,811 +11359,21 @@ void ULUA_OVERRIDES_WBP_SecondaryNavBarBtn_C_2147481797::OnMouseEnter(const stru
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CommonGoods_C_2147481796.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_CommonGoods_C_2147481796::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CommonGoods_C_2147481796", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CommonGoods_C_2147481796.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_CommonGoods_C_2147481796::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CommonGoods_C_2147481796", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CommonGoods_C_2147481796.OnMouseWheel
-// (BlueprintCosmetic, Native, Event, Public, HasOutParams, BlueprintEvent)
-// Parameters:
-// const struct FGeometry&                 MyGeometry                                             (Parm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-// const struct FPointerEvent&             MouseEvent                                             (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
-// struct FEventReply                      ReturnValue                                            (Parm, OutParm, ReturnParm, NativeAccessSpecifierPublic)
-
-struct FEventReply ULUA_OVERRIDES_WBP_CommonGoods_C_2147481796::OnMouseWheel(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CommonGoods_C_2147481796", "OnMouseWheel");
-
-	Params::LUA_OVERRIDES_WBP_CommonGoods_C_2147481796_OnMouseWheel Parms{};
-
-	Parms.MyGeometry = std::move(MyGeometry);
-	Parms.MouseEvent = std::move(MouseEvent);
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	Func->FunctionFlags = Flgs;
-
-	return Parms.ReturnValue;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CommonGoods_C_2147481796.OnListItemObjectSet
-// (Event, Protected, BlueprintEvent)
-// Parameters:
-// class UObject*                          ListItemObject                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-void ULUA_OVERRIDES_WBP_CommonGoods_C_2147481796::OnListItemObjectSet(class UObject* ListItemObject)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CommonGoods_C_2147481796", "OnListItemObjectSet");
-
-	Params::LUA_OVERRIDES_WBP_CommonGoods_C_2147481796_OnListItemObjectSet Parms{};
-
-	Parms.ListItemObject = ListItemObject;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CommonGoods_C_2147481796.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_CommonGoods_C_2147481796::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CommonGoods_C_2147481796", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_Buff_C_2147481794.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_Buff_C_2147481794::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_Buff_C_2147481794", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_Buff_C_2147481794.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_Buff_C_2147481794::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_Buff_C_2147481794", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_Buff_C_2147481794.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_Buff_C_2147481794::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_Buff_C_2147481794", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ShorcutCurrencyPanel_C_2147481793.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ShorcutCurrencyPanel_C_2147481793::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ShorcutCurrencyPanel_C_2147481793", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ShorcutCurrencyPanel_C_2147481793.OnMouseEnter
-// (BlueprintCosmetic, Native, Event, Public, HasOutParams, BlueprintEvent)
-// Parameters:
-// const struct FGeometry&                 MyGeometry                                             (Parm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-// const struct FPointerEvent&             MouseEvent                                             (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
-
-void ULUA_OVERRIDES_WBP_ShorcutCurrencyPanel_C_2147481793::OnMouseEnter(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ShorcutCurrencyPanel_C_2147481793", "OnMouseEnter");
-
-	Params::LUA_OVERRIDES_WBP_ShorcutCurrencyPanel_C_2147481793_OnMouseEnter Parms{};
-
-	Parms.MyGeometry = std::move(MyGeometry);
-	Parms.MouseEvent = std::move(MouseEvent);
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ShorcutCurrencyPanel_C_2147481793.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ShorcutCurrencyPanel_C_2147481793::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ShorcutCurrencyPanel_C_2147481793", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ShorcutCurrencyPanel_C_2147481793.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ShorcutCurrencyPanel_C_2147481793::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ShorcutCurrencyPanel_C_2147481793", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ShorcutCurrencyPanel_C_2147481793.OnMouseLeave
-// (BlueprintCosmetic, Native, Event, Public, HasOutParams, BlueprintEvent)
-// Parameters:
-// const struct FPointerEvent&             MouseEvent                                             (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
-
-void ULUA_OVERRIDES_WBP_ShorcutCurrencyPanel_C_2147481793::OnMouseLeave(const struct FPointerEvent& MouseEvent)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ShorcutCurrencyPanel_C_2147481793", "OnMouseLeave");
-
-	Params::LUA_OVERRIDES_WBP_ShorcutCurrencyPanel_C_2147481793_OnMouseLeave Parms{};
-
-	Parms.MouseEvent = std::move(MouseEvent);
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ShortcutTaskItem_C_2147481792.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ShortcutTaskItem_C_2147481792::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ShortcutTaskItem_C_2147481792", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ShortcutTaskItem_C_2147481792.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ShortcutTaskItem_C_2147481792::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ShortcutTaskItem_C_2147481792", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ShortcutTaskItem_C_2147481792.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ShortcutTaskItem_C_2147481792::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ShortcutTaskItem_C_2147481792", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_NavBarCurrencyPanel_C_2147481790.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_NavBarCurrencyPanel_C_2147481790::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavBarCurrencyPanel_C_2147481790", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_NavBarCurrencyPanel_C_2147481790.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_NavBarCurrencyPanel_C_2147481790::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavBarCurrencyPanel_C_2147481790", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_NavBarCurrencyPanel_C_2147481790.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_NavBarCurrencyPanel_C_2147481790::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavBarCurrencyPanel_C_2147481790", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_BuffEntry_C_2147481789.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_BuffEntry_C_2147481789::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BuffEntry_C_2147481789", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_BuffEntry_C_2147481789.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_BuffEntry_C_2147481789::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BuffEntry_C_2147481789", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_BuffEntry_C_2147481789.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_BuffEntry_C_2147481789::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BuffEntry_C_2147481789", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_BuffEntry_C_2147481789.OnListItemObjectSet
-// (Event, Protected, BlueprintEvent)
-// Parameters:
-// class UObject*                          ListItemObject                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-void ULUA_OVERRIDES_WBP_BuffEntry_C_2147481789::OnListItemObjectSet(class UObject* ListItemObject)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BuffEntry_C_2147481789", "OnListItemObjectSet");
-
-	Params::LUA_OVERRIDES_WBP_BuffEntry_C_2147481789_OnListItemObjectSet Parms{};
-
-	Parms.ListItemObject = ListItemObject;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_RoleFreeEntry_C_2147481788.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_RoleFreeEntry_C_2147481788::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RoleFreeEntry_C_2147481788", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_RoleFreeEntry_C_2147481788.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_RoleFreeEntry_C_2147481788::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RoleFreeEntry_C_2147481788", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_RoleFreeEntry_C_2147481788.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_RoleFreeEntry_C_2147481788::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RoleFreeEntry_C_2147481788", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_RoleFreeEntry_C_2147481788.OnListItemObjectSet
-// (Event, Protected, BlueprintEvent)
-// Parameters:
-// class UObject*                          ListItemObject                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-void ULUA_OVERRIDES_WBP_RoleFreeEntry_C_2147481788::OnListItemObjectSet(class UObject* ListItemObject)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RoleFreeEntry_C_2147481788", "OnListItemObjectSet");
-
-	Params::LUA_OVERRIDES_WBP_RoleFreeEntry_C_2147481788_OnListItemObjectSet Parms{};
-
-	Parms.ListItemObject = ListItemObject;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionProgress_C_2147481787.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_CompetitionProgress_C_2147481787::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionProgress_C_2147481787", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionProgress_C_2147481787.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_CompetitionProgress_C_2147481787::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionProgress_C_2147481787", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionProgress_C_2147481787.OnListItemObjectSet
-// (Event, Protected, BlueprintEvent)
-// Parameters:
-// class UObject*                          ListItemObject                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-void ULUA_OVERRIDES_WBP_CompetitionProgress_C_2147481787::OnListItemObjectSet(class UObject* ListItemObject)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionProgress_C_2147481787", "OnListItemObjectSet");
-
-	Params::LUA_OVERRIDES_WBP_CompetitionProgress_C_2147481787_OnListItemObjectSet Parms{};
-
-	Parms.ListItemObject = ListItemObject;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionProgress_C_2147481787.OnLuaItemHovered
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_CompetitionProgress_C_2147481787::OnLuaItemHovered()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionProgress_C_2147481787", "OnLuaItemHovered");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionProgress_C_2147481787.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_CompetitionProgress_C_2147481787::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionProgress_C_2147481787", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionProgress_C_2147481787.OnLuaItemUnhovered
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_CompetitionProgress_C_2147481787::OnLuaItemUnhovered()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionProgress_C_2147481787", "OnLuaItemUnhovered");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionProgress_C_2147481787.BP_OnItemSelectionChanged
-// (Event, Protected, BlueprintEvent)
-// Parameters:
-// bool                                    bIsSelected                                            (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor)
-
-void ULUA_OVERRIDES_WBP_CompetitionProgress_C_2147481787::BP_OnItemSelectionChanged(bool bIsSelected)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionProgress_C_2147481787", "BP_OnItemSelectionChanged");
-
-	Params::LUA_OVERRIDES_WBP_CompetitionProgress_C_2147481787_BP_OnItemSelectionChanged Parms{};
-
-	Parms.bIsSelected = bIsSelected;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_RoomNetworkPanel_C_2147474907.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_RoomNetworkPanel_C_2147474907::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RoomNetworkPanel_C_2147474907", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_RoomNetworkPanel_C_2147474907.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_RoomNetworkPanel_C_2147474907::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RoomNetworkPanel_C_2147474907", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_RoomNetworkPanel_C_2147474907.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_RoomNetworkPanel_C_2147474907::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RoomNetworkPanel_C_2147474907", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionReminderItem_C_2147481786.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_CompetitionReminderItem_C_2147481786::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionReminderItem_C_2147481786", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionReminderItem_C_2147481786.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_CompetitionReminderItem_C_2147481786::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionReminderItem_C_2147481786", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionReminderItem_C_2147481786.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_CompetitionReminderItem_C_2147481786::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionReminderItem_C_2147481786", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_RichTextKeyMappings_C_2147481785.GetKeyFromSettingsByInputName
+// LuaFunction Transient.LUA_OVERRIDES_WBP_RichTextKeyMappings_C_2147480701.GetKeyFromSettingsByInputName
 // (Native, Event, Public, BlueprintEvent)
 // Parameters:
 // class FName                             InActionName                                           (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 // bool                                    bGamePad                                               (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
 // TArray<struct FKey>                     ReturnValue                                            (Parm, OutParm, ReturnParm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 
-TArray<struct FKey> ULUA_OVERRIDES_WBP_RichTextKeyMappings_C_2147481785::GetKeyFromSettingsByInputName(class FName InActionName, bool bGamePad)
+TArray<struct FKey> ULUA_OVERRIDES_WBP_RichTextKeyMappings_C_2147480701::GetKeyFromSettingsByInputName(class FName InActionName, bool bGamePad)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RichTextKeyMappings_C_2147481785", "GetKeyFromSettingsByInputName");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RichTextKeyMappings_C_2147480701", "GetKeyFromSettingsByInputName");
 
-	Params::LUA_OVERRIDES_WBP_RichTextKeyMappings_C_2147481785_GetKeyFromSettingsByInputName Parms{};
+	Params::LUA_OVERRIDES_WBP_RichTextKeyMappings_C_2147480701_GetKeyFromSettingsByInputName Parms{};
 
 	Parms.InActionName = InActionName;
 	Parms.bGamePad = bGamePad;
@@ -12102,121 +11389,15 @@ TArray<struct FKey> ULUA_OVERRIDES_WBP_RichTextKeyMappings_C_2147481785::GetKeyF
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_BP_SpectatorPlayerController_C_2147472928.IsFriendOrRoomMember
-// (Native, Event, Public, BlueprintEvent)
-// Parameters:
-// int64                                   InPlayerId_IsFriendOrRoomMember                        (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// bool                                    ReturnValue_IsFriendOrRoomMember                       (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-
-bool ULUA_OVERRIDES_BP_SpectatorPlayerController_C_2147472928::IsFriendOrRoomMember(int64 InPlayerId_IsFriendOrRoomMember)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_BP_SpectatorPlayerController_C_2147472928", "IsFriendOrRoomMember");
-
-	Params::LUA_OVERRIDES_BP_SpectatorPlayerController_C_2147472928_IsFriendOrRoomMember Parms{};
-
-	Parms.InPlayerId_IsFriendOrRoomMember = InPlayerId_IsFriendOrRoomMember;
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	Func->FunctionFlags = Flgs;
-
-	return Parms.ReturnValue;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_BP_SpectatorPlayerController_C_2147472928.ReceiveEndPlay
-// (Native, Event, Protected, BlueprintEvent)
-// Parameters:
-// EEndPlayReason                          EndPlayReason_ReceiveEndPlay                           (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-void ULUA_OVERRIDES_BP_SpectatorPlayerController_C_2147472928::ReceiveEndPlay(EEndPlayReason EndPlayReason_ReceiveEndPlay)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_BP_SpectatorPlayerController_C_2147472928", "ReceiveEndPlay");
-
-	Params::LUA_OVERRIDES_BP_SpectatorPlayerController_C_2147472928_ReceiveEndPlay Parms{};
-
-	Parms.EndPlayReason_ReceiveEndPlay = EndPlayReason_ReceiveEndPlay;
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_BP_SpectatorPlayerController_C_2147472928.CamparePlayer
-// (Native, Event, Public, BlueprintEvent)
-// Parameters:
-// int64                                   InPlayerId_1_CamparePlayer                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// int64                                   InPlayerId_2_CamparePlayer                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// uint8                                   InPlayerSerial_1_CamparePlayer                         (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// uint8                                   InPlayerSerial_2_CamparePlayer                         (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// bool                                    ReturnValue_CamparePlayer                              (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-
-bool ULUA_OVERRIDES_BP_SpectatorPlayerController_C_2147472928::CamparePlayer(int64 InPlayerId_1_CamparePlayer, int64 InPlayerId_2_CamparePlayer, uint8 InPlayerSerial_1_CamparePlayer, uint8 InPlayerSerial_2_CamparePlayer)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_BP_SpectatorPlayerController_C_2147472928", "CamparePlayer");
-
-	Params::LUA_OVERRIDES_BP_SpectatorPlayerController_C_2147472928_CamparePlayer Parms{};
-
-	Parms.InPlayerId_1_CamparePlayer = InPlayerId_1_CamparePlayer;
-	Parms.InPlayerId_2_CamparePlayer = InPlayerId_2_CamparePlayer;
-	Parms.InPlayerSerial_1_CamparePlayer = InPlayerSerial_1_CamparePlayer;
-	Parms.InPlayerSerial_2_CamparePlayer = InPlayerSerial_2_CamparePlayer;
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	Func->FunctionFlags = Flgs;
-
-	return Parms.ReturnValue;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_BP_SpectatorPlayerController_C_2147472928.ReceiveBeginPlay
-// (Native, Event, Protected, BlueprintEvent)
-
-void ULUA_OVERRIDES_BP_SpectatorPlayerController_C_2147472928::ReceiveBeginPlay()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_BP_SpectatorPlayerController_C_2147472928", "ReceiveBeginPlay");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147481783.Destruct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SelectMode_C_2147480132.OnInitialized
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147481783::Destruct()
+void ULUA_OVERRIDES_WBP_SelectMode_C_2147480132::OnInitialized()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147481783", "Destruct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SelectMode_C_2147480132", "OnInitialized");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -12227,15 +11408,219 @@ void ULUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147481783::Destruct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147481783.OnLuaOpen
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SelectMode_C_2147480132.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_SelectMode_C_2147480132::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SelectMode_C_2147480132", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SelectMode_C_2147480132.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_SelectMode_C_2147480132::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SelectMode_C_2147480132", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ShorcutCurrencyPanel_C_2147480699.OnMouseLeave
+// (BlueprintCosmetic, Native, Event, Public, HasOutParams, BlueprintEvent)
+// Parameters:
+// const struct FPointerEvent&             MouseEvent                                             (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
+
+void ULUA_OVERRIDES_WBP_ShorcutCurrencyPanel_C_2147480699::OnMouseLeave(const struct FPointerEvent& MouseEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ShorcutCurrencyPanel_C_2147480699", "OnMouseLeave");
+
+	Params::LUA_OVERRIDES_WBP_ShorcutCurrencyPanel_C_2147480699_OnMouseLeave Parms{};
+
+	Parms.MouseEvent = std::move(MouseEvent);
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ShorcutCurrencyPanel_C_2147480699.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ShorcutCurrencyPanel_C_2147480699::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ShorcutCurrencyPanel_C_2147480699", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ShorcutCurrencyPanel_C_2147480699.OnMouseEnter
+// (BlueprintCosmetic, Native, Event, Public, HasOutParams, BlueprintEvent)
+// Parameters:
+// const struct FGeometry&                 MyGeometry                                             (Parm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+// const struct FPointerEvent&             MouseEvent                                             (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
+
+void ULUA_OVERRIDES_WBP_ShorcutCurrencyPanel_C_2147480699::OnMouseEnter(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ShorcutCurrencyPanel_C_2147480699", "OnMouseEnter");
+
+	Params::LUA_OVERRIDES_WBP_ShorcutCurrencyPanel_C_2147480699_OnMouseEnter Parms{};
+
+	Parms.MyGeometry = std::move(MyGeometry);
+	Parms.MouseEvent = std::move(MouseEvent);
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ShorcutCurrencyPanel_C_2147480699.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ShorcutCurrencyPanel_C_2147480699::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ShorcutCurrencyPanel_C_2147480699", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ShorcutCurrencyPanel_C_2147480699.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ShorcutCurrencyPanel_C_2147480699::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ShorcutCurrencyPanel_C_2147480699", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ShortcutTaskItem_C_2147480698.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ShortcutTaskItem_C_2147480698::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ShortcutTaskItem_C_2147480698", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ShortcutTaskItem_C_2147480698.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ShortcutTaskItem_C_2147480698::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ShortcutTaskItem_C_2147480698", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ShortcutTaskItem_C_2147480698.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ShortcutTaskItem_C_2147480698::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ShortcutTaskItem_C_2147480698", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147480696.OnLuaClose
 // (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147481783::OnLuaOpen()
+void ULUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147480696::OnLuaClose()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147481783", "OnLuaOpen");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147480696", "OnLuaClose");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -12246,21 +11631,40 @@ void ULUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147481783::OnLuaOpen()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147481783.LuaHandleKeyEvent
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147480696.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147480696::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147480696", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147480696.LuaHandleKeyEvent
 // (Native, Event, Public, BlueprintEvent)
 // Parameters:
 // const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 // EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 // bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
 
-bool ULUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147481783::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+bool ULUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147480696::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147481783", "LuaHandleKeyEvent");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147480696", "LuaHandleKeyEvent");
 
-	Params::LUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147481783_LuaHandleKeyEvent Parms{};
+	Params::LUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147480696_LuaHandleKeyEvent Parms{};
 
 	Parms.Key = std::move(Key);
 	Parms.InputEvent = InputEvent;
@@ -12276,15 +11680,15 @@ bool ULUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147481783::LuaHandleKeyEvent(co
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147481783.OnLuaHide
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147480696.OnLuaShow
 // (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147481783::OnLuaHide()
+void ULUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147480696::OnLuaShow()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147481783", "OnLuaHide");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147480696", "OnLuaShow");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -12295,15 +11699,34 @@ void ULUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147481783::OnLuaHide()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147481783.OnLuaShow
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147480696.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147480696::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147480696", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147480696.OnLuaHide
 // (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147481783::OnLuaShow()
+void ULUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147480696::OnLuaHide()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147481783", "OnLuaShow");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147480696", "OnLuaHide");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -12314,34 +11737,15 @@ void ULUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147481783::OnLuaShow()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147481783.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147481783::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147481783", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147481783.OnLuaClose
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147480696.OnLuaOpen
 // (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147481783::OnLuaClose()
+void ULUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147480696::OnLuaOpen()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147481783", "OnLuaClose");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147480696", "OnLuaOpen");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -12352,15 +11756,15 @@ void ULUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147481783::OnLuaClose()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147481783.OnInitialized
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147480696.OnInitialized
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147481783::OnInitialized()
+void ULUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147480696::OnInitialized()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147481783", "OnInitialized");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SurveyEntryPanel_C_2147480696", "OnInitialized");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -12371,15 +11775,35 @@ void ULUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147481783::OnInitialized()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_MapDataDownloadButton_C_2147479129.Construct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SecondaryNavBar_MoreItem_C_2147480695.OnListItemObjectSet
+// (Event, Protected, BlueprintEvent)
+// Parameters:
+// class UObject*                          ListItemObject                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void ULUA_OVERRIDES_WBP_SecondaryNavBar_MoreItem_C_2147480695::OnListItemObjectSet(class UObject* ListItemObject)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SecondaryNavBar_MoreItem_C_2147480695", "OnListItemObjectSet");
+
+	Params::LUA_OVERRIDES_WBP_SecondaryNavBar_MoreItem_C_2147480695_OnListItemObjectSet Parms{};
+
+	Parms.ListItemObject = ListItemObject;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SecondaryNavBar_MoreItem_C_2147480695.Destruct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_MapDataDownloadButton_C_2147479129::Construct()
+void ULUA_OVERRIDES_WBP_SecondaryNavBar_MoreItem_C_2147480695::Destruct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_MapDataDownloadButton_C_2147479129", "Construct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SecondaryNavBar_MoreItem_C_2147480695", "Destruct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -12390,15 +11814,15 @@ void ULUA_OVERRIDES_WBP_MapDataDownloadButton_C_2147479129::Construct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_MapDataDownloadButton_C_2147479129.OnInitialized
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SecondaryNavBar_MoreItem_C_2147480695.Construct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_MapDataDownloadButton_C_2147479129::OnInitialized()
+void ULUA_OVERRIDES_WBP_SecondaryNavBar_MoreItem_C_2147480695::Construct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_MapDataDownloadButton_C_2147479129", "OnInitialized");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SecondaryNavBar_MoreItem_C_2147480695", "Construct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -12409,15 +11833,15 @@ void ULUA_OVERRIDES_WBP_MapDataDownloadButton_C_2147479129::OnInitialized()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_MapDataDownloadButton_C_2147479129.Destruct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SecondaryNavBar_MoreItem_C_2147480695.OnInitialized
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_MapDataDownloadButton_C_2147479129::Destruct()
+void ULUA_OVERRIDES_WBP_SecondaryNavBar_MoreItem_C_2147480695::OnInitialized()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_MapDataDownloadButton_C_2147479129", "Destruct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SecondaryNavBar_MoreItem_C_2147480695", "OnInitialized");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -12428,15 +11852,15 @@ void ULUA_OVERRIDES_WBP_MapDataDownloadButton_C_2147479129::Destruct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_NavigationPage_C_2147481782.Destruct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SecondaryNavBar_MoreList_C_2147480694.Destruct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_NavigationPage_C_2147481782::Destruct()
+void ULUA_OVERRIDES_WBP_SecondaryNavBar_MoreList_C_2147480694::Destruct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavigationPage_C_2147481782", "Destruct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SecondaryNavBar_MoreList_C_2147480694", "Destruct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -12447,15 +11871,110 @@ void ULUA_OVERRIDES_WBP_NavigationPage_C_2147481782::Destruct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_NavigationPage_C_2147481782.OnLuaClose
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SecondaryNavBar_MoreList_C_2147480694.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_SecondaryNavBar_MoreList_C_2147480694::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SecondaryNavBar_MoreList_C_2147480694", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SecondaryNavBar_MoreList_C_2147480694.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_SecondaryNavBar_MoreList_C_2147480694::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SecondaryNavBar_MoreList_C_2147480694", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_TargetGuideEntrance_C_2147480693.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_TargetGuideEntrance_C_2147480693::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_TargetGuideEntrance_C_2147480693", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_TargetGuideEntrance_C_2147480693.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_TargetGuideEntrance_C_2147480693::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_TargetGuideEntrance_C_2147480693", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_TargetGuideEntrance_C_2147480693.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_TargetGuideEntrance_C_2147480693::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_TargetGuideEntrance_C_2147480693", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147480692.OnLuaClose
 // (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_NavigationPage_C_2147481782::OnLuaClose()
+void ULUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147480692::OnLuaClose()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavigationPage_C_2147481782", "OnLuaClose");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147480692", "OnLuaClose");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -12466,78 +11985,21 @@ void ULUA_OVERRIDES_WBP_NavigationPage_C_2147481782::OnLuaClose()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_NavigationPage_C_2147481782.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_NavigationPage_C_2147481782::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavigationPage_C_2147481782", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_NavigationPage_C_2147481782.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_NavigationPage_C_2147481782::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavigationPage_C_2147481782", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_NavigationPage_C_2147481782.OnLuaShow
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_NavigationPage_C_2147481782::OnLuaShow()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavigationPage_C_2147481782", "OnLuaShow");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_NavigationPage_C_2147481782.LuaHandleKeyEvent
+// LuaFunction Transient.LUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147480692.LuaHandleKeyEvent
 // (Native, Event, Public, BlueprintEvent)
 // Parameters:
 // const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 // EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 // bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
 
-bool ULUA_OVERRIDES_WBP_NavigationPage_C_2147481782::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+bool ULUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147480692::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavigationPage_C_2147481782", "LuaHandleKeyEvent");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147480692", "LuaHandleKeyEvent");
 
-	Params::LUA_OVERRIDES_WBP_NavigationPage_C_2147481782_LuaHandleKeyEvent Parms{};
+	Params::LUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147480692_LuaHandleKeyEvent Parms{};
 
 	Parms.Key = std::move(Key);
 	Parms.InputEvent = InputEvent;
@@ -12553,15 +12015,15 @@ bool ULUA_OVERRIDES_WBP_NavigationPage_C_2147481782::LuaHandleKeyEvent(const str
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_NavigationPage_C_2147481782.OnLuaOpen
+// LuaFunction Transient.LUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147480692.OnLuaShow
 // (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_NavigationPage_C_2147481782::OnLuaOpen()
+void ULUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147480692::OnLuaShow()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavigationPage_C_2147481782", "OnLuaOpen");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147480692", "OnLuaShow");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -12572,15 +12034,15 @@ void ULUA_OVERRIDES_WBP_NavigationPage_C_2147481782::OnLuaOpen()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_NavigationPage_C_2147481782.OnLuaHide
-// (Native, Event, Public, BlueprintEvent)
+// LuaFunction Transient.LUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147480692.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_NavigationPage_C_2147481782::OnLuaHide()
+void ULUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147480692::Destruct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavigationPage_C_2147481782", "OnLuaHide");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147480692", "Destruct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -12591,20 +12053,346 @@ void ULUA_OVERRIDES_WBP_NavigationPage_C_2147481782::OnLuaHide()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_NavigationPage_C_2147481782.CustomHandleNavAction
+// LuaFunction Transient.LUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147480692.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147480692::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147480692", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147480692.OnLuaHide
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147480692::OnLuaHide()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147480692", "OnLuaHide");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147480692.OnLuaOpen
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147480692::OnLuaOpen()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147480692", "OnLuaOpen");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147480692.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147480692::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RefluxBannerCellPanel_C_2147480692", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionReminder_C_2147480691.OnMouseWheel
+// (BlueprintCosmetic, Native, Event, Public, HasOutParams, BlueprintEvent)
+// Parameters:
+// const struct FGeometry&                 MyGeometry                                             (Parm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+// const struct FPointerEvent&             MouseEvent                                             (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
+// struct FEventReply                      ReturnValue                                            (Parm, OutParm, ReturnParm, NativeAccessSpecifierPublic)
+
+struct FEventReply ULUA_OVERRIDES_WBP_CompetitionReminder_C_2147480691::OnMouseWheel(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionReminder_C_2147480691", "OnMouseWheel");
+
+	Params::LUA_OVERRIDES_WBP_CompetitionReminder_C_2147480691_OnMouseWheel Parms{};
+
+	Parms.MyGeometry = std::move(MyGeometry);
+	Parms.MouseEvent = std::move(MouseEvent);
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+
+	return Parms.ReturnValue;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionReminder_C_2147480691.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_CompetitionReminder_C_2147480691::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionReminder_C_2147480691", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionReminder_C_2147480691.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_CompetitionReminder_C_2147480691::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionReminder_C_2147480691", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CompetitionReminder_C_2147480691.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_CompetitionReminder_C_2147480691::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CompetitionReminder_C_2147480691", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_BannerCellPanel_C_2147480690.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_BannerCellPanel_C_2147480690::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BannerCellPanel_C_2147480690", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_BannerCellPanel_C_2147480690.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_BannerCellPanel_C_2147480690::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BannerCellPanel_C_2147480690", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_BannerCellPanel_C_2147480690.OnMouseWheel
+// (BlueprintCosmetic, Native, Event, Public, HasOutParams, BlueprintEvent)
+// Parameters:
+// const struct FGeometry&                 MyGeometry                                             (Parm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+// const struct FPointerEvent&             MouseEvent                                             (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
+// struct FEventReply                      ReturnValue                                            (Parm, OutParm, ReturnParm, NativeAccessSpecifierPublic)
+
+struct FEventReply ULUA_OVERRIDES_WBP_BannerCellPanel_C_2147480690::OnMouseWheel(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BannerCellPanel_C_2147480690", "OnMouseWheel");
+
+	Params::LUA_OVERRIDES_WBP_BannerCellPanel_C_2147480690_OnMouseWheel Parms{};
+
+	Parms.MyGeometry = std::move(MyGeometry);
+	Parms.MouseEvent = std::move(MouseEvent);
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+
+	return Parms.ReturnValue;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_BannerCellPanel_C_2147480690.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_BannerCellPanel_C_2147480690::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BannerCellPanel_C_2147480690", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_NavigationPage_C_2147480689.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_NavigationPage_C_2147480689::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavigationPage_C_2147480689", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_NavigationPage_C_2147480689.OnLuaHide
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_NavigationPage_C_2147480689::OnLuaHide()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavigationPage_C_2147480689", "OnLuaHide");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_NavigationPage_C_2147480689.OnLuaOpen
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_NavigationPage_C_2147480689::OnLuaOpen()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavigationPage_C_2147480689", "OnLuaOpen");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_NavigationPage_C_2147480689.OnLuaClose
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_NavigationPage_C_2147480689::OnLuaClose()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavigationPage_C_2147480689", "OnLuaClose");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_NavigationPage_C_2147480689.CustomHandleNavAction
 // (Native, Event, Public, HasOutParams, BlueprintCallable, BlueprintEvent)
 // Parameters:
 // struct FUINavActionReply*               Reply                                                  (Parm, OutParm, NativeAccessSpecifierPublic)
 // bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
 
-bool ULUA_OVERRIDES_WBP_NavigationPage_C_2147481782::CustomHandleNavAction(struct FUINavActionReply* Reply)
+bool ULUA_OVERRIDES_WBP_NavigationPage_C_2147480689::CustomHandleNavAction(struct FUINavActionReply* Reply)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavigationPage_C_2147481782", "CustomHandleNavAction");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavigationPage_C_2147480689", "CustomHandleNavAction");
 
-	Params::LUA_OVERRIDES_WBP_NavigationPage_C_2147481782_CustomHandleNavAction Parms{};
+	Params::LUA_OVERRIDES_WBP_NavigationPage_C_2147480689_CustomHandleNavAction Parms{};
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -12620,21 +12408,1669 @@ bool ULUA_OVERRIDES_WBP_NavigationPage_C_2147481782::CustomHandleNavAction(struc
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_RoomOperations_C_2147479126.LuaHandleKeyEvent
+// LuaFunction Transient.LUA_OVERRIDES_WBP_NavigationPage_C_2147480689.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_NavigationPage_C_2147480689::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavigationPage_C_2147480689", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_NavigationPage_C_2147480689.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_NavigationPage_C_2147480689::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavigationPage_C_2147480689", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_NavigationPage_C_2147480689.LuaHandleKeyEvent
+// (Native, Event, Public, BlueprintEvent)
+// Parameters:
+// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+
+bool ULUA_OVERRIDES_WBP_NavigationPage_C_2147480689::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavigationPage_C_2147480689", "LuaHandleKeyEvent");
+
+	Params::LUA_OVERRIDES_WBP_NavigationPage_C_2147480689_LuaHandleKeyEvent Parms{};
+
+	Parms.Key = std::move(Key);
+	Parms.InputEvent = InputEvent;
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+
+	return Parms.ReturnValue;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_NavigationPage_C_2147480689.OnLuaShow
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_NavigationPage_C_2147480689::OnLuaShow()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavigationPage_C_2147480689", "OnLuaShow");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_CyConditionObject_2147480280.BPGetMatchConditionCount
+// (Event, Protected, BlueprintEvent)
+// Parameters:
+// const class FString&                    ModuleName                                             (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// const class FString&                    ParamsStr                                              (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// int32                                   ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+int32 ULUA_OVERRIDES_CyConditionObject_2147480280::BPGetMatchConditionCount(const class FString& ModuleName, const class FString& ParamsStr)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_CyConditionObject_2147480280", "BPGetMatchConditionCount");
+
+	Params::LUA_OVERRIDES_CyConditionObject_2147480280_BPGetMatchConditionCount Parms{};
+
+	Parms.ModuleName = std::move(ModuleName);
+	Parms.ParamsStr = std::move(ParamsStr);
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	return Parms.ReturnValue;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147480154.OnLuaHide
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147480154::OnLuaHide()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147480154", "OnLuaHide");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147480154.OnLuaOpen
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147480154::OnLuaOpen()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147480154", "OnLuaOpen");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147480154.OnLuaClose
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147480154::OnLuaClose()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147480154", "OnLuaClose");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147480154.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147480154::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147480154", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147480154.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147480154::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147480154", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147480154.CustomHandleNavAction
+// (Native, Event, Public, HasOutParams, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// struct FUINavActionReply*               Reply                                                  (Parm, OutParm, NativeAccessSpecifierPublic)
+// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+
+bool ULUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147480154::CustomHandleNavAction(struct FUINavActionReply* Reply)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147480154", "CustomHandleNavAction");
+
+	Params::LUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147480154_CustomHandleNavAction Parms{};
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+
+	if (Reply != nullptr)
+		*Reply = std::move(Parms.Reply);
+
+	return Parms.ReturnValue;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147480154.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147480154::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147480154", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147480154.OnLuaShow
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147480154::OnLuaShow()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147480154", "OnLuaShow");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147480154.LuaHandleKeyEvent
+// (Native, Event, Public, BlueprintEvent)
+// Parameters:
+// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+
+bool ULUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147480154::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147480154", "LuaHandleKeyEvent");
+
+	Params::LUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147480154_LuaHandleKeyEvent Parms{};
+
+	Parms.Key = std::move(Key);
+	Parms.InputEvent = InputEvent;
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+
+	return Parms.ReturnValue;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_HumanMachineModeListItem_C_2147480137.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_HumanMachineModeListItem_C_2147480137::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_HumanMachineModeListItem_C_2147480137", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_HumanMachineModeListItem_C_2147480137.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_HumanMachineModeListItem_C_2147480137::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_HumanMachineModeListItem_C_2147480137", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_HumanMachineModeListItem_C_2147480137.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_HumanMachineModeListItem_C_2147480137::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_HumanMachineModeListItem_C_2147480137", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_HumanMachineModeList_C_2147480136.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_HumanMachineModeList_C_2147480136::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_HumanMachineModeList_C_2147480136", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_HumanMachineModeList_C_2147480136.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_HumanMachineModeList_C_2147480136::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_HumanMachineModeList_C_2147480136", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_HumanMachineModeList_C_2147480136.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_HumanMachineModeList_C_2147480136::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_HumanMachineModeList_C_2147480136", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ArcadeModeListItem_C_2147480135.OnMouseButtonDown
+// (BlueprintCosmetic, Native, Event, Public, HasOutParams, BlueprintEvent)
+// Parameters:
+// const struct FGeometry&                 MyGeometry                                             (Parm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+// const struct FPointerEvent&             MouseEvent                                             (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
+// struct FEventReply                      ReturnValue                                            (Parm, OutParm, ReturnParm, NativeAccessSpecifierPublic)
+
+struct FEventReply ULUA_OVERRIDES_WBP_ArcadeModeListItem_C_2147480135::OnMouseButtonDown(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ArcadeModeListItem_C_2147480135", "OnMouseButtonDown");
+
+	Params::LUA_OVERRIDES_WBP_ArcadeModeListItem_C_2147480135_OnMouseButtonDown Parms{};
+
+	Parms.MyGeometry = std::move(MyGeometry);
+	Parms.MouseEvent = std::move(MouseEvent);
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+
+	return Parms.ReturnValue;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ArcadeModeListItem_C_2147480135.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ArcadeModeListItem_C_2147480135::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ArcadeModeListItem_C_2147480135", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ArcadeModeListItem_C_2147480135.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ArcadeModeListItem_C_2147480135::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ArcadeModeListItem_C_2147480135", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ArcadeModeListItem_C_2147480135.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ArcadeModeListItem_C_2147480135::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ArcadeModeListItem_C_2147480135", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ArcadeModeList_C_2147480134.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ArcadeModeList_C_2147480134::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ArcadeModeList_C_2147480134", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ArcadeModeList_C_2147480134.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ArcadeModeList_C_2147480134::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ArcadeModeList_C_2147480134", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ArcadeModeList_C_2147480134.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ArcadeModeList_C_2147480134::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ArcadeModeList_C_2147480134", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_RoomModeSelectBtn_C_2147480131.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_RoomModeSelectBtn_C_2147480131::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RoomModeSelectBtn_C_2147480131", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_RoomModeSelectBtn_C_2147480131.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_RoomModeSelectBtn_C_2147480131::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RoomModeSelectBtn_C_2147480131", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_RoomModeSelectBtn_C_2147480131.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_RoomModeSelectBtn_C_2147480131::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RoomModeSelectBtn_C_2147480131", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147480029.OnLuaClose
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147480029::OnLuaClose()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147480029", "OnLuaClose");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147480029.LuaHandleKeyEvent
+// (Native, Event, Public, BlueprintEvent)
+// Parameters:
+// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+
+bool ULUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147480029::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147480029", "LuaHandleKeyEvent");
+
+	Params::LUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147480029_LuaHandleKeyEvent Parms{};
+
+	Parms.Key = std::move(Key);
+	Parms.InputEvent = InputEvent;
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+
+	return Parms.ReturnValue;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147480029.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147480029::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147480029", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147480029.OnLuaShow
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147480029::OnLuaShow()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147480029", "OnLuaShow");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147480029.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147480029::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147480029", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147480029.OnLuaHide
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147480029::OnLuaHide()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147480029", "OnLuaHide");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147480029.OnLuaOpen
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147480029::OnLuaOpen()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147480029", "OnLuaOpen");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147480029.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147480029::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147480029", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_MapDataDownloadButton_C_2147480028.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_MapDataDownloadButton_C_2147480028::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_MapDataDownloadButton_C_2147480028", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_MapDataDownloadButton_C_2147480028.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_MapDataDownloadButton_C_2147480028::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_MapDataDownloadButton_C_2147480028", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_MapDataDownloadButton_C_2147480028.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_MapDataDownloadButton_C_2147480028::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_MapDataDownloadButton_C_2147480028", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SmallSpeakerContrlPanel_C_2147480027.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_SmallSpeakerContrlPanel_C_2147480027::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SmallSpeakerContrlPanel_C_2147480027", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SmallSpeakerContrlPanel_C_2147480027.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_SmallSpeakerContrlPanel_C_2147480027::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SmallSpeakerContrlPanel_C_2147480027", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_SmallSpeakerContrlPanel_C_2147480027.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_SmallSpeakerContrlPanel_C_2147480027::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SmallSpeakerContrlPanel_C_2147480027", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CardContextMenu_C_2147480025.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_CardContextMenu_C_2147480025::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CardContextMenu_C_2147480025", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CardContextMenu_C_2147480025.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_CardContextMenu_C_2147480025::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CardContextMenu_C_2147480025", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_CardContextMenu_C_2147480025.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_CardContextMenu_C_2147480025::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CardContextMenu_C_2147480025", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_RoomNetworkPanel_C_2147480024.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_RoomNetworkPanel_C_2147480024::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RoomNetworkPanel_C_2147480024", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_RoomNetworkPanel_C_2147480024.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_RoomNetworkPanel_C_2147480024::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RoomNetworkPanel_C_2147480024", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_RoomNetworkPanel_C_2147480024.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_RoomNetworkPanel_C_2147480024::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RoomNetworkPanel_C_2147480024", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ActivityTask_C_2147480022.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ActivityTask_C_2147480022::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ActivityTask_C_2147480022", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ActivityTask_C_2147480022.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ActivityTask_C_2147480022::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ActivityTask_C_2147480022", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ActivityTask_C_2147480022.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ActivityTask_C_2147480022::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ActivityTask_C_2147480022", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_RoomOperations_C_2147480021.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_RoomOperations_C_2147480021::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RoomOperations_C_2147480021", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_RoomOperations_C_2147480021.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_RoomOperations_C_2147480021::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RoomOperations_C_2147480021", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_RoomOperations_C_2147480021.LuaHandleKeyEvent
+// (Native, Event, Public, BlueprintEvent)
+// Parameters:
+// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+
+bool ULUA_OVERRIDES_WBP_RoomOperations_C_2147480021::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RoomOperations_C_2147480021", "LuaHandleKeyEvent");
+
+	Params::LUA_OVERRIDES_WBP_RoomOperations_C_2147480021_LuaHandleKeyEvent Parms{};
+
+	Parms.Key = std::move(Key);
+	Parms.InputEvent = InputEvent;
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+
+	return Parms.ReturnValue;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_RoomOperations_C_2147480021.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_RoomOperations_C_2147480021::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RoomOperations_C_2147480021", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_NetMainPanel_C_2147480020.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_NetMainPanel_C_2147480020::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NetMainPanel_C_2147480020", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_NetMainPanel_C_2147480020.OnMouseLeave
+// (BlueprintCosmetic, Native, Event, Public, HasOutParams, BlueprintEvent)
+// Parameters:
+// const struct FPointerEvent&             MouseEvent                                             (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
+
+void ULUA_OVERRIDES_WBP_NetMainPanel_C_2147480020::OnMouseLeave(const struct FPointerEvent& MouseEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NetMainPanel_C_2147480020", "OnMouseLeave");
+
+	Params::LUA_OVERRIDES_WBP_NetMainPanel_C_2147480020_OnMouseLeave Parms{};
+
+	Parms.MouseEvent = std::move(MouseEvent);
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_NetMainPanel_C_2147480020.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_NetMainPanel_C_2147480020::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NetMainPanel_C_2147480020", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_NetMainPanel_C_2147480020.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_NetMainPanel_C_2147480020::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NetMainPanel_C_2147480020", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_NetMainPanel_C_2147480020.OnMouseEnter
+// (BlueprintCosmetic, Native, Event, Public, HasOutParams, BlueprintEvent)
+// Parameters:
+// const struct FGeometry&                 MyGeometry                                             (Parm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+// const struct FPointerEvent&             MouseEvent                                             (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
+
+void ULUA_OVERRIDES_WBP_NetMainPanel_C_2147480020::OnMouseEnter(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NetMainPanel_C_2147480020", "OnMouseEnter");
+
+	Params::LUA_OVERRIDES_WBP_NetMainPanel_C_2147480020_OnMouseEnter Parms{};
+
+	Parms.MyGeometry = std::move(MyGeometry);
+	Parms.MouseEvent = std::move(MouseEvent);
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_NetItem_C_2147480019.OnMouseButtonDown
+// (BlueprintCosmetic, Native, Event, Public, HasOutParams, BlueprintEvent)
+// Parameters:
+// const struct FGeometry&                 MyGeometry                                             (Parm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+// const struct FPointerEvent&             MouseEvent                                             (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
+// struct FEventReply                      ReturnValue                                            (Parm, OutParm, ReturnParm, NativeAccessSpecifierPublic)
+
+struct FEventReply ULUA_OVERRIDES_WBP_NetItem_C_2147480019::OnMouseButtonDown(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NetItem_C_2147480019", "OnMouseButtonDown");
+
+	Params::LUA_OVERRIDES_WBP_NetItem_C_2147480019_OnMouseButtonDown Parms{};
+
+	Parms.MyGeometry = std::move(MyGeometry);
+	Parms.MouseEvent = std::move(MouseEvent);
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+
+	return Parms.ReturnValue;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_NetItem_C_2147480019.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_NetItem_C_2147480019::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NetItem_C_2147480019", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_NetItem_C_2147480019.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_NetItem_C_2147480019::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NetItem_C_2147480019", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_NetItem_C_2147480019.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_NetItem_C_2147480019::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NetItem_C_2147480019", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_NetItem_C_2147480019.OnLuaItemHovered
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_NetItem_C_2147480019::OnLuaItemHovered()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NetItem_C_2147480019", "OnLuaItemHovered");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_NetItem_C_2147480019.OnListItemObjectSet
+// (Event, Protected, BlueprintEvent)
+// Parameters:
+// class UObject*                          ListItemObject                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void ULUA_OVERRIDES_WBP_NetItem_C_2147480019::OnListItemObjectSet(class UObject* ListItemObject)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NetItem_C_2147480019", "OnListItemObjectSet");
+
+	Params::LUA_OVERRIDES_WBP_NetItem_C_2147480019_OnListItemObjectSet Parms{};
+
+	Parms.ListItemObject = ListItemObject;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_NetItem_C_2147480019.OnLuaItemUnhovered
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_NetItem_C_2147480019::OnLuaItemUnhovered()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NetItem_C_2147480019", "OnLuaItemUnhovered");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_NetPanel_C_2147480018.OnListItemObjectSet
+// (Event, Protected, BlueprintEvent)
+// Parameters:
+// class UObject*                          ListItemObject                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+
+void ULUA_OVERRIDES_WBP_NetPanel_C_2147480018::OnListItemObjectSet(class UObject* ListItemObject)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NetPanel_C_2147480018", "OnListItemObjectSet");
+
+	Params::LUA_OVERRIDES_WBP_NetPanel_C_2147480018_OnListItemObjectSet Parms{};
+
+	Parms.ListItemObject = ListItemObject;
+
+	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_NetPanel_C_2147480018.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_NetPanel_C_2147480018::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NetPanel_C_2147480018", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_NetPanel_C_2147480018.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_NetPanel_C_2147480018::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NetPanel_C_2147480018", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_NetPanel_C_2147480018.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_NetPanel_C_2147480018::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NetPanel_C_2147480018", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_MatchRoom_C_2147480017.OnLuaHide
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_MatchRoom_C_2147480017::OnLuaHide()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_MatchRoom_C_2147480017", "OnLuaHide");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_MatchRoom_C_2147480017.OnLuaOpen
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_MatchRoom_C_2147480017::OnLuaOpen()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_MatchRoom_C_2147480017", "OnLuaOpen");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_MatchRoom_C_2147480017.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_MatchRoom_C_2147480017::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_MatchRoom_C_2147480017", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_MatchRoom_C_2147480017.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_MatchRoom_C_2147480017::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_MatchRoom_C_2147480017", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_MatchRoom_C_2147480017.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_MatchRoom_C_2147480017::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_MatchRoom_C_2147480017", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_MatchRoom_C_2147480017.OnLuaShow
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_MatchRoom_C_2147480017::OnLuaShow()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_MatchRoom_C_2147480017", "OnLuaShow");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_MatchRoom_C_2147480017.LuaHandleKeyEvent
+// (Native, Event, Public, BlueprintEvent)
+// Parameters:
+// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+
+bool ULUA_OVERRIDES_WBP_MatchRoom_C_2147480017::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_MatchRoom_C_2147480017", "LuaHandleKeyEvent");
+
+	Params::LUA_OVERRIDES_WBP_MatchRoom_C_2147480017_LuaHandleKeyEvent Parms{};
+
+	Parms.Key = std::move(Key);
+	Parms.InputEvent = InputEvent;
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+
+	return Parms.ReturnValue;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_MatchRoom_C_2147480017.OnLuaClose
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_MatchRoom_C_2147480017::OnLuaClose()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_MatchRoom_C_2147480017", "OnLuaClose");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_GameChatPage_C_2147477891.LuaHandleKeyEvent
 // (Native, Event, Public, BlueprintEvent)
 // Parameters:
 // const struct FKey&                      Key_LuaHandleKeyEvent                                  (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 // EInputEvent                             InputEvent_LuaHandleKeyEvent                           (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 // bool                                    ReturnValue_LuaHandleKeyEvent                          (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
 
-bool ULUA_OVERRIDES_WBP_RoomOperations_C_2147479126::LuaHandleKeyEvent(const struct FKey& Key_LuaHandleKeyEvent, EInputEvent InputEvent_LuaHandleKeyEvent)
+bool ULUA_OVERRIDES_WBP_GameChatPage_C_2147477891::LuaHandleKeyEvent(const struct FKey& Key_LuaHandleKeyEvent, EInputEvent InputEvent_LuaHandleKeyEvent)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RoomOperations_C_2147479126", "LuaHandleKeyEvent");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_GameChatPage_C_2147477891", "LuaHandleKeyEvent");
 
-	Params::LUA_OVERRIDES_WBP_RoomOperations_C_2147479126_LuaHandleKeyEvent Parms{};
+	Params::LUA_OVERRIDES_WBP_GameChatPage_C_2147477891_LuaHandleKeyEvent Parms{};
 
 	Parms.Key_LuaHandleKeyEvent = std::move(Key_LuaHandleKeyEvent);
 	Parms.InputEvent_LuaHandleKeyEvent = InputEvent_LuaHandleKeyEvent;
@@ -12650,91 +14086,15 @@ bool ULUA_OVERRIDES_WBP_RoomOperations_C_2147479126::LuaHandleKeyEvent(const str
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_RoomOperations_C_2147479126.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_RoomOperations_C_2147479126::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RoomOperations_C_2147479126", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_RoomOperations_C_2147479126.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_RoomOperations_C_2147479126::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RoomOperations_C_2147479126", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_RoomOperations_C_2147479126.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_RoomOperations_C_2147479126::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RoomOperations_C_2147479126", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_KaPhoneMsgTip_C_2147481652.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_KaPhoneMsgTip_C_2147481652::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_KaPhoneMsgTip_C_2147481652", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_KaPhoneMsgTip_C_2147481652.OnLuaHide
+// LuaFunction Transient.LUA_OVERRIDES_WBP_GameChatPage_C_2147477891.OnLuaShow
 // (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_KaPhoneMsgTip_C_2147481652::OnLuaHide()
+void ULUA_OVERRIDES_WBP_GameChatPage_C_2147477891::OnLuaShow()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_KaPhoneMsgTip_C_2147481652", "OnLuaHide");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_GameChatPage_C_2147477891", "OnLuaShow");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -12745,24 +14105,44 @@ void ULUA_OVERRIDES_WBP_KaPhoneMsgTip_C_2147481652::OnLuaHide()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_KaPhoneMsgTip_C_2147481652.LuaHandleKeyEvent
+// LuaFunction Transient.LUA_OVERRIDES_WBP_GameChatPage_C_2147477891.OnRemovedFromFocusPath
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+// Parameters:
+// const struct FFocusEvent&               InFocusEvent_OnRemovedFromFocusPath                    (Parm, NoDestructor, NativeAccessSpecifierPublic)
+
+void ULUA_OVERRIDES_WBP_GameChatPage_C_2147477891::OnRemovedFromFocusPath(const struct FFocusEvent& InFocusEvent_OnRemovedFromFocusPath)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_GameChatPage_C_2147477891", "OnRemovedFromFocusPath");
+
+	Params::LUA_OVERRIDES_WBP_GameChatPage_C_2147477891_OnRemovedFromFocusPath Parms{};
+
+	Parms.InFocusEvent_OnRemovedFromFocusPath = std::move(InFocusEvent_OnRemovedFromFocusPath);
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_GameChatPage_C_2147477891.IsChatActived
 // (Native, Event, Public, BlueprintEvent)
 // Parameters:
-// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+// bool                                    ReturnValue_IsChatActived                              (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
 
-bool ULUA_OVERRIDES_WBP_KaPhoneMsgTip_C_2147481652::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+bool ULUA_OVERRIDES_WBP_GameChatPage_C_2147477891::IsChatActived()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_KaPhoneMsgTip_C_2147481652", "LuaHandleKeyEvent");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_GameChatPage_C_2147477891", "IsChatActived");
 
-	Params::LUA_OVERRIDES_WBP_KaPhoneMsgTip_C_2147481652_LuaHandleKeyEvent Parms{};
-
-	Parms.Key = std::move(Key);
-	Parms.InputEvent = InputEvent;
+	Params::LUA_OVERRIDES_WBP_GameChatPage_C_2147477891_IsChatActived Parms{};
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -12775,53 +14155,15 @@ bool ULUA_OVERRIDES_WBP_KaPhoneMsgTip_C_2147481652::LuaHandleKeyEvent(const stru
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_KaPhoneMsgTip_C_2147481652.OnLuaShow
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_KaPhoneMsgTip_C_2147481652::OnLuaShow()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_KaPhoneMsgTip_C_2147481652", "OnLuaShow");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_KaPhoneMsgTip_C_2147481652.OnLuaClose
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_KaPhoneMsgTip_C_2147481652::OnLuaClose()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_KaPhoneMsgTip_C_2147481652", "OnLuaClose");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_KaPhoneMsgTip_C_2147481652.Construct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_GameChatPage_C_2147477891.OnInitialized
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_KaPhoneMsgTip_C_2147481652::Construct()
+void ULUA_OVERRIDES_WBP_GameChatPage_C_2147477891::OnInitialized()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_KaPhoneMsgTip_C_2147481652", "Construct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_GameChatPage_C_2147477891", "OnInitialized");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -12832,15 +14174,15 @@ void ULUA_OVERRIDES_WBP_KaPhoneMsgTip_C_2147481652::Construct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_KaPhoneMsgTip_C_2147481652.OnInitialized
+// LuaFunction Transient.LUA_OVERRIDES_WBP_GameChatPage_C_2147477891.Construct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_KaPhoneMsgTip_C_2147481652::OnInitialized()
+void ULUA_OVERRIDES_WBP_GameChatPage_C_2147477891::Construct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_KaPhoneMsgTip_C_2147481652", "OnInitialized");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_GameChatPage_C_2147477891", "Construct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -12851,59 +14193,61 @@ void ULUA_OVERRIDES_WBP_KaPhoneMsgTip_C_2147481652::OnInitialized()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_KaPhoneMsgTip_C_2147481652.OnLuaOpen
+// LuaFunction Transient.LUA_OVERRIDES_WBP_GameChatPage_C_2147477891.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_GameChatPage_C_2147477891::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_GameChatPage_C_2147477891", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_GameChatPage_C_2147477891.OnGameStateChanged
 // (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_KaPhoneMsgTip_C_2147481652::OnLuaOpen()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_KaPhoneMsgTip_C_2147481652", "OnLuaOpen");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_CyConditionObject_2147481346.BPGetMatchConditionCount
-// (Event, Protected, BlueprintEvent)
 // Parameters:
-// const class FString&                    ModuleName                                             (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// const class FString&                    ParamsStr                                              (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// int32                                   ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// EGStateType                             PrevState_OnGameStateChanged                           (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// EGStateType                             NextState_OnGameStateChanged                           (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 
-int32 ULUA_OVERRIDES_CyConditionObject_2147481346::BPGetMatchConditionCount(const class FString& ModuleName, const class FString& ParamsStr)
+void ULUA_OVERRIDES_WBP_GameChatPage_C_2147477891::OnGameStateChanged(EGStateType PrevState_OnGameStateChanged, EGStateType NextState_OnGameStateChanged)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_CyConditionObject_2147481346", "BPGetMatchConditionCount");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_GameChatPage_C_2147477891", "OnGameStateChanged");
 
-	Params::LUA_OVERRIDES_CyConditionObject_2147481346_BPGetMatchConditionCount Parms{};
+	Params::LUA_OVERRIDES_WBP_GameChatPage_C_2147477891_OnGameStateChanged Parms{};
 
-	Parms.ModuleName = std::move(ModuleName);
-	Parms.ParamsStr = std::move(ParamsStr);
+	Parms.PrevState_OnGameStateChanged = PrevState_OnGameStateChanged;
+	Parms.NextState_OnGameStateChanged = NextState_OnGameStateChanged;
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
 
 	UObject::ProcessEvent(Func, &Parms);
 
-	return Parms.ReturnValue;
+	Func->FunctionFlags = Flgs;
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_NetItem_C_2147481261.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+// LuaFunction Transient.LUA_OVERRIDES_WBP_GameChatPage_C_2147477891.OnLuaClose
+// (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_NetItem_C_2147481261::Destruct()
+void ULUA_OVERRIDES_WBP_GameChatPage_C_2147477891::OnLuaClose()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NetItem_C_2147481261", "Destruct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_GameChatPage_C_2147477891", "OnLuaClose");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -12914,15 +14258,15 @@ void ULUA_OVERRIDES_WBP_NetItem_C_2147481261::Destruct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_NetItem_C_2147481261.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+// LuaFunction Transient.LUA_OVERRIDES_WBP_GameChatPage_C_2147477891.OnLuaOpen
+// (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_NetItem_C_2147481261::OnInitialized()
+void ULUA_OVERRIDES_WBP_GameChatPage_C_2147477891::OnLuaOpen()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NetItem_C_2147481261", "OnInitialized");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_GameChatPage_C_2147477891", "OnLuaOpen");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -12933,19 +14277,241 @@ void ULUA_OVERRIDES_WBP_NetItem_C_2147481261::OnInitialized()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_NetItem_C_2147481261.OnListItemObjectSet
+// LuaFunction Transient.LUA_OVERRIDES_WBP_GameChatPage_C_2147477891.SetInGameState
+// (Native, Event, Public, BlueprintEvent)
+// Parameters:
+// bool                                    bInGame_SetInGameState                                 (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+
+void ULUA_OVERRIDES_WBP_GameChatPage_C_2147477891::SetInGameState(bool bInGame_SetInGameState)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_GameChatPage_C_2147477891", "SetInGameState");
+
+	Params::LUA_OVERRIDES_WBP_GameChatPage_C_2147477891_SetInGameState Parms{};
+
+	Parms.bInGame_SetInGameState = bInGame_SetInGameState;
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_GameChatPage_C_2147477891.OnLuaHide
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_GameChatPage_C_2147477891::OnLuaHide()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_GameChatPage_C_2147477891", "OnLuaHide");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_GameChatPage_C_2147477891.AddSystemMsg
+// (Native, Event, Public, HasOutParams, BlueprintEvent)
+// Parameters:
+// class FText*                            SystemMsgContent_AddSystemMsg                          (Parm, OutParm, NativeAccessSpecifierPublic)
+
+void ULUA_OVERRIDES_WBP_GameChatPage_C_2147477891::AddSystemMsg(class FText* SystemMsgContent_AddSystemMsg)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_GameChatPage_C_2147477891", "AddSystemMsg");
+
+	Params::LUA_OVERRIDES_WBP_GameChatPage_C_2147477891_AddSystemMsg Parms{};
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+
+	if (SystemMsgContent_AddSystemMsg != nullptr)
+		*SystemMsgContent_AddSystemMsg = std::move(Parms.SystemMsgContent_AddSystemMsg);
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_GameChatPage_C_2147477891.InitView
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_GameChatPage_C_2147477891::InitView()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_GameChatPage_C_2147477891", "InitView");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_PrivateChatList_C_2147477892.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_PrivateChatList_C_2147477892::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PrivateChatList_C_2147477892", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_PrivateChatList_C_2147477892.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_PrivateChatList_C_2147477892::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PrivateChatList_C_2147477892", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_PrivateChatList_C_2147477892.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_PrivateChatList_C_2147477892::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PrivateChatList_C_2147477892", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_PrivateChatName_C_2147477893.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_PrivateChatName_C_2147477893::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PrivateChatName_C_2147477893", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_PrivateChatName_C_2147477893.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_PrivateChatName_C_2147477893::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PrivateChatName_C_2147477893", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_PrivateChatName_C_2147477893.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_PrivateChatName_C_2147477893::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PrivateChatName_C_2147477893", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_C_2147477895.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatText_C_2147477895::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_C_2147477895", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_C_2147477895.OnListItemObjectSet
 // (Event, Protected, BlueprintEvent)
 // Parameters:
 // class UObject*                          ListItemObject                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void ULUA_OVERRIDES_WBP_NetItem_C_2147481261::OnListItemObjectSet(class UObject* ListItemObject)
+void ULUA_OVERRIDES_WBP_ChatText_C_2147477895::OnListItemObjectSet(class UObject* ListItemObject)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NetItem_C_2147481261", "OnListItemObjectSet");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_C_2147477895", "OnListItemObjectSet");
 
-	Params::LUA_OVERRIDES_WBP_NetItem_C_2147481261_OnListItemObjectSet Parms{};
+	Params::LUA_OVERRIDES_WBP_ChatText_C_2147477895_OnListItemObjectSet Parms{};
 
 	Parms.ListItemObject = ListItemObject;
 
@@ -12953,24 +14519,163 @@ void ULUA_OVERRIDES_WBP_NetItem_C_2147481261::OnListItemObjectSet(class UObject*
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_NetItem_C_2147481261.OnMouseButtonDown
-// (BlueprintCosmetic, Native, Event, Public, HasOutParams, BlueprintEvent)
-// Parameters:
-// const struct FGeometry&                 MyGeometry                                             (Parm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-// const struct FPointerEvent&             MouseEvent                                             (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
-// struct FEventReply                      ReturnValue                                            (Parm, OutParm, ReturnParm, NativeAccessSpecifierPublic)
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_C_2147477895.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-struct FEventReply ULUA_OVERRIDES_WBP_NetItem_C_2147481261::OnMouseButtonDown(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
+void ULUA_OVERRIDES_WBP_ChatText_C_2147477895::Construct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NetItem_C_2147481261", "OnMouseButtonDown");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_C_2147477895", "Construct");
 
-	Params::LUA_OVERRIDES_WBP_NetItem_C_2147481261_OnMouseButtonDown Parms{};
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
 
-	Parms.MyGeometry = std::move(MyGeometry);
-	Parms.MouseEvent = std::move(MouseEvent);
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_ChatText_C_2147477895.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_ChatText_C_2147477895::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ChatText_C_2147477895", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_NoviceGuide_UIGuidePage_C_2147477914.OnLuaOpen
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_NoviceGuide_UIGuidePage_C_2147477914::OnLuaOpen()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NoviceGuide_UIGuidePage_C_2147477914", "OnLuaOpen");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_NoviceGuide_UIGuidePage_C_2147477914.K2_OnViewTargetChanged
+// (Native, Event, Protected, BlueprintEvent)
+// Parameters:
+// const class AActor*                     InViewTarget_K2_OnViewTargetChanged                    (ConstParm, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+void ULUA_OVERRIDES_WBP_NoviceGuide_UIGuidePage_C_2147477914::K2_OnViewTargetChanged(const class AActor* InViewTarget_K2_OnViewTargetChanged)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NoviceGuide_UIGuidePage_C_2147477914", "K2_OnViewTargetChanged");
+
+	Params::LUA_OVERRIDES_WBP_NoviceGuide_UIGuidePage_C_2147477914_K2_OnViewTargetChanged Parms{};
+
+	Parms.InViewTarget_K2_OnViewTargetChanged = InViewTarget_K2_OnViewTargetChanged;
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_NoviceGuide_UIGuidePage_C_2147477914.OnLuaShow
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_NoviceGuide_UIGuidePage_C_2147477914::OnLuaShow()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NoviceGuide_UIGuidePage_C_2147477914", "OnLuaShow");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_NoviceGuide_UIGuidePage_C_2147477914.OnLuaHide
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_NoviceGuide_UIGuidePage_C_2147477914::OnLuaHide()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NoviceGuide_UIGuidePage_C_2147477914", "OnLuaHide");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_NoviceGuide_UIGuidePage_C_2147477914.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_NoviceGuide_UIGuidePage_C_2147477914::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NoviceGuide_UIGuidePage_C_2147477914", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_NoviceGuide_UIGuidePage_C_2147477914.LuaHandleKeyEvent
+// (Native, Event, Public, BlueprintEvent)
+// Parameters:
+// const struct FKey&                      Key_LuaHandleKeyEvent                                  (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// EInputEvent                             InputEvent_LuaHandleKeyEvent                           (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// bool                                    ReturnValue_LuaHandleKeyEvent                          (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+
+bool ULUA_OVERRIDES_WBP_NoviceGuide_UIGuidePage_C_2147477914::LuaHandleKeyEvent(const struct FKey& Key_LuaHandleKeyEvent, EInputEvent InputEvent_LuaHandleKeyEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NoviceGuide_UIGuidePage_C_2147477914", "LuaHandleKeyEvent");
+
+	Params::LUA_OVERRIDES_WBP_NoviceGuide_UIGuidePage_C_2147477914_LuaHandleKeyEvent Parms{};
+
+	Parms.Key_LuaHandleKeyEvent = std::move(Key_LuaHandleKeyEvent);
+	Parms.InputEvent_LuaHandleKeyEvent = InputEvent_LuaHandleKeyEvent;
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -12983,15 +14688,15 @@ struct FEventReply ULUA_OVERRIDES_WBP_NetItem_C_2147481261::OnMouseButtonDown(co
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_NetItem_C_2147481261.OnLuaItemHovered
+// LuaFunction Transient.LUA_OVERRIDES_WBP_NoviceGuide_UIGuidePage_C_2147477914.Destruct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_NetItem_C_2147481261::OnLuaItemHovered()
+void ULUA_OVERRIDES_WBP_NoviceGuide_UIGuidePage_C_2147477914::Destruct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NetItem_C_2147481261", "OnLuaItemHovered");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NoviceGuide_UIGuidePage_C_2147477914", "Destruct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -13002,15 +14707,15 @@ void ULUA_OVERRIDES_WBP_NetItem_C_2147481261::OnLuaItemHovered()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_NetItem_C_2147481261.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+// LuaFunction Transient.LUA_OVERRIDES_WBP_NoviceGuide_UIGuidePage_C_2147477914.OnLuaClose
+// (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_NetItem_C_2147481261::Construct()
+void ULUA_OVERRIDES_WBP_NoviceGuide_UIGuidePage_C_2147477914::OnLuaClose()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NetItem_C_2147481261", "Construct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NoviceGuide_UIGuidePage_C_2147477914", "OnLuaClose");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -13021,15 +14726,15 @@ void ULUA_OVERRIDES_WBP_NetItem_C_2147481261::Construct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_NetItem_C_2147481261.OnLuaItemUnhovered
+// LuaFunction Transient.LUA_OVERRIDES_WBP_NoviceGuide_UIGuidePage_C_2147477914.OnInitialized
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_NetItem_C_2147481261::OnLuaItemUnhovered()
+void ULUA_OVERRIDES_WBP_NoviceGuide_UIGuidePage_C_2147477914::OnInitialized()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NetItem_C_2147481261", "OnLuaItemUnhovered");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NoviceGuide_UIGuidePage_C_2147477914", "OnInitialized");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -13040,15 +14745,15 @@ void ULUA_OVERRIDES_WBP_NetItem_C_2147481261::OnLuaItemUnhovered()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_NetMainPanel_C_2147481260.Destruct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_Guide_SubTaskTipsItem_C_2147477915.OnInitialized
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_NetMainPanel_C_2147481260::Destruct()
+void ULUA_OVERRIDES_WBP_Guide_SubTaskTipsItem_C_2147477915::OnInitialized()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NetMainPanel_C_2147481260", "Destruct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_Guide_SubTaskTipsItem_C_2147477915", "OnInitialized");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -13059,15 +14764,15 @@ void ULUA_OVERRIDES_WBP_NetMainPanel_C_2147481260::Destruct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_NetMainPanel_C_2147481260.OnInitialized
+// LuaFunction Transient.LUA_OVERRIDES_WBP_Guide_SubTaskTipsItem_C_2147477915.Construct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_NetMainPanel_C_2147481260::OnInitialized()
+void ULUA_OVERRIDES_WBP_Guide_SubTaskTipsItem_C_2147477915::Construct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NetMainPanel_C_2147481260", "OnInitialized");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_Guide_SubTaskTipsItem_C_2147477915", "Construct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -13078,67 +14783,72 @@ void ULUA_OVERRIDES_WBP_NetMainPanel_C_2147481260::OnInitialized()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_NetMainPanel_C_2147481260.OnMouseLeave
-// (BlueprintCosmetic, Native, Event, Public, HasOutParams, BlueprintEvent)
+// LuaFunction Transient.LUA_OVERRIDES_WBP_Guide_SubTaskTipsItem_C_2147477915.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_Guide_SubTaskTipsItem_C_2147477915::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_Guide_SubTaskTipsItem_C_2147477915", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_FeedBackSets_Count_C_2147476936.GetCurveSpeed
+// (Public, HasOutParams, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// const struct FPointerEvent&             MouseEvent                                             (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
+// float                                   InX                                                    (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+// float*                                  Percent                                                (Parm, OutParm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void ULUA_OVERRIDES_WBP_NetMainPanel_C_2147481260::OnMouseLeave(const struct FPointerEvent& MouseEvent)
+void ULUA_OVERRIDES_WBP_FeedBackSets_Count_C_2147476936::GetCurveSpeed(float InX, float* Percent)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NetMainPanel_C_2147481260", "OnMouseLeave");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_FeedBackSets_Count_C_2147476936", "GetCurveSpeed");
 
-	Params::LUA_OVERRIDES_WBP_NetMainPanel_C_2147481260_OnMouseLeave Parms{};
+	Params::LUA_OVERRIDES_WBP_FeedBackSets_Count_C_2147476936_GetCurveSpeed Parms{};
 
-	Parms.MouseEvent = std::move(MouseEvent);
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
+	Parms.InX = InX;
 
 	UObject::ProcessEvent(Func, &Parms);
 
-	Func->FunctionFlags = Flgs;
+	if (Percent != nullptr)
+		*Percent = Parms.Percent;
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_NetMainPanel_C_2147481260.OnMouseEnter
-// (BlueprintCosmetic, Native, Event, Public, HasOutParams, BlueprintEvent)
-// Parameters:
-// const struct FGeometry&                 MyGeometry                                             (Parm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-// const struct FPointerEvent&             MouseEvent                                             (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
+// LuaFunction Transient.LUA_OVERRIDES_WBP_FeedBackSets_Count_C_2147476936.TrimTextEvent
+// (BlueprintCallable, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_NetMainPanel_C_2147481260::OnMouseEnter(const struct FGeometry& MyGeometry, const struct FPointerEvent& MouseEvent)
+void ULUA_OVERRIDES_WBP_FeedBackSets_Count_C_2147476936::TrimTextEvent()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NetMainPanel_C_2147481260", "OnMouseEnter");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_FeedBackSets_Count_C_2147476936", "TrimTextEvent");
 
-	Params::LUA_OVERRIDES_WBP_NetMainPanel_C_2147481260_OnMouseEnter Parms{};
-
-	Parms.MyGeometry = std::move(MyGeometry);
-	Parms.MouseEvent = std::move(MouseEvent);
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	Func->FunctionFlags = Flgs;
+	UObject::ProcessEvent(Func, nullptr);
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_NetMainPanel_C_2147481260.Construct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_FeedBackSets_Count_C_2147476936.Destruct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_NetMainPanel_C_2147481260::Construct()
+void ULUA_OVERRIDES_WBP_FeedBackSets_Count_C_2147476936::Destruct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NetMainPanel_C_2147481260", "Construct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_FeedBackSets_Count_C_2147476936", "Destruct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -13149,15 +14859,15 @@ void ULUA_OVERRIDES_WBP_NetMainPanel_C_2147481260::Construct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_NetworkStatePanel_C_2147481259.Destruct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_FeedBackSets_Count_C_2147476936.Construct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_NetworkStatePanel_C_2147481259::Destruct()
+void ULUA_OVERRIDES_WBP_FeedBackSets_Count_C_2147476936::Construct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NetworkStatePanel_C_2147481259", "Destruct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_FeedBackSets_Count_C_2147476936", "Construct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -13168,15 +14878,15 @@ void ULUA_OVERRIDES_WBP_NetworkStatePanel_C_2147481259::Destruct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_NetworkStatePanel_C_2147481259.OnInitialized
+// LuaFunction Transient.LUA_OVERRIDES_WBP_FeedBackSets_Count_C_2147476936.OnInitialized
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_NetworkStatePanel_C_2147481259::OnInitialized()
+void ULUA_OVERRIDES_WBP_FeedBackSets_Count_C_2147476936::OnInitialized()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NetworkStatePanel_C_2147481259", "OnInitialized");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_FeedBackSets_Count_C_2147476936", "OnInitialized");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -13187,72 +14897,29 @@ void ULUA_OVERRIDES_WBP_NetworkStatePanel_C_2147481259::OnInitialized()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_NetworkStatePanel_C_2147481259.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+// LuaFunction Transient.LUA_OVERRIDES_WBP_FeedBackSets_Count_C_2147476936.TrimTextEventEnd
+// (BlueprintCallable, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_NetworkStatePanel_C_2147481259::Construct()
+void ULUA_OVERRIDES_WBP_FeedBackSets_Count_C_2147476936::TrimTextEventEnd()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NetworkStatePanel_C_2147481259", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_FeedBackSets_Count_C_2147476936", "TrimTextEventEnd");
 
 	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_NavigationMenuPage_C_2147481258.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_NavigationMenuPage_C_2147481258::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavigationMenuPage_C_2147481258", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_NavigationMenuPage_C_2147481258.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_NavigationMenuPage_C_2147481258::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavigationMenuPage_C_2147481258", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_NavigationMenuPage_C_2147481258.OnLuaHide
+// LuaFunction Transient.LUA_OVERRIDES_WBP_Guide_TaskPage_C_2147477916.OnLuaShow
 // (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_NavigationMenuPage_C_2147481258::OnLuaHide()
+void ULUA_OVERRIDES_WBP_Guide_TaskPage_C_2147477916::OnLuaShow()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavigationMenuPage_C_2147481258", "OnLuaHide");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_Guide_TaskPage_C_2147477916", "OnLuaShow");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -13263,15 +14930,15 @@ void ULUA_OVERRIDES_WBP_NavigationMenuPage_C_2147481258::OnLuaHide()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_NavigationMenuPage_C_2147481258.OnLuaOpen
+// LuaFunction Transient.LUA_OVERRIDES_WBP_Guide_TaskPage_C_2147477916.OnLuaOpen
 // (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_NavigationMenuPage_C_2147481258::OnLuaOpen()
+void ULUA_OVERRIDES_WBP_Guide_TaskPage_C_2147477916::OnLuaOpen()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavigationMenuPage_C_2147481258", "OnLuaOpen");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_Guide_TaskPage_C_2147477916", "OnLuaOpen");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -13282,43 +14949,24 @@ void ULUA_OVERRIDES_WBP_NavigationMenuPage_C_2147481258::OnLuaOpen()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_NavigationMenuPage_C_2147481258.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_NavigationMenuPage_C_2147481258::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavigationMenuPage_C_2147481258", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_NavigationMenuPage_C_2147481258.LuaHandleKeyEvent
+// LuaFunction Transient.LUA_OVERRIDES_WBP_Guide_TaskPage_C_2147477916.LuaHandleKeyEvent
 // (Native, Event, Public, BlueprintEvent)
 // Parameters:
-// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+// const struct FKey&                      Key_LuaHandleKeyEvent                                  (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// EInputEvent                             InputEvent_LuaHandleKeyEvent                           (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// bool                                    ReturnValue_LuaHandleKeyEvent                          (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
 
-bool ULUA_OVERRIDES_WBP_NavigationMenuPage_C_2147481258::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+bool ULUA_OVERRIDES_WBP_Guide_TaskPage_C_2147477916::LuaHandleKeyEvent(const struct FKey& Key_LuaHandleKeyEvent, EInputEvent InputEvent_LuaHandleKeyEvent)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavigationMenuPage_C_2147481258", "LuaHandleKeyEvent");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_Guide_TaskPage_C_2147477916", "LuaHandleKeyEvent");
 
-	Params::LUA_OVERRIDES_WBP_NavigationMenuPage_C_2147481258_LuaHandleKeyEvent Parms{};
+	Params::LUA_OVERRIDES_WBP_Guide_TaskPage_C_2147477916_LuaHandleKeyEvent Parms{};
 
-	Parms.Key = std::move(Key);
-	Parms.InputEvent = InputEvent;
+	Parms.Key_LuaHandleKeyEvent = std::move(Key_LuaHandleKeyEvent);
+	Parms.InputEvent_LuaHandleKeyEvent = InputEvent_LuaHandleKeyEvent;
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -13331,15 +14979,15 @@ bool ULUA_OVERRIDES_WBP_NavigationMenuPage_C_2147481258::LuaHandleKeyEvent(const
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_NavigationMenuPage_C_2147481258.OnLuaShow
+// LuaFunction Transient.LUA_OVERRIDES_WBP_Guide_TaskPage_C_2147477916.OnLuaHide
 // (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_NavigationMenuPage_C_2147481258::OnLuaShow()
+void ULUA_OVERRIDES_WBP_Guide_TaskPage_C_2147477916::OnLuaHide()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavigationMenuPage_C_2147481258", "OnLuaShow");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_Guide_TaskPage_C_2147477916", "OnLuaHide");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -13350,15 +14998,72 @@ void ULUA_OVERRIDES_WBP_NavigationMenuPage_C_2147481258::OnLuaShow()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_NavigationMenuPage_C_2147481258.OnLuaClose
+// LuaFunction Transient.LUA_OVERRIDES_WBP_Guide_TaskPage_C_2147477916.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_Guide_TaskPage_C_2147477916::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_Guide_TaskPage_C_2147477916", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_Guide_TaskPage_C_2147477916.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_Guide_TaskPage_C_2147477916::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_Guide_TaskPage_C_2147477916", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_Guide_TaskPage_C_2147477916.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_Guide_TaskPage_C_2147477916::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_Guide_TaskPage_C_2147477916", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_Guide_TaskPage_C_2147477916.OnLuaClose
 // (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_NavigationMenuPage_C_2147481258::OnLuaClose()
+void ULUA_OVERRIDES_WBP_Guide_TaskPage_C_2147477916::OnLuaClose()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NavigationMenuPage_C_2147481258", "OnLuaClose");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_Guide_TaskPage_C_2147477916", "OnLuaClose");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -13369,15 +15074,15 @@ void ULUA_OVERRIDES_WBP_NavigationMenuPage_C_2147481258::OnLuaClose()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_NetPanel_C_2147481257.Destruct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_Guide_SubTaskItem_C_2147477917.OnInitialized
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_NetPanel_C_2147481257::Destruct()
+void ULUA_OVERRIDES_WBP_Guide_SubTaskItem_C_2147477917::OnInitialized()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NetPanel_C_2147481257", "Destruct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_Guide_SubTaskItem_C_2147477917", "OnInitialized");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -13388,15 +15093,15 @@ void ULUA_OVERRIDES_WBP_NetPanel_C_2147481257::Destruct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_NetPanel_C_2147481257.OnInitialized
+// LuaFunction Transient.LUA_OVERRIDES_WBP_Guide_SubTaskItem_C_2147477917.Construct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_NetPanel_C_2147481257::OnInitialized()
+void ULUA_OVERRIDES_WBP_Guide_SubTaskItem_C_2147477917::Construct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NetPanel_C_2147481257", "OnInitialized");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_Guide_SubTaskItem_C_2147477917", "Construct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -13407,35 +15112,15 @@ void ULUA_OVERRIDES_WBP_NetPanel_C_2147481257::OnInitialized()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_NetPanel_C_2147481257.OnListItemObjectSet
-// (Event, Protected, BlueprintEvent)
-// Parameters:
-// class UObject*                          ListItemObject                                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-
-void ULUA_OVERRIDES_WBP_NetPanel_C_2147481257::OnListItemObjectSet(class UObject* ListItemObject)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NetPanel_C_2147481257", "OnListItemObjectSet");
-
-	Params::LUA_OVERRIDES_WBP_NetPanel_C_2147481257_OnListItemObjectSet Parms{};
-
-	Parms.ListItemObject = ListItemObject;
-
-	UObject::ProcessEvent(Func, &Parms);
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_NetPanel_C_2147481257.Construct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_Guide_SubTaskItem_C_2147477917.Destruct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_NetPanel_C_2147481257::Construct()
+void ULUA_OVERRIDES_WBP_Guide_SubTaskItem_C_2147477917::Destruct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_NetPanel_C_2147481257", "Construct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_Guide_SubTaskItem_C_2147477917", "Destruct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -13446,547 +15131,15 @@ void ULUA_OVERRIDES_WBP_NetPanel_C_2147481257::Construct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_TextTips_C_2147481140.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_TextTips_C_2147481140::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_TextTips_C_2147481140", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_TextTips_C_2147481140.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_TextTips_C_2147481140::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_TextTips_C_2147481140", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_TextTips_C_2147481140.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_TextTips_C_2147481140::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_TextTips_C_2147481140", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SettingSwitcherBtn_C_2147481139.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_SettingSwitcherBtn_C_2147481139::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SettingSwitcherBtn_C_2147481139", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SettingSwitcherBtn_C_2147481139.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_SettingSwitcherBtn_C_2147481139::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SettingSwitcherBtn_C_2147481139", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SettingSwitcherBtn_C_2147481139.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_SettingSwitcherBtn_C_2147481139::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SettingSwitcherBtn_C_2147481139", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_AttrSettingBasePanel_C_2147481138.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_AttrSettingBasePanel_C_2147481138::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_AttrSettingBasePanel_C_2147481138", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_AttrSettingBasePanel_C_2147481138.OnLuaItemHovered
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_AttrSettingBasePanel_C_2147481138::OnLuaItemHovered()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_AttrSettingBasePanel_C_2147481138", "OnLuaItemHovered");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_AttrSettingBasePanel_C_2147481138.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_AttrSettingBasePanel_C_2147481138::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_AttrSettingBasePanel_C_2147481138", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_AttrSettingBasePanel_C_2147481138.OnLuaItemUnhovered
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_AttrSettingBasePanel_C_2147481138::OnLuaItemUnhovered()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_AttrSettingBasePanel_C_2147481138", "OnLuaItemUnhovered");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_AttrSettingBasePanel_C_2147481138.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_AttrSettingBasePanel_C_2147481138::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_AttrSettingBasePanel_C_2147481138", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_AttrSwitchSetting_C_2147481137.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_AttrSwitchSetting_C_2147481137::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_AttrSwitchSetting_C_2147481137", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_AttrSwitchSetting_C_2147481137.OnLuaItemHovered
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_AttrSwitchSetting_C_2147481137::OnLuaItemHovered()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_AttrSwitchSetting_C_2147481137", "OnLuaItemHovered");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_AttrSwitchSetting_C_2147481137.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_AttrSwitchSetting_C_2147481137::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_AttrSwitchSetting_C_2147481137", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_AttrSwitchSetting_C_2147481137.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_AttrSwitchSetting_C_2147481137::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_AttrSwitchSetting_C_2147481137", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_AttrSwitchSetting_C_2147481137.OnLuaItemUnhovered
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_AttrSwitchSetting_C_2147481137::OnLuaItemUnhovered()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_AttrSwitchSetting_C_2147481137", "OnLuaItemUnhovered");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SettingSwitcher_C_2147481136.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_SettingSwitcher_C_2147481136::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SettingSwitcher_C_2147481136", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SettingSwitcher_C_2147481136.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_SettingSwitcher_C_2147481136::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SettingSwitcher_C_2147481136", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SettingSwitcher_C_2147481136.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_SettingSwitcher_C_2147481136::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SettingSwitcher_C_2147481136", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_AttrSlideSetting_C_2147481126.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_AttrSlideSetting_C_2147481126::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_AttrSlideSetting_C_2147481126", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_AttrSlideSetting_C_2147481126.OnLuaItemHovered
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_AttrSlideSetting_C_2147481126::OnLuaItemHovered()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_AttrSlideSetting_C_2147481126", "OnLuaItemHovered");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_AttrSlideSetting_C_2147481126.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_AttrSlideSetting_C_2147481126::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_AttrSlideSetting_C_2147481126", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_AttrSlideSetting_C_2147481126.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_AttrSlideSetting_C_2147481126::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_AttrSlideSetting_C_2147481126", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_AttrSlideSetting_C_2147481126.OnLuaItemUnhovered
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_AttrSlideSetting_C_2147481126::OnLuaItemUnhovered()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_AttrSlideSetting_C_2147481126", "OnLuaItemUnhovered");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SettingSlider_C_2147481125.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_SettingSlider_C_2147481125::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SettingSlider_C_2147481125", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SettingSlider_C_2147481125.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_SettingSlider_C_2147481125::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SettingSlider_C_2147481125", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SettingSlider_C_2147481125.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_SettingSlider_C_2147481125::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SettingSlider_C_2147481125", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_PopUpPromptPage_C_2147479728.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_PopUpPromptPage_C_2147479728::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PopUpPromptPage_C_2147479728", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_PopUpPromptPage_C_2147479728.OnLuaClose
+// LuaFunction Transient.LUA_OVERRIDES_WBP_Guide_DialoguePage_C_2147477918.OnLuaShow
 // (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_PopUpPromptPage_C_2147479728::OnLuaClose()
+void ULUA_OVERRIDES_WBP_Guide_DialoguePage_C_2147477918::OnLuaShow()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PopUpPromptPage_C_2147479728", "OnLuaClose");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_Guide_DialoguePage_C_2147477918", "OnLuaShow");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -13997,15 +15150,15 @@ void ULUA_OVERRIDES_WBP_PopUpPromptPage_C_2147479728::OnLuaClose()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_PopUpPromptPage_C_2147479728.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+// LuaFunction Transient.LUA_OVERRIDES_WBP_Guide_DialoguePage_C_2147477918.OnLuaOpen
+// (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_PopUpPromptPage_C_2147479728::Construct()
+void ULUA_OVERRIDES_WBP_Guide_DialoguePage_C_2147477918::OnLuaOpen()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PopUpPromptPage_C_2147479728", "Construct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_Guide_DialoguePage_C_2147477918", "OnLuaOpen");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -14016,24 +15169,24 @@ void ULUA_OVERRIDES_WBP_PopUpPromptPage_C_2147479728::Construct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_PopUpPromptPage_C_2147479728.LuaHandleKeyEvent
+// LuaFunction Transient.LUA_OVERRIDES_WBP_Guide_DialoguePage_C_2147477918.LuaHandleKeyEvent
 // (Native, Event, Public, BlueprintEvent)
 // Parameters:
-// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+// const struct FKey&                      Key_LuaHandleKeyEvent                                  (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// EInputEvent                             InputEvent_LuaHandleKeyEvent                           (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// bool                                    ReturnValue_LuaHandleKeyEvent                          (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
 
-bool ULUA_OVERRIDES_WBP_PopUpPromptPage_C_2147479728::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+bool ULUA_OVERRIDES_WBP_Guide_DialoguePage_C_2147477918::LuaHandleKeyEvent(const struct FKey& Key_LuaHandleKeyEvent, EInputEvent InputEvent_LuaHandleKeyEvent)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PopUpPromptPage_C_2147479728", "LuaHandleKeyEvent");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_Guide_DialoguePage_C_2147477918", "LuaHandleKeyEvent");
 
-	Params::LUA_OVERRIDES_WBP_PopUpPromptPage_C_2147479728_LuaHandleKeyEvent Parms{};
+	Params::LUA_OVERRIDES_WBP_Guide_DialoguePage_C_2147477918_LuaHandleKeyEvent Parms{};
 
-	Parms.Key = std::move(Key);
-	Parms.InputEvent = InputEvent;
+	Parms.Key_LuaHandleKeyEvent = std::move(Key_LuaHandleKeyEvent);
+	Parms.InputEvent_LuaHandleKeyEvent = InputEvent_LuaHandleKeyEvent;
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -14046,34 +15199,15 @@ bool ULUA_OVERRIDES_WBP_PopUpPromptPage_C_2147479728::LuaHandleKeyEvent(const st
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_PopUpPromptPage_C_2147479728.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_PopUpPromptPage_C_2147479728::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PopUpPromptPage_C_2147479728", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_PopUpPromptPage_C_2147479728.OnLuaShow
+// LuaFunction Transient.LUA_OVERRIDES_WBP_Guide_DialoguePage_C_2147477918.OnLuaHide
 // (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_PopUpPromptPage_C_2147479728::OnLuaShow()
+void ULUA_OVERRIDES_WBP_Guide_DialoguePage_C_2147477918::OnLuaHide()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PopUpPromptPage_C_2147479728", "OnLuaShow");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_Guide_DialoguePage_C_2147477918", "OnLuaHide");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -14084,15 +15218,72 @@ void ULUA_OVERRIDES_WBP_PopUpPromptPage_C_2147479728::OnLuaShow()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_PopUpPromptPage_C_2147479728.OnLuaHide
+// LuaFunction Transient.LUA_OVERRIDES_WBP_Guide_DialoguePage_C_2147477918.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_Guide_DialoguePage_C_2147477918::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_Guide_DialoguePage_C_2147477918", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_Guide_DialoguePage_C_2147477918.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_Guide_DialoguePage_C_2147477918::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_Guide_DialoguePage_C_2147477918", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_Guide_DialoguePage_C_2147477918.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_Guide_DialoguePage_C_2147477918::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_Guide_DialoguePage_C_2147477918", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_Guide_DialoguePage_C_2147477918.OnLuaClose
 // (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_PopUpPromptPage_C_2147479728::OnLuaHide()
+void ULUA_OVERRIDES_WBP_Guide_DialoguePage_C_2147477918::OnLuaClose()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PopUpPromptPage_C_2147479728", "OnLuaHide");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_Guide_DialoguePage_C_2147477918", "OnLuaClose");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -14103,15 +15294,15 @@ void ULUA_OVERRIDES_WBP_PopUpPromptPage_C_2147479728::OnLuaHide()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_PopUpPromptPage_C_2147479728.OnLuaOpen
-// (Native, Event, Public, BlueprintEvent)
+// LuaFunction Transient.LUA_OVERRIDES_BP_SpectatorPlayerController_C_2147478072.ReceiveBeginPlay
+// (Native, Event, Protected, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_PopUpPromptPage_C_2147479728::OnLuaOpen()
+void ULUA_OVERRIDES_BP_SpectatorPlayerController_C_2147478072::ReceiveBeginPlay()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_PopUpPromptPage_C_2147479728", "OnLuaOpen");
+		Func = Class->GetFunction("LUA_OVERRIDES_BP_SpectatorPlayerController_C_2147478072", "ReceiveBeginPlay");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -14122,134 +15313,20 @@ void ULUA_OVERRIDES_WBP_PopUpPromptPage_C_2147479728::OnLuaOpen()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_KaNavigationButton_C_2147479664.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_KaNavigationButton_C_2147479664::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_KaNavigationButton_C_2147479664", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_KaNavigationButton_C_2147479664.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_KaNavigationButton_C_2147479664::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_KaNavigationButton_C_2147479664", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_KaNavigationButton_C_2147479664.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_KaNavigationButton_C_2147479664::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_KaNavigationButton_C_2147479664", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_RankCard_C_2147474906.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_RankCard_C_2147474906::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RankCard_C_2147474906", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_RankCard_C_2147474906.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_RankCard_C_2147474906::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RankCard_C_2147474906", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_RankCard_C_2147474906.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_RankCard_C_2147474906::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RankCard_C_2147474906", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_BP_PlayerController_InstallBomb_C_2147472929.IsFriendOrRoomMember
+// LuaFunction Transient.LUA_OVERRIDES_BP_SpectatorPlayerController_C_2147478072.IsFriendOrRoomMember
 // (Native, Event, Public, BlueprintEvent)
 // Parameters:
 // int64                                   InPlayerId_IsFriendOrRoomMember                        (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 // bool                                    ReturnValue_IsFriendOrRoomMember                       (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
 
-bool ULUA_OVERRIDES_BP_PlayerController_InstallBomb_C_2147472929::IsFriendOrRoomMember(int64 InPlayerId_IsFriendOrRoomMember)
+bool ULUA_OVERRIDES_BP_SpectatorPlayerController_C_2147478072::IsFriendOrRoomMember(int64 InPlayerId_IsFriendOrRoomMember)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_BP_PlayerController_InstallBomb_C_2147472929", "IsFriendOrRoomMember");
+		Func = Class->GetFunction("LUA_OVERRIDES_BP_SpectatorPlayerController_C_2147478072", "IsFriendOrRoomMember");
 
-	Params::LUA_OVERRIDES_BP_PlayerController_InstallBomb_C_2147472929_IsFriendOrRoomMember Parms{};
+	Params::LUA_OVERRIDES_BP_SpectatorPlayerController_C_2147478072_IsFriendOrRoomMember Parms{};
 
 	Parms.InPlayerId_IsFriendOrRoomMember = InPlayerId_IsFriendOrRoomMember;
 
@@ -14264,32 +15341,7 @@ bool ULUA_OVERRIDES_BP_PlayerController_InstallBomb_C_2147472929::IsFriendOrRoom
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_BP_PlayerController_InstallBomb_C_2147472929.ReceiveEndPlay
-// (Native, Event, Protected, BlueprintEvent)
-// Parameters:
-// EEndPlayReason                          EndPlayReason_ReceiveEndPlay                           (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-
-void ULUA_OVERRIDES_BP_PlayerController_InstallBomb_C_2147472929::ReceiveEndPlay(EEndPlayReason EndPlayReason_ReceiveEndPlay)
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_BP_PlayerController_InstallBomb_C_2147472929", "ReceiveEndPlay");
-
-	Params::LUA_OVERRIDES_BP_PlayerController_InstallBomb_C_2147472929_ReceiveEndPlay Parms{};
-
-	Parms.EndPlayReason_ReceiveEndPlay = EndPlayReason_ReceiveEndPlay;
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, &Parms);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_BP_PlayerController_InstallBomb_C_2147472929.CamparePlayer
+// LuaFunction Transient.LUA_OVERRIDES_BP_SpectatorPlayerController_C_2147478072.CamparePlayer
 // (Native, Event, Public, BlueprintEvent)
 // Parameters:
 // int64                                   InPlayerId_1_CamparePlayer                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -14298,14 +15350,14 @@ void ULUA_OVERRIDES_BP_PlayerController_InstallBomb_C_2147472929::ReceiveEndPlay
 // uint8                                   InPlayerSerial_2_CamparePlayer                         (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 // bool                                    ReturnValue_CamparePlayer                              (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
 
-bool ULUA_OVERRIDES_BP_PlayerController_InstallBomb_C_2147472929::CamparePlayer(int64 InPlayerId_1_CamparePlayer, int64 InPlayerId_2_CamparePlayer, uint8 InPlayerSerial_1_CamparePlayer, uint8 InPlayerSerial_2_CamparePlayer)
+bool ULUA_OVERRIDES_BP_SpectatorPlayerController_C_2147478072::CamparePlayer(int64 InPlayerId_1_CamparePlayer, int64 InPlayerId_2_CamparePlayer, uint8 InPlayerSerial_1_CamparePlayer, uint8 InPlayerSerial_2_CamparePlayer)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_BP_PlayerController_InstallBomb_C_2147472929", "CamparePlayer");
+		Func = Class->GetFunction("LUA_OVERRIDES_BP_SpectatorPlayerController_C_2147478072", "CamparePlayer");
 
-	Params::LUA_OVERRIDES_BP_PlayerController_InstallBomb_C_2147472929_CamparePlayer Parms{};
+	Params::LUA_OVERRIDES_BP_SpectatorPlayerController_C_2147478072_CamparePlayer Parms{};
 
 	Parms.InPlayerId_1_CamparePlayer = InPlayerId_1_CamparePlayer;
 	Parms.InPlayerId_2_CamparePlayer = InPlayerId_2_CamparePlayer;
@@ -14323,15 +15375,40 @@ bool ULUA_OVERRIDES_BP_PlayerController_InstallBomb_C_2147472929::CamparePlayer(
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_BP_PlayerController_InstallBomb_C_2147472929.ReceiveBeginPlay
+// LuaFunction Transient.LUA_OVERRIDES_BP_SpectatorPlayerController_C_2147478072.ReceiveEndPlay
+// (Native, Event, Protected, BlueprintEvent)
+// Parameters:
+// EEndPlayReason                          EndPlayReason_ReceiveEndPlay                           (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+void ULUA_OVERRIDES_BP_SpectatorPlayerController_C_2147478072::ReceiveEndPlay(EEndPlayReason EndPlayReason_ReceiveEndPlay)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_BP_SpectatorPlayerController_C_2147478072", "ReceiveEndPlay");
+
+	Params::LUA_OVERRIDES_BP_SpectatorPlayerController_C_2147478072_ReceiveEndPlay Parms{};
+
+	Parms.EndPlayReason_ReceiveEndPlay = EndPlayReason_ReceiveEndPlay;
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_BP_PlayerController_InstallBomb_C_2147478073.ReceiveBeginPlay
 // (Native, Event, Protected, BlueprintEvent)
 
-void ULUA_OVERRIDES_BP_PlayerController_InstallBomb_C_2147472929::ReceiveBeginPlay()
+void ULUA_OVERRIDES_BP_PlayerController_InstallBomb_C_2147478073::ReceiveBeginPlay()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_BP_PlayerController_InstallBomb_C_2147472929", "ReceiveBeginPlay");
+		Func = Class->GetFunction("LUA_OVERRIDES_BP_PlayerController_InstallBomb_C_2147478073", "ReceiveBeginPlay");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -14342,233 +15419,22 @@ void ULUA_OVERRIDES_BP_PlayerController_InstallBomb_C_2147472929::ReceiveBeginPl
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ActivityTask_C_2147474905.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ActivityTask_C_2147474905::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ActivityTask_C_2147474905", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ActivityTask_C_2147474905.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ActivityTask_C_2147474905::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ActivityTask_C_2147474905", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ActivityTask_C_2147474905.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ActivityTask_C_2147474905::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ActivityTask_C_2147474905", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ActivityTaskItem_C_2147474908.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ActivityTaskItem_C_2147474908::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ActivityTaskItem_C_2147474908", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ActivityTaskItem_C_2147474908.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ActivityTaskItem_C_2147474908::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ActivityTaskItem_C_2147474908", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ActivityTaskItem_C_2147474908.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ActivityTaskItem_C_2147474908::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ActivityTaskItem_C_2147474908", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147474909.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147474909::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147474909", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147474909.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147474909::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147474909", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147474909.OnLuaShow
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147474909::OnLuaShow()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147474909", "OnLuaShow");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147474909.OnLuaClose
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147474909::OnLuaClose()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147474909", "OnLuaClose");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147474909.OnLuaHide
-// (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147474909::OnLuaHide()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147474909", "OnLuaHide");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147474909.LuaHandleKeyEvent
+// LuaFunction Transient.LUA_OVERRIDES_BP_PlayerController_InstallBomb_C_2147478073.IsFriendOrRoomMember
 // (Native, Event, Public, BlueprintEvent)
 // Parameters:
-// const struct FKey&                      Key_LuaHandleKeyEvent                                  (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// EInputEvent                             InputEvent_LuaHandleKeyEvent                           (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// bool                                    ReturnValue_LuaHandleKeyEvent                          (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+// int64                                   InPlayerId_IsFriendOrRoomMember                        (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// bool                                    ReturnValue_IsFriendOrRoomMember                       (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
 
-bool ULUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147474909::LuaHandleKeyEvent(const struct FKey& Key_LuaHandleKeyEvent, EInputEvent InputEvent_LuaHandleKeyEvent)
+bool ULUA_OVERRIDES_BP_PlayerController_InstallBomb_C_2147478073::IsFriendOrRoomMember(int64 InPlayerId_IsFriendOrRoomMember)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147474909", "LuaHandleKeyEvent");
+		Func = Class->GetFunction("LUA_OVERRIDES_BP_PlayerController_InstallBomb_C_2147478073", "IsFriendOrRoomMember");
 
-	Params::LUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147474909_LuaHandleKeyEvent Parms{};
+	Params::LUA_OVERRIDES_BP_PlayerController_InstallBomb_C_2147478073_IsFriendOrRoomMember Parms{};
 
-	Parms.Key_LuaHandleKeyEvent = std::move(Key_LuaHandleKeyEvent);
-	Parms.InputEvent_LuaHandleKeyEvent = InputEvent_LuaHandleKeyEvent;
+	Parms.InPlayerId_IsFriendOrRoomMember = InPlayerId_IsFriendOrRoomMember;
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -14581,81 +15447,28 @@ bool ULUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147474909::LuaHandleKey
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147474909.OnLuaOpen
+// LuaFunction Transient.LUA_OVERRIDES_BP_PlayerController_InstallBomb_C_2147478073.CamparePlayer
 // (Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147474909::OnLuaOpen()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147474909", "OnLuaOpen");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147474909.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147474909::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_CampusActivities_RoomCampIcon_C_2147474909", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ArcadeModeListItem_C_2147475013.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ArcadeModeListItem_C_2147475013::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ArcadeModeListItem_C_2147475013", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ArcadeModeListItem_C_2147475013.OnMouseButtonDown
-// (BlueprintCosmetic, Native, Event, Public, HasOutParams, BlueprintEvent)
 // Parameters:
-// const struct FGeometry&                 MyGeometry_OnMouseButtonDown                           (Parm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-// const struct FPointerEvent&             MouseEvent_OnMouseButtonDown                           (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
-// struct FEventReply                      ReturnValue_OnMouseButtonDown                          (Parm, OutParm, ReturnParm, NativeAccessSpecifierPublic)
+// int64                                   InPlayerId_1_CamparePlayer                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// int64                                   InPlayerId_2_CamparePlayer                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// uint8                                   InPlayerSerial_1_CamparePlayer                         (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// uint8                                   InPlayerSerial_2_CamparePlayer                         (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// bool                                    ReturnValue_CamparePlayer                              (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
 
-struct FEventReply ULUA_OVERRIDES_WBP_ArcadeModeListItem_C_2147475013::OnMouseButtonDown(const struct FGeometry& MyGeometry_OnMouseButtonDown, const struct FPointerEvent& MouseEvent_OnMouseButtonDown)
+bool ULUA_OVERRIDES_BP_PlayerController_InstallBomb_C_2147478073::CamparePlayer(int64 InPlayerId_1_CamparePlayer, int64 InPlayerId_2_CamparePlayer, uint8 InPlayerSerial_1_CamparePlayer, uint8 InPlayerSerial_2_CamparePlayer)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ArcadeModeListItem_C_2147475013", "OnMouseButtonDown");
+		Func = Class->GetFunction("LUA_OVERRIDES_BP_PlayerController_InstallBomb_C_2147478073", "CamparePlayer");
 
-	Params::LUA_OVERRIDES_WBP_ArcadeModeListItem_C_2147475013_OnMouseButtonDown Parms{};
+	Params::LUA_OVERRIDES_BP_PlayerController_InstallBomb_C_2147478073_CamparePlayer Parms{};
 
-	Parms.MyGeometry_OnMouseButtonDown = std::move(MyGeometry_OnMouseButtonDown);
-	Parms.MouseEvent_OnMouseButtonDown = std::move(MouseEvent_OnMouseButtonDown);
+	Parms.InPlayerId_1_CamparePlayer = InPlayerId_1_CamparePlayer;
+	Parms.InPlayerId_2_CamparePlayer = InPlayerId_2_CamparePlayer;
+	Parms.InPlayerSerial_1_CamparePlayer = InPlayerSerial_1_CamparePlayer;
+	Parms.InPlayerSerial_2_CamparePlayer = InPlayerSerial_2_CamparePlayer;
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -14668,252 +15481,106 @@ struct FEventReply ULUA_OVERRIDES_WBP_ArcadeModeListItem_C_2147475013::OnMouseBu
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ArcadeModeListItem_C_2147475013.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ArcadeModeListItem_C_2147475013::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ArcadeModeListItem_C_2147475013", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ArcadeModeListItem_C_2147475013.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ArcadeModeListItem_C_2147475013::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ArcadeModeListItem_C_2147475013", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SmallSpeakerContrlPanel_C_2147474910.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_SmallSpeakerContrlPanel_C_2147474910::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SmallSpeakerContrlPanel_C_2147474910", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SmallSpeakerContrlPanel_C_2147474910.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_SmallSpeakerContrlPanel_C_2147474910::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SmallSpeakerContrlPanel_C_2147474910", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SmallSpeakerContrlPanel_C_2147474910.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_SmallSpeakerContrlPanel_C_2147474910::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SmallSpeakerContrlPanel_C_2147474910", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_RoomModeSelectBtn_C_2147475008.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_RoomModeSelectBtn_C_2147475008::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RoomModeSelectBtn_C_2147475008", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_RoomModeSelectBtn_C_2147475008.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_RoomModeSelectBtn_C_2147475008::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RoomModeSelectBtn_C_2147475008", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_RoomModeSelectBtn_C_2147475008.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_RoomModeSelectBtn_C_2147475008::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RoomModeSelectBtn_C_2147475008", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SelectMode_C_2147475009.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_SelectMode_C_2147475009::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SelectMode_C_2147475009", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SelectMode_C_2147475009.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_SelectMode_C_2147475009::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SelectMode_C_2147475009", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SelectMode_C_2147475009.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_SelectMode_C_2147475009::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SelectMode_C_2147475009", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SelectModeItem_C_2147475010.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_SelectModeItem_C_2147475010::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SelectModeItem_C_2147475010", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SelectModeItem_C_2147475010.OnMouseButtonDown
-// (BlueprintCosmetic, Native, Event, Public, HasOutParams, BlueprintEvent)
+// LuaFunction Transient.LUA_OVERRIDES_BP_PlayerController_InstallBomb_C_2147478073.ReceiveEndPlay
+// (Native, Event, Protected, BlueprintEvent)
 // Parameters:
-// const struct FGeometry&                 MyGeometry_OnMouseButtonDown                           (Parm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
-// const struct FPointerEvent&             MouseEvent_OnMouseButtonDown                           (ConstParm, Parm, OutParm, ReferenceParm, NativeAccessSpecifierPublic)
-// struct FEventReply                      ReturnValue_OnMouseButtonDown                          (Parm, OutParm, ReturnParm, NativeAccessSpecifierPublic)
+// EEndPlayReason                          EndPlayReason_ReceiveEndPlay                           (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 
-struct FEventReply ULUA_OVERRIDES_WBP_SelectModeItem_C_2147475010::OnMouseButtonDown(const struct FGeometry& MyGeometry_OnMouseButtonDown, const struct FPointerEvent& MouseEvent_OnMouseButtonDown)
+void ULUA_OVERRIDES_BP_PlayerController_InstallBomb_C_2147478073::ReceiveEndPlay(EEndPlayReason EndPlayReason_ReceiveEndPlay)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SelectModeItem_C_2147475010", "OnMouseButtonDown");
+		Func = Class->GetFunction("LUA_OVERRIDES_BP_PlayerController_InstallBomb_C_2147478073", "ReceiveEndPlay");
 
-	Params::LUA_OVERRIDES_WBP_SelectModeItem_C_2147475010_OnMouseButtonDown Parms{};
+	Params::LUA_OVERRIDES_BP_PlayerController_InstallBomb_C_2147478073_ReceiveEndPlay Parms{};
 
-	Parms.MyGeometry_OnMouseButtonDown = std::move(MyGeometry_OnMouseButtonDown);
-	Parms.MouseEvent_OnMouseButtonDown = std::move(MouseEvent_OnMouseButtonDown);
+	Parms.EndPlayReason_ReceiveEndPlay = EndPlayReason_ReceiveEndPlay;
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_Guide_SplashTips_C_2147477514.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_Guide_SplashTips_C_2147477514::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_Guide_SplashTips_C_2147477514", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_Guide_SplashTips_C_2147477514.OnLuaClose
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_Guide_SplashTips_C_2147477514::OnLuaClose()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_Guide_SplashTips_C_2147477514", "OnLuaClose");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_Guide_SplashTips_C_2147477514.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_Guide_SplashTips_C_2147477514::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_Guide_SplashTips_C_2147477514", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_Guide_SplashTips_C_2147477514.LuaHandleKeyEvent
+// (Native, Event, Public, BlueprintEvent)
+// Parameters:
+// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+
+bool ULUA_OVERRIDES_WBP_Guide_SplashTips_C_2147477514::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_Guide_SplashTips_C_2147477514", "LuaHandleKeyEvent");
+
+	Params::LUA_OVERRIDES_WBP_Guide_SplashTips_C_2147477514_LuaHandleKeyEvent Parms{};
+
+	Parms.Key = std::move(Key);
+	Parms.InputEvent = InputEvent;
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -14926,15 +15593,15 @@ struct FEventReply ULUA_OVERRIDES_WBP_SelectModeItem_C_2147475010::OnMouseButton
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SelectModeItem_C_2147475010.OnInitialized
+// LuaFunction Transient.LUA_OVERRIDES_WBP_Guide_SplashTips_C_2147477514.Construct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_SelectModeItem_C_2147475010::OnInitialized()
+void ULUA_OVERRIDES_WBP_Guide_SplashTips_C_2147477514::Construct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SelectModeItem_C_2147475010", "OnInitialized");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_Guide_SplashTips_C_2147477514", "Construct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -14945,224 +15612,15 @@ void ULUA_OVERRIDES_WBP_SelectModeItem_C_2147475010::OnInitialized()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_SelectModeItem_C_2147475010.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_SelectModeItem_C_2147475010::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_SelectModeItem_C_2147475010", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ArcadeModeList_C_2147475011.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ArcadeModeList_C_2147475011::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ArcadeModeList_C_2147475011", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ArcadeModeList_C_2147475011.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ArcadeModeList_C_2147475011::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ArcadeModeList_C_2147475011", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_ArcadeModeList_C_2147475011.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_ArcadeModeList_C_2147475011::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_ArcadeModeList_C_2147475011", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_HumanMachineModeList_C_2147475012.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_HumanMachineModeList_C_2147475012::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_HumanMachineModeList_C_2147475012", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_HumanMachineModeList_C_2147475012.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_HumanMachineModeList_C_2147475012::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_HumanMachineModeList_C_2147475012", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_HumanMachineModeList_C_2147475012.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_HumanMachineModeList_C_2147475012::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_HumanMachineModeList_C_2147475012", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_HumanMachineModeListItem_C_2147475014.Construct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_HumanMachineModeListItem_C_2147475014::Construct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_HumanMachineModeListItem_C_2147475014", "Construct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_HumanMachineModeListItem_C_2147475014.OnInitialized
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_HumanMachineModeListItem_C_2147475014::OnInitialized()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_HumanMachineModeListItem_C_2147475014", "OnInitialized");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_HumanMachineModeListItem_C_2147475014.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_HumanMachineModeListItem_C_2147475014::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_HumanMachineModeListItem_C_2147475014", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147475031.Destruct
-// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
-
-void ULUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147475031::Destruct()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147475031", "Destruct");
-
-	auto Flgs = Func->FunctionFlags;
-	Func->FunctionFlags |= 0x400;
-
-	UObject::ProcessEvent(Func, nullptr);
-
-	Func->FunctionFlags = Flgs;
-}
-
-
-// LuaFunction Transient.LUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147475031.OnLuaHide
+// LuaFunction Transient.LUA_OVERRIDES_WBP_Guide_SplashTips_C_2147477514.OnLuaHide
 // (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147475031::OnLuaHide()
+void ULUA_OVERRIDES_WBP_Guide_SplashTips_C_2147477514::OnLuaHide()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147475031", "OnLuaHide");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_Guide_SplashTips_C_2147477514", "OnLuaHide");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -15173,15 +15631,15 @@ void ULUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147475031::OnLuaHide()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147475031.OnLuaShow
+// LuaFunction Transient.LUA_OVERRIDES_WBP_Guide_SplashTips_C_2147477514.OnLuaShow
 // (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147475031::OnLuaShow()
+void ULUA_OVERRIDES_WBP_Guide_SplashTips_C_2147477514::OnLuaShow()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147475031", "OnLuaShow");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_Guide_SplashTips_C_2147477514", "OnLuaShow");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -15192,15 +15650,59 @@ void ULUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147475031::OnLuaShow()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147475031.OnInitialized
+// LuaFunction Transient.LUA_OVERRIDES_WBP_Guide_SplashTips_C_2147477514.K2_OnViewTargetChanged
+// (Native, Event, Protected, BlueprintEvent)
+// Parameters:
+// const class AActor*                     InViewTarget                                           (ConstParm, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+void ULUA_OVERRIDES_WBP_Guide_SplashTips_C_2147477514::K2_OnViewTargetChanged(const class AActor* InViewTarget)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_Guide_SplashTips_C_2147477514", "K2_OnViewTargetChanged");
+
+	Params::LUA_OVERRIDES_WBP_Guide_SplashTips_C_2147477514_K2_OnViewTargetChanged Parms{};
+
+	Parms.InViewTarget = InViewTarget;
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_Guide_SplashTips_C_2147477514.OnLuaOpen
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_Guide_SplashTips_C_2147477514::OnLuaOpen()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_Guide_SplashTips_C_2147477514", "OnLuaOpen");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_Guide_DeathTips_C_2147477513.OnInitialized
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147475031::OnInitialized()
+void ULUA_OVERRIDES_WBP_Guide_DeathTips_C_2147477513::OnInitialized()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147475031", "OnInitialized");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_Guide_DeathTips_C_2147477513", "OnInitialized");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -15211,15 +15713,15 @@ void ULUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147475031::OnInitialized()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147475031.OnLuaOpen
+// LuaFunction Transient.LUA_OVERRIDES_WBP_Guide_DeathTips_C_2147477513.OnLuaClose
 // (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147475031::OnLuaOpen()
+void ULUA_OVERRIDES_WBP_Guide_DeathTips_C_2147477513::OnLuaClose()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147475031", "OnLuaOpen");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_Guide_DeathTips_C_2147477513", "OnLuaClose");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -15230,24 +15732,43 @@ void ULUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147475031::OnLuaOpen()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147475031.LuaHandleKeyEvent
+// LuaFunction Transient.LUA_OVERRIDES_WBP_Guide_DeathTips_C_2147477513.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_Guide_DeathTips_C_2147477513::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_Guide_DeathTips_C_2147477513", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_Guide_DeathTips_C_2147477513.LuaHandleKeyEvent
 // (Native, Event, Public, BlueprintEvent)
 // Parameters:
-// const struct FKey&                      Key_LuaHandleKeyEvent                                  (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// EInputEvent                             InputEvent_LuaHandleKeyEvent                           (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-// bool                                    ReturnValue_LuaHandleKeyEvent                          (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
 
-bool ULUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147475031::LuaHandleKeyEvent(const struct FKey& Key_LuaHandleKeyEvent, EInputEvent InputEvent_LuaHandleKeyEvent)
+bool ULUA_OVERRIDES_WBP_Guide_DeathTips_C_2147477513::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147475031", "LuaHandleKeyEvent");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_Guide_DeathTips_C_2147477513", "LuaHandleKeyEvent");
 
-	Params::LUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147475031_LuaHandleKeyEvent Parms{};
+	Params::LUA_OVERRIDES_WBP_Guide_DeathTips_C_2147477513_LuaHandleKeyEvent Parms{};
 
-	Parms.Key_LuaHandleKeyEvent = std::move(Key_LuaHandleKeyEvent);
-	Parms.InputEvent_LuaHandleKeyEvent = InputEvent_LuaHandleKeyEvent;
+	Parms.Key = std::move(Key);
+	Parms.InputEvent = InputEvent;
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -15260,15 +15781,15 @@ bool ULUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147475031::LuaHandleKeyEvent(const
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147475031.Construct
+// LuaFunction Transient.LUA_OVERRIDES_WBP_Guide_DeathTips_C_2147477513.Construct
 // (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147475031::Construct()
+void ULUA_OVERRIDES_WBP_Guide_DeathTips_C_2147477513::Construct()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147475031", "Construct");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_Guide_DeathTips_C_2147477513", "Construct");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -15279,15 +15800,15 @@ void ULUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147475031::Construct()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147475031.OnLuaClose
+// LuaFunction Transient.LUA_OVERRIDES_WBP_Guide_DeathTips_C_2147477513.OnLuaHide
 // (Native, Event, Public, BlueprintEvent)
 
-void ULUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147475031::OnLuaClose()
+void ULUA_OVERRIDES_WBP_Guide_DeathTips_C_2147477513::OnLuaHide()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147475031", "OnLuaClose");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_Guide_DeathTips_C_2147477513", "OnLuaHide");
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -15298,20 +15819,182 @@ void ULUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147475031::OnLuaClose()
 }
 
 
-// LuaFunction Transient.LUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147475031.CustomHandleNavAction
-// (Native, Event, Public, HasOutParams, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// struct FUINavActionReply*               Reply_CustomHandleNavAction                            (Parm, OutParm, NativeAccessSpecifierPublic)
-// bool                                    ReturnValue_CustomHandleNavAction                      (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+// LuaFunction Transient.LUA_OVERRIDES_WBP_Guide_DeathTips_C_2147477513.OnLuaShow
+// (Native, Event, Public, BlueprintEvent)
 
-bool ULUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147475031::CustomHandleNavAction(struct FUINavActionReply* Reply_CustomHandleNavAction)
+void ULUA_OVERRIDES_WBP_Guide_DeathTips_C_2147477513::OnLuaShow()
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("LUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147475031", "CustomHandleNavAction");
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_Guide_DeathTips_C_2147477513", "OnLuaShow");
 
-	Params::LUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147475031_CustomHandleNavAction Parms{};
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_Guide_DeathTips_C_2147477513.K2_OnViewTargetChanged
+// (Native, Event, Protected, BlueprintEvent)
+// Parameters:
+// const class AActor*                     InViewTarget                                           (ConstParm, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+void ULUA_OVERRIDES_WBP_Guide_DeathTips_C_2147477513::K2_OnViewTargetChanged(const class AActor* InViewTarget)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_Guide_DeathTips_C_2147477513", "K2_OnViewTargetChanged");
+
+	Params::LUA_OVERRIDES_WBP_Guide_DeathTips_C_2147477513_K2_OnViewTargetChanged Parms{};
+
+	Parms.InViewTarget = InViewTarget;
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_Guide_DeathTips_C_2147477513.OnLuaOpen
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_Guide_DeathTips_C_2147477513::OnLuaOpen()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_Guide_DeathTips_C_2147477513", "OnLuaOpen");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_BombRoundResultPage_C_2147477512.OnLuaHide
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_BombRoundResultPage_C_2147477512::OnLuaHide()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BombRoundResultPage_C_2147477512", "OnLuaHide");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_BombRoundResultPage_C_2147477512.OnLuaOpen
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_BombRoundResultPage_C_2147477512::OnLuaOpen()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BombRoundResultPage_C_2147477512", "OnLuaOpen");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_BombRoundResultPage_C_2147477512.OnLuaClose
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_BombRoundResultPage_C_2147477512::OnLuaClose()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BombRoundResultPage_C_2147477512", "OnLuaClose");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_BombRoundResultPage_C_2147477512.Destruct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_BombRoundResultPage_C_2147477512::Destruct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BombRoundResultPage_C_2147477512", "Destruct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_BombRoundResultPage_C_2147477512.Construct
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_BombRoundResultPage_C_2147477512::Construct()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BombRoundResultPage_C_2147477512", "Construct");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_BombRoundResultPage_C_2147477512.LuaHandleKeyEvent
+// (Native, Event, Public, BlueprintEvent)
+// Parameters:
+// const struct FKey&                      Key                                                    (Parm, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// EInputEvent                             InputEvent                                             (Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, NativeAccessSpecifierPublic)
+
+bool ULUA_OVERRIDES_WBP_BombRoundResultPage_C_2147477512::LuaHandleKeyEvent(const struct FKey& Key, EInputEvent InputEvent)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BombRoundResultPage_C_2147477512", "LuaHandleKeyEvent");
+
+	Params::LUA_OVERRIDES_WBP_BombRoundResultPage_C_2147477512_LuaHandleKeyEvent Parms{};
+
+	Parms.Key = std::move(Key);
+	Parms.InputEvent = InputEvent;
 
 	auto Flgs = Func->FunctionFlags;
 	Func->FunctionFlags |= 0x400;
@@ -15320,10 +16003,45 @@ bool ULUA_OVERRIDES_WBP_RoomModeSelectPage_C_2147475031::CustomHandleNavAction(s
 
 	Func->FunctionFlags = Flgs;
 
-	if (Reply_CustomHandleNavAction != nullptr)
-		*Reply_CustomHandleNavAction = std::move(Parms.Reply_CustomHandleNavAction);
-
 	return Parms.ReturnValue;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_BombRoundResultPage_C_2147477512.OnInitialized
+// (BlueprintCosmetic, Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_BombRoundResultPage_C_2147477512::OnInitialized()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BombRoundResultPage_C_2147477512", "OnInitialized");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
+}
+
+
+// LuaFunction Transient.LUA_OVERRIDES_WBP_BombRoundResultPage_C_2147477512.OnLuaShow
+// (Native, Event, Public, BlueprintEvent)
+
+void ULUA_OVERRIDES_WBP_BombRoundResultPage_C_2147477512::OnLuaShow()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("LUA_OVERRIDES_WBP_BombRoundResultPage_C_2147477512", "OnLuaShow");
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	UObject::ProcessEvent(Func, nullptr);
+
+	Func->FunctionFlags = Flgs;
 }
 
 

@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_GATCheckIsSummon_P_Lawine.BP_GATCheckIsSummon_P_Lawine_C
 // 0x0000 (0x0098 - 0x0098)
-class UBP_GATCheckIsSummon_P_Lawine_C final : public UCyGATCheckIsSummon
+class BP_GATCheckIsSummon_P_Lawine::UBP_GATCheckIsSummon_P_Lawine_C final : public UCyGATCheckIsSummon
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_GATCheckIsSummon_P_Lawine_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_GATCheckIsSummon_P_Lawine.BP_GATCheckIsSummon_P_Lawine_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_GATCheckIsSummon_P_Lawine_C")
 	}
-	static class UBP_GATCheckIsSummon_P_Lawine_C* GetDefaultObj()
+	static class BP_GATCheckIsSummon_P_Lawine::UBP_GATCheckIsSummon_P_Lawine_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_GATCheckIsSummon_P_Lawine_C>();
+		return GetDefaultObjImpl<BP_GATCheckIsSummon_P_Lawine::UBP_GATCheckIsSummon_P_Lawine_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_GATCheckIsSummon_P_Lawine_C;
+DUMPER7_ASSERTS_BP_GATCheckIsSummon_P_Lawine__UBP_GATCheckIsSummon_P_Lawine_C;
 
 SDK_NAMESPACE_END

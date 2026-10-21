@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_SSAtom_ControlMode_IceZone.BP_SSAtom_ControlMode_IceZone_C
 // 0x0000 (0x0058 - 0x0058)
-class UBP_SSAtom_ControlMode_IceZone_C final : public UCySSAtomSetControlMode
+class BP_SSAtom_ControlMode_IceZone::UBP_SSAtom_ControlMode_IceZone_C final : public UCySSAtomSetControlMode
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_SSAtom_ControlMode_IceZone_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_SSAtom_ControlMode_IceZone.BP_SSAtom_ControlMode_IceZone_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_SSAtom_ControlMode_IceZone_C")
 	}
-	static class UBP_SSAtom_ControlMode_IceZone_C* GetDefaultObj()
+	static class BP_SSAtom_ControlMode_IceZone::UBP_SSAtom_ControlMode_IceZone_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_SSAtom_ControlMode_IceZone_C>();
+		return GetDefaultObjImpl<BP_SSAtom_ControlMode_IceZone::UBP_SSAtom_ControlMode_IceZone_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_SSAtom_ControlMode_IceZone_C;
+DUMPER7_ASSERTS_BP_SSAtom_ControlMode_IceZone__UBP_SSAtom_ControlMode_IceZone_C;
 
 SDK_NAMESPACE_END

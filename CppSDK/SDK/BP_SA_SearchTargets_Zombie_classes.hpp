@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_SA_SearchTargets_Zombie.BP_SA_SearchTargets_Zombie_C
 // 0x0000 (0x07A0 - 0x07A0)
-class UBP_SA_SearchTargets_Zombie_C final : public UCySAtomSearchTargets
+class BP_SA_SearchTargets_Zombie::UBP_SA_SearchTargets_Zombie_C final : public UCySAtomSearchTargets
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_SA_SearchTargets_Zombie_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_SA_SearchTargets_Zombie.BP_SA_SearchTargets_Zombie_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_SA_SearchTargets_Zombie_C")
 	}
-	static class UBP_SA_SearchTargets_Zombie_C* GetDefaultObj()
+	static class BP_SA_SearchTargets_Zombie::UBP_SA_SearchTargets_Zombie_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_SA_SearchTargets_Zombie_C>();
+		return GetDefaultObjImpl<BP_SA_SearchTargets_Zombie::UBP_SA_SearchTargets_Zombie_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_SA_SearchTargets_Zombie_C;
+DUMPER7_ASSERTS_BP_SA_SearchTargets_Zombie__UBP_SA_SearchTargets_Zombie_C;
 
 SDK_NAMESPACE_END

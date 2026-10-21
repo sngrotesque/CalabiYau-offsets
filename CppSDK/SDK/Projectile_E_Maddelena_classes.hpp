@@ -18,7 +18,7 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass Projectile_E_Maddelena.Projectile_E_Maddelena_C
 // 0x0070 (0x0BC0 - 0x0B50)
-class AProjectile_E_Maddelena_C final : public ACyProjectileBlast
+class Projectile_E_Maddelena::AProjectile_E_Maddelena_C final : public ACyProjectileBlast
 {
 public:
 	struct FPointerToUberGraphFrame               UberGraphFrame;                                    // 0x0B50(0x0008)(ZeroConstructor, Transient, DuplicateTransient)
@@ -43,17 +43,17 @@ public:
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("Projectile_E_Maddelena_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass Projectile_E_Maddelena.Projectile_E_Maddelena_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"Projectile_E_Maddelena_C")
 	}
-	static class AProjectile_E_Maddelena_C* GetDefaultObj()
+	static class Projectile_E_Maddelena::AProjectile_E_Maddelena_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<AProjectile_E_Maddelena_C>();
+		return GetDefaultObjImpl<Projectile_E_Maddelena::AProjectile_E_Maddelena_C>();
 	}
 };
-DUMPER7_ASSERTS_AProjectile_E_Maddelena_C;
+DUMPER7_ASSERTS_Projectile_E_Maddelena__AProjectile_E_Maddelena_C;
 
 SDK_NAMESPACE_END

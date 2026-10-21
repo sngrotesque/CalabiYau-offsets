@@ -137,6 +137,34 @@ enum class ESearchCaseMode : uint8
 	ESearchCaseMode_MAX                      = 2,
 };
 
+// ScriptStruct HotPatcherRuntime.AssetRegistryOptions
+// 0x0030 (0x0030 - 0x0000)
+struct FAssetRegistryOptions final
+{
+public:
+	bool                                          bSerializeAssetRegistry;                           // 0x0000(0x0001)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                          bSerializeAssetRegistryManifest;                   // 0x0001(0x0001)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	uint8                                         Pad_2[0x6];                                        // 0x0002(0x0006)(Fixing Size After Last Property [ Dumper-7 ])
+	class FString                                 AssetRegistryMountPointRegular;                    // 0x0008(0x0010)(Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	EAssetRegistryRule                            AssetRegistryRule;                                 // 0x0018(0x0001)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                          bCustomAssetRegistryName;                          // 0x0019(0x0001)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	uint8                                         Pad_1A[0x6];                                       // 0x001A(0x0006)(Fixing Size After Last Property [ Dumper-7 ])
+	class FString                                 AssetRegistryNameRegular;                          // 0x0020(0x0010)(Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+DUMPER7_ASSERTS_FAssetRegistryOptions;
+
+// ScriptStruct HotPatcherRuntime.UnrealPakSettings
+// 0x0028 (0x0028 - 0x0000)
+struct FUnrealPakSettings final
+{
+public:
+	TArray<class FString>                         UnrealPakListOptions;                              // 0x0000(0x0010)(Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	TArray<class FString>                         UnrealCommandletOptions;                           // 0x0010(0x0010)(Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                          bStoragePakList;                                   // 0x0020(0x0001)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	uint8                                         Pad_21[0x7];                                       // 0x0021(0x0007)(Fixing Struct Size After Last Property [ Dumper-7 ])
+};
+DUMPER7_ASSERTS_FUnrealPakSettings;
+
 // ScriptStruct HotPatcherRuntime.PakMountInfo
 // 0x0018 (0x0018 - 0x0000)
 struct FPakMountInfo final
@@ -178,22 +206,6 @@ public:
 };
 DUMPER7_ASSERTS_FAssetDependenciesInfo;
 
-// ScriptStruct HotPatcherRuntime.AssetRegistryOptions
-// 0x0030 (0x0030 - 0x0000)
-struct FAssetRegistryOptions final
-{
-public:
-	bool                                          bSerializeAssetRegistry;                           // 0x0000(0x0001)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                          bSerializeAssetRegistryManifest;                   // 0x0001(0x0001)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint8                                         Pad_2[0x6];                                        // 0x0002(0x0006)(Fixing Size After Last Property [ Dumper-7 ])
-	class FString                                 AssetRegistryMountPointRegular;                    // 0x0008(0x0010)(Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	EAssetRegistryRule                            AssetRegistryRule;                                 // 0x0018(0x0001)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                          bCustomAssetRegistryName;                          // 0x0019(0x0001)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint8                                         Pad_1A[0x6];                                       // 0x001A(0x0006)(Fixing Size After Last Property [ Dumper-7 ])
-	class FString                                 AssetRegistryNameRegular;                          // 0x0020(0x0010)(Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-DUMPER7_ASSERTS_FAssetRegistryOptions;
-
 // ScriptStruct HotPatcherRuntime.PatcherSpecifyAsset
 // 0x0030 (0x0030 - 0x0000)
 struct FPatcherSpecifyAsset final
@@ -231,6 +243,20 @@ public:
 };
 DUMPER7_ASSERTS_FAssetScanConfig;
 
+// ScriptStruct HotPatcherRuntime.MatchRule
+// 0x0028 (0x0028 - 0x0000)
+struct FMatchRule final
+{
+public:
+	EMatchRule                                    Rule;                                              // 0x0000(0x0001)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	EMatchOperator                                Operator;                                          // 0x0001(0x0001)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	uint8                                         Pad_2[0x2];                                        // 0x0002(0x0002)(Fixing Size After Last Property [ Dumper-7 ])
+	float                                         Size;                                              // 0x0004(0x0004)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	TArray<class FString>                         Formaters;                                         // 0x0008(0x0010)(Edit, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	TArray<class FString>                         AssetTypes;                                        // 0x0018(0x0010)(Edit, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+DUMPER7_ASSERTS_FMatchRule;
+
 // ScriptStruct HotPatcherRuntime.PakEncryptSettings
 // 0x0018 (0x0018 - 0x0000)
 struct FPakEncryptSettings final
@@ -252,20 +278,6 @@ public:
 	TArray<struct FFilePath>                      Paks;                                              // 0x0008(0x0010)(Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 DUMPER7_ASSERTS_FPlatformBasePak;
-
-// ScriptStruct HotPatcherRuntime.MatchRule
-// 0x0028 (0x0028 - 0x0000)
-struct FMatchRule final
-{
-public:
-	EMatchRule                                    Rule;                                              // 0x0000(0x0001)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	EMatchOperator                                Operator;                                          // 0x0001(0x0001)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint8                                         Pad_2[0x2];                                        // 0x0002(0x0002)(Fixing Size After Last Property [ Dumper-7 ])
-	float                                         Size;                                              // 0x0004(0x0004)(Edit, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	TArray<class FString>                         Formaters;                                         // 0x0008(0x0010)(Edit, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	TArray<class FString>                         AssetTypes;                                        // 0x0018(0x0010)(Edit, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-DUMPER7_ASSERTS_FMatchRule;
 
 // ScriptStruct HotPatcherRuntime.BinariesPatchConfig
 // 0x0050 (0x0050 - 0x0000)
@@ -297,33 +309,6 @@ public:
 	uint8                                         Pad_0[0x40];                                       // 0x0000(0x0040)(Fixing Struct Size After Last Property [ Dumper-7 ])
 };
 DUMPER7_ASSERTS_FChunkPakCommand;
-
-// ScriptStruct HotPatcherRuntime.CookShaderOptions
-// 0x0028 (0x0028 - 0x0000)
-struct FCookShaderOptions final
-{
-public:
-	bool                                          bSharedShaderLibrary;                              // 0x0000(0x0001)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                          bNativeShader;                                     // 0x0001(0x0001)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint8                                         Pad_2[0x1];                                        // 0x0002(0x0001)(Fixing Size After Last Property [ Dumper-7 ])
-	EShaderLibNameRule                            ShaderNameRule;                                    // 0x0003(0x0001)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint8                                         Pad_4[0x4];                                        // 0x0004(0x0004)(Fixing Size After Last Property [ Dumper-7 ])
-	class FString                                 CustomShaderName;                                  // 0x0008(0x0010)(Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	class FString                                 ShaderLibMountPointRegular;                        // 0x0018(0x0010)(Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-DUMPER7_ASSERTS_FCookShaderOptions;
-
-// ScriptStruct HotPatcherRuntime.PakInternalInfo
-// 0x0006 (0x0006 - 0x0000)
-struct FPakInternalInfo final
-{
-public:
-	uint8                                         Pad_0[0x3];                                        // 0x0000(0x0003)(Fixing Size After Last Property [ Dumper-7 ])
-	bool                                          bIncludeEngineIni;                                 // 0x0003(0x0001)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                          bIncludePluginIni;                                 // 0x0004(0x0001)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                          bIncludeProjectIni;                                // 0x0005(0x0001)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-};
-DUMPER7_ASSERTS_FPakInternalInfo;
 
 // ScriptStruct HotPatcherRuntime.ExternFileInfo
 // 0x0038 (0x0038 - 0x0000)
@@ -361,6 +346,33 @@ public:
 	TArray<struct FExternDirectoryInfo>           AddExternDirectoryToPak;                           // 0x0018(0x0010)(Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 DUMPER7_ASSERTS_FPlatformExternAssets;
+
+// ScriptStruct HotPatcherRuntime.PakInternalInfo
+// 0x0006 (0x0006 - 0x0000)
+struct FPakInternalInfo final
+{
+public:
+	uint8                                         Pad_0[0x3];                                        // 0x0000(0x0003)(Fixing Size After Last Property [ Dumper-7 ])
+	bool                                          bIncludeEngineIni;                                 // 0x0003(0x0001)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                          bIncludePluginIni;                                 // 0x0004(0x0001)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                          bIncludeProjectIni;                                // 0x0005(0x0001)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+DUMPER7_ASSERTS_FPakInternalInfo;
+
+// ScriptStruct HotPatcherRuntime.CookShaderOptions
+// 0x0028 (0x0028 - 0x0000)
+struct FCookShaderOptions final
+{
+public:
+	bool                                          bSharedShaderLibrary;                              // 0x0000(0x0001)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                          bNativeShader;                                     // 0x0001(0x0001)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	uint8                                         Pad_2[0x1];                                        // 0x0002(0x0001)(Fixing Size After Last Property [ Dumper-7 ])
+	EShaderLibNameRule                            ShaderNameRule;                                    // 0x0003(0x0001)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	uint8                                         Pad_4[0x4];                                        // 0x0004(0x0004)(Fixing Size After Last Property [ Dumper-7 ])
+	class FString                                 CustomShaderName;                                  // 0x0008(0x0010)(Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	class FString                                 ShaderLibMountPointRegular;                        // 0x0018(0x0010)(Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+};
+DUMPER7_ASSERTS_FCookShaderOptions;
 
 // ScriptStruct HotPatcherRuntime.ChunkInfo
 // 0x0120 (0x0120 - 0x0000)
@@ -463,18 +475,6 @@ public:
 	TArray<class FString>                         AdditionalCommandletArgs;                          // 0x00B0(0x0010)(Edit, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
 };
 DUMPER7_ASSERTS_FHotPatcherSettingBase;
-
-// ScriptStruct HotPatcherRuntime.UnrealPakSettings
-// 0x0028 (0x0028 - 0x0000)
-struct FUnrealPakSettings final
-{
-public:
-	TArray<class FString>                         UnrealPakListOptions;                              // 0x0000(0x0010)(Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	TArray<class FString>                         UnrealCommandletOptions;                           // 0x0010(0x0010)(Edit, BlueprintVisible, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	bool                                          bStoragePakList;                                   // 0x0020(0x0001)(Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
-	uint8                                         Pad_21[0x7];                                       // 0x0021(0x0007)(Fixing Struct Size After Last Property [ Dumper-7 ])
-};
-DUMPER7_ASSERTS_FUnrealPakSettings;
 
 // ScriptStruct HotPatcherRuntime.IoStorePlatformContainers
 // 0x0038 (0x0038 - 0x0000)

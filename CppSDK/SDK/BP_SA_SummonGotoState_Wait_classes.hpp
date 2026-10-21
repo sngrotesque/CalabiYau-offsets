@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_SA_SummonGotoState_Wait.BP_SA_SummonGotoState_Wait_C
 // 0x0000 (0x07C0 - 0x07C0)
-class UBP_SA_SummonGotoState_Wait_C final : public UCySAtomSummonGotoState
+class BP_SA_SummonGotoState_Wait::UBP_SA_SummonGotoState_Wait_C final : public UCySAtomSummonGotoState
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_SA_SummonGotoState_Wait_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_SA_SummonGotoState_Wait.BP_SA_SummonGotoState_Wait_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_SA_SummonGotoState_Wait_C")
 	}
-	static class UBP_SA_SummonGotoState_Wait_C* GetDefaultObj()
+	static class BP_SA_SummonGotoState_Wait::UBP_SA_SummonGotoState_Wait_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_SA_SummonGotoState_Wait_C>();
+		return GetDefaultObjImpl<BP_SA_SummonGotoState_Wait::UBP_SA_SummonGotoState_Wait_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_SA_SummonGotoState_Wait_C;
+DUMPER7_ASSERTS_BP_SA_SummonGotoState_Wait__UBP_SA_SummonGotoState_Wait_C;
 
 SDK_NAMESPACE_END

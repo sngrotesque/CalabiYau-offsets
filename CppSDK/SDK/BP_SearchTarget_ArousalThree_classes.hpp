@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_SearchTarget_ArousalThree.BP_SearchTarget_ArousalThree_C
 // 0x0000 (0x07A0 - 0x07A0)
-class UBP_SearchTarget_ArousalThree_C final : public UCySAtomSearchTargets
+class BP_SearchTarget_ArousalThree::UBP_SearchTarget_ArousalThree_C final : public UCySAtomSearchTargets
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BP_SearchTarget_ArousalThree_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_SearchTarget_ArousalThree.BP_SearchTarget_ArousalThree_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_SearchTarget_ArousalThree_C")
 	}
-	static class UBP_SearchTarget_ArousalThree_C* GetDefaultObj()
+	static class BP_SearchTarget_ArousalThree::UBP_SearchTarget_ArousalThree_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBP_SearchTarget_ArousalThree_C>();
+		return GetDefaultObjImpl<BP_SearchTarget_ArousalThree::UBP_SearchTarget_ArousalThree_C>();
 	}
 };
-DUMPER7_ASSERTS_UBP_SearchTarget_ArousalThree_C;
+DUMPER7_ASSERTS_BP_SearchTarget_ArousalThree__UBP_SearchTarget_ArousalThree_C;
 
 SDK_NAMESPACE_END

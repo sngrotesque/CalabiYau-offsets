@@ -15,25 +15,25 @@
 
 SDK_NAMESPACE_START
 
-// Class AudioExtensions.OcclusionPluginSourceSettingsBase
+// Class AudioExtensions.ReverbPluginSourceSettingsBase
 // 0x0000 (0x0028 - 0x0028)
-class UOcclusionPluginSourceSettingsBase final : public UObject
+class UReverbPluginSourceSettingsBase final : public UObject
 {
 public:
 	static class UClass* StaticClass()
 	{
-		STATIC_CLASS_IMPL("OcclusionPluginSourceSettingsBase")
+		STATIC_CLASS_IMPL("ReverbPluginSourceSettingsBase")
 	}
 	static const class FName& StaticName()
 	{
-		STATIC_NAME_IMPL(L"OcclusionPluginSourceSettingsBase")
+		STATIC_NAME_IMPL(L"ReverbPluginSourceSettingsBase")
 	}
-	static class UOcclusionPluginSourceSettingsBase* GetDefaultObj()
+	static class UReverbPluginSourceSettingsBase* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UOcclusionPluginSourceSettingsBase>();
+		return GetDefaultObjImpl<UReverbPluginSourceSettingsBase>();
 	}
 };
-DUMPER7_ASSERTS_UOcclusionPluginSourceSettingsBase;
+DUMPER7_ASSERTS_UReverbPluginSourceSettingsBase;
 
 // Class AudioExtensions.SoundfieldEncodingSettingsBase
 // 0x0000 (0x0028 - 0x0028)
@@ -95,6 +95,26 @@ public:
 };
 DUMPER7_ASSERTS_USpatializationPluginSourceSettingsBase;
 
+// Class AudioExtensions.OcclusionPluginSourceSettingsBase
+// 0x0000 (0x0028 - 0x0028)
+class UOcclusionPluginSourceSettingsBase final : public UObject
+{
+public:
+	static class UClass* StaticClass()
+	{
+		STATIC_CLASS_IMPL("OcclusionPluginSourceSettingsBase")
+	}
+	static const class FName& StaticName()
+	{
+		STATIC_NAME_IMPL(L"OcclusionPluginSourceSettingsBase")
+	}
+	static class UOcclusionPluginSourceSettingsBase* GetDefaultObj()
+	{
+		return GetDefaultObjImpl<UOcclusionPluginSourceSettingsBase>();
+	}
+};
+DUMPER7_ASSERTS_UOcclusionPluginSourceSettingsBase;
+
 // Class AudioExtensions.SoundModulationPluginSourceSettingsBase
 // 0x0000 (0x0028 - 0x0028)
 class USoundModulationPluginSourceSettingsBase final : public UObject
@@ -114,26 +134,6 @@ public:
 	}
 };
 DUMPER7_ASSERTS_USoundModulationPluginSourceSettingsBase;
-
-// Class AudioExtensions.ReverbPluginSourceSettingsBase
-// 0x0000 (0x0028 - 0x0028)
-class UReverbPluginSourceSettingsBase final : public UObject
-{
-public:
-	static class UClass* StaticClass()
-	{
-		STATIC_CLASS_IMPL("ReverbPluginSourceSettingsBase")
-	}
-	static const class FName& StaticName()
-	{
-		STATIC_NAME_IMPL(L"ReverbPluginSourceSettingsBase")
-	}
-	static class UReverbPluginSourceSettingsBase* GetDefaultObj()
-	{
-		return GetDefaultObjImpl<UReverbPluginSourceSettingsBase>();
-	}
-};
-DUMPER7_ASSERTS_UReverbPluginSourceSettingsBase;
 
 // Class AudioExtensions.SoundfieldEndpointSettingsBase
 // 0x0000 (0x0028 - 0x0028)

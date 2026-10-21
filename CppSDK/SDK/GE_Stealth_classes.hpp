@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass GE_Stealth.GE_Stealth_C
 // 0x0000 (0x10E0 - 0x10E0)
-class UGE_Stealth_C final : public UCyGameplayEffect
+class GE_Stealth::UGE_Stealth_C final : public UCyGameplayEffect
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("GE_Stealth_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass GE_Stealth.GE_Stealth_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"GE_Stealth_C")
 	}
-	static class UGE_Stealth_C* GetDefaultObj()
+	static class GE_Stealth::UGE_Stealth_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UGE_Stealth_C>();
+		return GetDefaultObjImpl<GE_Stealth::UGE_Stealth_C>();
 	}
 };
-DUMPER7_ASSERTS_UGE_Stealth_C;
+DUMPER7_ASSERTS_GE_Stealth__UGE_Stealth_C;
 
 SDK_NAMESPACE_END

@@ -32,11 +32,11 @@ public:
 	class UWidgetSwitcher*                        WS_Select;                                         // 0x0668(0x0008)(BlueprintVisible, ExportObject, ZeroConstructor, InstancedReference, IsPlainOldData, RepSkip, NoDestructor, PersistentInstance, HasGetValueTypeHash)
 
 public:
-	void ExecuteUbergraph_WBP_NetItem(int32 EntryPoint);
-	void OnListItemObjectSet(class UObject* ListItemObject);
-	void BP_OnItemSelectionChanged(bool bIsSelected);
-	void BP_OnItemExpansionChanged(bool bIsExpanded);
 	void BP_OnEntryReleased();
+	void BP_OnItemExpansionChanged(bool bIsExpanded);
+	void BP_OnItemSelectionChanged(bool bIsSelected);
+	void OnListItemObjectSet(class UObject* ListItemObject);
+	void ExecuteUbergraph_WBP_NetItem(int32 EntryPoint);
 
 public:
 	static class UClass* StaticClass()

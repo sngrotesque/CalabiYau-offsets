@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass GE_E_SpeedFactor_Duration.GE_E_SpeedFactor_Duration_C
 // 0x0000 (0x10E0 - 0x10E0)
-class UGE_E_SpeedFactor_Duration_C final : public UCyGameplayEffect
+class GE_E_SpeedFactor_Duration::UGE_E_SpeedFactor_Duration_C final : public UCyGameplayEffect
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("GE_E_SpeedFactor_Duration_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass GE_E_SpeedFactor_Duration.GE_E_SpeedFactor_Duration_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"GE_E_SpeedFactor_Duration_C")
 	}
-	static class UGE_E_SpeedFactor_Duration_C* GetDefaultObj()
+	static class GE_E_SpeedFactor_Duration::UGE_E_SpeedFactor_Duration_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UGE_E_SpeedFactor_Duration_C>();
+		return GetDefaultObjImpl<GE_E_SpeedFactor_Duration::UGE_E_SpeedFactor_Duration_C>();
 	}
 };
-DUMPER7_ASSERTS_UGE_E_SpeedFactor_Duration_C;
+DUMPER7_ASSERTS_GE_E_SpeedFactor_Duration__UGE_E_SpeedFactor_Duration_C;
 
 SDK_NAMESPACE_END

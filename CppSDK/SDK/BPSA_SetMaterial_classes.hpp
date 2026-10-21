@@ -17,22 +17,22 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BPSA_SetMaterial.BPSA_SetMaterial_C
 // 0x0000 (0x05E0 - 0x05E0)
-class UBPSA_SetMaterial_C final : public UCySAtomSetMaterial
+class BPSA_SetMaterial::UBPSA_SetMaterial_C final : public UCySAtomSetMaterial
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL("BPSA_SetMaterial_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BPSA_SetMaterial.BPSA_SetMaterial_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BPSA_SetMaterial_C")
 	}
-	static class UBPSA_SetMaterial_C* GetDefaultObj()
+	static class BPSA_SetMaterial::UBPSA_SetMaterial_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<UBPSA_SetMaterial_C>();
+		return GetDefaultObjImpl<BPSA_SetMaterial::UBPSA_SetMaterial_C>();
 	}
 };
-DUMPER7_ASSERTS_UBPSA_SetMaterial_C;
+DUMPER7_ASSERTS_BPSA_SetMaterial__UBPSA_SetMaterial_C;
 
 SDK_NAMESPACE_END
