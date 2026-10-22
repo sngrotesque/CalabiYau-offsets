@@ -16,20 +16,6 @@
 
 SDK_NAMESPACE_START
 
-// Function Summon_X_Huixing_LocationActor.Summon_X_Huixing_LocationActor_C.ReceiveBeginPlay
-// (Event, Protected, BlueprintEvent)
-
-void Summon_X_Huixing_LocationActor_0::ASummon_X_Huixing_LocationActor_C::ReceiveBeginPlay()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("Summon_X_Huixing_LocationActor_C", "ReceiveBeginPlay");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
 // Function Summon_X_Huixing_LocationActor.Summon_X_Huixing_LocationActor_C.ExecuteUbergraph_Summon_X_Huixing_LocationActor
 // (Final, UbergraphFunction)
 // Parameters:
@@ -47,6 +33,20 @@ void Summon_X_Huixing_LocationActor_0::ASummon_X_Huixing_LocationActor_C::Execut
 	Parms.EntryPoint = EntryPoint;
 
 	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function Summon_X_Huixing_LocationActor.Summon_X_Huixing_LocationActor_C.ReceiveBeginPlay
+// (Event, Protected, BlueprintEvent)
+
+void Summon_X_Huixing_LocationActor_0::ASummon_X_Huixing_LocationActor_C::ReceiveBeginPlay()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("Summon_X_Huixing_LocationActor_C", "ReceiveBeginPlay");
+
+	UObject::ProcessEvent(Func, nullptr);
 }
 
 

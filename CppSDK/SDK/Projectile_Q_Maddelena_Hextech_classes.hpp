@@ -24,8 +24,8 @@ public:
 	struct FPointerToUberGraphFrame               UberGraphFrame_Projectile_Q_Maddelena_Hextech_C;   // 0x0B60(0x0008)(ZeroConstructor, Transient, DuplicateTransient)
 
 public:
-	void ReceiveTick(float DeltaSeconds_ReceiveTick);
 	void ExecuteUbergraph_Projectile_Q_Maddelena_Hextech(int32 EntryPoint);
+	void ReceiveTick(float DeltaSeconds);
 
 public:
 	static class UClass* StaticClass()

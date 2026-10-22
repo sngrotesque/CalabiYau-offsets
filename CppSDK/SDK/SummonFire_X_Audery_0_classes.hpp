@@ -39,8 +39,8 @@ public:
 	class USceneComponent*                        DefaultSceneRoot;                                  // 0x0910(0x0008)(BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash)
 
 public:
-	void ReceiveBeginPlay();
 	void ExecuteUbergraph_SummonFire_X_Audery(int32 EntryPoint);
+	void ReceiveBeginPlay();
 
 public:
 	static class UClass* StaticClass()

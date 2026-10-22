@@ -17,7 +17,7 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass Weapon_E_MoBai.Weapon_E_MoBai_C
 // 0x0000 (0x12F0 - 0x12F0)
-class Weapon_E_MoBai_0::AWeapon_E_MoBai_C final : public ACyWeaponTriggerThrow
+class Weapon_E_MoBai_0::AWeapon_E_MoBai_C final : public ACyWeaponQuickThrow
 {
 public:
 	static class UClass* StaticClass()

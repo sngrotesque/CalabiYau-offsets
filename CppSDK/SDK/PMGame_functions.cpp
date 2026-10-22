@@ -95507,6 +95507,34 @@ class UTexture2D* UPMLuaBridgeBlueprintLibrary::ImportGenFileAsTexture2D(const c
 }
 
 
+// Function PMGame.PMLuaBridgeBlueprintLibrary.IsChannelStart
+// (Final, Native, Static, Public, BlueprintCallable)
+// Parameters:
+// const class FString&                    ChannelStr                                             (Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+// bool                                    ReturnValue                                            (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+
+bool UPMLuaBridgeBlueprintLibrary::IsChannelStart(const class FString& ChannelStr)
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = StaticClass()->GetFunction("PMLuaBridgeBlueprintLibrary", "IsChannelStart");
+
+	Params::PMLuaBridgeBlueprintLibrary_IsChannelStart Parms{};
+
+	Parms.ChannelStr = std::move(ChannelStr);
+
+	auto Flgs = Func->FunctionFlags;
+	Func->FunctionFlags |= 0x400;
+
+	GetDefaultObj()->ProcessEvent(Func, &Parms);
+
+	Func->FunctionFlags = Flgs;
+
+	return Parms.ReturnValue;
+}
+
+
 // Function PMGame.PMLuaBridgeBlueprintLibrary.IsControlDown
 // (Final, Native, Static, Public, HasOutParams, BlueprintCallable)
 // Parameters:

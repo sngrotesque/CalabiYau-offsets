@@ -37,8 +37,8 @@ public:
 	class USceneComponent*                        DefaultSceneRoot;                                  // 0x0900(0x0008)(BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash)
 
 public:
-	void ReceiveBeginPlay();
 	void ExecuteUbergraph_Summon_P_Reiichi(int32 EntryPoint);
+	void ReceiveBeginPlay();
 
 public:
 	static class UClass* StaticClass()

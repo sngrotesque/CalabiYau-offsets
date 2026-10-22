@@ -35,9 +35,9 @@ public:
 	class USceneComponent*                        DefaultSceneRoot;                                  // 0x08F0(0x0008)(BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash)
 
 public:
-	void ReceiveBeginPlay();
-	void ReceiveTick(float DeltaSeconds_ReceiveTick);
 	void ExecuteUbergraph_Summon_BigHead(int32 EntryPoint);
+	void ReceiveTick(float DeltaSeconds);
+	void ReceiveBeginPlay();
 
 public:
 	static class UClass* StaticClass()

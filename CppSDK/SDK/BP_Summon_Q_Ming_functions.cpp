@@ -16,20 +16,6 @@
 
 SDK_NAMESPACE_START
 
-// Function BP_Summon_Q_Ming.BP_Summon_Q_Ming_C.ReceiveBeginPlay
-// (Event, Protected, BlueprintEvent)
-
-void BP_Summon_Q_Ming::ABP_Summon_Q_Ming_C::ReceiveBeginPlay()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_Summon_Q_Ming_C", "ReceiveBeginPlay");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
 // Function BP_Summon_Q_Ming.BP_Summon_Q_Ming_C.ExecuteUbergraph_BP_Summon_Q_Ming
 // (Final, UbergraphFunction)
 // Parameters:
@@ -47,6 +33,20 @@ void BP_Summon_Q_Ming::ABP_Summon_Q_Ming_C::ExecuteUbergraph_BP_Summon_Q_Ming(in
 	Parms.EntryPoint = EntryPoint;
 
 	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_Summon_Q_Ming.BP_Summon_Q_Ming_C.ReceiveBeginPlay
+// (Event, Protected, BlueprintEvent)
+
+void BP_Summon_Q_Ming::ABP_Summon_Q_Ming_C::ReceiveBeginPlay()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_Summon_Q_Ming_C", "ReceiveBeginPlay");
+
+	UObject::ProcessEvent(Func, nullptr);
 }
 
 

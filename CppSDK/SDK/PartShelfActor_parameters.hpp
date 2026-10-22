@@ -6,7 +6,7 @@
 * https://github.com/Encryqed/Dumper-7
 */
 
-// Package: PartShelfActor_1
+// Package: PartShelfActor
 
 #include "Basic.hpp"
 

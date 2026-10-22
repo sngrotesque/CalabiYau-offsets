@@ -16,34 +16,6 @@
 
 SDK_NAMESPACE_START
 
-// Function BP_Character_Yvette.BP_Character_Yvette_C.Blinking__FinishedFunc
-// (BlueprintEvent)
-
-void ABP_Character_Yvette_C::Blinking__FinishedFunc()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_Character_Yvette_C", "Blinking__FinishedFunc");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function BP_Character_Yvette.BP_Character_Yvette_C.Blinking__UpdateFunc
-// (BlueprintEvent)
-
-void ABP_Character_Yvette_C::Blinking__UpdateFunc()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_Character_Yvette_C", "Blinking__UpdateFunc");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
 // Function BP_Character_Yvette.BP_Character_Yvette_C.ExecuteUbergraph_BP_Character_Yvette
 // (Final, UbergraphFunction)
 // Parameters:
@@ -61,6 +33,34 @@ void ABP_Character_Yvette_C::ExecuteUbergraph_BP_Character_Yvette(int32 EntryPoi
 	Parms.EntryPoint = EntryPoint;
 
 	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_Character_Yvette.BP_Character_Yvette_C.Blinking__UpdateFunc
+// (BlueprintEvent)
+
+void ABP_Character_Yvette_C::Blinking__UpdateFunc()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_Character_Yvette_C", "Blinking__UpdateFunc");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_Character_Yvette.BP_Character_Yvette_C.Blinking__FinishedFunc
+// (BlueprintEvent)
+
+void ABP_Character_Yvette_C::Blinking__FinishedFunc()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_Character_Yvette_C", "Blinking__FinishedFunc");
+
+	UObject::ProcessEvent(Func, nullptr);
 }
 
 

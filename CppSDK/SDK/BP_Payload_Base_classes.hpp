@@ -65,8 +65,8 @@ public:
 	class UBP_GameStateComponent_Summon_C*        BP_GameStateComponent_Summon;                      // 0x0D40(0x0008)(BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash)
 
 public:
-	void ReceiveBeginPlay();
 	void ExecuteUbergraph_BP_Payload_Base(int32 EntryPoint);
+	void ReceiveBeginPlay();
 
 public:
 	static class UClass* StaticClass()

@@ -20,8 +20,7 @@ SDK_NAMESPACE_START
 class Weapon_X_Michele::AWeapon_X_Michele_C final : public ACyWeaponQuickThrow
 {
 public:
-	class UCyPartAccessory*                       CyPartAccessory;                                   // 0x12F0(0x0008)(BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash)
-	class UCySkinComponent*                       CySkin;                                            // 0x12F8(0x0008)(BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash)
+	class UCySkinComponent*                       CySkin;                                            // 0x12F0(0x0008)(BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash)
 
 public:
 	static class UClass* StaticClass()

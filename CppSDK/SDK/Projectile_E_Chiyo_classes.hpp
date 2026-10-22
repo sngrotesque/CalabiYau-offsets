@@ -29,9 +29,9 @@ public:
 	class UCyAIMachine*                           CyAIMachine;                                       // 0x0B78(0x0008)(BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash)
 
 public:
-	void ReceiveBeginPlay();
-	void ReceiveTick(float DeltaSeconds_ReceiveTick);
 	void ExecuteUbergraph_Projectile_E_Chiyo(int32 EntryPoint);
+	void ReceiveTick(float DeltaSeconds);
+	void ReceiveBeginPlay();
 
 public:
 	static class UClass* StaticClass()

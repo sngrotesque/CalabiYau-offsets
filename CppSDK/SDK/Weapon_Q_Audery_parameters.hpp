@@ -14,15 +14,6 @@
 SDK_NAMESPACE_START
 SDK_PARAM_NAMESPACE_START
 
-// Function Weapon_Q_Audery.Weapon_Q_Audery_C.ReceiveTick
-// 0x0004 (0x0004 - 0x0000)
-struct Weapon_Q_Audery_C_ReceiveTick final
-{
-public:
-	float                                         DeltaSeconds_ReceiveTick;                          // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_Weapon_Q_Audery_C_ReceiveTick;
-
 // Function Weapon_Q_Audery.Weapon_Q_Audery_C.ExecuteUbergraph_Weapon_Q_Audery
 // 0x0008 (0x0008 - 0x0000)
 struct Weapon_Q_Audery_C_ExecuteUbergraph_Weapon_Q_Audery final
@@ -32,6 +23,15 @@ public:
 	float                                         K2Node_Event_DeltaSeconds;                         // 0x0004(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 };
 DUMPER7_ASSERTS_Weapon_Q_Audery_C_ExecuteUbergraph_Weapon_Q_Audery;
+
+// Function Weapon_Q_Audery.Weapon_Q_Audery_C.ReceiveTick
+// 0x0004 (0x0004 - 0x0000)
+struct Weapon_Q_Audery_C_ReceiveTick final
+{
+public:
+	float                                         DeltaSeconds;                                      // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_Weapon_Q_Audery_C_ReceiveTick;
 
 SDK_PARAM_NAMESPACE_END
 SDK_NAMESPACE_END

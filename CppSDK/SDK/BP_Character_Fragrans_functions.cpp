@@ -16,34 +16,6 @@
 
 SDK_NAMESPACE_START
 
-// Function BP_Character_Fragrans.BP_Character_Fragrans_C.Blinking__FinishedFunc
-// (BlueprintEvent)
-
-void ABP_Character_Fragrans_C::Blinking__FinishedFunc()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_Character_Fragrans_C", "Blinking__FinishedFunc");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function BP_Character_Fragrans.BP_Character_Fragrans_C.Blinking__UpdateFunc
-// (BlueprintEvent)
-
-void ABP_Character_Fragrans_C::Blinking__UpdateFunc()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_Character_Fragrans_C", "Blinking__UpdateFunc");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
 // Function BP_Character_Fragrans.BP_Character_Fragrans_C.ExecuteUbergraph_BP_Character_Fragrans
 // (Final, UbergraphFunction)
 // Parameters:
@@ -61,6 +33,34 @@ void ABP_Character_Fragrans_C::ExecuteUbergraph_BP_Character_Fragrans(int32 Entr
 	Parms.EntryPoint = EntryPoint;
 
 	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_Character_Fragrans.BP_Character_Fragrans_C.Blinking__UpdateFunc
+// (BlueprintEvent)
+
+void ABP_Character_Fragrans_C::Blinking__UpdateFunc()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_Character_Fragrans_C", "Blinking__UpdateFunc");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_Character_Fragrans.BP_Character_Fragrans_C.Blinking__FinishedFunc
+// (BlueprintEvent)
+
+void ABP_Character_Fragrans_C::Blinking__FinishedFunc()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_Character_Fragrans_C", "Blinking__FinishedFunc");
+
+	UObject::ProcessEvent(Func, nullptr);
 }
 
 

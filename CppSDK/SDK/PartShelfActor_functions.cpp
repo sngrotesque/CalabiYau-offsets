@@ -6,29 +6,29 @@
 * https://github.com/Encryqed/Dumper-7
 */
 
-// Package: Summon_X_MoBai_0
+// Package: PartShelfActor
 
 #include "Basic.hpp"
 
-#include "Summon_X_MoBai_0_classes.hpp"
-#include "Summon_X_MoBai_0_parameters.hpp"
+#include "PartShelfActor_classes.hpp"
+#include "PartShelfActor_parameters.hpp"
 
 
 SDK_NAMESPACE_START
 
-// Function Summon_X_MoBai.Summon_X_MoBai_C.ReceiveTick
+// Function PartShelfActor.PartShelfActor_C.ReceiveTick
 // (Event, Public, BlueprintEvent)
 // Parameters:
 // float                                   DeltaSeconds_ReceiveTick                               (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void Summon_X_MoBai_0::ASummon_X_MoBai_C::ReceiveTick(float DeltaSeconds_ReceiveTick)
+void PartShelfActor::APartShelfActor_C::ReceiveTick(float DeltaSeconds_ReceiveTick)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("Summon_X_MoBai_C", "ReceiveTick");
+		Func = Class->GetFunction("PartShelfActor_C", "ReceiveTick");
 
-	Params::Summon_X_MoBai_C_ReceiveTick Parms{};
+	Params::PartShelfActor_C_ReceiveTick Parms{};
 
 	Parms.DeltaSeconds_ReceiveTick = DeltaSeconds_ReceiveTick;
 
@@ -36,19 +36,19 @@ void Summon_X_MoBai_0::ASummon_X_MoBai_C::ReceiveTick(float DeltaSeconds_Receive
 }
 
 
-// Function Summon_X_MoBai.Summon_X_MoBai_C.ExecuteUbergraph_Summon_X_MoBai
+// Function PartShelfActor.PartShelfActor_C.ExecuteUbergraph_PartShelfActor
 // (Final, UbergraphFunction)
 // Parameters:
 // int32                                   EntryPoint                                             (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 
-void Summon_X_MoBai_0::ASummon_X_MoBai_C::ExecuteUbergraph_Summon_X_MoBai(int32 EntryPoint)
+void PartShelfActor::APartShelfActor_C::ExecuteUbergraph_PartShelfActor(int32 EntryPoint)
 {
 	static class UFunction* Func = nullptr;
 
 	if (Func == nullptr)
-		Func = Class->GetFunction("Summon_X_MoBai_C", "ExecuteUbergraph_Summon_X_MoBai");
+		Func = Class->GetFunction("PartShelfActor_C", "ExecuteUbergraph_PartShelfActor");
 
-	Params::Summon_X_MoBai_C_ExecuteUbergraph_Summon_X_MoBai Parms{};
+	Params::PartShelfActor_C_ExecuteUbergraph_PartShelfActor Parms{};
 
 	Parms.EntryPoint = EntryPoint;
 

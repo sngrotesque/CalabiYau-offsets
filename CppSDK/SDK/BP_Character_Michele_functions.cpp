@@ -16,34 +16,6 @@
 
 SDK_NAMESPACE_START
 
-// Function BP_Character_Michele.BP_Character_Michele_C.Blinking__FinishedFunc
-// (BlueprintEvent)
-
-void ABP_Character_Michele_C::Blinking__FinishedFunc()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_Character_Michele_C", "Blinking__FinishedFunc");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
-// Function BP_Character_Michele.BP_Character_Michele_C.Blinking__UpdateFunc
-// (BlueprintEvent)
-
-void ABP_Character_Michele_C::Blinking__UpdateFunc()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("BP_Character_Michele_C", "Blinking__UpdateFunc");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
 // Function BP_Character_Michele.BP_Character_Michele_C.ExecuteUbergraph_BP_Character_Michele
 // (Final, UbergraphFunction)
 // Parameters:
@@ -61,6 +33,34 @@ void ABP_Character_Michele_C::ExecuteUbergraph_BP_Character_Michele(int32 EntryP
 	Parms.EntryPoint = EntryPoint;
 
 	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function BP_Character_Michele.BP_Character_Michele_C.Blinking__UpdateFunc
+// (BlueprintEvent)
+
+void ABP_Character_Michele_C::Blinking__UpdateFunc()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_Character_Michele_C", "Blinking__UpdateFunc");
+
+	UObject::ProcessEvent(Func, nullptr);
+}
+
+
+// Function BP_Character_Michele.BP_Character_Michele_C.Blinking__FinishedFunc
+// (BlueprintEvent)
+
+void ABP_Character_Michele_C::Blinking__FinishedFunc()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("BP_Character_Michele_C", "Blinking__FinishedFunc");
+
+	UObject::ProcessEvent(Func, nullptr);
 }
 
 

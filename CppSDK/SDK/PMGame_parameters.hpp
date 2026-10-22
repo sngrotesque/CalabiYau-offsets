@@ -30063,6 +30063,17 @@ public:
 };
 DUMPER7_ASSERTS_PMLuaBridgeBlueprintLibrary_ImportGenFileAsTexture2D;
 
+// Function PMGame.PMLuaBridgeBlueprintLibrary.IsChannelStart
+// 0x0018 (0x0018 - 0x0000)
+struct PMLuaBridgeBlueprintLibrary_IsChannelStart final
+{
+public:
+	class FString                                 ChannelStr;                                        // 0x0000(0x0010)(Parm, ZeroConstructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	bool                                          ReturnValue;                                       // 0x0010(0x0001)(Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
+	uint8                                         Pad_11[0x7];                                       // 0x0011(0x0007)(Fixing Struct Size After Last Property [ Dumper-7 ])
+};
+DUMPER7_ASSERTS_PMLuaBridgeBlueprintLibrary_IsChannelStart;
+
 // Function PMGame.PMLuaBridgeBlueprintLibrary.IsControlDown
 // 0x0040 (0x0040 - 0x0000)
 struct PMLuaBridgeBlueprintLibrary_IsControlDown final

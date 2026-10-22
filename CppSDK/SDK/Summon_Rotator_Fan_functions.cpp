@@ -16,20 +16,6 @@
 
 SDK_NAMESPACE_START
 
-// Function Summon_Rotator_Fan.Summon_Rotator_Fan_C.ReceiveBeginPlay
-// (Event, Protected, BlueprintEvent)
-
-void ASummon_Rotator_Fan_C::ReceiveBeginPlay()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("Summon_Rotator_Fan_C", "ReceiveBeginPlay");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
 // Function Summon_Rotator_Fan.Summon_Rotator_Fan_C.ExecuteUbergraph_Summon_Rotator_Fan
 // (Final, UbergraphFunction)
 // Parameters:
@@ -47,6 +33,20 @@ void ASummon_Rotator_Fan_C::ExecuteUbergraph_Summon_Rotator_Fan(int32 EntryPoint
 	Parms.EntryPoint = EntryPoint;
 
 	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function Summon_Rotator_Fan.Summon_Rotator_Fan_C.ReceiveBeginPlay
+// (Event, Protected, BlueprintEvent)
+
+void ASummon_Rotator_Fan_C::ReceiveBeginPlay()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("Summon_Rotator_Fan_C", "ReceiveBeginPlay");
+
+	UObject::ProcessEvent(Func, nullptr);
 }
 
 

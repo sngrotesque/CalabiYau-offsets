@@ -48,8 +48,8 @@ public:
 	class USceneComponent*                        DefaultSceneRoot;                                  // 0x0958(0x0008)(BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash)
 
 public:
-	void ReceiveTick(float DeltaSeconds_ReceiveTick);
 	void ExecuteUbergraph_BP_Summon_Q_Reiichi_V(int32 EntryPoint);
+	void ReceiveTick(float DeltaSeconds);
 
 public:
 	static class UClass* StaticClass()

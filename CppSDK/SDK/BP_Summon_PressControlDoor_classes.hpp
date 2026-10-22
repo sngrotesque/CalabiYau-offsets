@@ -47,8 +47,8 @@ public:
 	class USceneComponent*                        Scene;                                             // 0x0950(0x0008)(BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash)
 
 public:
-	void ReceiveTick(float DeltaSeconds_ReceiveTick);
 	void ExecuteUbergraph_BP_Summon_PressControlDoor(int32 EntryPoint);
+	void ReceiveTick(float DeltaSeconds);
 
 public:
 	static class UClass* StaticClass()

@@ -17,7 +17,7 @@ SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_DamageType_E_Ming.BP_DamageType_E_Ming_C
 // 0x0000 (0x0548 - 0x0548)
-class BP_DamageType_E_Ming_1::UBP_DamageType_E_Ming_C final : public UPMDamageType
+class BP_DamageType_E_Ming_1::UBP_DamageType_E_Ming_C final : public UPMArmorDamageType
 {
 public:
 	static class UClass* StaticClass()

@@ -37,8 +37,8 @@ public:
 	class USceneComponent*                        DefaultSceneRoot;                                  // 0x0900(0x0008)(BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash)
 
 public:
-	void ReceiveEndPlay(EEndPlayReason EndPlayReason_ReceiveEndPlay);
 	void ExecuteUbergraph_BP_LuckyCoinEmitter(int32 EntryPoint);
+	void ReceiveEndPlay(EEndPlayReason EndPlayReason);
 
 public:
 	static class UClass* StaticClass()

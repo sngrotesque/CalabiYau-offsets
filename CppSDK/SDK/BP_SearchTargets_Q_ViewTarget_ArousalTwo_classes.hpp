@@ -6,7 +6,7 @@
 * https://github.com/Encryqed/Dumper-7
 */
 
-// Package: BP_SearchTargets_Q_Viewtarget_ArousalTwo
+// Package: BP_SearchTargets_Q_ViewTarget_ArousalTwo
 
 #include "Basic.hpp"
 
@@ -15,24 +15,24 @@
 
 SDK_NAMESPACE_START
 
-// BlueprintGeneratedClass BP_SearchTargets_Q_Viewtarget_ArousalTwo.BP_SearchTargets_Q_ViewTarget_ArousalTwo_C
+// BlueprintGeneratedClass BP_SearchTargets_Q_ViewTarget_ArousalTwo.BP_SearchTargets_Q_ViewTarget_ArousalTwo_C
 // 0x0000 (0x07A0 - 0x07A0)
-class BP_SearchTargets_Q_Viewtarget_ArousalTwo::UBP_SearchTargets_Q_ViewTarget_ArousalTwo_C final : public UCySAtomSearchTargets
+class BP_SearchTargets_Q_ViewTarget_ArousalTwo::UBP_SearchTargets_Q_ViewTarget_ArousalTwo_C final : public UCySAtomSearchTargets
 {
 public:
 	static class UClass* StaticClass()
 	{
-		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_SearchTargets_Q_Viewtarget_ArousalTwo.BP_SearchTargets_Q_ViewTarget_ArousalTwo_C")
+		BP_STATIC_CLASS_IMPL_FULLNAME("BlueprintGeneratedClass BP_SearchTargets_Q_ViewTarget_ArousalTwo.BP_SearchTargets_Q_ViewTarget_ArousalTwo_C")
 	}
 	static const class FName& StaticName()
 	{
 		STATIC_NAME_IMPL(L"BP_SearchTargets_Q_ViewTarget_ArousalTwo_C")
 	}
-	static class BP_SearchTargets_Q_Viewtarget_ArousalTwo::UBP_SearchTargets_Q_ViewTarget_ArousalTwo_C* GetDefaultObj()
+	static class BP_SearchTargets_Q_ViewTarget_ArousalTwo::UBP_SearchTargets_Q_ViewTarget_ArousalTwo_C* GetDefaultObj()
 	{
-		return GetDefaultObjImpl<BP_SearchTargets_Q_Viewtarget_ArousalTwo::UBP_SearchTargets_Q_ViewTarget_ArousalTwo_C>();
+		return GetDefaultObjImpl<BP_SearchTargets_Q_ViewTarget_ArousalTwo::UBP_SearchTargets_Q_ViewTarget_ArousalTwo_C>();
 	}
 };
-DUMPER7_ASSERTS_BP_SearchTargets_Q_Viewtarget_ArousalTwo__UBP_SearchTargets_Q_ViewTarget_ArousalTwo_C;
+DUMPER7_ASSERTS_BP_SearchTargets_Q_ViewTarget_ArousalTwo__UBP_SearchTargets_Q_ViewTarget_ArousalTwo_C;
 
 SDK_NAMESPACE_END

@@ -16,12 +16,13 @@
 SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass Weapon_E_Kanami.Weapon_E_Kanami_C
-// 0x0010 (0x1300 - 0x12F0)
+// 0x0020 (0x1310 - 0x12F0)
 class Weapon_E_Kanami::AWeapon_E_Kanami_C final : public ACyWeaponQuickThrow
 {
 public:
-	class UAkComponent*                           Ak;                                                // 0x12F0(0x0008)(BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash)
-	class UCyFStateMonitor*                       CyFStateMonitor;                                   // 0x12F8(0x0008)(BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash)
+	class UCySearchLocationComponent*             CySearchLocation;                                  // 0x12F0(0x0008)(BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash)
+	class UAkComponent*                           Ak;                                                // 0x12F8(0x0008)(BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash)
+	class UCyFStateMonitor*                       CyFStateMonitor;                                   // 0x1300(0x0008)(BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash)
 
 public:
 	static class UClass* StaticClass()

@@ -16,20 +16,6 @@
 
 SDK_NAMESPACE_START
 
-// Function Summon_BeatOff_GrenadeSnowBall.Summon_BeatOff_GrenadeSnowBall_C.ReceiveBeginPlay
-// (Event, Protected, BlueprintEvent)
-
-void ASummon_BeatOff_GrenadeSnowBall_C::ReceiveBeginPlay()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("Summon_BeatOff_GrenadeSnowBall_C", "ReceiveBeginPlay");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
 // Function Summon_BeatOff_GrenadeSnowBall.Summon_BeatOff_GrenadeSnowBall_C.ExecuteUbergraph_Summon_BeatOff_GrenadeSnowBall
 // (Final, UbergraphFunction)
 // Parameters:
@@ -47,6 +33,20 @@ void ASummon_BeatOff_GrenadeSnowBall_C::ExecuteUbergraph_Summon_BeatOff_GrenadeS
 	Parms.EntryPoint = EntryPoint;
 
 	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function Summon_BeatOff_GrenadeSnowBall.Summon_BeatOff_GrenadeSnowBall_C.ReceiveBeginPlay
+// (Event, Protected, BlueprintEvent)
+
+void ASummon_BeatOff_GrenadeSnowBall_C::ReceiveBeginPlay()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("Summon_BeatOff_GrenadeSnowBall_C", "ReceiveBeginPlay");
+
+	UObject::ProcessEvent(Func, nullptr);
 }
 
 

@@ -16,8 +16,8 @@
 SDK_NAMESPACE_START
 
 // BlueprintGeneratedClass BP_AtomPlayAsset_X_Start.BP_AtomPlayAsset_X_Start_C
-// 0x0000 (0x05E8 - 0x05E8)
-class BP_AtomPlayAsset_X_Start_1::UBP_AtomPlayAsset_X_Start_C final : public UCySAtomPlayAsset
+// 0x0000 (0x05F0 - 0x05F0)
+class BP_AtomPlayAsset_X_Start_1::UBP_AtomPlayAsset_X_Start_C final : public UCySAtomPlayAssetLoop
 {
 public:
 	static class UClass* StaticClass()

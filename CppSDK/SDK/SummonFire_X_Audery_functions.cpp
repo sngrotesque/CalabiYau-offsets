@@ -16,20 +16,6 @@
 
 SDK_NAMESPACE_START
 
-// Function SummonFire_X_Audery.SummonFire_X_Audery_C.ReceiveBeginPlay
-// (Event, Protected, BlueprintEvent)
-
-void SummonFire_X_Audery::ASummonFire_X_Audery_C::ReceiveBeginPlay()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("SummonFire_X_Audery_C", "ReceiveBeginPlay");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
 // Function SummonFire_X_Audery.SummonFire_X_Audery_C.ExecuteUbergraph_SummonFire_X_Audery
 // (Final, UbergraphFunction)
 // Parameters:
@@ -47,6 +33,20 @@ void SummonFire_X_Audery::ASummonFire_X_Audery_C::ExecuteUbergraph_SummonFire_X_
 	Parms.EntryPoint = EntryPoint;
 
 	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function SummonFire_X_Audery.SummonFire_X_Audery_C.ReceiveBeginPlay
+// (Event, Protected, BlueprintEvent)
+
+void SummonFire_X_Audery::ASummonFire_X_Audery_C::ReceiveBeginPlay()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("SummonFire_X_Audery_C", "ReceiveBeginPlay");
+
+	UObject::ProcessEvent(Func, nullptr);
 }
 
 

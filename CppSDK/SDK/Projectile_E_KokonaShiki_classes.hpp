@@ -25,9 +25,9 @@ public:
 	class UCyRetainComponent*                     CyRetain;                                          // 0x0B58(0x0008)(BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash)
 
 public:
-	void ReceiveBeginPlay();
-	void ReceiveTick(float DeltaSeconds_ReceiveTick);
 	void ExecuteUbergraph_Projectile_E_KokonaShiki(int32 EntryPoint);
+	void ReceiveTick(float DeltaSeconds);
+	void ReceiveBeginPlay();
 
 public:
 	static class UClass* StaticClass()

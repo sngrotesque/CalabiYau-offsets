@@ -14,16 +14,6 @@
 SDK_NAMESPACE_START
 SDK_PARAM_NAMESPACE_START
 
-// Function PM_BTTask_CancelAction.PM_BTTask_CancelAction_C.ReceiveExecuteAI
-// 0x0010 (0x0010 - 0x0000)
-struct PM_BTTask_CancelAction_C_ReceiveExecuteAI final
-{
-public:
-	class AAIController*                          OwnerController_ReceiveExecuteAI;                  // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-	class APawn*                                  ControlledPawn_ReceiveExecuteAI;                   // 0x0008(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_PM_BTTask_CancelAction_C_ReceiveExecuteAI;
-
 // Function PM_BTTask_CancelAction.PM_BTTask_CancelAction_C.ExecuteUbergraph_PM_BTTask_CancelAction
 // 0x0028 (0x0028 - 0x0000)
 struct PM_BTTask_CancelAction_C_ExecuteUbergraph_PM_BTTask_CancelAction final
@@ -38,6 +28,16 @@ public:
 	bool                                          CallFunc_CancelActionByType_ReturnValue;           // 0x0021(0x0001)(ZeroConstructor, IsPlainOldData, NoDestructor)
 };
 DUMPER7_ASSERTS_PM_BTTask_CancelAction_C_ExecuteUbergraph_PM_BTTask_CancelAction;
+
+// Function PM_BTTask_CancelAction.PM_BTTask_CancelAction_C.ReceiveExecuteAI
+// 0x0010 (0x0010 - 0x0000)
+struct PM_BTTask_CancelAction_C_ReceiveExecuteAI final
+{
+public:
+	class AAIController*                          OwnerController;                                   // 0x0000(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+	class APawn*                                  ControlledPawn;                                    // 0x0008(0x0008)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_PM_BTTask_CancelAction_C_ReceiveExecuteAI;
 
 SDK_PARAM_NAMESPACE_END
 SDK_NAMESPACE_END

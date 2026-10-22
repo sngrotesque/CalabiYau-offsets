@@ -16,20 +16,6 @@
 
 SDK_NAMESPACE_START
 
-// Function Projectile_Q_Ming.Projectile_Q_Ming_C.ReceiveBeginPlay
-// (Event, Protected, BlueprintEvent)
-
-void Projectile_Q_Ming::AProjectile_Q_Ming_C::ReceiveBeginPlay()
-{
-	static class UFunction* Func = nullptr;
-
-	if (Func == nullptr)
-		Func = Class->GetFunction("Projectile_Q_Ming_C", "ReceiveBeginPlay");
-
-	UObject::ProcessEvent(Func, nullptr);
-}
-
-
 // Function Projectile_Q_Ming.Projectile_Q_Ming_C.ExecuteUbergraph_Projectile_Q_Ming
 // (Final, UbergraphFunction)
 // Parameters:
@@ -47,6 +33,20 @@ void Projectile_Q_Ming::AProjectile_Q_Ming_C::ExecuteUbergraph_Projectile_Q_Ming
 	Parms.EntryPoint = EntryPoint;
 
 	UObject::ProcessEvent(Func, &Parms);
+}
+
+
+// Function Projectile_Q_Ming.Projectile_Q_Ming_C.ReceiveBeginPlay
+// (Event, Protected, BlueprintEvent)
+
+void Projectile_Q_Ming::AProjectile_Q_Ming_C::ReceiveBeginPlay()
+{
+	static class UFunction* Func = nullptr;
+
+	if (Func == nullptr)
+		Func = Class->GetFunction("Projectile_Q_Ming_C", "ReceiveBeginPlay");
+
+	UObject::ProcessEvent(Func, nullptr);
 }
 
 

@@ -43,8 +43,8 @@ public:
 	class USkeletalMeshComponent*                 SkeletalMesh;                                      // 0x0A08(0x0008)(BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData, NonTransactional, NoDestructor, HasGetValueTypeHash)
 
 public:
-	void ReceiveBeginPlay();
 	void ExecuteUbergraph_Summon_X_Huixing_ShadowActor(int32 EntryPoint);
+	void ReceiveBeginPlay();
 
 public:
 	static class UClass* StaticClass()

@@ -6,22 +6,13 @@
 * https://github.com/Encryqed/Dumper-7
 */
 
-// Package: Summon_X_MoBai_0
+// Package: Summon_X_MoBai
 
 #include "Basic.hpp"
 
 
 SDK_NAMESPACE_START
 SDK_PARAM_NAMESPACE_START
-
-// Function Summon_X_MoBai.Summon_X_MoBai_C.ReceiveTick
-// 0x0004 (0x0004 - 0x0000)
-struct Summon_X_MoBai_C_ReceiveTick final
-{
-public:
-	float                                         DeltaSeconds_ReceiveTick;                          // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
-};
-DUMPER7_ASSERTS_Summon_X_MoBai_C_ReceiveTick;
 
 // Function Summon_X_MoBai.Summon_X_MoBai_C.ExecuteUbergraph_Summon_X_MoBai
 // 0x0008 (0x0008 - 0x0000)
@@ -32,6 +23,15 @@ public:
 	float                                         K2Node_Event_DeltaSeconds;                         // 0x0004(0x0004)(ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
 };
 DUMPER7_ASSERTS_Summon_X_MoBai_C_ExecuteUbergraph_Summon_X_MoBai;
+
+// Function Summon_X_MoBai.Summon_X_MoBai_C.ReceiveTick
+// 0x0004 (0x0004 - 0x0000)
+struct Summon_X_MoBai_C_ReceiveTick final
+{
+public:
+	float                                         DeltaSeconds;                                      // 0x0000(0x0004)(BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData, NoDestructor, HasGetValueTypeHash)
+};
+DUMPER7_ASSERTS_Summon_X_MoBai_C_ReceiveTick;
 
 SDK_PARAM_NAMESPACE_END
 SDK_NAMESPACE_END

@@ -22319,7 +22319,7 @@ DUMPER7_ASSERTS_UCyGPAction_MosaLevelUp;
 
 // Class PMGame.CyCommonKeyTips
 // 0x00F0 (0x06B8 - 0x05C8)
-class UCyCommonKeyTips final : public UPMBaseUserWidget
+class UCyCommonKeyTips : public UPMBaseUserWidget
 {
 public:
 	class UPMRichTextBlock*                       Tex_GamePadHotKeyName;                             // 0x05C8(0x0008)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, HasGetValueTypeHash, NativeAccessSpecifierPublic)
@@ -25628,7 +25628,7 @@ DUMPER7_ASSERTS_UCyGPAction_ChangeRole_Zombie;
 
 // Class PMGame.CyCinematicWindow
 // 0x00D0 (0x09A8 - 0x08D8)
-class UCyCinematicWindow final : public UPMUserWidget
+class UCyCinematicWindow : public UPMUserWidget
 {
 public:
 	class UOverlay*                               RootPanel;                                         // 0x08D8(0x0008)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -28894,7 +28894,7 @@ DUMPER7_ASSERTS_UCyCinematicChapterManager;
 
 // Class PMGame.CyCinematicClickDialogue
 // 0x0108 (0x09E0 - 0x08D8)
-class UCyCinematicClickDialogue final : public UPMUserWidget
+class UCyCinematicClickDialogue : public UPMUserWidget
 {
 public:
 	class UPMFlowTextBlock*                       DialogueText;                                      // 0x08D8(0x0008)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -28979,7 +28979,7 @@ DUMPER7_ASSERTS_UCyCinematicGameTitleWidget;
 
 // Class PMGame.CyCinematicInteractiveDialogue
 // 0x0060 (0x0938 - 0x08D8)
-class UCyCinematicInteractiveDialogue final : public UPMUserWidget
+class UCyCinematicInteractiveDialogue : public UPMUserWidget
 {
 public:
 	class UOverlay*                               ParentPanel;                                       // 0x08D8(0x0008)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -34685,7 +34685,7 @@ DUMPER7_ASSERTS_UCyEvaluateData_RemoveC4Count;
 
 // Class PMGame.CyDialogueSelectItem
 // 0x00D0 (0x09A8 - 0x08D8)
-class UCyDialogueSelectItem final : public UPMUserWidget
+class UCyDialogueSelectItem : public UPMUserWidget
 {
 public:
 	TMulticastInlineDelegate<void(int32 NodeId, class FText NodeContext)> OnDialogueSelected;        // 0x08D8(0x0010)(ZeroConstructor, InstancedReference, BlueprintAssignable, NativeAccessSpecifierPublic)
@@ -102419,6 +102419,7 @@ public:
 	static bool HasActiveWiFiConnection();
 	static void HoldUpCustomKeyEvent(class UObject* Page, bool bShouldLock, bool bSpecPage);
 	static class UTexture2D* ImportGenFileAsTexture2D(const class FString& Filename);
+	static bool IsChannelStart(const class FString& ChannelStr);
 	static bool IsControlDown(struct FKeyEvent* KeyEvent);
 	static bool IsEnableFrontendGuide();
 	static bool IsHaveBomb(const class APMGameState_Bomb* GS, const class APMPlayerState* PS);
@@ -103658,7 +103659,7 @@ DUMPER7_ASSERTS_UCyUWReplayControlPagePC;
 
 // Class PMGame.CyUWRichTextAutoScroll
 // 0x0088 (0x0650 - 0x05C8)
-class UCyUWRichTextAutoScroll final : public UPMBaseUserWidget
+class UCyUWRichTextAutoScroll : public UPMBaseUserWidget
 {
 public:
 	class URichTextBlock*                         RichTextBlock_Content;                             // 0x05C8(0x0008)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -103931,7 +103932,7 @@ DUMPER7_ASSERTS_AWFBasePlayerCameraManager;
 
 // Class PMGame.CyUWRoguelikeCardItemPC
 // 0x01A8 (0x0A80 - 0x08D8)
-class UCyUWRoguelikeCardItemPC final : public UPMUserWidget
+class UCyUWRoguelikeCardItemPC : public UPMUserWidget
 {
 public:
 	class UWidgetSwitcher*                        WidgetSwitcher_Card;                               // 0x08D8(0x0008)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -108413,7 +108414,7 @@ DUMPER7_ASSERTS_APMLobbyCamera;
 
 // Class PMGame.UCyUWRoguelikeCardStarItem
 // 0x0028 (0x05F0 - 0x05C8)
-class UUCyUWRoguelikeCardStarItem final : public UPMBaseUserWidget
+class UUCyUWRoguelikeCardStarItem : public UPMBaseUserWidget
 {
 public:
 	class UPMImageSwitcher*                       ImageSwitcher;                                     // 0x05C8(0x0008)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
@@ -121288,7 +121289,7 @@ DUMPER7_ASSERTS_UPMModelControlImage;
 
 // Class PMGame.PMModelControlWidget
 // 0x00A0 (0x0668 - 0x05C8)
-class UPMModelControlWidget final : public UPMBaseUserWidget
+class UPMModelControlWidget : public UPMBaseUserWidget
 {
 public:
 	class UPMModelControlImage*                   ControlImageClick;                                 // 0x05C8(0x0008)(BlueprintVisible, ExportObject, BlueprintReadOnly, ZeroConstructor, InstancedReference, IsPlainOldData, NoDestructor, Protected, HasGetValueTypeHash, NativeAccessSpecifierProtected)
